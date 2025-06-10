@@ -1,0 +1,1880 @@
+[
+  {
+    "Standard ID": "8.G.A.1",
+    "Standard Description": "Verify experimentally the properties of rotations, reflections, and translations:",
+    "Skill": [
+      {
+        "name": "Identify transformations",
+        "description": "Identify a given transformation as a rotation, reflection, or translation.",
+        "source": "Khan Academy Content - Identify transformations, IXL Content - Identify reflections, rotations, and translations, EngageNY Lesson 2: Naming the Moves",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Describe transformations informally",
+        "description": "Describe a translation or rotation of a shape using informal language, such as 'slide' and 'turn'.",
+        "source": "EngageNY Lesson 1: Moving in the Plane",
+        "relationship": "Subset"
+      },
+      {
+        "name": "Draw images of figures under translations on a grid",
+        "description": "Draw the image of a figure that results from a translation on a grid.",
+        "source": "EngageNY Lesson 3: Grid Moves",
+        "relationship": "Subset"
+      },
+      {
+        "name": "Draw images of figures under rotations on a grid",
+        "description": "Draw the image of a figure that results from a rotation on a grid.",
+        "source": "EngageNY Lesson 3: Grid Moves",
+        "relationship": "Subset"
+      },
+      {
+        "name": "Draw images of figures under reflections on a grid",
+        "description": "Draw the image of a figure that results from a reflection on a grid.",
+        "source": "EngageNY Lesson 3: Grid Moves",
+        "relationship": "Subset"
+      },
+      {
+        "name": "Describe translations using coordinates",
+        "description": "Given a point and a definition of a translation, identify the coordinates of the translated point or graph it on a coordinate plane.",
+        "source": "IXL Content - Translations: find the coordinates, Khan Academy Content - Translate shapes, EngageNY Lesson 5: Coordinate Moves",
+        "relationship": "Superset (IXL), Exact match (Khan Academy, EngageNY)"
+      },
+      {
+        "name": "Describe reflections using coordinates",
+        "description": "Given a point and a definition of a reflection (horizontal or vertical), plot the reflection on a coordinate plane or identify the coordinates of the reflected point.",
+        "source": "Khan Academy Content - Reflect points, IXL Content - Reflections over the x- and y-axes: find the coordinates, EngageNY Lesson 5: Coordinate Moves",
+        "relationship": "Exact match (Khan Academy), Subset (IXL), Superset (EngageNY)"
+      },
+      {
+        "name": "Describe rotations using coordinates (general)",
+        "description": "Given a point and a definition of a rotation, plot the rotation on a coordinate plane or identify the coordinates of the rotated point.",
+        "source": "Khan Academy Content - Rotate points, IXL Content - Rotations: find the coordinates, EngageNY Lesson 5: Coordinate Moves",
+        "relationship": "Exact match (Khan Academy), Subset (IXL), Superset (EngageNY)"
+      },
+      {
+        "name": "Determine the rule for a translation",
+        "description": "Given two figures on the coordinate plane, find the formal definition of the translation that takes one figure to another.",
+        "source": "Khan Academy Content - Determine translations, IXL Content - Translations: write the rule",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Determine the line of reflection",
+        "description": "Given a shape and its image under a horizontal or vertical reflection, determine the line of reflection.",
+        "source": "Khan Academy Content - Determine reflections",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Determine the angle and center of rotation (general)",
+        "description": "Given a figure on the coordinate plane and a center of a rotation, find the angle for the rotation that maps one figure to the other.",
+        "source": "Khan Academy Content - Determine rotations",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Determine the rule for reflections and rotations",
+        "description": "Given a figure and its image, write the rule for the reflection or rotation.",
+        "source": "IXL Content - Reflections and rotations: write the rule",
+        "relationship": "Superset"
+      },
+      {
+        "name": "Apply a sequence of transformations",
+        "description": "Apply a sequence of transformations to points on a coordinate plane and determine whether the order of transformations affects the image.",
+        "source": "EngageNY Lesson 6: Describing Transformations, IXL Content - Describe a sequence of transformations",
+        "relationship": "Exact match (EngageNY), Subset (IXL)"
+      }
+    ]
+  },
+  {
+    "Standard ID": "8.G.A.1.a",
+    "Standard Description": "Lines are taken to lines, and line segments to line segments of the same length.",
+    "Skill": [
+      {
+        "name": "Identify properties preserved under rigid transformations (length)",
+        "description": "Identify that line segments maintain the same length after a rigid transformation (reflection, rotation, translation).",
+        "source": "Khan Academy Content - Rigid transformations: preserved properties, EngageNY Lesson 7: No Bending or Stretching",
+        "relationship": "Exact match (Khan Academy), Subset (EngageNY)"
+      },
+      {
+        "name": "Solve problems involving lengths after rigid transformations",
+        "description": "Use knowledge about the effects of rigid transformations to solve problems about figures and their images, specifically focusing on lengths.",
+        "source": "Khan Academy Content - Find measures using rigid transformations, EngageNY Lesson 10: Composing Figures",
+        "relationship": "Exact match (Khan Academy), Subset (EngageNY)"
+      }
+    ]
+  },
+  {
+    "Standard ID": "8.G.A.1.b",
+    "Standard Description": "Angles are taken to angles of the same measure.",
+    "Skill": [
+      {
+        "name": "Identify properties preserved under rigid transformations (angle measure)",
+        "description": "Identify that angles maintain the same measure after a rigid transformation (reflection, rotation, translation).",
+        "source": "Khan Academy Content - Rigid transformations: preserved properties, EngageNY Lesson 7: No Bending or Stretching",
+        "relationship": "Exact match (Khan Academy), Subset (EngageNY)"
+      },
+      {
+        "name": "Solve problems involving angle measures after rigid transformations",
+        "description": "Use knowledge about the effects of rigid transformations to solve problems about figures and their images, specifically focusing on angle measures.",
+        "source": "Khan Academy Content - Find measures using rigid transformations, EngageNY Lesson 10: Composing Figures",
+        "relationship": "Exact match (Khan Academy), Subset (EngageNY)"
+      }
+    ]
+  },
+  {
+    "Standard ID": "8.G.A.1.c",
+    "Standard Description": "Parallel lines are taken to parallel lines.",
+    "Skill": [
+      {
+        "name": "Identify properties preserved under rigid transformations (parallelism)",
+        "description": "Identify that parallel lines remain parallel after a rigid transformation (reflection, rotation, translation).",
+        "source": "Khan Academy Content - Rigid transformations: preserved properties, EngageNY Lesson 9: Moves in Parallel",
+        "relationship": "Exact match (Khan Academy), Subset (EngageNY)"
+      },
+      {
+        "name": "Solve problems involving parallelism after rigid transformations",
+        "description": "Use knowledge about the effects of rigid transformations to solve problems about figures and their images, specifically focusing on parallelism.",
+        "source": "Khan Academy Content - Find measures using rigid transformations",
+        "relationship": "Exact match"
+      }
+    ]
+  },
+  {
+    "Standard ID": "8.G.A.2",
+    "Standard Description": "Understand that a two-dimensional figure is congruent to another if the second can be obtained from the first by a sequence of rotations, reflections, and translations; given two congruent figures, describe a sequence that exhibits the congruence between them.",
+    "Skill": [
+      {
+        "name": "Understand congruence through rigid transformations",
+        "description": "Understand that two-dimensional figures are congruent if one can be obtained from the other by a sequence of rotations, reflections, and translations.",
+        "source": "Khan Academy Content - Congruence & transformations, EngageNY Lesson 11: What Is the Same?",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Describe sequences of rigid transformations to show congruence",
+        "description": "Given two congruent figures, describe a sequence of rigid transformations (translations, rotations, and/or reflections) that will map one shape onto the other.",
+        "source": "Khan Academy Content - Mapping shapes, IXL Content - Sequences of congruence transformations: choose the sequence, EngageNY Lesson 12: Congruent Polygons",
+        "relationship": "Exact match (Khan Academy), Superset (IXL), Exact match (EngageNY)"
+      },
+      {
+        "name": "Identify congruent figures",
+        "description": "Determine whether two shapes are congruent using visual inspection and understanding of rigid transformations.",
+        "source": "IXL Content - Identify congruent figures, EngageNY Lesson 12: Congruent Polygons",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Justify congruence of figures",
+        "description": "Determine if two figures are congruent and justify the answer based on rigid transformations.",
+        "source": "IXL Content - Determine if two figures are congruent: justify your answer",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Identify corresponding parts of congruent figures",
+        "description": "Given two congruent figures, identify corresponding sides and angles.",
+        "source": "IXL Content - Congruence statements and corresponding parts",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Find side lengths and angle measures of congruent figures",
+        "description": "Use the properties of congruent figures to find missing side lengths and angle measures.",
+        "source": "IXL Content - Side lengths and angle measures of congruent figures",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Verify congruence by measuring distances",
+        "description": "Determine whether shapes are congruent by measuring the distances between corresponding points.",
+        "source": "EngageNY Lesson 13: Congruence",
+        "relationship": "Exact match"
+      }
+    ]
+  },
+  {
+    "Standard ID": "8.G.A.3",
+    "Standard Description": "Describe the effect of dilations, translations, rotations, and reflections on two-dimensional figures using coordinates.",
+    "Skill": [
+      {
+        "name": "Graph the image of a figure after a translation",
+        "description": "Given a figure and a definition of a translation, manually draw the image on a coordinate plane.",
+        "source": "Khan Academy Content - Translate shapes, IXL Content - Translations: graph the image",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Graph the image of a figure after a reflection over an axis",
+        "description": "Given a figure and a definition of a reflection over the x- or y-axis, graph the image on a coordinate plane.",
+        "source": "IXL Content - Reflections over the x- and y-axes: graph the image, Khan Academy Content - Reflect shapes",
+        "relationship": "Exact match (IXL), Subset (Khan Academy)"
+      },
+      {
+        "name": "Graph the image of a figure after a reflection",
+        "description": "Given a figure and a definition of a reflection, manually draw the image on a coordinate plane.",
+        "source": "Khan Academy Content - Reflect shapes, IXL Content - Reflections: graph the image",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Rotate points (basic)",
+        "description": "Given a point and a definition of a rotation, plot the rotation on a coordinate plane or identify the coordinates of the rotated point. Rotations are about the origin and multiples of 90°.",
+        "source": "Khan Academy Content - Rotate points (basic)",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Rotate points",
+        "description": "Given a point and a definition of a rotation, plot the rotation on a coordinate plane or identify the coordinates of the rotated point.",
+        "source": "Khan Academy Content - Rotate points, IXL Content - Rotations: find the coordinates",
+        "relationship": "Exact match (Khan Academy - for 'Rotate points'), Exact match (IXL - 'Rotations: find the coordinates')"
+      },
+      {
+        "name": "Determine rotations (basic)",
+        "description": "Given a figure on the coordinate plane and a center of a rotation, find the angle for the rotation that maps one figure to the other. Rotations are around the origin and a multiple of 90°.",
+        "source": "Khan Academy Content - Determine rotations (basic)",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Dilate points on a coordinate plane",
+        "description": "Given a point and a definition of a dilation, plot the dilation on a coordinate plane or identify the coordinates of the dilated point.",
+        "source": "Khan Academy Content - Dilate points, IXL Content - Dilations: find the coordinates, EngageNY Lesson 4: Dilations on a Square Grid, EngageNY Lesson 5: More Dilations",
+        "relationship": "Exact match (Khan Academy), Exact match (IXL), Superset (EngageNY)"
+      },
+      {
+        "name": "Graph the image of a figure after a dilation",
+        "description": "Given a figure and a definition of a dilation, select or manually draw the image on a coordinate plane.",
+        "source": "Khan Academy Content - Dilate triangles, IXL Content - Dilations: graph the image",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Describe transformations using coordinates",
+        "description": "Describe the effect of translations, rotations, reflections, and dilations on two-dimensional figures using coordinates.",
+        "source": "IXL Content - Describe transformations",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Determine the center and scale factor of a dilation",
+        "description": "Find both the center and the scale factor of a dilation that maps a given figure to another one.",
+        "source": "Khan Academy Content - Dilations: scale factor, IXL Content - Dilations: find the scale factor",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Analyze properties preserved and changed under dilations",
+        "description": "Given a shape and the dilation that is performed on it, determine which properties the shape and its image share.",
+        "source": "Khan Academy Content - Dilations and properties",
+        "relationship": "Exact match"
+      }
+    ]
+  },
+  {
+    "Standard ID": "8.G.A.4",
+    "Standard Description": "Understand that a two-dimensional figure is similar to another if the second can be obtained from the first by a sequence of rotations, reflections, translations, and dilations; given two similar two-dimensional figures, describe a sequence that exhibits the similarity between them.",
+    "Skill": [
+      {
+        "name": "Understand similarity through transformations",
+        "description": "Understand that two-dimensional figures are similar if one can be obtained from the other by a sequence of rotations, reflections, translations, and dilations.",
+        "source": "Khan Academy Content - Similarity & transformations, IXL Content - Similar and congruent figures, EngageNY Lesson 6: Similarity",
+        "relationship": "Exact match (Khan Academy), Superset (IXL), Exact match (EngageNY)"
+      },
+      {
+        "name": "Describe sequences of transformations to show similarity",
+        "description": "Given two similar two-dimensional figures, describe a sequence of rotations, reflections, translations, and dilations that exhibits the similarity between them.",
+        "source": "Khan Academy Content - Similarity & transformations, EngageNY Lesson 6: Similarity",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Identify similar triangles",
+        "description": "Determine if two triangles are similar.",
+        "source": "IXL Content - Identify similar triangles",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Justify similarity of figures",
+        "description": "Determine if two figures are similar and justify the answer based on transformations.",
+        "source": "IXL Content - Determine if two figures are similar: justify your answer",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Identify corresponding angles and proportional side lengths in similar polygons",
+        "description": "Understand that similar polygons have congruent corresponding angles and proportional side lengths.",
+        "source": "EngageNY Lesson 7: Similar Polygons",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Find side lengths and angle measures of similar triangles",
+        "description": "Use the properties of similar triangles to find missing side lengths and angle measures.",
+        "source": "IXL Content - Side lengths and angle measures of similar triangles",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Find side lengths and angle measures of similar figures",
+        "description": "Use the properties of similar figures to find missing side lengths and angle measures.",
+        "source": "IXL Content - Side lengths and angle measures of similar figures",
+        "relationship": "Exact match"
+      }
+    ]
+  },
+  {
+    "Standard ID": "8.G.A.5",
+    "Standard Description": "Use informal arguments to establish facts about the angle sum and exterior angle of triangles, about the angles created when parallel lines are cut by a transversal, and the angle-angle criterion for similarity of triangles.",
+    "Skill": [
+      {
+        "name": "Identify angle relationships with parallel lines and transversals",
+        "description": "Identify alternate interior, alternate exterior, corresponding, and consecutive interior angles formed by parallel lines cut by a transversal.",
+        "source": "IXL Content - Identify alternate interior and alternate exterior angles, IXL Content - Transversals of parallel lines: name angle pairs",
+        "relationship": "Exact match (IXL - first skill), Superset (IXL - second skill)"
+      },
+      {
+        "name": "Find missing angles with parallel lines and transversals",
+        "description": "Find missing angle measures given two parallel lines and a transversal.",
+        "source": "Khan Academy Content - Angle relationships with parallel lines, IXL Content - Transversals of parallel lines: find angle measures",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Solve equations involving angles formed by parallel lines and transversals",
+        "description": "Solve for angle measures on angles formed by parallel lines and a transversal, where the angle measures are given as linear expressions.",
+        "source": "Khan Academy Content - Equation practice with angles, IXL Content - Transversals of parallel lines: solve for x",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Calculate angle measures using alternate interior angles",
+        "description": "Calculate angle measures using alternate interior angles when parallel lines are cut by a transversal.",
+        "source": "EngageNY Lesson 14: Alternate Interior Angles",
+        "relationship": "Subset"
+      },
+      {
+        "name": "Calculate angle measures using vertical and supplementary angles",
+        "description": "Calculate angle measures using vertical and supplementary angles.",
+        "source": "EngageNY Lesson 14: Alternate Interior Angles, IXL Content - Identify complementary, supplementary, vertical, adjacent, and congruent angles, IXL Content - Find measures of complementary, supplementary, vertical, and adjacent angles",
+        "relationship": "Subset (EngageNY), Superset (IXL)"
+      },
+      {
+        "name": "Solve equations using angle relationships (complementary, supplementary, vertical, adjacent)",
+        "description": "Given the sum of a pair of angle measures and the algebraic expressions that represent them, form and solve an equation for complementary, supplementary, vertical, and other adjacent angles.",
+        "source": "Khan Academy Content - Equation practice with angle addition, IXL Content - Write and solve equations using angle relationships",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Prove the angle sum theorem of triangles",
+        "description": "Use the measure of a straight angle and properties of parallel lines to prove the sum of angles in a triangle is 180 degrees.",
+        "source": "EngageNY Lesson 15: Adding the Angles in a Triangle, EngageNY Lesson 16: Parallel Lines and the Angles in a Triangle, IXL Content - Triangle Angle-Sum Theorem",
+        "relationship": "Exact match (EngageNY), Subset (IXL)"
+      },
+      {
+        "name": "Find missing angles in triangles using the angle sum theorem",
+        "description": "Find missing angle measures in triangles using the property that the sum of angles in a triangle is 180 degrees.",
+        "source": "Khan Academy Content - Find angles in triangles, IXL Content - Find missing angles in triangles",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Find missing angles in isosceles triangles",
+        "description": "Find missing angles in isosceles triangles given just one angle.",
+        "source": "Khan Academy Content - Find angles in isosceles triangles",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Apply the Exterior Angle Theorem",
+        "description": "Apply the Exterior Angle Theorem to find missing angle measures in triangles.",
+        "source": "IXL Content - Exterior Angle Theorem",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Understand the angle-angle criterion for similar triangles",
+        "description": "Understand that two triangles are similar if two pairs of corresponding angles are congruent (AA similarity criterion).",
+        "source": "IXL Content - Angle-angle criterion for similar triangles, EngageNY Lesson 8: Similar Triangles",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Determine similarity of triangles using AA criterion",
+        "description": "Determine that two triangles are similar by finding a sequence of transformations that takes one triangle to the other or by checking that two pairs of corresponding angles are congruent.",
+        "source": "EngageNY Lesson 8: Similar Triangles",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Calculate unknown side lengths in similar triangles using scale factor",
+        "description": "Calculate unknown side lengths in similar triangles using the scale factor between similar triangles and understand that the quotients of pairs of side lengths in similar triangles are equal.",
+        "source": "EngageNY Lesson 9: Side Length Quotients in Similar Triangles, IXL Content - Find missing side lengths in proportional triangles",
+        "relationship": "Exact match (EngageNY), Subset (IXL)"
+      },
+      {
+        "name": "Solve real-world problems using similar triangles (indirect measurement)",
+        "description": "Use the properties of similar triangles in a real-world context to find the height of an unknown object.",
+        "source": "IXL Content - Similar triangles and indirect measurement, EngageNY Lesson 13: The Shadow Knows",
+        "relationship": "Exact match"
+      }
+    ]
+  },
+  {
+    "Standard ID": "8.G.B.7",
+    "Standard Description": "Apply the Pythagorean Theorem to determine unknown side lengths in right triangles in real-world and mathematical problems in two and three dimensions.",
+    "Skill": [
+      {
+        "name": "Understand the Pythagorean Theorem visually",
+        "description": "Visualize the Pythagorean theorem and its converse using the area of squares.",
+        "source": "Khan Academy Content - Use area of squares to visualize Pythagorean theorem, EngageNY Lesson 6: Finding Side Lengths of Triangles",
+        "relationship": "Exact match (Khan Academy), Subset (EngageNY)"
+      },
+      {
+        "name": "Prove the Pythagorean Theorem",
+        "description": "Explain and apply a proof of the Pythagorean Theorem.",
+        "source": "EngageNY Lesson 7: A Proof of the Pythagorean Theorem",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Find the length of the hypotenuse using the Pythagorean Theorem",
+        "description": "Find the length of the hypotenuse of a right triangle using the Pythagorean theorem.",
+        "source": "Khan Academy Content - Use Pythagorean theorem to find right triangle side lengths, IXL Content - Pythagorean theorem: find the length of the hypotenuse, EngageNY Lesson 8: Finding Unknown Side Lengths",
+        "relationship": "Exact match (Khan Academy), Exact match (IXL), Subset (EngageNY)"
+      },
+      {
+        "name": "Find the missing leg length using the Pythagorean Theorem",
+        "description": "Find the length of a leg of a right triangle using the Pythagorean theorem.",
+        "source": "Khan Academy Content - Use Pythagorean theorem to find right triangle side lengths, IXL Content - Pythagorean theorem: find the missing leg length, EngageNY Lesson 8: Finding Unknown Side Lengths",
+        "relationship": "Exact match (Khan Academy), Exact match (IXL), Subset (EngageNY)"
+      },
+      {
+        "name": "Find missing side lengths in right triangles using the Pythagorean Theorem",
+        "description": "Find the length of the hypotenuse or a leg of a right triangle using the Pythagorean theorem.",
+        "source": "IXL Content - Pythagorean theorem: find the missing leg or hypotenuse length",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Determine if a triangle is a right triangle using the converse of the Pythagorean Theorem",
+        "description": "Determine if a triangle with given side lengths is a right triangle using the converse of the Pythagorean Theorem.",
+        "source": "Khan Academy Content - Right triangle side lengths, IXL Content - Converse of the Pythagorean theorem: is it a right triangle?, EngageNY Lesson 9: The Converse",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Solve word problems using the Pythagorean Theorem",
+        "description": "Use the Pythagorean theorem to solve word problems in two dimensions.",
+        "source": "Khan Academy Content - Pythagorean theorem word problems, IXL Content - Pythagorean theorem: word problems, EngageNY Lesson 10: Applications of the Pythagorean Theorem",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Find perimeter using the Pythagorean Theorem",
+        "description": "Find the perimeter of triangles and quadrilaterals by first using the Pythagorean Theorem to find missing side lengths.",
+        "source": "Khan Academy Content - Use Pythagorean theorem to find perimeter, IXL Content - Pythagorean theorem: find the perimeter",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Find area using the Pythagorean Theorem",
+        "description": "Find the area of triangles and quadrilaterals by first using the Pythagorean Theorem to find missing side lengths.",
+        "source": "Khan Academy Content - Use Pythagorean theorem to find area",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Find missing side lengths in isosceles triangles using the Pythagorean Theorem",
+        "description": "Find a missing side length on an acute isosceles triangle by using the Pythagorean theorem.",
+        "source": "Khan Academy Content - Use Pythagorean theorem to find isosceles triangle side lengths",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Apply the Pythagorean Theorem in 3D problems",
+        "description": "Apply the Pythagorean theorem to find lengths in prisms and pyramids (three dimensions).",
+        "source": "Khan Academy Content - Pythagorean theorem in 3D",
+        "relationship": "Exact match"
+      }
+    ]
+  },
+  {
+    "Standard ID": "8.G.B.8",
+    "Standard Description": "Apply the Pythagorean Theorem to find the distance between two points in a coordinate system.",
+    "Skill": [
+      {
+        "name": "Find the distance between two points on the coordinate plane",
+        "description": "Use the Pythagorean theorem to find the distance between two points on the coordinate plane.",
+        "source": "Khan Academy Content - Distance between two points, IXL Content - Find the distance between two points, EngageNY Lesson 11: Finding Distances in the Coordinate Plane",
+        "relationship": "Exact match"
+      }
+    ]
+  },
+  {
+    "Standard ID": "8.G.C.9",
+    "Standard Description": "Know the formulas for the volumes of cones, cylinders, and spheres and use them to solve real-world and mathematical problems.",
+    "Skill": [
+      {
+        "name": "Know the formula for the volume of a cylinder",
+        "description": "Recall and understand the formula for the volume of a cylinder ($V = \\pi r^2 h$).",
+        "source": "EngageNY Lesson 13: The Volume of a Cylinder",
+        "relationship": "Subset"
+      },
+      {
+        "name": "Calculate the volume of a cylinder",
+        "description": "Practice applying the volume formula for cylinders to find their volumes.",
+        "source": "Khan Academy Content - Volume of cylinders, IXL Content - Volume of cylinders, EngageNY Lesson 13: The Volume of a Cylinder",
+        "relationship": "Exact match (Khan Academy, IXL), Superset (EngageNY)"
+      },
+      {
+        "name": "Calculate unknown dimensions of a cylinder given its volume",
+        "description": "Calculate the value of one dimension (radius or height) of a cylinder, given its volume and other dimension.",
+        "source": "EngageNY Lesson 14: Finding Cylinder Dimensions",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Know the formula for the volume of a cone",
+        "description": "Recall and understand the formula for the volume of a cone ($V = \\frac{1}{3}\\pi r^2 h$).",
+        "source": "EngageNY Lesson 15: The Volume of a Cone",
+        "relationship": "Subset"
+      },
+      {
+        "name": "Calculate the volume of a cone",
+        "description": "Practice applying the volume formula for cones to find their volumes.",
+        "source": "Khan Academy Content - Volume of cones, IXL Content - Volume of cones, EngageNY Lesson 15: The Volume of a Cone",
+        "relationship": "Exact match (Khan Academy, IXL), Superset (EngageNY)"
+      },
+      {
+        "name": "Calculate unknown dimensions of a cone given its volume",
+        "description": "Calculate the value of one dimension (radius or height) of a cone, given its volume and other dimension.",
+        "source": "EngageNY Lesson 16: Finding Cone Dimensions",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Know the formula for the volume of a sphere",
+        "description": "Recall and understand the formula for the volume of a sphere ($V = \\frac{4}{3}\\pi r^3$).",
+        "source": "EngageNY Lesson 20: The Volume of a Sphere",
+        "relationship": "Subset"
+      },
+      {
+        "name": "Calculate the volume of a sphere",
+        "description": "Practice applying the volume formula for spheres to find their volumes.",
+        "source": "Khan Academy Content - Volume of spheres, IXL Content - Volume of spheres, EngageNY Lesson 20: The Volume of a Sphere",
+        "relationship": "Exact match (Khan Academy, IXL), Superset (EngageNY)"
+      },
+      {
+        "name": "Estimate the volume of a hemisphere",
+        "description": "Estimate the volume of a hemisphere.",
+        "source": "EngageNY Lesson 19: Estimating a Hemisphere",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Compare volumes of cylinders, cones, and spheres",
+        "description": "Explain the relationship between the volumes of a sphere, cone, and cylinder with the same radius and height.",
+        "source": "EngageNY Lesson 15: The Volume of a Cone, EngageNY Lesson 20: The Volume of a Sphere",
+        "relationship": "Subset (EngageNY Lesson 15), Subset (EngageNY Lesson 20)"
+      },
+      {
+        "name": "Solve word problems involving volumes of cylinders, spheres, and cones",
+        "description": "Solve real-world problems involving volume of cylinders, spheres, and cones.",
+        "source": "Khan Academy Content - Volume of cylinders, spheres, and cones word problems",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Find volume and surface area of cylinders",
+        "description": "Find volumes and surface areas of cylinders.",
+        "source": "Khan Academy Content - Volume and surface area of cylinders, IXL Content - Volume of cylinders, IXL Content - Surface area of cylinders",
+        "relationship": "Exact match (Khan Academy - for Volume and Surface Area), Superset (IXL - for individual volume/surface area skills)"
+      },
+      {
+        "name": "Find volumes of various 3D figures",
+        "description": "Find the volumes of cylinders, cones, spheres, and rectangular prisms.",
+        "source": "EngageNY Lesson 21: Cylinders, Cones, and Spheres",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Interpret and compare volume functions",
+        "description": "Interpret and compare functions that represent the volume of a sphere, cone, and cylinder using different representations.",
+        "source": "EngageNY Lesson 22: Volume As a Function of...",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Analyze effects of scaling dimensions on volume",
+        "description": "Determine how scaling one or two dimensions of a figure affects its volume.",
+        "source": "EngageNY Lesson 17: Scaling One Dimension, EngageNY Lesson 18: Scaling Two Dimensions",
+        "relationship": "Exact match"
+      }
+    ]
+  },
+  {
+    "Standard ID": "8.NS.A.1",
+    "Standard Description": "Know that numbers that are not rational are called irrational. Understand informally that every number has a decimal expansion; for rational numbers show that the decimal expansion repeats eventually, and convert a decimal expansion which repeats eventually into a rational number.",
+    "Skill": [
+      {
+        "name": "Classify numbers as rational or irrational",
+        "description": "Identify and classify numbers as rational or irrational, including single operation expressions.",
+        "source": "Khan Academy Content - Classify numbers, Khan Academy Content - Classify numbers: rational & irrational, IXL Content - Identify rational and irrational numbers, IXL Content - Classify numbers, EngageNY Lesson 3: Rational and Irrational Numbers",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Understand decimal expansions of rational numbers",
+        "description": "Understand that every number has a decimal expansion and that rational numbers have decimal expansions that repeat eventually.",
+        "source": "EngageNY Lesson 14: Decimal Representations of Rational Numbers",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Convert fractions to repeating decimals",
+        "description": "Convert fractions into their equivalent repeating decimal expansions.",
+        "source": "Khan Academy Content - Writing fractions as repeating decimals, EngageNY Lesson 14: Decimal Representations of Rational Numbers",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Convert repeating decimals to fractions",
+        "description": "Convert repeating decimals (including multi-digit repeating decimals) into their equivalent rational number form (fractions).",
+        "source": "Khan Academy Content - Converting repeating decimals to fractions, Khan Academy Content - Converting multi-digit repeating decimals to fractions, EngageNY Lesson 15: Infinite Decimal Expansions",
+        "relationship": "Exact match"
+      }
+    ]
+  },
+  {
+    "Standard ID": "8.NS.A.2",
+    "Standard Description": "Use rational approximations of irrational numbers to compare the size of irrational numbers, locate them approximately on a number line diagram, and estimate the value of expressions (e.g., $\\pi^2$).",
+    "Skill": [
+      {
+        "name": "Approximate square roots",
+        "description": "Find the approximate value of square roots by thinking about perfect squares or by identifying the two whole number values between which a square root lies.",
+        "source": "Khan Academy Content - Approximating square roots, IXL Content - Estimate positive square roots, IXL Content - Estimate positive and negative square roots, EngageNY Lesson 4: Square Roots on the Number Line, EngageNY Lesson 5: Reasoning about Square Roots",
+        "relationship": "Exact match (Khan Academy), Superset (IXL), Exact match (EngageNY)"
+      },
+      {
+        "name": "Approximate cube roots",
+        "description": "Approximate the value of cube roots and represent them as points on the number line.",
+        "source": "EngageNY Lesson 12: Edge Lengths and Volumes, EngageNY Lesson 13: Cube Roots, IXL Content - Estimate cube roots",
+        "relationship": "Exact match (EngageNY), Exact match (IXL)"
+      },
+      {
+        "name": "Locate irrational numbers on a number line",
+        "description": "Locate irrational numbers approximately on a number line diagram using rational approximations.",
+        "source": "IXL Content - Irrational numbers on number lines, EngageNY Lesson 4: Square Roots on the Number Line",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Compare and order irrational numbers (without calculator)",
+        "description": "Compare and order irrational numbers without using a calculator, by using rational approximations and their relative positions on the number line.",
+        "source": "Khan Academy Content - Comparing irrational numbers, IXL Content - Compare and order rational and irrational numbers",
+        "relationship": "Exact match (Khan Academy), Exact match (IXL)"
+      },
+      {
+        "name": "Compare and order irrational numbers (with calculator)",
+        "description": "Compare and order irrational numbers using a calculator to find their approximate decimal values.",
+        "source": "Khan Academy Content - Comparing irrational numbers with a calculator",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Estimate values of expressions involving irrational numbers",
+        "description": "Estimate the value of expressions involving irrational numbers (e.g., $\\pi^2$) by using rational approximations.",
+        "source": "Custom",
+        "relationship": "Exact match"
+      }
+    ]
+  },
+  {
+    "Standard ID": "8.EE.A.1",
+    "Standard Description": "Know and apply the properties of integer exponents to generate equivalent numerical expressions.",
+    "Skill": [
+      {
+        "name": "Understand integer exponents",
+        "description": "Comprehend that repeated division of a number is equivalent to repeated multiplication by its reciprocal, and understand the meaning of negative exponents.",
+        "source": "IXL Content - Understanding exponents, IXL Content - Understanding negative exponents, EngageNY Lesson 1: Exponent Review, EngageNY Lesson 5: Negative Exponents with Powers of 10",
+        "relationship": "Exact match (IXL - Understanding exponents), Exact match (IXL - Understanding negative exponents), Exact match (EngageNY)"
+      },
+      {
+        "name": "Evaluate powers with integer exponents",
+        "description": "Compute numbers raised to positive and negative integer exponents, including bases that are fractions or decimals.",
+        "source": "Khan Academy Content - Negative exponents, IXL Content - Evaluate powers, IXL Content - Evaluate powers with negative exponents, IXL Content - Evaluate powers with negative or zero exponents, IXL Content - Powers with decimal and fractional bases",
+        "relationship": "Exact match (Khan Academy), Exact match (IXL)"
+      },
+      {
+        "name": "Apply the product of powers property",
+        "description": "Rewrite products of powers with the same base by adding their exponents (e.g., $x^2 \\cdot x^5 = x^7$).",
+        "source": "Khan Academy Content - Multiply powers, IXL Content - Multiply powers: integer bases, IXL Content - Multiply powers: variable bases, EngageNY Lesson 2: Multiplying Powers of Ten, EngageNY Lesson 6: What About Other Bases?",
+        "relationship": "Exact match (Khan Academy), Exact match (IXL), Exact match (EngageNY)"
+      },
+      {
+        "name": "Apply the quotient of powers property",
+        "description": "Rewrite quotients of powers with the same base by subtracting their exponents (e.g., $x^5 / x^2 = x^3$).",
+        "source": "Khan Academy Content - Divide powers, IXL Content - Divide powers: integer bases, IXL Content - Divide powers: variable bases, EngageNY Lesson 4: Dividing Powers of 10, EngageNY Lesson 6: What About Other Bases?",
+        "relationship": "Exact match (Khan Academy), Exact match (IXL), Exact match (EngageNY)"
+      },
+      {
+        "name": "Apply the power of a power property",
+        "description": "Rewrite powers of powers by multiplying the exponents (e.g., $(x^2)^5 = x^{10}$).",
+        "source": "Khan Academy Content - Powers of powers, IXL Content - Power of a power: integer bases, IXL Content - Powers of a power: variable bases, EngageNY Lesson 3: Powers of Powers of 10, EngageNY Lesson 6: What About Other Bases?",
+        "relationship": "Exact match (Khan Academy), Exact match (IXL), Exact match (EngageNY)"
+      },
+      {
+        "name": "Apply the power of a product and quotient properties",
+        "description": "Rewrite powers of products and quotients, including expressions with negative exponents (e.g., $(3^5 \\cdot x^3)^2 = 3^{10} \\cdot x^6$).",
+        "source": "Khan Academy Content - Powers of products & quotients, Khan Academy Content - Powers of products & quotients (integer exponents), Khan Academy Content - Powers of products & quotients (structured practice), EngageNY Lesson 8: Combining Bases, IXL Content - Evaluate expressions using properties of exponents",
+        "relationship": "Exact match (Khan Academy), Exact match (EngageNY), Superset (IXL)"
+      },
+      {
+        "name": "Generate equivalent numerical expressions using exponent properties",
+        "description": "Use properties of integer exponents to generate equivalent numerical expressions, including combining multiple properties.",
+        "source": "Khan Academy Content - Multiply & divide powers (integer exponents), Khan Academy Content - Properties of exponents challenge (integer exponents), IXL Content - Multiply and divide powers: integer bases, IXL Content - Multiply and divide powers: variable bases, IXL Content - Evaluate expressions using properties of exponents, IXL Content - Identify equivalent expressions involving exponents I, IXL Content - Identify equivalent expressions involving exponents II, EngageNY Lesson 7: Practice with Rational Bases",
+        "relationship": "Exact match (Khan Academy), Exact match (IXL), Exact match (EngageNY)"
+      }
+    ]
+  },
+  {
+    "Standard ID": "8.EE.A.2",
+    "Standard Description": "Use square root and cube root symbols to represent solutions to equations of the form $x^2 = p$ and $x^3 = p$, where $p$ is a positive rational number. Evaluate square roots of small perfect squares and cube roots of small perfect cubes. Know that $\\sqrt{2}$ is irrational.",
+    "Skill": [
+      {
+        "name": "Understand the concept of square roots",
+        "description": "Comprehend that a square root is the inverse operation of squaring a number, and identify perfect squares.",
+        "source": "IXL Content - Relationship between squares and square roots, EngageNY Lesson 2: Side Lengths and Areas, EngageNY Lesson 6: Finding Side Lengths of Triangles",
+        "relationship": "Exact match (IXL), Implicit (EngageNY)"
+      },
+      {
+        "name": "Evaluate positive and negative square roots of perfect square integers",
+        "description": "Calculate both the principal (positive) and negative square roots of small perfect square integers.",
+        "source": "Khan Academy Content - Square roots, IXL Content - Square roots of perfect squares, IXL Content - Positive and negative square roots",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Evaluate square roots of perfect square fractions and decimals",
+        "description": "Calculate square roots of perfect square fractions and decimals.",
+        "source": "Khan Academy Content - Roots of decimals & fractions, Khan Academy Content - Equations with square roots: decimals & fractions",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Understand the concept of cube roots",
+        "description": "Comprehend that a cube root is the inverse operation of cubing a number, and identify perfect cubes.",
+        "source": "EngageNY Lesson 12: Edge Lengths and Volumes",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Evaluate positive and negative cube roots of perfect cube integers",
+        "description": "Calculate both the positive and negative cube roots of small perfect cube integers.",
+        "source": "Khan Academy Content - Cube roots, IXL Content - Cube roots of positive perfect cubes, IXL Content - Cube roots of positive and negative perfect cubes",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Estimate non-perfect square and cube roots",
+        "description": "Estimate the approximate numerical value of square roots and cube roots of non-perfect squares/cubes (e.g., $\\sqrt{x}$ where x is not a perfect square) to the nearest whole number or by identifying the two whole numbers it lies between.",
+        "source": "IXL Content - Estimate positive square roots, IXL Content - Estimate positive and negative square roots, IXL Content - Estimate cube roots",
+        "relationship": "Subset"
+      },
+      {
+        "name": "Represent solutions to $x^2 = p$ using square root symbol",
+        "description": "Express solutions to equations of the form $x^2 = p$ (where $p$ is a positive rational number) using the $\\pm\\sqrt{p}$ notation.",
+        "source": "IXL Content - Solve equations using square roots, Khan Academy Content - Equations with square roots & cube roots",
+        "relationship": "Exact match (IXL), Implicit (Khan Academy)"
+      },
+      {
+        "name": "Solve equations of the form $x^2 = p$",
+        "description": "Determine the numerical solutions to equations of the form $x^2 = p$, including cases where $p$ is a positive rational decimal or fraction.",
+        "source": "Khan Academy Content - Equations with square roots & cube roots, Khan Academy Content - Equations with square roots: decimals & fractions, IXL Content - Solve equations using square roots",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Represent solutions to $x^3 = p$ using cube root symbol",
+        "description": "Express solutions to equations of the form $x^3 = p$ (where $p$ is a positive rational number) using the $\\sqrt[3]{p}$ notation.",
+        "source": "IXL Content - Solve equations using cube roots, Khan Academy Content - Equations with square roots & cube roots",
+        "relationship": "Exact match (IXL), Implicit (Khan Academy)"
+      },
+      {
+        "name": "Solve equations of the form $x^3 = p$",
+        "description": "Determine the numerical solutions to equations of the form $x^3 = p$.",
+        "source": "Khan Academy Content - Equations with square roots & cube roots, IXL Content - Solve equations using cube roots",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Know that $\\sqrt{2}$ is irrational",
+        "description": "State and understand that the square root of 2 is an irrational number.",
+        "source": "Custom",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Solve varied problems involving square and cube roots",
+        "description": "Apply knowledge of square and cube roots to solve various mathematical problems.",
+        "source": "Khan Academy Content - Square and cube challenge",
+        "relationship": "Exact match"
+      }
+    ]
+  },
+  {
+    "Standard ID": "8.EE.A.3",
+    "Standard Description": "Use numbers expressed in the form of a single digit times an integer power of 10 to estimate very large or very small quantities, and to express how many times as much one is than the other.",
+    "Skill": [
+      {
+        "name": "Understand powers of 10",
+        "description": "Recognize and work with positive and negative integer powers of 10.",
+        "source": "EngageNY Lesson 1: Exponent Review (Implicit), EngageNY Lesson 5: Negative Exponents with Powers of 10 (Implicit)",
+        "relationship": "Implicit (EngageNY)"
+      },
+      {
+        "name": "Express large numbers as a single digit times a power of 10",
+        "description": "Convert very large numbers into the form $a \\times 10^n$ where $a$ is a single digit.",
+        "source": "EngageNY Lesson 9: Describing Large and Small Numbers Using Powers of 10",
+        "relationship": "Exact match (EngageNY)"
+      },
+      {
+        "name": "Express small numbers as a single digit times a power of 10",
+        "description": "Convert very small numbers into the form $a \\times 10^n$ where $a$ is a single digit and $n$ is a negative integer.",
+        "source": "EngageNY Lesson 11: Representing Small Numbers on the Number Line",
+        "relationship": "Exact match (EngageNY)"
+      },
+      {
+        "name": "Estimate very large quantities using powers of 10",
+        "description": "Approximate real-world very large quantities using a single digit times an integer power of 10.",
+        "source": "Khan Academy Content - Approximating with powers of 10",
+        "relationship": "Exact match (Khan Academy)"
+      },
+      {
+        "name": "Estimate very small quantities using powers of 10",
+        "description": "Approximate real-world very small quantities using a single digit times an integer power of 10.",
+        "source": "Khan Academy Content - Approximating with powers of 10",
+        "relationship": "Exact match (Khan Academy)"
+      },
+      {
+        "name": "Express how many times as much one quantity is than another using powers of 10",
+        "description": "Compare two quantities by determining how many times larger or smaller one is than the other, using powers of 10.",
+        "source": "Khan Academy Content - Approximating with powers of 10, EngageNY Lesson 16: Is a Smartphone Smart Enough to Go to the Moon?",
+        "relationship": "Exact match (Khan Academy), Exact match (EngageNY)"
+      },
+      {
+        "name": "Perform multiplication and division with powers of ten",
+        "description": "Solve multiplication and division problems involving numbers expressed as powers of ten.",
+        "source": "Khan Academy Content - Multiplication and division with powers of ten, EngageNY Lesson 2: Multiplying Powers of Ten, EngageNY Lesson 4: Dividing Powers of 10",
+        "relationship": "Exact match (Khan Academy), Exact match (EngageNY)"
+      }
+    ]
+  },
+  {
+    "Standard ID": "8.EE.A.4",
+    "Standard Description": "Perform operations with numbers expressed in scientific notation, including problems where both decimal and scientific notation are used. Use scientific notation and choose units of appropriate size for measurements of very large or very small quantities. Interpret scientific notation that has been generated by technology.",
+    "Skill": [
+      {
+        "name": "Define scientific notation",
+        "description": "Understand that scientific notation expresses numbers as a product of a number between 1 and 10 (inclusive of 1, exclusive of 10) and an integer power of 10.",
+        "source": "IXL Content - Convert between standard and scientific notation (Implicit), EngageNY Lesson 13: Definition of Scientific Notation",
+        "relationship": "Implicit (IXL), Exact match (EngageNY)"
+      },
+      {
+        "name": "Convert between standard notation and scientific notation",
+        "description": "Convert numbers from standard form to scientific notation and from scientific notation to standard form.",
+        "source": "Khan Academy Content - Scientific notation, IXL Content - Convert between standard and scientific notation, EngageNY Lesson 13: Definition of Scientific Notation",
+        "relationship": "Exact match (Khan Academy, IXL, EngageNY)"
+      },
+      {
+        "name": "Compare numbers written in scientific notation",
+        "description": "Order and compare numbers given in scientific notation.",
+        "source": "IXL Content - Compare numbers written in scientific notation, EngageNY Lesson 10: Representing Large Numbers on the Number Line, EngageNY Lesson 11: Representing Small Numbers on the Number Line",
+        "relationship": "Exact match (IXL), Exact match (EngageNY)"
+      },
+      {
+        "name": "Add and subtract numbers in scientific notation",
+        "description": "Perform addition and subtraction operations on numbers expressed in scientific notation, including cases where adjustment of exponents is necessary.",
+        "source": "Khan Academy Content - Adding & subtracting in scientific notation, IXL Content - Add and subtract numbers written in scientific notation, EngageNY Lesson 15: Adding and Subtracting with Scientific Notation",
+        "relationship": "Exact match (Khan Academy, IXL, EngageNY)"
+      },
+      {
+        "name": "Multiply numbers in scientific notation",
+        "description": "Perform multiplication operations on numbers expressed in scientific notation.",
+        "source": "Khan Academy Content - Multiplying & dividing in scientific notation, IXL Content - Multiply numbers written in scientific notation, EngageNY Lesson 14: Multiplying, Dividing, and Estimating with Scientific Notation",
+        "relationship": "Exact match (Khan Academy, IXL, EngageNY)"
+      },
+      {
+        "name": "Divide numbers in scientific notation",
+        "description": "Perform division operations on numbers expressed in scientific notation.",
+        "source": "Khan Academy Content - Multiplying & dividing in scientific notation, IXL Content - Divide numbers written in scientific notation, EngageNY Lesson 14: Multiplying, Dividing, and Estimating with Scientific Notation",
+        "relationship": "Exact match (Khan Academy, IXL, EngageNY)"
+      },
+      {
+        "name": "Solve word problems involving scientific notation",
+        "description": "Apply operations with scientific notation to solve real-world problems, including those involving very large or very small quantities.",
+        "source": "Khan Academy Content - Scientific notation word problems, EngageNY Lesson 12: Applications of Arithmetic with Powers of 10, EngageNY Lesson 16: Is a Smartphone Smart Enough to Go to the Moon?",
+        "relationship": "Exact match (Khan Academy), Exact match (EngageNY)"
+      },
+      {
+        "name": "Choose appropriate units for very large or very small quantities",
+        "description": "Select and use appropriate units of measurement when working with very large or very small quantities, often expressed in scientific notation.",
+        "source": "EngageNY Lesson 12: Applications of Arithmetic with Powers of 10 (Implicit), Khan Academy Content - Scientific notation word problems (Implicit)",
+        "relationship": "Implicit (EngageNY, Khan Academy)"
+      },
+      {
+        "name": "Interpret scientific notation generated by technology",
+        "description": "Understand and interpret scientific notation as it is displayed on calculators and other technological tools.",
+        "source": "IXL Content - Scientific notation on calculators",
+        "relationship": "Exact match (IXL)"
+      }
+    ]
+  },
+  {
+    "Standard ID": "8.EE.B.5",
+    "Standard Description": "Graph proportional relationships, interpreting the unit rate as the slope of the graph. Compare two different proportional relationships represented in different ways.",
+    "Skill": [
+      {
+        "name": "Identify proportional relationships from tables",
+        "description": "Determine if a relationship represented in a table is proportional.",
+        "source": "IXL Content - Identify proportional relationships from tables",
+        "relationship": "Exact match (IXL)"
+      },
+      {
+        "name": "Identify proportional relationships from graphs",
+        "description": "Determine if a relationship represented on a graph is proportional by checking if it's a straight line through the origin.",
+        "source": "IXL Content - Identify proportional relationships by graphing, EngageNY Lesson 2: Graphs of Proportional Relationships",
+        "relationship": "Exact match (IXL), Implicit (EngageNY)"
+      },
+      {
+        "name": "Identify proportional relationships from graphs and equations",
+        "description": "Determine if a relationship is proportional given its graph or equation.",
+        "source": "IXL Content - Identify proportional relationships from graphs and equations",
+        "relationship": "Exact match (IXL)"
+      },
+      {
+        "name": "Identify proportional relationships: word problems",
+        "description": "Determine if a real-world situation describes a proportional relationship.",
+        "source": "IXL Content - Identify proportional relationships: word problems",
+        "relationship": "Exact match (IXL)"
+      },
+      {
+        "name": "Find the constant of proportionality from a table",
+        "description": "Calculate the constant of proportionality from data presented in a table.",
+        "source": "IXL Content - Find the constant of proportionality from a table, EngageNY Lesson 1: Understanding Proportional Relationships",
+        "relationship": "Exact match (IXL), Exact match (EngageNY)"
+      },
+      {
+        "name": "Find the constant of proportionality from a graph",
+        "description": "Determine the constant of proportionality from the graph of a proportional relationship.",
+        "source": "IXL Content - Find the constant of proportionality from a graph, EngageNY Lesson 2: Graphs of Proportional Relationships",
+        "relationship": "Exact match (IXL), Exact match (EngageNY)"
+      },
+      {
+        "name": "Write equations for proportional relationships from tables",
+        "description": "Formulate an equation $y=kx$ that represents a proportional relationship given in a table.",
+        "source": "IXL Content - Write equations for proportional relationships from tables, EngageNY Lesson 1: Understanding Proportional Relationships",
+        "relationship": "Exact match (IXL), Exact match (EngageNY)"
+      },
+      {
+        "name": "Write equations for proportional relationships from graphs",
+        "description": "Formulate an equation $y=kx$ that represents a proportional relationship given its graph.",
+        "source": "IXL Content - Write equations for proportional relationships from graphs",
+        "relationship": "Exact match (IXL)"
+      },
+      {
+        "name": "Graph proportional relationships",
+        "description": "Graph a line that represents a proportional relationship given an equation, table, or verbal description.",
+        "source": "Khan Academy Content – Graphing proportional relationships, IXL Content - Graph proportional relationships and find the slope, EngageNY Lesson 1: Understanding Proportional Relationships",
+        "relationship": "Exact match (Khan Academy), Exact match (IXL), Exact match (EngageNY)"
+      },
+      {
+        "name": "Interpret graphs of proportional relationships",
+        "description": "Understand what points and sections of a graph of a proportional relationship represent in context, including the unit rate as slope.",
+        "source": "IXL Content - Interpret graphs of proportional relationships, EngageNY Lesson 2: Graphs of Proportional Relationships, EngageNY Lesson 3: Representing Proportional Relationships",
+        "relationship": "Exact match (IXL), Exact match (EngageNY)"
+      },
+      {
+        "name": "Graph proportional relationships and find the slope",
+        "description": "Graph a proportional relationship and identify its slope, understanding that the slope represents the unit rate.",
+        "source": "IXL Content - Graph proportional relationships and find the slope, EngageNY Lesson 5: Introduction to Linear Relationships",
+        "relationship": "Exact match (IXL), Subset (EngageNY)"
+      },
+      {
+        "name": "Write and solve equations for proportional relationships",
+        "description": "Write and solve equations of the form $y=kx$ to represent and solve problems involving proportional relationships.",
+        "source": "IXL Content - Write and solve equations for proportional relationships",
+        "relationship": "Exact match (IXL)"
+      },
+      {
+        "name": "Compare proportional relationships represented in different ways",
+        "description": "Compare unit rates and other features of two different proportional relationships presented as graphs, tables, equations, or verbal descriptions.",
+        "source": "Khan Academy Content – Rates & proportional relationships, IXL Content - Compare proportional relationships represented in different ways, EngageNY Lesson 4: Comparing Proportional Relationships",
+        "relationship": "Superset (Khan Academy), Exact match (IXL), Exact match (EngageNY)"
+      },
+      {
+        "name": "Understand direct variation",
+        "description": "Recognize that direct variation is a type of proportional relationship and identify the constant of variation.",
+        "source": "IXL Content - Identify direct variation",
+        "relationship": "Exact match (IXL)"
+      },
+      {
+        "name": "Find the constant of direct variation",
+        "description": "Calculate the constant of variation in a direct variation relationship.",
+        "source": "IXL Content - Find the constant of variation",
+        "relationship": "Exact match (IXL)"
+      },
+      {
+        "name": "Write direct variation equations",
+        "description": "Write an equation that represents a direct variation relationship.",
+        "source": "IXL Content - Write direct variation equations",
+        "relationship": "Exact match (IXL)"
+      },
+      {
+        "name": "Solve problems using direct variation equations",
+        "description": "Use direct variation equations to solve real-world and mathematical problems.",
+        "source": "IXL Content - Write and solve direct variation equations",
+        "relationship": "Exact match (IXL)"
+      }
+    ]
+  },
+  {
+    "Standard ID": "8.EE.C.7",
+    "Standard Description": "Solve linear equations in one variable.",
+    "Skill": [
+      {
+        "name": "Identify solutions to one-variable equations",
+        "description": "Determine whether a given value for the variable satisfies a one-variable equation.",
+        "source": "IXL Content - Which x satisfies an equation?",
+        "relationship": "Exact match (IXL)"
+      },
+      {
+        "name": "Write equations from word problems",
+        "description": "Translate verbal descriptions into algebraic equations with one variable.",
+        "source": "IXL Content - Write an equation from words",
+        "relationship": "Exact match (IXL)"
+      },
+      {
+        "name": "Model and solve equations using algebra tiles",
+        "description": "Represent and solve one-variable equations using algebra tiles to demonstrate balanced moves.",
+        "source": "IXL Content - Model and solve equations using algebra tiles, EngageNY Lesson 2: Keeping the Equation Balanced",
+        "relationship": "Exact match (IXL), Implicit (EngageNY)"
+      },
+      {
+        "name": "Write and solve equations that represent diagrams",
+        "description": "Formulate and solve equations based on visual diagrams like hanger diagrams.",
+        "source": "IXL Content - Write and solve equations that represent diagrams, EngageNY Lesson 2: Keeping the Equation Balanced",
+        "relationship": "Exact match (IXL), Exact match (EngageNY)"
+      },
+      {
+        "name": "Understand properties of equality",
+        "description": "Recognize and apply the properties of equality (addition, subtraction, multiplication, division) to transform equations.",
+        "source": "IXL Content - Properties of equality, EngageNY Lesson 3: Balanced Moves",
+        "relationship": "Exact match (IXL), Implicit (EngageNY)"
+      },
+      {
+        "name": "Identify equivalent equations",
+        "description": "Determine if two equations are equivalent by applying properties of equality.",
+        "source": "IXL Content - Identify equivalent equations",
+        "relationship": "Exact match (IXL)"
+      },
+      {
+        "name": "Solve one-step linear equations",
+        "description": "Solve linear equations that require one inverse operation.",
+        "source": "IXL Content - Solve one-step equations",
+        "relationship": "Exact match (IXL)"
+      },
+      {
+        "name": "Solve two-step linear equations",
+        "description": "Solve linear equations that require two inverse operations.",
+        "source": "IXL Content - Solve two-step equations, EngageNY Lesson 3: Balanced Moves",
+        "relationship": "Exact match (IXL), Implicit (EngageNY)"
+      },
+      {
+        "name": "Complete solutions to two-step equations",
+        "description": "Fill in missing steps in the solution process of two-step linear equations.",
+        "source": "IXL Content - Solve two-step equations: complete the solution",
+        "relationship": "Exact match (IXL)"
+      },
+      {
+        "name": "Solve one-step and two-step equations: word problems",
+        "description": "Formulate and solve one-step and two-step linear equations from word problems.",
+        "source": "IXL Content - Solve one-step and two-step equations: word problems",
+        "relationship": "Exact match (IXL)"
+      },
+      {
+        "name": "Solve equations involving like terms",
+        "description": "Solve linear equations that require combining like terms on one or both sides of the equation.",
+        "source": "IXL Content - Solve equations involving like terms, EngageNY Lesson 4: More Balanced Moves",
+        "relationship": "Exact match (IXL), Implicit (EngageNY)"
+      },
+      {
+        "name": "Equations with variables on both sides",
+        "description": "Practice solving one-variable equations like 20 - 7x = 6x - 6, where the variable appears on both sides of the equals sign.",
+        "source": "Khan Academy Content – Equations with variables on both sides",
+        "relationship": "Exact match (Khan Academy)"
+      },
+      {
+        "name": "Solve equations with variables on both sides",
+        "description": "Solve linear equations where the variable appears on both sides of the equals sign.",
+        "source": "IXL Content - Solve equations with variables on both sides, EngageNY Lesson 4: More Balanced Moves",
+        "relationship": "Exact match (IXL), Exact match (EngageNY)"
+      },
+      {
+        "name": "Equations with variables on both sides: decimals & fractions",
+        "description": "Solve linear equations where the variable appears on both sides of the equation and the coefficients are decimals or fractions.",
+        "source": "Khan Academy Content – Equations with variables on both sides: decimals & fractions",
+        "relationship": "Exact match (Khan Academy)"
+      },
+      {
+        "name": "Solve equations with variables on both sides: fractional coefficients",
+        "description": "Solve linear equations with variables on both sides where the coefficients are fractions or decimals.",
+        "source": "IXL Content - Solve equations with variables on both sides: fractional coefficients",
+        "relationship": "Exact match (IXL)"
+      },
+      {
+        "name": "Solve equations with variables on both sides: word problems",
+        "description": "Formulate and solve linear equations with variables on both sides from word problems.",
+        "source": "IXL Content - Solve equations with variables on both sides: word problems",
+        "relationship": "Exact match (IXL)"
+      },
+      {
+        "name": "Equations with parentheses",
+        "description": "Practice solving equations with parentheses using the distributive property.",
+        "source": "Khan Academy Content – Equations with parentheses",
+        "relationship": "Exact match (Khan Academy)"
+      },
+      {
+        "name": "Solve equations with the distributive property",
+        "description": "Solve linear equations that require expanding expressions using the distributive property.",
+        "source": "IXL Content - Solve equations with the distributive property, EngageNY Lesson 3: Balanced Moves",
+        "relationship": "Exact match (IXL), Implicit (EngageNY)"
+      },
+      {
+        "name": "Equations with parentheses: decimals & fractions",
+        "description": "Solve linear equations that contain expressions with parentheses and the coefficients are rational numbers.",
+        "source": "Khan Academy Content – Equations with parentheses: decimals & fractions",
+        "relationship": "Exact match (Khan Academy)"
+      },
+      {
+        "name": "Solve multi-step linear equations",
+        "description": "Solve linear equations that require multiple steps, including combining like terms, using the distributive property, and variables on both sides.",
+        "source": "IXL Content - Solve multi-step equations, EngageNY Lesson 5: Solving Any Linear Equation",
+        "relationship": "Exact match (IXL), Exact match (EngageNY)"
+      },
+      {
+        "name": "Solve multi-step equations with fractional coefficients",
+        "description": "Solve multi-step linear equations where coefficients are rational numbers (fractions or decimals).",
+        "source": "IXL Content - Solve multi-step equations with fractional coefficients, EngageNY Lesson 5: Solving Any Linear Equation",
+        "relationship": "Exact match (IXL), Implicit (EngageNY)"
+      },
+      {
+        "name": "Complete solutions to multi-step equations",
+        "description": "Fill in missing steps in the solution process of multi-step linear equations.",
+        "source": "IXL Content - Solve multi-step equations: complete the solution",
+        "relationship": "Exact match (IXL)"
+      },
+      {
+        "name": "Equation practice with angle addition",
+        "description": "Given the sum of a pair of angle measures and the algebraic expressions that represent them, form and solve an equation. Includes complementary, supplementary, and other adjacent angles.",
+        "source": "Khan Academy Content – Equation practice with angle addition",
+        "relationship": "Exact match (Khan Academy)"
+      },
+      {
+        "name": "Equation practice with midpoints",
+        "description": "Given information about the distance of a segment's midpoint from its endpoints, form and solve an equation in order to find the length of the segment.",
+        "source": "Khan Academy Content – Equation practice with midpoints",
+        "relationship": "Exact match (Khan Academy)"
+      },
+      {
+        "name": "Equation practice with segment addition",
+        "description": "Given an information about the lengths of line segments, form and solve an equation in order to find the lengths of the segments.",
+        "source": "Khan Academy Content – Equation practice with segment addition",
+        "relationship": "Exact match (Khan Academy)"
+      },
+      {
+        "name": "Equation practice with vertical angles",
+        "description": "Given algebraic expressions that represent a pair of two vertical angles, form and solve an equation.",
+        "source": "Khan Academy Content – Equation practice with vertical angles",
+        "relationship": "Exact match (Khan Academy)"
+      },
+      {
+        "name": "Graph from linear standard form",
+        "description": "Find the graph of a linear equation given in standard form.",
+        "source": "Khan Academy Content – Graph from linear standard form",
+        "relationship": "Exact match (Khan Academy)"
+      },
+      {
+        "name": "Intercepts from an equation",
+        "description": "Solve linear equations for the x-intercept and y-intercept",
+        "source": "Khan Academy Content – Intercepts from an equation",
+        "relationship": "Exact match (Khan Academy)"
+      },
+      {
+        "name": "Slope-intercept from two points",
+        "description": "Practice finding the equation of a line passing through two points.",
+        "source": "Khan Academy Content – Slope-intercept from two points",
+        "relationship": "Exact match (Khan Academy)"
+      },
+      {
+        "name": "Sums of consecutive integers",
+        "description": "Practice finding the nth number in a sequence of consecutive numbers based on the sum.",
+        "source": "Khan Academy Content – Sums of consecutive integers",
+        "relationship": "Exact match (Khan Academy)"
+      }
+    ]
+  },
+  {
+    "Standard ID": "8.EE.C.7.a",
+    "Standard Description": "Give examples of linear equations in one variable with one solution, infinitely many solutions, or no solutions. Show which of these possibilities is the case by successively transforming the given equation into simpler forms, until an equivalent equation of the form $x = a$, $a = a$, or $a = b$ results (where $a$ and $b$ are different numbers).",
+    "Skill": [
+      {
+        "name": "Number of solutions to equations",
+        "description": "Practice telling whether an equation has one, zero, or infinite solutions. For example, how many solutions does the equation 8(3x+10)=28x-14-4x have?",
+        "source": "Khan Academy Content – Number of solutions to equations",
+        "relationship": "Exact match (Khan Academy)"
+      },
+      {
+        "name": "Find the number of solutions",
+        "description": "Analyze linear equations to determine if they have one solution, no solutions, or infinitely many solutions.",
+        "source": "IXL Content - Find the number of solutions, EngageNY Lesson 7: All, Some, or No Solutions, EngageNY Lesson 8: How Many Solutions?",
+        "relationship": "Exact match (IXL), Exact match (EngageNY)"
+      },
+      {
+        "name": "Number of solutions to equations challenge",
+        "description": "Given a linear equation with missing values, determine appropriate values in order to have one, zero, or infinite solutions. For example, complete the equation -11x + 4 = __x + __ so that it has no solutions.",
+        "source": "Khan Academy Content – Number of solutions to equations challenge",
+        "relationship": "Exact match (Khan Academy)"
+      },
+      {
+        "name": "Create equations with no solutions or infinitely many solutions",
+        "description": "Construct linear equations that result in no solution or infinitely many solutions by manipulating coefficients and constants.",
+        "source": "IXL Content - Create equations with no solutions or infinitely many solutions",
+        "relationship": "Exact match (IXL)"
+      }
+    ]
+  },
+  {
+    "Standard ID": "8.EE.C.7.b",
+    "Standard Description": "Solve linear equations with rational number coefficients, including equations whose solutions require expanding expressions using the distributive property and collecting like terms.",
+    "Skill": [
+      {
+        "name": "Equation practice with angle addition",
+        "description": "Given the sum of a pair of angle measures and the algebraic expressions that represent them, form and solve an equation. Includes complementary, supplementary, and other adjacent angles.",
+        "source": "Khan Academy Content – Equation practice with angle addition",
+        "relationship": "Exact match (Khan Academy)"
+      },
+      {
+        "name": "Equation practice with midpoints",
+        "description": "Given information about the distance of a segment's midpoint from its endpoints, form and solve an equation in order to find the length of the segment.",
+        "source": "Khan Academy Content – Equation practice with midpoints",
+        "relationship": "Exact match (Khan Academy)"
+      },
+      {
+        "name": "Equation practice with segment addition",
+        "description": "Given an information about the lengths of line segments, form and solve an equation in order to find the lengths of the segments.",
+        "source": "Khan Academy Content – Equation practice with segment addition",
+        "relationship": "Exact match (Khan Academy)"
+      },
+      {
+        "name": "Equation practice with vertical angles",
+        "description": "Given algebraic expressions that represent a pair of two vertical angles, form and solve an equation.",
+        "source": "Khan Academy Content – Equation practice with vertical angles",
+        "relationship": "Exact match (Khan Academy)"
+      },
+      {
+        "name": "Equations with parentheses",
+        "description": "Practice solving equations with parentheses using the distributive property.",
+        "source": "Khan Academy Content – Equations with parentheses",
+        "relationship": "Exact match (Khan Academy)"
+      },
+      {
+        "name": "Equations with parentheses: decimals & fractions",
+        "description": "Solve linear equations that contain expressions with parentheses and the coefficients are rational numbers.",
+        "source": "Khan Academy Content – Equations with parentheses: decimals & fractions",
+        "relationship": "Exact match (Khan Academy)"
+      },
+      {
+        "name": "Equations with variables on both sides",
+        "description": "Practice solving one-variable equations like 20 - 7x = 6x - 6, where the variable appears on both sides of the equals sign.",
+        "source": "Khan Academy Content – Equations with variables on both sides",
+        "relationship": "Exact match (Khan Academy)"
+      },
+      {
+        "name": "Equations with variables on both sides: decimals & fractions",
+        "description": "Solve linear equations where the variable appears on both sides of the equation and the coefficients are decimals or fractions.",
+        "source": "Khan Academy Content – Equations with variables on both sides: decimals & fractions",
+        "relationship": "Exact match (Khan Academy)"
+      },
+      {
+        "name": "Intercepts from an equation",
+        "description": "Solve linear equations for the x-intercept and y-intercept",
+        "source": "Khan Academy Content – Intercepts from an equation",
+        "relationship": "Exact match (Khan Academy)"
+      },
+      {
+        "name": "Slope-intercept from two points",
+        "description": "Practice finding the equation of a line passing through two points.",
+        "source": "Khan Academy Content – Slope-intercept from two points",
+        "relationship": "Exact match (Khan Academy)"
+      },
+      {
+        "name": "Sums of consecutive integers",
+        "description": "Practice finding the nth number in a sequence of consecutive numbers based on the sum.",
+        "source": "Khan Academy Content – Sums of consecutive integers",
+        "relationship": "Exact match (Khan Academy)"
+      }
+    ]
+  },
+  {
+    "Standard ID": "8.EE.C.8",
+    "Standard Description": "Analyze and solve pairs of simultaneous linear equations.",
+    "Skill": [
+      {
+        "name": "Solve systems using any method",
+        "description": "Choose and apply the most appropriate method (graphing, substitution, or elimination) to solve a system of linear equations.",
+        "source": "IXL Content - Solve a system of equations using any method",
+        "relationship": "Exact match (IXL)"
+      },
+      {
+        "name": "Solve systems using any method: word problems",
+        "description": "Solve word problems by modeling them into a system of equations and solving them using any method.",
+        "source": "IXL Content - Solve a system of equations using any method: word problems",
+        "relationship": "Exact match (IXL)"
+      },
+      {
+        "name": "Classify a system of equations by graphing",
+        "description": "Classify systems of equations as consistent/inconsistent and dependent/independent based on their graphs.",
+        "source": "IXL Content - Classify a system of equations by graphing",
+        "relationship": "Exact match (IXL)"
+      },
+      {
+        "name": "Classify a system of equations",
+        "description": "Classify systems of equations as consistent/inconsistent and dependent/independent using algebraic analysis.",
+        "source": "IXL Content - Classify a system of equations",
+        "relationship": "Exact match (IXL)"
+      }
+    ]
+  },
+  {
+    "Standard ID": "8.EE.C.8.a",
+    "Standard Description": "Understand that solutions to a system of two linear equations in two variables correspond to points of intersection of their graphs, because points of intersection satisfy both equations simultaneously.",
+    "Skill": [
+      {
+        "name": "Verify solutions to systems of equations",
+        "description": "Verify whether a given pair of values for x and y is a solution to a system of equations.",
+        "source": "IXL Content - Is (x, y) a solution to the system of equations?, Khan Academy Content – Solutions of systems of equations",
+        "relationship": "Exact match (IXL), Exact match (Khan Academy)"
+      },
+      {
+        "name": "Solve systems of equations with graphing",
+        "description": "Graph a system of equations in slope-intercept or standard form, and find their solution using the graphs.",
+        "source": "IXL Content - Solve a system of equations by graphing, Khan Academy Content – Systems of equations with graphing, EngageNY Lesson 12: Systems of Equations",
+        "relationship": "Exact match (IXL), Exact match (Khan Academy), Exact match (EngageNY)"
+      },
+      {
+        "name": "Number of solutions to a system graphically",
+        "description": "Determine the number of solutions of a given system of equations by considering its graph.",
+        "source": "IXL Content - Find the number of solutions to a system of equations by graphing, Khan Academy Content – Number of solutions to a system of equations graphically",
+        "relationship": "Exact match (IXL), Exact match (Khan Academy)"
+      },
+      {
+        "name": "Number of solutions to a system algebraically",
+        "description": "Determine the number of solutions of a given system of equations by considering its algebraic solution process.",
+        "source": "IXL Content - Find the number of solutions to a system of equations, Khan Academy Content – Number of solutions to a system of equations algebraically, EngageNY Lesson 13: Solving Systems of Equations",
+        "relationship": "Exact match (IXL), Exact match (Khan Academy), Exact match (EngageNY)"
+      },
+      {
+        "name": "Interpret points relative to a system",
+        "description": "Practice interpreting what different points mean in context in a system of linear equations.",
+        "source": "Khan Academy Content – Interpret points relative to a system, EngageNY Lesson 10: On or Off the Line?, EngageNY Lesson 11: On Both of the Lines",
+        "relationship": "Exact match (Khan Academy), Exact match (EngageNY)"
+      },
+      {
+        "name": "Understand solution as point of intersection",
+        "description": "Comprehend that the solution to a system of two linear equations is the point where their graphs intersect, as this point satisfies both equations simultaneously.",
+        "source": "EngageNY Lesson 12: Systems of Equations",
+        "relationship": "Exact match (EngageNY)"
+      }
+    ]
+  },
+  {
+    "Standard ID": "8.EE.C.8.b",
+    "Standard Description": "Solve systems of two linear equations in two variables algebraically, and estimate solutions by graphing the equations. Solve simple cases by inspection.",
+    "Skill": [
+      {
+        "name": "Solve systems using substitution",
+        "description": "Solve systems of linear equations by solving one equation for a variable and substituting that expression into the other equation.",
+        "source": "IXL Content - Solve a system of equations using substitution, Khan Academy Content – Systems of equations with substitution, EngageNY Lesson 14: Solving More Systems",
+        "relationship": "Exact match (IXL), Exact match (Khan Academy), Exact match (EngageNY)"
+      },
+      {
+        "name": "Solve systems using elimination",
+        "description": "Solve systems of linear equations by adding or subtracting equations to eliminate one variable.",
+        "source": "IXL Content - Solve a system of equations using elimination",
+        "relationship": "Exact match (IXL)"
+      },
+      {
+        "name": "Solve systems algebraically",
+        "description": "Solve systems of two linear equations in two variables using algebraic methods (substitution or elimination).",
+        "source": "EngageNY Lesson 12: Systems of Equations",
+        "relationship": "Exact match (EngageNY)"
+      },
+      {
+        "name": "Estimate solutions by graphing",
+        "description": "Graph linear equations and estimate the point of intersection to approximate the solution to a system.",
+        "source": "IXL Content - Solve a system of equations by graphing, EngageNY Lesson 11: On Both of the Lines",
+        "relationship": "Exact match (IXL), Implicit (EngageNY)"
+      },
+      {
+        "name": "Solve simple cases by inspection",
+        "description": "Identify solutions to systems of equations in simple cases by visually examining the equations or their graphs without complex calculations.",
+        "source": "Implicit in standard, potentially supported by EngageNY Lesson 10: On or Off the Line?",
+        "relationship": "Implicit (Standard), Implicit (EngageNY)"
+      }
+    ]
+  },
+  {
+    "Standard ID": "8.EE.C.8.c",
+    "Standard Description": "Solve real-world and mathematical problems leading to two linear equations in two variables.",
+    "Skill": [
+      {
+        "name": "Solve age word problems with systems",
+        "description": "Solve word problems specifically involving ages by setting up and solving a system of equations.",
+        "source": "Khan Academy Content – Age word problems",
+        "relationship": "Exact match (Khan Academy)"
+      },
+      {
+        "name": "Solve systems of equations word problems",
+        "description": "Solve word problems by modeling them into a system of equations and solving it.",
+        "source": "Khan Academy Content – Systems of equations word problems, EngageNY Lesson 15: Writing Systems of Equations, EngageNY Lesson 16: Solving Problems with Systems of Equations",
+        "relationship": "Exact match (Khan Academy), Exact match (EngageNY)"
+      },
+      {
+        "name": "Write systems of equations from word problems",
+        "description": "Translate real-world problems into a system of two linear equations in two variables.",
+        "source": "IXL Content - Solve a system of equations by graphing: word problems (Implicit), IXL Content - Solve a system of equations using substitution: word problems (Implicit), IXL Content - Solve a system of equations using elimination: word problems (Implicit), IXL Content - Solve a system of equations using any method: word problems (Implicit), EngageNY Lesson 15: Writing Systems of Equations",
+        "relationship": "Implicit (IXL), Exact match (EngageNY)"
+      },
+      {
+        "name": "Solve systems by substitution: word problems",
+        "description": "Solve word problems by setting up a system of linear equations and solving it using the substitution method.",
+        "source": "IXL Content - Solve a system of equations using substitution: word problems",
+        "relationship": "Exact match (IXL)"
+      },
+      {
+        "name": "Solve systems by elimination: word problems",
+        "description": "Solve word problems by setting up a system of linear equations and solving it using the elimination method.",
+        "source": "IXL Content - Solve a system of equations using elimination: word problems",
+        "relationship": "Exact match (IXL)"
+      },
+      {
+        "name": "Solve systems by graphing: word problems",
+        "description": "Graphically solve systems of linear equations derived from real-world word problems.",
+        "source": "IXL Content - Solve a system of equations by graphing: word problems",
+        "relationship": "Exact match (IXL)"
+      }
+    ]
+  },
+  {
+    "Standard ID": "8.F.A.1",
+    "Standard Description": "Understand that a function is a rule that assigns to each input exactly one output. The graph of a function is the set of ordered pairs consisting of an input and the corresponding output.",
+    "Skill": [
+      {
+        "name": "Identify functions from relations (tables, graphs, and sets of ordered pairs)",
+        "description": "Determine whether a given relation (represented as a table of values, a graph, or a set of ordered pairs) represents a function by checking if each input has exactly one output.",
+        "source": "Khan Academy Content - Recognize functions from tables, Khan Academy Content - Recognize functions from graphs, IXL Content - Identify functions, IXL Content - Identify functions: graphs",
+        "relationship": "Superset (combines KA and IXL skills)"
+      },
+      {
+        "name": "Identify independent and dependent variables",
+        "description": "Identify the independent and dependent variables in a given relationship or function.",
+        "source": "IXL Content - Identify independent and dependent variables",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Evaluate functions from equations",
+        "description": "Evaluate functions for specific inputs given the formula of the function, written using function notation.",
+        "source": "Khan Academy Content - Evaluate functions",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Evaluate functions from graphs",
+        "description": "Evaluate functions for specific inputs given the graph of the function.",
+        "source": "Khan Academy Content - Evaluate functions from their graph, Khan Academy Content - Evaluate function expressions, IXL Content - Find values using function graphs",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Find inputs for a given function output from equations",
+        "description": "Find all the inputs that correspond to a given function output, using the function's formula.",
+        "source": "Khan Academy Content - Function inputs & outputs: equation",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Complete tables for a function graph",
+        "description": "Given the graph of a function, complete a table of values that represent points on the function.",
+        "source": "IXL Content - Complete a table for a function graph",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Determine the domain and range of a function from a graph",
+        "description": "Given the graph of a function, determine its domain or range.",
+        "source": "Khan Academy Content - Domain and range from graph, IXL Content - Domain and range of functions",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Determine the domain of a function from a word problem",
+        "description": "Use information about a situation to figure out the domain of the function which models it.",
+        "source": "Khan Academy Content - Function domain word problems",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Determine if an ordered pair is a solution to a two-variable equation",
+        "description": "Determine which ordered pairs are solutions to two-variable equations.",
+        "source": "Khan Academy Content - Solutions to 2-variable equations, IXL Content - Is (x, y) a solution to the linear equation?",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Complete solutions to two-variable equations",
+        "description": "Given the x or y value of a two-variable equation solution, find the value for the other variable in the solution.",
+        "source": "Khan Academy Content - Complete solutions to 2-variable equations",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Create function rules from two-variable equations",
+        "description": "Create functions that match one variable to the other in a two-variable equation.",
+        "source": "Khan Academy Content - Function rules from equations",
+        "relationship": "Exact match"
+      }
+    ]
+  },
+  {
+    "Standard ID": "8.F.A.2",
+    "Standard Description": "Compare properties of two functions each represented in a different way (algebraically, graphically, numerically in tables, or by verbal descriptions).",
+    "Skill": [
+      {
+        "name": "Compare linear functions represented in different ways",
+        "description": "Compare features (e.g., slope, y-intercept, rate of change) of two linear functions when they are represented in different forms (algebraically, graphically, numerically in tables, or by verbal descriptions).",
+        "source": "Khan Academy Content - Compare linear functions, IXL Content - Compare linear functions: graphs and equations, IXL Content - Compare linear functions: tables, graphs, and equations",
+        "relationship": "Superset (combines KA and IXL skills)"
+      },
+      {
+        "name": "Compare linear functions in word problems",
+        "description": "Compare features of two real-world relationships that can be modeled by linear functions, where the functions are represented in different ways.",
+        "source": "Khan Academy Content - Comparing linear functions word problems",
+        "relationship": "Exact match"
+      }
+    ]
+  },
+  {
+    "Standard ID": "8.F.A.3",
+    "Standard Description": "Interpret the equation $y = mx + b$ as defining a linear function, whose graph is a straight line; give examples of functions that are not linear.",
+    "Skill": [
+      {
+        "name": "Identify linear and nonlinear functions from equations",
+        "description": "Determine if a relationship represented by an equation is linear or nonlinear.",
+        "source": "IXL Content - Identify linear and nonlinear functions: graphs and equations",
+        "relationship": "Subset (focuses on equations)"
+      },
+      {
+        "name": "Identify linear and nonlinear functions from tables",
+        "description": "Determine if a relationship represented by a table of values is linear or nonlinear.",
+        "source": "IXL Content - Identify linear and nonlinear functions: tables",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Identify linear and nonlinear functions from graphs",
+        "description": "Determine if a relationship represented by a graph is linear or nonlinear.",
+        "source": "Khan Academy Content - Linear & nonlinear functions, IXL Content - Identify linear and nonlinear functions: graphs and equations",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Understand slope-intercept form ($y=mx+b$)",
+        "description": "Practice basic understanding of slope-intercept form for linear equations, including identifying the slope and y-intercept from the equation.",
+        "source": "Khan Academy Content - Slope-intercept intro, IXL Content - Slope-intercept form: find the slope and y-intercept",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Graph a line from an equation in slope-intercept form",
+        "description": "Practice drawing the graph of a line given in slope-intercept form (e.g., graph $y = 3x + 2$).",
+        "source": "Khan Academy Content - Graph from slope-intercept form, IXL Content - Graph a line from an equation in slope-intercept form",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Graph a line from an equation in standard form",
+        "description": "Find the graph of a linear equation given in standard form.",
+        "source": "Khan Academy Content - Graph from linear standard form, IXL Content - Graph a line from an equation in standard form",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Graph a line from an equation in point-slope form",
+        "description": "Graph a line from an equation in point-slope form.",
+        "source": "IXL Content - Graph a line from an equation in point-slope form",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Graph horizontal and vertical lines",
+        "description": "Graph horizontal and vertical lines given their equations.",
+        "source": "IXL Content - Graph a horizontal or vertical line",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Write equations of horizontal and vertical lines",
+        "description": "Write the equations of horizontal and vertical lines given their graphs or descriptions.",
+        "source": "IXL Content - Equations of horizontal and vertical lines",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Find intercepts from a graph",
+        "description": "Look at the graph of an equation to find x-intercepts and y-intercepts.",
+        "source": "Khan Academy Content - Intercepts from a graph",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Find intercepts from a table",
+        "description": "Find the intercepts of a line given a table of values.",
+        "source": "Khan Academy Content - Intercepts from a table",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Find intercepts from an equation",
+        "description": "Solve linear equations for the x-intercept and y-intercept.",
+        "source": "Khan Academy Content - Intercepts from an equation",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Solve problems involving linear equations in various forms",
+        "description": "Apply understanding of different forms of linear equations (slope-intercept, standard, point-slope) to solve problems.",
+        "source": "Khan Academy Content - Linear equations in any form",
+        "relationship": "Exact match"
+      }
+    ]
+  },
+  {
+    "Standard ID": "8.F.B.4",
+    "Standard Description": "Construct a function to model a linear relationship between two quantities. Determine the rate of change and initial value of the function from a description of a relationship or from two ($x, y$) values, including reading these from a table or from a graph. Interpret the rate of change and initial value of a linear function in terms of the situation it models, and in terms of its graph or a table of values.",
+    "Skill": [
+      {
+        "name": "Find the slope from a graph",
+        "description": "Find the slope of a line on the coordinate plane.",
+        "source": "Khan Academy Content - Slope from graph, IXL Content - Find the slope from a graph",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Find the slope from two points",
+        "description": "Find the slope of the line that goes through the two points that are given.",
+        "source": "Khan Academy Content - Slope from two points, IXL Content - Find the slope from two points",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Find the slope from a table",
+        "description": "Practice finding the slope for a linear relationship in a table of values.",
+        "source": "Khan Academy Content - Slope in a table, IXL Content - Find the slope from a table",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Find the slope from an equation",
+        "description": "Find the slopes of lines whose equations are given in various forms (e.g., find the slope of $2x+3y=5$).",
+        "source": "Khan Academy Content - Slope from equation",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Find a missing coordinate using slope",
+        "description": "Find a missing coordinate of a point on a line given the slope and another point.",
+        "source": "IXL Content - Find a missing coordinate using slope",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Graph a line using slope and a point",
+        "description": "Graph a line using its slope and a given point.",
+        "source": "IXL Content - Graph a line using slope",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Write a linear equation from a graph",
+        "description": "Practice finding the slope-intercept equation of a line from its graph.",
+        "source": "Khan Academy Content - Slope-intercept equation from graph, IXL Content - Write a linear equation from a graph",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Write a linear equation from two points",
+        "description": "Practice finding the equation of a line passing through two points.",
+        "source": "Khan Academy Content - Slope-intercept from two points, IXL Content - Write a linear equation from two points",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Write a linear equation from a slope and y-intercept",
+        "description": "Write a linear equation given its slope and y-intercept.",
+        "source": "IXL Content - Write a linear equation from a slope and y-intercept",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Write a linear equation from a slope and a point",
+        "description": "Write a linear equation given its slope and a point it passes through.",
+        "source": "IXL Content - Write a linear equation from a slope and a point",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Convert a linear equation in standard form to slope-intercept form",
+        "description": "Convert a linear equation from standard form to slope-intercept form.",
+        "source": "IXL Content - Convert a linear equation in standard form to slope-intercept form",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Interpret the slope and y-intercept of a linear function in context",
+        "description": "Interpret the meaning of the slope (rate of change) and y-intercept (initial value) of a linear function in terms of the situation it models.",
+        "source": "Khan Academy Content - Relating linear contexts to graph features, IXL Content - Interpret the slope and y-intercept of a linear function",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Write linear functions from word problems",
+        "description": "Find a linear function that represents a real-world relationship that is given verbally.",
+        "source": "Khan Academy Content - Writing linear functions word problems, IXL Content - Write linear functions: word problems",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Evaluate linear functions from word problems",
+        "description": "Evaluate linear functions for specific inputs in the context of real-world word problems.",
+        "source": "IXL Content - Evaluate a linear function: word problems",
+        "relationship": "Exact match"
+      }
+    ]
+  },
+  {
+    "Standard ID": "8.F.B.5",
+    "Standard Description": "Describe qualitatively the functional relationship between two quantities by analyzing a graph (e.g., where the function is increasing or decreasing, linear or nonlinear). Sketch a graph that exhibits the qualitative features of a function that has been described verbally.",
+    "Skill": [
+      {
+        "name": "Interpret graphs of functions (increasing/decreasing, linear/nonlinear)",
+        "description": "Interpret the graphs of both linear and nonlinear functions, describing where the function is increasing, decreasing, constant, or identifying if it's linear or nonlinear.",
+        "source": "Khan Academy Content - Interpreting graphs of functions, IXL Content - Rate of change: graphs",
+        "relationship": "Superset (combines KA and IXL content for graphical analysis)"
+      },
+      {
+        "name": "Identify relative maxima and minima from graphs",
+        "description": "Given the graph of a function, find all of its relative maximum and minimum points.",
+        "source": "Khan Academy Content - Relative maxima and minima",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Sketch a graph from a verbal description of a function",
+        "description": "Sketch a graph that exhibits the qualitative features of a function that has been described verbally.",
+        "source": "IXL Content - Identify graphs: word problems",
+        "relationship": "Exact match (as this skill often involves sketching based on understanding)"
+      }
+    ]
+  },
+  {
+    "Standard ID": "8.SP.A.1",
+    "Standard Description": "Construct and interpret scatter plots for bivariate measurement data to investigate patterns of association between two quantities. Describe patterns such as clustering, outliers, positive or negative association, linear association, and nonlinear association.",
+    "Skill": [
+      {
+        "name": "Construct scatter plots by plotting points",
+        "description": "Practice plotting points to construct a scatter plot.",
+        "source": "Khan Academy Content - Constructing scatter plots, IXL Content - Create scatter plots, EngageNY - Lesson No. 2 Plotting Data",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Make appropriate scatter plots (axes and scale)",
+        "description": "Create scatter plots with the independent variable on the x-axis and the dependent variable on the y-axis, using a reasonable scale for both axes to make the data easy to read.",
+        "source": "Khan Academy Content - Making appropriate scatter plots",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Interpret points in a scatter plot",
+        "description": "Interpret the meaning of individual points on a scatter plot in terms of the real-world quantities they represent.",
+        "source": "EngageNY - Lesson No. 3 What a Point in a Scatter Plot Means",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Describe trends in scatter plots (real-world context)",
+        "description": "Explain what trends in scatter plots mean in terms of real-world quantities.",
+        "source": "Khan Academy Content - Describing trends in scatterplots",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Identify patterns of association from scatter plots (positive, negative, nonlinear, no association)",
+        "description": "Identify various patterns of association in scatter plots, including positive linear, negative linear, nonlinear, and no association.",
+        "source": "Khan Academy Content - Positive and negative linear associations from scatter plots",
+        "relationship": "Superset"
+      },
+      {
+        "name": "Identify clustering in scatter plots",
+        "description": "Describe instances of data clustering in scatter plots, where data points group together.",
+        "source": "EngageNY - Lesson No. 7 Observing More Patterns in Scatter Plots",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Identify outliers in scatter plots",
+        "description": "Identify data points that are outliers in scatter plots, appearing far away from the other data points.",
+        "source": "IXL Content - Outliers in scatter plots, EngageNY - Lesson No. 4 Fitting a Line to Data",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Make predictions with scatter plots (general)",
+        "description": "Use scatter plots to make predictions based on observed trends.",
+        "source": "IXL Content - Make predictions with scatter plots",
+        "relationship": "Exact match"
+      }
+    ]
+  },
+  {
+    "Standard ID": "8.SP.A.2",
+    "Standard Description": "Know that straight lines are widely used to model relationships between two quantitative variables. For scatter plots that suggest a linear association, informally fit a straight line, and informally assess the model fit by judging the closeness of the data points to the line.",
+    "Skill": [
+      {
+        "name": "Informally fit a straight line to scatter plot data (Eyeballing the line of best fit)",
+        "description": "Given a random assortment of points, draw a line of best fit through them informally.",
+        "source": "Khan Academy Content - Eyeballing the line of best fit, EngageNY - Lesson No. 4 Fitting a Line to Data, EngageNY - Lesson No. 5 Describing Trends in Scatter Plots",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Identify lines of best fit",
+        "description": "Given a scatter plot with several lines, identify the line that best fits the data.",
+        "source": "IXL Content - Identify lines of best fit",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Assess the model fit by judging closeness of data points to the line",
+        "description": "Informally assess how well a straight line models the relationship in a scatter plot by judging how close the data points are to the line.",
+        "source": "EngageNY - Lesson No. 8 Analyzing Bivariate Data",
+        "relationship": "Exact match"
+      }
+    ]
+  },
+  {
+    "Standard ID": "8.SP.A.3",
+    "Standard Description": "Use the equation of a linear model to solve problems in the context of bivariate measurement data, interpreting the slope and intercept.",
+    "Skill": [
+      {
+        "name": "Estimate equations of lines of best fit",
+        "description": "Practice estimating the equation of a line of best fit through data points in a scatter plot.",
+        "source": "Khan Academy Content - Estimating equations of lines of best fit, and using them to make predictions",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Use equations of lines of best fit to make predictions",
+        "description": "Use the estimated equation of a line of best fit to make predictions based on the scatter plot data.",
+        "source": "Khan Academy Content - Estimating equations of lines of best fit, and using them to make predictions",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Estimate slope of line of best fit",
+        "description": "Given a scatter plot, estimate the slope of the line of best fit that goes through the data points.",
+        "source": "Khan Academy Content - Estimating slope of line of best fit",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Interpret slope for linear models in context",
+        "description": "Explain the meaning of the slope for lines of best fit on scatter plots in the context of the real-world situation.",
+        "source": "Khan Academy Content - Interpreting slope and y-intercept for linear models, EngageNY - Lesson No. 6 The Slope of a Fitted Line",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Interpret y-intercept for linear models in context",
+        "description": "Explain the meaning of the y-intercept for lines of best fit on scatter plots in the context of the real-world situation.",
+        "source": "Khan Academy Content - Interpreting slope and y-intercept for linear models",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Write equations for lines of best fit",
+        "description": "Given a scatter plot and a line of best fit, write the equation of that line.",
+        "source": "IXL Content - Write equations for lines of best fit",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Interpret lines of best fit: word problems",
+        "description": "Interpret and apply information from lines of best fit in word problems related to real-world scenarios.",
+        "source": "IXL Content - Interpret lines of best fit: word problems",
+        "relationship": "Exact match"
+      }
+    ]
+  },
+  {
+    "Standard ID": "8.SP.A.4",
+    "Standard Description": "Understand that patterns of association can also be seen in bivariate categorical data by displaying frequencies and relative frequencies in a two-way table. Construct and interpret a two-way table summarizing data on two categorical variables collected from the same subjects. Use relative frequencies calculated for rows or columns to describe possible association between the two variables.",
+    "Skill": [
+      {
+        "name": "Create two-way frequency tables from descriptions/Venn diagrams",
+        "description": "Given a Venn diagram or other information about a relationship between two categorical variables, create a two-way frequency table.",
+        "source": "Khan Academy Content - Create two-way frequency tables",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Read two-way frequency tables",
+        "description": "Practice interpreting and extracting specific information from cells within two-way frequency tables.",
+        "source": "Khan Academy Content - Read two-way frequency tables",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Analyze two-way frequency tables",
+        "description": "Practice analyzing two-way frequency tables to understand the joint and marginal frequencies.",
+        "source": "Khan Academy Content - Analyze two-way frequency tables",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Interpret two-way tables (general understanding)",
+        "description": "Demonstrate a general understanding of how two-way tables organize and display bivariate categorical data.",
+        "source": "Khan Academy Content - Interpret two-way tables",
+        "relationship": "Exact match"
+      },
+      {
+        "name": "Create two-way relative frequency tables",
+        "description": "Practice creating two-way relative frequency tables from a two-way frequency table.",
+        "source": "Khan Academy Content - Create two-way relative frequency tables",
+        "relationship": "Exact match"
+      }
+    ]
+  }
+]
