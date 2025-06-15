@@ -1,0 +1,623 @@
+{
+    "standard_metadata": {
+        "standard_id": "6.SP.B.5.c",
+        "standard_description": "Giving quantitative measures of center (median and/or mean) and variability (interquartile range and/or mean absolute deviation), as well as describing any overall pattern and any striking deviations from the overall pattern with reference to the context in which the data were gathered.",
+        "standard_title": "Missing value given the mean",
+        "standard_url": "https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-data-statistics/cc-6th-mean-median-challenge/e/find-a-missing-value-given-the-mean"
+    },
+    "id": "xca846db7",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following table shows each of Haruka's final exam scores last semester.   Final exam | Score on a $100$-point scale - | :-: Astronomy | $72$ Biology |  $85$ Physics | $92$ Chemistry| $\\large?$  **If the mean of the data set is $84$ points, find Haruka's final exam score in chemistry.**  $\\qquad$ points",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "87",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\qquad\\begin{align} \\text{Mean} \\times \\text{Number of final exams} &= \\text{Total  points} \\\\\\\\ \\\\\\\\ \\end{align}$   $\\qquad84 \\times 4 = \\blue{336} $",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's add up the final exam scores that we do know.  $\\qquad 72 + 92 +85 = \\pink{249}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad\\blue{336} - \\pink{249} = 87$   Haruka scored $87$ points on her final exam in chemistry.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Find the missing number"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following table shows the number of apples on each apple tree in Craig's backyard.   Type of Apple Tree | Number of apples - | :-: Cortland | $34$ Red Delicious | $29$  Fuji | $36$ Granny Smith |  $\\large?$    **If the mean of the data set is $35$ apples, find the number of apples on the Granny Smith tree.**  $\\qquad$ apples",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "41",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\qquad \\text{Mean} \\times \\text{Number of trees} = \\text{Total  apples}$  $\\qquad 35 \\times 4 = \\blue{140}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's add up the numbers of apples that we do know.  $\\qquad 34+29+36 = \\pink{99}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad\\blue{140} - \\pink{99} = 41$  There are $41$ apples on Craig's Granny Smith tree.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Find the missing number"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following table shows last year's revenue for each Herman's Hoagies location.  Location | Revenue (in thousands  of dollars) - | :-: Cedarton | $121$ Rimber | $189$  Linton |  $147$ Granton | $\\large?$  **If the mean of the data set is $158$ thousand dollars, find the revenue for the Granton location.**  $\\qquad$ thousand dollars",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "175",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\qquad \\text{Mean} \\times \\text{Number of locations} = \\text{Total revenue}$  $\\qquad 158 \\times 4 = \\blue{632}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's add up the revenues that we do know.  $\\qquad 121+189+147 = \\pink{457}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad\\blue{632} - \\pink{457} = 175$   The Granton location had revenue of $175$ thousand dollars.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Find the missing number"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following table shows the number of fire hydrants in each neighborhood overseen by Fire District $9$.  Neighborhood | Number of fire hydrants - | :-: Clearwater Estates | $17$ Shamrock Oak |  $15$ Hidden Village | $21$ Tower Terrace | $12$ Prairie Pass | $\\large?$     **If the mean of the data set is $15$ fire hydrants, find the number of fire hydrants in Prairie Pass.**  $\\qquad$ fire hydrants",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "10",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\qquad\\text{Mean} \\times \\text{Number of neighborhoods} = \\text{Total fire hydrants}$  $\\qquad 15 \\times 5 = \\blue{75}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's add up the numbers of fire hydrants that we do know.  $\\qquad 17+15+21+12 = \\pink{65}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad\\blue{75} - \\pink{65} = 10$   There are $10$ fire hydrants in Prairie Pass.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Find the missing number"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following table shows the number of innings pitched by each of the Greenbury Goblins' starting pitchers during the Rockbottom Tournament.  Pitcher |Calvin |Thom |Shawn |Kris |Brantley || - | :-: | :-:| :-:| :-: |:-: **Number of innings pitched**| $11$|   $12$| $7$| $3$|$\\large?$ |     **If the mean of the data set is $8$ innings, find the number of innings Brantley pitched.**  $\\qquad$ innings",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "7",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\qquad \\text{Mean} \\times \\text{Number of pitchers} = \\text{Total innings}$  $\\qquad 8 \\times 5 = \\blue{40}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's add up the numbers of innings that we do know.  $\\qquad 11+12+7+3 = \\pink{33}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad\\blue{40} - \\pink{33} = 7$  Brantley pitched $7$ innings.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Find the missing number"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following table shows the number of police calls that were made last year in each of the cities in Hogdon County.  City |Clarksville |Bremington |Shells |Gristle | Thornbury - | :-: | :-:| :-:| :-:| :-: **Number of police calls**| $244$| $353$ | $235$| $311$ |  $\\large?$  **If the mean of the data set is $273$ calls, find the number of police calls in Thornbury.**  $\\qquad$ calls",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "222",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\qquad \\text{Mean} \\times \\text{Number of cities} = \\text{Total  calls}$  $\\qquad 273 \\times 5 = \\blue{1365}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's add up the numbers of calls that we do know.  $\\qquad 244+353+235+311 = \\pink{1143}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad\\blue{1365} - \\pink{1143} = 222$  There were $222$ calls in Thornbury.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Find the missing number"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following table shows the number of snow days each school district in Trene County had last winter.  School district |District $201$ |District $211$ |District $221$ |District $231$ |District $241$ | - | :-: | :-:| :-:| :-:| :-: **Number of snow days**| $4$| $8$ |  $3$| $6$| $\\large?$    **If the mean of the data set is $5$ snow days, find the number of snow days in District $241$.**   $\\qquad$ snow days",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "4",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\qquad \\text{Mean} \\times \\text{Number of school districts} = \\text{Total snow days}$  $\\qquad 5 \\times 5 = \\blue{25}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's add up the numbers of snow days that we do know.  $\\qquad 4+8+3+6 = \\pink{21}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad\\blue{25} - \\pink{21} = 4$  District $241$  had $4$ snow days.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Find the missing number"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following table shows the number of attendees at each of the private dance events hosted by Fenel Arrangements.  Event |Martha's Moonwalk |Shirly's Shimmy | Harry's Hoedown|| - | :-: | :-:| :-: **Number of attendees**|  $48$ |  $33$|$\\large?$|   **If the mean of the data set is $41$ attendees, find the number of attendees at Harry's Hoedown.**  $\\qquad$ attendees",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "42",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\qquad \\text{Mean} \\times \\text{Number of dances} = \\text{Total attendees}$  $\\qquad 41 \\times 3 = \\blue{123}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's add up the numbers of attendees that we do know.  $\\qquad 48+33 = \\pink{81}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad\\blue{123} - \\pink{81} = 42$   Harry's Hoedown had $42$ attendees.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Find the missing number"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following data points represent the number of chicken nuggets on each family member's plate.  $\\qquad  1, 3, 0, 6, \\large?$  **If the mean of the data set is $3$ chicken nuggets, find the missing number of chicken nuggets.**   $\\qquad$ nuggets",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\qquad \\text{Mean} \\times \\text{Number of family members} = \\text{Total chicken nuggets}$  $\\qquad 3 \\times 5 = \\blue{15} $",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's add up the numbers of chicken nuggets that we do know.  $\\qquad 1+3+0+6 = \\pink{10}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad\\blue{15} - \\pink{10} = 5$  The missing number of chicken nuggets is $5$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Find the missing number"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following data points represent the volume of gas in each race car driver's tank (in liters).  $\\qquad  4, 5, 13, \\large?$  **If the mean of the data set is $7\\text{ L}$, find the missing volume of gas.**  $\\qquad$ $\\text{ L}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "6",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\qquad \\text{Mean} \\times \\text{Number of drivers} = \\text{Total volume of gas}$  $\\qquad 7 \\times 4 = \\blue{28}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's add up the volumes that we do know.  $\\qquad 4+5+13 = \\pink{22}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad\\blue{28} - \\pink{22} = 6$  The missing volume of gas is $6 \\text{ L}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Find the missing number"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following data points represent the number of remote controllers each student in Lena's video game club owns.  $\\qquad 1, 0, 3, \\large?$  **If the mean of the data set is $2$ remote controllers, find the missing number of remote controllers.**  $\\qquad$ remote controllers",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "4",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\qquad \\text{Mean} \\times \\text{Number of club members} = \\text{Total remote controllers}$  $\\qquad 2 \\times 4 = \\blue{8}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's add up the numbers of remote controllers that we do know.  $\\qquad 1+0+3 = \\pink{4}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad\\blue{8} - \\pink{4} = 4$  The missing number of remote controllers is $4$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Find the missing number"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following data points represent the number of points scored last basketball game by each player on the Dragons basketball team.  $\\qquad 5, 8 , 11, 7 , \\large?$  **If the mean of the data set is $8$ points, find the missing number of points.**  $\\qquad$ points",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "9",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\qquad \\text{Mean} \\times \\text{Number of players} = \\text{Total  points}$  $\\qquad 8 \\times 5 = \\blue{40}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's add up the numbers of points that we do know.  $\\qquad 5+8+11+7 = \\pink{31}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad\\blue{40} - \\pink{31} = 9$  The missing number of points is $9$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Find the missing number"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**If the mean of the data set is $6$ coins, find the number of coins Julia found.**   $\\qquad$ coins",
+                                "images": [
+                                    {
+                                        "alt": "A bar graph titled, Coins collected by each person in a scavenger hunt, plots Gold coins, versus Scavenger, for 5 scavengers; Julia, Alice, Davi, Lucas, and Carter. Bar heights are approximately as follows: Julia, unknown; Alice, 6; Davi, 5; Lucas, 6; Carter, 8.\n",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/5bea3171efa5968a3c43e5fc895415a0ae5e498f.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\qquad \\text{Mean} \\times \\text{Number of people} = \\text{Total  coins}$  $\\qquad 6 \\times 5 = \\blue{30}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's add up the numbers of coins that we do know.  $\\qquad 6+5+6+8 = \\pink{25}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad\\blue{30} - \\pink{25} = 5$  Julia found $5$ coins.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Find the missing number"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**If the mean of the data set is $3$ puppets, find the number of puppets Marco made.**  $\\qquad$ puppets",
+                                "images": [
+                                    {
+                                        "alt": "A bar graph titled, Puppets made by each puppeteer, plots Number of puppets, versus Puppeteer, for 4 puppeteers; Alex, Kalin, Bruce, and Marco. Bar heights are approximately as follows: Alex, 1; Kalin, 4; Bruce, 3; Marco, unknown.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/c17dac6a36874e8e309400677ebc9e5f2364cb8f.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "4",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\qquad \\text{Mean} \\times \\text{Number of puppeteers} = \\text{Total  puppets}$  $\\qquad 3 \\times 4 = \\blue{12}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's add up the numbers of puppets that we do know.  $\\qquad 1+4+3 = \\pink{8}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad\\blue{12} - \\pink{8} = 4$  Marco made $4$ puppets.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Find the missing number"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**If the mean of the data set is $4$ bubbles, find the number of bubbles Hannah blew.**  $\\qquad$ bubbles",
+                                "images": [
+                                    {
+                                        "alt": "A bar graph titled, Bubbles blown by each gum chewer, plots Number of bubbles, versus Person, for 4 people; Manueala, Sophia, Jada, and Hannah. Bar heights are approximately as follows: Manueala, 4; Sophia, 5; Jada, 6; Hannah, unknown.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/0febf1b706ddfe68ca05f435ae57a0722606e090.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "1",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\qquad \\text{Mean} \\times \\text{Number of gum chewers} = \\text{Total bubbles}$  $\\qquad 4 \\times 4 = \\blue{16}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's add up the numbers of bubbles that we do know.  $\\qquad 4+5+6 = \\pink{15}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad\\blue{16} - \\pink{15} = 1$  Hannah blew $1$ bubble.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Find the missing number"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**If the mean of the data set is $7$ raisins, find the number of raisins in each scoop of Great4U.**  $\\qquad$ raisins",
+                                "images": [
+                                    {
+                                        "alt": "A bar graph titled, Raisins in a scoop of each brand of raisin bran cereal, plots Number of raisins, versus Brand, for 3 brands; Good2Go, Great4U, and Morning Meal. Bar heights are approximately as follows: Good2Go, 9; Great4U, unknown; Morning Meal, 7.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/5bc19ee4c322078b1478f0c14ea2d6c26093c832.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\qquad \\text{Mean} \\times \\text{Number of brands} = \\text{Total  raisins}$  $\\qquad7 \\times 3 = \\blue{21}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's add up the numbers of raisins that we do know.  $\\qquad 9+7 = \\pink{16}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad\\blue{21} - \\pink{16} = 5$  Each scoop of Great4U has $5$ raisins.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Find the missing number"
+                    }
+                }
+            }
+        }
+    ]
+}

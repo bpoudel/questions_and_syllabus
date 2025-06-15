@@ -1,0 +1,1108 @@
+{
+    "standard_metadata": {
+        "standard_id": "5.NBT.B.6",
+        "standard_description": "Find whole-number quotients of whole numbers with up to four-digit dividends and two-digit divisors, using strategies based on place value, the properties of operations, and/or the relationship between multiplication and division. Illustrate and explain the calculation by using equations, rectangular arrays, and/or area models.",
+        "standard_title": "Division by 2-digits",
+        "standard_url": "https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-arithmetic-operations/cc-6th-div-whole-numbers/e/division_3"
+    },
+    "id": "3009",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  || -: | :-  $589 \\div 31=$  |  remainder",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "1",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To divide larger numbers, we can split them into smaller numbers that we already know how to divide.  Let's think of a few multiples of $\\maroonD{31}$ that may be useful:  - $\\maroonD{31} \\times 1 = 31$ - $\\maroonD{31} \\times 2 = 62$ - $\\maroonD{31} \\times 5 = 155$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{31} \\times 20 $ is a little too large.    So, let's start by dividing $589$ into $\\purpleD{10}\\maroonD{\\text{ thirty-ones}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{31}&\\overline{\\Big)589}\\\\ &\\mathllap{-}\\underline{\\blueE{310}}&\\purpleD{10}&\\maroonD{31} \\times \\purpleD{10} = \\blueE{310}\\\\ &279\\\\ \\end{array}$  We have $279$ left. That's a little less than $310$. So, let's try dividing $279$ into $9\\maroonD{\\text{ thirty-ones}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{31}&\\overline{\\Big)589}\\\\ &\\mathllap{-}\\underline{310}&10\\\\ &279\\\\ &\\mathllap{-}\\underline{\\blueE{279}}&\\purpleD{9}&\\maroonD{31} \\times \\purpleD{9} = \\blueE{279}\\\\ &0\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} {31}&\\overline{\\Big)589}\\\\ &\\mathllap{-}\\underline{310}&\\purpleD{10}\\\\ &279\\\\ &\\mathllap{-}\\underline{279}&\\underline{{}+\\purpleD{9}}\\\\ &\\goldE{0}&\\greenE{19}\\\\ \\end{array}$  $\\purpleD{10} + \\purpleD{9}= \\greenE{19}$, so our quotient is $\\greenE{19}$, and we have no remainder.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$589 \\div 31=\\greenE{19}\\text{ remainder }\\goldE{0}$  [[☃ explanation 1]]",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3-digit no remainder"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  || -: | :-  | remainder  ${20}\\overline{\\Big)740}$ |",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "1",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To divide larger numbers, we can split them into smaller numbers that we already know how to divide.  Let's think of a few multiples of $\\maroonD{20}$ that may be useful:  - $\\maroonD{20} \\times 2 = 40$ - $\\maroonD{20} \\times 3 = 60$ - $\\maroonD{20} \\times 4 = 80$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{20} \\times 40 $ is a little too large.    So, let's start by dividing $740$ into $\\purpleD{30}\\maroonD{\\text{ twenties}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{20}&\\overline{\\Big)740}\\\\ &\\mathllap{-}\\underline{\\blueE{600}}&\\purpleD{30}&\\maroonD{20} \\times \\purpleD{30} = \\blueE{600}\\\\ &140\\\\ \\end{array}$  We have $140$ left. We know that $7 \\times 2=14$. So, let's try dividing $140$ into $7\\maroonD{\\text{ twenties}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{20}&\\overline{\\Big)740}\\\\ &\\mathllap{-}\\underline{600}&30\\\\ &140\\\\ &\\mathllap{-}\\underline{\\blueE{140}}&\\purpleD{7}&\\maroonD{20} \\times \\purpleD{7} = \\blueE{140}\\\\ &0\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} {20}&\\overline{\\Big)740}\\\\ &\\mathllap{-}\\underline{600}&\\purpleD{30}\\\\ &140\\\\ &\\mathllap{-}\\underline{140}&\\underline{{}+\\purpleD{7}}\\\\ &\\goldE{0}&\\greenE{37}\\\\ \\end{array}$  $\\purpleD{30} + \\purpleD{7}= \\greenE{37}$, so our quotient is $\\greenE{37}$, and we have no remainder.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "|| -: | :- $\\greenE{37}$ | remainder $\\goldE{0}$ ${20}\\overline{\\Big)740}$ |  [[☃ explanation 1]]",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3-digit no remainder"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  || -: | :-  $798 \\div 19=$  |  remainder",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "1",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To divide larger numbers, we can split them into smaller numbers that we already know how to divide.  Let's think of a few multiples of $\\maroonD{19}$ that may be useful:  - $\\maroonD{19} \\times 2 = 38$ - $\\maroonD{19} \\times 4 = 76$ - $\\maroonD{19} \\times 5 = 95$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{19} \\times 40$ is close.    So, let's start by dividing $798$ into $\\purpleD{40}\\maroonD{\\text{ nineteens}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{19}&\\overline{\\Big)798}\\\\ &\\mathllap{-}\\underline{\\blueE{760}}&\\purpleD{40}&\\maroonD{19} \\times \\purpleD{40} = \\blueE{760}\\\\ &38\\\\ \\end{array}$  We have $38$ left. We know that $19 \\times 2=38$. So, let's try dividing $38$ into $2\\maroonD{\\text{ nineteens}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{19}&\\overline{\\Big)798}\\\\ &\\mathllap{-}\\underline{760}&40\\\\ &38\\\\ &\\mathllap{-}\\underline{\\blueE{38}}&\\purpleD{2}&\\maroonD{19} \\times \\purpleD{2} = \\blueE{38}\\\\ &0\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} {19}&\\overline{\\Big)798}\\\\ &\\mathllap{-}\\underline{760}&\\purpleD{40}\\\\ &38\\\\ &\\mathllap{-}\\underline{38}&\\underline{{}+\\purpleD{2}}\\\\ &\\goldE{0}&\\greenE{42}\\\\ \\end{array}$  $\\purpleD{40} + \\purpleD{2}= \\greenE{42}$, so our quotient is $\\greenE{42}$, and we have no remainder.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$798 \\div 19=\\greenE{42}\\text{ remainder }\\goldE{0}$  [[☃ explanation 1]]",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3-digit no remainder"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  || -: | :-  | remainder  ${45}\\overline{\\Big)855}$ |",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "1",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To divide larger numbers, we can split them into smaller numbers that we already know how to divide.  Let's think of a few multiples of $\\maroonD{45}$ that may be useful:  - $\\maroonD{45} \\times 1 = 45$ - $\\maroonD{45} \\times 2 = 90$ - $\\maroonD{45} \\times 4 = 180$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{45} \\times 20 $ is a little too large.    So, let's start by dividing $855$ into $\\purpleD{10}\\maroonD{\\text{ forty-fives}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{45}&\\overline{\\Big)855}\\\\ &\\mathllap{-}\\underline{\\blueE{450}}&\\purpleD{10}&\\maroonD{45} \\times \\purpleD{10} = \\blueE{450}\\\\ &405\\\\ \\end{array}$  We have $405$ left. That's a little less than $450$. So, let's try dividing $405$ into $9\\maroonD{\\text{ forty-fives}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{45}&\\overline{\\Big)855}\\\\ &\\mathllap{-}\\underline{450}&10\\\\ &405\\\\ &\\mathllap{-}\\underline{\\blueE{405}}&\\purpleD{9}&\\maroonD{45} \\times \\purpleD{9} = \\blueE{405}\\\\ &0\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} {45}&\\overline{\\Big)855}\\\\ &\\mathllap{-}\\underline{450}&\\purpleD{10}\\\\ &405\\\\ &\\mathllap{-}\\underline{405}&\\underline{{}+\\purpleD{9}}\\\\ &\\goldE{0}&\\greenE{19}\\\\ \\end{array}$  $\\purpleD{10} + \\purpleD{9}= \\greenE{19}$, so our quotient is $\\greenE{19}$, and we have no remainder.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "|| -: | :- $\\greenE{19}$ | remainder $\\goldE{0}$ ${45}\\overline{\\Big)855}$ |  [[☃ explanation 1]]",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3-digit no remainder"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  || -: | :-  $945 \\div 35=$  |  remainder",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "1",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To divide larger numbers, we can split them into smaller numbers that we already know how to divide.  Let's think of a few multiples of $\\maroonD{35}$ that may be useful:  - $\\maroonD{35} \\times 2 = 70$ - $\\maroonD{35} \\times 3 = 105$ - $\\maroonD{35} \\times 6 = 210$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{35} \\times 30$ is a little too large.    So, let's start by dividing $945$ into $\\purpleD{20}\\maroonD{\\text{ thirty-fives}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{35}&\\overline{\\Big)945}\\\\ &\\mathllap{-}\\underline{\\blueE{700}}&\\purpleD{20}&\\maroonD{35} \\times \\purpleD{20} = \\blueE{700}\\\\ &245\\\\ \\end{array}$  We have $245$ left. That's a little more than $210$. So, let's try dividing $245$ into $7\\maroonD{\\text{ thirty-fives}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{35}&\\overline{\\Big)945}\\\\ &\\mathllap{-}\\underline{700}&20\\\\ &245\\\\ &\\mathllap{-}\\underline{\\blueE{245}}&\\purpleD{7}&\\maroonD{35} \\times \\purpleD{7} = \\blueE{245}\\\\ &0\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} {35}&\\overline{\\Big)945}\\\\ &\\mathllap{-}\\underline{700}&\\purpleD{20}\\\\ &245\\\\ &\\mathllap{-}\\underline{245}&\\underline{{}+\\purpleD{7}}\\\\ &\\goldE{0}&\\greenE{27}\\\\ \\end{array}$  $\\purpleD{20} + \\purpleD{7}= \\greenE{27}$, so our quotient is $\\greenE{27}$, and we have no remainder.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$945 \\div 35=\\greenE{27}\\text{ remainder }\\goldE{0}$  [[☃ explanation 1]]",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3-digit no remainder"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  || -: | :-  | remainder  ${14}\\overline{\\Big)374}$ |",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "10",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To divide larger numbers, we can split them into smaller numbers that we already know how to divide.  Let's think of a few multiples of $\\maroonD{14}$ that may be useful:  - $\\maroonD{14} \\times 2 = 28$ - $\\maroonD{14} \\times 3 = 42$ - $\\maroonD{14} \\times 5 = 70$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{14} \\times 30 $ is a little too large.    So, let's start by dividing $374$ into $\\purpleD{20}\\maroonD{\\text{ fourteens}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{14}&\\overline{\\Big)374}\\\\ &\\mathllap{-}\\underline{\\blueE{280}}&\\purpleD{20}&\\maroonD{14} \\times \\purpleD{20} = \\blueE{280}\\\\ &94\\\\ \\end{array}$  We have $94$ left. That's a little more than $80$. So, let's try dividing $94$ into $6\\maroonD{\\text{ fourteens}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{14}&\\overline{\\Big)374}\\\\ &\\mathllap{-}\\underline{280}&20\\\\ &94\\\\ &\\mathllap{-}\\underline{\\blueE{84}}&\\purpleD{6}&\\maroonD{14} \\times \\purpleD{6} = \\blueE{84}\\\\ &10\\\\ \\end{array}$  We have $10$ left. That's less than $\\maroonD{14}$, so we're done dividing.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} {14}&\\overline{\\Big)374}\\\\ &\\mathllap{-}\\underline{280}&\\purpleD{20}\\\\ &94\\\\ &\\mathllap{-}\\underline{84}&\\underline{{}+\\purpleD{6}}\\\\ &\\goldE{10}&\\greenE{26}\\\\ \\end{array}$  $\\purpleD{20} + \\purpleD{6}= \\greenE{26}$, so our quotient is $\\greenE{26}$, and our remainder is $\\goldE{10}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "|| -: | :- $\\greenE{26}$ | remainder $\\goldE{10}$ ${14}\\overline{\\Big)374}$ |  [[☃ explanation 1]]",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3-digit remainder"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  || -: | :- $421 \\div 27=$  |  remainder",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "16",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To divide larger numbers, we can split them into smaller numbers that we already know how to divide.  Let's think of a few multiples of $\\maroonD{27}$ that may be useful:  - $\\maroonD{27} \\times 1 = 27$ - $\\maroonD{27} \\times 2 = 54$ - $\\maroonD{27} \\times 5 = 135$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{27} \\times 20 $ is a little too large.    So, let's start by dividing $421$ into $\\purpleD{10}\\maroonD{\\text{ twenty-sevens}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{27}&\\overline{\\Big)421}\\\\ &\\mathllap{-}\\underline{\\blueE{270}}&\\purpleD{10}&\\maroonD{27} \\times \\purpleD{10} = \\blueE{270}\\\\ &151\\\\ \\end{array}$  We have $151$ left. That's a little more than $135$. So, let's try dividing $151$ into $5\\maroonD{\\text{ twenty-sevens}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{27}&\\overline{\\Big)421}\\\\ &\\mathllap{-}\\underline{270}&10\\\\ &151\\\\ &\\mathllap{-}\\underline{\\blueE{135}}&\\purpleD{5}&\\maroonD{27} \\times \\purpleD{5} = \\blueE{135}\\\\ &16\\\\ \\end{array}$  We have $16$ left. That's less than $\\maroonD{27}$, so we're done dividing.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} {27}&\\overline{\\Big)421}\\\\ &\\mathllap{-}\\underline{270}&\\purpleD{10}\\\\ &151\\\\ &\\mathllap{-}\\underline{135}&\\underline{{}+\\purpleD{5}}\\\\ &\\goldE{16}&\\greenE{15}\\\\ \\end{array}$  $\\purpleD{10} + \\purpleD{5}= \\greenE{15}$, so our quotient is $\\greenE{15}$, and our remainder is $\\goldE{16}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$421 \\div 27=\\greenE{15}\\text{ remainder }\\goldE{16}$  [[☃ explanation 1]]",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3-digit remainder"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  || -: | :-  | remainder  ${24}\\overline{\\Big)849}$ |",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "9",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To divide larger numbers, we can split them into smaller numbers that we already know how to divide.  Let's think of a few multiples of $\\maroonD{24}$ that may be useful:  - $\\maroonD{24} \\times 2 = 48$ - $\\maroonD{24} \\times 3 = 72$ - $\\maroonD{24} \\times 4 = 96$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{24} \\times 40 $ is a little too large.    So, let's start by dividing $849$ into $\\purpleD{30}\\maroonD{\\text{ twenty-fours}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{24}&\\overline{\\Big)849}\\\\ &\\mathllap{-}\\underline{\\blueE{720}}&\\purpleD{30}&\\maroonD{24} \\times \\purpleD{30} = \\blueE{720}\\\\ &129\\\\ \\end{array}$  We have $129$ left. We know that $25\\times 5=125$. So, let's try dividing $129$ into $5\\maroonD{\\text{ twenty-fours}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{24}&\\overline{\\Big)849}\\\\ &\\mathllap{-}\\underline{720}&30\\\\ &129\\\\ &\\mathllap{-}\\underline{\\blueE{120}}&\\purpleD{5}&\\maroonD{24} \\times \\purpleD{5} = \\blueE{120}\\\\ &9\\\\ \\end{array}$  We have $9$ left. That's less than $\\maroonD{24}$, so we're done dividing.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} {24}&\\overline{\\Big)849}\\\\ &\\mathllap{-}\\underline{720}&\\purpleD{30}\\\\ &129\\\\ &\\mathllap{-}\\underline{120}&\\underline{{}+\\purpleD{5}}\\\\ &\\goldE{9}&\\greenE{35}\\\\ \\end{array}$  $\\purpleD{30} + \\purpleD{5}= \\greenE{35}$, so our quotient is $\\greenE{35}$, and our remainder is $\\goldE{9}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "|| -: | :- $\\greenE{35}$ | remainder $\\goldE{9}$ ${24}\\overline{\\Big)849}$ |  [[☃ explanation 1]]",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3-digit remainder"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  || -: | :- $954 \\div 70=$  |  remainder",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "44",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To divide larger numbers, we can split them into smaller numbers that we already know how to divide.  Let's think of a few multiples of $\\maroonD{70}$ that may be useful:  - $\\maroonD{70} \\times 1 = 70$ - $\\maroonD{70} \\times 2 = 140$ - $\\maroonD{70} \\times 5 = 350$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{70} \\times 20 $ is too large.    So, let's start by dividing $954$ into $\\purpleD{10}\\maroonD{\\text{ seventies}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{70}&\\overline{\\Big)954}\\\\ &\\mathllap{-}\\underline{\\blueE{700}}&\\purpleD{10}&\\maroonD{70} \\times \\purpleD{10} = \\blueE{700}\\\\ &254\\\\ \\end{array}$  We have $254$ left. We know that $7\\times 3=21$. So, let's try dividing $254$ into $3\\maroonD{\\text{ seventies}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{70}&\\overline{\\Big)954}\\\\ &\\mathllap{-}\\underline{700}&10\\\\ &254\\\\ &\\mathllap{-}\\underline{\\blueE{210}}&\\purpleD{3}&\\maroonD{70} \\times \\purpleD{3} = \\blueE{210}\\\\ &44\\\\ \\end{array}$  We have $44$ left. That's less than $\\maroonD{70}$, so we're done dividing.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} {70}&\\overline{\\Big)954}\\\\ &\\mathllap{-}\\underline{700}&\\purpleD{10}\\\\ &254\\\\ &\\mathllap{-}\\underline{210}&\\underline{{}+\\purpleD{3}}\\\\ &\\goldE{44}&\\greenE{13}\\\\ \\end{array}$  $\\purpleD{10} + \\purpleD{3}= \\greenE{13}$, so our quotient is $\\greenE{13}$, and our remainder is $\\goldE{44}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$954 \\div 70=\\greenE{13}\\text{ remainder }\\goldE{44}$  [[☃ explanation 1]]",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3-digit remainder"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  || -: | :-  | remainder  ${25}\\overline{\\Big)1{,}675}$ |",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "1",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To divide larger numbers, we can split them into smaller numbers that we already know how to divide.  Let's think of a few multiples of $\\maroonD{25}$ that may be useful:  - $\\maroonD{25} \\times 4 = 100$ - $\\maroonD{25} \\times 6 = 150$ - $\\maroonD{25} \\times 8 = 200$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{25} \\times 80 $ is a little too large.    So, let's start by dividing $1{,}675$ into $\\purpleD{60}\\maroonD{\\text{ twenty-fives}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{25}&\\overline{\\Big)1{,}675}\\\\ &\\mathllap{-}\\underline{\\blueE{1{,}500}}&\\purpleD{60}&\\maroonD{25} \\times \\purpleD{60} = \\blueE{1{,}500}\\\\ &175\\\\ \\end{array}$  We have $175$ left. That's a little more than $150$. So, let's try dividing $175$ into $7\\maroonD{\\text{ twenty-fives}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{25}&\\overline{\\Big)1{,}675}\\\\ &\\mathllap{-}\\underline{1{,}500}&60\\\\ &175\\\\ &\\mathllap{-}\\underline{\\blueE{175}}&\\purpleD{7}&\\maroonD{25} \\times \\purpleD{7} = \\blueE{175}\\\\ &0\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} {25}&\\overline{\\Big)1{,}675}\\\\ &\\mathllap{-}\\underline{1{,}500}&\\purpleD{60}\\\\ &175\\\\ &\\mathllap{-}\\underline{175}&\\underline{{}+\\purpleD{7}}\\\\ &\\goldE{0}&\\greenE{67}\\\\ \\end{array}$  $\\purpleD{60} + \\purpleD{7}= \\greenE{67}$, so our quotient is $\\greenE{67}$, and we have no remainder.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "|| -: | :- $\\greenE{67}$ | remainder $\\goldE{0}$ ${25}\\overline{\\Big)1{,}675}$ |  [[☃ explanation 1]]",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "4-digit no remainder"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  || -: | :-  $2{,}688 \\div 96=$  |  remainder",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "1",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To divide larger numbers, we can split them into smaller numbers that we already know how to divide.  Let's think of a few multiples of $\\maroonD{96}$ that may be useful:  - $\\maroonD{96} \\times 2 = 192$ - $\\maroonD{96} \\times 3 = 288$ - $\\maroonD{96} \\times 5 = 480$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{96} \\times 30$ is a little too large.    So, let's start by dividing $2{,}688$ into $\\purpleD{20}\\maroonD{\\text{ ninety-sixes}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{96}&\\overline{\\Big)2{,}688}\\\\ &\\mathllap{-}\\underline{\\blueE{1{,}920}}&\\purpleD{20}&\\maroonD{96} \\times \\purpleD{20} = \\blueE{1{,}920}\\\\ &768\\\\ \\end{array}$  We have $768$ left. We know that $100\\times 7=700$. So, let's try dividing $768$ into $7\\maroonD{\\text{ ninety-sixes}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{96}&\\overline{\\Big)2{,}688}\\\\ &\\mathllap{-}\\underline{1{,}920}&20\\\\ &768\\\\ &\\mathllap{-}\\underline{\\blueE{672}}&\\purpleD{7}&\\maroonD{96} \\times \\purpleD{7} = \\blueE{672}\\\\ &96\\\\ \\end{array}$  We have $96$ left. So we can divide it into $1$ more $\\maroonD{\\text{ninety-sixes}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{96}&\\overline{\\Big)2{,}688}\\\\ &\\mathllap{-}\\underline{1{,}920}&20\\\\ &768\\\\ &\\mathllap{-}\\underline{672}&7\\\\ &96\\\\ &\\mathllap{-}\\underline{\\blueE{96}}&\\purpleD{1}&\\maroonD{96} \\times \\purpleD{1} = \\blueE{96}\\\\ &0\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} {96}&\\overline{\\Big)2{,}688}\\\\ &\\mathllap{-}\\underline{1{,}920}&\\purpleD{20}\\\\ &768\\\\ &\\mathllap{-}\\underline{672}&\\purpleD{7}\\\\ &96\\\\ &\\mathllap{-}\\underline{96}&\\underline{{}+\\purpleD{1}}\\\\ &\\goldE{0}&\\greenE{28}\\\\ \\end{array}$  $\\purpleD{20} + \\purpleD{7} + \\purpleD{1}= \\greenE{28}$, so our quotient is $\\greenE{28}$, and we have no remainder.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$2{,}688 \\div 96=\\greenE{28}\\text{ remainder }\\goldE{0}$  [[☃ explanation 1]]",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "4-digit no remainder"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  || -: | :-  | remainder  ${90}\\overline{\\Big)3{,}060}$ |",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "1",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To divide larger numbers, we can split them into smaller numbers that we already know how to divide.  Let's think of a few multiples of $\\maroonD{90}$ that may be useful:  - $\\maroonD{90} \\times 2 = 180$ - $\\maroonD{90} \\times 3 = 270$ - $\\maroonD{90} \\times 4 = 360$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{90} \\times 40 $ is a little too large.    So, let's start by dividing $3{,}060$ into $\\purpleD{30}\\maroonD{\\text{ nineties}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{90}&\\overline{\\Big)3{,}060}\\\\ &\\mathllap{-}\\underline{\\blueE{2{,}700}}&\\purpleD{30}&\\maroonD{90} \\times \\purpleD{30} = \\blueE{2{,}700}\\\\ &360\\\\ \\end{array}$  We have $360$ left. So, let's try dividing $360$ into $4\\maroonD{\\text{ nineties}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{90}&\\overline{\\Big)3{,}060}\\\\ &\\mathllap{-}\\underline{2{,}700}&30\\\\ &360\\\\ &\\mathllap{-}\\underline{\\blueE{360}}&\\purpleD{4}&\\maroonD{90} \\times \\purpleD{4} = \\blueE{360}\\\\ &0\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} {90}&\\overline{\\Big)3{,}060}\\\\ &\\mathllap{-}\\underline{2{,}700}&\\purpleD{30}\\\\ &360\\\\ &\\mathllap{-}\\underline{360}&\\underline{{}+\\purpleD{4}}\\\\ &\\goldE{0}&\\greenE{34}\\\\ \\end{array}$  $\\purpleD{30} + \\purpleD{4}= \\greenE{34}$, so our quotient is $\\greenE{34}$, and we have no remainder.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "|| -: | :- $\\greenE{34}$ | remainder $\\goldE{0}$ ${90}\\overline{\\Big)3{,}060}$ |  [[☃ explanation 1]]",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "4-digit no remainder"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  || -: | :-  $5{,}680 \\div 80=$  |  remainder",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "1",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To divide larger numbers, we can split them into smaller numbers that we already know how to divide.  Let's think of a few multiples of $\\maroonD{80}$ that may be useful:  - $\\maroonD{80} \\times 5 = 400$ - $\\maroonD{80} \\times 7 = 560$ - $\\maroonD{80} \\times 8 = 640$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{80} \\times 70$ is close.    So, let's start by dividing $5{,}680$ into $\\purpleD{70}\\maroonD{\\text{ eighties}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{80}&\\overline{\\Big)5{,}680}\\\\ &\\mathllap{-}\\underline{\\blueE{5{,}600}}&\\purpleD{70}&\\maroonD{80} \\times \\purpleD{70} = \\blueE{5{,}600}\\\\ &80\\\\ \\end{array}$  We have $80$ left. So we can divide it into $1$ more $\\maroonD{\\text{eighty}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{80}&\\overline{\\Big)5{,}680}\\\\ &\\mathllap{-}\\underline{5{,}600}&70\\\\ &80\\\\ &\\mathllap{-}\\underline{\\blueE{80}}&\\purpleD{1}&\\maroonD{80} \\times \\purpleD{1} = \\blueE{80}\\\\ &0\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} {80}&\\overline{\\Big)5{,}680}\\\\ &\\mathllap{-}\\underline{5{,}600}&\\purpleD{70}\\\\ &80\\\\ &\\mathllap{-}\\underline{80}&\\underline{{}+\\purpleD{1}}\\\\ &\\goldE{0}&\\greenE{71}\\\\ \\end{array}$  $\\purpleD{70} + \\purpleD{1}= \\greenE{71}$, so our quotient is $\\greenE{71}$, and we have no remainder.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$5{,}680 \\div 80=\\greenE{71}\\text{ remainder }\\goldE{0}$  [[☃ explanation 1]]",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "4-digit no remainder"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  || -: | :-  | remainder  ${52}\\overline{\\Big)7{,}696}$ |",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "1",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To divide larger numbers, we can split them into smaller numbers that we already know how to divide.  Let's think of a few multiples of $\\maroonD{52}$ that may be useful:  - $\\maroonD{52} \\times 2 = 104$ - $\\maroonD{52} \\times 5 = 260$ - $\\maroonD{52} \\times 9 = 468$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{52} \\times 90 $ is a little too small.    So, let's start by dividing $7{,}696$ into $\\purpleD{100}\\maroonD{\\text{ fifty-twos}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{52}&\\overline{\\Big)7{,}696}\\\\ &\\mathllap{-}\\underline{\\blueE{5{,}200}}&\\purpleD{100}&\\maroonD{52} \\times \\purpleD{100} = \\blueE{5{,}200}\\\\ &2{,}496\\\\ \\end{array}$  We have $2{,}496$ left. That's a little less than $2{,}600$. So, let's try dividing $2{,}496$ into $40\\maroonD{\\text{ fifty-twos}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{52}&\\overline{\\Big)7{,}696}\\\\ &\\mathllap{-}\\underline{5{,}200}&100\\\\ &2{,}496\\\\ &\\mathllap{-}\\underline{\\blueE{2{,}080}}&\\purpleD{40}&\\maroonD{52} \\times \\purpleD{40} = \\blueE{2{,}080}\\\\ &416\\\\ \\end{array}$  We have $416$ left. That's a little less than $468$. So, let's try dividing $416$ into $8\\maroonD{\\text{ fifty-twos}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{52}&\\overline{\\Big)7{,}696}\\\\ &\\mathllap{-}\\underline{5{,}200}&100\\\\ &2{,}496\\\\ &\\mathllap{-}\\underline{2{,}080}&40\\\\ &416\\\\ &\\mathllap{-}\\underline{\\blueE{416}}&\\purpleD{8}&\\maroonD{52} \\times \\purpleD{8} = \\blueE{416}\\\\ &0\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} {52}&\\overline{\\Big)7{,}696}\\\\ &\\mathllap{-}\\underline{5{,}200}&\\purpleD{100}\\\\ &2{,}496\\\\ &\\mathllap{-}\\underline{2{,}080}&\\purpleD{40}\\\\ &416\\\\ &\\mathllap{-}\\underline{416}&\\underline{{}+\\purpleD{8}}\\\\ &\\goldE{0}&\\greenE{148}\\\\ \\end{array}$  $\\purpleD{100} + \\purpleD{40} + \\purpleD{8}= \\greenE{148}$, so our quotient is $\\greenE{148}$, and we have no remainder.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "|| -: | :- $\\greenE{148}$ | remainder $\\goldE{0}$ ${52}\\overline{\\Big)7{,}696}$ |  [[☃ explanation 1]]",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "4-digit no remainder"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  || -: | :-  $8{,}370 \\div 62=$  |  remainder",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "1",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To divide larger numbers, we can split them into smaller numbers that we already know how to divide.  Let's think of a few multiples of $\\maroonD{62}$ that may be useful:  - $\\maroonD{62} \\times 4 = 248$ - $\\maroonD{62} \\times 5 = 310$ - $\\maroonD{62} \\times 9 = 558$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{62} \\times 90$ is a little too small.    So, let's start by dividing $8{,}370$ into $\\purpleD{100}\\maroonD{\\text{ sixty-twos}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{62}&\\overline{\\Big)8{,}370}\\\\ &\\mathllap{-}\\underline{\\blueE{6{,}200}}&\\purpleD{100}&\\maroonD{62} \\times \\purpleD{100} = \\blueE{6{,}200}\\\\ &2{,}170\\\\ \\end{array}$  We have $2{,}170$ left. That's a little less than $2{,}480$. So, let's try dividing $2{,}170$ into $30\\maroonD{\\text{ sixty-twos}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{62}&\\overline{\\Big)8{,}370}\\\\ &\\mathllap{-}\\underline{6{,}200}&100\\\\ &2{,}170\\\\ &\\mathllap{-}\\underline{\\blueE{1{,}860}}&\\purpleD{30}&\\maroonD{62} \\times \\purpleD{30} = \\blueE{1860}\\\\ &310\\\\ \\end{array}$  We have $310$ left. So, let's try dividing $310$ into $5\\maroonD{\\text{ sixty-twos}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{62}&\\overline{\\Big)8{,}370}\\\\ &\\mathllap{-}\\underline{6{,}200}&100\\\\ &2{,}170\\\\ &\\mathllap{-}\\underline{1{,}860}&30\\\\ &310\\\\ &\\mathllap{-}\\underline{\\blueE{310}}&\\purpleD{5}&\\maroonD{62} \\times \\purpleD{5} = \\blueE{310}\\\\ &0\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} {62}&\\overline{\\Big)8{,}370}\\\\ &\\mathllap{-}\\underline{6{,}200}&\\purpleD{100}\\\\ &2{,}170\\\\ &\\mathllap{-}\\underline{1{,}860}&\\purpleD{30}\\\\ &310\\\\ &\\mathllap{-}\\underline{310}&\\underline{{}+\\purpleD{5}}\\\\ &\\goldE{0}&\\greenE{135}\\\\ \\end{array}$  $\\purpleD{100} + \\purpleD{30} + \\purpleD{5}= \\greenE{135}$, so our quotient is $\\greenE{135}$, and we have no remainder.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$8{,}370 \\div 62=\\greenE{135}\\text{ remainder }\\goldE{0}$  [[☃ explanation 1]]",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "4-digit no remainder"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  || -: | :-  | remainder  ${20}\\overline{\\Big)2{,}311}$ |",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "11",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To divide larger numbers, we can split them into smaller numbers that we already know how to divide.  Let's think of a few multiples of $\\maroonD{20}$ that may be useful:  - $\\maroonD{20} \\times 2 = 40$ - $\\maroonD{20} \\times 3 = 60$ - $\\maroonD{20} \\times 5 = 100$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{20} \\times 200 $ is too large.    So, let's start by dividing $2{,}311$ into $\\purpleD{100}\\maroonD{\\text{ twenties}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{20}&\\overline{\\Big)2{,}311}\\\\ &\\mathllap{-}\\underline{\\blueE{2{,}000}}&\\purpleD{100}&\\maroonD{20} \\times \\purpleD{100} = \\blueE{2{,}000}\\\\ &311\\\\ \\end{array}$  We have $311$ left. That's a little less than $400$. So, let's try dividing $311$ into $10\\maroonD{\\text{ twenties}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{20}&\\overline{\\Big)2{,}311}\\\\ &\\mathllap{-}\\underline{2{,}000}&100\\\\ &311\\\\ &\\mathllap{-}\\underline{\\blueE{200}}&\\purpleD{10}&\\maroonD{20} \\times \\purpleD{10} = \\blueE{200}\\\\ &111\\\\ \\end{array}$  We have $111$ left. That's a little more than $100$. So, let's try dividing $111$ into $5\\maroonD{\\text{ twenties}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{20}&\\overline{\\Big)2{,}311}\\\\ &\\mathllap{-}\\underline{2{,}000}&100\\\\ &311\\\\ &\\mathllap{-}\\underline{200}&10\\\\ &111\\\\ &\\mathllap{-}\\underline{\\blueE{100}}&\\purpleD{5}&\\maroonD{20} \\times \\purpleD{5} = \\blueE{100}\\\\ &11\\\\ \\end{array}$  We have $11$ left. That's less than $\\maroonD{20}$, so we're done dividing.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} {20}&\\overline{\\Big)2{,}311}\\\\ &\\mathllap{-}\\underline{2{,}000}&\\purpleD{100}\\\\ &311\\\\ &\\mathllap{-}\\underline{200}&\\purpleD{10}\\\\ &111\\\\ &\\mathllap{-}\\underline{100}&\\underline{{}+\\purpleD{5}}\\\\ &\\goldE{11}&\\greenE{115}\\\\ \\end{array}$  $\\purpleD{100} + \\purpleD{10} + \\purpleD{5}= \\greenE{115}$, so our quotient is $\\greenE{115}$, and our remainder is $\\goldE{11}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "|| -: | :- $\\greenE{115}$ | remainder $\\goldE{11}$ ${20}\\overline{\\Big)2{,}311}$ |  [[☃ explanation 1]]",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "4-digit remainder"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  || -: | :- $3{,}050 \\div 75=$  |  remainder",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "50",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To divide larger numbers, we can split them into smaller numbers that we already know how to divide.  Let's think of a few multiples of $\\maroonD{75}$ that may be useful:  - $\\maroonD{75} \\times 2 = 150$ - $\\maroonD{75} \\times 4 = 300$ - $\\maroonD{75} \\times 8 = 600$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{75} \\times 40 $ is close.    So, let's start by dividing $3{,}050$ into $\\purpleD{40}\\maroonD{\\text{ seventy-fives}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{75}&\\overline{\\Big)3{,}050}\\\\ &\\mathllap{-}\\underline{\\blueE{3{,}000}}&\\purpleD{40}&\\maroonD{75} \\times \\purpleD{40} = \\blueE{3{,}000}\\\\ &50\\\\ \\end{array}$  We have $50$ left. That's less than $\\maroonD{75}$, so we're done dividing.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} {75}&\\overline{\\Big)3{,}050}\\\\ &\\mathllap{-}\\underline{3{,}000}&\\underline{{}+\\purpleD{40}}\\\\ &\\goldE{50}&\\greenE{40}\\\\ \\end{array}$  So our quotient is $\\greenE{40}$, and our remainder is $\\goldE{50}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$3{,}050 \\div 75=\\greenE{40}\\text{ remainder }\\goldE{50}$  [[☃ explanation 1]]",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "4-digit remainder"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  || -: | :-  | remainder  ${44}\\overline{\\Big)4{,}843}$ |",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "3",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To divide larger numbers, we can split them into smaller numbers that we already know how to divide.  Let's think of a few multiples of $\\maroonD{44}$ that may be useful:  - $\\maroonD{44} \\times 2 = 88$ - $\\maroonD{44} \\times 4 = 176$ - $\\maroonD{44} \\times 8 = 352$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{44} \\times 100 $ is close.    So, let's start by dividing $4{,}843$ into $\\purpleD{100}\\maroonD{\\text{ forty-fours}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{44}&\\overline{\\Big)4{,}843}\\\\ &\\mathllap{-}\\underline{\\blueE{4{,}400}}&\\purpleD{100}&\\maroonD{44} \\times \\purpleD{100} = \\blueE{4{,}400}\\\\ &443\\\\ \\end{array}$  We have $443$ left. That's a little more than $440$. So, let's try dividing $443$ into $10\\maroonD{\\text{ forty-fours}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{44}&\\overline{\\Big)4{,}843}\\\\ &\\mathllap{-}\\underline{4{,}400}&100\\\\ &443\\\\ &\\mathllap{-}\\underline{\\blueE{440}}&\\purpleD{10}&\\maroonD{44} \\times \\purpleD{10} = \\blueE{440}\\\\ &3\\\\ \\end{array}$  We have $3$ left. That's less than $\\maroonD{44}$, so we're done dividing.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} {44}&\\overline{\\Big)4{,}843}\\\\ &\\mathllap{-}\\underline{4{,}400}&\\purpleD{100}\\\\ &443\\\\ &\\mathllap{-}\\underline{440}&\\underline{{}+\\purpleD{10}}\\\\ &\\goldE{3}&\\greenE{110}\\\\ \\end{array}$  $\\purpleD{100} + \\purpleD{10}= \\greenE{110}$, so our quotient is $\\greenE{110}$, and our remainder is $\\goldE{3}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "|| -: | :- $\\greenE{110}$ | remainder $\\goldE{3}$ ${44}\\overline{\\Big)4{,}843}$ |  [[☃ explanation 1]]",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "4-digit remainder"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  || -: | :- $6{,}338 \\div 43=$  |  remainder",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "17",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To divide larger numbers, we can split them into smaller numbers that we already know how to divide.  Let's think of a few multiples of $\\maroonD{43}$ that may be useful:  - $\\maroonD{43} \\times 2 = 86$ - $\\maroonD{43} \\times 4 = 172$ - $\\maroonD{43} \\times 5 = 215$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{43} \\times 200$ is too large.    So, let's start by dividing $6{,}338$ into $\\purpleD{100}\\maroonD{\\text{ forty-threes}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{43}&\\overline{\\Big)6{,}338}\\\\ &\\mathllap{-}\\underline{\\blueE{4{,}300}}&\\purpleD{100}&\\maroonD{43} \\times \\purpleD{100} = \\blueE{4{,}300}\\\\ &2{,}038\\\\ \\end{array}$  We have $2{,}038$ left. That's a little less than $2{,}150$. So, let's try dividing $2{,}038$ into $40\\maroonD{\\text{ forty-threes}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{43}&\\overline{\\Big)6{,}338}\\\\ &\\mathllap{-}\\underline{4{,}300}&100\\\\ &2{,}038\\\\ &\\mathllap{-}\\underline{\\blueE{1{,}720}}&\\purpleD{40}&\\maroonD{43} \\times \\purpleD{40} = \\blueE{1{,}720}\\\\ &318\\\\ \\end{array}$  We have $318$ left. We know that $40\\times 8=320$. So, let's try dividing $318$ into $7\\maroonD{\\text{ forty-threes}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{43}&\\overline{\\Big)6{,}338}\\\\ &\\mathllap{-}\\underline{4{,}300}&100\\\\ &2{,}038\\\\ &\\mathllap{-}\\underline{1{,}720}&40\\\\ &318\\\\ &\\mathllap{-}\\underline{\\blueE{301}}&\\purpleD{7}&\\maroonD{43} \\times \\purpleD{7} = \\blueE{301}\\\\ &17\\\\ \\end{array}$  We have $17$ left. That's less than $\\maroonD{43}$, so we're done dividing.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} {43}&\\overline{\\Big)6{,}338}\\\\ &\\mathllap{-}\\underline{4{,}300}&\\purpleD{100}\\\\ &2{,}038\\\\ &\\mathllap{-}\\underline{1{,}720}&\\purpleD{40}\\\\ &318\\\\ &\\mathllap{-}\\underline{301}&\\underline{{}+\\purpleD{7}}\\\\ &\\goldE{17}&\\greenE{147}\\\\ \\end{array}$  $\\purpleD{100} + \\purpleD{40} + \\purpleD{7}= \\greenE{147}$, so our quotient is $\\greenE{147}$, and our remainder is $\\goldE{17}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$6{,}338 \\div 43=\\greenE{147}\\text{ remainder }\\goldE{17}$  [[☃ explanation 1]]",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "4-digit remainder"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  || -: | :-  | remainder  ${31}\\overline{\\Big)8{,}203}$ |",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "19",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To divide larger numbers, we can split them into smaller numbers that we already know how to divide.  Let's think of a few multiples of $\\maroonD{31}$ that may be useful:  - $\\maroonD{31} \\times 2 = 62$ - $\\maroonD{31} \\times 3 = 93$ - $\\maroonD{31} \\times 4 = 124$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{31} \\times 300 $ is a little too large.    So, let's start by dividing $8{,}203$ into $\\purpleD{200}\\maroonD{\\text{ thirty-ones}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{31}&\\overline{\\Big)8{,}203}\\\\ &\\mathllap{-}\\underline{\\blueE{6{,}200}}&\\purpleD{200}&\\maroonD{31} \\times \\purpleD{200} = \\blueE{6{,}200}\\\\ &2{,}003\\\\ \\end{array}$  We have $2{,}003$ left. We know that $30 \\times 60=1{,}800$. So, let's try dividing $2{,}003$ into $60\\maroonD{\\text{ thirty-ones}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{31}&\\overline{\\Big)8{,}203}\\\\ &\\mathllap{-}\\underline{6{,}200}&200\\\\ &2{,}003\\\\ &\\mathllap{-}\\underline{\\blueE{1{,}860}}&\\purpleD{60}&\\maroonD{31} \\times \\purpleD{60} = \\blueE{1{,}860}\\\\ &143\\\\ \\end{array}$  We have $143$ left. That's a little more than $124$. So, let's try dividing $143$ into $4\\maroonD{\\text{ thirty-ones}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{31}&\\overline{\\Big)8{,}203}\\\\ &\\mathllap{-}\\underline{6{,}200}&200\\\\ &2{,}003\\\\ &\\mathllap{-}\\underline{1{,}860}&60\\\\ &143\\\\ &\\mathllap{-}\\underline{\\blueE{124}}&\\purpleD{4}&\\maroonD{31} \\times \\purpleD{4} = \\blueE{124}\\\\ &19\\\\ \\end{array}$  We have $19$ left. That's less than $\\maroonD{31}$, so we're done dividing.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} {31}&\\overline{\\Big)8{,}203}\\\\ &\\mathllap{-}\\underline{6{,}200}&\\purpleD{200}\\\\ &2{,}003\\\\ &\\mathllap{-}\\underline{1{,}860}&\\purpleD{60}\\\\ &143\\\\ &\\mathllap{-}\\underline{124}&\\underline{{}+\\purpleD{4}}\\\\ &\\goldE{19}&\\greenE{264}\\\\ \\end{array}$  $\\purpleD{200} + \\purpleD{60} + \\purpleD{4}= \\greenE{264}$, so our quotient is $\\greenE{264}$, and our remainder is $\\goldE{19}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "|| -: | :- $\\greenE{264}$ | remainder $\\goldE{19}$ ${31}\\overline{\\Big)8{,}203}$ |  [[☃ explanation 1]]",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "4-digit remainder"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  || -: | :- $9{,}492\\div 20=$  |  remainder",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "12",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To divide larger numbers, we can split them into smaller numbers that we already know how to divide.  Let's think of a few multiples of $\\maroonD{20}$ that may be useful:  - $\\maroonD{20} \\times 2 = 40$ - $\\maroonD{20} \\times 4 = 80$ - $\\maroonD{20} \\times 8 = 160$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{20} \\times 400$ is close.    So, let's start by dividing $9{,}492$ into $\\purpleD{400}\\maroonD{\\text{ twenties}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{20}&\\overline{\\Big)9{,}492}\\\\ &\\mathllap{-}\\underline{\\blueE{8{,}000}}&\\purpleD{400}&\\maroonD{20} \\times \\purpleD{400} = \\blueE{8{,}000}\\\\ &1{,}492\\\\ \\end{array}$  We have $1{,}492$ left. That's a little less than $1{,}600$. So, let's try dividing $1{,}492$ into $70\\maroonD{\\text{ twenties}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{20}&\\overline{\\Big)9{,}492}\\\\ &\\mathllap{-}\\underline{8{,}000}&400\\\\ &1{,}492\\\\ &\\mathllap{-}\\underline{\\blueE{1{,}400}}&\\purpleD{70}&\\maroonD{20} \\times \\purpleD{70} = \\blueE{1{,}400}\\\\ &92\\\\ \\end{array}$  We have $92$ left. That's a little more than $80$. So, let's try dividing $92$ into $4\\maroonD{\\text{ twenties}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{20}&\\overline{\\Big)9{,}492}\\\\ &\\mathllap{-}\\underline{8{,}000}&400\\\\ &1{,}492\\\\ &\\mathllap{-}\\underline{1{,}400}&70\\\\ &92\\\\ &\\mathllap{-}\\underline{\\blueE{80}}&\\purpleD{4}&\\maroonD{20} \\times \\purpleD{4} = \\blueE{80}\\\\ &12\\\\ \\end{array}$  We have $12$ left. That's less than $\\maroonD{20}$, so we're done dividing.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} {20}&\\overline{\\Big)9{,}492}\\\\ &\\mathllap{-}\\underline{8{,}000}&\\purpleD{400}\\\\ &1{,}492\\\\ &\\mathllap{-}\\underline{1{,}400}&\\purpleD{70}\\\\ &92\\\\ &\\mathllap{-}\\underline{80}&\\underline{{}+\\purpleD{4}}\\\\ &\\goldE{12}&\\greenE{474}\\\\ \\end{array}$  $\\purpleD{400} + \\purpleD{70} + \\purpleD{4}= \\greenE{474}$, so our quotient is $\\greenE{474}$, and our remainder is $\\goldE{12}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$9{,}492 \\div 20=\\greenE{474}\\text{ remainder }\\goldE{12}$  [[☃ explanation 1]]",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "4-digit remainder"
+                    }
+                }
+            }
+        }
+    ]
+}

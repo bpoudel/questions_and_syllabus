@@ -1,0 +1,588 @@
+{
+    "standard_metadata": {
+        "standard_id": "8.G.B.7",
+        "standard_description": "Apply the Pythagorean Theorem to determine unknown side lengths in right triangles in real-world and mathematical problems in two and three dimensions.",
+        "standard_title": "Pythagorean theorem in 3D",
+        "standard_url": "https://www.khanacademy.org/math/geometry/hs-geo-trig/hs-geo-pyth-theorem/e/pythagorean-theorem-in-3d"
+    },
+    "id": "x15318664",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the length of the diagonal, $d$, of the rectangular prism shown below?**   *Round your answer to the nearest tenth.*  $\\qquad$    The length is  units.",
+                                "images": [
+                                    {
+                                        "alt": "A rectangular prism that has a length of eight units, a width of two units, and a height of five units. Diagonal D starts at the bottom left corner of the front face of the prism and ends at the top left corner of the back face. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/7ae8b6712f9022b4b530e6c4bf738bb0a2ecd26a.png"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "9.6",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We see that $d$ is the hypotenuse of a right triangle with legs $5$ and $r$.  First, let's find the length of $r$.  $\\qquad$  [[☃ image 1]]  We see that $r$ is the hypotenuse of a right triangle with legs $2$ units and $8$ units.  Therefore, using the Pythagorean Theorem, we have:   $\\qquad\\begin{align} 2^2+8^2&=r^2\\\\r^2&=68\\\\r&=\\sqrt{68}\\end{align}$",
+                                    "images": [
+                                        {
+                                            "alt": "A rectangular prism that has a length of eight units, a width of two units, and a height of five units. Diagonal D starts at the bottom left corner of the front face of the prism and ends at the top left corner of the back face. R is the diagonal of the base.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/3f52684cdb4ca7b934681c45a7b4c1c25168f86f.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We'll use the Pythagorean Theorem again to find $d$ (rounded to the nearest tenth).  $\\qquad\\begin{align} 5^2+\\sqrt{68}^2&=d^2\\\\d^2&=25+68\\\\d&=\\sqrt{93}\\\\&\\approx9.6\\end{align}$    In fact, we can see that:   $\\qquad d^2=2^2+5^2+8^2$  This is the Pythagorean Theorem in $3$ dimensions!",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The length of the diagonal rounded to the nearest tenth is $9.6$ units.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Rectangular prism"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the length of the diagonal, $d$, of the cube shown below?**   *Round your answer to the nearest tenth.*      The length is  units.",
+                                "images": [
+                                    {
+                                        "alt": "A cube that has a length, width, and height of sixty units. Diagonal D starts at the bottom right corner of the front face of the prism and ends at the top left corner of the back face. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/93856c3a236c26f754d4ba0a786883e50f3f1015.png"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "103.9",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We see that $d$ is the hypotenuse of a right triangle with legs $60$ and $r$.  First, let's find the length of $r$.  $\\qquad$[[☃ image 1]]  Since $r$ is the hypotenuse of an isosceles right triangle with legs $60$ units, we can  use the Pythagorean Theorem:  $\\qquad\\begin{align} 60^2+60^2&=r^2\\\\r^2&=7200\\\\r&=\\sqrt{7200}\\end{align}$",
+                                    "images": [
+                                        {
+                                            "alt": "A cube that has a length, width, and height of sixty units. Diagonal D starts at the bottom right corner of the front face of the prism and ends at the top left corner of the back face. R is the diagonal of the base.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/80a255963a6d0b88f77038d2b730dd6830fa6da6.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We'll use the Pythagorean Theorem again to find $d$ (rounded to the nearest tenth).  $\\qquad\\begin{align} 60^2+\\sqrt{7200}^2&=d^2\\\\d^2&=3600+7200\\\\d&=\\sqrt{10{,}800}\\\\d&\\approx103.9\\end{align}$    In fact, we can see that:   $\\qquad d^2=60^2+60^2+60^2$  This is the Pythagorean Theorem in $3$ dimensions!",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The length of the diagonal of the cube rounded to the nearest tenth is $103.9$ units.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Rectangular prism"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the length of the diagonal, $d$, of the rectangular prism shown below?**   *Round your answer to the nearest tenth.*      The length is  units.",
+                                "images": [
+                                    {
+                                        "alt": "A rectangular prism that has a length of two units, a width of three units, and a height of six units. Diagonal D starts at the bottom left corner of the front face of the prism and ends at the top right corner of the back face. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/a8a6a474d78bf4af4dcc584ab05c5e286b5d4cfb.png"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "7",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We see that $d$ is the hypotenuse of a right triangle with legs $6$ and $r$.  First, let's find the length of $r$.    [[☃ image 1]]  We see that $r$ is the hypotenuse of a right triangle with legs $2$ units and $3$ units.  Therefore, using the Pythagorean Theorem, we have:   $\\qquad\\begin{align} 2^2+3^2&=r^2\\\\r^2&=13\\\\r&=\\sqrt{13}\\end{align}$",
+                                    "images": [
+                                        {
+                                            "alt": "A rectangular prism that has a length of two units, a width of three units, and a height of six units. Diagonal D starts at the bottom left corner of the front face of the prism and ends at the top right corner of the back face. R is the diagonal of the base.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/6623048e93ad09b27ffc9102c21e9becf643f6a2.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We'll use the Pythagorean Theorem again to find $d$:  $\\qquad\\begin{align} 6^2+\\sqrt{13}^2&=d^2\\\\d^2&=36+13\\\\d^2&=49\\\\d&=7\\end{align}$  In fact, we can see that:   $\\qquad d^2=2^2+3^2+6^2$  This is the Pythagorean Theorem in $3$ dimensions!",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The length of the diagonal is $7$ units.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Rectangular prism"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the height, $h$, of the rectangular prism shown below?**   *Round your answer to the nearest tenth.*      The height is  units.",
+                                "images": [
+                                    {
+                                        "alt": "A rectangular prism that has a length of four units, a width of three units, and a height of h units. A diagonal that is square root of thirty-four units starts at the bottom left corner of the front face of the prism and ends at the top right corner of the back face. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/8ec55c6591331c9680c18027d241a017c65f74eb.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "3",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We see that $\\sqrt{34}$ is the hypotenuse of a right triangle with legs $h$ and $r$.  First, let's find the length of $r$.    [[☃ image 1]]  We see that $r$ is the hypotenuse of a right triangle with legs of $3$ units and $4$ units.  Therefore, using the Pythagorean Theorem, we have:   $\\qquad\\begin{align} 3^2+4^2&=r^2\\\\r^2&=25\\\\r&=5\\end{align}$",
+                                    "images": [
+                                        {
+                                            "alt": "A rectangular prism that has a length of four units, a width of three units, and a height of h units. A diagonal that is square root of thirty-four units starts at the bottom left corner of the front face of the prism and ends at the top right corner of the back face. R is the diagonal of the base.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/8c08c720b7391eb3ad1d413050bd2a0068e08b21.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We'll use the Pythagorean Theorem again to find $h$:  $\\qquad\\begin{align} 5^2+h^2&=\\sqrt{34}^2\\\\25 + h^2 & = 34 \\\\h^2 & = 9 \\\\ h& = 3\\\\ \\end{align}$   In fact, we can see that:   $\\qquad \\sqrt{34}^2=3^2+4^2+3^2$  This is the Pythagorean Theorem in $3$ dimensions!",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The height is $3$ units.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Rectangular prism"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the length of the diagonal, $d$, of the rectangular prism shown below?**   *Round your answer to the nearest tenth.*      The length is  units.",
+                                "images": [
+                                    {
+                                        "alt": "A rectangular prism that has a length of seven units, a width of four units, and a height of two units. A diagonal d starts at the bottom left corner of the front face of the prism and ends at the top right corner of the back face.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/7cf2c286cd03cbd9b53d557ca9b1c134f1f176d5.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "8.3",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We see that $d$ is the hypotenuse of a right triangle with legs $2$ and $r$.  First, let's find the length of $r$.    [[☃ image 1]]  We see that $r$ is the hypotenuse of a right triangle with legs $7$ units and $4$ units.  Therefore, using the Pythagorean Theorem, we have:   $\\qquad\\begin{align} 7^2+4^2&=r^2\\\\r^2&=65\\\\r&=\\sqrt{65}\\end{align}$",
+                                    "images": [
+                                        {
+                                            "alt": "A rectangular prism that has a length of seven units, a width of four units, and a height of two units. A diagonal d starts at the bottom left corner of the front face of the prism and ends at the top right corner of the back face. R is the diagonal of the base.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/26e7adb39021cfa4671d76fe117dc7d26bbe5b80.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We'll use the Pythagorean Theorem again to find $d$:  $\\qquad\\begin{align} 2^2+\\sqrt{65}^2&=d^2\\\\4 + 65 & = d^2 \\\\ 69 & = d^2 \\\\ \\sqrt{69} & = d\\\\ 8.306 &\\approx d\\end{align}$   In fact, we can see that:   $\\qquad d^2=2^2+7^2+4^2$  This is the Pythagorean Theorem in $3$ dimensions!",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The length of the diagonal rounded to the nearest tenth is $8.3$ units.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Rectangular prism"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Each vertical cross-section of the triangular prism shown below is an isosceles triangle.      **What is the vertical height, $h$, of the triangular prism?**    *Round your answer to the nearest tenth.*  The height is  units.",
+                                "images": [
+                                    {
+                                        "alt": "A triangular prism with a vertical height of h units, a base of six units, and a slant height of three square root two units.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/1f1609e2b921558de2f75699a7ca9d333628cbe7.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "3",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "In order to find $h$, we see that it is the height of a right triangle where the other leg  is $3$ and  the slanted side is $3\\sqrt2$.     [[☃ image 1]]  From the Pythagorean Theorem, we have:  $\\begin{align}h^2+3^2&=(3\\sqrt2)^2\\\\\\\\ h^2+9&=9\\cdot 2\\\\\\\\ h^2&=9\\\\\\\\ h&=3\\end{align}$",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle with a height of h units, a base of six divided by two equals three units, and a slanted side of three square root two units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/40d84e3a36a7d542b768032b0a873cdfc5f070aa.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The height  is $3$  units.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Triangular prism"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The triangular prism shown below is $6 \\,\\text{cm}$  wide and $4\\,\\text{cm}$ deep.  The vertical height is $7\\,\\text{cm}$.      **What is the length of the side edge, $s$,  of the triangular prism?**    *Round your answer to the nearest tenth.*  The length is  $\\text{cm}$.",
+                                "images": [
+                                    {
+                                        "alt": "A triangular prism with a side edge labeled s.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-images/051ac8c00642765f77fb3ce1c07739357c373859.jpg.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "7.6",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's start by labeling the given information in a diagram.   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A triangular prism with a side edge labeled s. It has a vertical height of seven centimeters, a width of six centimeters, and a length of four centimeters.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/81dd2b8d9ccc770b4fd5eeab03d733763ee4fc9b.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "To find the length, $s$, of the side edge, let's consider just the triangular face:    [[☃ image 1]]  We can split it into two right triangles. Here's one of them:    [[☃ image 2]]  The height of the triangle is $7$ units because this is the height of the prism.   The base of one of the right triangles is $\\dfrac12(6)=3$.  From the Pythagorean Theorem, we have:  $\\begin{align}7^2+3^2&=s^2\\\\  s^2&=58\\\\s&\\approx7.6\\end{align}$  (Rounded to the nearest tenth)",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle has a base of six. Its height of seven. The slanted side is s units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/5999e573d96bc257dc5d40bbbb87a0bf080b8da6.svg"
+                                        },
+                                        {
+                                            "alt": "A right triangle with a base of three units, a height of seven units, and a slanted side being s units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/62601a31db7fe1949af2650ab644555be7e7b490.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The length of the side edge rounded to the nearest tenth is $7.6\\,\\text{cm}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Triangular prism"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Each vertical cross-section of the triangular prism shown below is an isosceles triangle.      **What is the slant height, $s$, of the triangular prism?**    *Round your answer to the nearest tenth.*  The slant height is  units.",
+                                "images": [
+                                    {
+                                        "alt": "A triangular prism. The triangular face has a base of four units and a height of five units. One of the non-base sides of the triangular face is labeled S.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/104faddfe5ad0139ab38fed0bd68a6d65daee73e.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "5.4",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We see that $s$ is the hypotenuse of a right triangle. One leg of the right triangle is $5$. The other leg is $2$, which is half the  base of the isosceles triangle.    [[☃ image 1]]  From the Pythagorean Theorem, we have:  $ \\begin{align}2^2+5^2&=s^2\\\\ 4+25 & = s^2\\\\ 29&=s^2\\\\ \\sqrt{29} & =s \\\\ 5.385 & \\approx s \\end{align}$",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle with a height of five units, a base of four units, and a slanted side of s units. The base is bisected where the base is split into two units and two units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/b1f3681dbff5511d9a99abf8aa4d406594f81d39.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The slant height  rounded to the nearest tenth is $5.4$  units.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Triangular prism"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Each vertical cross-section of the triangular prism shown below is an isosceles triangle.      **What is the height, $h$, of the triangular prism?**    *Round your answer to the nearest tenth.*  The height is  units.",
+                                "images": [
+                                    {
+                                        "alt": "A triangular prism. The triangular face has a base of eight units and a height of h units. One of the non-base sides of the triangular face is five units.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/5f6ff8d3436959baeb5af55952f3d23235af2cd1.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "3",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We see that $5$ is the hypotenuse of a right triangle. One leg of the right triangle is h. The other leg is $4$, which is half the  base of the isosceles triangle.    [[☃ image 1]]  From the Pythagorean Theorem, we have:  $ \\begin{align}h^2+4^2&=5^2\\\\ h^2+16 & = 25\\\\ h^2&=9\\\\ h & = 3 \\end{align}$",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle with a height of h units, a base of eight units, and a slanted side of five units. The base is bisected where the base is split into four units and four units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d5733c323bda3d08b7300b54d7987d0a5d35fbed.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The height  is $3$  units.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Triangular prism"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The square pyramid shown below has a base with sides of $12$ units.  The vertical height of the pyramid is $15$ units.       **What is the length of  $s$ (the height of one of the triangular faces)?**     *Round your answer to the nearest tenth.*  The length of $s$ is  units.",
+                                "images": [
+                                    {
+                                        "alt": "A square pyramid that has a base with a side length of twelve units and a height of fifteen units. A right triangle is highlighted in the square pyramid. One leg of the triangle is from the center of the base to the apex of the pyramid. It is the same as the height as the pyramid. The other leg of the triangle is from the center of the base to the edge of the base. It is half the size of the side length of the pyramid. The hypotenuse is the height of one of the triangular faces of the pyramid and is labeled S.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/153c33a1f77284e3eeb6d1cd2a9d61a330bb6403.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "16.2",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We  can use the Pythagorean Theorem to find the length of  $s$.  The equation for the Pythagorean Theorem is   >$a^2 + b^2  = c^2$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We see that $s$ is the hypotenuse of a right triangle. One leg of the right triangle is $15$. The other leg is $6$, which is half the  length of the base.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A right triangle with a height of fifteen units, a base of twelve divided by two equals six units, and the slanted side being s units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/4834683c3467e6b412f126dda84d09c3fc724ec9.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We have:  $\\begin{align}a^2+b^2&=c^2\\\\ 6^2 +15^2 & = s^2 \\\\ 36 + 225 & = s^2 \\\\ 261&=s^2\\\\ \\sqrt{261} & = s\\\\ 16.155 & \\approx s\\\\ \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The length of $s$ rounded to the nearest tenth is $16.2$ units.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Pyramid"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The square pyramid shown below has a base with sides of $10$ units.  The slant  height of the pyramid is $8$ units.       **What is the vertical height, $h$?**     *Round your answer to the nearest tenth.*  The height is  units.",
+                                "images": [
+                                    {
+                                        "alt": "A square pyramid that has a base with a side length of ten units and a vertical height of h units. A right triangle is highlighted in the square pyramid. One leg of the triangle is from the center of the base to the apex of the pyramid. It is the same as the height as the pyramid. The other leg of the triangle is from the center of the base to the edge of the base. It is half the size of the side length of the pyramid. The hypotenuse is the height of one of the triangular faces of the pyramid and is eight units.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/2f31c9762d6d0aeb93235a9dfbcaee3af68e28ff.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "6.2",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We  can use the Pythagorean Theorem to find  $h$.  The equation for the Pythagorean Theorem is   >$a^2 + b^2  = c^2$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We see that the hypotenuse of the right triangle is $8$. One leg  is $h$. The other leg is $5$, which is half the  length of the base.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A right triangle with a height of h units, a base of ten divided by two equals five units, and the slanted side being eight units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/f19055b4b75b1805a8215955da17d67090d76761.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We have:  $\\begin{align}a^2+b^2&=c^2\\\\ 5^2 +h^2 & = 8^2 \\\\ 25 + h^2 & = 64 \\\\ h^2&=39\\\\ h & = \\sqrt{39}  \\\\ h & \\approx 6.244 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The height rounded to the nearest tenth is $6.2$ units.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Pyramid"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The square pyramid shown below has a slant  height of $17$ units and a vertical height of $15$ units.       **What is the length of one side of the pyramid's base?**       The length of one side of the base is  units.",
+                                "images": [
+                                    {
+                                        "alt": "A square pyramid that has a base with a side length of b units and a vertical height of fifteen units. A right triangle is highlighted in the square pyramid. One leg of the triangle is from the center of the base to the apex of the pyramid. It is the same as the height as the pyramid. The other leg of the triangle is from the center of the base to the edge of the base. It is half the size of the side length of the pyramid. The hypotenuse is the height of one of the triangular faces of the pyramid and is seventeen units.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/814b0dd5cdca4979bda852b62022aeecfbd83f60.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "16",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We  can use the Pythagorean Theorem to find the length of the base.  The equation for the Pythagorean Theorem is   >$a^2 + b^2  = c^2$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We see that the hypotenuse of the right triangle is $17$. One leg  is $x$ and the other leg is $15$.   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A right triangle with a height of fifteen units, a base of b divided by two equals x units, and the slanted side being seventeen units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/84c3c7e28741172a366b367d0307a5f0234e0a3f.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We have:  $\\begin{align}a^2+b^2&=c^2\\\\ x^2 +15^2 & = 17^2 \\\\ x^2 + 225 & = 289 \\\\ x^2&=64\\\\ x & = 8  \\\\ \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The leg that forms half the square base is $8$. To find the total length of the base we can multiply.  $8 \\cdot 2 = 16$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The length of one side of the pyramid's base is $16$ units.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Pyramid"
+                    }
+                }
+            }
+        }
+    ]
+}

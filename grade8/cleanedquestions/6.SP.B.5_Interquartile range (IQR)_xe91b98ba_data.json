@@ -1,0 +1,928 @@
+{
+    "standard_metadata": {
+        "standard_id": "6.SP.B.5",
+        "standard_description": "Summarize numerical data sets in relation to their context.",
+        "standard_title": "Interquartile range (IQR)",
+        "standard_url": "https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-data-statistics/cc-6th/e/calculating-the-interquartile-range--iqr-"
+    },
+    "id": "xe91b98ba",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following data points represent the number of quesadillas each person at Toby's Tacos ate.  *Answer $2$ questions about the data set.*  1. **Sort the data from least to greatest.**    2. **Find the interquartile range (IQR) of the data set.**   quesadillas",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "1",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "0.75",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **interquartile range** is the amount of spread in the middle $50\\%$ of the data set.  It is the positive difference between the third quartile and the first quartile.  $\\text{IQR} = Q_3-Q_1$  Make sure to sort the numbers before finding the median, $Q_1$, and $Q_3$!",
+                                    "images": []
+                                },
+                                {
+                                    "content": "To find the quartiles, let's first find the median by sorting the data points from least to greatest.    $\\underbrace{0\\text{, }0\\text{, }\\dfrac{1}{4}\\text{, }\\dfrac{1}{2}\\text{, }\\dfrac{1}{2}}_\\text{lower half}\\text{, }  \\purpleD{1}\\text{, }\\underbrace{1\\text{, }1\\text{, }\\dfrac{5}{4}\\text{, }2\\text{, }2}_\\text{upper half}$  There was an *odd* number of data points. So the median is the middle number.  The median is $\\purpleD{1}$.  We *do not* include the median when we calculate the quartiles.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The **first quartile** is the median of the data points  to the *left* of the median.  $\\underbrace{0\\text{, }0\\text{, }\\maroonD{\\dfrac{1}{4}}\\text{, }\\dfrac{1}{2}\\text{, }\\dfrac{1}{2}}_\\text{lower half}$  There was an *odd* number of data points in the lower half. So the first quartile is the middle number.  $Q_{1} = \\maroonD{\\dfrac{1}{4}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The **third quartile** is the median of the data points to the *right* of the median.  $\\underbrace{1\\text{, }1\\text{, }\\tealE{\\dfrac{5}{4}}\\text{, }2\\text{, }2}_\\text{upper half}$  There was an *odd* number of data points in the upper half. So the third quartile is the middle number.  $Q_{3} = \\tealE{\\dfrac54}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{IQR} &= Q_3-Q_1  \\\\\\\\ &=  \\tealE{\\dfrac{5}{4}} - \\maroonD{\\dfrac{1}{4}} \\\\\\\\ &= \\dfrac{4}{4} \\\\\\\\ &= 1 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The data from least to greatest is:  $0$, $0$, $\\dfrac14$, $\\dfrac12$, $\\dfrac12$, $1$, $1$, $1$, $\\dfrac54$, $2$, $2$  *Did you remember to sort the numbers?*  The interquartile range is $1$ quesadilla.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Sorter odd"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following data points represent the number of animal crackers in each kid's lunch box.  *Answer $2$ questions about the data set.*  1. **Sort the data from least to greatest.**    2. **Find the interquartile range (IQR) of the data set.**   animal crackers",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "8",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "6",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **interquartile range** is the amount of spread in the middle $50\\%$ of the data set.  It is the positive difference between the third quartile and the first quartile.  $\\text{IQR} = Q_3-Q_1$  Make sure to sort the numbers before finding the median, $Q_1$, and $Q_3$!",
+                                    "images": []
+                                },
+                                {
+                                    "content": "To find the quartiles, let's first find the median by sorting the data points from least to greatest.    $\\underbrace{4\\text{, }4\\text{, }6\\text{, }7}_\\text{lower half}\\text{, }\\purpleD{10}\\text{, }\\underbrace{11\\text{, }12\\text{, }14\\text{, }15}_\\text{upper half}$  There was an *odd* number of data points. So the median is the middle number.  The median is $\\purpleD{10}$.  We *do not* include the median when we calculate the quartiles.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The **first quartile** is the median of the data points  to the *left* of the median.  $\\underbrace{4\\text{, }\\blueE{4}\\text{, }\\blueE{6}\\text{, }7}_\\text{lower half}$  There was an *even* number of data points in the lower half. So the first quartile is the mean of the two middle numbers.  $Q_{1} = \\dfrac{\\blueE{4} + \\blueE{6}}{2} = \\dfrac{10}{2}= \\maroonD{5}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The **third quartile** is the median of the data points to the *right* of the median.  $\\underbrace{11\\text{, }\\goldE{12}\\text{, }\\goldE{14}\\text{, }15}_\\text{upper half}$  There was an *even* number of data points in the upper half. So the third quartile is the mean of the two middle numbers.  $Q_{3} = \\dfrac{\\goldE{12} + \\goldE{14}}{2} = \\dfrac{26}{2}= \\tealE{13}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{IQR} &= Q_3-Q_1  \\\\\\\\ &=  \\tealE{13} - \\maroonD{5} \\\\\\\\ &= 8 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The data from least to greatest is:  $4$, $4$, $6$, $7$, $10$, $11$, $12$, $14$, $15$  *Did you remember to sort the numbers?*  The interquartile range is $8$ animal crackers.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Sorter odd"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A family of bears is going to a movie. The following data points represent the ticket and candy price (in dollars) for each bear.  *Answer $2$ questions about the data set.*  1. **Sort the data from least to greatest.**    2. **Find the interquartile range (IQR) of the data set.**     dollars",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "3.5",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "4.5",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **interquartile range** is the amount of spread in the middle $50\\%$ of the data set.  It is the positive difference between the third quartile and the first quartile.  $\\text{IQR} = Q_3-Q_1$  Make sure to sort the numbers before finding the median, $Q_1$, and $Q_3$!",
+                                    "images": []
+                                },
+                                {
+                                    "content": "To find the quartiles, let's first find the median by sorting the data points from least to greatest.    $\\underbrace{0\\text{, }1\\dfrac12\\text{, }2\\dfrac12\\text{, }3}_\\text{lower half}\\text{, }\\purpleD{4}\\text{, }\\underbrace{4\\text{, }4\\text{, }7\\text{, }7\\dfrac12}_\\text{upper half}$  There was an *odd* number of data points. So the median is the middle number.  The median is $\\purpleD{4}$.  We *do not* include the median when we calculate the quartiles.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The **first quartile** is the median of the data points  to the *left* of the median.  $\\underbrace{0\\text{, }\\blueE{1\\dfrac12}\\text{, }\\blueE{2\\dfrac12}\\text{, }3}_\\text{lower half}$  There was an *even* number of data points in the lower half. So the first quartile is the mean of the two middle numbers.  $Q_{1} = \\dfrac{\\blueE{1 \\dfrac12} + \\blueE{2 \\dfrac12}}{2} = \\dfrac{4}{2}= \\maroonD{2}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The **third quartile** is the median of the data points to the *right* of the median.  $\\underbrace{4\\text{, }\\goldE{4}\\text{, }\\goldE{7}\\text{, }7\\dfrac12}_\\text{upper half}$  There was an *even* number of data points in the upper half. So the third quartile is the mean of the two middle numbers.  $Q_{3} = \\dfrac{\\goldE{4} + \\goldE{7}}{2} = \\dfrac{11}{2}= \\tealE{5.5}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{IQR} &= Q_3-Q_1  \\\\\\\\ &=  \\tealE{5.5} - \\maroonD{2} \\\\\\\\ &= 3.5 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The data from least to greatest is:  $0$, $1 \\dfrac12$, $2 \\dfrac12$, $3$, $4$, $4$, $4$, $7$, $7 \\dfrac12$  *Did you remember to sort the numbers?*  The interquartile range is $3.5$ dollars.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Sorter odd"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following data points represent the number of remote controllers each student in Tria's video game club owns.  *Answer $2$ questions about the data set.*  1. **Sort the data from least to greatest.**    2. **Find the interquartile range (IQR) of the data set.**   remote controllers",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "7",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "5",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **interquartile range** is the amount of spread in the middle $50\\%$ of the data set.  It is the positive difference between the third quartile and the first quartile.  $\\text{IQR} = Q_3-Q_1$  Make sure to sort the numbers before finding the median, $Q_1$, and $Q_3$!",
+                                    "images": []
+                                },
+                                {
+                                    "content": "To find the quartiles, let's first find the median by sorting the data points from least to greatest.    $\\underbrace{0\\text{, }0\\text{, }0\\text{, }1\\text{, }2}_\\text{lower half}\\text{, }\\purpleD{2}\\text{, }\\underbrace{4\\text{, }5\\text{, }7\\text{, }8\\text{, }10}_\\text{upper half}$  There was an *odd* number of data points. So the median is the middle number.  The median is $\\purpleD{2}$.  We *do not* include the median when we calculate the quartiles.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The **first quartile** is the median of the data points  to the *left* of the median.  $\\underbrace{0\\text{, }0\\text{, }\\maroonD{0}\\text{, }1\\text{, }2}_\\text{lower half}$  There was an *odd* number of data points in the lower half. So the first quartile is the middle number.  $Q_{1} = \\maroonD{0}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The **third quartile** is the median of the data points to the *right* of the median.  $\\underbrace{4\\text{, }5\\text{, }\\tealE{7}\\text{, }8\\text{, }10}_\\text{upper half}$  There was an *odd* number of data points in the upper half. So the third quartile is the middle number.  $Q_{3} = \\tealE{7}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{IQR} &= Q_3-Q_1  \\\\\\\\ &=  \\tealE{7} - \\maroonD{0} \\\\\\\\ &= 7 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The data from least to greatest is:  $0$, $0$, $0$, $1$, $2$, $2$, $4$, $5$, $7$, $8$, $10$  *Did you remember to sort the numbers?*  The interquartile range is $7$ remote controllers.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Sorter odd"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following data points represent the number of classes that each teacher at Broxin High School teaches.  *Answer $2$ questions about the data set.*  1. **Sort the data from least to greatest.**    2. **Find the interquartile range (IQR) of the data set.**   classes",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "3",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "2",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **interquartile range** is the amount of spread in the middle $50\\%$ of the data set.  It is the positive difference between the third quartile and the first quartile.  $\\text{IQR} = Q_3-Q_1$  Make sure to sort the numbers before finding the median, $Q_1$, and $Q_3$!",
+                                    "images": []
+                                },
+                                {
+                                    "content": "To find the quartiles, let's first find the median by sorting the data points from least to greatest.    $\\underbrace{1\\text{, }1\\text{, }3\\text{, }4\\text{, }4}_\\text{lower half}\\text{, }\\purpleD{5}\\text{, }\\underbrace{5\\text{, }5\\text{, }6\\text{, }7\\text{, }9}_\\text{upper half}$  There was an *odd* number of data points. So the median is the middle number.  The median is $\\purpleD{5}$.  We *do not* include the median when we calculate the quartiles.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The **first quartile** is the median of the data points  to the *left* of the median.  $\\underbrace{1\\text{, }1\\text{, }\\maroonD{3}\\text{, }4\\text{, }4}_\\text{lower half}$  There was an *odd* number of data points in the lower half. So the first quartile is the middle number.  $Q_{1} = \\maroonD{3}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The **third quartile** is the median of the data points to the *right* of the median.  $\\underbrace{5\\text{, }5\\text{, }\\tealE{6}\\text{, }7\\text{, }9}_\\text{upper half}$  There was an *odd* number of data points in the upper half. So the third quartile is the middle number.  $Q_{3} = \\tealE{6}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{IQR} &= Q_3-Q_1  \\\\\\\\ &=  \\tealE{6} - \\maroonD{3} \\\\\\\\ &= 3 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The data from least to greatest is:  $1$, $1$, $3$, $4$, $4$, $5$, $5$, $5$, $6$, $7$, $9$  *Did you remember to sort the numbers?*  The interquartile range is $3$ classes.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Sorter odd"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following data points represent the number of points scored by each player on the Wildcats basketball team last game.  *Answer $2$ questions about the data set.*  1. **Sort the data from least to greatest.**    2. **Find the interquartile range (IQR) of the data set.**   points",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **interquartile range** is the amount of spread in the middle $50\\%$ of the data set.  It is the positive difference between the third quartile and the first quartile.  $\\text{IQR} = Q_3-Q_1$  Make sure to sort the numbers before finding the median, $Q_1$, and $Q_3$!",
+                                    "images": []
+                                },
+                                {
+                                    "content": "To find the quartiles, let's first find the median by sorting the data points from least to greatest.    $\\underbrace{4\\text{, }5\\text{, }6\\text{, }\\redE{8}}_\\text{lower half} \\text{, } \\underbrace{\\redE{9}\\text{, }10\\text{, }11\\text{, }13}_\\text{upper half}$  There was an *even* number of data points. So the median is the mean of the two middle numbers.  $\\dfrac{\\redE{8} + \\redE{9}}{2} = \\purpleD{8.5}$ points  We *do not* include the median when we calculate the quartiles, but we *do* include the numbers we averaged to get it.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The **first quartile** is the median of the data points  to the *left* of the median.  $\\underbrace{4\\text{, }\\blueE{5}\\text{, }\\blueE{6}\\text{, }{8}}_\\text{lower half}$  There was an *even* number of data points in the lower half. So the first quartile is the mean of the two middle numbers.  $Q_{1} = \\dfrac{\\blueE{5} + \\blueE{6}}{2} = \\dfrac{11}{2}= \\maroonD{5.5}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The **third quartile** is the median of the data points to the *right* of the median.  $\\underbrace{{9}\\text{, }\\goldE{10}\\text{, }\\goldE{11}\\text{, }13}_\\text{upper half}$  There was an *even* number of data points in the upper half. So the third quartile is the mean of the two middle numbers.  $Q_{3} = \\dfrac{\\goldE{10} + \\goldE{11}}{2} = \\dfrac{21}{2}= \\tealE{10.5}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{IQR} &= Q_3-Q_1  \\\\\\\\ &=  \\tealE{10.5} - \\maroonD{5.5} \\\\\\\\ &= 5 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The data from least to greatest is:  $4$, $5$, $6$, $8$, $9$, $10$, $11$, $13$  *Did you remember to sort the numbers?*  The interquartile range is $5$ points.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Sorter even"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following data points represent the number of attendees at each of the dance events hosted by Cloy Events.  *Answer $2$ questions about the data set.*  1. **Sort the data from least to greatest.**    2. **Find the interquartile range (IQR) of the data set.**   attendees",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "7.5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **interquartile range** is the amount of spread in the middle $50\\%$ of the data set.  It is the positive difference between the third quartile and the first quartile.  $\\text{IQR} = Q_3-Q_1$  Make sure to sort the numbers before finding the median, $Q_1$, and $Q_3$!",
+                                    "images": []
+                                },
+                                {
+                                    "content": "To find the quartiles, let's first find the median by sorting the data points from least to greatest.    $\\underbrace{32\\text{, }34\\text{, }35\\text{, }\\redE{35}}_\\text{lower half}\\text{, }\\underbrace{\\redE{39}\\text{, }40\\text{, }44\\text{, }47}_\\text{upper half}$  There was an *even* number of data points. So the median is the mean of the two middle numbers.  $\\dfrac{\\redE{35} + \\redE{39}}{2} = \\dfrac{74}{2}= \\purpleD{37} $ attendees  We *do not* include the median when we calculate the quartiles, but we *do* include the numbers we averaged to get it.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The **first quartile** is the median of the data points  to the *left* of the median.  $\\underbrace{32\\text{, }\\blueE{34}\\text{, }\\blueE{35}\\text{, }{35}}_\\text{lower half}$  There was an *even* number of data points in the lower half. So the first quartile is the mean of the two middle numbers.  $Q_{1} = \\dfrac{\\blueE{34} + \\blueE{35}}{2} = \\dfrac{69}{2}= \\maroonD{34.5}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The **third quartile** is the median of the data points to the *right* of the median.  $\\underbrace{{39}\\text{, }\\goldE{40}\\text{, }\\goldE{44}\\text{, }47}_\\text{upper half}$  There was an *even* number of data points in the upper half. So the third quartile is the mean of the two middle numbers.  $Q_{3} = \\dfrac{\\goldE{40} + \\goldE{44}}{2} = \\dfrac{84}{2}= \\tealE{42}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{IQR} &= Q_3-Q_1  \\\\\\\\ &=  \\tealE{42} - \\maroonD{34.5} \\\\\\\\ &= 7.5 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The data from least to greatest is:  $32$, $34$, $35$, $35$, $39$, $40$, $44$, $47$  *Did you remember to sort the numbers?*  The interquartile range is $7.5$ attendees.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Sorter even"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following data points represent the volume of gas in each race car driver's tank (in liters).  *Answer $2$ questions about the data set.*  1. **Sort the data from least to greatest.**    2. **Find the interquartile range (IQR) of the data set.**   $\\text{L}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "7.3",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **interquartile range** is the amount of spread in the middle $50\\%$ of the data set.  It is the positive difference between the third quartile and the first quartile.  $\\text{IQR} = Q_3-Q_1$  Make sure to sort the numbers before finding the median, $Q_1$, and $Q_3$!",
+                                    "images": []
+                                },
+                                {
+                                    "content": "To find the quartiles, let's first find the median by sorting the data points from least to greatest.    $\\underbrace{2.8\\text{, }4\\text{, }4.3\\text{, }6\\text{, }\\redE{7.5}}_\\text{lower half}$, $\\underbrace{\\redE{8.5}\\text{, }9\\text{, }11.6\\text{, }12\\text{, }12.1}_\\text{upper half}$  There was an *even* number of data points. So the median is the mean of the two middle numbers.  $\\dfrac{\\redE{7.5} + \\redE{8.5}}{2} =\\dfrac{16}{2}= \\purpleD{8}$  We *do not* include the median when we calculate the quartiles, but we *do* include the numbers we averaged to get it.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The **first quartile** is the median of the data points  to the *left* of the median.  $\\underbrace{2.8\\text{, }4\\text{, }\\maroonD{4.3}\\text{, }6\\text{, }{7.5}}_\\text{lower half}$  There was an *odd* number of data points in the lower half. So the first quartile is the middle number.  $Q_{1} = \\maroonD{4.3}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The **third quartile** is the median of the data points to the *right* of the median.  $\\underbrace{{8.5}\\text{, }9\\text{, }\\tealE{11.6}\\text{, }12\\text{, }12.1}_\\text{upper half}$  There was an *odd* number of data points in the upper half. So the third quartile is the middle number.  $Q_{3} = \\tealE{11.6}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{IQR} &= Q_3-Q_1  \\\\\\\\ &=  \\tealE{11.6} - \\maroonD{4.3} \\\\\\\\ &= 7.3 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The data from least to greatest is:  $2.80$, $4$, $4.3$, $6$, $7.5$, $8.5$, $9$, $11.6$, $12$, $12.10$  *Did you remember to sort the numbers?*  The interquartile range is $7.3\\,\\text{L}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Sorter even"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following data points represent the number of hours each of the staff members at Daniel's Department Store slept Thanksgiving night.  *Answer $2$ questions about the data set.*  1. **Sort the data from least to greatest.**    2. **Find the interquartile range (IQR) of the data set.**   hours",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "3",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **interquartile range** is the amount of spread in the middle $50\\%$ of the data set.  It is the positive difference between the third quartile and the first quartile.  $\\text{IQR} = Q_3-Q_1$  Make sure to sort the numbers before finding the median, $Q_1$, and $Q_3$!",
+                                    "images": []
+                                },
+                                {
+                                    "content": "To find the quartiles, let's first find the median by sorting the data points from least to greatest.    $\\underbrace{2.6\\text{, }3\\text{, }4.9\\text{, }5\\text{, }\\redE{5}}_\\text{lower half}\\text{, }\\underbrace{\\redE{6}\\text{, }6\\text{, }7.9\\text{, }8\\text{, }8.2}_\\text{upper half}$  There was an *even* number of data points. So the median is the mean of the two middle numbers.  $\\dfrac{\\redE{5} + \\redE{6}}{2} = \\dfrac{11}{2}= \\purpleD{5.5} $  We *do not* include the median when we calculate the quartiles, but we *do* include the numbers we averaged to get it.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The **first quartile** is the median of the data points  to the *left* of the median.  $\\underbrace{2.6\\text{, }3\\text{, }\\maroonD{4.9}\\text{, }5\\text{, }{5}}_\\text{lower half}$  There was an *odd* number of data points in the lower half. So the first quartile is the middle number.  $Q_{1} = \\maroonD{4.9}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The **third quartile** is the median of the data points to the *right* of the median.  $\\underbrace{{6}\\text{, }6\\text{, }\\tealE{7.9}\\text{, }8\\text{, }8.2}_\\text{upper half}$  There was an *odd* number of data points in the upper half. So the third quartile is the middle number.  $Q_{3} = \\tealE{7.9}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{IQR} &= Q_3-Q_1  \\\\\\\\ &=  \\tealE{7.9} - \\maroonD{4.9} \\\\\\\\ &= 3 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The data from least to greatest is:  $2.6$, $3$, $4.9$, $5$, $5$, $6$, $6$, $7.9$, $8$, $8.2$  *Did you remember to sort the numbers?*  The interquartile range is $3$ hours.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Sorter even"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Each dot in the following dot plot represents the number of players at one table in Bev's bingo hall.    **Find the interquartile range (IQR)  of the data in the dot plot.**   players",
+                                "images": [
+                                    {
+                                        "alt": "A dot plot has a horizontal axis labeled Number of players marked by 8 equidistant tick marks numbered from 0 to 7. Dots are plotted above the following: 0, 1; 1, 2; 3, 3; 4, 1; 5, 1; 7, 1.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/3c14466f7f35ac6841ed406d34f9a85c7d5ab56c.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "3.5",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "3",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **interquartile range** is the amount of spread in the middle $50\\%$ of the data set.  It is the positive difference between the third quartile and the first quartile.  $\\text{IQR} = Q_3-Q_1$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "To find the quartiles, let's first find the median by listing the data points from least to greatest.    $\\underbrace{0\\text{, }1\\text{, }1\\text{, }3}_\\text{lower half}\\text{, }\\purpleD{3}\\text{, }\\underbrace{3\\text{, }4\\text{, }5\\text{, }7}_\\text{upper half}$  There was an *odd* number of data points. So the median is the middle number.  The median is $\\purpleD{3}$.  We *do not* include the median when we calculate the quartiles.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The **first quartile** is the median of the data points  to the *left* of the median.  $\\underbrace{0\\text{, }\\blueE{1}\\text{, }\\blueE{1}\\text{, }3}_\\text{lower half}$  There was an *even* number of data points in the lower half. So the first quartile is the mean of the two middle numbers.  $Q_{1} = \\dfrac{\\blueE{1} + \\blueE{1}}{2} = \\dfrac{2}{2}= \\maroonD{1}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The **third quartile** is the median of the data points to the *right* of the median.  $\\underbrace{3\\text{, }\\goldE{4}\\text{, }\\goldE{5}\\text{, }7}_\\text{upper half}$  There was an *even* number of data points in the upper half. So the third quartile is the mean of the two middle numbers.  $Q_{3} = \\dfrac{\\goldE{4} + \\goldE{5}}{2} = \\dfrac{9}{2}= \\tealE{4.5}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{IQR} &= Q_3-Q_1  \\\\\\\\ &=  \\tealE{4.5} - \\maroonD{1} \\\\\\\\ &= 3.5 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The interquartile range is $3.5$ players.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3. Dot Plot odd"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Each dot in the following dot plot represents the number of goals Luis scored in one lacrosse season.    **Find the interquartile range (IQR)  of the data in the dot plot.**    goals",
+                                "images": [
+                                    {
+                                        "alt": "A dot plot has a horizontal axis labeled Number of goals numbered from 43 to 48. Dots are plotted above the following: 43, 1; 44, 3; 45, 1; 47, 1; 48, 2.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/dcc517a9cf0e73ca919ce49fb4b8a71c40a9b73d.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "3.5",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "3",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **interquartile range** is the amount of spread in the middle $50\\%$ of the data set.  It is the positive difference between the third quartile and the first quartile.  $\\text{IQR} = Q_3-Q_1$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "To find the quartiles, let's first find the median by listing the data points from least to greatest.    $\\underbrace{43\\text{, }44\\text{, }44\\text{, }44}_\\text{lower half}\\text{, }\\purpleD{{45}}\\text{, }\\underbrace{45\\text{, }47\\text{, }48\\text{, }48}_\\text{upper half}$  There was an *odd* number of data points. So the median is the middle number.  The median is $\\purpleD{45}$.  We *do not* include the median when we calculate the quartiles.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The **first quartile** is the median of the data points  to the *left* of the median.  $\\underbrace{43\\text{, }\\blueE{44}\\text{, }\\blueE{44}\\text{, }44}_\\text{lower half}$  There was an *even* number of data points in the lower half. So the first quartile is the mean of the two middle numbers.  $Q_{1} = \\dfrac{\\blueE{44} + \\blueE{44}}{2}= \\dfrac{88}{2} = \\maroonD{44}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The **third quartile** is the median of the data points to the *right* of the median.  $\\underbrace{45\\text{, }\\goldE{47}\\text{, }\\goldE{48}\\text{, }48}_\\text{upper half}$  There was an *even* number of data points in the upper half. So the third quartile is the mean of the two middle numbers.  $Q_{3} = \\dfrac{\\goldE{47} + \\goldE{48}}{2} = \\dfrac{95}{2}= \\tealE{47.5}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{IQR} &= Q_3-Q_1  \\\\\\\\ &=  \\tealE{47.5} - \\maroonD{44} \\\\\\\\ &= 3.5 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The interquartile range is $3.5$ goals.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3. Dot Plot odd"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Each dot in the following dot plot represents the number of chocolate chips in one cookie in a package.    **Find the interquartile range (IQR)  of the data in the dot plot.**    chocolate chips",
+                                "images": [
+                                    {
+                                        "alt": "A dot plot has a horizontal axis labeled Number of chocolate chips numbered from 0 to 10. Dots are plotted above the following: 2, 1; 3, 2; 4, 4; 5, 2; 6, 1; 7, 1.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/5371ed56dcd2969b716305e2250a9636120705ac.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "2",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "1.5",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **interquartile range** is the amount of spread in the middle $50\\%$ of the data set.  It is the positive difference between the third quartile and the first quartile.  $\\text{IQR} = Q_3-Q_1$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "To find the quartiles, let's first find the median by listing the data points from least to greatest.    $\\underbrace{2\\text{, }3\\text{, }3\\text{, }4\\text{, }4}_\\text{lower half}\\text{, }\\purpleD{4}\\text{, }\\underbrace{4\\text{, }5\\text{, }5\\text{, }6\\text{, }7}_\\text{upper half}$  There was an *odd* number of data points. So the median is the middle number.  The median is $\\purpleD{4}$.  We *do not* include the median when we calculate the quartiles.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The **first quartile** is the median of the data points  to the *left* of the median.  $\\underbrace{2\\text{, }3\\text{, }\\maroonD{3}\\text{, }4\\text{, }4}_\\text{lower half}$  There was an *odd* number of data points in the lower half. So the first quartile is the middle number.  $Q_{1} = \\maroonD{3}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The **third quartile** is the median of the data points to the *right* of the median.  $\\underbrace{4\\text{, }5\\text{, }\\tealE{5}\\text{, }6\\text{, }7}_\\text{upper half}$  There was an *odd* number of data points in the upper half. So the third quartile is the middle number.  $Q_{3} = \\tealE{5}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{IQR} &= Q_3-Q_1  \\\\\\\\ &=  \\tealE{5} - \\maroonD{3} \\\\\\\\ &= 2 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The interquartile range is $2$ chocolate chips.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3. Dot Plot odd"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Each dot in the following dot plot represents the number of jokers in one of Marcie's decks of cards.    **Find the interquartile range (IQR)  of the data in the dot plot.**   jokers",
+                                "images": [
+                                    {
+                                        "alt": "A dot plot has a horizontal axis labeled Number of jokers numbered from 0 to 4. Dots are plotted above the following: 0, 3; 1, 1; 2, 5; 3, 1; 4, 1.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/9c0d718e78ee914767f641364dfa339056dedd59.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "2",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "1.5",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **interquartile range** is the amount of spread in the middle $50\\%$ of the data set.  It is the positive difference between the third quartile and the first quartile.  $\\text{IQR} = Q_3-Q_1$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "To find the quartiles, let's first find the median by listing the data points from least to greatest.    $\\underbrace{0\\text{, }0\\text{, }0\\text{, }1\\text{, }2}_\\text{lower half}\\text{, }\\purpleD{2}\\text{, }\\underbrace{2\\text{, }2\\text{, }2\\text{, }3\\text{, }4}_\\text{upper half}$  There was an *odd* number of data points. So the median is the middle number.  The median is $\\purpleD{2}$.  We *do not* include the median when we calculate the quartiles.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The **first quartile** is the median of the data points  to the *left* of the median.  $\\underbrace{0\\text{, }0\\text{, }\\maroonD{0}\\text{, }1\\text{, }2}_\\text{lower half}$  There was an *odd* number of data points in the lower half. So the first quartile is the middle number.  $Q_{1} = \\maroonD{0}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The **third quartile** is the median of the data points to the *right* of the median.  $\\underbrace{2\\text{, }2\\text{, }\\tealE{2}\\text{, }3\\text{, }4}_\\text{upper half}$  There was an *odd* number of data points in the upper half. So the third quartile is the middle number.  $Q_{3} = \\tealE{2}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{IQR} &= Q_3-Q_1  \\\\\\\\ &=  \\tealE{2} - \\maroonD{0} \\\\\\\\ &= 2 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The interquartile range is $2$ jokers.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3. Dot Plot odd"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Each dot in the following dot plot represents the height of one toddler at Mrs. Orlando's daycare.    **Find the interquartile range (IQR)  of the data in the dot plot.**   $\\text{cm}$",
+                                "images": [
+                                    {
+                                        "alt": "\"A dot plot.  The number line, labeled Height (centimeters), is numbered 80 to 86. \nThe tick mark 81 has 1 dot.\nThe tick mark 82 has 1 dot.\nThe tick mark 83 has 2 dots. \nThe tick mark 84 has 3 dots.\nThe tick mark 85 has 1 dot.\"",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/b0d3cac6daf48ca9e37cfea07a6034bcd56c0bab.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "1.5",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "2",
+                                        "correct": false
+                                    },
+                                    {
+                                        "content": "4",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **interquartile range** is the amount of spread in the middle $50\\%$ of the data set.  It is the positive difference between the third quartile and the first quartile.  $\\text{IQR} = Q_3-Q_1$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "To find the quartiles, let's first find the median by listing the data points from least to greatest.    $\\underbrace{81\\text{, }82\\text{, }83\\text{, }\\redE{83}}_\\text{lower half} \\text{, }\\underbrace{\\redE{84}\\text{, }84\\text{, }84\\text{ ,}85}_\\text{upper half}$  There was an *even* number of data points. So the median is the mean of the two middle numbers.  $\\dfrac{\\redE{83} + \\redE{84}}{2} = \\dfrac{167}{2}= \\purpleD{83.5}$  The median is $\\purpleD{83.5}$.  We *do not* include the median when we calculate the quartiles, but we *do* include the numbers we averaged to get it.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The **first quartile** is the median of the data points  to the *left* of the median.  $\\underbrace{81\\text{, }\\blueE{82}\\text{, }\\blueE{83}\\text{, }83}_\\text{lower half} $  There was an *even* number of data points in the lower half. So the first quartile is the mean of the two middle numbers.  $Q_{1} = \\dfrac{\\blueE{82} + \\blueE{83}}{2} = \\dfrac{165}{2}= \\maroonD{82.5}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The **third quartile** is the median of the data points to the *right* of the median.  $\\underbrace{84\\text{, }\\goldE{84}\\text{, }\\goldE{84}\\text{ ,}85}_\\text{upper half}$  There was an *even* number of data points in the upper half. So the third quartile is the mean of the two middle numbers.  $Q_{3} = \\dfrac{\\goldE{84} + \\goldE{84}}{2} = \\dfrac{168}{2}= \\tealE{84}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{IQR} &= Q_3-Q_1  \\\\\\\\ &=  \\tealE{84} - \\maroonD{82.5} \\\\\\\\ &= 1.5 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The interquartile range is $1.5\\,\\text{cm}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "4. Dot plot even"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Each dot in the following dot plot represents the essay score of one student in Mr. Harrisburg's class.    **Find the interquartile range (IQR)  of the data in the dot plot.**   points",
+                                "images": [
+                                    {
+                                        "alt": "A dot plot has a horizontal axis labeled Score on a 6-point scale numbered from 1 to 6. Dots are plotted above the following: 1, 1; 2, 1; 3, 2; 4, 3; 6, 1.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/b597454c9dde70bf7b4b41604fb1f51399f6e0d8.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "1.5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **interquartile range** is the amount of spread in the middle $50\\%$ of the data set.  It is the positive difference between the third quartile and the first quartile.  $\\text{IQR} = Q_3-Q_1$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "To find the quartiles, let's first find the median by listing the data points from least to greatest.    $\\underbrace{1\\text{, }2\\text{, }3\\text{, }\\redE{3}}_\\text{lower half} \\text{, } \\underbrace{\\redE{4}\\text{, }4\\text{, }4\\text{, }6}_\\text{upper half}$  There was an *even* number of data points. So the median is the mean of the two middle numbers.  $\\dfrac{\\redE{3} + \\redE{4}}{2} = \\purpleD{3.5}$  We *do not* include the median when we calculate the quartiles, but we *do* include the numbers we averaged to get it.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The **first quartile** is the median of the data points  to the *left* of the median.  $\\underbrace{1\\text{, }\\blueE{2}\\text{, }\\blueE{3}\\text{, }{3}}_\\text{lower half}$  There was an *even* number of data points in the lower half. So the first quartile is the mean of the two middle numbers.  $Q_{1} = \\dfrac{\\blueE{2} + \\blueE{3}}{2} = \\dfrac{5}{2}= \\maroonD{2.5}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The **third quartile** is the median of the data points to the *right* of the median.  $\\underbrace{{4}\\text{, }\\goldE{4}\\text{, }\\goldE{4}\\text{, }6}_\\text{upper half}$  There was an *even* number of data points in the upper half. So the third quartile is the mean of the two middle numbers.  $Q_{3} = \\dfrac{\\goldE{4} + \\goldE{4}}{2} = \\dfrac{8}{2}= \\tealE{4}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{IQR} &= Q_3-Q_1  \\\\\\\\ &=  \\tealE{4} - \\maroonD{2.5} \\\\\\\\ &= 1.5 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The interquartile range is $1.5$ points.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "4. Dot plot even"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Each dot in the following dot plot represents the number of cavities for one patient who visited Dr. White last week.    **Find the interquartile range (IQR)  of the data in the dot plot.**   cavities",
+                                "images": [
+                                    {
+                                        "alt": "A dot plot has a horizontal axis labeled Number of cavities numbered from 0 to 8. Dots are plotted above the following: 0, 3; 1, 2; 3, 2; 4, 1; 7, 2.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/575cdd373a63925396e9e95de00e9e9061af2e66.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "4",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **interquartile range** is the amount of spread in the middle $50\\%$ of the data set.  It is the positive difference between the third quartile and the first quartile.  $\\text{IQR} = Q_3-Q_1$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "To find the quartiles, let's first find the median by listing the data points from least to greatest.  $\\underbrace{0\\text{, }0\\text{, }0\\text{, }1\\text{, }\\redE{1}}_\\text{lower half} \\text{, } \\underbrace{\\redE{3}\\text{, }3\\text{, }4\\text{, }7\\text{, }7}_\\text{upper half}$  There was an *even* number of data points. So the median is the mean of the two middle numbers.  $\\dfrac{\\redE{1} + \\redE{3}}{2} = \\purpleD2$  We *do not* include the median when we calculate the quartiles, but we *do* include the numbers we averaged to get it.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The **first quartile** is the median of the data points  to the *left* of the median.  $\\underbrace{0\\text{, }0\\text{, }\\maroonD{0}\\text{, }1\\text{, }{1}}_\\text{lower half}$  There was an *odd* number of data points in the lower half. So the first quartile is the middle number.  $Q_{1} = \\maroonD{0}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The **third quartile** is the median of the data points to the *right* of the median.  $\\underbrace{{3}\\text{, }3\\text{, }\\tealE{4}\\text{, }7\\text{, }7}_\\text{upper half}$  There was an *odd* number of data points in the upper half. So the third quartile is the middle number.  $Q_{3} = \\tealE{4}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{IQR} &= Q_3-Q_1  \\\\\\\\ &=  \\tealE{4} - \\maroonD{0} \\\\\\\\ &= 4 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The interquartile range is $4$ cavities.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "4. Dot plot even"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Each dot in the following dot plot represents the number of songs on one of Shane's albums.    **Find the interquartile range (IQR)  of the data in the dot plot.**   songs",
+                                "images": [
+                                    {
+                                        "alt": "A dot plot has a horizontal axis labeled Number of songs numbered from 6 to 15. Dots are plotted above the following: 6, 1; 9, 2; 10, 3; 11, 1; 12, 2; 14, 1.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/e44f4cba0b7da9025113f8ff8d0bbe9dee9b6afc.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "3",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **interquartile range** is the amount of spread in the middle $50\\%$ of the data set.  It is the positive difference between the third quartile and the first quartile.  $\\text{IQR} = Q_3-Q_1$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "To find the quartiles, let's first find the median by listing the data points from least to greatest.  $\\underbrace{7\\text{, }9\\text{, }9\\text{, }10\\text{, }\\redE{{10}}}_\\text{lower half} \\text{, }\\underbrace{\\redE{{10}}\\text{, }11\\text{, }12\\text{, }12\\text{, }14}_\\text{upper half}$  There was an *even* number of data points. So the median is the mean of the two middle numbers.  $\\dfrac{\\redE{10} + \\redE{10}}{2} = \\purpleD{10}$  We *do not* include the median when we calculate the quartiles, but we *do* include the numbers we averaged to get it.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The **first quartile** is the median of the data points  to the *left* of the median.  $\\underbrace{7\\text{, }9\\text{, }\\maroonD{9}\\text{, }10\\text{, }{{10}}}_\\text{lower half} $  There was an *odd* number of data points in the lower half. So the first quartile is the middle number.  $Q_{1} = \\maroonD{9}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The **third quartile** is the median of the data points to the *right* of the median.  $\\underbrace{{{10}}\\text{, }11\\text{, }\\tealE{12}\\text{, }12\\text{, }14}_\\text{upper half}$  There was an *odd* number of data points in the upper half. So the third quartile is the middle number.  $Q_{3} = \\tealE{12}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{IQR} &= Q_3-Q_1  \\\\\\\\ &=  \\tealE{12} - \\maroonD{9} \\\\\\\\ &= 3 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The interquartile range is $3$ songs.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "4. Dot plot even"
+                    }
+                }
+            }
+        }
+    ]
+}

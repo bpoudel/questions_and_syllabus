@@ -1,0 +1,1359 @@
+{
+    "standard_metadata": {
+        "standard_id": "4.OA.A.2",
+        "standard_description": "Multiply or divide to solve word problems involving multiplicative comparison, e.g., by using drawings and equations with a symbol for the unknown number to represent the problem, distinguishing multiplicative comparison from additive comparison.",
+        "standard_title": "Multiplication and division word problems",
+        "standard_url": "https://www.khanacademy.org/math/cc-fourth-grade-math/division/mult-division-word-problems/e/arithmetic_word_problems"
+    },
+    "id": "46563848",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Skylar has $4$ times as many books as Karen.  **If Skylar has $164$ books, how many books does Karen have?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Karen has $656$ books, because $164 \\times 4 = 656$.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Karen has $14$ books, because $164 \\div 4=14$.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Karen has $41$ books, because $164 \\div 4=41$.",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's use $K$ for the number of Karen's books. We can make a model to show the given information.  [[☃ image 1]]  What is the value of $K$ if $4$ groups of $K$ is the same as $164$ books?",
+                                    "images": [
+                                        {
+                                            "alt": "A tape diagram with 2 tapes of equal lengths, a first tape labeled 164 and a second tape with 4 equal parts each labeled K. A curved bracket above the first tape is labeled Skylar's books. Another curved bracket below 1 of the 4 parts of the second tape is labeled Karen's books.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/4bfc877ed0cb7e0a3051735f3ec098aee729702d.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We can write this as a multiplication problem.  $4\\times K=164$  We can rewrite the relationship with division.  $164\\div 4 = K$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} {4}&\\overline{\\Big)164}\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{4}&\\overline{\\Big)164}\\\\ &\\mathllap{-}\\underline{\\blueE{160}}&\\purpleD{40}&\\maroonD{4} \\times \\purpleD{40} = \\blueE{160}\\\\ &4\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{4}&\\overline{\\Big)164}\\\\ &\\mathllap{-}\\underline{160}&40\\\\ &4\\\\ &\\mathllap{-}\\underline{\\blueE{4}}&\\purpleD{1}&\\maroonD{4} \\times \\purpleD{1} = \\blueE{4}\\\\ &0\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} {4}&\\overline{\\Big)164}\\\\ &\\mathllap{-}\\underline{160}&\\purpleD{40}\\\\ &4\\\\ &\\mathllap{-}\\underline{4}&\\underline{{}+\\purpleD{1}}\\\\ &\\goldE{0}&\\greenE{41}\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "[[☃ image 1]]  Karen has $41$ books, because $164 \\div 4=41$.",
+                                    "images": [
+                                        {
+                                            "alt": "A tape diagram with 2 tapes of equal lengths, a first tape labeled 164 and a second tape with 4 equal parts each labeled 41. A curved bracket above the first tape is labeled Skylar's books. Another curved bracket below 1 of the 4 parts of the second tape is labeled Karen's books.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/31b519b3efccd3cf5a43dc3bbeb9fb32e7301408.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Equation+solve comparison"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Tannis's first machine could throw a car $27$ meters. She studied her first machine and built a better one. Her second machine could throw a car $7$ times as far.  **How far does the second machine throw a car?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "The machine throws the car $189$ meters, because $27 \\times 7 =189$.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The machine throws the car $3$ meters, because $27 \\div 7 =3$ remainder $6$.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The machine throws the car $4$ meters, because $27 \\div 7 =3$ remainder $6$.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's use $d$ for the distance the second machine can throw the car. We can make a model to show the given information.  [[☃ image 1]]  How far is $d$ if $d$ is $7$ times as far as $27$ meters?",
+                                    "images": [
+                                        {
+                                            "alt": "A tape diagram with 2 tapes of equal lengths, a first tape labeled d and a second tape with 7 equal parts each labeled 27. A curved bracket above the first tape is labeled distance, meters, second machine throws. Another curved bracket below 1 of the 7 parts of the second tape is labeled distance, meters, first machine throws.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/8530669f37195aea4c1b885798f746ede5bedaaa.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We can write this as a multiplication problem.  $27\\times 7=d$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} 2\\blueE{7}&\\\\ \\underline{{} \\times \\maroonD{7}}&\\\\ \\greenE{49}&\\quad \\maroonD{7} \\times \\blueE{7} = \\greenE{49} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\blueE{2}7&\\\\ \\underline{{} \\times \\maroonD{7}}&\\\\ 49\\\\ \\underline{{}+\\greenE{140}}&\\quad \\maroonD{7} \\times \\blueE{20} = \\greenE{140} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} 27&\\\\ \\underline{{} \\times 7}&\\\\ \\purpleD{49}\\\\ \\underline{{}+\\purpleD{140}}\\\\ 189 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "[[☃ image 1]]  The machine throws the car $189$ meters, because $27 \\times 7 =189$.",
+                                    "images": [
+                                        {
+                                            "alt": "A tape diagram with 2 tapes of equal lengths, a first tape labeled 189 and a second tape with 7 equal parts each labeled 27. A curved bracket above the first tape is labeled distance, meters, second machine throws, and another curved bracket below 1 of the 7 parts of the second tape is labeled distance, meters, first machine throws.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/05734628b3fa8f86247a624204c58a8f84528861.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Equation+solve comparison"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Jenna's dogs used $9$ chew toys last year. The animal shelter used $2{,}277$ chew toys.   **How many times as many chew toys did the animal shelter use?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "The animal shelter used $20{,}493$ times as many chew toys, because $9 \\times 2{,}277 = 20{,}493$.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The animal shelter used $2{,}053$ times as many chew toys, because $2{,}277 \\div 9 = 2{,}053$.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The animal shelter used $253$ times as many chew toys, because $2{,}277 \\div 9 = 253$.",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{chew toys animal shelter used}={?} \\times \\text{chew toys Jenna's dogs used}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can fill in the given information.  $2{,}277 = {?} \\times 9$  We can rewrite the relationship with division.  $2{,}277 \\div 9 = {?}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{9}&\\overline{\\Big)2{,}277}\\\\ &\\mathllap{-}\\underline{\\blueE{1{,}800}}&\\purpleD{200}&\\maroonD{9} \\times \\purpleD{200} = \\blueE{1{,}800}\\\\ &477\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{9}&\\overline{\\Big)2{,}277}\\\\ &\\mathllap{-}\\underline{1{,}800}&200\\\\ &477\\\\ &\\mathllap{-}\\underline{\\blueE{450}}&\\purpleD{50}&\\maroonD{9} \\times \\purpleD{50} = \\blueE{450}\\\\ &27\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{9}&\\overline{\\Big)2{,}277}\\\\ &\\mathllap{-}\\underline{1{,}800}&200\\\\ &477\\\\ &\\mathllap{-}\\underline{450}&50\\\\ &27\\\\ &\\mathllap{-}\\underline{\\blueE{27}}&\\purpleD{3}&\\maroonD{9} \\times \\purpleD{3} = \\blueE{27}\\\\ &0\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} {9}&\\overline{\\Big)2{,}277}\\\\ &\\mathllap{-}\\underline{1{,}800}&\\purpleD{200}\\\\ &477\\\\ &\\mathllap{-}\\underline{450}&\\purpleD{50}\\\\ &27\\\\ &\\mathllap{-}\\underline{27}&\\underline{{}+\\purpleD{3}}\\\\ &\\goldE{0}&\\greenE{253}\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The animal shelter used $253$ times as many chew toys, because $2{,}277 \\div 9 = 253$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Equation+solve comparison"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Leslie tunes musical instruments. Leslie tuned a guitar with $6$ strings today. Then she tuned a piano with $37$ times as many strings.  **How many strings did the piano have?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "The piano has $422$ strings, because $37 \\times 6=422$.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The piano has $222$ strings, because $37 \\times 6=222$.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The piano has $6$ strings, because $37 \\div 6=6$ remainder $1$.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's use $p$ for the number of strings on the piano. We can make a model to show the given information.  [[☃ image 1]]  What is the value of $p$ if $p$ is $37$ times as many as $6$ strings?",
+                                    "images": [
+                                        {
+                                            "alt": "A tape diagram with 2 tapes of equal lengths, a first tape labeled p and a second tape with 37 equal parts each labeled 6. A curved bracket above the first tape is labeled piano strings and another curved bracket below 1 of the 37 parts of the second tape is labeled guitar strings.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/27d40456a804be4376022048cd775cbb952f1cd1.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We can write this as a multiplication problem.  $6\\times 37=p$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} 3\\blueE{7}&\\\\ \\underline{{} \\times \\maroonD{6}}&\\\\ \\greenE{42}&\\quad \\maroonD{6} \\times \\blueE{7} = \\greenE{42} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\blueE{3}7&\\\\ \\underline{{} \\times \\maroonD{6}}&\\\\ 42\\\\ \\underline{{}+\\greenE{180}}&\\quad \\maroonD{6} \\times \\blueE{30} = \\greenE{180} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} 37&\\\\ \\underline{{} \\times 6}&\\\\ \\purpleD{42}\\\\ \\underline{{}+\\purpleD{180}}\\\\ 222 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "[[☃ image 1]]  The piano has $222$ strings, because $37 \\times 6=222$.",
+                                    "images": [
+                                        {
+                                            "alt": "A tape diagram with 2 tapes of equal lengths, a first tape labeled 222 and a second tape with 37 equal parts each labeled 6. A curved bracket above the first tape is labeled piano strings and another curved bracket below 1 of the 37 parts of the second tape is labeled guitar strings.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/ee5cb8bbe6ab59f25e374ec8f414aacfcaa994a2.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Equation+solve comparison"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A seal has $1{,}500$ nerves per whisker. That is $10$ times as many as a rat has.  **How many nerves per whisker does a rat have?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "A rat has $15{,}000$ nerves per whisker because $10 \\times 1{,}500 = 15{,}000$.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "A rat has $150$ nerves per whisker because $1{,}500 \\div 10 = 150$.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "A rat has $1{,}510$ nerves per whisker because $1{,}500 \\times 10 = 1{,}510$.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's use $r$ for the number of nerves per rat whisker. We can make a model to show the given information.  [[☃ image 1]]  What is the value of $r$ if $10$ times as many as $r$ is equal to $1{,}500$?",
+                                    "images": [
+                                        {
+                                            "alt": "A tape diagram with 2 tapes of equal lengths, a first tape labeled 1,500 and a second tape with 10 equal parts each labeled r. A curved bracket above the first tape is labeled nerves per seal whisker and another curved bracket below 1 of the 10 parts of the second tape is labeled nerves per rat whisker.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/f666d152eb70575fc103e4964f2c50c7e822c558.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We can write this as a multiplication problem.  $10\\times r=1{,}500$  We can rewrite the relationship with division.  $1{,}500\\div 10 = r$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "When **dividing** by $10$, we shift our numbers $1$ place value to the right.  Number | Thousands | Hundreds | Tens | Ones :-: | :-: | :-: | :-: | :-: | :-: $1{,}500$ |$\\searrow\\goldD{1}$ | $\\searrow\\purpleD{5}$ | $\\searrow\\blueD{0}$ | $\\searrow\\greenD{0}$   $1{,}500 \\div 10$ |$?$ |$?$ |$?$| $?$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Number | Thousands | Hundreds | Tens | Ones :-: | :-: | :-: | :-: | :-: | :-: $1{,}500$ |$\\searrow\\goldD{1}$ | $\\searrow\\purpleD{5}$ | $\\searrow\\blueD{0}$ | $\\searrow\\greenD{\\cancel0}$   $1{,}500 \\div 10$ | |$\\goldD{1}$ | $\\purpleD{5}$ |$\\blueD{0}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "[[☃ image 1]]  A rat has $150$ nerves per whisker because $1{,}500 \\div 10 = 150$.",
+                                    "images": [
+                                        {
+                                            "alt": "A tape diagram with 2 tapes of equal lengths, a first tape labeled 1,500 and a second tape with 10 equal parts each labeled 150. A curved bracket above the first tape is labeled nerves per seal whisker and another curved bracket below 1 of the 10 parts of the second tape is labeled nerves per rat whisker.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/93647fb5a67b25b7121162dee3cb2a32679057a4.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Equation+solve comparison"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Quina is cooking fish for a group of travelers. Quina has $78$ huge fish, and each fish can feed $3$ travelers.  **How many travelers can Quina feed?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Quina can feed $26$ travelers, because $78\\div 3=26$.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Quina can feed $22$ travelers, because $78\\div 3=22$.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Quina can feed $234$ travelers, because $78\\times 3=234$.",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$(\\text{number of fish}) \\times (\\text{travelers per fish}) = (\\text{total travelers})$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's use $t$ for the total number of travelers. Then we can fill in given information.  $78\\times 3=t$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} 78&\\\\ \\underline{{} \\times 3}& \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} 7\\blueE{8}&\\\\ \\underline{{} \\times \\maroonD{3}}&\\\\ \\greenE{24}&\\quad \\maroonD{3} \\times \\blueE{8} = \\greenE{24} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\blueE{7}8&\\\\ \\underline{{} \\times \\maroonD{3}}&\\\\ 24\\\\ \\underline{{}+\\greenE{210}}&\\quad \\maroonD{3} \\times \\blueE{70} = \\greenE{210} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} 78&\\\\ \\underline{{} \\times 3}&\\\\ \\purpleD{24}\\\\ \\underline{{}+\\purpleD{210}}\\\\ 234 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Quina can feed $234$ travelers, because $78\\times 3=234$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Equation+solve equal groups"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Ares is making $14$ jars of honey peanut butter. He wants to use $45$ milliliters $(\\text{mL})$ of honey in each jar.  **How much honey (in $\\text{mL}$) will Ares use in all?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Ares uses $630\\,\\text{mL}$ of honey, because $14\\times 45=630$.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Ares uses $1\\,\\text{mL}$ of honey, because $14 \\div 45=0$, remainder $14$.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Ares uses $3\\,\\text{mL}$ of honey, because $45\\div 14=3$, remainder $3$.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's use $h$ for the total amount of honey (in $\\text{mL}$). We can make a model to show the given information.  [[☃ image 1]]  What is the value of $h$ if $14$ groups of $45$ is the same as $h$?",
+                                    "images": [
+                                        {
+                                            "alt": "A tape diagram with 2 tapes of equal lengths, a first tape labeled h and a second tape with 14 equal parts each labeled 45. A curved bracket above the first tape is labeled total honey, milliliters, and another curved bracket across 1 of the 14 parts of the second tape is labeled honey per jar, milliliters.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/0f2b61d6875e66032e0fc0f2e0cf28ed30f68722.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We can write this as a multiplication problem.  $14\\times 45=h$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} 1\\blueE{4}&\\\\ \\underline{{} \\times 4\\maroonD{5}}&\\\\ \\greenE{20}&\\quad \\maroonD{5} \\times \\blueE{4} = \\greenE{20} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\blueE{1}4&\\\\ \\underline{{} \\times 4\\maroonD{5}}&\\\\ 20\\\\ \\greenE{50}&\\quad \\maroonD{5} \\times \\blueE{10} = \\greenE{50} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} 1\\blueE{4}&\\\\ \\underline{{} \\times \\maroonD{4}5}&\\\\ 20\\\\ 50\\\\ \\greenE{160}&\\quad \\maroonD{40} \\times \\blueE{4} = \\greenE{160} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\blueE{1}4&\\\\ \\underline{{} \\times \\maroonD{4}5}&\\\\ 20\\\\ 50\\\\ 160\\\\ \\underline{{}+\\greenE{400}}&\\quad \\maroonD{40} \\times \\blueE{10} = \\greenE{400} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} 14&\\\\ \\underline{{} \\times 45}&\\\\ \\purpleD{20}\\\\ \\purpleD{50}\\\\ \\purpleD{160}\\\\ \\underline{{}+\\purpleD{400}}\\\\ 630 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "[[☃ image 1]]  Ares uses $630\\,\\text{mL}$ of honey, because $14\\times 45=630$.",
+                                    "images": [
+                                        {
+                                            "alt": "A tape diagram with 2 tapes of equal lengths, a first tape labeled 630 and a second tape with 14 equal parts each labeled 45. A curved bracket above the first tape is labeled total honey, milliliters, and another curved bracket across 1 of the 14 parts of the second tape is labeled honey per jar, milliliters.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/74c985233a4f75f0c31da01d0fad1bf9abcd6e61.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Equation+solve equal groups"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Kira unravels a shirt to get blue thread. From each centimeter $(\\text{cm})$ of the shirt, Kira gets $231\\,\\text{cm}$ of thread. She unravels $7\\,\\text{cm}$ of the shirt.  **How much thread does Kira get?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Kira gets $1{,}617\\,\\text{cm}$ of thread, because $7 \\times 231 = 1{,}617$.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Kira gets $33\\,\\text{cm}$ of thread, because $7 \\times 33 = 231$.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Kira gets $30\\,\\text{cm}$ of thread, because $231 \\div 7= 30$.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's use $\\ell$ for the length of thread Kira gets. We can make a model to show the given information.  [[☃ image 1]]  How long is $\\ell$ if $\\ell$ is $7$ times as long as $231\\,\\text{cm}$?",
+                                    "images": [
+                                        {
+                                            "alt": "A tape diagram with 2 tapes of equal lengths, a first tape labeled l and a second tape with 7 equal parts each labeled 231. A curved bracket above the first tape is labeled total centimeters of thread. Another curved bracket across 1 of the 7 parts of the second tape is labeled centimeters of thread per centimeters of shirt.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/65b3fbd388d254515c71490e9e5d581ae1d35d62.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We can write this as a multiplication problem.  $7\\times 231=\\ell$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} 23\\blueE{1}&\\\\ \\underline{{} \\times \\maroonD{7}}&\\\\ \\greenE{7}&\\quad \\maroonD{7} \\times \\blueE{1} = \\greenE{7} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} 2\\blueE{3}1&\\\\ \\underline{{} \\times \\maroonD{7}}&\\\\ 7\\\\ \\greenE{210}&\\quad \\maroonD{7} \\times \\blueE{30} = \\greenE{210} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\blueE{2}31&\\\\ \\underline{{} \\times \\maroonD{7}}&\\\\ 7\\\\ 210\\\\ \\underline{{}+\\greenE{1{,}400}}&\\quad \\maroonD{7} \\times \\blueE{200} = \\greenE{1{,}400} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} 231&\\\\ \\underline{{} \\times 7}&\\\\ \\purpleD{7}\\\\ \\purpleD{210}\\\\ \\underline{{}+\\purpleD{1{,}400}}\\\\ 1{,}617 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "[[☃ image 1]]  Kira gets $1{,}617\\,\\text{cm}$ of thread, because $7 \\times 231 = 1{,}617$.",
+                                    "images": [
+                                        {
+                                            "alt": "A tape diagram with 2 tapes of equal lengths, a first tape labeled 1,617 and a second tape with 7 equal parts each labeled 231. A curved bracket above the first tape is labeled total centimeters of thread. Another curved bracket across 1 of the 7 parts of the second tape is labeled centimeters of thread per centimeters of shirt.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/111a0916eb406e0f6800d6ce407bf457391d2f88.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Equation+solve equal groups"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Amanda is mailing $5$ remote control cars. The mass has a total of $3{,}470$ grams $(\\text{g})$.  **What is the mass of each car?**   (Assume each car has the same mass.)",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Each car has a mass of $17{,}350\\,\\text{g}$ because $3{,}470\\times 5=17{,}350$.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Each car has a mass of $694\\,\\text{g}$, because $3{,}470\\div5=694$.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Each car has a mass of $1{,}735\\,\\text{g}$ because $3{,}470\\times 5=1{,}735$.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's use $m$ for the mass per car. We can make a model to show the given information.  [[☃ image 1]]  What is the value of $m$ if $5$ groups of $m$ is the same as $3{,}470$?",
+                                    "images": [
+                                        {
+                                            "alt": "A tape diagram with 2 tapes of equal lengths, a first tape labeled 3,470 and a second tape with 5 equal parts each labeled m. A curved bracket above the first tape is labeled total mass. Another curved bracket across 1 of the 5 parts of the second tape is labeled  mass per car.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/7278cbedcb00d05a24f7f3a23a59170024f16285.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We can write this as a multiplication problem.  $5 \\times m = 3{,}470$  We can rewrite the relationship with division.  $\\begin{array}{rrrl} &m\\\\ {5}&\\overline{\\Big)3{,}470}\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{5}&\\overline{\\Big)3{,}470}\\\\ &\\mathllap{-}\\underline{\\blueE{3{,}000}}&\\purpleD{600}&\\maroonD{5} \\times \\purpleD{600} = \\blueE{3{,}000}\\\\ &470\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{5}&\\overline{\\Big)3{,}470}\\\\ &\\mathllap{-}\\underline{3{,}000}&600\\\\ &470\\\\ &\\mathllap{-}\\underline{\\blueE{450}}&\\purpleD{90}&\\maroonD{5} \\times \\purpleD{90} = \\blueE{450}\\\\ &20\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{5}&\\overline{\\Big)3{,}470}\\\\ &\\mathllap{-}\\underline{3{,}000}&600\\\\ &470\\\\ &\\mathllap{-}\\underline{450}&90\\\\ &20\\\\ &\\mathllap{-}\\underline{\\blueE{20}}&\\purpleD{4}&\\maroonD{5} \\times \\purpleD{4} = \\blueE{20}\\\\ &0\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} {5}&\\overline{\\Big)3{,}470}\\\\ &\\mathllap{-}\\underline{3{,}000}&\\purpleD{600}\\\\ &470\\\\ &\\mathllap{-}\\underline{450}&\\purpleD{90}\\\\ &20\\\\ &\\mathllap{-}\\underline{20}&\\underline{{}+\\purpleD{4}}\\\\ &\\goldE{0}&\\greenE{694}\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "[[☃ image 1]]  Each car has a mass of $694\\,\\text{g}$, because $3{,}470\\div5=694$.",
+                                    "images": [
+                                        {
+                                            "alt": "A tape diagram with 2 tapes of equal lengths, a first tape labeled 3,470 and a second tape with 5 equal parts each labeled 694. A curved bracket above the first tape is labeled total mass. Another curved bracket across 1 of the 5 parts of the second tape is labeled  mass per car.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/b39da3c9030bfed2a8f0216578f79255a026c0ad.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Equation+solve equal groups"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Jenna has $131$ dog biscuits. She wants to give them as gifts to each of her $4$ poodles.  **How many biscuits does each poodle get?**   (Assume each gets the same number of biscuits.)",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Each poodle gets $524$ biscuits because $131 \\times 4 = 524$.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Each poodle gets $32$ biscuits because $131 \\div 4 = 32$ remainder $3$.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Each poodle gets $33$ biscuits because $131 \\div 4 = 32$ remainder $3$.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's use $p$ for the number of biscuits per poodle. We can make a model to show the given information.  [[☃ image 1]]     What is the value of $p$ if $4$ groups of $p$ is the same as $131$?",
+                                    "images": [
+                                        {
+                                            "alt": "A tape diagram with 2 tapes of equal length, the first tape labeled 131 and a second tape with 4 equal parts each labeled p. A curved bracket above the first tape is labeled Total biscuits. Another curved bracket below 1 of the 4 parts of the second tape is labeled Biscuits per poodle. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/c5744310e738ac62c60ebb74a918ac5d37ad7066.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We can write this as a multiplication problem.  $4 \\times p = 131$  We can rewrite the relationship with division.  $\\begin{array}{rrrl} &p\\\\ {4}&\\overline{\\Big)131}\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{4}&\\overline{\\Big)131}\\\\ &\\mathllap{-}\\underline{\\blueE{120}}&\\purpleD{30}&\\maroonD{4} \\times \\purpleD{30} = \\blueE{120}\\\\ &11 \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{4}&\\overline{\\Big)131}\\\\ &\\mathllap{-}\\underline{120}&30\\\\ &11\\\\ &\\mathllap{-}\\underline{\\blueE{8}}&\\purpleD{2}&\\maroonD{4} \\times \\purpleD{2} = \\blueE{8}\\\\ &2 \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} {4}&\\overline{\\Big)131}\\\\ &\\mathllap{-}\\underline{120}&\\purpleD{30}\\\\ &11\\\\ &\\mathllap{-}\\underline{8}&\\underline{{}+\\purpleD{2}}\\\\ &\\goldE{3}&\\greenE{32} \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since each poodle gets the same number of biscuits, none of them get the $\\goldE{3}$ leftover biscuits.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "[[☃ image 1]]    Each poodle gets $32$ biscuits because $131 \\div 4 = 32$ remainder $3$.",
+                                    "images": [
+                                        {
+                                            "alt": "A tape diagram with 2 tapes of equal length, the first tape labeled 131 and a second tape with 4 equal parts each labeled 32 and an unequal part labeled 3. A curved bracket above the first tape is labeled Total biscuits. A second curved bracket below 1 of the 4 equal parts of the second tape is labeled Biscuits per poodle. A third curved bracket below the unequal part of the second tape is labeled Leftover biscuits.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/fd83ab01a909c9b29272da4ad10337a948a5cf3e.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Equation+solve equal groups"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Gregor Mendel is examining peas to try to understand how traits are passed from parents to offspring. Today, Gregor has $228$ peas to examine. The pods have $6$ peas per pod.  **How many pods of peas are there?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "There are $38$ pods, because $228\\div 6= 38$.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There are $1{,}368$ pods, because $228 \\times 6= 1{,}368$.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There are $48$ pods, because $228\\div 6= 48$.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$(\\text{number of pods}) \\times (\\text{peas per pod}) = (\\text{total peas})$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's use $p$ for the number of pods. Then we can fill in given information.  $p \\times 6 = 228$  We can rewrite the relationship with division.  $\\begin{array}{rrrl} &p\\\\ {6}&\\overline{\\Big)228}\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{6}&\\overline{\\Big)228}\\\\ &\\mathllap{-}\\underline{\\blueE{180}}&\\purpleD{30}&\\maroonD{6} \\times \\purpleD{30} = \\blueE{180}\\\\ &48\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{6}&\\overline{\\Big)228}\\\\ &\\mathllap{-}\\underline{180}&30\\\\ &48\\\\ &\\mathllap{-}\\underline{\\blueE{48}}&\\purpleD{8}&\\maroonD{6} \\times \\purpleD{8} = \\blueE{48}\\\\ &0\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} {6}&\\overline{\\Big)228}\\\\ &\\mathllap{-}\\underline{180}&\\purpleD{30}\\\\ &48\\\\ &\\mathllap{-}\\underline{48}&\\underline{{}+\\purpleD{8}}\\\\ &\\goldE{0}&\\greenE{38}\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are $38$ pods, because $228\\div 6= 38$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Equation+solve equal groups"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Ron and Hermione are lifting feathers into the air with magic. Hermione can lift a feather $3{,}525$ centimeters $(\\text{cm})$ into the air. That is $5$ times as high as Ron can lift a feather.  **How high can Ron lift a feather with his magic?**   $\\text{cm}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "705",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's use $R$ for the distance Ron can lift a feather. We can make a model to show the given information.  [[☃ image 1]]  How far is $R\\,\\text{cm}$ if $5$ times as far as $R$ is the same as $3{,}525\\,\\text{cm}$?",
+                                    "images": [
+                                        {
+                                            "alt": "A tape diagram with 2 tapes of equal lengths, a first tape labeled 3,525 and a second tape with 5 equal parts each labeled R. A curved bracket above the first tape is labeled distance Hermione lifts a feather, centimeters. Another curved bracket below 1 of the 5 parts of the second tape is labeled distance Ron lifts a feather, centimeters.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/2e3d8803d6bb99441c7bf13196a1756ca5ddd1b8.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We can write this as a multiplication problem.  $5\\times R=3{,}525$  We can rewrite the relationship with division.  $3{,}525\\div 5 = R$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} {5}&\\overline{\\Big)3{,}525}\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{5}&\\overline{\\Big)3{,}525}\\\\ &\\mathllap{-}\\underline{\\blueE{3{,}500}}&\\purpleD{700}&\\maroonD{5} \\times \\purpleD{700} = \\blueE{3{,}500}\\\\ &25\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{5}&\\overline{\\Big)3{,}525}\\\\ &\\mathllap{-}\\underline{3{,}500}&700\\\\ &25\\\\ &\\mathllap{-}\\underline{\\blueE{25}}&\\purpleD{5}&\\maroonD{5} \\times \\purpleD{5} = \\blueE{25}\\\\ &0\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} {5}&\\overline{\\Big)3{,}525}\\\\ &\\mathllap{-}\\underline{3{,}500}&\\purpleD{700}\\\\ &25\\\\ &\\mathllap{-}\\underline{25}&\\underline{{}+\\purpleD{5}}\\\\ &\\goldE{0}&\\greenE{705}\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "[[☃ image 1]]  Ron can lift a feather $\\greenE{705}\\,\\text{cm}$ with his magic.",
+                                    "images": [
+                                        {
+                                            "alt": "A tape diagram with 2 tapes of equal lengths, a first tape labeled 3,525 and a second tape with 5 equal parts each labeled 705. A curved bracket above the first tape is labeled distance Hermione lifts a feather, centimeters. Another curved bracket below 1 of the 5 parts of the second tape is labeled distance Ron lifts a feather, centimeters.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/43a191240c557f202189f825a2970c91470cfe75.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Solve comparison"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Varian rides a horse. Gelbin rides a rocket-powered robo-ostrich.  Gelbin's ostrich ran $4{,}828$ meters $(\\text{m})$, which is $2$ times as far as Varian's horse.  **How far did Varian's horse run?**   $\\text{m}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "2414",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's use $h$ for the distance the horse ran. We can make a model to show the given information.  [[☃ image 1]]  What is the value of $h$ meters if $2$ times as far as $h$ is the same as $4{,}828$ meters?",
+                                    "images": [
+                                        {
+                                            "alt": "A tape diagram with 2 tapes of equal lengths, a first tape labeled 4,828 and a second tape with 2 equal parts each labeled h. A curved bracket above the first tape is labeled distance ostrich ran, meters. Another curved bracket below 1 of the 2 parts of the second tape is labeled distance horse ran, meters.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/22a079a712063e077212ca472cd32cc51b423960.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We can write this as a multiplication problem.  $2\\times h=4{,}828$  We can rewrite the relationship with division.  $4{,}828\\div 2 = h$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} {2}&\\overline{\\Big)4{,}828}\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{2}&\\overline{\\Big)4{,}828}\\\\ &\\mathllap{-}\\underline{\\blueE{4{,}000}}&\\purpleD{2{,}000}&\\maroonD{2} \\times \\purpleD{2{,}000} = \\blueE{4{,}000}\\\\ &828\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{2}&\\overline{\\Big)4{,}828}\\\\ &\\mathllap{-}\\underline{4{,}000}&2{,}000\\\\ &828\\\\ &\\mathllap{-}\\underline{\\blueE{800}}&\\purpleD{400}&\\maroonD{2} \\times \\purpleD{400} = \\blueE{800}\\\\ &28\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{2}&\\overline{\\Big)4{,}828}\\\\ &\\mathllap{-}\\underline{4{,}000}&2{,}000\\\\ &828\\\\ &\\mathllap{-}\\underline{800}&400\\\\ &28\\\\ &\\mathllap{-}\\underline{\\blueE{20}}&\\purpleD{10}&\\maroonD{2} \\times \\purpleD{10} = \\blueE{20}\\\\ &8\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{2}&\\overline{\\Big)4{,}828}\\\\ &\\mathllap{-}\\underline{4{,}000}&2{,}000\\\\ &828\\\\ &\\mathllap{-}\\underline{800}&400\\\\ &28\\\\ &\\mathllap{-}\\underline{20}&10\\\\ &8\\\\ &\\mathllap{-}\\underline{\\blueE{8}}&\\purpleD{4}&\\maroonD{2} \\times \\purpleD{4} = \\blueE{8}\\\\ &0\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} {2}&\\overline{\\Big)4{,}828}\\\\ &\\mathllap{-}\\underline{4{,}000}&\\purpleD{2{,}000}\\\\ &828\\\\ &\\mathllap{-}\\underline{800}&\\purpleD{400}\\\\ &28\\\\ &\\mathllap{-}\\underline{20}&\\purpleD{10}\\\\ &8\\\\ &\\mathllap{-}\\underline{8}&\\underline{{}+\\purpleD{4}}\\\\ &\\goldE{0}&\\greenE{2{,}414}\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "[[☃ image 1]]  Varian's horse ran $2{,}414\\,\\text{m}$.",
+                                    "images": [
+                                        {
+                                            "alt": "A tape diagram with 2 tapes of equal lengths, a first tape labeled 4,828 and a second tape with 2 equal parts each labeled 2,414. A curved bracket above the first tape is labeled distance ostrich ran, meters. Another curved bracket below 1 of the 2 parts of the second tape is labeled distance horse ran, meters.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/5f6bf988fea05b4673fa62fc184e23139c37f67e.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Solve comparison"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Frederic read $471$ pages of books this month. Jeane read $3$ times as many pages as Frederic.  **How many pages did Jeane read?**   pages",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "1413",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's use $J$ for the number of pages Jeane read. We can make a model to show the given information.  [[☃ image 1]]  What is the value of $J$ if $J$ is $3$ times as many as $471$ pages?",
+                                    "images": [
+                                        {
+                                            "alt": "A tape diagram with 2 tapes of equal lengths, a first tape labeled J and a second tape with 3 equal parts each labeled 471. A curved bracket above the first tape is labeled pages Jeane read. Another curved bracket below 1 of the 3 parts of the second tape is labeled pages Frederic read.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/b62339b6d3a1090c18573945809eb1c8a6c1985c.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We can write this as a multiplication problem.  $471 \\times 3 = J$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} 47\\blueE{1}&\\\\ \\underline{{} \\times \\maroonD{3}}&\\\\ \\greenE{3}&\\quad \\maroonD{3} \\times \\blueE{1} = \\greenE{3} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} 4\\blueE{7}1&\\\\ \\underline{{} \\times \\maroonD{3}}&\\\\ 3\\\\ \\greenE{210}&\\quad \\maroonD{3} \\times \\blueE{70} = \\greenE{210} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\blueE{4}71&\\\\ \\underline{{} \\times \\maroonD{3}}&\\\\ 3\\\\ 210\\\\ \\underline{{}+\\greenE{1{,}200}}&\\quad \\maroonD{3} \\times \\blueE{400} = \\greenE{1{,}200} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} 471&\\\\ \\underline{{} \\times 3}&\\\\ \\purpleD{3}\\\\ \\purpleD{210}\\\\ \\underline{{}+\\purpleD{1{,}200}}\\\\ 1{,}413 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "[[☃ image 1]]  Jeane read $1{,}413$ pages.",
+                                    "images": [
+                                        {
+                                            "alt": "A tape diagram with 2 tapes of equal lengths, a first tape labeled 1,413 and a second tape with 3 equal parts each labeled 471. A curved bracket above the first tape is labeled pages Jeane read. Another curved bracket below 1 of the 3 parts of the second tape is labeled pages Frederic read.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/da51410180bf76ac772b9d9e2bd53f5e4108deca.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Solve comparison"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A cat has $24$ whiskers by its nose. A manatee has $25$ times as many whiskers.  **How many whiskers does a manatee have?**   whiskers",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "600",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{manatee whiskers}={25} \\times \\text{cat whiskers}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's use $m$ for the number of whiskers on a manatee. Then we can fill in the given information.  $m = 25 \\times 24$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} 2\\blueE{5}&\\\\ \\underline{{} \\times 2\\maroonD{4}}&\\\\ \\greenE{20}&\\quad \\maroonD{4} \\times \\blueE{5} = \\greenE{20} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\blueE{2}5&\\\\ \\underline{{} \\times 2\\maroonD{4}}&\\\\ 20\\\\ \\greenE{80}&\\quad \\maroonD{4} \\times \\blueE{20} = \\greenE{80} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} 2\\blueE{5}&\\\\ \\underline{{} \\times \\maroonD{2}4}&\\\\ 20\\\\ 80\\\\ \\greenE{100}&\\quad \\maroonD{20} \\times \\blueE{5} = \\greenE{100} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\blueE{2}5&\\\\ \\underline{{} \\times \\maroonD{2}4}&\\\\ 20\\\\ 80\\\\ 100\\\\ \\underline{{}+\\greenE{400}}&\\quad \\maroonD{20} \\times \\blueE{20} = \\greenE{400} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} 25&\\\\ \\underline{{} \\times 24}&\\\\ \\purpleD{20}\\\\ \\purpleD{80}\\\\ \\purpleD{100}\\\\ \\underline{{}+\\purpleD{400}}\\\\ 600 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "A manatee has $600$ whiskers.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Solve comparison"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Bry blew $91$ bubbles. Ken blew $7$ bubbles.  **How many times as many bubbles did Bry blow?**   times as many bubbles",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "13",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "[[☃ image 1]]   $\\text{Bry's bubbles}={?} \\times \\text{Ken's bubbles}$",
+                                    "images": [
+                                        {
+                                            "alt": "A tape diagram with 2 tapes of unequal length, a first tape labeled 91 and a second tape labeled 7. A curved bracket above the first tape is labeled Bry's bubbles. Another curved bracket below the second tape is labeled Ken's bubbles. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/89ae5a2112b9ac193ebff9c78c4e14d308b141e3.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We can fill in the given information.  $91 = {?} \\times 7$  We can rewrite the relationship with division.  $\\begin{array}{rr} &{?}\\\\ {7}&\\overline{\\Big)91}\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{7}&\\overline{\\Big)91}\\\\ &\\mathllap{-}\\underline{\\blueE{70}}&\\purpleD{10}&\\maroonD{7} \\times \\purpleD{10} = \\blueE{70}\\\\ &21\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{7}&\\overline{\\Big)91}\\\\ &\\mathllap{-}\\underline{70}&10\\\\ &21\\\\ &\\mathllap{-}\\underline{\\blueE{21}}&\\purpleD{3}&\\maroonD{7} \\times \\purpleD{3} = \\blueE{21}\\\\ &0\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} {7}&\\overline{\\Big)91}\\\\ &\\mathllap{-}\\underline{70}&\\purpleD{10}\\\\ &21\\\\ &\\mathllap{-}\\underline{21}&\\underline{{}+\\purpleD{3}}\\\\ &\\goldE{0}&\\greenE{13}\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Bry blew $13$ times as many bubbles.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Solve comparison"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Lily is organizing a large team of volunteers to help with a community project. Each group of volunteers consists of $9$ people.  **How many groups does Lily need to organize if there are $6{,}174$ volunteers?**   groups",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "686",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$(\\text{number of groups}) \\times (\\text{volunteers per group}) = (\\text{total volunteers})$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's use $g$ for the number of groups. Then we can fill in given information.  $g \\times 9 = 6{,}174$  We can rewrite the relationship with division.  $\\begin{array}{rrrl} &g\\\\ {9}&\\overline{\\Big)6{,}174}\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{9}&\\overline{\\Big)6{,}174}\\\\ &\\mathllap{-}\\underline{\\blueE{5{,}400}}&\\purpleD{600}&\\maroonD{9} \\times \\purpleD{600} = \\blueE{5{,}400}\\\\ &774\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{9}&\\overline{\\Big)6{,}174}\\\\ &\\mathllap{-}\\underline{5{,}400}&600\\\\ &774\\\\ &\\mathllap{-}\\underline{\\blueE{720}}&\\purpleD{80}&\\maroonD{9} \\times \\purpleD{80} = \\blueE{720}\\\\ &54\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{9}&\\overline{\\Big)6{,}174}\\\\ &\\mathllap{-}\\underline{5{,}400}&600\\\\ &774\\\\ &\\mathllap{-}\\underline{720}&80\\\\ &54\\\\ &\\mathllap{-}\\underline{\\blueE{54}}&\\purpleD{6}&\\maroonD{9} \\times \\purpleD{6} = \\blueE{54}\\\\ &0\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} {9}&\\overline{\\Big)6{,}174}\\\\ &\\mathllap{-}\\underline{5{,}400}&\\purpleD{600}\\\\ &774\\\\ &\\mathllap{-}\\underline{720}&\\purpleD{80}\\\\ &54\\\\ &\\mathllap{-}\\underline{54}&\\underline{{}+\\purpleD{6}}\\\\ &\\goldE{0}&\\greenE{686}\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Lily needs to organize $686$ groups.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Solve equal groups"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Legolas shoots $3$ arrows at once from his bow. He has $177$ arrows.  **How many times can Legolas shoot his bow before he needs more arrows?**   times",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "59",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$(\\text{number of times}) \\times (\\text{arrows per time}) = (\\text{total arrows})$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's use $t$ for the number of times he shoots his bow. Then we can fill in given information.  $t \\times 3 = 177$  We can rewrite the relationship with division.  $\\begin{array}{rrrl} &t\\\\ {3}&\\overline{\\Big)177}\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{3}&\\overline{\\Big)177}\\\\ &\\mathllap{-}\\underline{\\blueE{150}}&\\purpleD{50}&\\maroonD{3} \\times \\purpleD{50} = \\blueE{150}\\\\ &27\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{3}&\\overline{\\Big)177}\\\\ &\\mathllap{-}\\underline{150}&50\\\\ &27\\\\ &\\mathllap{-}\\underline{\\blueE{27}}&\\purpleD{9}&\\maroonD{3} \\times \\purpleD{9} = \\blueE{27}\\\\ &0\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} {3}&\\overline{\\Big)177}\\\\ &\\mathllap{-}\\underline{150}&\\purpleD{50}\\\\ &27\\\\ &\\mathllap{-}\\underline{27}&\\underline{{}+\\purpleD{9}}\\\\ &\\goldE{0}&\\greenE{59}\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Legolas can shoot his bow $59$ times.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Solve equal groups"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Nissa is going to plant $485$ trees this year.   **If Nissa plants $5$ orchards of trees, how many trees will be in each orchard?**   (Assume each orchard has the same number of trees.)   trees",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "97",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's use $t$ for the number of trees per orchard. We can make a model to show the given information.  [[☃ image 1]]  What is the value of $t$ if $5$ groups of $t$ is the same as $485$?",
+                                    "images": [
+                                        {
+                                            "alt": "A tape diagram with 2 tapes of equal lengths, a first tape labeled 485 and a second tape with 5 equal parts each labeled t. A curved bracket above the first tape is labeled total trees. Another curved bracket below 1 of the 5 parts of the second tape is labeled trees per orchard.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/fb4b1f78088af01ca400832fa1cd52e4e448bb38.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We can write this as a multiplication problem.  $5 \\times t = 485$  We can rewrite the relationship with division.  $\\begin{array}{rrrl} &t\\\\ {5}&\\overline{\\Big)485}\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{5}&\\overline{\\Big)485}\\\\ &\\mathllap{-}\\underline{\\blueE{400}}&\\purpleD{80}&\\maroonD{5} \\times \\purpleD{80} = \\blueE{400}\\\\ &85\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{5}&\\overline{\\Big)485}\\\\ &\\mathllap{-}\\underline{400}&80\\\\ &85\\\\ &\\mathllap{-}\\underline{\\blueE{50}}&\\purpleD{10}&\\maroonD{5} \\times \\purpleD{10} = \\blueE{50}\\\\ &35\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} \\maroonD{5}&\\overline{\\Big)485}\\\\ &\\mathllap{-}\\underline{400}&80\\\\ &85\\\\ &\\mathllap{-}\\underline{50}&10\\\\ &35\\\\ &\\mathllap{-}\\underline{\\blueE{35}}&\\purpleD{7}&\\maroonD{5} \\times \\purpleD{7} = \\blueE{35}\\\\ &0\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr|rl} {5}&\\overline{\\Big)485}\\\\ &\\mathllap{-}\\underline{400}&\\purpleD{80}\\\\ &85\\\\ &\\mathllap{-}\\underline{50}&\\purpleD{10}\\\\ &35\\\\ &\\mathllap{-}\\underline{35}&\\underline{{}+\\purpleD{7}}\\\\ &\\goldE{0}&\\greenE{97}\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "[[☃ image 1]]  There will be $97$ trees in each orchard.",
+                                    "images": [
+                                        {
+                                            "alt": "A tape diagram with 2 tapes of equal lengths, a first tape labeled 485 and a second tape with 5 equal parts each labeled 97. A curved bracket above the first tape is labeled total trees. Another curved bracket below 1 of the 5 parts of the second tape is labeled trees per orchard.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/50864637ea43168499db7acece34491fe9887524.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Solve equal groups"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Leia is setting up $417$ toy cars. Each car needs $3$ batteries to drive.  **How many batteries does Leia need for her cars?**   batteries",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "1251",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$(\\text{number of cars}) \\times (\\text{batteries per car}) = (\\text{total batteries})$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's use $b$ for the total number of batteries. Then we can fill in given information.  $417\\times 3=b$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} 41\\blueE{7}&\\\\ \\underline{{} \\times \\maroonD{3}}&\\\\ \\greenE{21}&\\quad \\maroonD{3} \\times \\blueE{7} = \\greenE{21} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} 4\\blueE{1}7&\\\\ \\underline{{} \\times \\maroonD{3}}&\\\\ 21\\\\ \\greenE{30}&\\quad \\maroonD{3} \\times \\blueE{10} = \\greenE{30} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\blueE{4}17&\\\\ \\underline{{} \\times \\maroonD{3}}&\\\\ 21\\\\ 30\\\\ \\underline{{}+\\greenE{1{,}200}}&\\quad \\maroonD{3} \\times \\blueE{400} = \\greenE{1{,}200} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} 417&\\\\ \\underline{{} \\times 3}&\\\\ \\purpleD{21}\\\\ \\purpleD{30}\\\\ \\underline{{}+\\purpleD{1{,}200}}\\\\ 1{,}251 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Leia needs $1{,}251$ batteries for her cars.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Solve equal groups"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Zane is putting the strings on $5$ harps. Each harp has $48$ strings.  **How many strings does Zane need for all $5$ harps?**   strings",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "240",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's use $t$ for the total number of strings. We can make a model to show the given information.  [[☃ image 1]]  What is the value of $t$ if $5$ groups of $48$ is the same as $t$?",
+                                    "images": [
+                                        {
+                                            "alt": "A tape diagram with 2 tapes of equal lengths, a first tape labeled t and a second tape with 5 equal parts each labeled 48. A curved bracket above the first tape is labeled total strings. Another curved bracket below 1 of the 5 parts of the second tape is labeled strings per harp.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/318e183ef353c23b103ac8216c478700c0a472d1.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We can write this as a multiplication problem.  $5\\times 48=t$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} 4\\blueE{8}&\\\\ \\underline{{} \\times \\maroonD{5}}&\\\\ \\greenE{40}&\\quad \\maroonD{5} \\times \\blueE{8} = \\greenE{40} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\blueE{4}8&\\\\ \\underline{{} \\times \\maroonD{5}}&\\\\ 40\\\\ \\underline{{}+\\greenE{200}}&\\quad \\maroonD{5} \\times \\blueE{40} = \\greenE{200} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} 48&\\\\ \\underline{{} \\times 5}&\\\\ \\purpleD{40}\\\\ \\underline{{}+\\purpleD{200}}\\\\ 240 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Zane needs $240$ strings.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Solve equal groups"
+                    }
+                }
+            }
+        }
+    ]
+}

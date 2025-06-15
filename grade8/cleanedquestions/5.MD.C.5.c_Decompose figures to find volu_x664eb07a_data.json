@@ -1,0 +1,915 @@
+{
+    "standard_metadata": {
+        "standard_id": "5.MD.C.5.c",
+        "standard_description": "Recognize volume as additive. Find volumes of solid figures composed of two non-overlapping right rectangular prisms by adding the volumes of the non-overlapping parts, applying this technique to solve real world problems.",
+        "standard_title": "Decompose figures to find volume",
+        "standard_url": "https://www.khanacademy.org/math/cc-fifth-grade-math/5th-volume/decompose-figures-to-find-volume/e/decompose-figures-to-find-volume"
+    },
+    "id": "x664eb07a",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The figure below is made of $2$ rectangular prisms.    **What is the volume of this figure?**",
+                                "images": [
+                                    {
+                                        "alt": "A shape made up of two rectangular prisms. The first rectangular prism has a base that measures 5 centimeters length by 9 centimeters width, and has a height of 2 centimeters. The second rectangular prism is next to the first rectangular prism. It has a base that measures 1 centimeter length by 9 centimeters width and has a height of 8 centimeters.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/b3edc2a58c70d6fac2690c956fb4f818462f324b.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$98 \\text{ cubic cm}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$162 \\text{ cubic cm}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$720 \\text{ cubic cm}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can think of this figure as $2$ rectangular prisms that are stuck together.  Let's find the volume of each prism separately.  [[☃ image 2]]  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "The representation shows the shape above broken apart into two separated rectangular prisms. The blue rectangular prism has dimensions of 5 centimeters length by 9 centimeters width by 2 centimeters height. The purple rectangular prism has the dimensions 1 centimeter length by 9 centimeters width by 8 centimeters height. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/c0c413f45902b8117c6cc7d79cedcddd26e01cb6.svg"
+                                        },
+                                        {
+                                            "alt": "A shape made up of two rectangular prisms. The first rectangular prism has a base that measures 5 centimeters length by 9 centimeters width, and has a height of 2 centimeters and is shaded blue. The second rectangular prism is next to the first rectangular prism. It has a base that measures 1 centimeter length by 9 centimeter width and has a height of 8 centimeters and is shaded purple.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/da547a614238d4c62bd9b4c4af73c535f9a5c385.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Volume of a rectangular prism is equal to length times width times height $(V =l\\times w\\times h)$.    [[☃ image 3]]  $\\text{Volume of prism 1} = 5 \\times 9 \\times2 = \\blueE{90} \\text{ cubic cm}$    [[☃ image 4]]  $\\text{Volume of prism 2}=1\\times 9\\times 8 = \\purpleE{72} \\text{ cubic cm}$",
+                                    "images": [
+                                        {
+                                            "alt": "The blue rectangular prism from above is shown and has dimensions of 5 centimeters length by 9 centimeters width by 2 centimeters height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/274f9610b92c2f64fde8761c68735c33ba95fdfa.svg"
+                                        },
+                                        {
+                                            "alt": "The purple rectangular prism from above is shown and has dimensions 1 centimeter length by 9 centimeters width by 8 centimeters height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/cff69278ec2fdf96c28822ad0daeae8aabf44889.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now, we add to find the volume of the entire figure.  $\\text{Volume of entire figure}  = \\blueE{90} + \\purpleE{72} = \\tealE{162} \\text{ cubic cm}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The volume of the figure is $\\tealE{162} \\text{ cubic centimeters}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The figure below is made of $2$ rectangular prisms.     **What is the volume of this figure?**",
+                                "images": [
+                                    {
+                                        "alt": "A shape made up of two rectangular prisms. The first rectangular prism has a base that measures 5 centimeters length by 4 centimeters width, and has a height of 3 centimeters. The second rectangular prism sits next to the first rectangular prism. It has a base that measures 2 centimeters length by 4 centimeters width and has a height of 8 centimeters.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/b9360b642dc3fad65ea0f61f590173591ad6db75.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$64 \\text{ cubic cm}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$108 \\text{ cubic cm}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$124 \\text{ cubic cm}$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can think of this figure as $2$ rectangular prisms that are stuck together.  Let's find the volume of each prism separately.    [[☃ image 1]]  [[☃ image 2]]",
+                                    "images": [
+                                        {
+                                            "alt": "The shape from above with color used to show the two rectangular prisms that make up the figure. One prism is purple and the other is blue. Two representations are shown. The first shows the two rectangular prisms connected like in the picture above. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/1c65924456360bf0be80ba84d4332bf6f2a1da75.svg"
+                                        },
+                                        {
+                                            "alt": "The representation shows the shape above broken apart into two separated rectangular prisms. The blue rectangular prism has dimensions of 5 centimeters length by 4 centimeters width by 3 centimeters height. The purple rectangular prism has the dimensions 2 centimeters length by 4 centimeters width by 8 centimeters height. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/1c243d591f3b05d781f6180dc5536ac691463148.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Volume of a rectangular prism is equal to length times width times height $(V =l\\times w\\times h)$.     [[☃ image 1]]     $\\text{Volume of prism 1} = 5 \\times 4 \\times3 = \\blueE{60} \\text{ cubic cm}$   [[☃ image 2]]     $\\text{Volume of prism 2}=2 \\times 4\\times 8 = \\purpleE{64} \\text{ cubic cm}$",
+                                    "images": [
+                                        {
+                                            "alt": "The blue rectangular prism from above is shown and has dimensions of 5 centimeters length by 4 centimeters width by 3 centimeters height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/72278b5744c0207604edb51af5b9855b91f6568f.svg"
+                                        },
+                                        {
+                                            "alt": "The purple rectangular prism from above is shown and has dimensions 2 centimeters length by 4 centimeters width by 8 centimeters height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/7e2da5bb8a91d1fc3b66b7c40bb58bd9a64937e4.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now, we add to find the volume of the entire figure.  $\\text{Volume of entire figure}  = \\blueE{60} + \\purpleE{64} = \\tealE{124} \\text{ cubic cm}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The volume of the figure is $\\tealE{124} \\text{ cubic cm}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The figure below is made of $2$ rectangular prisms.        **What is the volume of this figure?**",
+                                "images": [
+                                    {
+                                        "alt": "A shape made up of two rectangular prisms. The first rectangular prism has a base that measures 2 inches length by 6 inches width, and has a height of 5 inches. The second rectangular prism sits behind the first rectangular prism. It has a base that measures 8 inches length by 1 inch width and has a height of 5 inches.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/6c55c6239b5b1be55f320ac27b443469af7fda60.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "${100} \\text{ cubic in}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "${124} \\text{ cubic in}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "${186} \\text{ cubic in}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can think of this figure as $2$ rectangular prisms that are stuck together.  Let's find the volume of each prism separately.   [[☃ image 1]]  [[☃ image 2]]",
+                                    "images": [
+                                        {
+                                            "alt": "The shape from above with color used to show the two rectangular prisms that make up the figure. One prism is gold and the other is purple. Two representations are shown. The first shows the two rectangular prisms connected like in the picture above. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/690d9b22050418e6475479996ad67dac3e685a53.svg"
+                                        },
+                                        {
+                                            "alt": "The second representation shows the shape broken apart into two separated rectangular prisms. The gold rectangular prism has dimensions of 2 inches length by 6 inches width by 5 inches height. The purple rectangular prism has the dimensions 8 inches length by 1 inch width by 5 inches height. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/ecd9def63380d71a0e9ea6029c5ce495385a3894.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Volume of a rectangular prism is equal to length times width times height $(V =l\\times w\\times h)$.      [[☃ image 1]]  $\\text{Volume of prism 1} = 2\\times 6 \\times5 = \\goldE{60} \\text{ cubic in}$   [[☃ image 2]]  $\\text{Volume of prism 2}=8\\times 1\\times 5 = \\purpleE{40} \\text{ cubic in}$",
+                                    "images": [
+                                        {
+                                            "alt": "The gold rectangular prism from above is shown and has dimensions of 2 inches length by 6 inches width by 5 inches height. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/1a4121152e76b8d427c3e4eba6bae1ce02491cc3.svg"
+                                        },
+                                        {
+                                            "alt": "The purple rectangular prism from above is show and has dimensions 8 inches length by 1 inch width by 5 inches height. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/efcf5f1e28b92346a75d08906beb564aa9199a04.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now, we add to find the volume of the entire figure.  $\\text{Volume of entire figure}  = \\goldE{60} + \\purpleE{40} = \\blueE{100} \\text{ cubic in}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The volume of the figure is $\\blueE{100} \\text{ cubic inches}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The figure below is made of $2$ rectangular prisms.    **What is the volume of this figure?**",
+                                "images": [
+                                    {
+                                        "alt": "A shape made up of two rectangular prisms. The first rectangular prism has a base that measures 6 centimeters length by 7 centimeters width, and has a height of 1 centimeter. The second rectangular prism sits next to the first rectangular prism. It has a base that measures 3 centimeters length by 7 centimeters width and has a height of 4 centimeters.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/7c5e46cb26561d1966376ad13eb82d889371a408.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$126 \\text{ cubic cm}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$144 \\text{ cubic cm}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$216 \\text{ cubic cm}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can think of this figure as $2$ rectangular prisms that are stuck together.  Let's find the volume of each prism separately.   [[☃ image 1]]  [[☃ image 2]]",
+                                    "images": [
+                                        {
+                                            "alt": "The shape from above with color used to show the two rectangular prisms that make up the figure. One prism is purple and the other is gold. Two representations are shown. The first shows the two rectangular prisms connected like in the picture above. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/499a5aeb29ec7fe9126eabd7502be6b1baa9ed1f.svg"
+                                        },
+                                        {
+                                            "alt": "The second representation shows the shape broken apart into two separated rectangular prisms. The purple rectangular prism has dimensions of 6 centimeters length by 7 centimeters width by 1 centimeter height. The gold rectangular prism has the dimensions 3 centimeters length by 7 centimeters width by 4 centimeters height. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/406ff18b2056c55106b0d8cefe0a8597f69b211f.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Volume of a rectangular prism is equal to length times width times height $(V =l\\times w\\times h)$.     [[☃ image 1]]  $\\text{Volume of prism 1}= 6 \\times 7 \\times1 = \\purpleE{42} \\text{ cubic cm}$   [[☃ image 2]]  $\\text{Volume of prism 2}=3 \\times 7\\times 4 = \\goldE{84} \\text{ cubic cm}$",
+                                    "images": [
+                                        {
+                                            "alt": "The purple rectangular prism from above is shown and has dimensions of 6 centimeters length by 7 centimeters width by 1 centimeter height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/788f971739d221f4f2e808f41220b1709f77200c.svg"
+                                        },
+                                        {
+                                            "alt": "The gold rectangular prism from above is shown and has dimensions 3 centimeters length by 7 centimeters width by 4 centimeters height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/b007b7699f8465ca37fd14b3b80c0796589e9478.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now, we add to find the volume of the entire figure.  $\\text{Volume of entire figure}  = \\purpleE{42} + \\goldE{84} = \\blueE{126} \\text{ cubic cm}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The volume of the figure is $\\blueE{126} \\text{ cubic cm}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The figure below is made of $2$ rectangular prisms.    **What is the volume of this figure?**",
+                                "images": [
+                                    {
+                                        "alt": "A shape made up of two rectangular prisms. The first rectangular prism has a base that measures 3 centimeters length by 5 centimeters width, and has a height of 7 centimeters. The second rectangular prism sits in front of the first rectangular prism. It has a base that measures 3 centimeters length by 5 centimeters width and has a height of 2 centimeters.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/19a2b555484674fdf9b3e457ccaf1928f863c532.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$105 \\text{ cubic cm}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$135 \\text{ cubic cm}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$155 \\text{ cubic cm}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can think of this figure as $2$ rectangular prisms that are stuck together.  Let's find the volume of each prism separately.   [[☃ image 1]]   [[☃ image 2]]",
+                                    "images": [
+                                        {
+                                            "alt": "The shape from above with color used to show the two rectangular prisms that make up the figure. One prism is gold and the other is purple. The gold rectangular prism has dimensions of 3 centimeters length by 5 centimeters width by 7 centimeters height. The purple rectangular prism has the dimensions 3 centimeters length by 5 centimeters width by 2 centimeters height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/3653a365dce4da1c1f00521793072aaec90b2714.svg"
+                                        },
+                                        {
+                                            "alt": "The shape from above shown broken apart with color used to show the two rectangular prisms that make up the figure. One prism is gold and the other is purple. The gold rectangular prism has dimensions of 3 centimeters length by 5 centimeters width by 7 centimeters height. The purple rectangular prism has the dimensions 3 centimeters length by 5 centimeters width by 2 centimeters height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/b25bb465cb060a0dc6c67d716178bb8fb2bec165.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Volume of a rectangular prism is equal to length times width times height $(V =l\\times w\\times h)$.     [[☃ image 1]]  $\\text{Volume of prism 1}= 3\\times 5 \\times 7= \\goldE{105} \\text{ cubic cm}$   [[☃ image 2]]  $\\text{Volume of prism 2}=3\\times 5\\times 2 = \\purpleD{30} \\text{ cubic cm}$",
+                                    "images": [
+                                        {
+                                            "alt": "The gold rectangular prism from above is shown and has dimensions of 3 centimeters length by 5 centimeters width by 7 centimeters height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/7439c1c155322f15264e51f1055d879bffcc3cfb.svg"
+                                        },
+                                        {
+                                            "alt": "The purple rectangular prism from above is shown and has dimensions 3 centimeters length by 5 centimeters width by 2 centimeters height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/2cfb234bc27d2b46a13ecc227481a2093b52b315.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now, we add to find the volume of the entire figure.  $\\text{Volume of entire figure} = \\goldE{105} + \\purpleD{30} = \\maroonD{135} \\text{ cubic cm}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The volume of the figure is $\\maroonD{135} \\text{ cubic cm}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The figure below is made of $2$ rectangular prisms.    **What is the volume of this figure?**",
+                                "images": [
+                                    {
+                                        "alt": "A shape made up of two rectangular prisms. The first rectangular prism has a base that measures 9 centimeters length by 10 centimeters width, and has a height of 2 centimeters. The second rectangular prism sits next to the first rectangular prism. It has a base that measures 3 centimeters length by 10 centimeters width and has a height of 5 centimeters.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/6386cf9dd3e0f0fa45e78c195bda38e8e8e022aa.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$150 \\text{ cubic cm}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$180 \\text{ cubic cm}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$330 \\text{ cubic cm}$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can think of this figure as $2$ rectangular prisms that are stuck together.  Let's find the volume of each prism separately.   [[☃ image 1]]  [[☃ image 2]]",
+                                    "images": [
+                                        {
+                                            "alt": "The shape from above with color used to show the two rectangular prisms that make up the figure. One prism is purple and the other is blue. Two representations are shown. The first shows the two rectangular prisms connected like in the picture above. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/8bbb0bd794f728c803d4f62f60de7ed44fd0b194.svg"
+                                        },
+                                        {
+                                            "alt": "The second representation shows the shape broken apart into two separated rectangular prisms. The purple rectangular prism has dimensions of 9 centimeters length by 10 centimeters width by 2 centimeters height. The blue rectangular prism has the dimensions 3 centimeters length by 10 centimeters width by 5 centimeters height. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/ac2f875144e89d77cd836456e3c02404403731ba.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Volume of a rectangular prism is equal to length times width times height $(V =l\\times w\\times h)$.     [[☃ image 1]]  $\\text{Volume of prism 1} = 9 \\times 10 \\times2 = \\purpleE{180} \\text{ cubic cm}$    [[☃ image 2]]  $\\text{Volume of prism 2}=3 \\times 10\\times 5 = \\blueE{150} \\text{ cubic cm}$",
+                                    "images": [
+                                        {
+                                            "alt": "The purple rectangular prism from above is shown and has dimensions of 9 centimeters length by 10 centimeters width by 2 centimeters height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/5d4eb24a2b2f85453e9944b220b7a052f3d81f21.svg"
+                                        },
+                                        {
+                                            "alt": "The blue rectangular prism from above is shown and has dimensions 3 centimeters length by 10 centimeters width by 5 centimeters height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/778829a9eb7485e002786068bef31818106158d8.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now, we add to find the volume of the entire figure.  $\\text{Volume of entire figure} = \\purpleE{180} + \\blueE{150} = \\goldE{330} \\text{ cubic cm}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The volume of the figure is $\\goldE{330} \\text{ cubic cm}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The figure below is made of $2$ rectangular prisms.    **What is the volume of this figure?**",
+                                "images": [
+                                    {
+                                        "alt": "A shape made up of two rectangular prisms. One prism is gold and the other is blue. The gold rectangular prism has a base that measures 7 inches length by 8 inches width, and has a height of 1 inch. The blue rectangular prism sits in behind the green rectangular prism. It has a base that measures 10 inches length by 9 inches width and has a height of 1 inch.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/7170981b61776fb00e6b2a859edb466f218cff84.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$56 \\text{ cubic in}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$86 \\text{ cubic in}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$146 \\text{ cubic in}$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can think of this figure as $2$ rectangular prisms that are stuck together.  Let's find the volume of each prism separately.   [[☃ image 1]]  [[☃ image 2]]",
+                                    "images": [
+                                        {
+                                            "alt": "The shape from above with color used to show the two rectangular prisms that make up the figure. One prism is gold and the other is blue. Two representations are shown. The first shows the two rectangular prisms connected like in the picture above. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/7170981b61776fb00e6b2a859edb466f218cff84.svg"
+                                        },
+                                        {
+                                            "alt": "The second representation shows the shape broken apart into two separated rectangular prisms. The gold rectangular prism has dimensions of 7 inches length by 8 inches width by 1 inch height. The blue rectangular prism has the dimensions 10 inches length by 9 inches width by 1 inch height. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/0447643244c3269d2805319fbdb69cd4da8e9548.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Volume of a rectangular prism is equal to length times width times height $(V =l\\times w\\times h)$.     [[☃ image 1]]     $\\text{Volume of prism 1} = 7\\times 8 \\times1 = \\goldE{56} \\text{ cubic in}$   [[☃ image 2]]  $\\text{Volume of prism 2}=10\\times 9\\times 1 = \\blueE{90} \\text{ cubic in}$",
+                                    "images": [
+                                        {
+                                            "alt": "The gold rectangular prism from above is shown and has dimensions of 7 inches length by 8 inches width by 1 inch height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/e298f17dec174dcfdf16314f051af3dc024f5242.svg"
+                                        },
+                                        {
+                                            "alt": "The blue rectangular prism from above is shown and has dimensions 10 inches length by 9 inches width by 1 inch height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/e3d9441d10cb12019e9bebac5117587ab919ae36.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now, we add to find the volume of the entire figure.  $\\text{Volume of entire figure}  = \\goldE{56} + \\blueE{90} = \\tealE{146} \\text{ cubic in}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The volume of the figure is $\\tealE{146} \\text{ cubic inches}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The figure below is made of $2$ rectangular prisms.    **What is the volume of this figure?**",
+                                "images": [
+                                    {
+                                        "alt": "A shape made up of two rectangular prisms. One prism is purple and the other is gold. The purple rectangular prism has a base that measures 2 centimeters length by 8 centimeters width, and has a height of 2 centimeters. The gold rectangular prism sits next to the purple rectangular prism. It has a base that measures 3 centimeters length by 8 centimeters width and has a height of 6 centimeters.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/e917e080af664ed71f70e6380531c52174782ab4.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$176 \\text{ cubic cm}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$196 \\text{ cubic cm}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$226 \\text{ cubic cm}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can think of this figure as $2$ rectangular prisms that are stuck together.  Let's find the volume of each prism separately.  [[☃ image 1]]  [[☃ image 2]]",
+                                    "images": [
+                                        {
+                                            "alt": "The shape from above with color used to show the two rectangular prisms that make up the figure. One prism is purple and the other is gold. Two representations are shown. The first shows the two rectangular prisms connected like in the picture above. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/e917e080af664ed71f70e6380531c52174782ab4.svg"
+                                        },
+                                        {
+                                            "alt": "The second representation shows the shape broken apart into two separated rectangular prisms. The purple rectangular prism has dimensions of 2 centimeters length by 8 centimeters width by 2 centimeters height. The gold rectangular prism has the dimensions 3 centimeters length by 8 centimeters width by 6 centimeters height. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/f7c2eb2bd69f9ed87538d100c5e34f770161ab37.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Volume of a rectangular prism is equal to length times width times height $(V =l\\times w\\times h)$.     [[☃ image 1]]  $\\text{Volume of prism 1} = 2\\times 8 \\times2 = \\purpleE{32} \\text{ cubic cm}$   [[☃ image 2]]  $\\text{Volume of prism 2}=3 \\times 8\\times 6 = \\goldE{144} \\text{ cubic cm}$",
+                                    "images": [
+                                        {
+                                            "alt": "The purple rectangular prism from above is shown and has dimensions of 2 centimeters length by 8 centimeters width by 2 centimeters height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/77c6034f2d72d0705446e2938c0098149d2cdceb.svg"
+                                        },
+                                        {
+                                            "alt": "The gold rectangular prism from above is shown and has dimensions 3 centimeters length by 8 centimeters width by 6 centimeters height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/50b63236d88e479ad75e024f434e7cfe4161d0f9.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now, we add to find the volume of the entire figure.  $\\text{Volume of entire figure}  = \\purpleE{32} + \\goldE{144} = \\blueE{176} \\text{ cubic cm}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The volume of the figure is $\\blueE{176} \\text{ cubic cm}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The figure below is made of $2$ rectangular prisms.    **What is the volume of this figure?**",
+                                "images": [
+                                    {
+                                        "alt": "A shape made up of two rectangular prisms. Colors blue and maroon are used to tell them apart. The blue rectangular prism has a base that measures 10 centimeters length by 6 centimeters width, and has a height of 3 centimeters. The maroon rectangular prism sits next to the blue rectangular prism. It has a base that measures 4 centimeters length by 6 centimeters width and has a height of 4 centimeters.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/2b05cea006d0d0429abd365330e80626cb284698.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$106 \\text{ cubic cm}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$180 \\text{ cubic cm}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$276 \\text{ cubic cm}$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can think of this figure as $2$ rectangular prisms that are stuck together.  Let's find the volume of each prism separately.  [[☃ image 1]]  [[☃ image 2]]",
+                                    "images": [
+                                        {
+                                            "alt": "The shape from above with color used to show the two rectangular prisms that make up the figure. One prism is blue and the other is maroon. Two representations are shown. The first shows the two rectangular prisms connected like in the picture above. The blue rectangular prism has a base that measures 10 centimeters length by 6 centimeters width, and has a height of 3 centimeters. The maroon rectangular prism sits next to the blue rectangular prism. It has a base that measures 4 centimeters length by 6 centimeters width and has a height of 4 centimeters. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/2b05cea006d0d0429abd365330e80626cb284698.svg"
+                                        },
+                                        {
+                                            "alt": "The second representation shows the shape broken apart into two separated rectangular prisms. The blue rectangular prism has dimensions of 10 centimeters length by 6 centimeters width by 3 centimeters height. The maroon rectangular prism has the dimensions 4 centimeters length by 6 centimeters width by 4 centimeters height. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/568d98be3ec197a47042fc35d20c986e9ac46ca2.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Volume of a rectangular prism is equal to length times width times height $(V =l\\times w\\times h)$.      [[☃ image 1]]  $\\text{Volume of prism 1}= 10 \\times 6 \\times3 = \\blueE{180} \\text{ cubic cm}$  [[☃ image 2]]  $\\text{Volume of prism 2}=4 \\times 6\\times 4 = \\maroonE{96} \\text{ cubic cm}$",
+                                    "images": [
+                                        {
+                                            "alt": "The blue rectangular prism from above is shown and has dimensions of 10 centimeters length by 6 centimeters width by 3 centimeters height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/b2f439f20f7289aa657bdb088860d9bff5ab2370.svg"
+                                        },
+                                        {
+                                            "alt": "The maroon rectangular prism from above is shown and has dimensions 4 centimeters length by 6 centimeters width by 4 centimeters height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/22fb34f8f0794eea165b7068a1d90938b87eecd2.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now, we add to find the volume of the entire figure.  $\\text{Volume of entire figure} = \\blueE{180} + \\maroonE{96} = \\tealE{276} \\text{ cubic cm}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The volume of the figure is $\\tealE{276} \\text{ cubic cm}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The figure below is made of $2$ rectangular prisms.    **What is the volume of this figure?**",
+                                "images": [
+                                    {
+                                        "alt": "A shape made up of two rectangular prisms. Colors are used to set them apart. The blue rectangular prism has a base that measures 5 inches length by 7 inches width, and has a height of 1 inch. The maroon rectangular prism sits next to the first rectangular prism. It has a base that measures 9 inches length by 7 inches width and has a height of 4 inches.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/23ab35ba2d9b8c8e6b48ec401efa5a5901e51b7f.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$252 \\text{ cubic in}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$287 \\text{ cubic in}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$305 \\text{ cubic in}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can think of this figure as $2$ rectangular prisms that are stuck together.  Let's find the volume of each prism separately.   [[☃ image 1]]  [[☃ image 2]]",
+                                    "images": [
+                                        {
+                                            "alt": "The rectangular prism from above with color used to show the two rectangular prisms that make up the figure. One prism is blue and the other is maroon. Two representations are shown. The first shows the two rectangular prisms connected like in the picture above.  The blue rectangular prism has a base that measures 5 inches length by 7 inches width, and has a height of 1 inch. The maroon rectangular prism sits next to the first rectangular prism. It has a base that measures 9 inches length by 7 inches width and has a height of 4 inches.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/23ab35ba2d9b8c8e6b48ec401efa5a5901e51b7f.svg"
+                                        },
+                                        {
+                                            "alt": "The second representation shows the shape broken apart into two separated rectangular prisms. The blue rectangular prism has dimensions of 5 inches length by 7 inches width by 1 inch height. The maroon rectangular prism has the dimensions 9 inches length by 7 inches width by 4 inches height. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/e9b0e5b165951435fbb1edc6916d93e68c453574.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Volume of a rectangular prism is equal to length times width times height $(V =l\\times w\\times h)$.      [[☃ image 1]]  $\\text{Volume of prism 1} = 5 \\times 7 \\times1 = \\blueE{35} \\text{ cubic in}$   [[☃ image 2]]  $\\text{Volume of prism 2}=9 \\times 7\\times 4 = \\maroonD{252} \\text{ cubic in}$",
+                                    "images": [
+                                        {
+                                            "alt": "The blue rectangular prism from above is shown and has dimensions of 5 inches length by 7 inches width by 1 inch height. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d18e8da65a6c0f55b37223493d74b9b911920782.svg"
+                                        },
+                                        {
+                                            "alt": "The maroon rectangular prism from above is shown and has dimensions 9 inches length by 7 inch width by 4 inches height. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/e2a0face3cf2f592926594990223682906954c84.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now, we add to find the volume of the entire figure.  $\\text{Volume of entire figure} = \\blueE{35} + \\maroonD{252} = \\purpleE{287} \\text{ cubic in}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The volume of the figure is $\\purpleE{287} \\text{ cubic inches}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The figure below is made of $2$ rectangular prisms.    **What is the volume of this figure?**",
+                                "images": [
+                                    {
+                                        "alt": "A shape made up of two rectangular prisms with color used to show the two rectangular prisms that make up the figure. The purple rectangular prism has a base that measures 9 inches length by 6 inches width, and has a height of 3 inches. The green rectangular prism sits behind the first rectangular prism. It has a base that measures 10 inches length by 7 inches width and has a height of 3 inches.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/90657069e891c59db74228f7cfba17e3b3bafb62.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$372 \\text{ cubic in}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$406 \\text{ cubic in}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$424 \\text{ cubic in}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can think of this figure as $2$ rectangular prisms that are stuck together.  Let's find the volume of each prism separately.   [[☃ image 1]]  [[☃ image 2]]",
+                                    "images": [
+                                        {
+                                            "alt": "The shape from above with color used to show the two rectangular prisms that make up the figure. One prism is purple and the other is blue. Two representations are shown. The first shows the two rectangular prisms connected like in the picture above. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/90657069e891c59db74228f7cfba17e3b3bafb62.svg"
+                                        },
+                                        {
+                                            "alt": "The second representation shows the shape broken apart into two separated rectangular prisms. The purple rectangular prism has dimensions of 9 inches length by 6 inches width by 3 inches height. The blue rectangular prism has the dimensions 10 inches length by 7 inches width by 3 inches height. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/4fe662efb31423b59277391a27c35fb3d947c478.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Volume of a rectangular prism is equal to length times width times height $(V =l\\times w\\times h)$.     [[☃ image 1]]  $\\text{Volume of prism 1}= 9\\times 6 \\times3 = \\purpleE{162} \\text{ cubic in}$   [[☃ image 2]]  $\\text{Volume of prism 2}=10\\times 7\\times 3 = \\blueE{210} \\text{ cubic in}$",
+                                    "images": [
+                                        {
+                                            "alt": "The purple rectangular prism from above is shown and has dimensions of 9 inches length by 6 inches width by 3 inches height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/37fadd9e0922798a72e9818f8f94346f25568d73.svg"
+                                        },
+                                        {
+                                            "alt": "The blue rectangular prism from above is shown and has dimensions 10 inches length by 7 inches width by 3 inches height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d43703dfbf58637d8b305e594efb92edb4ddf8e3.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now, we add to find the volume of the entire figure.  $\\text{Volume of entire figure} = \\purpleE{162} + \\blueE{210} = \\goldE{372} \\text{ cubic in}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The volume of the figure is $\\goldE{372} \\text{ cubic inches}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The figure below is made of $2$ rectangular prisms.    **What is the volume of this figure?**",
+                                "images": [
+                                    {
+                                        "alt": "A shape made up of two rectangular prisms. Colors blue and purple are used to tell them apart. The blue rectangular prism has a base that measures 5 meters length by 4 meters width and has a height of 5 meters. The purple rectangular prism sits in front of the green rectangular prism. It has a base that measures 2 meters length by 9 meters width, and has a height of 5 meters. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/4f74f8d04314bc9389749a01c99c192fee211266.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$176 \\text{ cubic m}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$190 \\text{ cubic m}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$206 \\text{ cubic m}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can think of this figure as $2$ rectangular prisms that are stuck together.  Let's find the volume of each prism separately.  [[☃ image 3]]   [[☃ image 2]]",
+                                    "images": [
+                                        {
+                                            "alt": "The shape from above with color used to show the two rectangular prisms that make up the figure. One prism is green and the other is purple. The green rectangular prism has dimensions of 5 meters length by 4 meters width by 5 meters height. The purple rectangular prism has the dimensions 2 meters length by 9 meters width by 5 meters height. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/00efe3b9cb3047f55b91d4e007b9def572899c93.svg"
+                                        },
+                                        {
+                                            "alt": "The shape from above shown broken apart with color used to show the two rectangular prisms that make up the figure. The blue rectangular prism has dimensions of 5 meters length by 4 meters width by 5 meters height. The purple rectangular prism has the dimensions 2 meters length by 9 meters width by 5 meters height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/337d933e3b77bbf918422900c1c864ef5b70dcbf.svg"
+                                        },
+                                        {
+                                            "alt": "A shape made up of two rectangular prisms. Colors blue and purple are used to tell them apart. The blue rectangular prism has a base that measures 5 meters length by 4 meters width and has a height of 5 meters. The purple rectangular prism sits in front of the green rectangular prism. It has a base that measures 2 meters length by 9 meters width, and has a height of 5 meters. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/4f74f8d04314bc9389749a01c99c192fee211266.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Volume of a rectangular prism is equal to length times width times height $(V =l\\times w\\times h)$.     [[☃ image 1]]  $\\text{Volume of prism 1}= 5\\times 4 \\times 5= \\blueE{100} \\text{ cubic m}$   [[☃ image 2]]  $\\text{Volume of prism 2}=2\\times 9\\times 5 = \\purpleD{90} \\text{ cubic m}$",
+                                    "images": [
+                                        {
+                                            "alt": "The green rectangular prism from above is shown and has dimensions of 5 meters length by 4 meters width by 5 meters height. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/17ed847fe275ee536ef92431764e98191086e38f.svg"
+                                        },
+                                        {
+                                            "alt": "The purple rectangular prism from above is shown and has dimensions 2 meters length by 9 meters width by 5 meters height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/551a4bbd2477126bbfb19ef2704a66fa1245c070.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now, we add to find the volume of the entire figure.  $\\text{Volume of entire figure} = \\blueE{100} + \\purpleD{90} = \\goldE{190} \\text{ cubic m}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The volume of the figure is $\\goldE{190} \\text{ cubic m}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        }
+    ]
+}

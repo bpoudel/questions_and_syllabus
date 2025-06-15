@@ -1,0 +1,1670 @@
+{
+    "standard_metadata": {
+        "standard_id": "8.G.B.7",
+        "standard_description": "Apply the Pythagorean Theorem to determine unknown side lengths in right triangles in real-world and mathematical problems in two and three dimensions.",
+        "standard_title": "Use Pythagorean theorem to find isosceles triangle side lengths",
+        "standard_url": "https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-geometry/cc-8th-pythagorean-theorem/e/use-pythagorean-theorem-to-find-side-lengths-on-isosceles-triangles"
+    },
+    "id": "x14849d000e1568d9",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Find the value of $x$ in the isosceles   triangle shown below.**",
+                                "images": [
+                                    {
+                                        "alt": "A triangle with a base of x units and a height of 12 units. The other 2 sides of the triangle are 13 units.  A dashed line goes from the center of the base straight up to the top vertex of the triangle.  The bottom left angle and bottom right angle are congruent.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/5c1d4b924ba7308eaabb93d776606fe038a6f1e0.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$x = 5$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x = 10$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x = 25$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x = \\sqrt{10}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The isosceles triangle is made up of $2$ congruent right triangles.     [[☃ image 1]]  The base of each right triangle is $\\dfrac12$ the base of the isosceles triangle.",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle with a base of x units and a height of 12 units. The other 2 sides of the triangle are 13 units.  A solid line goes from the center of the base straight up to the top vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles. One right triangle is shaded green and the other right triangle is shaded purple.  The bottom left angle and bottom right angle are congruent.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/adb43eea3e93495ec351abe73403910251b4f414.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "When we have a right triangle we can use the Pythagorean Theorem to solve for a missing side.  The equation for the Pythagorean Theorem is   >$a^2 + b^2  = c^2$  where $a$ and $b$ are the lengths of the two legs of the triangle, and $c$ is the length of the hypotenuse.    [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "First we can find the missing length for one of the right triangles. Let's label the drawing with $a$, $b$, and $c$:   [[☃ image 1]]  *Note that $a$ and $b$ could be switched because they are legs.*",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle with a height of 12 units, labeled b = 12. The other 2 sides of the triangle are 13 units. The right side is labeled c = 13. A solid line goes from the center of the base straight up to the top vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles. One right triangle is shaded purple. The base of the purple triangle is labeled a. The bottom left angle and bottom right angle are congruent.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/8885c31757a9102b7b3415ba191637b0a8ca80d9.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's use the Pythagorean Theorem to solve for $x$.  $\\begin{align} \\blueD a^2 + \\greenD b^2 &= \\goldD c^2 ~~~~~~~~~~~\\small\\gray{\\text{The Pythagorean Theorem}}\\\\\\\\ \\blueD{a}^2 + \\greenD{ 12}^2 &= \\goldD{13}^2 ~~~~~~~~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ a^2   +144 &= 169 ~~~~~~~~\\small\\gray{\\text{Evaluate } 12^2 \\text{ and }  13^2}\\\\\\\\ a^2 &= 25~~~~~~~~\\small\\gray{\\text{Subtract 144 from each side}}\\\\\\\\ a &= 5 ~~~~~~~~~~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since $a=5$ and $a$ is half the length of $x$, we can multiply to find $x$.    [[☃ image 1]]  $\\begin{align}x & = a \\cdot 2 \\\\\\ x & = 5 \\cdot 2 \\\\\\ x  &= 10 \\end{align}$",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle with a base of 10 units and a height of 12 units. A solid line goes from the center of the base straight up to the top of the vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles. One right triangle is shaded purple. The base of the purple triangle is labeled 5 units, the height is 12 units, and the longest side is 13 units. The bottom left angle and bottom right angle are congruent.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d917ba069bb5a9cd9a5459f28443a0971ec8ca1c.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$x = 10$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Isosceles Base"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Find the value of $x$ in the isosceles   triangle shown below.**",
+                                "images": [
+                                    {
+                                        "alt": "A triangle with a base of x units and a height of 12 units. The other 2 sides of the triangle are 15 units.  A dashed line goes from the center of the base straight up to the top vertex of the triangle.  The bottom left angle and bottom right angle are congruent.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/e849cf564b963f6175028d2c403a133de2dc77d2.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$x = 18$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x = 9$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x = 10$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x = \\sqrt{369}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The isosceles triangle is made up of $2$ congruent right triangles.    [[☃ image 1]]  The base of each right triangle is $\\dfrac12$ the base of the isosceles triangle.",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle with a base of x units and a height of 12 units. The other 2 sides of the triangle are 15 units.  A solid line goes from the center of the base straight up to the top vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles. One right triangle is shaded green and the other right triangle is shaded purple.  The bottom left angle and bottom right angle are congruent.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d25b76fbfd86e4682058b7edf0ea5afa8dcab775.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "When we have a right triangle we can use the Pythagorean Theorem to solve for a missing side.  The equation for the Pythagorean Theorem is   >$a^2 + b^2  = c^2$  where $a$ and $b$ are the lengths of the two legs of the triangle, and $c$ is the length of the hypotenuse.    [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "First we can find the missing length for one of the right triangles. Let's label the drawing with $a$, $b$, and $c$:   [[☃ image 1]]  *Note that $a$ and $b$ could be switched because they are legs.*",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle with a height of 12 units, labeled b = 12. The other 2 sides of the triangle are 15 units. The right side is labeled c = 15. A solid line goes from the center of the base straight up to the top vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles. One right triangle is shaded purple. The base of the purple triangle is labeled a. The bottom left angle and bottom right angle are congruent.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/1330f4cc537bfb837e212b7920e82629f461d3af.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's use the Pythagorean Theorem to solve for $x$.  $\\begin{align} \\blueD a^2 + \\greenD b^2 &= \\goldD c^2 ~~~~~~~~\\small\\gray{\\text{The Pythagorean Theorem}}\\\\\\\\ \\blueD{a}^2 + \\greenD{ 12}^2 &= \\goldD{15}^2 ~~~~~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ a^2   +144 &= 225~~~~~\\small\\gray{\\text{Evaluate } 12^2 \\text{ and }  15^2}\\\\\\\\ a^2 &= 81~~~~~~~\\small\\gray{\\text{Subtract 144 from each side}}\\\\\\\\ a &= 9 ~~~~~~~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since $a=9$ and $a$ is half the length of $x$, we can multiply to find $x$.    [[☃ image 1]]  $\\begin{align}x & = a \\cdot 2 \\\\\\ x & = 9 \\cdot 2 \\\\\\ x  &= 18 \\end{align}$",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle with a base of 18 units and a height of 12 units. A solid line goes from the center of the base straight up to the top of the vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles. One right triangle is shaded purple. The base of the purple triangle is labeled 9 units, the height is 12 units, and the longest side is 15 units. The bottom left angle and bottom right angle are congruent.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/79fcf0ae8ff4b0a6e4aa96f046a551238d127b05.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$x = 18$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Isosceles Base"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Find the value of $x$ in the isosceles  triangle shown below.**",
+                                "images": [
+                                    {
+                                        "alt": "A triangle with a base of x units and a height of 8 units. The other 2 sides of the triangle are 10 units.  A dashed line goes from the center of the base straight up to the top vertex of the triangle.  The bottom left angle and bottom right angle are congruent.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/bd7f49c0ac203298e8f8633c83533b3915aa49f3.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$x = 6$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x = 12$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x = \\sqrt{80}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x = \\sqrt{164}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The isosceles triangle is made up of $2$ congruent right triangles.     [[☃ image 1]]  The base of each right triangle is $\\dfrac12$ the base of the isosceles triangle.",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle with a base of x units and a height of 8 units. The other 2 sides of the triangle are 10 units.  A solid line goes from the center of the base straight up to the top vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles. One right triangle is shaded green and the other right triangle is shaded purple.  The bottom left angle and bottom right angle are congruent.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/21849f24c624aeeb5e5e89b55b3a5b217ceaa030.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "When we have a right triangle we can use the Pythagorean Theorem to solve for a missing side.  The equation for the Pythagorean Theorem is   >$a^2 + b^2  = c^2$  where $a$ and $b$ are the lengths of the two legs of the triangle, and $c$ is the length of the hypotenuse.    [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "First we can find the missing length for one of the right triangles. Let's label the drawing with $a$, $b$, and $c$:   [[☃ image 1]]  *Note that $a$ and $b$ could be switched because they are legs.*",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle with a height of 8 units, labeled b = 8. The other 2 sides of the triangle are 10 units. The right side is labeled c = 10. A solid line goes from the center of the base straight up to the top vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles. One right triangle is shaded purple. The base of the purple triangle is labeled a. The bottom left angle and bottom right angle are congruent.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/dcfd1ce6d669b6c7451df6b68856cc98cc8c84c4.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's use the Pythagorean Theorem to solve for $x$.  $\\begin{align} \\blueD a^2 + \\greenD b^2 &= \\goldD c^2 ~~~~~~~~~\\small\\gray{\\text{The Pythagorean Theorem}}\\\\\\\\ \\blueD{a}^2 + \\greenD{ 8}^2 &= \\goldD{10}^2 ~~~~~~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ a^2   +64 &= 100 ~~~~~~\\small\\gray{\\text{Evaluate } 8^2 \\text{ and }  10^2}\\\\\\\\ a^2 &= 36~~~~~~~~\\small\\gray{\\text{Subtract 64 from each side}}\\\\\\\\ a &= 6 ~~~~~~~~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since $a=6$ and $a$ is half the length of $x$, we can multiply to find $x$.     [[☃ image 1]]  $\\begin{align}x & = a \\cdot 2 \\\\\\ x & = 6 \\cdot 2 \\\\\\ x  &= 12 \\end{align}$",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle with a base of 12 units and a height of 8 units. A solid line goes from the center of the base straight up to the top of the vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles. One right triangle is shaded purple. The base of the purple triangle is labeled 6 units, the height is 8 units, and the longest side is 10 units. The bottom left angle and bottom right angle are congruent.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/b29e1b1a48c0b6a4d55ce52df96c52748901c29d.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$x = 12$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Isosceles Base"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Find the value of $x$ in the isosceles   triangle shown below.**",
+                                "images": [
+                                    {
+                                        "alt": "A triangle with a base of x units and a height of 8 units. The other 2 sides of the triangle are the square root of 80 units.  A dashed line goes from the center of the base straight up to the top vertex of the triangle.  The bottom left angle and bottom right angle are congruent.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/dcec07adda8ab412e1c38eec98f02fd12a238269.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$x = 4$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x = 8$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x = 12$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x = \\sqrt{640}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The isosceles triangle is made up of $2$ congruent right triangles.    [[☃ image 1]]  The base of each right triangle is $\\dfrac12$ the base of the isosceles triangle.",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle with a base of x units and a height of 8 units. The other 2 sides of the triangle are the square root of 80 units.  A solid line goes from the center of the base straight up to the top vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles. One right triangle is shaded green and the other right triangle is shaded purple.  The bottom left angle and bottom right angle are congruent.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/9f84c2348b4d8e1314b98ed6477147c3960506bb.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "When we have a right triangle we can use the Pythagorean Theorem to solve for a missing side.  The equation for the Pythagorean Theorem is   >$a^2 + b^2  = c^2$  where $a$ and $b$ are the lengths of the two legs of the triangle, and $c$ is the length of the hypotenuse.    [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "First we can find the missing length for one of the right triangles. Let's label the drawing with $a$, $b$, and $c$:    [[☃ image 1]]  *Note that $a$ and $b$ could be switched because they are legs.*",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle with a height of 8 units, labeled b = 8. The other 2 sides of the triangle are the square root of 80 units. The right side is labeled c = square root of 80. A solid line goes from the center of the base straight up to the top vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles. One right triangle is shaded purple. The base of the purple triangle is labeled a. The bottom left angle and bottom right angle are congruent.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/6198f627e5322c8e21591677fb2f57dbae8fa532.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's use the Pythagorean Theorem to solve for $x$.  $\\begin{align} \\blueD a^2 + \\greenD b^2 &= \\goldD c^2 ~~~~~~~~~~~\\small\\gray{\\text{The Pythagorean Theorem}}\\\\\\\\ \\blueD{a}^2 + \\greenD{ 8}^2 &= (\\goldD{\\sqrt{80}})^2~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ a^2   +64 &= 80 ~~~~~~~~~~\\small\\gray{\\text{Evaluate } 8^2 \\text{ and } ( \\sqrt{80})^2}\\\\\\\\ a^2 &= 16~~~~~~~~~~\\small\\gray{\\text{Subtract 64 from each side}}\\\\\\\\ a &= 4 ~~~~~~~~~~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since $a=4$ and $a$ is half the length of $x$, we can multiply to find $x$.     [[☃ image 1]]  $\\begin{align}x & = a \\cdot 2 \\\\\\ x & = 4 \\cdot 2 \\\\\\ x  &= 8 \\end{align}$",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle with a base of 8 units and a height of 8 units. A solid line goes from the center of the base straight up to the top of the vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles. One right triangle is shaded purple. The base of the purple triangle is labeled 4 units, the height is 8 units, and the longest side is the square root of 80 units. The bottom left angle and bottom right angle are congruent.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/fc5f847f7bdc36176618b0579dc79d1e952a8dd9.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$x = 8$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Isosceles Base"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Find the value of $x$ in the isosceles triangle shown below.**",
+                                "images": [
+                                    {
+                                        "alt": "A triangle with a base of x units and a height of 2 units. The other 2 sides of the triangle are the square root of 13 units.  A dashed line goes from the center of the base straight up to the top vertex of the triangle.  The bottom left angle and bottom right angle are congruent.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/3f28ca19d0fbf4215a60ab0784f5743eb38f6ac2.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$x = \\sqrt{26}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x = \\sqrt{52}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x = 3$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x = 6$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The isosceles triangle is made up of $2$ congruent right triangles.     [[☃ image 1]]  The base of each right triangle is $\\dfrac12$ the base of the isosceles triangle.",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle with a base of x units and a height of 2 units. The other 2 sides of the triangle are the square root of 13 units.  A solid line goes from the center of the base straight up to the top vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles. One right triangle is shaded green and the other right triangle is shaded purple.  The bottom left angle and bottom right angle are congruent.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/eec4c3e2fb2a8207fee27d26058c0a22c59570f9.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "When we have a right triangle we can use the Pythagorean Theorem to solve for a missing side.  The equation for the Pythagorean Theorem is   >$a^2 + b^2  = c^2$  where $a$ and $b$ are the lengths of the two legs of the triangle, and $c$ is the length of the hypotenuse.    [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "First we can find the missing length for one of the right triangles. Let's label the drawing with $a$, $b$, and $c$:   [[☃ image 1]]  *Note that $a$ and $b$ could be switched because they are legs.*",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle with a height of 2 units, labeled b = 2. The other 2 sides of the triangle are the square root of 13 units. The right side is labeled c = square root of 13. A solid line goes from the center of the base straight up to the top vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles. One right triangle is shaded purple. The base of the purple triangle is labeled a. The bottom left angle and bottom right angle are congruent.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/976a368e49cd7e4e1d81082399ee65a8ec208239.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's use the Pythagorean Theorem to solve for $x$.  $\\begin{align} \\blueD a^2 + \\greenD b^2 &= \\goldD c^2 ~~~~~~~~~~~\\small\\gray{\\text{The Pythagorean Theorem}}\\\\\\\\ \\blueD{a}^2 + \\greenD{ 2}^2 &= (\\goldD{\\sqrt{13}})^2~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ a^2   +4 &= 13 ~~~~~~~~~~\\small\\gray{\\text{Evaluate } 2^2 \\text{ and }  (\\sqrt{13})^2}\\\\\\\\ a^2 &= 9~~~~~~~~~~~~\\small\\gray{\\text{Subtract 4 from each side}}\\\\\\\\ a &= 3 ~~~~~~~~~~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since $a=3$ and $a$ is half the length of $x$, we can multiply to find $x$.    [[☃ image 1]]  $\\begin{align}x & = a \\cdot 2 \\\\\\ x & = 3 \\cdot 2 \\\\\\ x  &= 6 \\end{align}$",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle with a base of 6 units and a height of 2 units. A solid line goes from the center of the base straight up to the top of the vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles. One right triangle is shaded purple. The base of the purple triangle is labeled 3 units, the height is 2 units, and the longest side is the square root of 13 units. The bottom left angle and bottom right angle are congruent.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/ba9e82ad41abdd50752ad690df41eab7cbab0377.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$x = 6$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Isosceles Base"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Find the value of $x$ in the isosceles triangle shown below.**",
+                                "images": [
+                                    {
+                                        "alt": "A triangle with a base of x units and a height of 3 units. The other 2 sides of the triangle are the square root of 45 units.  A dashed line goes from the center of the base straight up to the top vertex of the triangle.  The bottom left angle and bottom right angle are congruent.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/28a5652410d05de698410c25c70ac343ba09993e.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$x = \\sqrt{135}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x = \\sqrt{54}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x = 12$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x = 6$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The isosceles triangle is made up of $2$ congruent right triangles.    [[☃ image 1]]  The base of each right triangle is $\\dfrac12$ the base of the isosceles triangle.",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle with a base of x units and a height of 3 units. The other 2 sides of the triangle are the square root of 45 units.  A solid line goes from the center of the base straight up to the top vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles. One right triangle is shaded green and the other right triangle is shaded purple.  The bottom left angle and bottom right angle are congruent.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/c2b46a0bd3b1c7cc27da4c5f884f8984dd350e2d.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "When we have a right triangle we can use the Pythagorean Theorem to solve for a missing side.  The equation for the Pythagorean Theorem is   >$a^2 + b^2  = c^2$  where $a$ and $b$ are the lengths of the two legs of the triangle, and $c$ is the length of the hypotenuse.    [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "First we can find the missing length for one of the right triangles. Let's label the drawing with $a$, $b$, and $c$:    [[☃ image 1]]  *Note that $a$ and $b$ could be switched because they are legs.*",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle with a height of 3 units, labeled b = 3. The other 2 sides of the triangle are the square root of 45 units. The right side is labeled c = square root of 45. A solid line goes from the center of the base straight up to the top vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles. One right triangle is shaded purple. The base of the purple triangle is labeled a. The bottom left angle and bottom right angle are congruent.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/7d0f64e0a767dd4da9dc5b4f7456385cc1536d2a.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's use the Pythagorean Theorem to solve for $x$.  $\\begin{align} \\blueD a^2 + \\greenD b^2 &= \\goldD c^2 ~~~~~~~~~~~\\small\\gray{\\text{The Pythagorean Theorem}}\\\\\\\\ \\blueD{a}^2 + \\greenD{ 3}^2 &= (\\goldD{\\sqrt{45}})^2~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ a^2   +9 &= 45 ~~~~~~~~~~\\small\\gray{\\text{Evaluate } 3^2 \\text{ and }  (\\sqrt{45})^2}\\\\\\\\ a^2 &= 36~~~~~~~~~~\\small\\gray{\\text{Subtract 9 from each side}}\\\\\\\\ a &= 6 ~~~~~~~~~~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since $a=6$ and $a$ is half the length of $x$, we can multiply to find $x$.    [[☃ image 1]]  $\\begin{align}x & = a \\cdot 2 \\\\\\ x & = 6 \\cdot 2 \\\\\\ x  &= 12 \\end{align}$",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle with a base of 12 units and a height of 3 units. A solid line goes from the center of the base straight up to the top of the vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles. One right triangle is shaded purple. The base of the purple triangle is labeled 6 units, the height is 3 units, and the longest side is the square root of 45 units. The bottom left angle and bottom right angle are congruent.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/60b46a88148a898679bf6e89690803faf79d8395.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$x = 12$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Isosceles Base"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Find the value of $x$ in the isosceles triangle shown below.**",
+                                "images": [
+                                    {
+                                        "alt": "A triangle with a base of x units and a height of 7 units. The other 2 sides of the triangle are the square root of 74 units.  A dashed line goes from the center of the base straight up to the top vertex of the triangle.  The bottom left angle and bottom right angle are congruent.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/242cbf38bd45de5e89038094cd4e75f85ef06bba.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$x = \\sqrt{81}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x = 12$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x = 10$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x = 5$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The isosceles triangle is made up of $2$ congruent right triangles.    [[☃ image 1]]  The base of each right triangle is $\\dfrac12$ the base of the isosceles triangle.",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle with a base of x units and a height of 7 units. The other 2 sides of the triangle are the square root of 74 units.  A solid line goes from the center of the base straight up to the top vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles. One right triangle is shaded green and the other right triangle is shaded purple.  The bottom left angle and bottom right angle are congruent.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/e10ab22bc5e332ef41308559d2074ea2c38c96f1.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "When we have a right triangle we can use the Pythagorean Theorem to solve for a missing side.  The equation for the Pythagorean Theorem is   >$a^2 + b^2  = c^2$  where $a$ and $b$ are the lengths of the two legs of the triangle, and $c$ is the length of the hypotenuse.    [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "First we can find the missing length for one of the right triangles. Let's label the drawing with $a$, $b$, and $c$:    [[☃ image 1]]  *Note that $a$ and $b$ could be switched because they are legs.*",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle with a height of 7 units, labeled b = 7. The other 2 sides of the triangle are the square root of 74 units. The right side is labeled c = square root of 74. A solid line goes from the center of the base straight up to the top vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles. One right triangle is shaded purple. The base of the purple triangle is labeled a. The bottom left angle and bottom right angle are congruent.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/0b9fa14c577cca635ba88e80f9009ad61948a525.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's use the Pythagorean Theorem to solve for $x$.  $\\begin{align} \\blueD a^2 + \\greenD b^2 &= \\goldD c^2 ~~~~~~~~~~~\\small\\gray{\\text{The Pythagorean Theorem}}\\\\\\\\ \\blueD{a}^2 + \\greenD{ 7}^2 &= (\\goldD{\\sqrt{74}})^2~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ a^2   +49 &= 74 ~~~~~~~~~~\\small\\gray{\\text{Evaluate } 7^2 \\text{ and }  (\\sqrt{74})^2}\\\\\\\\ a^2 &= 25~~~~~~~~~~\\small\\gray{\\text{Subtract 49 from each side}}\\\\\\\\ a &= 5 ~~~~~~~~~~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since $a=5$ and $a$ is half the length of $x$, we can multiply to find $x$.     [[☃ image 1]]  $\\begin{align}x & = a \\cdot 2 \\\\\\ x & = 5 \\cdot 2 \\\\\\ x  &= 10 \\end{align}$",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle with a base of 10 units and a height of 7 units. A solid line goes from the center of the base straight up to the top of the vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles. One right triangle is shaded purple. The base of the purple triangle is labeled 5 units, the height is 7 units, and the longest side is the square root of 74 units. The bottom left angle and bottom right angle are congruent.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/90fd7fd302f67543a57f8b8a98c5d5fc8b9e3d94.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$x = 10$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Isosceles Base"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Find the value of $x$ in the isosceles  triangle shown below.**",
+                                "images": [
+                                    {
+                                        "alt": "A triangle with a base of x units and a height of 6 units. The other 2 sides of the triangle are 5 units.  A dashed line goes from the center of the base straight up to the top vertex of the triangle.  The bottom left angle and bottom right angle are congruent.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/f5fcf3bdf16e256a7bab1ec027b5e306892a6052.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$x = 4$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x = 15$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x = \\sqrt{11}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x=\\sqrt{61}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The isosceles triangle is made up of $2$ congruent right triangles.    [[☃ image 1]]  The base of each right triangle is $\\dfrac12$ the base of the isosceles triangle.",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle with a base of 6 units and a height of x units. The other 2 sides of the triangle are 5 units.  A solid line goes from the center of the base straight up to the top vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles. One right triangle is shaded green and the other right triangle is shaded purple.  The base of each triangle is 3 units, the height is x units, and the length of the long side is 5 units. The bottom left angle and bottom right angle are congruent.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/67e7fc76fa4a37bf2ce43851da5409940992c134.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "When we have a right triangle we can use the Pythagorean Theorem to solve for a missing side.  The equation for the Pythagorean Theorem is   >$a^2 + b^2  = c^2$  where $a$ and $b$ are the lengths of the two legs of the triangle, and $c$ is the length of the hypotenuse.    [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's label the drawing with $a$, $b$, and $c$:   [[☃ image 1]]  *Note that $a$ and $b$ could be switched because they are legs.*",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle with a height of x units, labeled b = x. The other 2 sides of the triangle are 5 units. The right side is labeled c = 5. A solid line goes from the center of the base straight up to the top vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles. One right triangle is shaded purple. The base of the purple triangle is labeled a = 3. The bottom left angle and bottom right angle are congruent.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/c9194c755b5cabac439bb6094276110eb1bc0c3f.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's use the Pythagorean Theorem to solve for $x$.  $\\begin{align} \\blueD a^2 + \\greenD b^2 &= \\goldD c^2 ~~~~~~~~\\small\\gray{\\text{The Pythagorean Theorem}}\\\\\\\\ \\blueD{3}^2 + \\greenD{ x}^2 &= \\goldD{5}^2 ~~~~~~~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ 9 + x^2 &= 25 ~~~~~~~\\small\\gray{\\text{Evaluate } 3^2 \\text{ and }  5^2}\\\\\\\\ x^2 &= 16~~~~~~~\\small\\gray{\\text{Subtract 9 from both sides}}\\\\\\\\ x &= 4 ~~~~~~~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$x = 4$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Isosceles Height"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Find the value of $x$ in the isosceles   triangle shown below.**",
+                                "images": [
+                                    {
+                                        "alt": "A triangle with a base of 6 units and a height of x units. The other 2 sides of the triangle are 8 units.  A dashed line goes from the center of the base straight up to the top vertex of the triangle.  The bottom left angle and bottom right angle are congruent.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/2bec49596acf5cee0fcdee7dbd9af76d25c94cbf.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$x = 7$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x = 10$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x = \\sqrt{48}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x=\\sqrt{55}$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The isosceles triangle is made up of $2$ congruent right triangles.    [[☃ image 1]]  The base of each right triangle is $\\dfrac12$ the base of the isosceles triangle.",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle with a base of 6 units and a height of x units. The other 2 sides of the triangle are 8 units.  A solid line goes from the center of the base straight up to the top vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles. One right triangle is shaded green and the other right triangle is shaded purple.  The base of each triangle is 3 units, the height is x units, and the length of the long side is 8 units. The bottom left angle and bottom right angle are congruent.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/54ad7e79bfe7f84ee6e22a8801f2ec9df8bacf27.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "When we have a right triangle we can use the Pythagorean Theorem to solve for a missing side.  The equation for the Pythagorean Theorem is   >$a^2 + b^2  = c^2$  where $a$ and $b$ are the lengths of the two legs of the triangle, and $c$ is the length of the hypotenuse.    [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's label the drawing with $a$, $b$, and $c$:   [[☃ image 1]]  *Note that $a$ and $b$ could be switched because they are legs.*",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle with a height of x units, labeled b = x. The other 2 sides of the triangle are 8 units. The right side is labeled c = 8. A solid line goes from the center of the base straight up to the top vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles. One right triangle is shaded purple. The base of the purple triangle is labeled a = 3. The bottom left angle and bottom right angle are congruent.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d529db40446e8893e27e384b6c0a8958d34df970.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's use the Pythagorean Theorem to solve for $x$.  $\\begin{align} \\blueD a^2 + \\greenD b^2 &= \\goldD c^2 ~~~~~~~~\\small\\gray{\\text{The Pythagorean Theorem}}\\\\\\\\ \\blueD{3}^2 + \\greenD{ x}^2 &= \\goldD{8}^2 ~~~~~~~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ 9 + x^2 &= 64 ~~~~~~~\\small\\gray{\\text{Evaluate } 3^2 \\text{ and }  8^2}\\\\\\\\ x^2 &= 55~~~~~~~\\small\\gray{\\text{Subtract 9 from both sides}}\\\\\\\\ x &= \\sqrt{55}~~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$x = \\sqrt{55}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Isosceles Height"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Find the value of $x$ in the isosceles   triangle shown below.**",
+                                "images": [
+                                    {
+                                        "alt": "A triangle with a base of 8 units and a height of x units. The other 2 sides of the triangle are 8 units.  A dashed line goes from the center of the base straight up to the top vertex of the triangle.  The bottom left angle and bottom right angle are congruent.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/6e83e51beb7a23be8161e2d09feb6021cb621ec2.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$x = 8$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x = \\sqrt{16}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x = \\sqrt{48}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x=\\sqrt{96}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The isosceles triangle is made up of $2$ congruent right triangles.    [[☃ image 1]]  The base of each right triangle is $\\dfrac12$ the base of the isosceles triangle.",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle with a base of 8 units and a height of x units. The other 2 sides of the triangle are 8 units.  A solid line goes from the center of the base straight up to the top vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles. One right triangle is shaded green and the other right triangle is shaded purple.  The base of each triangle is 4 units, the height is x units, and the length of the long side is 8 units. The bottom left angle and bottom right angle are congruent.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/cb2dc2b357126b6a677b5eef2ac012d7fd523908.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "When we have a right triangle we can use the Pythagorean Theorem to solve for a missing side.  The equation for the Pythagorean Theorem is   >$a^2 + b^2  = c^2$  where $a$ and $b$ are the lengths of the two legs of the triangle, and $c$ is the length of the hypotenuse.    [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's label the drawing with $a$, $b$, and $c$:   [[☃ image 1]]  *Note that $a$ and $b$ could be switched because they are legs.*",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle with a height of x units, labeled b = x. The other 2 sides of the triangle are 8 units. The right side is labeled c = 8. A solid line goes from the center of the base straight up to the top vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles. One right triangle is shaded purple. The base of the purple triangle is labeled a = 4. The bottom left angle and bottom right angle are congruent.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/b193aa5fdf2445c5fa7e318d11a17b301fdaa2bb.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's use the Pythagorean Theorem to solve for $x$.  $\\begin{align} \\blueD a^2 + \\greenD b^2 &= \\goldD c^2 ~~~~~~~~~\\small\\gray{\\text{The Pythagorean Theorem}}\\\\\\\\ \\blueD{4}^2 + \\greenD{ x}^2 &= \\goldD{8}^2 ~~~~~~~~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ 16 + x^2 &= 64 ~~~~~~~~\\small\\gray{\\text{Evaluate } 4^2 \\text{ and }  8^2}\\\\\\\\ x^2 &= 48~~~~~~~~\\small\\gray{\\text{Subtract 16 from both sides}}\\\\\\\\ x &= \\sqrt{48} ~~~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$x = \\sqrt{48}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Isosceles Height"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Find the value of $x$ in the isosceles   triangle shown below.**",
+                                "images": [
+                                    {
+                                        "alt": "A triangle with a base of 4 units and a height of x units. The other 2 sides of the triangle are 8 units.  A dashed line goes from the center of the base straight up to the top vertex of the triangle.  The bottom left angle and bottom right angle are congruent.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/d73d5e7b1ed6cb69413582c095f40ee9364459dc.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$x = 6$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x = \\sqrt{32}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x = \\sqrt{60}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x=\\sqrt{80}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The isosceles triangle is made up of $2$ congruent right triangles.    [[☃ image 1]]  The base of each right triangle is $\\dfrac12$ the base of the isosceles triangle.",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle with a base of 4 units and a height of x units. The other 2 sides of the triangle are 8 units.  A solid line goes from the center of the base straight up to the top vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles. One right triangle is shaded green and the other right triangle is shaded purple.  The base of each triangle is 2 units, the height is x units, and the length of the long side is 8 units. The bottom left angle and bottom right angle are congruent.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/55c01038045fb4a7bf6e28bad9d1b30bc1819d0c.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "When we have a right triangle we can use the Pythagorean Theorem to solve for a missing side.  The equation for the Pythagorean Theorem is   >$a^2 + b^2  = c^2$  where $a$ and $b$ are the lengths of the two legs of the triangle, and $c$ is the length of the hypotenuse.    [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's label the drawing with $a$, $b$, and $c$:    [[☃ image 1]]  *Note that $a$ and $b$ could be switched because they are legs.*",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle with a height of x units, labeled b = x. The other 2 sides of the triangle are 8 units. The right side is labeled c = 8. A solid line goes from the center of the base straight up to the top vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles. One right triangle is shaded purple. The base of the purple triangle is labeled a = 2. The bottom left angle and bottom right angle are congruent.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/25692faec671fec8c452c4bc67b5d274326c4039.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's use the Pythagorean Theorem to solve for $x$.  $\\begin{align} \\blueD a^2 + \\greenD b^2 &= \\goldD c^2 ~~~~~~~~~\\small\\gray{\\text{The Pythagorean Theorem}}\\\\\\\\ \\blueD{2}^2 + \\greenD{ x}^2 &= \\goldD{8}^2 ~~~~~~~~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ 4 + x^2 &= 64 ~~~~~~~~\\small\\gray{\\text{Evaluate } 2^2 \\text{ and }  8^2}\\\\\\\\ x^2 &= 60~~~~~~~~\\small\\gray{\\text{Subtract 4 from both sides}}\\\\\\\\ x &= \\sqrt{60} ~~~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$x = \\sqrt{60}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Isosceles Height"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Find the value of $x$ in the isosceles   triangle shown below.**",
+                                "images": [
+                                    {
+                                        "alt": "A triangle with a base of 10 units and a height of x units. The other 2 sides of the triangle are 13 units.  A dashed line goes from the center of the base straight up to the top vertex of the triangle.  The bottom left angle and bottom right angle are congruent.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/c07493f981c63529476f0551f9c83b663f4f906c.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$x = 12$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x = \\sqrt{65}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x = \\sqrt{130}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x = \\sqrt{194}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The isosceles triangle is made up of $2$ congruent right triangles.    [[☃ image 1]]  The base of each right triangle is $\\dfrac12$ the base of the isosceles triangle.",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle with a base of 10 units and a height of x units. The other 2 sides of the triangle are 13 units.  A solid line goes from the center of the base straight up to the top vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles. One right triangle is shaded green and the other right triangle is shaded purple.  The base of each triangle is 5 units, the height is x units, and the length of the long side is 13 units. The bottom left angle and bottom right angle are congruent.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/e4db9f96f2590816df39787d90d038150b0c04a4.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "When we have a right triangle we can use the Pythagorean Theorem to solve for a missing side.  The equation for the Pythagorean Theorem is   >$a^2 + b^2  = c^2$  where $a$ and $b$ are the lengths of the two legs of the triangle, and $c$ is the length of the hypotenuse.    [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's label the drawing with $a$, $b$, and $c$:   [[☃ image 1]]  *Note that $a$ and $b$ could be switched because they are legs.*",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle with a height of x units, labeled b = x. The other 2 sides of the triangle are 13 units. The right side is labeled c = 13. A solid line goes from the center of the base straight up to the top vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles. One right triangle is shaded purple. The base of the purple triangle is labeled a = 5. The bottom left angle and bottom right angle are congruent.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/1f3fd2edf10071950e38d94f12af42f02e71e3b1.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's use the Pythagorean Theorem to solve for $x$.  $\\begin{align} \\blueD a^2 + \\greenD b^2 &= \\goldD c^2 ~~~~~~~~~~\\small\\gray{\\text{The Pythagorean Theorem}}\\\\\\\\ \\blueD{5}^2 + \\greenD{ x}^2 &= \\goldD{13}^2 ~~~~~~~~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ 25 + x^2 &= 169 ~~~~~~~~\\small\\gray{\\text{Evaluate } 5^2 \\text{ and }  13^2}\\\\\\\\ x^2 &= 144~~~~~~~~\\small\\gray{\\text{Subtract 25 from each side}}\\\\\\\\ x &= 12 ~~~~~~~~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$x = 12$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Isosceles Height"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Find the value of $x$ in the isosceles  triangle shown below.**",
+                                "images": [
+                                    {
+                                        "alt": "A triangle with a base of 8 units and a height of x units. The other 2 sides of the triangle are the square root of 52 units.  A dashed line goes from the center of the base straight up to the top vertex of the triangle.  The bottom left angle and bottom right angle are congruent.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/f5aa3eea05a56e986c80c2e2f97669847c4a5385.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$x = 7$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x = 6$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x = \\sqrt{116}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x=\\sqrt{68}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The isosceles triangle is made up of $2$ congruent right triangles.     [[☃ image 1]]  The base of each right triangle is $\\dfrac12$ the base of the isosceles triangle.",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle with a base of 8 units and a height of x units. The other 2 sides of the triangle are the square root of 52 units.  A solid line goes from the center of the base straight up to the top vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles. One right triangle is shaded green and the other right triangle is shaded purple.  The base of each triangle is 4 units, the height is x units, and the length of the long side is the square root of 52 units. The bottom left angle and bottom right angle are congruent.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/75be87893ca9538fbba1035dbbc61414dd9f20c0.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "When we have a right triangle we can use the Pythagorean Theorem to solve for a missing side.  The equation for the Pythagorean Theorem is   >$a^2 + b^2  = c^2$  where $a$ and $b$ are the lengths of the two legs of the triangle, and $c$ is the length of the hypotenuse.    [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's label the drawing with $a$, $b$, and $c$:    [[☃ image 1]]  *Note that $a$ and $b$ could be switched because they are legs.*",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle with a height of x units, labeled b = x. The other 2 sides of the triangle are the square root of 52 units. The right side is labeled c = the square root of 52. A solid line goes from the center of the base straight up to the top vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles. One right triangle is shaded purple. The base of the purple triangle is labeled a = 4. The bottom left angle and bottom right angle are congruent.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/a4c98eef00f5e8afea7297fbe33781105d10fdee.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's use the Pythagorean Theorem to solve for $x$.  $\\begin{align} \\blueD a^2 + \\greenD b^2 &= \\goldD c^2 ~~~~~~~~~~~\\small\\gray{\\text{The Pythagorean Theorem}}\\\\\\\\ \\blueD{4}^2 + \\greenD{ x}^2 &= (\\goldD{\\sqrt{52}})^2~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ 16 + x^2 &= 52 ~~~~~~~~~~~\\small\\gray{\\text{Evaluate } 4^2 \\text{ and }  (\\sqrt{52})^2}\\\\\\\\ x^2 &= 36~~~~~~~~~~~\\small\\gray{\\text{Subtract 16 from both sides}}\\\\\\\\ x &= 6 ~~~~~~~~~~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$x = 6$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Isosceles Height"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Find the value of $x$ in the isosceles  triangle shown below.**",
+                                "images": [
+                                    {
+                                        "alt": "A triangle with a base of 8 units and a height of x units. The other 2 sides of the triangle are the square root of 20 units.  A dashed line goes from the center of the base straight up to the top vertex of the triangle.  The bottom left angle and bottom right angle are congruent.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/c9946d6bdbec872ad9e9b2dae8181722191f3409.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$x = 2$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x = 6$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x = \\sqrt{28}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x=\\sqrt{84}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The isosceles triangle is made up of $2$ congruent right triangles.     [[☃ image 1]]  The base of each right triangle is $\\dfrac12$ the base of the isosceles triangle.",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle with a base of 8 units and a height of x units. The other 2 sides of the triangle are the square root of 20 units.  A solid line goes from the center of the base straight up to the top vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles. One right triangle is shaded green and the other right triangle is shaded purple.  The base of each triangle is 4 units, the height is x units, and the length of the long side is the square root of 20 units. The bottom left angle and bottom right angle are congruent.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/bef3110cb4ce8f14fcaf903d25f3320bdfb00449.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "When we have a right triangle we can use the Pythagorean Theorem to solve for a missing side.  The equation for the Pythagorean Theorem is   >$a^2 + b^2  = c^2$  where $a$ and $b$ are the lengths of the two legs of the triangle, and $c$ is the length of the hypotenuse.    [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's label the drawing with $a$, $b$, and $c$:   [[☃ image 1]]  *Note that $a$ and $b$ could be switched because they are legs.*",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle with a height of x units, labeled b = x. The other 2 sides of the triangle are the square root of 20 units. The right side is labeled c = the square root of 20. A solid line goes from the center of the base straight up to the top vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles. One right triangle is shaded purple. The base of the purple triangle is labeled a = 4. The bottom left angle and bottom right angle are congruent.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/13a817caad02959bed9b53cd520d814a4437847e.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's use the Pythagorean Theorem to solve for $x$.  $\\begin{align} \\blueD a^2 + \\greenD b^2 &= \\goldD c^2 ~~~~~~~~~~~\\small\\gray{\\text{The Pythagorean Theorem}}\\\\\\\\ \\blueD{4}^2 + \\greenD{ x}^2 &= (\\goldD{\\sqrt{20}})^2~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ 16 + x^2 &= 20 ~~~~~~~~~~\\small\\gray{\\text{Evaluate } 4^2 \\text{ and }  (\\sqrt{20})^2}\\\\\\\\ x^2 &= 4~~~~~~~~~~~~\\small\\gray{\\text{Subtract 16 from both sides}}\\\\\\\\ x &= 2 ~~~~~~~~~~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$x = 2$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Isosceles Height"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Find the value of $x$ in the isosceles  triangle shown below.**",
+                                "images": [
+                                    {
+                                        "alt": "A triangle with a base of 10 units and a height of 12 units. The other 2 sides of the triangle are x units.  A dashed line goes from the center of the base straight up to the top vertex of the triangle.  The bottom left angle and bottom right angle are congruent.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/e5fb0cc597059e8a5a406356f45936dcccc99c3a.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$x = \\sqrt{120}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x = \\sqrt{44}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x = 22$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x = 13$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The isosceles triangle is made up of $2$ congruent right triangles.     [[☃ image 1]]  The base of each right triangle is $\\dfrac12$ the base of the isosceles triangle.",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle with a base of 10 units and a height of 5 units. The other 2 sides of the triangle are x units.  A solid line goes from the center of the base straight up to the top vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles. One right triangle is shaded green and the other right triangle is shaded purple.  The base of each triangle is 5 units, the height is 12 units, and the length of the long side is x units. The bottom left angle and bottom right angle are congruent.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/4fc9b850a17076f80f71abf402287326f02fdd33.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "When we have a right triangle we can use the Pythagorean Theorem to solve for a missing side.  The equation for the Pythagorean Theorem is   >$a^2 + b^2  = c^2$  where $a$ and $b$ are the lengths of the two legs of the triangle, and $c$ is the length of the hypotenuse.    [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's label the drawing with $a$, $b$, and $c$:   [[☃ image 1]]  *Note that $a$ and $b$ could be switched because they are legs.*",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle with a height of 12 units, labeled b = 12. The other 2 sides of the triangle are x units. The right side is labeled c = x. A solid line goes from the center of the base straight up to the top vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles. One right triangle is shaded purple. The base of the purple triangle is labeled a = 5. The bottom left angle and bottom right angle are congruent.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/c03050f19c761e39ced2869693db336870c4b9c0.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's use the Pythagorean Theorem to solve for $x$.  $\\begin{align} \\blueD a^2 + \\greenD b^2 &= \\goldD c^2 ~~~~~~~~\\small\\gray{\\text{The Pythagorean Theorem}}\\\\\\\\ \\blueD{5}^2 + \\greenD{ 12}^2 &= \\goldD{x}^2 ~~~~~~~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ 25 + 144 &= x^2 ~~~~~~~~\\small\\gray{\\text{Evaluate } 5^2 \\text{ and }  12^2}\\\\\\\\ 169 &= x^2~~~~~~~~\\small\\gray{\\text{Add 25 and 144}}\\\\\\\\ x &= 13 ~~~~~~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$x = 13$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Isosceles Hypoteuse"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Find the value of $x$ in the isosceles triangle shown below.**",
+                                "images": [
+                                    {
+                                        "alt": "A triangle with a base of 12 units and a height of 8 units. The other 2 sides of the triangle are x units.  A dashed line goes from the center of the base straight up to the top vertex of the triangle.  The bottom left angle and bottom right angle are congruent.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/c2e0bce11b52ecaa25fdfd205a4814ff235a33c6.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$x = \\sqrt{96}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x = \\sqrt{80}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x = 48$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x=10$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The isosceles triangle is made up of $2$ congruent right triangles.    [[☃ image 1]]  The base of each right triangle is $\\dfrac12$ the base of the isosceles triangle.",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle with a base of 12 units and a height of 8 units. The other 2 sides of the triangle are x units.  A solid line goes from the center of the base straight up to the top vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles. One right triangle is shaded green and the other right triangle is shaded purple.  The base of each triangle is 6 units, the height is 8 units, and the length of the long side is x units. The bottom left angle and bottom right angle are congruent.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/b81da5c70e1f3b1aad7a271bc4754958a1d04d6e.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "When we have a right triangle we can use the Pythagorean Theorem to solve for a missing side.  The equation for the Pythagorean Theorem is   >$a^2 + b^2  = c^2$  where $a$ and $b$ are the lengths of the two legs of the triangle, and $c$ is the length of the hypotenuse.    [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's label the drawing with $a$, $b$, and $c$:   [[☃ image 1]]  *Note that $a$ and $b$ could be switched because they are legs.*",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle with a height of 8 units, labeled b = 8. The other 2 sides of the triangle are x units. The right side is labeled c = x. A solid line goes from the center of the base straight up to the top vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles. One right triangle is shaded purple. The base of the purple triangle is labeled a = 6. The bottom left angle and bottom right angle are congruent.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/8ed5bcfdfe9ca6806b63a8b53558a0f549b5b588.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's use the Pythagorean Theorem to solve for $x$.  $\\begin{align} \\blueD a^2 + \\greenD b^2 &= \\goldD c^2 ~~~~~~~~\\small\\gray{\\text{The Pythagorean Theorem}}\\\\\\\\ \\blueD{6}^2 + \\greenD{ 8}^2 &= \\goldD{x}^2 ~~~~~~~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ 36 + 64 &= x^2 ~~~~~~~~\\small\\gray{\\text{Evaluate } 6^2 \\text{ and }  8^2}\\\\\\\\ 100 &= x^2~~~~~~~~\\small\\gray{\\text{Add 36 and 64}}\\\\\\\\ x &= 10 ~~~~~~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$x = 10$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Isosceles Hypoteuse"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Find the value of $x$ in the isosceles   triangle shown below.**",
+                                "images": [
+                                    {
+                                        "alt": "A triangle with a base of 6 units and a height of 4 units. The other 2 sides of the triangle are x units.  A dashed line goes from the center of the base straight up to the top vertex of the triangle.  The bottom left angle and bottom right angle are congruent.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/c3882b2923171f033744f337045e6323b1d48cb2.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$x = \\sqrt{20}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x = \\sqrt{24}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x = \\sqrt{52}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x=5$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The isosceles triangle is made up of $2$ congruent right triangles.     [[☃ image 1]]  The base of each right triangle is $\\dfrac12$ the base of the isosceles triangle.",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle with a base of 6 units and a height of 4 units. The other 2 sides of the triangle are x units.  A solid line goes from the center of the base straight up to the top vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles. One right triangle is shaded green and the other right triangle is shaded purple.  The base of each triangle is 3 units, the height is 4 units, and the length of the long side is x units. The bottom left angle and bottom right angle are congruent.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/7fe9c8731fc3a3c9e7f3e8aac6cb3c83a0c59505.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "When we have a right triangle we can use the Pythagorean Theorem to solve for a missing side.  The equation for the Pythagorean Theorem is   >$a^2 + b^2  = c^2$  where $a$ and $b$ are the lengths of the two legs of the triangle, and $c$ is the length of the hypotenuse.    [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's label the drawing with $a$, $b$, and $c$:    [[☃ image 1]]  *Note that $a$ and $b$ could be switched because they are legs.*",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle with a height of 4 units, labeled b = 4. The other 2 sides of the triangle are x units. The right side is labeled c = x. A solid line goes from the center of the base straight up to the top vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles. One right triangle is shaded purple. The base of the purple triangle is labeled a = 3. The bottom left angle and bottom right angle are congruent.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/b3449fc9776d885a19a39f9616aaa12f66bbdca7.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's use the Pythagorean Theorem to solve for $x$.  $\\begin{align} \\blueD a^2 + \\greenD b^2 &= \\goldD c^2 ~~~~~~~~\\small\\gray{\\text{The Pythagorean Theorem}}\\\\\\\\ \\blueD{3}^2 + \\greenD{ 4}^2 &= \\goldD{x}^2 ~~~~~~~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ 9 + 16 &= x^2 ~~~~~~~~\\small\\gray{\\text{Evaluate } 3^2 \\text{ and }  4^2}\\\\\\\\ 25 &= x^2~~~~~~~~\\small\\gray{\\text{Add 9 and 16}}\\\\\\\\ x &= 5 ~~~~~~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$x = 5$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Isosceles Hypoteuse"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Find the value of $x$ in the isosceles triangle shown below.**",
+                                "images": [
+                                    {
+                                        "alt": "A triangle with a base of 8 units and a height of 5 units. The other 2 sides of the triangle are x units.  A dashed line goes from the center of the base straight up to the top vertex of the triangle.  The bottom left angle and bottom right angle are congruent.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/4f1b7b29e3bf11481c8b4e854b26810cef09519f.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$x = \\sqrt{40}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x = \\sqrt{41}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x = \\sqrt{89}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x=7$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The isosceles triangle is made up of $2$ congruent right triangles.     [[☃ image 1]]  The base of each right triangle is $\\dfrac12$ the base of the isosceles triangle.",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle with a base of 8 units and a height of 5 units. The other 2 sides of the triangle are x units.  A solid line goes from the center of the base straight up to the top vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles. One right triangle is shaded green and the other right triangle is shaded purple.  The base of each triangle is 4 units, the height is 5 units, and the length of the long side is x units. The bottom left angle and bottom right angle are congruent.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/1c44967a0e1b5086577303c884605d4bd7b92d95.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "When we have a right triangle we can use the Pythagorean Theorem to solve for a missing side.  The equation for the Pythagorean Theorem is   >$a^2 + b^2  = c^2$  where $a$ and $b$ are the lengths of the two legs of the triangle, and $c$ is the length of the hypotenuse.    [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's label the drawing with $a$, $b$, and $c$:   [[☃ image 1]]  *Note that $a$ and $b$ could be switched because they are legs.*",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle with a height of 5 units, labeled b = 5. The other 2 sides of the triangle are x units. The right side is labeled c = x. A solid line goes from the center of the base straight up to the top vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles. One right triangle is shaded purple. The base of the purple triangle is labeled a = 4. The bottom left angle and bottom right angle are congruent.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/aeaa8c1fe382858dd64f2880e592b90b93305756.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's use the Pythagorean Theorem to solve for $x$.  $\\begin{align} \\blueD a^2 + \\greenD b^2 &= \\goldD c^2 ~~~~~~~~\\small\\gray{\\text{The Pythagorean Theorem}}\\\\\\\\ \\blueD{4}^2 + \\greenD{ 5}^2 &= \\goldD{x}^2 ~~~~~~~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ 16 + 25 &= x^2 ~~~~~~~\\small\\gray{\\text{Evaluate } 4^2 \\text{ and }  5^2}\\\\\\\\ 41 &= x^2~~~~~~~\\small\\gray{\\text{Add 16 and 25}}\\\\\\\\ x &= \\sqrt{41} ~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$x = \\sqrt{41}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Isosceles Hypoteuse"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Find the value of $x$ in the isosceles   triangle shown below.**",
+                                "images": [
+                                    {
+                                        "alt": "A triangle with a base of 4 units and a height of 5 units. The other 2 sides of the triangle are x units.  A dashed line goes from the center of the base straight up to the top vertex of the triangle.  The bottom left angle and bottom right angle are congruent.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/dab8719622dbbb21c490ee5b4198ba9d49918000.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$x = \\sqrt{29}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x = \\sqrt{20}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x = 6$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x=9$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The isosceles triangle is made up of $2$ congruent right triangles.     [[☃ image 1]]  The base of each right triangle is $\\dfrac12$ the base of the isosceles triangle.",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle with a base of 4 units and a height of 5 units. The other 2 sides of the triangle are x units.  A solid line goes from the center of the base straight up to the top vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles. One right triangle is shaded green and the other right triangle is shaded purple.  The base of each triangle is 2 units, the height is 5 units, and the length of the long side is x units. The bottom left angle and bottom right angle are congruent.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/e7831d56a83a45f93d761b5e1d48f00c2391cc2c.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "When we have a right triangle we can use the Pythagorean Theorem to solve for a missing side.  The equation for the Pythagorean Theorem is   >$a^2 + b^2  = c^2$  where $a$ and $b$ are the lengths of the two legs of the triangle, and $c$ is the length of the hypotenuse.    [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's label the drawing with $a$, $b$, and $c$:   [[☃ image 1]]  *Note that $a$ and $b$ could be switched because they are legs.*",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle with a height of 5 units, labeled b = 5. The other 2 sides of the triangle are x units. The right side is labeled c = x. A solid line goes from the center of the base straight up to the top vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles. One right triangle is shaded purple. The base of the purple triangle is labeled a = 2. The bottom left angle and bottom right angle are congruent.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/6580ab14d0edb603e24172783580036baea318bc.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's use the Pythagorean Theorem to solve for $x$.  $\\begin{align} \\blueD a^2 + \\greenD b^2 &= \\goldD c^2 ~~~~~~~~\\small\\gray{\\text{The Pythagorean Theorem}}\\\\\\\\ \\blueD{2}^2 + \\greenD{ 5}^2 &= \\goldD{x}^2 ~~~~~~~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ 4 + 25 &= x^2 ~~~~~~~\\small\\gray{\\text{Evaluate } 2^2 \\text{ and }  5^2}\\\\\\\\ 29 &= x^2~~~~~~~\\small\\gray{\\text{Add 4 and 25}}\\\\\\\\ x &= \\sqrt{29} ~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$x = \\sqrt{29}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Isosceles Hypoteuse"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Find the value of $x$ in the isosceles  triangle shown below.**",
+                                "images": [
+                                    {
+                                        "alt": "A triangle with a base of 4 units and a height of 3 units. The other 2 sides of the triangle are x units.  A dashed line goes from the center of the base straight up to the top vertex of the triangle.  The bottom left angle and bottom right angle are congruent.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/d93a074f25129088456930e5dc4b01f0c7043c2e.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$x = \\sqrt{5}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x = \\sqrt{12}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x = \\sqrt{13}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x=\\sqrt{49}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The isosceles triangle is made up of $2$ congruent right triangles.    [[☃ image 1]]  The base of each right triangle is $\\dfrac12$ the base of the isosceles triangle.",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle with a base of 4 units and a height of 3 units. The other 2 sides of the triangle are x units.  A solid line goes from the center of the base straight up to the top vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles. One right triangle is shaded green and the other right triangle is shaded purple.  The base of each triangle is 2 units, the height is 3 units, and the length of the long side is x units. The bottom left angle and bottom right angle are congruent.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/1f67f5b89b78ab57216f705f637fcd317e65c0a6.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "When we have a right triangle we can use the Pythagorean Theorem to solve for a missing side.  The equation for the Pythagorean Theorem is   >$a^2 + b^2  = c^2$  where $a$ and $b$ are the lengths of the two legs of the triangle, and $c$ is the length of the hypotenuse.    [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's label the drawing with $a$, $b$, and $c$:   [[☃ image 1]]  *Note that $a$ and $b$ could be switched because they are legs.*",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle with a height of 3 units, labeled b = 3. The other 2 sides of the triangle are x units. The right side is labeled c = x. A solid line goes from the center of the base straight up to the top vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles. One right triangle is shaded purple. The base of the purple triangle is labeled a = 2. The bottom left angle and bottom right angle are congruent.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/09a3c4f204ae193285de36cc0934eb69bd52ec9c.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's use the Pythagorean Theorem to solve for $x$.  $\\begin{align} \\blueD a^2 + \\greenD b^2 &= \\goldD c^2 ~~~~~~~~\\small\\gray{\\text{The Pythagorean Theorem}}\\\\\\\\ \\blueD{2}^2 + \\greenD{ 3}^2 &= \\goldD{x}^2 ~~~~~~~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ 4 + 9 &= x^2 ~~~~~~~\\small\\gray{\\text{Evaluate } 2^2 \\text{ and }  3^2}\\\\\\\\ 13 &= x^2~~~~~~~\\small\\gray{\\text{Add 4 and 9}}\\\\\\\\ x &= \\sqrt{13} ~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$x = \\sqrt{13}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Isosceles Hypoteuse"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Find the value of $x$ in the isosceles   triangle shown below.**",
+                                "images": [
+                                    {
+                                        "alt": "A triangle with a base of 4 units and a height of 6 units. The other 2 sides of the triangle are x units.  A dashed line goes from the center of the base straight up to the top vertex of the triangle.  The bottom left angle and bottom right angle are congruent.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/5daaa20de25194340f9d2b38d4c4f4b789c09a9a.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$x = 7$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x = 20$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x = \\sqrt{40}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x=\\sqrt{52}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The isosceles triangle is made up of $2$ congruent right triangles.    [[☃ image 1]]  The base of each right triangle is $\\dfrac12$ the base of the isosceles triangle.",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle with a base of 4 units and a height of 6 units. The other 2 sides of the triangle are x units.  A solid line goes from the center of the base straight up to the top vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles. One right triangle is shaded green and the other right triangle is shaded purple.  The base of each triangle is 2 units, the height is 6 units, and the length of the long side is x units. The bottom left angle and bottom right angle are congruent.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/0c3624f47c47890cfde7429c5a33393e4440f836.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "When we have a right triangle we can use the Pythagorean Theorem to solve for a missing side.  The equation for the Pythagorean Theorem is   >$a^2 + b^2  = c^2$  where $a$ and $b$ are the lengths of the two legs of the triangle, and $c$ is the length of the hypotenuse.    [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's label the drawing with $a$, $b$, and $c$:   [[☃ image 1]]  *Note that $a$ and $b$ could be switched because they are legs.*",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle with a height of 6 units, labeled b = 6. The other 2 sides of the triangle are x units. The right side is labeled c = x. A solid line goes from the center of the base straight up to the top vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles. One right triangle is shaded purple. The base of the purple triangle is labeled a = 2. The bottom left angle and bottom right angle are congruent.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/c446e6d615989e0ced907fc5d0fb7c61e32aac08.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's use the Pythagorean Theorem to solve for $x$.  $\\begin{align} \\blueD a^2 + \\greenD b^2 &= \\goldD c^2 ~~~~~~~~\\small\\gray{\\text{The Pythagorean Theorem}}\\\\\\\\ \\blueD{2}^2 + \\greenD{ 6}^2 &= \\goldD{x}^2 ~~~~~~~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ 4 + 36 &= x^2 ~~~~~~~\\small\\gray{\\text{Evaluate } 2^2 \\text{ and }  6^2}\\\\\\\\ 40 &= x^2~~~~~~~\\small\\gray{\\text{Add 4 and 36}}\\\\\\\\ x &= \\sqrt{40} ~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$x = \\sqrt{40}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Isosceles Hypoteuse"
+                    }
+                }
+            }
+        }
+    ]
+}

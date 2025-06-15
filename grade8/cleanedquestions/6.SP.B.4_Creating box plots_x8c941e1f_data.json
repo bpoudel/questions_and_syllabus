@@ -1,0 +1,1485 @@
+{
+    "standard_metadata": {
+        "standard_id": "6.SP.B.4",
+        "standard_description": "Display numerical data in plots on a number line, including dot plots, histograms, and box plots.",
+        "standard_title": "Creating box plots",
+        "standard_url": "https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-data-statistics/cc-6th-box-whisker-plots/e/box-plots"
+    },
+    "id": "x8c941e1f",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The data below represents the number of essays that students in Mr. Ji's class wrote.  $2$, $3$, $5$, $5$, $6$, $7$, $8$, $8$, $11$  **Which box plot correctly summarizes the data?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "",
+                                        "correct": true,
+                                        "images": [
+                                            {
+                                                "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 0 to 14, in increments of 1. A left whisker extends from 2 to 4. The box extends from 4 to 8 and is divided into 2 parts by a vertical line segment at 6. The right whisker extends from 8 to 11. All values estimated.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/31bb91c879880659db16391d43369dd125eb0122.png"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 0 to 14, in increments of 1. A left whisker extends from 2 to 3. The box extends from 3 to 7 and is divided into 2 parts by a vertical line segment at 6. The right whisker extends from 7 to 11. All values estimated.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/dfb184eb540c27e7b80f521e8e5499b02b7addf1.png"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 0 to 14, in increments of 1. A left whisker extends from 2 to 4. The box extends from 4 to 9 and is divided into 2 parts by a vertical line segment at 6. The right whisker extends from 9 to 12. All values estimated.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/eb44d8dfaf467f682fbb71039861c5a1bc310b52.png"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\begin{align} &\\maroonD{\\large{2}}, 3, 5, 5, \\purpleD{\\large6}, 7, 8, 8, \\blueE{{\\large11}}\\\\\\\\ &\\text{Min} = \\maroonD{2}\\\\\\\\ &\\text{Median} = \\purpleD6\\\\\\\\ &\\text{Max} = \\blueE{11} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} & 2, {\\large3},  {\\large5}, 5,  \\purpleD{6},  7, {\\large8},  {\\large8}, 11\\\\\\\\ & Q_{1} = \\dfrac{3 + 5}{2} = 4\\\\\\\\ & Q_{3} = \\dfrac{8 + 8}{2}= 8 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following box plot correctly summarizes the data.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 0 to 14, in increments of 1. A left whisker, with its end shaded pink, extends from 2 to 4. The box extends from 4 to 8 and is divided into 2 parts by a vertical line segment, shaded purple, at 6. The right whisker extends from 8 to 11, with its right end shaded blue. All values estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/49c183526982070bf587788ab81be4ec6ffeb409.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2 - Give Data Set"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The data below represents the number of customers at each Slurpee Sam's Spaghetti Shop.  $24$, $25$, $29$, $30$, $31$, $31$, $32$, $34$, $34$  **Which box plot correctly summarizes the data?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "",
+                                        "correct": true,
+                                        "images": [
+                                            {
+                                                "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 20 to 36, in increments of 1. A left whisker extends from 24 to 27. The box extends from 27 to 33 and is divided into 2 parts by a vertical line segment at 31. The right whisker extends from 33 to 34. All values estimated.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/23f713f479e0c75944f78e1ac1388082f50beca5.png"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 20 to 36, in increments of 1. A left whisker extends from 24 to 27. The box extends from 27 to 32 and is divided into 2 parts by a vertical line segment at 31. The right whisker extends from 32 to 34. All values estimated.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/4b18675fe02613a569200d2db3d3ddc56d32a0d8.png"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 20 to 36, in increments of 1. A left whisker extends from 24 to 29. The box extends from 29 to 32 and is divided into 2 parts by a vertical line segment at 31. The right whisker extends from 32 to 34. All values estimated.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/857a356e39b154f093967106a38305cd34bbb9ee.png"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\begin{align} &\\maroonD{\\large{24}}, 25, 29, 30, \\purpleD{\\large31}, 31, 32, 34, \\blueE{\\large34}\\\\\\\\ &\\text{Min} = \\maroonD{24}\\\\\\\\ &\\text{Median} = \\purpleD{31}\\\\\\\\ &\\text{Max} = \\blueE{34} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$24, {\\large25},  {\\large29}, 30,  \\purpleD{31},  31, {\\large{32}},  {\\large{34}}, 34$  $\\begin{align} &Q_{1} = \\dfrac{{25} + {29}}{2} = 27\\\\\\\\ &Q_{3} = \\dfrac{{32} +{34}}{2} = 33 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following box plot correctly summarizes the data.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 20 to 36, in increments of 1. A left whisker extends from 24 to 27, where 24 is shaded pink. The box extends from 27 to 33, and is divided into 2 parts by a vertical line segment at 31, which is shaded purple. The right whisker extends from 33 to 34, which is shaded blue. All values estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/9af864e67ac3930957297c8a1e7daf9ae32a863c.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2 - Give Data Set"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The data below represents the number of runners on each cross country team in the Northern Conference.  $12$, $15$, $15$, $17$, $19$, $19$, $20$, $22$, $24$  **Which box plot correctly summarizes the data?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "",
+                                        "correct": true,
+                                        "images": [
+                                            {
+                                                "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 11 to 25, in increments of 1. A left whisker extends from 12 to 15. The box extends from 15 to 21 and is divided into 2 parts by a vertical line segment at 19. The right whisker extends from 21 to 24. All values estimated.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/19d3f9ce0cdb3ea7e4a3cc2572d8b8bd07ccdba0.png"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 11 to 25, in increments of 1. A left whisker extends from 12 to 15. The box extends from 15 to 22 and is divided into 2 parts by a vertical line segment at 19. The right whisker extends from 22 to 24. All values estimated.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/99b0c5f44d5d6794100bfc6bf9e97e786bb735e9.png"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 11 to 25, in increments of 1. A left whisker extends from 12 to 16. The box extends from 16 to 22 and is divided into 2 parts by a vertical line segment at 19. The right whisker extends from 22 to 24. All values estimated.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/9703be7153f3a4d16ef8e89479bb7464256092ce.png"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\begin{align} &\\maroonD{\\large{12}}, 15, 15, 17, \\purpleD{\\large19}, 19, 20, 22, \\blueE{{\\large24}}\\\\\\\\ &\\text{Min} = \\maroonD{12}\\\\\\\\ &\\text{Median} = \\purpleD{19}\\\\\\\\ &\\text{Max} = \\blueE{24} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} &12, {\\large15},  {\\large15}, 17,  \\purpleD{19},  19, {\\large20},  {\\large22}, 24\\\\\\\\ &Q_{1} = \\dfrac{{15} + {15}}{2} = 15\\\\\\\\ &Q_{3} = \\dfrac{{20} + {22}}{2} = 21\\\\\\\\ \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following box plot correctly summarizes the data.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 11 to 25, in increments of 1. A left whisker extends from 12 to 15, where 12 is shaded pink. The box extends from 15 to 21, and is divided into 2 parts by a vertical line segment at 19, which is shaded purple. The right whisker extends from 21 to 24, which is shaded blue. All values estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d8a4e1da8f5a23ced216cafe7c66b03c9a8eb072.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2 - Give Data Set"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The data below represents the number of guests staying on each floor of the Luxed Hotel.  $1$, $3$, $5$, $7$, $9$, $9$, $11$, $11$, $13$, $14$  **Which box plot correctly summarizes the data?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "",
+                                        "correct": true,
+                                        "images": [
+                                            {
+                                                "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 0 to 15, in increments of 1. A left whisker extends from 1 to 5. The box extends from 5 to 11 and is divided into 2 parts by a vertical line segment at 9. The right whisker extends from 11 to 14. All values estimated.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/b5b2058fab9ba71379757cfbb712b83c15e66c42.png"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "https://cdn.kastatic.org/ka-perseus-graphie/2fae05d5f5a75fed28ce785926daab8A horizontal boxplot is plotted along a horizontal axis marked from 0 to 15, in increments of 1. A left whisker extends from 1 to 3. The box extends from 3 to 11 and is divided into 2 parts by a vertical line segment at 9. The right whisker extends from 11 to 14. All values estimated.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/2fae05d5f5a75fed28ce785926daab853b90df88.png"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 0 to 15, in increments of 1. A left whisker extends from 1 to 3. The box extends from 3 to 13 and is divided into 2 parts by a vertical line segment at 9. The right whisker extends from 13 to 14. All values estimated.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/decf625bf78c1e7936993c3794b704ef61e205e8.png"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\maroonD{\\large{1}}$, $3$, $5$, $7$, $ \\gray{\\large{9}}$$\\gray{\\large{9}}$, $11$, $11$, $13$, $\\blueE{{\\large14}}$  $\\begin{align} \\text{Min} &= \\maroonD{1}\\\\\\\\ \\text{Median} &=  \\dfrac{\\gray{9} + \\gray{9}}{2}&=\\purpleD9\\\\\\\\ \\text{Max} &= \\blueE{14} \\end{align}$",
+                                    "images": [
+                                        {
+                                            "alt": "A series of 4 vertical dots represent the space between the 2 middle numbers.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/c2ddc7508fe1dbca1691e87e3a61ca7924c6d74d.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$ 1$, $3$, $ {\\large5}$, $7$, $9$$ 9$, $11$, $ {\\large11}$, $13$, $14$  $\\begin{align}  Q_{1}  &= 5\\\\\\\\  Q_{3} &= 11 \\end{align}$",
+                                    "images": [
+                                        {
+                                            "alt": "A series of 4 vertical dots represent the space between the 2 middle numbers.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/c2ddc7508fe1dbca1691e87e3a61ca7924c6d74d.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The following box plot correctly summarizes the data.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 0 to 15, in increments of 1. A left whisker extends from 1 to 5, where 1 is shaded pink. The box extends from 5 to 11 and is divided into 2 parts by a vertical line segment at 9, which is shaded purple. The right whisker extends from 11 to 14, which is shaded blue. All values estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/5361345fd2e61f3bfd4dc851e9da983fa6dae693.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2 - Give Data Set"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The data below represents the number of cones sold at each of the ice cream stands in Koh Lanta.   $41$, $42$, $43$, $43$, $43$, $45$, $47$, $48$, $50$, $50$  **Which box plot correctly summarizes the data?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "",
+                                        "correct": true,
+                                        "images": [
+                                            {
+                                                "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 40 to 50, in increments of 1. A left whisker extends from 41 to 43. The box extends from 43 to 48 and is divided into 2 parts by a vertical line segment at 44. The right whisker extends from 48 to 50. All values estimated.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/284b636532cd81abec7cb79d91fd347912553e2f.png"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 40 to 50, in increments of 1. A left whisker extends from 41 to 43. The box extends from 43 to 48 and is divided into 2 parts by a vertical line segment at 45. The right whisker extends from 48 to 50. All values estimated.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/168896251bdf3c6fcee3b2312272cec23ad8c72e.png"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 40 to 50, in increments of 1. A left whisker extends from 41 to 43. The box extends from 43 to 47 and is divided into 2 parts by a vertical line segment at 45. The right whisker extends from 47 to 50. All values estimated.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/c735eab960e60a67cd95eb9755c92523a8b9015f.png"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\maroonD{\\large{41}}$, $42$, $43$, $43$, $\\gray{\\large{43}}$$\\gray{\\large{45}}$, $47$, $48$, $50$, $\\blueE{{\\large50}}$  $\\begin{align} \\text{Min} &= \\maroonD{41}\\\\\\\\ \\text{Median} &= \\dfrac{\\gray{43} + \\gray{45}}{2}&= \\purpleD{44}\\\\\\\\ \\text{Max} &= \\blueE{50} \\end{align}$",
+                                    "images": [
+                                        {
+                                            "alt": "A series of 4 vertical dots represent the space between the 2 middle numbers.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/c2ddc7508fe1dbca1691e87e3a61ca7924c6d74d.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$ 41$, $42$, ${\\large{43}}$, $43$, $43$$ 45$, $47$, ${\\large{48}}$, $50$, $50$  $\\begin{align}  Q_{1}  &= 43\\\\\\\\  Q_{3} &= {48} \\end{align}$",
+                                    "images": [
+                                        {
+                                            "alt": "A series of 4 vertical dots represent the space between the 2 middle numbers.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/c2ddc7508fe1dbca1691e87e3a61ca7924c6d74d.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The following box plot correctly summarizes the data.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 40 to 50, in increments of 1. A left whisker extends from 41 to 43, where 41 is shaded pink. The box extends from 43 to 48 and is divided into 2 parts by a vertical line segment at 44, which is shaded purple. The right whisker extends from 48 to 50, which is shaded blue. All values estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/4f883feee1cbd9649711e07c82975e7f51b73c19.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2 - Give Data Set"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The data below represents the number of practices each member of Nidhi's ski team attended.  $25$, $28$, $29$, $29$, $30$, $34$, $35$, $35$, $37$, $38$  **Which box plot correctly summarizes the data?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "",
+                                        "correct": true,
+                                        "images": [
+                                            {
+                                                "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 24 to 40, in increments of 1. A left whisker extends from 25 to 29. The box extends from 29 to 35 and is divided into 2 parts by a vertical line segment at 32. The right whisker extends from 35 to 38. All values estimated.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/d46d7405ce7355b4803a96dea4b303998db5ae79.png"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 24 to 40, in increments of 1. A left whisker extends from 25 to 29. The box extends from 29 to 35 and is divided into 2 parts by a vertical line segment at 34. The right whisker extends from 35 to 38. All values estimated.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/504cec6ecdf12bf48eb57c388ba3d9e330c8b67e.png"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 24 to 40, in increments of 1. A left whisker extends from 25 to 29. The box extends from 29 to 35 and is divided into 2 parts by a vertical line segment at 30. The right whisker extends from 35 to 38. All values estimated.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/48d4144392b1d5d418ea83feaa05ccf5d2877276.png"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\maroonD{\\large{25}}$, $28$, $29$, $29$, $\\gray{\\large{30}}$$\\gray{\\large{34}}$, $35$, $35$, $37$, $\\blueE{\\large38}$  $\\begin{align} \\text{Min} &= \\maroonD{25}\\\\\\\\ \\text{Median}&= \\dfrac{\\gray{30} + \\gray{34}}{2} &= \\purpleD{32}\\\\\\\\ \\text{Max} &= \\blueE{38} \\end{align}$",
+                                    "images": [
+                                        {
+                                            "alt": "A series of 4 vertical dots represent the space between the 2 middle numbers.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/c2ddc7508fe1dbca1691e87e3a61ca7924c6d74d.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$ 25$, $28$, ${\\large{29}}$, $29$, $30$$ 34$, $35$, ${\\large{35}}$, $37$, $38$  $\\begin{align}  Q_{1} &= 29\\\\\\\\  Q_{3} &= 35 \\end{align}$",
+                                    "images": [
+                                        {
+                                            "alt": "A series of 4 vertical dots represent the space between the 2 middle numbers.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/c2ddc7508fe1dbca1691e87e3a61ca7924c6d74d.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The following box plot correctly summarizes the data.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 24 to 40, in increments of 1. A left whisker extends from 25 to 29, where 25 is shaded pink. The box extends from 29 to 35, and is divided into 2 parts by a vertical line segment at 32, which is shaded purple. The right whisker extends from 35 to 38, which is shaded blue. All values estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/daf31db0194c969c7ba37f4b185128ea661eabad.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2 - Give Data Set"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The data below represents the number of desks on each floor of Texter Corporate.  $\\qquad54,60,65,66,67,69,70,72,73,75,76$   **Which box plot correctly summarizes the data?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "",
+                                        "correct": true,
+                                        "images": [
+                                            {
+                                                "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 50 to 80, in increments of 1. A left whisker extends from 54 to 65. The box extends from 65 to 73 and is divided into 2 parts by a vertical line segment at 69. The right whisker extends from 73 to 76. All values estimated.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/a962a2a1bfedb73827a09111802e054078571e79.png"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 50 to 80, in increments of 1. A left whisker extends from 54 to 67. The box extends from 67 to 73 and is divided into 2 parts by a vertical line segment at 70. The right whisker extends from 73 to 76. All values estimated.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/f6b1a0b1960ebdaa652e274aa272a2578bca18c0.png"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 50 to 80, in increments of 1. A left whisker extends from 54 to 67. The box extends from 67 to 72 and is divided into 2 parts by a vertical line segment at 70. The right whisker extends from 72 to 76. All values estimated.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/ce0c824c1c57d8cd366bfae39c50ab6fc27fa241.png"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\maroonD{\\large{54}}$, $60$, $65$, $66$, $67$, $\\purpleD{\\large{69}}$, $70$, $72$, $73$, $75$, $\\blueE{\\large{76}}$  $\\begin{align} \\text{Min} &= \\maroonD{54}\\\\\\\\ \\text{Median} &= \\purpleD{69}\\\\\\\\ \\text{Max} &= \\blueE{76} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$ 54$, $ 60$, ${\\large65}$, $66$, $67$, $ \\purpleD{69}$, $ 70$, $72$, ${\\large73}$, $75$, $76$  $\\begin{align}  Q_{1} &= 65\\\\\\\\  Q_{3} &= 73 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following box plot correctly summarizes the data.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 50 to 80, in increments of 1. A left whisker extends from 54 to 65, where 54 is shaded pink. The box extends from 65 to 73, and is divided into 2 parts by a vertical line segment at 69, which is shaded purple. The right whisker extends from 73 to 76, which is shaded blue. All values estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/259efa8ee2547e1f62c4bc2f22f29b752b6ee197.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2 - Give Data Set"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The data below represents the number of strikes each Sam's Inc. employee got  on the company bowling outing.  $1$, $3$, $6$, $8$, $10$, $12$, $13$, $13$, $16$, $18$, $19$  **Which box plot correctly summarizes the data?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "",
+                                        "correct": true,
+                                        "images": [
+                                            {
+                                                "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 0 to 20, in increments of 1. A left whisker extends from 1 to 6. The box extends from 6 to 16 and is divided into 2 parts by a vertical line segment at 12. The right whisker extends from 16 to 19. All values estimated.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/2454f7ce0f3cd8d48494bd3d46cd41db1142435b.png"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 0 to 20, in increments of 1. A left whisker extends from 1 to 8. The box extends from 8 to 16 and is divided into 2 parts by a vertical line segment at 12. The right whisker extends from 16 to 19. All values estimated.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/f20eeaf935d55c3b886527bc2c1f175944187823.png"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 0 to 20, in increments of 1. A left whisker extends from 1 to 8. The box extends from 8 to 16 and is divided into 2 parts by a vertical line segment at 13. The right whisker extends from 16 to 19. All values estimated.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/d21bee380e3e8fb1901c0624f7b76a4c60a4f44b.png"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\maroonD{\\large{1}}$, $3$, $6$, $8$, $10$, $\\purpleD{\\large{12}}$, $13$, $13$, $16$, $18$, $\\blueE{\\large{19}}$  $\\begin{align} \\text{Min} &= \\maroonD{1}\\\\\\\\ \\text{Median} &= \\purpleD{12}\\\\\\\\ \\text{Max} &= \\blueE{19} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$1$, $3$, ${\\large6}$, $8$, $10$, $ \\purpleD{12}$, $ 13$, $13$, ${\\large{16}}$, $18$, $19$  $\\begin{align}  Q_{1} &= 6\\\\\\\\  Q_{3} &= 16 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following box plot correctly summarizes the data.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 0 to 20, in increments of 1. A left whisker extends from 1 to 6, where 1 is shaded pink. The box extends from 6 to 16 and is divided into 2 parts by a vertical line segment at 12, which is shaded purple. The right whisker extends from 16 to 19, which is shaded blue. All values estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/1a22799a9922536f14277edd04f1c8c5640ba109.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2 - Give Data Set"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The data below represents the number of workouts each member of Big Muscles Gym attended last month.  $4$, $5$, $7$, $7$, $7$, $8$, $10$, $11$, $11$, $13$, $13$, $14$  **Which box plot correctly summarizes the data?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "",
+                                        "correct": true,
+                                        "images": [
+                                            {
+                                                "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 0 to 16, in increments of 1. A left whisker extends from 4 to 7. The box extends from 7 to 12 and is divided into 2 parts by a vertical line segment at 9. The right whisker extends from 12 to 14. All values estimated.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/2240af7fcc0e6795a637818035b5d8f13b7d3fbe.png"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 0 to 16, in increments of 1. A left whisker extends from 2 to 7. The box extends from 7 to 13 and is divided into 2 parts by a vertical line segment at 9. The right whisker extends from 13 to 14. All values estimated.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/35c0a7ff434aa324cdcefad348e40d9bfc30a7a2.png"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 0 to 16, in increments of 1. A left whisker extends from 4 to 7. The box extends from 7 to 13 and is divided into 2 parts by a vertical line segment at 9. The right whisker extends from 13 to 14. All values estimated.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/f8976f81ff4ab0c1736378d2c8e98a22ddd41199.png"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\maroonD{\\large{4}}$, $5$, $7$, $7$, $7$, $\\gray{\\large{8}}$$\\gray{\\large{10}}$, $11$, $11$, $13$, $13$, $\\blueE{\\large{14}}$  $\\begin{align} \\text{Min} &= \\maroonD{4}\\\\\\\\ \\text{Median} &= \\dfrac{\\gray{8} + \\gray{10}}{2}&= \\purpleD9\\\\\\\\ \\text{Max} &= \\blueE{14} \\end{align}$",
+                                    "images": [
+                                        {
+                                            "alt": "A series of 4 vertical dots represent the space between the 2 middle numbers.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/c2ddc7508fe1dbca1691e87e3a61ca7924c6d74d.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$ 4$, $5$, ${\\large{7}}$, ${\\large{7}}$, $7$, $8$$ 10$, $11$, ${\\large{11}}$, ${\\large{13}}$, $13$, $14$  $\\begin{align}  Q_{1}  &= \\dfrac{{7} + {7}}{2}&=7\\\\\\\\  Q_{3} &= \\dfrac{{11} + {13}}{2}&= 12 \\end{align}$",
+                                    "images": [
+                                        {
+                                            "alt": "A series of 4 vertical dots represent the space between the 2 middle numbers.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/c2ddc7508fe1dbca1691e87e3a61ca7924c6d74d.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The following box plot correctly summarizes the data.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 0 to 16, in increments of 1. A left whisker extends from 4 to 7, where 4 is shaded pink. The box extends from 7 to 12 and is divided into 2 parts by a vertical line segment at 9, which is shaded purple. The right whisker extends from 12 to 14, which is shaded blue. All values estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/3648b163ba57af5b84226e0b47d933d3e6298586.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2 - Give Data Set"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The data below represents the number of pages each student in Ashwin's class read during reading time.  $16$, $16$, $16$, $20$, $21$, $21$, $23$, $25$, $26$, $26$, $28$, $28$  **Which box plot correctly summarizes the data?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "",
+                                        "correct": true,
+                                        "images": [
+                                            {
+                                                "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 15 to 29, in increments of 1. A left whisker extends from 16 to 18. The box extends from 18 to 26 and is divided into 2 parts by a vertical line segment at 22. The right whisker extends from 26 to 28. All values estimated.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/1230262c3d1a570c9f757acc37a0d25bcafcd800.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 15 to 29, in increments of 1. A left whisker extends from 16 to 18. The box extends from 18 to 25 and is divided into 2 parts by a vertical line segment at 21. The right whisker extends from 25 to 28. All values estimated.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/bc97b4c16f3fd1326000723c6712e1f3eaa212a4.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 15 to 29, in increments of 1. A left whisker extends from 16 to 18. The box extends from 18 to 26 and is divided into 2 parts by a vertical line segment at 23. The right whisker extends from 26 to 28. All values estimated.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/e34979d663e8c56487be3ba95a43db67664b9238.svg"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\maroonD{\\large{16}}$, $16$, $16$, $20$, $21$, $\\gray{\\large{21}}$$\\gray{\\large{23}}$, $25$, $26$, $26$, $28$, $\\blueE{\\large{28}}$  $\\begin{align} \\text{Min} &= \\maroonD{16}\\\\\\\\ \\text{Median}  &= \\dfrac{\\gray{21} + \\gray{23}}{2}&= \\purpleD{22}\\\\\\\\ \\text{Max} &= \\blueE{28} \\end{align}$",
+                                    "images": [
+                                        {
+                                            "alt": "A series of 4 vertical dots represent the space between the 2 middle numbers.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/c2ddc7508fe1dbca1691e87e3a61ca7924c6d74d.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$ 16$, $16$, ${\\large{16}}$, ${\\large{20}}$, $21$, $21$$ 23$, $25$, ${\\large{26}}$, ${\\large{26}}$, $28$, $28$  $\\begin{align}  Q_{1} &= \\dfrac{{16} + {20}}{2} &= 18\\\\\\\\  Q_{3} &=\\dfrac{{26} + {26}}{2}&= 26 \\end{align}$",
+                                    "images": [
+                                        {
+                                            "alt": "A series of 4 vertical dots represent the space between the 2 middle numbers.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/c2ddc7508fe1dbca1691e87e3a61ca7924c6d74d.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The following box plot correctly summarizes the data.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 15 to 29, in increments of 2. A left whisker extends from 16 to 18, where 16 is shaded pink. The box extends from 18 to 26, and is divided into 2 parts by a vertical line segment at 22, which is shaded purple. The right whisker extends from 26 to 28, which is shaded blue. All values estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/00ea8a6f8d0268d2079439ad7f624914baf3f353.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2 - Give Data Set"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which data set could be represented by the box plot shown below?**",
+                                "images": [
+                                    {
+                                        "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 0 to 15, in increments of 1. A left whisker extends from 2 to 4. The box extends from 4 to 8 and is divided into 2 parts by a vertical line segment at 6. The right whisker extends from 8 to 11. All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/320654d7149d9c8d66592bdd1f5042af90689265.png"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$2$, $3$, $5$, $5$, $6$, $7$, $8$, $8$, $11$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$3$, $3$, $5$, $5$, $6$, $7$, $8$, $9$, $11$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$2$, $3$, $5$, $5$, $6$, $7$, $8$, $10$, $11$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$2$, $3$, $5$, $5$, $7$, $7$, $8$, $10$, $11$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "[[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 0 to 15, in increments of 1. A left whisker extends from 2 to 4, where 2 is identified as the min. The box extends from 4, identified as Q1, to 8, identified as Q3, and is divided into 2 parts by a vertical line segment at 6, which is identified as the median. The right whisker extends from 8 to 11, where 11 is identified as the max. All values estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/05114ae9c449143c8bb20ca7304351a8744b723f.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The minimum of the box plot is $2$.  We can eliminate one of the data sets because it does not have a minimum of $2$.  $ \\redE{\\large3}$, $3$, $5$, $5$, $6$, $7$, $8$, $9$, $11$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The median of the box plot is $6$.  We can eliminate one of the data sets because it does not have a median of $6$.  $ 2$, $3$, $5$, $5$, $\\redE{\\large7}$, $7$, $8$, $10$, $11$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The third quartile of the box plot is $8$.  We can eliminate one of the data sets because it does not have a third quartile of $8$.  $ 2$, $3$, $5$, $5$, $6$, $7$, $\\redE{\\large8}$, $\\redE{\\large{10}}$, $11$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following data set  could be represented by the box plot.  $\\maroonD{\\large{2}}$, ${\\large{3}}$, ${\\large{5}}$, $5$, $\\purpleD{\\large{6}}$, $7$, ${\\large{8}}$, ${\\large{8}}$, $\\blueE{\\large{11}}$  [[☃ image 2]]",
+                                    "images": [
+                                        {
+                                            "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 0 to 15, in increments of 1. A left whisker extends from 2 to 4, where 2 is shaded pink and identified as the min. The box extends from 4, identified as Q1, to 8, identified as Q3, and is divided into 2 parts by a vertical line segment at 6, which is shaded purple and identified as the median. The right whisker extends from 8 to 11, where 11 is shaded blue and identified as the max. All values estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/c8eb5523aed6f788fdba2e6d756c18188edce510.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1 - Give Box Plot"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which data set could be represented by the box plot shown below?**",
+                                "images": [
+                                    {
+                                        "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 20 to 36, in increments of 1. A left whisker extends from 24 to 27. The box extends from 27 to 33 and is divided into 2 parts by a vertical line segment at 31. The right whisker extends from 33 to 34. All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/350b96c868ea9cc0cfebde43b156e71785e84506.png"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$24$, $25$, $29$, $30$, $31$, $31$, $32$, $34$, $34$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$24$, $25$, $29$, $30$, $30$, $31$, $34$, $34$, $34$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$24$, $27$, $29$, $30$, $30$, $31$, $32$, $34$, $34$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$24$, $25$, $29$, $31$, $31$, $31$, $32$, $34$, $35$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "[[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 20 to 36, in increments of 1. A left whisker extends from 24 to 27, where 24 is identified as the min. The box extends from 27, identified as Q1, to 33, identified as Q3, and is divided into 2 parts by a vertical line segment at 31, which is identified as the median. The right whisker extends from 33 to 34, where 34 is identified as the max. All values estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/c456a500d824350adcea57240be1827fc20b1c84.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The maximum of the box plot is $34$.  We can eliminate one of the data sets because it does not have a maximum of $34$.  $ 24$, $25$, $29$, $31$, $31$, $31$, $32$, $34$, $\\red{\\large35}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The median of the box plot is $31$.  We can eliminate two of the data sets because they do not have a median of $31$.  $ 24$, $25$, $29$, $30$, $\\redE{\\large30}$, $31$, $34$, $34$, $34$  $ 24$, $27$, $29$, $30$, $\\redE{\\large30}$, $31$, $32$, $34$, $34$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following data set  could be represented by the box plot.  $\\maroonD{\\large{24}}$, ${\\large{25}}$, ${\\large{29}}$, $30$, $\\purpleD{\\large{31}}$, $31$, ${\\large{32}}$, ${\\large{34}}$, $\\blueE{\\large{34}}$  [[☃ image 2]]",
+                                    "images": [
+                                        {
+                                            "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 20 to 36, in increments of 1. A left whisker extends from 24 to 27, where 24 is shaded pink and identified as the min. The box extends from 27, identified as Q1, to 33, identified as Q3, and is divided into 2 parts by a vertical line segment at 31, which is shaded purple and identified as the median. The right whisker extends from 33 to 34, where 34 is shaded blue and identified as the max. All values estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/02c82aa7f0284034cd7850007fef32495fd0e022.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1 - Give Box Plot"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which data set could be represented by the box plot shown below?**",
+                                "images": [
+                                    {
+                                        "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 25 to 40, in increments of 1. A left whisker extends from 25 to 29. The box extends from 29 to 35 and is divided into 2 parts by a vertical line segment at 32. The right whisker extends from 32 to 38. All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/7a0d15a2672d6635ec6efd0a0e82179b97ae8f88.png"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$25$, $28$, $29$, $29$, $30$, $34$, $35$, $35$, $37$, $38$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$25$, $28$, $29$, $29$, $30$, $34$, $35$, $35$, $37$, $40$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$25$, $28$, $29$, $29$, $32$, $34$, $35$, $36$, $37$, $38$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$25$, $28$, $28$, $29$, $30$, $34$, $35$, $37$, $37$, $38$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "[[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 25 to 40, in increments of 1. A left whisker extends from 25 to 29, where 25 is identified as the min. The box extends from 29, identified as Q1, to 35, identified as Q3, and is divided into 2 parts by a vertical line segment at 32, which is identified as the median. The right whisker extends from 35 to 38, where 38 is identified as the max. All values estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d6af96912b96e8769ab21617d9ab03ccdde06e52.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The maximum of the box plot is $38$.  We can eliminate one of the data sets because it does not have a maximum of $38$.  $ 25$, $28$, $29$, $29$, $30$, $34$, $35$, $35$, $37$, $\\redE{\\large40}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The median of the box plot is $32$.  We can eliminate one of the data sets because it does not have a median of $32$.  $ 25$, $28$, $29$, $29$, $\\redE{\\large32}$, $\\redE{\\large34}$, $35$, $36$, $37$, $38$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The third quartile of the box plot is $35$.  We can eliminate one of the data sets because it does not have a third quartile of $35$.  $ 25$, $28$, $28$, $29$, $30$, $34$, $35$, $\\redE{\\large37}$, $37$, $38$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following data set  could be represented by the box plot.  $\\maroonD{\\large{25}}$, $28$, ${\\large{29}}$, $29$, $\\purpleD{\\large{30}}$, $\\purpleD{\\large{34}}$, $35$, ${\\large{35}}$, $37$, $\\blueE{\\large{38}}$    [[☃ image 2]]",
+                                    "images": [
+                                        {
+                                            "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 25 to 40, in increments of 1. A left whisker extends from 25 to 29, where 25 is shaded pink and identified as the min. The box extends from 29, identified as Q1, to 35, identified as Q3, and is divided into 2 parts by a vertical line segment at 32, which is shaded purple and identified as the median. The right whisker extends from 35 to 38, where 38 is shaded blue and identified as the max. All values estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/a50308975e2ec29a9fb1e27fcb55ae93b561c88e.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1 - Give Box Plot"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which data set could be represented by the box plot shown below?**",
+                                "images": [
+                                    {
+                                        "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 50 to 80, in increments of 1. A left whisker extends from 54 to 65. The box extends from 65 to 73 and is divided into 2 parts by a vertical line segment at 69. The right whisker extends from 73 to 76. All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/a5235e46625383250cfff75a987f0ddaa70c31d5.png"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$54$, $60$, $65$, $66$, $67$, $69$, $70$, $72$, $73$, $75$, $76$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$53$, $60$, $65$, $66$, $67$, $69$, $70$, $72$, $73$, $75$, $76$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$54$, $60$, $65$, $66$, $67$, $70$, $70$, $72$, $73$, $75$, $76$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$54$, $60$, $63$, $66$, $67$, $68$, $70$, $72$, $73$, $75$, $76$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "[[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 50 to 80, in increments of 1. A left whisker extends from 54, identified as the min, to 65. The box extends from 65, identified as Q1, to 73, identified as Q3, and is divided into 2 parts by a vertical line segment at 69, which is identified as the median. The right whisker extends from 73 to 76, identified as the max. All values estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/bfc51f2acaefa47d5b460c7759bd80686267939c.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The minimum of the box plot is $54$.  We can eliminate one of the data sets because it does not have a minimum of $54$.  $ \\redE{\\large53}$, $60$, $65$, $66$, $67$, $69$, $70$, $72$, $73$, $75$, $76$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The median of the box plot is $69$.  We can eliminate two of the data sets because they do not have a median of $69$.  $ 54$, $60$, $65$, $66$, $67$, $\\redE{\\large70}$, $70$, $72$, $73$, $75$, $76$  $ 54$, $60$, $63$, $66$, $67$, $\\redE{\\large68}$, $70$, $72$, $73$, $75$, $76$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following data set  could be represented by the box plot.  $\\maroonD{\\large{54}}$, $60$, ${\\large{65}}$, $66$, $67$, $\\purpleD{\\large{69}}$, $70$, $72$, ${\\large{73}}$, $75$, $\\blueE{\\large{76}}$    [[☃ image 2]]",
+                                    "images": [
+                                        {
+                                            "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 50 to 80, in increments of 1. A left whisker extends from 54, which is shaded pink and identified as the min, to 65. The box extends from 65, identified as Q1, to 73, identified as Q3, and is divided into 2 parts by a vertical line segment at 69, which is shaded purple and identified as the median. The right whisker extends from 73 to 76, which is shaded blue and identified as the max. All values estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/707feb7f52e4cbddf3024782ea0c924ee57f7745.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1 - Give Box Plot"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which data set could be represented by the box plot shown below?**",
+                                "images": [
+                                    {
+                                        "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 40 to 50, in increments of 1. A left whisker extends from 41 to 43. The box extends from 43 to 48 and is divided into 2 parts by a vertical line segment at 44. The right whisker extends from 48 to 50. All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/3fdeeba5b97919875b564198203cedddb3f584e2.png"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$41$, $42$, $43$, $43$, $43$, $45$, $47$, $48$, $50$, $50$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$40$, $42$, $43$, $43$, $43$, $47$, $47$, $48$, $50$, $50$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$41$, $42$, $42$, $43$, $43$, $47$, $47$, $49$, $50$, $50$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$41$, $42$, $43$, $43$, $43$, $45$, $47$, $49$, $50$, $50$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "[[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 40 to 50, in increments of 1. A left whisker extends from 41 to 43, where 41 is identified as the min. The box extends from 43, identified as Q1, to 48, identified as Q3, and is divided into 2 parts by a vertical line segment at 44, which is identified as the median. The right whisker extends from 48 to 50, where 50 is identified as the max. All values estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/347e524448469fe2f8d903fa47ead2bc6638f346.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The minimum of the box plot is $41$.  We can eliminate one of the data sets because it does not have a minimum of $41$.  $ \\redE{\\large40}$, $42$, $43$, $43$, $43$, $47$, $47$, $48$, $50$, $50$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The median of the box plot is $44$.  We can eliminate one of the data sets because it does not have a median of $44$.  $ 41$, $42$, $42$, $43$, $\\redE{\\large43}$, $\\redE{\\large47}$, $47$, $49$, $50$, $50$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The third quartile for the box plot is $48$.  We can eliminate one of the data sets because it does not have a third quartile of $48$.  $ 41$, $42$, $43$, $43$, $43$, $45$, $47$, $\\redE{\\large49}$, $50$, $50$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following data set  could be represented by the box plot.  $\\maroonD{\\large{41}}$, $42$, ${\\large{43}}$, $43$, $\\purpleD{\\large{43}}$, $\\purpleD{\\large{45}}$, $47$, ${\\large{48}}$, $50$, $\\blueE{\\large{50}}$    [[☃ image 2]]",
+                                    "images": [
+                                        {
+                                            "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 40 to 50, in increments of 1. A left whisker extends from 41, which is shaded pink and identified as the min, to 43. The box extends from 43, identified as Q1, to 48, identified as Q3, and is divided into 2 parts by a vertical line segment at 44, which is shaded purple and identified as the median. The right whisker extends from 48 to 50, which is shaded blue and identified as the max. All values estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/6ec56354b5d44c4a4628783f208b513211860003.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1 - Give Box Plot"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which data set could be represented by the box plot shown below?**",
+                                "images": [
+                                    {
+                                        "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 0 to 20, in increments of 1. A left whisker extends from 1 to 6. The box extends from 6 to 16 and is divided into 2 parts by a vertical line segment at 12. The right whisker extends from 16 to 19. All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/9d0a4882be71856e150e8a4a027d275487423c11.png"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$1$, $3$, $6$, $8$, $10$, $12$, $13$, $13$, $16$, $18$, $19$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$1$, $3$, $6$, $8$, $10$, $11$, $13$, $13$, $16$, $18$, $19$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$1$, $3$, $6$, $8$, $10$, $11$, $13$, $13$, $18$, $18$, $19$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$1$, $3$, $6$, $8$, $10$, $12$, $13$, $13$, $16$, $18$, $20$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "[[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 0 to 20, in increments of 1. A left whisker extends from 1 to 6, where 1 is identified as the min. The box extends from 6, identified as Q1, to 16, identified as Q3, and is divided into 2 parts by a vertical line segment at 12, which is identified as the median. The right whisker extends from 16 to 19, where 19 is identified as the max. All values estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/5f745fd8d2663c9cdbb76eb92ac5cfc05be89f25.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The maximum of the box plot is $19$.  We can eliminate one of the data sets because it does not have a maximum of $19$.  $ 1$, $3$, $6$, $8$, $10$, $11$, $13$, $13$, $16$, $18$, $\\redE{\\large20}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The median of the box plot is $12$.  We can eliminate two of the data sets because they do not have a median of $12$.  $ 1$, $3$, $6$, $8$, $10$, $\\redE{\\large11}$, $13$, $13$, $16$, $18$, $19$  $ 1$, $3$, $6$, $8$, $10$, $\\redE{\\large11}$, $13$, $13$, $18$, $18$, $19$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following data set  could be represented by the box plot.  $\\maroonD{\\large{1}}$, $3$, ${\\large{6}}$, $8$, $10$, $\\purpleD{\\large{12}}$, $13$, $13$, ${\\large{16}}$, $18$, $\\blueE{\\large{19}}$  [[☃ image 2]]",
+                                    "images": [
+                                        {
+                                            "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 0 to 20, in increments of 1. A left whisker extends from 1 to 6, where 1 is shaded pink and identified as the min. The box extends from 6, identified as Q1, to 16, identified as Q3, and is divided into 2 parts by a vertical line segment at 12, which is shaded purple and identified as the median. The right whisker extends from 16 to 19, where 19 is shaded blue and identified as the max. All values estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/cf6c3151845325de23081d89fe53d2ff0aa9af21.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1 - Give Box Plot"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which data set could be represented by the box plot shown below?**",
+                                "images": [
+                                    {
+                                        "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 10 to 26, in increments of 1. A left whisker extends from 12 to 15. The box extends from 15 to 21 and is divided into 2 parts by a vertical line segment at 19. The right whisker extends from 21 to 24. All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/9c189bc35014ba287415debaefae041f37e527a6.png"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$12$, $15$, $15$, $17$, $19$, $19$, $20$, $22$, $24$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$12$, $15$, $15$, $17$, $20$, $20$, $20$, $22$, $24$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$13$, $15$, $15$, $17$, $19$, $19$, $20$, $22$, $24$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$12$, $15$, $17$, $17$, $19$, $19$, $22$, $22$, $24$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "[[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 10 to 26, in increments of 1. A left whisker extends from 12, identified as the min, to 15. The box extends from 15, identified as Q1, to 21, identified as Q3, and is divided into 2 parts by a vertical line segment at 19, which is identified as the median. The right whisker extends from 21 to 24, identified as the max. All values estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/a44f8ecc883d0ec9622edadf39681b6013fd854a.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The minimum of the box plot is $12$.  We can eliminate one of the data sets because it does not have a minimum of $12$.  $ \\redE{\\large13}$, $15$, $15$, $17$, $19$, $19$, $20$, $22$, $24$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The median of the box plot is $19$.  We can eliminate one of the data sets because it does not have a median of $19$.  $ 12$, $15$, $15$, $17$, $\\redE{\\large20}$, $20$, $20$, $22$, $24$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The first quartile of the box plot is $15$.  We can eliminate one of the data sets because it does not have a first quartile of $15$.  $ 12$, $\\redE{\\large15}$, $\\redE{\\large17}$, $17$, $19$, $19$, $22$, $22$, $24$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following data set  could be represented by the box plot.  $\\maroonD{\\large{12}}$, ${\\large{15}}$, ${\\large{15}}$, $17$, $\\purpleD{\\large{19}}$, $19$, ${\\large{20}}$, ${\\large{22}}$, $\\blueE{\\large{24}}$  [[☃ image 2]]",
+                                    "images": [
+                                        {
+                                            "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 10 to 26, in increments of 1.A left whisker extends from 12, which is shaded pink and identified as the min, to 15. The box extends from 15, identified as Q1, to 21, identified as Q3, and is divided into 2 parts by a vertical line segment at 19, which is shaded purple and identified as the median. The right whisker extends from 21 to 24, which is shaded blue and identified as the max. All values estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/4bd2c3b01f0f7707f001c117cebf43d9a957805e.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1 - Give Box Plot"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which data set could be represented by the box plot shown below?**",
+                                "images": [
+                                    {
+                                        "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 0 to 20, in increments of 1. A left whisker extends from 3 to 7. The box extends from 7 to 13 and is divided into 2 parts by a vertical line segment at 10. The right whisker extends from 13 to 18. All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/04852d0b3249a811a8ceab6088f995a549faf805.png"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$3$, $4$, $7$, $9$, $9$, $10$, $12$, $13$, $13$, $16$, $18$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$2$, $4$, $7$, $9$, $9$, $10$, $12$, $13$, $13$, $16$, $18$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$3$, $4$, $8$, $9$, $9$, $12$, $12$, $13$, $13$, $16$, $18$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$3$, $4$, $8$, $9$, $9$, $10$, $12$, $13$, $13$, $16$, $18$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "[[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 0 to 20, in increments of 1. A left whisker extends from 3 to 7, where 3 is identified as the min. The box extends from 7, identified as Q1, to 13, identified as Q3, and is divided into 2 parts by a vertical line segment at 10, which is identified as the median. The right whisker extends from 13 to 18, where 18 is identified as the max. All values estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/286a8d22d3ca9981ebfaad0aee066e7307f70445.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The minimum of the box plot is $3$.  We can eliminate one of the data sets because it does not have a minimum of $3$.  $ \\redE{\\large2}$, $4$, $7$, $9$, $9$, $10$, $12$, $13$, $13$, $16$, $18$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The median of the box plot is $10$.  We can eliminate one of the data sets because it does not have a median of $10$.  $3$, $4$, $8$, $9$, $9$, $\\redE{\\large{12}}$, $12$, $13$, $13$, $16$, $18$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The first quartile of the box plot is $7$.  We can eliminate one of the data sets because it does not have a first quartile of $7$.  $3$, $4$, ${\\redE{\\large8}}$, $9$, $9$, $10$, $12$, $13$, $13$, $16$, $18$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following data set  could be represented by the box plot.  ${\\maroonD{\\large3}}$, $4$, ${\\large7}$, $9$, $9$, ${\\purpleD{\\large{10}}}$, $12$, $13$, ${\\large{13}}$, $16$, ${\\blueE{\\large{18}}}$  [[☃ image 2]]",
+                                    "images": [
+                                        {
+                                            "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 0 to 20, in increments of 1. A left whisker extends from 3 to 7, where 3 is shaded pink and identified as the min. The box extends from 7, identified as Q1, to 13, identified as Q3, and is divided into 2 parts by a vertical line segment at 10, which is shaded purple and identified as the median. The right whisker extends from 13 to 18, where 18 is shaded blue and identified as the max. All values estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/ea3e19eae5f85bb277d26830ed4b29f450598861.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1 - Give Box Plot"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which data set could be represented by the box plot shown below?**",
+                                "images": [
+                                    {
+                                        "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 0 to 16, in increments of 1. A left whisker extends from 4 to 7. The box extends from 7 to 12 and is divided into 2 parts by a vertical line segment at 9. The right whisker extends from 12 to 14. All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/436aedbc97e90957ea7a9a24e3676ee37c07d1d0.png"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$4$, $5$, $7$, $7$, $7$, $8$, $10$, $11$, $11$, $13$, $13$, $14$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$4$, $5$, $5$, $7$, $7$, $8$, $9$, $9$, $11$, $11$, $13$, $14$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$2$, $5$, $7$, $7$, $7$, $8$, $10$, $11$, $11$, $13$, $13$, $14$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$4$, $5$, $5$, $7$, $7$, $10$, $10$, $11$, $13$, $13$, $13$, $14$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "[[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 0 to 16, in increments of 1. A left whisker extends from 4 to 7, where 4 is identified as the min. The box extends from 7, identified as Q1, to 12, identified as Q3, and is divided into 2 parts by a vertical line segment at 9, which is identified as the median. The right whisker extends from 12 to 14, where 14 is identified as the max. All values estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/ddbc423a88d3daa6ca3609a31e90495d4a7c5e23.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The minimum of the box plot is $4$.  We can eliminate one of the data sets because it does not have a minimum of $4$.  $ \\redE{\\large2}$, $5$, $7$, $7$, $7$, $8$, $10$, $11$, $11$, $13$, $13$, $14$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The median of the box plot is $9$.  We can eliminate one of the data sets because it does not have a median of $9$.  $ 4$, $5$, $5$, $7$, $7$, $\\redE{\\large10}$, $\\redE{\\large10}$, $11$, $13$, $13$, $13$, $14$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The first quartile of the box plot is $7$.  We can eliminate one of the data sets because it does not have a first quartile of $7$.  $ 4$, $5$, $\\redE{\\large5}$, $\\redE{\\large7}$, $7$, $8$, $9$, $9$, $11$, $11$, $13$, $14$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following data set  could be represented by the box plot.  $\\maroonD{\\large{4}}$, $5$, ${\\large{7}}$, ${\\large{7}}$, $7$, $\\purpleD{\\large{8}}$, $\\purpleD{\\large{10}}$, $11$, ${\\large{11}}$, ${\\large{13}}$, $13$, $\\blueE{\\large{14}}$  [[☃ image 2]]",
+                                    "images": [
+                                        {
+                                            "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 0 to 16, in increments of 1. A left whisker extends from 4 to 7, where 4 is shaded pink and identified as the min. The box extends from 7, identified as Q1, to 12, identified as Q3, and is divided into 2 parts by a vertical line segment at 9, which is shaded purple and identified as the median. The right whisker extends from 12 to 14, where 14 is shaded blue and identified as the max. All values estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/14ba70c8202330b07e2068b416ba62fe62c8a138.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1 - Give Box Plot"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which data set could be represented by the box plot shown below?**",
+                                "images": [
+                                    {
+                                        "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 14 to 30, in increments of 1. A left whisker extends from 16 to 18. The box extends from 18 to 26 and is divided into 2 parts by a vertical line segment at 22. The right whisker extends from 26 to 28. All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/9c62a86ddb0ce58502253765cba8aeac6e8c9041.png"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$16$, $16$, $16$, $20$, $21$, $21$, $23$, $25$, $26$, $26$, $28$, $28$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$15$, $16$, $16$, $20$, $21$, $21$, $23$, $25$, $26$, $26$, $28$, $28$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$16$, $16$, $16$, $16$, $21$, $23$, $23$, $25$, $26$, $26$, $28$, $28$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$16$, $16$, $16$, $20$, $21$, $23$, $23$, $25$, $26$, $28$, $28$, $28$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "[[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 14 to 30, in increments of 1. A left whisker extends from 16 to 18, where 16 is identified as the min. The box extends from 18, identified as Q1, to 26, identified as Q3, and is divided into 2 parts by a vertical line segment at 22, which is identified as the median. The right whisker extends from 26 to 28, where 28 is identified as the max. All values estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/b0c00d2e0d690ccda5a2fa9f82ce62050e4ec6a3.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The minimum of the box plot is $16$.  We can eliminate one of the data sets because it does not have a minimum of $16$.  $ \\redE{\\large15}$, $16$, $16$, $20$, $21$, $21$, $23$, $25$, $26$, $26$, $28$, $28$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The median of the box plot is $22$.  We can eliminate two of the data sets because they do not have a median of $22$.  $ 16$, $16$, $16$, $16$, $21$, $\\redE{\\large23}$, $\\redE{\\large23}$, $25$, $26$, $26$, $28$, $28$  $ 16$, $16$, $16$, $20$, $21$, $\\redE{\\large23}$, $\\redE{\\large23}$, $25$, $26$, $28$, $28$, $28$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following data set  could be represented by the box plot.  $\\maroonD{\\large{16}}$, $16$, ${\\large{16}}$, ${\\large{20}}$, $21$, $\\purpleD{\\large{21}}$, $\\purpleD{\\large{23}}$, $25$, ${\\large{26}}$, ${\\large{26}}$, $28$, $\\blueE{\\large{28}}$  [[☃ image 2]]",
+                                    "images": [
+                                        {
+                                            "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 14 to 30, in increments of 1. A left whisker extends from 16 to 18, where 16 is shaded pink and identified as the min. The box extends from 18, identified as Q1, to 26, identified as Q3, and is divided into 2 parts by a vertical line segment at 22, which is shaded purple and identified as the median. The right whisker extends from 26 to 28, where 28 is shaded blue and identified as the max. All values estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/0697bfde44b9807e8290494f929d581c656132c1.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1 - Give Box Plot"
+                    }
+                }
+            }
+        }
+    ]
+}

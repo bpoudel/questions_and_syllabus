@@ -1,0 +1,623 @@
+{
+    "standard_metadata": {
+        "standard_id": "7.G.B.4",
+        "standard_description": "Know the formulas for the area and circumference of a circle and use them to solve problems; give an informal derivation of the relationship between the circumference and area of a circle.",
+        "standard_title": "Area and circumference of circles challenge",
+        "standard_url": "https://www.khanacademy.org/math/cc-seventh-grade-math/cc-7th-geometry/cc-7th-area-circ-challenge/e/area-and-circumference-of-circles"
+    },
+    "id": "x6db5022d",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The figure below shows a rope that circles the Earth. The radius of the Earth is $6371$ kilometers.    **Assuming the rope makes a perfect circle, what is the length of this rope?**   *Give your answer in terms of pi.*   kilometers",
+                                "images": [
+                                    {
+                                        "alt": "Image of the Earth with the radius labeled as 6,371 kilometers and a circular outline around the Earth.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-images/b13ca0ce2e95cd21069652083e018a8c654aafe8.png"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "12742\\pi",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The length of the rope is equal to the circumference of the Earth.  We can use the formula $\\maroonD{C}=2\\pi \\blueD{r}$ to find the circumference of a circle with radius $\\blueD{r}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The circumference of a circle with radius $\\blueD{r}= \\blueD{6371}\\text{ km}$ is  $\\begin{align}  \\maroonD{C}  &=2\\pi \\blueD{r}  \\\\[2mm] &=2\\pi (\\blueD{6371}\\text{ km}) \\\\[2mm] &= 12742\\pi \\text{ km} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The length of the rope is $12742\\pi$ kilometers.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Circumference"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The penguin exhibit at a zoo has a raised circular island that is surrounded by water. The diameter of the island is  $20 \\text{ meters}$.  One penguin swims half way around the island before hopping out.  ** How far did the penguin swim?**   *Give your answer in terms of pi.*  $$ meters",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "10\\pi",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The distance half way around the outside of the island is half the circumference.  We can use the formula $\\maroonD{C}=\\pi \\blueD{d}$ to find the circumference, which is the total distance around the island.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The circumference of a circle with diameter of $\\blueD{20}\\text{ m}$ is:  $\\begin{align} \\maroonD{C}  &=\\pi \\blueD{d}  \\\\[2mm] &=\\pi (\\blueD{20}\\text{ m}) \\\\[2mm] &= \\blueD{20\\pi} \\text{ m} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "To find the distance around half the island, we need to divide:  $\\begin{align}\\maroonD{C} &= \\blueD{20 \\pi}  \\text{ m}\\\\ \\\\ &= \\dfrac{\\blueD{20 \\pi }\\text{ m}}{2}\\\\ \\\\ &=10 \\pi\\text{ m} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The penguin swam $10\\pi$ meters.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Circumference"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "You are standing next to a really big circular lake. You want to measure the diameter of the lake, but you don't want to have to swim across with a measuring tape! You decide to walk around the perimeter of the lake and measure its circumference, and find that it's $400\\pi\\text{ m}$.  **What is the diameter $d$ of the lake?**  $d=$   $\\text{m}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "400",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "This problem calls for the formula of the circumference of a circle $\\blueD{C}=\\pi \\greenD{d}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "You measured the circumference of the lake to be $\\blueD{400\\pi}\\text{ m}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "To find the diameter of the lake we must solve for $\\greenD{d}$ in the following equation   $\\begin{align*}   \\pi \\greenD{d} &= \\blueD{C} \\\\[1mm] \\pi \\greenD{d} \t&= \\blueD{400\\pi}\\text{ m} \\\\[1mm]   \\cancel{\\pi} \\greenD{d} \t &= 400\\cancel{\\pi}\\text{ m} \\\\[1mm]    \\greenD{d} &= 400\\text{ m} \\end{align*}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The diameter of the lake is $400\\text{ m}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Circumference"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A python curls up to touch the tip of its own tail with its nose, forming  the shape of a circle. The python is $2.6 \\pi$ meters long.    **What is the radius $r$ of the circle that the python forms?**  $r=$   $\\text{  m}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "1.3",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "When the python curls to form the shape of a circle, the circumference of this circle is equal to the length of the python $\\blueD{C}=\\blueD{2.6\\pi}\\text{ m}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We know the formula for the circumference of a circle is $\\blueD{C}=2\\pi \\maroonD{r}$.  If we want to find the radius of the circle formed by the python we must solve for $\\maroonD{r}$ in the following equation:   $\\begin{align*}   2\\pi \\maroonD{r} \t&= \\blueD{2.6\\pi}\\text{ m} \\\\[1mm]    \\maroonD{r}    &= \\dfrac{ \\blueD{2.6\\pi} } { 2 \\pi }\\text{ m} \\\\    \\maroonD{r}     \t&= \\maroonD{1.3}\\text{ m} \\end{align*}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The radius of the circle formed by the python is $\\maroonD{1.3}\\text{ m}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Circumference"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The planet Neptune orbits the Sun. Its orbital radius is $30.1$ astronomical units $(\\text{AU})$.  **Assuming Neptune's orbit is circular, what is the distance it travels in a single orbit around the Sun?**   *Give your answer in terms of $\\pi$.*   $\\text{AU}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "60.2\\pi",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The distance Neptune travels in a single orbit is equal to the circumference of its orbit.  We can use the formula $\\blueD{C}=2\\pi\\maroonD{r}$ to find the circumference of a circle with radius $\\maroonD{r}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The circumference of a circle with radius $\\maroonD{r}=\\maroonD{30.1} \\text{ AU}$ is:  $\\begin{align} \\blueD{C}&=2\\pi\\maroonD{r} \\\\ &=2\\pi(\\maroonD{30.1}) \\\\ &=\\blueD{60.2\\pi} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The distance Neptune travels in a single orbit around the Sun is $\\blueD{60.2\\pi} \\text{ AU}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Circumference"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The circumference of a hula hoop is $86\\pi \\text{ cm}$.  **What is the radius of the hula hoop?**   $\\text{cm}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "43",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can use the formula $\\blueD{C}=2\\pi\\greenD{r}$ to find the radius of a circle with circumference $\\blueD{C}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The circumference is $\\blueD{86\\pi} \\text{ cm}$.  $\\begin{align} 2\\pi\\greenD{r}&=\\blueD{C} \\\\ 2\\pi\\greenD{r}&=\\blueD{86\\pi} \\\\ \\greenD{r}&=\\dfrac{\\blueD{86\\pi}}{2\\pi} \\\\ \\greenD{r}&=\\greenD{43} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The radius of the hula hoop is $\\greenD{43} \\text{ cm}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Circumference"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A round cake has a diameter of $30\\text{ cm}$. Angela places the cake on a circular cake board with a  diameter $5 \\text{ cm}$ longer than that of the cake.  **What is the circumference of the cake board?**   *Give your answer in terms of $\\pi$.*   $\\text{cm}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "35\\pi",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can use the formula $\\blueD{C}=\\pi\\purpleC{d}$ to find the circumference of a circle with diameter $\\purpleC{d}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The diameter of the cake board is $5 \\text{ cm}$ longer than $30 \\text{ cm}$.  $5+30=\\purpleC{35}$   The diameter of the cake board is $\\purpleC{35}\\text{ cm}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\blueD{C}&=\\pi\\purpleC{d} \\\\ \\blueD{C}&=\\pi(\\purpleC{35}) \\\\ \\blueD{C}&=\\blueD{35\\pi} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The circumference of the cake board is $\\blueD{35\\pi} \\text{ cm}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Circumference"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "An artist is creating a large butterfly sculpture outside a museum. There is a circular dot on each wing made out of a metal ring. The distance around each dot is $24 \\pi \\text{ inches}$.  The artist plans to fill the inside of each dot with blue colored glass.  **What is the area of the  blue glass will be needed to fill each butterfly dot?**   *Give your answer in terms of pi.*  $A=$   $\\text{inches}^2$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "144\\pi",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The artist knows the circumference of the circle and wants to find the area.   We need to use the formulas $\\blueD{C}=2\\pi \\maroonD{r}$ and $\\purpleD{A}=\\pi \\maroonD{r}^2$ to solve this problem.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The circumference of a circle with radius $\\maroonD{r}$ is $\\blueD{C}=2\\pi \\maroonD{r}$.  Since we know $\\blueD{C}=\\blueD{24\\pi}\\text{ inches}$, we can find $\\maroonD{r}$ by dividing:  $\\begin{align*}    2\\pi \\maroonD{r} \t&= \\blueD{24\\pi} \\text{ inches}\t\\\\[1mm]    \\maroonD{r}     \t&= \\dfrac{ \\blueD{24\\pi} } { 2 \\pi }  \\\\    \\maroonD{r}     \t&= \\maroonD{12}\\text{ inches} \\end{align*}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Now that we know the radius of the dot is $\\maroonD{12}\\text{ inches}$, we can find the area of the blue glass:   $\\begin{align*}  \\purpleD{A} \t& =\\pi \\maroonD{r}^2 \t\t\t\t\t\\\\ & = \\pi \\left(\\maroonD{ 12}\\right)^2\t\\\\ & = 144\\pi \\text{ inches}^2 \\end{align*}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Each butterfly dot will need $144\\pi\\text{ inches}^2$ of blue glass.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Area"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A baker uses a coffee mug with a diameter of $8\\text{ cm}$  to cut out circular cookies from a big sheet of cookie dough.    **What is the area $A$ of each cookie?**   *Give your answer in terms of pi.*  $A=$  $\\text{cm}^2$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "16\\pi",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "This problem calls for the formula for the area of a circle $\\purpleD{A}=\\pi \\maroonD{r}^2$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The cup has a circular shape and its diameter is $\\greenD{8}\\text{ cm}$.  The radius of the cup is   $\\begin{align}\\qquad \\maroonD{r} &= \\dfrac{\\greenD{d}}{2}\\\\ \\\\ &= \\dfrac{\\greenD{8}\\text{ cm}}{2}\\\\ \\\\ &=\\maroonD{4}\\text{ cm}\\end{align}$  To find the area, we substitute the value $\\maroonD{r} = \\maroonD{4}\\text{ cm}$ into the formula for the area of a circle.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Using the formula  $\\purpleD{A}=\\pi \\red{r}^2$, we find the area of each cookie is  $\\begin{align}  \\purpleD{A} \t& =\\pi \\maroonD{r}^2 \t\\\\   \t& = \\pi (\\maroonD{4}\\text{ cm})^2\t\t\\\\   \t& = \\pi (\\maroonD{4} \\times \\maroonD{4}) \\text{ cm}^2\t\t\\\\   \t&= 16 \\pi  \\text{ cm}^2\t\t \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of each cookie is  $16 \\pi \\text{ cm}^2$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Area"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A table with a round top is cut in half so that it can be used against a wall. After it is cut, the edge along the wall is $6 \\text{ feet}$.    **What is the area $A$ of the table after it is cut in half ?**   *Give your answer in terms of pi.*  $A=$  $\\text{feet}^2$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "4.5\\pi",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The area of the table before it is cut would use the formula for the area of a circle, $\\purpleD{A}=\\pi\\maroonD{r}^2$. The area after the table is cut in half will be half of that.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "First let's find the area of the whole table, before it was cut in half. The diameter of the circular table is $\\green{6}\\text{ feet}$.  The radius of the table is:  $\\begin{align} \\maroonD{r} &= \\dfrac{\\greenD{d}}{2}\\\\ \\\\ &= \\dfrac{\\greenD{6}\\text{ ft}}{2}\\\\ \\\\ &=\\maroonD{3}\\text{ ft}\\end{align}$  To find the area, we substitute the value $\\maroonD{r} = \\maroonD{3}\\text{ ft}$ into the formula for the area of a circle.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Using the formula  $\\purpleD{A}=\\pi \\maroonD{r}^2$, we find the area of the whole table first.  $\\begin{align}  \\purpleD{A} \t& =\\pi \\maroonD{r}^2 \t\\\\   \t& = \\pi (\\maroonD{3}\\text{ ft})^2\t\t\\\\   \t& = \\pi (\\maroonD{3} \\times \\maroonD{3}) \\text{ ft}^2\t\t\\\\   \t&= \\purpleD{9 \\pi}  \\text{ ft}^2\t \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the whole circular table is $\\purpleD{9 \\pi}  \\text{ ft}^2$. To find the area of the table after it was cut in half, we need to divide:  $\\begin{align}\\purpleD{A} &= \\purpleD{9 \\pi}  \\text{ ft}^2\\\\ \\\\ &= \\dfrac{\\purpleD{9 \\pi }\\text{ ft}^2}{2}\\\\ \\\\ &=4.5 \\pi\\text{ ft} ^2\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the table after it is cut in half is  $4.5 \\pi \\text{ ft}^2$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Area"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A park has a large circle painted in the middle of the playground area. The circle is divided into $4$ equal sections, and each section is painted a different color. The radius of the circle is  $10 \\text{ meters}$.    **What is the area $A$ of each section of the circle?**   *Give your answer in terms of pi.*  $A=$  $\\text{m}^2$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "25\\pi",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "This problem calls for the formula for the area of a circle $\\purpleD{A}=\\pi \\maroonD{r}^2$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Using the formula  $\\purpleD{A}=\\pi \\maroonD{r}^2$, we can find the area of the whole circle first.  $\\begin{align}  \\purpleD{A} \t& =\\pi \\maroonD{r}^2 \t\\\\   \t& = \\pi (\\maroonD{10}\\text{ m})^2\t\t\\\\   \t& = \\pi (\\maroonD{10} \\times \\maroonD{10}) \\text{ m}^2\t\t\\\\   \t&= \\purpleD{100 \\pi}  \\text{ m}^2\t \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the whole painted circle is $\\purpleD{100 \\pi}  \\text{ m}^2$. To find the area of each section of the circle we need to divide:  $\\begin{align}\\purpleD{A} &= \\purpleD{100 \\pi}  \\text{ m}^2\\\\ \\\\ &= \\dfrac{\\purpleD{100 \\pi }\\text{ m}^2}{4}\\\\ \\\\ &=25 \\pi\\text{ m}^2\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of each section of the circle is  $25 \\pi \\text{ m}^2$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Area"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A building engineer analyzes a concrete column with a circular cross section.  The circumference of the column is $18 \\pi$ meters.   **What is the area $A$ of the cross section of the column?**   *Give your answer in terms of pi.*  $A =$  $\\text{ m}^2$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "81\\pi",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The cross section of the concrete column is a circle. The engineer knows the circumference of the circle and wants to find the area.   We need to use the formulas $\\blueD{C}=2\\pi \\maroonD{r}$ and $\\purpleD{A}=\\pi \\maroonD{r}^2$ to solve this problem.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The circumference of a circle with radius $\\maroonD{r}$ is $\\blueD{C}=2\\pi \\maroonD{r}$.  Since we know $\\blueD{C}=\\blueD{18\\pi}\\text{ m}$, we can find $\\maroonD{r}$ by dividing:  $\\begin{align*}    2\\pi \\maroonD{r} \t&= \\blueD{18\\pi} \\text{ m}\t\\\\[1mm]    \\maroonD{r}     \t&= \\dfrac{ \\blueD{18\\pi} } { 2 \\pi }  \\\\    \\maroonD{r}     \t&= \\maroonD{9}\\text{ m} \\end{align*}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Now that we know the radius of the column is $\\maroonD{r}=\\maroonD{9}\\text{ m}$, we can find the area of its cross section:   $\\begin{align*}  \\purpleD{A} \t& =\\pi \\maroonD{r}^2 \t\t\t\t\t\\\\ & = \\pi \\left(\\maroonD{ 9}\\right)^2\t\\\\ & = 81\\pi \\text{ m}^2 \\end{align*}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the cross section of the concrete column is $81\\pi  \\text{ m}^2$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Area"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "An engineer is planning a new water pipe installation. The circular pipe has a diameter of $d=20\\text{ cm}$.  **What is the area $A$ of the circular cross section of this pipe?**   *Give your answer in terms of pi.*  $A =$  $\\text{cm}^2$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "100\\pi",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "This problem calls for the formula for the area of a circle $\\purpleD{A} = \\pi \\maroonD{r}^2$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The diameter of the pipe is $\\greenD{20}\\text{ cm}$. Since the radius of a circle is half the length of the diameter, we can divide to find the radius:  $\\begin{align} \\maroonD{r}  &= \\dfrac{\\greenD{20}}{2}  \\\\\\\\ \\maroonD{r}   &= \\maroonD{10}\\text{ cm} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can now use the formula for the area of a circle $\\purpleD{A} = \\pi \\maroonD{r}^2$ to calculate the area of the cross section of the pipe.     The area of a pipe with radius $\\maroonD{r}=\\maroonD{10}\\text{ cm}$ is:  $\\begin{align*}   \\purpleD{A}  \t&= \\pi \\maroonD{r}^2 \t\t\t\t\\\\   \t\t&= \\pi (\\maroonD{10})^2\t\t\t\\\\   \t\t&= \\pi (100)\t\t\\\\   \t\t&= 100 \\pi \\text{ cm}^2 \\end{align*}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the cross section of this pipe is $100\\pi  \\text{ cm}^2$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Area"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The area of an extra large circular pizza from Gambino's Pizzeria is $484\\pi \\text{ cm}^2$.  **What is the diameter of an extra large pizza from Gambino's Pizzeria?**   $\\text{cm}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "44",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can use the formula $\\redD{A}=\\pi\\greenD{r}^2$ to find the radius of a circle given the area $\\redD{A}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the pizza is $\\redD{484\\pi} \\text{ cm}^2$.  $\\begin{align} \\pi\\greenD{r}^2&=\\redD{A} \\\\ \\pi\\greenD{r}^2&=\\redD{484\\pi} \\\\ \\greenD{r}^2&=\\dfrac{\\redD{484\\pi}}{\\pi} \\\\ \\greenD{r}^2&=484 \\\\ \\greenD{r}&=\\greenD{22} \\end{align}$  The radius of the pizza is $\\greenD{22}\\text{ cm}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The diameter $\\goldE{d}$ of a circle is twice as long as its radius $\\greenD{r}$.  $\\begin{align} \\goldE{d}&=2\\greenD{r} \\\\ \\goldE{d}&=2(\\greenD{22}) \\\\ \\goldE{d}&=\\goldE{44} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The diameter of the extra large pizza is $\\goldE{44} \\text{ cm}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Area"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A sumo wrestling ring is circular and has a circumference of $4.6\\pi \\text{ meters}$.   **What is the area $A$ of the sumo wrestling ring in square meters?**   *Give your answer in terms of $\\pi$.*  $A=$  $\\text{m}^2$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "5.29\\pi",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can use the formula $\\blueD{C}=2\\pi\\greenD{r}$ to find the radius of a circle with circumference $\\blueD{C}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The circumference is $\\blueD{4.6\\pi} \\text{ m}$.  $\\begin{align} 2\\pi\\greenD{r}&=\\blueD{C} \\\\ 2\\pi\\greenD{r}&=\\blueD{4.6\\pi} \\\\ \\greenD{r}&=\\dfrac{\\blueD{4.6\\pi}}{2\\pi} \\\\ \\greenD{r}&=\\greenD{2.3} \\end{align}$  The radius of the sumo ring is $\\greenD{2.3} \\text{ m}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Now, we can use the formula $\\purpleC{A}=\\pi\\greenD{r}^2$ to find the area of a circle with radius $\\greenD{r}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The radius is $\\greenD{2.3} \\text{ m}$.  $\\begin{align} \\purpleC{A}&=\\pi\\greenD{r}^2 \\\\ \\purpleC{A}&=\\pi(\\greenD{2.3})^2 \\\\ \\purpleC{A}&=\\purpleC{5.29\\pi}  \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the sumo wrestling ring is $\\purpleC{5.29\\pi} \\text{ m}^2$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Area"
+                    }
+                }
+            }
+        }
+    ]
+}

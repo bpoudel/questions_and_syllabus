@@ -1,0 +1,787 @@
+{
+    "standard_metadata": {
+        "standard_id": "7.G.A.1",
+        "standard_description": "Solve problems involving scale drawings of geometric figures, including computing actual lengths and areas from a scale drawing and reproducing a scale drawing at a different scale.",
+        "standard_title": "Identify scale copies",
+        "standard_url": "https://www.khanacademy.org/math/cc-seventh-grade-math/x6b17ba59:scale-drawings/scale-copies/e/identify-scale-copies"
+    },
+    "id": "xf5e1f24150840d43",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Is Figure $B$ a scale copy of Figure $A$?**",
+                                "images": [
+                                    {
+                                        "alt": "Two right triangles are labeled as Figure A and Figure B, with Figure B being larger. Both triangles are placed on a grid as if it were the first quadrant of the coordinate plane. In Figure A, vertex A is at the coordinate (1, 4), vertex B is at (3, 7), and vertex C is at (3, 4). In Figure B, vertex A is at (1, 1), vertex B is at (7, 4), and vertex C is at (7, 1).\n",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/5068e5f5aea5ea579e04314eda78424c1feefca9.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Yes",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "First, let's look at the side lengths for both figures.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Two right triangles are shown on a grid. The smaller triangle, positioned on the top left, has side lengths of 3 (vertical), 4 (horizontal), and 5 (hypotenuse). The larger triangle, positioned on the bottom right, has side lengths of 6 (vertical), 8 (horizontal), and 10 (hypotenuse). Both triangles are oriented with their right angles on the bottom left, and their sides align with the grid lines.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/09f3a9cbfbfad71f314317efc173d6467021132a.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's see how the corresponding sides relate:   $\\begin{align} &\\blueD{10}\\times\\goldD{\\dfrac12}=\\greenD{5} \\\\ \\\\ &\\blueD6\\times\\goldD{\\dfrac12}=\\greenD{3}\\\\ \\\\ &\\blueD8\\times\\goldD{\\dfrac12}=\\greenD{4}\\end{align}$  All sides scale by the same factor of $\\goldD{\\dfrac12}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Yes, Figure $A$ is a scaled copy of Figure $B$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Grids"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Is Figure $B$ a scale copy of Figure $A$?**",
+                                "images": [
+                                    {
+                                        "alt": "Two right triangles are labeled as Figure A and Figure B, with Figure B being larger. Both triangles are placed on a grid as if it were the first quadrant of the coordinate plane. In Figure A, the top left vertex is at (5, 8), the bottom left vertex is at (5, 6), and the bottom right vertex is at (9, 6). In Figure B, the left vertex is at (1, 5), the bottom left vertex is at (1, 1), and the bottom right vertex is at (12, 1).\n",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/e0bee9a43f90f277a7c2729bd45e5b2502a75915.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Yes",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "First, let's look at some of the side lengths for both figures.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Two right triangles . Both triangles are placed on a grid as if it were the first quadrant of the coordinate plane. One figure is smaller than the other. In the smaller figure, the top left vertex is at (5, 8), the bottom left vertex is at (5, 6), and the bottom right vertex is at (9, 6). The base of the triangle is labeled 4, the height of the triangle is labeled 2. In the larger figure, the left vertex is at (1, 5), the bottom left vertex is at (1, 1), and the bottom right vertex is at (12, 1). The base of the triangle is labeled 11. The height of the triangle is labeled 4.\n",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/3e1cfe6bc3602f66d93aa590031a64b5410c064f.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's see how the corresponding sides relate:   $\\begin{align} &\\blueD{4}\\times\\goldD{\\dfrac12}=\\greenD{2} \\\\\\\\ &\\blueD11\\times\\goldD{\\dfrac12}\\neq\\greenD{4} \\end{align}$  All sides do not scale by the same factor.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "No, Figure $B$ is not a scaled copy of Figure $A$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Grids"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Is Figure $B$ a scale copy of Figure $A$?**",
+                                "images": [
+                                    {
+                                        "alt": "Two quadrilaterals are labeled as Figure A and Figure B, with Figure B being larger. Both quadrilaterals are placed on a grid as if it were the first quadrant of the coordinate plane. In Figure A, the vertices are positioned at the following coordinates: (2, 2), (2, 5), (4, 6), and (4, 2). In Figure B, the vertices are positioned at the following coordinates: (6, 2), (6, 8), (9, 9), and (9, 2).\n",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/61947bebf21551812939d83109aa5e9f702d0b49.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Yes",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "First, let's look at some of the side lengths for both figures.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Two quadrilaterals are shown on a grid, one smaller and one larger. The smaller quadrilateral, positioned on the left, has sides labeled 3 and 5. The larger quadrilateral, positioned on the right, has sides labeled 5 and 10. The two shapes are aligned horizontally with a distance of 5 units separating them. Both shapes have one pair of sides that are vertical and another pair of sides that are horizontal, with the remaining sides forming angled lines. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/2430c74a8ba0a1e540f843ea0cb782eeae211f8f.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's see how the corresponding sides relate:   $\\begin{align} \\blueD{5}\\times\\goldD{2}&=\\greenD{10}  \\\\\\\\ \\blueD{3}\\times\\goldD{2}&\\neq\\greenD{5}\\\\ \\\\ \\blueD{5}\\times\\goldD{2}&\\neq\\greenD{5} \\end{align}$  All sides do not scale by the same factor.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "No, Figure $B$ is not a scaled copy of Figure $A$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Grids"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Is Figure $B$ a scale copy of Figure $A$?**",
+                                "images": [
+                                    {
+                                        "alt": "Two rectangles are labeled as Figure A and Figure B, with Figure B being larger. Both rectangles are placed on a grid as if it were the first quadrant of the coordinate plane. In Figure A, the top left vertex is at (2, 4), the bottom left vertex is at (2, 2), the bottom right vertex is at (4, 2), and the top right vertex is at (4, 4). In Figure B, the top left vertex is at (5, 7), the bottom left vertex is at (5, 1), the bottom right vertex is at (10, 1), and the top right vertex is at (10, 7).\n",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/42f7764c718b7a291346aa150ee8cc53368a92f4.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Yes",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "First, let's look at the side lengths for both figures.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Two rectangles are labeled as Figure A and Figure B, with Figure A being larger. Both rectangles are placed on a grid as if it were the first quadrant of the coordinate plane. In Figure A, the length and width are labeled as 12 and 4. In Figure B, the length and width are labeled as 5 and 2.\n",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/6c15c7583b681beca1a7ee4024f21a3a746e2ba5.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's see how the corresponding sides relate:   $\\begin{align} \\blueD{2}\\times\\goldD{2}&=\\greenD{4} \\\\ \\\\ \\blueD{5}\\times\\goldD{2}&\\neq\\greenD{12} \\end{align}$  All sides do not scale by the same factor.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "No, Figure $B$ is not a scaled copy of Figure $A$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Grids"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Is Figure $B$ a scale copy of Figure $A$?**",
+                                "images": [
+                                    {
+                                        "alt": "Two squares are labeled as Figure A and Figure B, with Figure B being larger. Both squares are placed on a grid as if it were the first quadrant of the coordinate plane. In Figure A, the coordinates of the vertices are (2, 2), (4, 2), (4, 4), and (2, 4). In Figure B, the coordinates of the vertices are (6, 2), (12, 2), (12, 8), and (6, 8).\n",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/db671b1e1f460d4ffc98e6237599fe34592b2a1b.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Yes",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "First, let's look at the side lengths for both figures.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Two rectangles are shown on a grid, one larger and one smaller. The larger rectangle, positioned at the top, has side lengths labeled 9 (horizontal) and 7 (vertical). The smaller rectangle, positioned below and to the left, is a square with all sides labeled 2. Both shapes are aligned with the grid lines, and the larger rectangle is significantly bigger, while the smaller square is positioned separately in the lower left corner of the grid.\n\n",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/6cf46ea3f0aa512c97770e545aa3fc83ee0d0348.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's see how the corresponding sides relate:   $\\begin{align} \\blueD{2}\\times\\goldD{4}&=\\greenD{8} \\\\ \\\\ \\blueD{2}\\times\\goldD{4}&\\neq\\greenD{7} \\end{align}$  All sides do not scale by the same factor.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "No, Figure $B$ is not a scaled copy of Figure $A$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Grids"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Is Figure $B$ a scale copy of Figure $A$?**",
+                                "images": [
+                                    {
+                                        "alt": "Two quadrilaterals are labeled as Figure A and Figure B, with Figure B being larger. Both quadrilaterals are placed on a grid as if it were the first quadrant of the coordinate plane. In Figure A, the coordinates of the vertices are (2, 2), (4, 2), (5, 3), and (3, 3). In Figure B, the coordinates of the vertices are (7, 3), (10, 3), (11, 5), and (8, 5).\n\n",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/0ef0e697e6d336cb225602eb1a4b35ccfadb765d.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Yes",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "First, let's look at the side lengths for both figures.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Two quadrilaterals are shown on a grid, one larger and one smaller. The larger quadrilateral, positioned at the top, has side lengths labeled 6, 8, 4, and 4.4. The smaller quadrilateral, positioned below and to the left, has side lengths labeled 3, 4, 2, and 2.2. Both quadrilaterals have slanted top sides, giving them their characteristic shape. The larger shape is positioned above and slightly to the right of the smaller one, with both quadrilaterals aligned along the grid lines.\n",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/9a384e412eaf08c21388661811c0513d25f312ba.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's see how the corresponding sides relate:   $\\begin{align} \\blueD{2.2}\\times\\goldD{2}&=\\greenD{4.4} \\\\ \\\\ \\blueD{3}\\times\\goldD{2}&=\\greenD{6}\\\\ \\\\ \\blueD{2}\\times\\goldD{2}&=\\greenD{4}\\\\ \\\\ \\blueD{4}\\times\\goldD{2}&=\\greenD{8} \\end{align}$  All sides  scale by the same factor of $\\goldD{2}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Yes, Figure $A$ is a scaled copy of Figure $B$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Grids"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Is Figure $B$ a scale copy of Figure $A$?**",
+                                "images": [
+                                    {
+                                        "alt": "Two L-shaped polygons are labeled as Figure A and Figure B, with Figure A being larger. Both polygons are placed on a grid as if it were the first quadrant of the coordinate plane. In Figure A, the top left vertex is at (1, 5), the bottom left vertex is at (1, 2), the bottom right vertex is at (4, 2), and the top right vertex is at (4, 5). In Figure B, the top left vertex is at (6, 8), the bottom left vertex is at (6, 6), the bottom right vertex is at (8, 6), and the top right vertex is at (8, 8).\n",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/50afd3b6470f6239823fc5db8d5bf711cb0433e0.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Yes",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "First, let's look at the side lengths for both figures.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Two L-shaped polygons are displayed on a grid, one larger and one smaller. The larger L-shape is positioned toward the bottom left and has side lengths of 6, 6, 3, 3, 3, and 3. The smaller L-shape is positioned toward the top right and has side lengths of 2, 2, 1, 1, 1, and 1. Both polygons are oriented similarly, with the longer segments forming the outer boundary and shorter segments defining the inner cutout. The two shapes are aligned diagonally with the smaller one located above and to the right of the larger one.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/c3b2f9e659693141f60149f050d283984e381f78.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's see how the corresponding sides relate:   $\\begin{align} \\blueD{6}\\times\\goldD{\\dfrac13}&=\\greenD{2} \\\\ \\\\ \\blueD{3}\\times\\goldD{\\dfrac13}&=\\greenD{1}\\\\ \\end{align}$  All sides scale by the same factor of $\\goldD{\\dfrac13}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Yes, Figure $A$ is a scaled copy of Figure $B$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Grids"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Is Figure $B$ a scale copy of Figure $A$?**",
+                                "images": [
+                                    {
+                                        "alt": "Two L-shaped polygons are labeled as Figure A and Figure B, with Figure A being larger. Both polygons are placed on a grid as if it were the first quadrant of the coordinate plane. In Figure A, the top left vertex is at (2, 6), the bottom left vertex is at (2, 1), the bottom right vertex is at (7, 1), and the top right vertex is at (7, 6). In Figure B, the top left vertex is at (9, 7), the bottom left vertex is at (9, 5), the bottom right vertex is at (11, 5), and the top right vertex is at (11, 7).\n",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/e2f0f12643c7dc710a7b79daf8d2103c592af4b9.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Yes",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "First, let's look at the side lengths for both figures.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Two L-shaped polygons are shown on a grid, one larger and one smaller. The larger L-shape is on the left with side lengths labeled 11, 6, 3, 3, 3, and 3. The smaller L-shape is on the right with side lengths labeled 2, 2, 1, 1, 1, and 3. Both shapes are similarly oriented, with the longer sides forming the outer structure and the shorter sides forming the inner part of the L-shape. The two polygons are spaced apart, with the smaller one positioned to the right of the larger one.\n",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d6bdd1b45b0d6e9c9eae63b474de95c48998beb3.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's see how the corresponding sides relate:   $\\begin{align} \\blueD{3}\\times\\goldD{\\dfrac13}&=\\greenD{1} \\\\ \\\\ \\blueD{11}\\times\\goldD{\\dfrac13}&\\neq\\greenD{3}\\\\ \\\\ \\blueD{6}\\times\\goldD{\\dfrac13}&=\\greenD{2}\\\\ \\\\ \\blueD{8}\\times\\goldD{\\dfrac13}&\\neq\\greenD{2} \\end{align}$  All sides do not scale by the same factor.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "No, Figure $B$ is not a scaled copy of Figure $A$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Grids"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Is Figure $B$ a scale copy of Figure $A$?**",
+                                "images": [
+                                    {
+                                        "alt": "Two triangles are labeled as Figure A and Figure B. Figure A is smaller than Figure B. Starting from the left side of Figure A, in clockwise order, the sides are labeled: 2.8, 2.8, and 4. Starting from the left side of Figure B, in clockwise order, the sides are labeled: 10, 10, and 16.\n",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/e08aefbe0d7828f3921a034084ab7cb6ff9ddc0e.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Yes",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's see how the corresponding sides relate:   $\\begin{align} \\blueD{4}\\times\\goldD{4}&=\\greenD{16} \\\\ \\\\ \\blueD{2.8}\\times\\goldD{4}&\\neq\\greenD{10} \\end{align}$  All sides do not scale by the same factor.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "No, Figure $B$ is not a scaled copy of Figure $A$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Labels"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Is Figure $B$ a scale copy of Figure $A$?**",
+                                "images": [
+                                    {
+                                        "alt": "Two triangles are labeled as Figure A and Figure B, with Figure A being larger. Both triangles are placed on a grid as if it were the first quadrant of the coordinate plane. In Figure A, the left side is 8.9 units, the right side is 11.3 units, and the bottom side is 4 units. In Figure B, the left side is 3.6 units, the right side is 5 units, and the bottom side is 2 units. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/bbd21828952db3d4bd43873cbd23328ebdbcbd22.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Yes",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's see how the corresponding sides relate:   $\\begin{align} \\blueD{4}\\times\\goldD{\\dfrac12}&=\\greenD{2} \\\\ \\\\ \\blueD{8.9}\\times\\goldD{\\dfrac12}&\\neq\\greenD{3.6}\\\\ \\\\ \\blueD{11.3}\\times\\goldD{\\dfrac12}&\\neq\\greenD{5} \\end{align}$  All sides do not scale by the same factor.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "No, Figure $B$ is not a scaled copy of Figure $A$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Labels"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Is Figure $B$ a scale copy of Figure $A$?**",
+                                "images": [
+                                    {
+                                        "alt": "Two triangles are labeled as Figure A and Figure B. Figure A is smaller than Figure B. Starting from the left side of Figure A, in clockwise order, the sides are labeled: 10, 10, and 5. Starting from the left side of Figure B, in clockwise order, the sides are labeled: 2, 2, and 1.\n",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/3240bbfb14a80676602635e447c8bfd901d968ea.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Yes",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's see how the corresponding sides relate:   $\\begin{align} \\blueD{5}\\times\\goldD{\\dfrac15}&=\\greenD{1} \\\\ \\\\ \\blueD{10}\\times\\goldD{\\dfrac15}&=\\greenD{2} \\end{align}$  All sides  scale by the same factor of $\\goldD{\\dfrac15}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Yes, Figure $A$ is a scaled copy of Figure $B$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Labels"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Is Figure $B$ a scale copy of Figure $A$?**",
+                                "images": [
+                                    {
+                                        "alt": "Two quadrilaterals are labeled as Figure A and Figure B, with Figure A being larger. Both quadrilaterals are placed on a grid as if it were the first quadrant of the coordinate plane. In Figure A, the left side is 9 units, the right side is 7.3 units, and the bottom side is 9 units. In Figure B, the left side is 3 units, the right side is 2.2 units, and the bottom side is 3 units.\n",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/8823351a35d2c2be15d4777fc3e0225d1bcf91e8.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Yes",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's see how the corresponding sides relate:   $\\begin{align} \\blueD{9}\\times\\goldD{\\dfrac13}&=\\greenD{3} \\\\ \\\\ \\blueD{7.3}\\times\\goldD{\\dfrac13}&\\neq\\greenD{2.2} \\end{align}$  All sides do not scale by the same factor of $\\goldD{\\dfrac13}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "No, Figure $B$ is not a scaled copy of Figure $A$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Labels"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Is Figure $B$ a scale copy of Figure $A$?**",
+                                "images": [
+                                    {
+                                        "alt": "Two quadrilaterals are labeled as Figure A and Figure B, with Figure A being larger. Both figures are placed on a grid as if it were the first quadrant of the coordinate plane. In Figure A, the left side is 40 units, the right side is 36 units, the bottom side is 20 units, and the diagonal side is 20 units. In Figure B, the left side is 20 units, the right side is 18 units, the bottom side is 10 units, and the diagonal side is 5 units.\n",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/2f9c32d4fd7eb5acf0f1ade7bf93baa268ddb988.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Yes",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's see how the corresponding sides relate:   $\\begin{align} \\blueD{20}\\times\\goldD{\\dfrac12}&=\\greenD{10} \\\\ \\\\ \\blueD{40}\\times\\goldD{\\dfrac12}&=\\greenD{20}\\\\ \\\\ \\blueD{10}\\times\\goldD{\\dfrac12}&=\\greenD{5}\\\\ \\\\ \\blueD{36}\\times\\goldD{\\dfrac12}&=\\greenD{18} \\end{align}$  All sides scale by the same factor of $\\goldD{\\dfrac12}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Yes, Figure $A$ is a scaled copy of Figure $B$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Labels"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Is Figure $B$ a scale copy of Figure $A$?**",
+                                "images": [
+                                    {
+                                        "alt": "Two quadrilaterals are labeled as Figure A and Figure B. Figure A is smaller than Figure B. Starting from the top-left vertex of Figure B, in clockwise order, the sides are labeled: 15.2, 12, 14 and 6. Starting from the top-left side of Figure B, in clockwise order, the sides are labeled: 6.4, 4, 6 and 2.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/2ba6531e2342b7e21caf93c62ff7259779311811.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Yes",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's see how the corresponding sides relate:   $\\begin{align} \\blueD{2}\\times\\goldD{3}&=\\greenD{6} \\\\ \\\\ \\blueD{6.4}\\times\\goldD{3}&\\neq\\greenD{15.2}\\\\ \\\\ \\blueD{4}\\times\\goldD{3}&=\\greenD{12}\\\\ \\\\ \\blueD{6}\\times\\goldD{3}&\\neq\\greenD{14} \\end{align}$  All sides do not scale by the same factor of $\\goldD{3}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "No, Figure $B$ is not a scaled copy of Figure $A$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Labels"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Is Figure $B$ a scale copy of Figure $A$?**",
+                                "images": [
+                                    {
+                                        "alt": "Two pentagons are labeled as Figure A and Figure B, with Figure B being larger. Both pentagons are placed on a grid as if it were the first quadrant of the coordinate plane. In Figure A, each of the three equal sides is 2.2 units, the bottom side is 4 units, and the height is 4 units. In Figure B, each of the three equal sides is 6.6 units, the bottom side is 12 units, and the height is 12 units.\n",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/587c22f0feef70f14e0fc31c9c033459dacd3927.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Yes",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's see how the corresponding sides relate:   $\\begin{align} \\blueD{4}\\times\\goldD{3}&=\\greenD{12} \\\\ \\\\ \\blueD{2.2}\\times\\goldD{3}&=\\greenD{6.6} \\end{align}$  All sides scale by the same factor of $\\goldD{3}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Yes, Figure $A$ is a scaled copy of Figure $B$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Labels"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Is Figure $B$ a scale copy of Figure $A$?**",
+                                "images": [
+                                    {
+                                        "alt": "Two L-shaped polygons are labeled as Figure A and Figure B, with Figure A being larger. Both polygons are placed on a grid as if it were the first quadrant of the coordinate plane. In Figure A, the horizontal side is 8 units long, the vertical side is 6 units, and the short extension is 2 units. In Figure B, the horizontal side is 4 units long, the vertical side is 3 units, and the short extension is 1 unit. The figures have corresponding angles and sides, indicating they are similar.\n\n",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/0f11afcde8f753ca435e67f70b79b521b1128928.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Yes",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's see how the corresponding sides relate:   $\\begin{align} \\blueD{8}\\times\\goldD{\\dfrac12}&=\\greenD{4} \\\\ \\\\ \\blueD{4}\\times\\goldD{\\dfrac12}&=\\greenD{2}\\\\ \\\\ \\blueD{6}\\times\\goldD{\\dfrac12}&=\\greenD{3}\\\\ \\\\ \\blueD{2}\\times\\goldD{\\dfrac12}&=\\greenD{1} \\end{align}$  All sides scale by the same factor of $\\goldD{\\dfrac12}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Yes, Figure $A$ is a scaled copy of Figure $B$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Labels"
+                    }
+                }
+            }
+        }
+    ]
+}

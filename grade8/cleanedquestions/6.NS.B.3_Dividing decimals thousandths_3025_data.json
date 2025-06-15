@@ -1,0 +1,847 @@
+{
+    "standard_metadata": {
+        "standard_id": "6.NS.B.3",
+        "standard_description": "Fluently add, subtract, multiply, and divide multi-digit decimals using the standard algorithm for each operation.",
+        "standard_title": "Dividing decimals: thousandths",
+        "standard_url": "https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-arithmetic-operations/cc-6th-dividing-decimals/e/dividing_decimals"
+    },
+    "id": "3025",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  $3.045\\div0.35=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "8.7",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0.0}&\\\\ {0.35}&\\overline{\\Big)3.045} \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0.0}&\\\\ {35}&\\overline{\\Big)304.5} \\end{array}$  Let's start by multiplying both divisor and the dividend by $100$. [[☃ explanation 1]]  We get the same digits moved $2$ places to the left of the decimal point.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0}.\\phantom{0}&\\\\ {35}&\\overline{\\Big)304.5} \\end{array}$  Now we write the decimal point in the quotient.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0}.\\phantom{0}&\\\\ {35}&\\overline{\\Big)\\blue{3}04.5} \\end{array}$  How many times does $35$ go into $\\blueE3$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0}.\\phantom{0}&\\\\ {35}&\\overline{\\Big)\\blue{304}.5} \\end{array}$  $35$ is larger than $3$ and $30$, so let's look at $304$ instead.  How many times does $35$ go into $\\blue{304}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\orange{8}.\\phantom{0}&\\\\ {35}&\\overline{\\Big)\\blue{304}.5}\\\\ &\\mathllap{-}\\underline{280}\\phantom{.0}\\\\ &\\pink{24\\phantom{.0}} \\end{array}$  $\\blue{304} \\div 35 = \\orange{8}$ with a remainder of $\\pink{24}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &8.\\phantom{0}&\\\\ {35}&\\overline{\\Big)304.5}\\\\ &\\mathllap{-}\\underline{280}\\phantom{.}{\\downarrow}\\\\ &\\blue{24\\phantom{.}5} \\end{array}$  How many times does $35$ go into $\\blue{245}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &8.\\orange{7}&\\\\ {35}&\\overline{\\Big)304.5}\\\\ &\\mathllap{-}\\underline{280}\\phantom{.0}\\\\ &\\blue{24\\phantom{.}5}\\\\ &\\mathllap{-}\\underline{24\\phantom{.}5}\\\\ &\\phantom{0.}0 \\end{array}$  $\\blue{245} \\div 35 = \\orange{7}$, with no remainder.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &8.7&\\\\ {35}&\\overline{\\Big)304.5}\\\\ &\\mathllap{-}\\underline{280}\\phantom{.0}\\\\ &24\\phantom{.}5\\\\ &\\mathllap{-}\\underline{24\\phantom{.}5}\\\\ &\\phantom{0.}0 \\end{array}$  There are no more digits to bring down, and the remainder is $0$. So the quotient is exactly $8.7$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$3.045 \\div 0.35 = 8.7$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "decimal < 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  $1.932\\div0.23=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "8.4",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0.0}&\\\\ {0.23}&\\overline{\\Big)1.932} \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0.0}&\\\\ {23}&\\overline{\\Big)193.2} \\end{array}$  Let's start by multiplying both divisor and the dividend by $100$. [[☃ explanation 1]]  We get the same digits moved $2$ places to the left of the decimal point.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0}.\\phantom{0}&\\\\ {23}&\\overline{\\Big)193.2} \\end{array}$  Now we write the decimal point in the quotient.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0}.\\phantom{0}&\\\\ {23}&\\overline{\\Big)\\blue{1}93.2} \\end{array}$  How many times does $23$ go into $\\blue{1}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0}.\\phantom{0}&\\\\ {23}&\\overline{\\Big)\\blue{193}.2} \\end{array}$  $23$ is larger than $1$ and $19$, so let's look at $193$ instead.  How many times does $23$ go into $\\blue{193}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\orange{8}.\\phantom{0}&\\\\ {23}&\\overline{\\Big)\\blue{193}.2}\\\\ &\\mathllap{-}\\underline{184}\\phantom{.0}\\\\ &\\pink{9}\\phantom{.0} \\end{array}$  $\\blue{193} \\div 23 = \\orange{8}$ with a remainder of $\\pink{9}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &8.\\phantom{0}&\\\\ {23}&\\overline{\\Big)193.2}\\\\ &\\mathllap{-}\\underline{184}\\phantom{.}{\\downarrow}\\\\ &\\blue{9\\phantom{.}2} \\end{array}$  How many times does $23$ go into $\\blue{92}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &8.\\orange{4}&\\\\ {23}&\\overline{\\Big)193.2}\\\\ &\\mathllap{-}\\underline{184}\\phantom{.0}\\\\ &\\blue{9\\phantom{.}2}\\\\ &\\mathllap{-}\\underline{9\\phantom{.}2}\\\\ &\\phantom{0.}\\pink{0} \\end{array}$  $\\blue{92} \\div 23 = \\orange{4}$, with no remainder.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &8.4&\\\\ {23}&\\overline{\\Big)193.2}\\\\ &\\mathllap{-}\\underline{184}\\phantom{.0}\\\\ &9\\phantom{.}2\\\\ &\\mathllap{-}\\underline{9\\phantom{.}2}\\\\ &\\phantom{0.}0 \\end{array}$  There are no more digits to bring down, and the remainder is $0$. So, the quotient is exactly $8.4$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$1.932 \\div 0.23 =8.4$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "decimal < 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  $1.395\\div0.31=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "4.5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0.0}&\\\\ {0.31}&\\overline{\\Big)1.395} \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0.0}&\\\\ {31}&\\overline{\\Big)139.5} \\end{array}$  Let's start by multiplying both divisor and the dividend by $100$. [[☃ explanation 1]]  We get the same digits moved $2$ places to the left of the decimal point.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0}{.}\\phantom{0}&\\\\ {31}&\\overline{\\Big)139.5} \\end{array}$  Now we write the decimal point in the quotient.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0}{.}\\phantom{0}&\\\\ {31}&\\overline{\\Big)\\blue{1}39.5} \\end{array}$  How many times does $31$ go into $\\blue{1}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0}\\phantom{.}\\phantom{0}&\\\\ {31}&\\overline{\\Big)\\blue{139}.5} \\end{array}$  $31$ is larger than $1$ and $13$, so let's look at $139$ instead.  How many times does $31$ go into $\\blue{139}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\orange{4}{.}\\phantom{0}&\\\\ {31}&\\overline{\\Big)\\blue{139}.5}\\\\ &\\mathllap{-}\\underline{124}\\phantom{.}\\phantom{0}\\\\ &\\pink{15}\\phantom{.}\\phantom{0} \\end{array}$  $\\blue{139} \\div 31 = \\orange{4}$ with a remainder of $\\pink{155}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &4.\\phantom{0}&\\\\ {31}&\\overline{\\Big)139.5}\\\\ &\\mathllap{-}\\underline{124}\\phantom{.}{\\downarrow}\\\\ &\\blue{15\\phantom{.}5} \\end{array}$  How many times does $31$ go into $\\blue{155}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &4\\orange{5}{.}\\phantom{0}&\\\\ {31}&\\overline{\\Big)139.5}\\\\ &\\mathllap{-}\\underline{124}\\phantom{.}\\phantom{0}\\\\ &\\blue{15\\phantom{.}5}\\\\ &\\mathllap{-}\\underline{15\\phantom{.}5}\\\\ &\\pink{0\\phantom{.}0} \\end{array}$  $\\blue{155} \\div 31 = \\orange{5}$ with no remainder.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &4.5&\\\\ {31}&\\overline{\\Big)139.5}\\\\ &\\mathllap{-}\\underline{124}\\phantom{.}\\phantom{0}\\\\ &15\\phantom{.}5\\\\ &\\mathllap{-}\\underline{15\\phantom{.}5}\\\\ &0\\phantom{.}0 \\end{array}$  There are no more digits to bring down, and the remainder is $0$. So the quotient is exactly $4.5$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$1.395 \\div 0.31 = 4.5$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "decimal < 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  $48.389\\div0.83=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "58.3",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0.0}&\\\\ {0.83}&\\overline{\\Big)48.389} \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0.0}&\\\\ {83}&\\overline{\\Big)4838.9} \\end{array}$  Let's start by multiplying both divisor and the dividend by $100$. [[☃ explanation 1]]  We get the same digits moved $2$ places to the left of the decimal point.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0}.\\phantom{0}&\\\\ {83}&\\overline{\\Big)4838.9} \\end{array}$  Now we write the decimal point in the quotient.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0}.\\phantom{0}&\\\\ {83}&\\overline{\\Big)\\blue{4}838.9} \\end{array}$  How many times does $83$ go into $\\blue{4}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0}.\\phantom{0}&\\\\ {83}&\\overline{\\Big)\\blue{483}8.9} \\end{array}$  $83$ is larger than $4$ and $48$, so let's look at $483$ instead.  How many times does $83$ go into $\\blue{483}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\orange{5}\\phantom{0}.\\phantom{0}&\\\\ {83}&\\overline{\\Big)\\blue{483}8.9}\\\\ &\\mathllap{-}\\underline{415}\\phantom{.00}\\\\ &\\pink{68}\\phantom{.00} \\end{array}$  $\\blue{483} \\div 83 = \\orange{5}$ with a remainder of $\\pink{688}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &5\\phantom{0}.\\phantom{0}&\\\\ {83}&\\overline{\\Big)4838.9}\\\\ &\\mathllap{-}\\underline{415}{\\downarrow}\\phantom{.0}\\\\ &\\blue{688\\phantom{.0}} \\end{array}$  How many times does $83$ go into $\\blue{688}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &5\\orange{8}.\\phantom{0}&\\\\ {83}&\\overline{\\Big)4838.9}\\\\ &\\mathllap{-}\\underline{415}\\phantom{0.0}\\\\ &\\blue{688}\\phantom{.0}\\\\ &\\mathllap{-}\\underline{664}\\phantom{.0}\\\\ &\\pink{24}\\phantom{.0} \\end{array}$  $\\blue{688} \\div 83 = \\orange{8}$ with a remainder of $\\pink{24}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &58.\\phantom{0}&\\\\ {83}&\\overline{\\Big)4838.9}\\\\ &\\mathllap{-}\\underline{415}\\phantom{0.}{\\downarrow}\\\\ &688\\phantom{.}{\\downarrow}\\\\ &\\mathllap{-}\\underline{664}\\phantom{.}{\\downarrow}\\\\ &\\blue{24\\phantom{.}9} \\end{array}$  How many times does $83$ go into $\\blue{249}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &58.\\orange{3}&\\\\ {83}&\\overline{\\Big)4838.9}\\\\ &\\mathllap{-}\\underline{415}\\phantom{0.0}\\\\ &688\\phantom{.0}\\\\ &\\mathllap{-}\\underline{664}\\phantom{.0}\\\\ &\\blue{24\\phantom{.}9}\\\\ &\\mathllap{-}\\underline{24\\phantom{.}9}\\\\ &\\pink{\\phantom{0.}0} \\end{array}$  $\\blue{249} \\div 83 = \\orange{3}$ with no remainder.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &58.3&\\\\ {83}&\\overline{\\Big)4838.9}\\\\ &\\mathllap{-}\\underline{415}\\phantom{0.0}\\\\ &688\\phantom{.0}\\\\ &\\mathllap{-}\\underline{664}\\phantom{.0}\\\\ &24\\phantom{.}9\\\\ &\\mathllap{-}\\underline{24\\phantom{.}9}\\\\ &\\phantom{0.}0 \\end{array}$  There are no more digits to bring down, and the remainder is $0$. So the quotient is exactly $58.3$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$48.389 \\div 0.83 = 58.3$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "decimal < 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  $16.872\\div0.24=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "70.3",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0.0}&\\\\ {0.24}&\\overline{\\Big)16.872} \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0.0}&\\\\ {24}&\\overline{\\Big)1687.2} \\end{array}$  Let's start by multiplying both divisor and the dividend by $100$. [[☃ explanation 1]]  We get the same digits moved $2$ places to the left of the decimal point.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0}.\\phantom{0}&\\\\ {24}&\\overline{\\Big)1687.2} \\end{array}$  Now we write the decimal point in the quotient.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0}.\\phantom{0}&\\\\ {24}&\\overline{\\Big)\\blue{1}687.2} \\end{array}$  How many times does $24$ go into $\\blue{1}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0}.\\phantom{0}&\\\\ {24}&\\overline{\\Big)\\blue{168}7.2} \\end{array}$  $24$ is larger than $1$ and $16$, so let's look at $168$ instead.  How many times does $24$ go into $\\blue{168}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\orange{7}\\phantom{0}.\\phantom{0}&\\\\ {24}&\\overline{\\Big)\\blue{168}7.2}\\\\ &\\mathllap{-}\\underline{168}\\phantom{.00}\\\\ &\\pink{0}\\phantom{.00} \\end{array}$  $\\blue{168} \\div 24 = \\orange{7}$ with a remainder of $\\pink{0}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &7\\phantom{0}.\\phantom{0}&\\\\ {24}&\\overline{\\Big)1687.2}\\\\ &\\mathllap{-}\\underline{168}{\\downarrow}\\phantom{.0}\\\\ &\\blue{07\\phantom{.0}} \\end{array}$  How many times does $24$ go into $\\blue{7}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &7\\orange{0}.\\phantom{0}&\\\\ {24}&\\overline{\\Big)1687.2}\\\\ &\\mathllap{-}\\underline{168}\\phantom{0.0}\\\\ &\\blue{07}\\phantom{.0}\\\\ &\\mathllap{-}\\underline{0}\\phantom{.0}\\\\ &\\pink{7}\\phantom{.0} \\end{array}$  $\\blue{7} \\div 24 = \\orange{0}$ with a remainder of $\\pink{7}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &70.\\phantom{0}&\\\\ {24}&\\overline{\\Big)1687.2}\\\\ &\\mathllap{-}\\underline{168}\\phantom{0.}{\\downarrow}\\\\ &07\\phantom{.}{\\downarrow}\\\\ &\\mathllap{-}\\underline{0}\\phantom{.}{\\downarrow}\\\\ &\\blue{7\\phantom{.}2} \\end{array}$  How many times does $24$ go into $\\blue{72}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &70.\\orange{3}&\\\\ {24}&\\overline{\\Big)1687.2}\\\\ &\\mathllap{-}\\underline{168}\\phantom{0.0}\\\\ &07\\phantom{.0}\\\\ &\\mathllap{-}\\underline{0}\\phantom{.0}\\\\ &\\blue{7\\phantom{.}2}\\\\ &\\mathllap{-}\\underline{7\\phantom{.}2}\\\\ &\\pink{\\phantom{0.}0} \\end{array}$  $\\blue{72} \\div 24 = \\orange{3}$ with no remainder.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &70.3&\\\\ {24}&\\overline{\\Big)1687.2}\\\\ &\\mathllap{-}\\underline{168}\\phantom{0.0}\\\\ &07\\phantom{.0}\\\\ &\\mathllap{-}\\underline{0}\\phantom{.0}\\\\ &7\\phantom{.}2\\\\ &\\mathllap{-}\\underline{7\\phantom{.}2}\\\\ &\\phantom{0.}0 \\end{array}$  There are no more digits to bring down, and the remainder is $0$. So the quotient is exactly $70.3$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$16.872 \\div 0.24 = 70.3$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "decimal < 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  $21.452\\div0.62=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "34.6",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0.0}&\\\\ {0.62}&\\overline{\\Big)21.452} \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0.0}&\\\\ {62}&\\overline{\\Big)2145.2} \\end{array}$  Let's start by multiplying both divisor and the dividend by $100$. [[☃ explanation 1]]  We get the same digits moved $2$ places to the left of the decimal point.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0}.\\phantom{0}&\\\\ {62}&\\overline{\\Big)2145.2} \\end{array}$  Now we write the decimal point in the quotient.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0}.\\phantom{0}&\\\\ {62}&\\overline{\\Big)\\blue{2}145.2} \\end{array}$  How many times does $62$ go into $\\blue{2}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0}.\\phantom{0}&\\\\ {62}&\\overline{\\Big)\\blue{214}5.2} \\end{array}$  $62$ is larger than $2$ and $21$, so let's look at $214$ instead.  How many times does $62$ go into $\\blue{214}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\orange{3}\\phantom{0}.\\phantom{0}&\\\\ {62}&\\overline{\\Big)\\blue{214}5.2}\\\\ &\\mathllap{-}\\underline{186}\\phantom{.00}\\\\ &\\pink{28}\\phantom{.00} \\end{array}$  $\\blue{214} \\div 62 = \\orange{3}$ with a remainder of $\\pink{28}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &3\\phantom{0}.\\phantom{0}&\\\\ {62}&\\overline{\\Big)2145.2}\\\\ &\\mathllap{-}\\underline{186}{\\downarrow}\\phantom{.0}\\\\ &\\blue{285\\phantom{.0}} \\end{array}$  How many times does $62$ go into $\\blue{285}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &3\\orange{4}.\\phantom{0}&\\\\ {62}&\\overline{\\Big)2145.2}\\\\ &\\mathllap{-}\\underline{186}\\phantom{0.0}\\\\ &\\blue{285}\\phantom{.0}\\\\ &\\mathllap{-}\\underline{248}\\phantom{.0}\\\\ &\\pink{37}\\phantom{.0} \\end{array}$  $\\blue{285} \\div 62 = \\orange{4}$ with a remainder of $\\pink{37}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &34.\\phantom{0}&\\\\ {62}&\\overline{\\Big)2145.2}\\\\ &\\mathllap{-}\\underline{186}\\phantom{0.}{\\downarrow}\\\\ &285\\phantom{.}{\\downarrow}\\\\ &\\mathllap{-}\\underline{248}\\phantom{.}{\\downarrow}\\\\ &\\blue{37\\phantom{.}2} \\end{array}$  How many times does $62$ go into $\\blue{372}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &34.\\orange{6}&\\\\ {62}&\\overline{\\Big)2145.2}\\\\ &\\mathllap{-}\\underline{186}\\phantom{0.0}\\\\ &285\\phantom{.0}\\\\ &\\mathllap{-}\\underline{248}\\phantom{.0}\\\\ &\\blue{37\\phantom{.}2}\\\\ &\\mathllap{-}\\underline{37\\phantom{.}2}\\\\ &\\pink{\\phantom{0.}0} \\end{array}$  $\\blue{372} \\div 62 = \\orange{6}$ with no remainder.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &34.6&\\\\ {62}&\\overline{\\Big)2145.2}\\\\ &\\mathllap{-}\\underline{186}\\phantom{0.0}\\\\ &285\\phantom{.0}\\\\ &\\mathllap{-}\\underline{248}\\phantom{.0}\\\\ &37\\phantom{.}2\\\\ &\\mathllap{-}\\underline{37\\phantom{.}2}\\\\ &\\phantom{0.}0 \\end{array}$  There are no more digits to bring down, and the remainder is $0$. So the quotient is exactly $34.6$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$21.452\\div 0.62 = 34.6$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "decimal < 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  $43.396\\div57.1=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.76",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0.000}&\\\\ {57.1}&\\overline{\\Big)43.396} \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0.000}&\\\\ {571}&\\overline{\\Big)433.96} \\end{array}$  Let's start by multiplying both divisor and the dividend by $10$. [[☃ explanation 1]]  We get the same digits moved $1$ place to the left of the decimal point.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0}{.}\\phantom{00}&\\\\ {571}&\\overline{\\Big)433.96} \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0}{.}\\phantom{00}&\\\\ {571}&\\overline{\\Big)\\blue{433}.96} \\end{array}$  How many times does $571$ go into $\\blue{4}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &0.\\phantom{00}&\\\\ {571}&\\overline{\\Big)\\blue{433.9}6} \\end{array}$  $571$ is larger than $4$, $43$, and $433$, so let's look at $4{,}339$ instead.  How many times does $571$ go into $\\blue{4{,}339}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &0.\\orange{7}\\phantom{0}&\\\\ {571}&\\overline{\\Big)\\blue{433.9}6}\\\\ &\\mathllap{-}\\underline{399\\phantom{.}7}\\phantom{0}\\\\ &\\pink{34\\phantom{.}2}\\phantom{0}\\\\ \\end{array}$  $\\blue{4{,}339} \\div 571 = \\orange{7}$ with a remainder of $\\pink{342}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &0.7\\phantom{0}&\\\\ {571}&\\overline{\\Big)433.96}\\\\ &\\mathllap{-}\\underline{399\\phantom{.}7}{\\downarrow}\\\\ &\\blue{34\\phantom{.}26} \\end{array}$  How many times does $571$ go into $\\blue{3{,}426}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &0.76&\\\\ {571}&\\overline{\\Big)433.96}\\\\ &\\mathllap{-}\\underline{399\\phantom{.}7}\\phantom{0}\\\\ &34\\phantom{.}26\\\\ &\\mathllap{-}\\underline{34\\phantom{.}26}\\\\ &\\pink{\\phantom{0.0}0} \\end{array}$  $\\blue{3{,}426} \\div 571 = 6$ with a remainder of $\\pink{0}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &0.76&\\\\ {571}&\\overline{\\Big)433.96}\\\\ &\\mathllap{-}\\underline{399\\phantom{.}7}\\phantom{0}\\\\ &34\\phantom{.}26\\\\ &\\mathllap{-}\\underline{34\\phantom{.}26}\\\\ &\\phantom{0.0}0 \\end{array}$  There are no more digits to bring down, and the remainder is $0$. So, the quotient is exactly $0.76$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$43.396 \\div 57.1 = 0.76$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "decimal > 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  $12.408\\div4.4=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "2.82",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0000}&\\\\ {4.4}&\\overline{\\Big)12.408} \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0000}&\\\\ {44}&\\overline{\\Big)124.08} \\end{array}$  Let's start by multiplying both divisor and the dividend by $10$. [[☃ explanation 1]]  We get the same digits moved $1$ place to the left of the decimal point.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0}{.}\\phantom{00}&\\\\ {44}&\\overline{\\Big)124.08} \\end{array}$  Now we write the decimal point in the quotient.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0}{.}\\phantom{00}&\\\\ {44}&\\overline{\\Big)\\blue{1}24.08} \\end{array}$  How many times does $44$ go into $\\blue{1}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0}{.}\\phantom{00}&\\\\ {44}&\\overline{\\Big)\\blue{124}.08} \\end{array}$  $44$ is larger than $1$ and $12$, so let's look at $124$ instead.   How many times does $44$ go into $\\blue{124}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\orange{2}.\\phantom{00}&\\\\ {44}&\\overline{\\Big)\\blue{124}.08}\\\\ &\\mathllap{-}\\underline{88}\\phantom{.00}\\\\ &\\pink{36}\\phantom{.00} \\end{array}$  $\\blue{124} \\div 44 = \\orange{2}$ with a remainder of $\\pink{36}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &2.\\phantom{00}&\\\\ {44}&\\overline{\\Big)124.08}\\\\ &\\mathllap{-}\\underline{88}\\phantom{.}{\\downarrow}\\phantom{0}\\\\ &\\blue{36\\phantom{.}0}\\phantom{0} \\end{array}$  How many times does $44$ go into $\\blue{360}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &2.\\orange{8}\\phantom{0}&\\\\ {44}&\\overline{\\Big)124.08}\\\\ &\\mathllap{-}\\underline{88}\\phantom{.00}\\\\ &\\blue{36\\phantom{.}0}\\phantom{0}\\\\ &\\mathllap{-}\\underline{35\\phantom{.}2}\\phantom{0}\\\\ &\\pink{8}\\phantom{0}\\\\ \\end{array}$  $\\blue{360} \\div 44 = \\orange{8}$ with a remainder of $\\pink{8}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &2.8\\phantom{0}&\\\\ {44}&\\overline{\\Big)124.08}\\\\ &\\mathllap{-}\\underline{88}\\phantom{.0}{\\downarrow}\\\\ &36\\phantom{.}0{\\downarrow}\\\\ &\\mathllap{-}\\underline{35\\phantom{.}2}{\\downarrow}\\\\ &\\blue{88} \\end{array}$  How many times does $44$ go into $\\blue{88}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &2.8\\orange{2}&\\\\ {44}&\\overline{\\Big)124.08}\\\\ &\\mathllap{-}\\underline{88}\\phantom{.00}\\\\ &36\\phantom{.}0\\phantom{0}\\\\ &\\mathllap{-}\\underline{35\\phantom{.}2}\\phantom{0}\\\\ &\\blue{88}\\\\ &\\mathllap{-}\\underline{88}\\\\ &\\pink{0} \\end{array}$  $\\blue{88} \\div 44 = \\orange{2}$ with a remainder of $\\pink{0}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &2.82&\\\\ {44}&\\overline{\\Big)124.08}\\\\ &\\mathllap{-}\\underline{88}\\phantom{.00}\\\\ &36\\phantom{.}0\\phantom{0}\\\\ &\\mathllap{-}\\underline{35\\phantom{.}2}\\phantom{0}\\\\ &88\\\\ &\\mathllap{-}\\underline{88}\\\\ &0 \\end{array}$  There are no more digits to bring down, and the remainder is $0$. So the quotient is exactly $2.82$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$12.408 \\div 4.4 = 2.82$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "decimal > 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  $41.501\\div4.7=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "8.83",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0000}&\\\\ {4.7}&\\overline{\\Big)41.501} \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0000}&\\\\ {47}&\\overline{\\Big)415.01} \\end{array}$  Let's start by multiplying both divisor and the dividend by $10$. [[☃ explanation 1]]  We get the same digits moved $1$ place to the left of the decimal point.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0}{.}\\phantom{00}&\\\\ {47}&\\overline{\\Big)415.01} \\end{array}$  Now we write the decimal point in the quotient.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0}{.}\\phantom{00}&\\\\ {47}&\\overline{\\Big)\\blue{4}15.01} \\end{array}$  How many times does $47$ go into $\\blue{4}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0}{.}\\phantom{00}&\\\\ {47}&\\overline{\\Big)\\blue{415}.01} \\end{array}$  $47$ is larger than $4$ and $41$, so let's look at $415$ instead.   How many times does $47$ go into $\\blue{415}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\orange{8}.\\phantom{00}&\\\\ {47}&\\overline{\\Big)\\blue{415}.01}\\\\ &\\mathllap{-}\\underline{376}\\phantom{.00}\\\\ &\\pink{39}\\phantom{.00} \\end{array}$  $\\blue{415} \\div 47 = \\orange{8}$ with a remainder of $\\pink{39}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &8.\\phantom{00}&\\\\ {47}&\\overline{\\Big)415.01}\\\\ &\\mathllap{-}\\underline{376}\\phantom{.}{\\downarrow}\\phantom{0}\\\\ &\\blue{39\\phantom{.}0}\\phantom{0} \\end{array}$  How many times does $47$ go into $\\blue{390}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &8.\\orange{8}\\phantom{0}&\\\\ {47}&\\overline{\\Big)415.01}\\\\ &\\mathllap{-}\\underline{376}\\phantom{.00}\\\\ &\\blue{39\\phantom{.}0}\\phantom{0}\\\\ &\\mathllap{-}\\underline{37\\phantom{.}6}\\phantom{0}\\\\ &\\pink{14}\\phantom{0}\\\\ \\end{array}$  $\\blue{390} \\div 47 = \\orange{8}$ with a remainder of $\\pink{14}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &8.8\\phantom{0}&\\\\ {47}&\\overline{\\Big)415.01}\\\\ &\\mathllap{-}\\underline{376}\\phantom{.0}{\\downarrow}\\\\ &39\\phantom{.}0{\\downarrow}\\\\ &\\mathllap{-}\\underline{37\\phantom{.}6}{\\downarrow}\\\\ &\\blue{141} \\end{array}$  How many times does $47$ go into $\\blue{141}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &8.8\\orange{3}&\\\\ {47}&\\overline{\\Big)415.01}\\\\ &\\mathllap{-}\\underline{376}\\phantom{.00}\\\\ &39\\phantom{.}0\\phantom{0}\\\\ &\\mathllap{-}\\underline{37\\phantom{.}6}\\phantom{0}\\\\ &\\blue{141}\\\\ &\\mathllap{-}\\underline{141}\\\\ &\\pink{0} \\end{array}$  $\\blue{141} \\div 47 = \\orange{3}$ with a remainder of $\\pink{0}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &8.83&\\\\ {47}&\\overline{\\Big)415.01}\\\\ &\\mathllap{-}\\underline{376}\\phantom{.00}\\\\ &39\\phantom{.}0\\phantom{0}\\\\ &\\mathllap{-}\\underline{37\\phantom{.}6}\\phantom{0}\\\\ &141\\\\ &\\mathllap{-}\\underline{141}\\\\ &0 \\end{array}$  There are no more digits to bring down, and the remainder is $0$. So the quotient is exactly $8.83$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$41.501 \\div 4.7 = 8.83$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "decimal > 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  $33.366\\div6.7=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "4.98",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0000}&\\\\ {6.7}&\\overline{\\Big)33.366} \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0000}&\\\\ {67}&\\overline{\\Big)333.66} \\end{array}$  Let's start by multiplying both divisor and the dividend by $10$. [[☃ explanation 1]]  We get the same digits moved $1$ place to the left of the decimal point.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0}{.}\\phantom{00}&\\\\ {67}&\\overline{\\Big)333.66} \\end{array}$  Now we write the decimal point in the quotient.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0}{.}\\phantom{00}&\\\\ {67}&\\overline{\\Big)\\blue{3}33.66} \\end{array}$  How many times does $67$ go into $\\blue{3}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0}{.}\\phantom{00}&\\\\ {67}&\\overline{\\Big)\\blue{333}.66} \\end{array}$  $67$ is larger than $3$ and $33$, so let's look at $333$ instead.   How many times does $67$ go into $\\blue{333}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\orange{4}.\\phantom{00}&\\\\ {67}&\\overline{\\Big)\\blue{333}.66}\\\\ &\\mathllap{-}\\underline{268}\\phantom{.00}\\\\ &\\pink{65}\\phantom{.00} \\end{array}$  $\\blue{333} \\div 67 = \\orange{4}$ with a remainder of $\\pink{65}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &4.\\phantom{00}&\\\\ {67}&\\overline{\\Big)333.66}\\\\ &\\mathllap{-}\\underline{268}\\phantom{.}{\\downarrow}\\phantom{0}\\\\ &\\blue{65\\phantom{.}6}\\phantom{0} \\end{array}$  How many times does $67$ go into $\\blue{656}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &4.\\orange{9}\\phantom{0}&\\\\ {67}&\\overline{\\Big)333.66}\\\\ &\\mathllap{-}\\underline{268}\\phantom{.00}\\\\ &\\blue{65\\phantom{.}6}\\phantom{0}\\\\ &\\mathllap{-}\\underline{60\\phantom{.}3}\\phantom{0}\\\\ &\\pink{53}\\phantom{0}\\\\ \\end{array}$  $\\blue{656} \\div 67 = \\orange{9}$ with a remainder of $\\pink{53}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &4.9\\phantom{0}&\\\\ {67}&\\overline{\\Big)333.66}\\\\ &\\mathllap{-}\\underline{268}\\phantom{.0}{\\downarrow}\\\\ &65\\phantom{.}6{\\downarrow}\\\\ &\\mathllap{-}\\underline{60\\phantom{.}3}{\\downarrow}\\\\ &\\blue{536} \\end{array}$  How many times does $67$ go into $\\blue{536}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &4.9\\orange{8}&\\\\ {67}&\\overline{\\Big)333.66}\\\\ &\\mathllap{-}\\underline{268}\\phantom{.00}\\\\ &65\\phantom{.}6\\phantom{0}\\\\ &\\mathllap{-}\\underline{60\\phantom{.}3}\\phantom{0}\\\\ &\\blue{536}\\\\ &\\mathllap{-}\\underline{536}\\\\ &\\pink{0} \\end{array}$  $\\blue{536} \\div 67 = \\orange{8}$ with a remainder of $\\pink{0}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &4.98&\\\\ {67}&\\overline{\\Big)333.66}\\\\ &\\mathllap{-}\\underline{268}\\phantom{.00}\\\\ &65\\phantom{.}6\\phantom{0}\\\\ &\\mathllap{-}\\underline{60\\phantom{.}3}\\phantom{0}\\\\ &536\\\\ &\\mathllap{-}\\underline{536}\\\\ &0 \\end{array}$  There are no more digits to bring down, and the remainder is $0$. So the quotient is exactly $4.98$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$33.366 \\div 6.7 = 4.98$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "decimal > 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  $2.079\\div2.7=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.77",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0000}&\\\\ {2.7}&\\overline{\\Big)2.079} \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0000}&\\\\ {27}&\\overline{\\Big)20.79} \\end{array}$  Let's start by multiplying both divisor and the dividend by $10$. [[☃ explanation 1]]  We get the same digits moved $1$ place to the left of the decimal point.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0}{.}\\phantom{00}&\\\\ {27}&\\overline{\\Big)20.79} \\end{array}$  Now we write the decimal point in the quotient.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0}{.}\\phantom{00}&\\\\ {27}&\\overline{\\Big)\\blue{2}0.79} \\end{array}$  How many times does $27$ go into $\\blue{2}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0}{.}\\phantom{00}&\\\\ {27}&\\overline{\\Big)\\blue{20.7}9} \\end{array}$  $27$ is larger than $2$ and $20$, so let's look at $207$ instead.   How many times does $27$ go into $\\blue{207}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &{0.}\\orange{7}\\phantom{0}&\\\\ {27}&\\overline{\\Big)\\blue{20.7}9}\\\\ &\\mathllap{-}\\underline{18\\phantom{.}9}\\phantom{0}\\\\ &\\pink{1\\phantom{.}8}\\phantom{0} \\end{array}$  $\\blue{207} \\div 27 = \\orange{7}$ with a remainder of $\\pink{18}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &0.7\\phantom{0}&\\\\ {27}&\\overline{\\Big)20.79}\\\\ &\\mathllap{-}\\underline{18\\phantom{.}9}{\\downarrow}\\\\ &\\blue{1\\phantom{.}89} \\end{array}$  How many times does $27$ go into $\\blue{189}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &0.7\\orange{7}&\\\\ {27}&\\overline{\\Big)20.79}\\\\ &\\mathllap{-}\\underline{18\\phantom{.}9}\\phantom{0}\\\\ &\\blue{1\\phantom{.}89}\\\\ &\\mathllap{-}\\underline{1\\phantom{.}89}\\\\ &\\pink{0}\\\\ \\end{array}$  $\\blue{189} \\div 27 = \\orange{7}$ with a remainder of $\\pink{0}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &0.77&\\\\ {27}&\\overline{\\Big)20.79}\\\\ &\\mathllap{-}\\underline{18\\phantom{.}9}\\phantom{0}\\\\ &1\\phantom{.}89\\\\ &\\mathllap{-}\\underline{1\\phantom{.}89}\\\\ &0\\\\ \\end{array}$  There are no more digits to bring down, and the remainder is $0$. So the quotient is exactly $0.77$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$2.079 \\div 2.7 = 0.77$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "decimal > 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  $2.332\\div2.2=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "1.06",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0000}&\\\\ {2.2}&\\overline{\\Big)2.332} \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0000}&\\\\ {22}&\\overline{\\Big)23.32} \\end{array}$  Let's start by multiplying both divisor and the dividend by $10$. [[☃ explanation 1]]  We get the same digits moved $1$ place to the left of the decimal point.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0}{.}\\phantom{00}&\\\\ {22}&\\overline{\\Big)23.32} \\end{array}$  Now we write the decimal point in the quotient.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0}{.}\\phantom{00}&\\\\ {22}&\\overline{\\Big)\\blue{2}3.32} \\end{array}$  How many times does $22$ go into $\\blue{2}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0}{.}\\phantom{00}&\\\\ {22}&\\overline{\\Big)\\blue{23}.32} \\end{array}$  $22$ is larger than $2$, so let's look at $23$ instead.   How many times does $22$ go into $\\blue{23}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\orange{1}.\\phantom{.0}&\\\\ {22}&\\overline{\\Big)\\blue{23}.32}\\\\ &\\mathllap{-}\\underline{22}\\phantom{.00}\\\\ &\\pink{1}\\phantom{.00} \\end{array}$  $\\blue{23} \\div 22 = \\orange{1}$ with a remainder of $\\pink{1}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &1.\\phantom{00}&\\\\ {22}&\\overline{\\Big)23.32}\\\\ &\\mathllap{-}\\underline{22}\\phantom{.}{\\downarrow}\\phantom{0}\\\\ &\\blue{1\\phantom{.}3}\\phantom{0} \\end{array}$  How many times does $27$ go into $\\blue{13}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &1.\\orange{0}\\phantom{0}&\\\\ {22}&\\overline{\\Big)23.32}\\\\ &\\mathllap{-}\\underline{22}\\phantom{.00}\\\\ &\\blue{1\\phantom{.}3}\\phantom{0}\\\\ &\\mathllap{-}\\underline{\\phantom{00}0}\\phantom{0}\\\\ &\\pink{13}\\phantom{0}\\\\ \\end{array}$  $\\blue{13} \\div 22 = \\orange{0}$ with a remainder of $\\pink{13}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &1.0\\phantom{0}&\\\\ {22}&\\overline{\\Big)23.32}\\\\ &\\mathllap{-}\\underline{22}\\phantom{.0}{\\downarrow}\\\\ &1\\phantom{.}3{\\downarrow}\\\\ &\\mathllap{-}\\underline{\\phantom{00}0}{\\downarrow}\\\\ &\\blue{132} \\end{array}$  How many times does $22$ go into $\\blue{132}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &1.0\\orange{6}&\\\\ {22}&\\overline{\\Big)23.32}\\\\ &\\mathllap{-}\\underline{22}\\phantom{.00}\\\\ &1\\phantom{.}3\\phantom{0}\\\\ &\\mathllap{-}\\underline{\\phantom{00}0}\\phantom{0}\\\\ &\\blue{132}\\\\ &\\mathllap{-}\\underline{132}\\\\ &\\pink{0} \\end{array}$  $\\blue{132} \\div 22 = \\orange{6}$ with a remainder of $\\pink{0}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &1.06&\\\\ {22}&\\overline{\\Big)23.32}\\\\ &\\mathllap{-}\\underline{22}\\phantom{.00}\\\\ &1\\phantom{.}3\\phantom{0}\\\\ &\\mathllap{-}\\underline{\\phantom{00}0}\\phantom{0}\\\\ &132\\\\ &\\mathllap{-}\\underline{132}\\\\ &0 \\end{array}$  There are no more digits to bring down, and the remainder is $0$. So the quotient is exactly $1.06$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$2.332 \\div 2.2 = 1.06$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "decimal > 1"
+                    }
+                }
+            }
+        }
+    ]
+}

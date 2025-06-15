@@ -1,0 +1,973 @@
+{
+    "standard_metadata": {
+        "standard_id": "8.SP.A.3",
+        "standard_description": "Use the equation of a linear model to solve problems in the context of bivariate measurement data, interpreting the slope and intercept.",
+        "standard_title": "Estimating equations of lines of best fit, and using them to make predictions",
+        "standard_url": "https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-data/cc-8th-line-of-best-fit/e/equations-of-lines-of-best-fit-to-make-predictions"
+    },
+    "id": "x134ead99",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The percent of adults who smoke, recorded every few years since $1967$, suggests a negative linear association with no outliers. A line was fit to the data to model the relationship.    **Which of these linear equations best describes the given model?**    **Based on this equation, estimate what percent of adults smoked in $1997$.**   *Round your answer to the nearest tenth of a percent.*   %",
+                                "images": [
+                                    {
+                                        "alt": "A scatterplot plots points x y axis. The y axis is labeled percent of adults who smoke. The x axis is labeled Years since 19 67. Points fall diagonally in a narrow pattern. The line passes between the points through (0, 40) and (40, 20). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/93edc61d0d3e6468491d2f6d8f8f838092a0253c.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "25",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "$\\hat y=-0.5x+40$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\hat y=-x+40$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\hat y=-2x+40$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\hat y=-3x+40$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "### Finding the equation of the line  We need the slope and the $y$-intercept to find the equation of the linear model.  This line goes through $(0,40)$ and $(10,35)$, so the slope is $\\dfrac{35-40}{10-0} = -\\dfrac12$.  We can see that the line passes through $(0,40)$, so the $y$-intercept is $40$.  **The equation that best describes the model is $\\hat y=-0.5x+40$.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "### Using the line to make a prediction  To estimate what percent of adults smoked in $1997$, we can plug in $30$ for $x$ in the equation like this:  $\\begin{align}\\hat y&=-0.5x+40\\\\ \\hat y&=\\left(-0.5\\right)(30)+40\\\\ \\hat y&=-15+40\\\\ \\hat y&=25\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "### The answers  The equation of the model shown is $\\hat y=-0.5x+40$.  Based on this equation, $25\\%$ of adults smoked in $1997$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The scatter plot below shows the average rent (in dollars per month) for a $1$-bedroom apartment in New York City each year between $2000$ and $2013$. A line was fit to the data to model the relationship.    **Which of these linear equations best describes the given model?**    **Based on this equation, use this equation to estimate the average rent in $2020$.**   *Round your answer to the nearest dollar.*  $\\$$",
+                                "images": [
+                                    {
+                                        "alt": "A scatterplot plots points x y axis. The y axis is labeled Average rent in dollars per month. The x axis is labeled Years after 2000. Points rise diagonally in a relatively narrow pattern between (0, 800) and (13, 1250). The line passes between the points (0, 800) and (5, 1000). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/bbb5f586d44513f9b0422c8986871df36dba213a.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "1600",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "$\\hat y=\\dfrac25x+800$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\hat y=40x+800$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\hat y=800x+\\dfrac25$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\hat y=800x+40$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "### Finding the equation of the line  We need the slope and the $y$-intercept to find the equation of the linear model.  This line goes through $(0,800)$ and $(5,1000)$, so the slope is $\\dfrac{1000-800}{5-0} = 40$.  We can see that the line passes through $(0,800)$, so the $y$-intercept is $800$.  **The equation that best describes the model is $\\hat y=40x+800$.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "### Using the line to make a prediction  To estimate the average rent in $2020$, we can plug in $20$ for $x$ in the equation like this:  $\\begin{align}\\hat y&=40x+800\\\\ \\hat y&=\\left(40\\right)(20)+800\\\\ \\hat y&=800+800\\\\ \\hat y&=1600\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "### The answers  The equation of the model shown is $\\hat y=40x+800$.  Based on this equation, the average rent in $2020$ is $\\$1600.$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A panel of judges was asked to judge the quality of different kinds of potato chips. The relationship between their ratings and the price of the chips is shown in the scatter plot below. A line was fit to the data to model the relationship.    **Which of these linear equations best describes the given model?**    **Based on this equation, estimate the rating of chips whose cost is $\\$1.10.$**   *Round your answer to the nearest hundredth.*",
+                                "images": [
+                                    {
+                                        "alt": "A scatterplot plots points x y axis. The y axis is labeled Rating. The x axis is labeled Cost per package in dollars. Points rise diagonally in a relatively narrow pattern between (80 hundredths, 1 half) and (2 and 8 tenths, 6). The line passes between the points (1, 2) and (2, 4.5). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/d40e2e6c13803e17f972f27037ec60f79b6d55e7.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "2.25",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "$\\hat y=2.5x-0.5$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\hat y=2.5x+0.5$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\hat y=0.5x+0.5$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\hat y=0.5x-0.5$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "### Finding the equation of the line  We need the slope and the $y$-intercept to find the equation of the linear model.  This line goes through $(1,2)$ and $(2,4.5)$, so the slope is $\\dfrac{4.5-2}{2-1} = 2.5$.  We can use this slope along with the fact that the line passes through $(1,2)$ to determine that the line passes through $(0,-0.5)$, so the $y$-intercept is $-0.5$.  **The equation that best describes the model is $\\hat y=2.5x-0.5$.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "### Using the line to make a prediction  To estimate the rating of chips whose cost is $\\$1.10$, we can plug in $1.10$ for $x$ in the equation like this:  $\\begin{align}\\hat y&=2.5x-0.5\\\\ \\hat y&=\\left(2.5\\right)(1.10)-0.5\\\\ \\hat y&=2.75-0.5\\\\ \\hat y&=2.25\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "### The answers  The equation of the model shown is $\\hat y=2.5x-0.5$.  Based on this equation, we predict chips whose cost is $\\$1.10$ to have a rating of $2.25$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "In the $2014\\,\\text{-}\\,2015$ season of the English Premier League, there were $20$ soccer teams, and each team played a total of $38$ matches. The scatter plot below shows the average number of goals each team scored per match, and how many total matches each team won. Each dot on the scatter plot represents a team. A line was fit to the data to model the relationship between scoring goals and winning games.    **Which of these linear equations best describes the given model?**    **Based on this equation, estimate the number of wins for a team that scores $2$ goals per match.**   *Round your answer to the nearest tenth.*   wins",
+                                "images": [
+                                    {
+                                        "alt": "A scatterplot plots points x y axis. The y axis is labeled Number of wins. The x axis is labeled Goals scored per match. Points rise diagonally in a relatively narrow pattern. The line passes between the points through (0, negative 3 and 1 half) and (2 and 25 hundredths, 28). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/fc0063aadb6022214b7e649ad79f01eb39748d99.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "24.5",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "$\\hat y=14x+0.25$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\hat y=14x-3.5$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\hat y=\\dfrac23x+0.25$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\hat y=\\dfrac23x-3.5$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "### Finding the equation of the line  We need the slope and the $y$-intercept to find the equation of the linear model.  This line goes through $(0.25,0)$ and $(0.75,7)$, so the slope is $\\dfrac{7-0}{0.75-0.25} = 14$.  We can use this slope along with the fact that the line passes through $(1,10.5)$ to determine that the line passes through $(0,-3.5)$, so the $y$-intercept is $-3.5$.  **The equation that best describes the model is $\\hat y=14x-3.5$.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "### Using the line to make a prediction  To estimate the number of wins for a team that scores $2$ goals per match, we can plug in $2$ for $x$ in the equation like this:  $\\begin{align}\\hat y&=14x-3.5\\\\ \\hat y&=\\left(14\\right)(2)-3.5\\\\ \\hat y&=28-3.5\\\\ \\hat y&=24.5\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "### The answers  The equation of the model shown is $\\hat y=14x-3.5$.  Based on this equation, we estimate a team that scores $2$ goals per match to have $24.5$ wins.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Jacob distributed a survey to his fellow students asking them how many hours they'd spent playing sports in the past day. He also asked them to rate their mood on a scale from $0$ to $10$, with $10$ being the happiest. A line was fit to the data to model the relationship.    **Which of these linear equations best describes the given model?**    **Based on this equation, estimate the mood rating for a student that spent $2.5$ hours playing sports.**   *Round your answer to the nearest hundredth.*",
+                                "images": [
+                                    {
+                                        "alt": "A scatterplot plots points x y axis. The y axis is labeled mood rating. The x axis is labeled Hours playing sports. Points rise diagonally in a narrow pattern. The line passes between the points through (0, 5) and (3, 9 and 1 half). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/b01f49f443e77eedbf3c2dc14ea07e12bf5f8b77.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "8.75",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "$\\hat y=5x+1.5$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\hat y=1.5x+5$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\hat y=-1.5x+5$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "### Finding the equation of the line  We need the slope and the $y$-intercept to find the equation of the linear model.  This line goes through $(0,5)$ and $(1,6.5)$, so the slope is $\\dfrac{6.5-5}{1-0} = 1.5$.  We can see that the line passes through $(0,5)$, so the $y$-intercept is $5$.  **The equation that best describes the model is $\\hat y=1.5x+5$.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "### Using the line to make a prediction  To estimate the mood rating for a student that spent $2.5$ hours playing sports, we can plug in $2.5$ for $x$ in the equation like this:  $\\begin{align}\\hat y&=1.5x+5\\\\ \\hat y&=\\left(1.5\\right)(2.5)+5\\\\ \\hat y&=3.75+5\\\\ \\hat y&=8.75\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "### The answers  The equation of the model shown is $\\hat y=1.5x+5$.  Based on this equation, we estimate a student that spends $2.5$ hours playing sports to have a mood rating of $8.75$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Liz's math test included a survey question asking how many hours students spent studying for the test. The scatter plot below shows the relationship between how many hours students spent studying and their score on the test. A line was fit to the data to model the relationship.    **Which of these linear equations best describes the given model?**    **Based on this equation, estimate the score for a student that spent $3.8$ hours studying.**",
+                                "images": [
+                                    {
+                                        "alt": "A scatterplot plots points x y axis. The y axis is labeled test score. The x axis is labeled study time in hours. Points rise diagonally in a relatively narrow pattern between (1 half, 45) and (4 and 1 half, 95). The line passes between the points (0, 20) and (4, 100). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/f11af67a25f6fcf890dfe4f1420b5c30cf781a68.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "96",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "$\\hat y=10x+20$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\hat y=20x+20$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\hat y=-20x+20$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "### Finding the equation of the line  We need the slope and the $y$-intercept to find the equation of the linear model.  This line goes through $(0,20)$ and $(1,40)$, so the slope is $\\dfrac{40-20}{1-0} = 20$.  We can see that the line passes through $(0,20)$, so the $y$-intercept is $20$.  **The equation that best describes the model is $\\hat y=20x+20$.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "### Using the line to make a prediction  To estimate the score for a student that spent $3.8$ hours studying, we can plug in $3.8$ for $x$ in the equation like this:  $\\begin{align}\\hat y&=20x+20\\\\ \\hat y&=\\left(20\\right)(3.8)+20\\\\ \\hat y&=76+20\\\\ \\hat y&=96\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "### The answers  The equation of the model shown is $y=20x+20$.  Based on this equation, we estimate a student that spends $3.8$ hours studying to score a $96$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Shira's math test included a survey question asking how many hours students spent studying for the test. The scatter plot below shows the relationship between how many hours students spent studying and their score on the test. A line was fit to the data to model the relationship.    **Which of these linear equations best describes the given model?**    **Based on this equation, estimate the score for a student that spent $5$ hours studying.**",
+                                "images": [
+                                    {
+                                        "alt": "A scatterplot plots points x y axis. The y axis is labeled Score. The x axis is labeled Study time in hours. Points rise diagonally in a relatively narrow pattern. The line passes between the points through (0, 45) and (1, 55). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/35147d2d30a315ffb1987bd02017d15cfc9ddd37.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "95",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "$\\hat y=x+45$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\hat y=10x+45$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\hat y=-10x+45$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "### Finding the equation of the line  We need the slope and the $y$-intercept to find the equation of the linear model.  This line goes through $(0,45)$ and $(1,55)$, so the slope is $\\dfrac{55-45}{1-0} = 10$.  We can see that the line passes through $(0,45)$, so the $y$-intercept is $45$.  **The equation that best describes the model is $\\hat y=10x+45$.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "### Using the line to make a prediction  To estimate the score for a student that spent $5$ hours studying, we can plug in $5$ for $x$ in the equation like this:  $\\begin{align}\\hat y&=10x+45\\\\ \\hat y&=\\left(10\\right)(5)+45\\\\ \\hat y&=50+45\\\\ \\hat y&=95\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "### The answers  The equation of the model shown is $\\hat y=10x+45$.  Based on this equation, we estimate a student that spends $5$ hours studying to score a $95$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Jacob distributed a survey to his fellow students asking them how many hours they spent on the Internet in the past day. He also asked them to rate their mood on a scale from $0$ to $10$, with $10$ being the happiest. A line was fit to the data to model the relationship.    **Which of these linear equations best describes the given model?**    **Based on this equation, estimate the mood rating for a student that spent $5.5$ hours online.**",
+                                "images": [
+                                    {
+                                        "alt": "A scatterplot plots points x y axis. The y axis is labeled Mood rating. The x axis is labeled Hours online. Points fall diagonally in a relatively narrow pattern between (1 half, 7) and (4 and 1 half, 2 and 1 half). The line passes between the points (0, 7 and 1 half) and (5, 2 and 1 half). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/c08924b725bae62e3ea4439ce6b3a86312800eea.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "2",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "$\\hat y=x+7.5$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\hat y=-x+7.5$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\hat y=-\\dfrac12x+7.5$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "### Finding the equation of the line  We need the slope and the $y$-intercept to find the equation of the linear model.  This line goes through $(0,7.5)$ and $(1,6.5)$, so the slope is $\\dfrac{6.5-7.5}{1-0} = -1$.  We can see that the line passes through $(0,7.5)$, so the $y$-intercept is $7.5$.  **The equation that best describes the model is $\\hat y=-x+7.5$.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "### Using the line to make a prediction  To estimate the mood rating for a student that spent $5.5$ hours online, we can plug in $5.5$ for $x$ in the equation like this:  $\\begin{align}\\hat y&=-x+7.5\\\\ \\hat y&=-(5.5)+7.5\\\\ \\hat y&=-5.5+7.5\\\\ \\hat y&=2\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "### The answers  The equation of the model shown is $\\hat y=-x+7.5$.  Based on this equation, we estimate a student that spends $5.5$ hours online to have a mood rating of $2$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Baruti, a ranger in Kruger National Park in South Africa, collected data about the elephant population in the park. She compared the foot lengths of the elephants and their shoulder height (both in centimeters) and created the following scatter plot. A line was fit to the data to model the relationship.      **Which of these linear equations best describes the given model?**    **Based on this equation, estimate the shoulder height for an elephant whose foot length is $45\\,\\text{cm}$.**     cm",
+                                "images": [
+                                    {
+                                        "alt": "A scatterplot. The y axis is labeled Shoulder height (cm). The x axis is labeled Foot length (cm). Points rise diagonally in a narrow pattern. The line passes between the points through (8, 0) and (60, 330). All values are estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/0036bfeff6dc2bf6d1954ff16ddfcc7bb9669e21.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "250",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "$\\hat y=6x-20$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\hat y=6x+20$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\hat y=\\dfrac32x-20$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\hat y=\\dfrac32x+20$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "### Finding the equation of the line  We need the slope and the $y$-intercept to find the equation of the linear model.  This line goes through $(0,-20)$ and $(10,40)$, so the slope is $\\dfrac{40-(-20)}{10-0} = 6$.  We can see that the line passes through $(0,-20)$, so the $y$-intercept is $-20$.  **The equation that best describes the model is $\\hat y=6x-20$.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "### Using the line to make a prediction  To estimate the shoulder height for an elephant whose foot length is $45\\,\\text{cm}$, we can plug in $45$ for $x$ in the equation like this:  $\\begin{align}\\hat y&=6x-20\\\\ \\hat y&=\\left(6\\right)\\left(45\\right)-20\\\\ \\hat y&=270-20\\\\ \\hat y&=250\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "### The answers  The equation of the model shown is $\\hat y=6x-20$.  Based on this equation, we estimate that an elephant whose foot length is $45\\,\\text{cm}$ will have a shoulder height of $250\\,\\text{cm}.$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The plot shown below describes the relationship between students' scores on the first exam in a class and their corresponding scores on the second exam in the class. A line was fit to the data to model the relationship.    **Which of these linear equations best describes the given model?**    **Based on this equation, estimate the score on the second exam for a student whose first exam score was $88$.**",
+                                "images": [
+                                    {
+                                        "alt": "A scatterplot plots points x y axis. The y axis is labeled Exam 2 score. The x axis is labeled Exam 1 score. Points rise diagonally in a relatively loose pattern. The line passes between the points through (0, 0) and (100, 100). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/11ba120d372bdd696182bebfa873c35bc6499260.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "88",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "$\\hat y=2x+10$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\hat y=x+10$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\hat y=2x$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\hat y=x$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "### Finding the equation of the line  We need the slope and the $y$-intercept to find the equation of the linear model.  This line goes through $(0,0)$ and $(10,10)$, so the slope is $\\dfrac{10-0}{10-0} = 1$.  We can see that the line passes through $(0,0)$, so the $y$-intercept is $0$.  **The equation that best describes the model is $\\hat y=1x+0,$ or just $\\hat y=x.$**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "### Using the line to make a prediction  To estimate the score on the second exam for a student whose first exam score was $88$, we can plug in $88$ for $x$ in the equation like this:  $\\begin{align}\\hat y&=x\\\\ \\hat y&=88\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "### The answers  The equation of the model shown is $\\hat y=x$.  Based on this equation, we estimate that a student whose first exam score is $88$ will score an $88$ on the second exam.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Daniel wants to predict how far he can hike based on the time he spends on the hike. He collected some data on the time (in hours) and distance (in kilometers) of some of his previous hikes. A line was fit to the data to model the relationship.    **Which of these linear equations best describes the given model?**    **Based on this equation, estimate the distance Daniel can hike in $6$ hours.**   *Round your answer to the nearest tenth.*   km",
+                                "images": [
+                                    {
+                                        "alt": "A scatterplot plots points x y axis. The y axis is labeled Distance in kilometers. The x axis is labeled Time in hours. Points rise diagonally in a relatively narrow pattern between (2, 5) and (9, 18). The line passes between the points (1 half, 2 and 1 half) and (4, 9 and 1 half). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/337589dafb8c6d02e77ceb0ac1f48a742e2d851c.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "13.5",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "$\\hat y=2x+1.5$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\hat y=x+1.5$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\hat y=2x-1.5$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\hat y=x-1.5$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "### Finding the equation of the line  We need the slope and the $y$-intercept to find the equation of the linear model.  This line goes through $(0,1.5)$ and $(1,3.5)$, so the slope is $\\dfrac{3.5-1.5}{1-0} = 2$.  We can see that the line passes through $(0,1.5)$, so the $y$-intercept is $1.5$.  **The equation that best describes the model is $\\hat y=2x+1.5$.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "### Using the line to make a prediction  To estimate the distance Daniel can hike in $6$ hours, we can plug in $6$ for $x$ in the equation like this:  $\\begin{align}\\hat y&=2x+1.5\\\\ \\hat y&=\\left(2\\right)\\left(6\\right)+1.5\\\\ \\hat y&=12+1.5\\\\ \\hat y&=13.5\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "### The answers  The equation of the model shown is $\\hat y=2x+1.5$.  Based on this equation, we estimate that Daniel can hike $13.5\\,\\text{km}$ in $6$ hours.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Arthur wanted to investigate how the amount he exercises impacts his weight loss. Each week he recorded the number of hours he exercised and the amount of weight he lost that week (in kilograms). A line was fit to the data to model the relationship.    **Which of these linear equations best describes the given model?**    **Based on this equation, estimate Arthur's weight loss in a week where he exercises for $6$ hours.**   *Round your answer to the nearest hundredth.*   kg",
+                                "images": [
+                                    {
+                                        "alt": "A scatterplot plots points x y axis. The y axis is labeled Weight lost in kilograms. The x axis is labeled Exercise in hours. Points rise diagonally in a narrow pattern. The line passes between the points through (1 half, 1 half) and (3 and 1 half, 2). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/194f9110a0c567f2680da4799aea8295ef3f4703.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "3.25",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "$\\hat y=x+0.25$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\hat y=x+0.5$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\hat y=0.5x+0.25$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\hat y=0.5x+0.5$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "### Finding the equation of the line  We need the slope and the $y$-intercept to find the equation of the linear model.  This line goes through $(0.5,0.5)$ and $(1.5,1)$, so the slope is $\\dfrac{1-0.5}{1.5-0.5} = 0.5$.  We can see that the line passes through $(0,0.25)$, so the $y$-intercept is $0.25$.  **The equation that best describes the model is $\\hat y=0.5x+0.25$.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "### Using the line to make a prediction  To estimate Arthur's weight loss in a week where he exercises for $6$ hours, we can plug in $6$ for $x$ in the equation like this:  $\\begin{align}\\hat y&=0.5x+0.25\\\\ \\hat y&=\\left(0.5\\right)\\left(6\\right)+0.25\\\\ \\hat y&=3+0.25\\\\ \\hat y&=3.25\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "### The answers  The equation of the model shown is $\\hat y=0.5x+0.25$.  Based on this equation, we estimate that Arther will lose $3.25\\,\\text{kg}$ in a week where he exercises for $6$ hours.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A bus company wanted to know if the number of complaints they received was a function of the number of buses it ran. The company carried out a study comparing the average number of buses per hour for different days and the number of complaints that it received on those days. A line was fit to the data to model the relationship.    **Which of these linear equations best describes the given model?**    **Based on this equation, estimate the number of complaints in a day where the average is $3.5$ buses per hour.**     complaints",
+                                "images": [
+                                    {
+                                        "alt": "A scatterplot plots points x y axis. The y axis is labeled Number of complaints. The x axis is labeled Average number of buses per hour. Points fall diagonally in a relatively narrow pattern. The line passes between the points through (0, 42) and (8, 10). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/3eaecce38de23c18ad48305e8b31c53cc07b5bfd.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "28",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "$\\hat y=-\\dfrac25x+42$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\hat y=-x+42$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\hat y=-4x+42$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "### Finding the equation of the line  We need the slope and the $y$-intercept to find the equation of the linear model.  This line goes through $(0.5,40)$ and $(3,30)$, so the slope is $\\dfrac{30-40}{3-0.5} = -4$.  We can see that the line passes through $(0,42)$, so the $y$-intercept is $42$.  **The equation that best describes the model is $\\hat y=-4x+42$.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "### Using the line to make a prediction  To estimate the number of complaints in a day where the average is $3.5$ buses per hour, we can plug in $3.5$ for $x$ in the equation like this:  $\\begin{align}\\hat y&=-4x+42\\\\ \\hat y&=\\left(-4\\right)\\left(3.5\\right)+42\\\\ \\hat y&=-14+42\\\\ \\hat y&=28\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "### The answers  The equation of the model shown is $\\hat y=-4x+42$.  Based on this equation, we estimate that there will be $28$ complaints in a day where the average is $3.5$ buses per hour.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Cars lose value the farther they are driven. A random sample of $11$ cars for sale was taken. All $11$ cars were the same make and model. A line was fit to the data to model the relationship between how far each car had been driven and its selling price.    **Which of these linear equations best describes the given model?**    **Based on this equation, estimate the price of a car that had been driven $56$ thousand kilometers.**    $\\$$  thousand dollars",
+                                "images": [
+                                    {
+                                        "alt": "A scatterplot plots points x y axis. The y axis is labeled Price in thousands of dollars. The x axis is labeled Kilometers driven in thousands. Points fall diagonally in a relatively narrow pattern. The line passes between the points through (0, 40) and (100, 15). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/7ac30a610ce5c1d5163ea923ab23d76e627d7662.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "26",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "$\\hat y=\\dfrac12x+40$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\hat y=-x+40$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\hat y=-\\dfrac14x+40$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "### Finding the equation of the line  We need the slope and the $y$-intercept to find the equation of the linear model.  This line goes through $(0,40)$ and $(20,35)$, so the slope is $\\dfrac{35-40}{20-0} = -\\dfrac14$.  We can see that the line passes through $(0,40)$, so the $y$-intercept is $40$.  **The equation that best describes the model is $\\hat y=-\\dfrac14x+40$.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "### Using the line to make a prediction  To estimate the price of a car that had been driven $56$ thousand kilometers, we can plug in $56$ for $x$ in the equation like this:  $\\begin{align}\\hat y&=-\\dfrac14x+40\\\\ \\hat y&=\\left(-\\dfrac14\\right)\\left(56\\right)+40\\\\ \\hat y&=-14+40\\\\ \\hat y&=26\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "### The answers  The equation of the model shown is $\\hat y=-\\dfrac14x+40$.  Based on this equation, we estimate a car that has been driven $56$ thousand kilometers to cost $26$ thousand dollars.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A random sample of people was asked to report the age and distance driven of their primary car. A line was fit to the data to model the relationship.    **Which of these linear equations best describes the given model?**    **Based on this equation, estimate the kilometers driven on a car whose age is $7$ years.**     thousand kilometers",
+                                "images": [
+                                    {
+                                        "alt": "A scatterplot plots points x y axis. The y axis is labeled Kilometers driven in thousands. The x axis is labeled Age in years. Points rise diagonally in a relatively narrow pattern between (75 hundredths, 1 half) and (3, 7). The line passes between the points (1, 2) and (3, 7). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/daaa0da608c95fea1a2aa731c1c61070f65087f8.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "89",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "$\\hat y=x+5$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\hat y=12x+5$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\hat y=x-5$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\hat y=12x-5$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "### Finding the equation of the line  We need the slope and the $y$-intercept to find the equation of the linear model.  This line goes through $(0,5)$ and $(5,65)$, so the slope is $\\dfrac{65-5}{5-0} = 12$.  We can see that the line passes through $(0,5)$, so the $y$-intercept is $5$.  **The equation that best describes the model is $\\hat y=12x+5$.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "### Using the line to make a prediction  To estimate the kilometers driven on a car whose age is $7$ years, we can plug in $7$ for $x$ in the equation like this:  $\\begin{align}\\hat y&=12x+5\\\\ \\hat y&=\\left(12\\right)\\left(7\\right)+5\\\\ \\hat y&=84+5\\\\ \\hat y&=89\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "### The answers  The equation of the model shown is $\\hat y=12x+5$.  Based on this equation, we estimate a car whose age is $7$ years to have driven $89$ thousand kilometers.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Tess plants flowers every year, and she noticed that her flowers tend to bloom earlier when the spring weather is warmer. She collected data for the past $6$ years on the average March temperature where she lives, and the date in April her first flowers bloomed that year. A line was fit to the data to model the relationship.    **Which of these linear equations best describes the given model?**    **Based on this equation, estimate the date in April her flowers will bloom if the average temperature in March is $5.5^\\circ\\text{C}.$**   *Round your answer to the nearest whole number.*   of April",
+                                "images": [
+                                    {
+                                        "alt": "A scatterplot plots points x y axis. The y axis is labeled Date in April of first bloom. The x axis is labeled Average March temperature in degrees Celsius. Points fall diagonally in a relatively narrow pattern between (25 hundredths, 29) and (10 and 1 half, 8). The line passes between the points (0, 28) and (11, 6). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/56c0b9d337cc19647d699ff9e52674ad72ebae1b.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "17",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "$\\hat y=-x+28$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\hat y=x+28$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\hat y=-2x+28$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\hat y=2x+28$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "### Finding the equation of the line  We need the slope and the $y$-intercept to find the equation of the linear model.  This line goes through $(0,28)$ and $(1,26)$, so the slope is $\\dfrac{26-28}{1-0} = -2$.  We can see that the line passes through $(0,28)$, so the $y$-intercept is $28$.  **The equation that best describes the model is $\\hat y=-2x+28$.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "### Using the line to make a prediction  To estimate the date in April her flowers will bloom if the average temperature in March is $5.5^\\circ\\text{C}$, we can plug in $5.5$ for $x$ in the equation like this:  $\\begin{align}\\hat y&=-2x+28\\\\ \\hat y&=\\left(-2\\right)\\left(5.5\\right)+28\\\\ \\hat y&=-11+28\\\\ \\hat y&=17\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "### The answers  The equation of the model shown is $\\hat y=-2x+28$.  Based on this equation, we estimate that the first bloom will happen on day $17$ of April if the average temperature in May is $5.5^\\circ\\text{C.}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "type 1"
+                    }
+                }
+            }
+        }
+    ]
+}

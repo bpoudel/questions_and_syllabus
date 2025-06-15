@@ -1,0 +1,1387 @@
+{
+    "standard_metadata": {
+        "standard_id": "6.SP.B.5.c",
+        "standard_description": "Giving quantitative measures of center (median and/or mean) and variability (interquartile range and/or mean absolute deviation), as well as describing any overall pattern and any striking deviations from the overall pattern with reference to the context in which the data were gathered.",
+        "standard_title": "Mean absolute deviation (MAD)",
+        "standard_url": "https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-data-statistics/cc-6-mad/e/calculating-the-mean-absolute-deviation--mad-"
+    },
+    "id": "x986bad35",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following table shows the number of points scored last basketball game by each player on the Dragons basketball team.  Player | Number of points scored - | :-:  Daniela | $5$ Isabella | $8$  Rafaela | $11$ Beatriz | $7$  Kalin | $9$  **Find the mean absolute deviation (MAD) of the data set.**     points",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "1.6",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **mean absolute deviation** (MAD) is the mean of the distances from the mean.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "First, let's find the mean.  $\\dfrac{5 + 8 + 11 + 7 + 9}{5} = \\dfrac{40}{5} = \\blueD8\\text{ points}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Next, let's find the distance each data point is from the mean.  Data point | Distance from the mean :-: | :-:  $5$ | $\\blueD8-5 = 3$  $8$ | $8-\\blueD8 = 0$  $11$ | $11-\\blueD8= 3$  $7$ | $\\blueD8-7= 1$  $9$| $9-\\blueD8= 1$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Finally, we find the mean of the distances from the mean.  $\\dfrac{3 + 0 + 3 + 1 + 1}{5} = \\dfrac{8}{5}= 1.6\\text{ points}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The mean absolute deviation of the number of points is $1.6$ points.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Only Type"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following table shows the number of raisins in a scoop of a variety of brands of raisin bran cereal.  Brand | Number of raisins - | :-: Generic | $5$ Clayton's| $9$ Good2go | $5$  Right from Nature |  $5$ Morning meal | $7$ Mmmm | $11$  **Find the mean absolute deviation (MAD) of the data set.**     raisins",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "2",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **mean absolute deviation** (MAD) is the mean of the distances from the mean.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "First, let's find the mean.  $\\dfrac{5+9+5+5+7+11}{6} = \\dfrac{42}{6}= \\blueD7 \\text{ raisins}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Next, let's find the distance each data point is from the mean.  Data point | Distance from the mean :-: | :-:   $5$ | $\\blueD{7}-5= 2$  $9$ | $9-\\blueD7 = 2$  $5$ | $\\blueD{7}-5= 2$  $5$ | $\\blueD{7}-5= 2$  $7$ | $7-\\blueD{7}= 0$  $11$ | $11-\\blueD7 = 4$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Finally, we find the mean of the distances from the mean.  $\\dfrac{2+2+2+2+0+4}{6} = \\dfrac{12}{6}= 2 \\text{ raisins}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The mean absolute deviation of the number of raisins is $2$ raisins.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Only Type"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following table shows the number of lemons that grew on Mary's lemon tree each season.  Season | Number of lemons - | :-: Winter | $3$ Spring| $15$ Summer | $21$  Fall |  $13$  **Find the mean absolute deviation (MAD) of the data set.**     lemons",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **mean absolute deviation** (MAD) is the mean of the distances from the mean.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "First, let's find the mean.  $\\dfrac{3+15+21+13}{4} = \\dfrac{52}{4}= \\blueD{13} \\text{ lemons}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Next, let's find the distance each data point is from the mean.  Data point | Distance from the mean :-: | :-:   $3$ | $\\blueD{13}-3 = 10$  $15$ | $15-\\blueD{13} = 2$  $21$ | $21-\\blueD{13} = 8$  $13$ | $13-\\blueD{13} = 0$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Finally, we find the mean of the distances from the mean.  $\\dfrac{10+2+8+0}{4} = \\dfrac{20}{4}= 5 \\text{ lemons}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The mean absolute deviation of the number of lemons is $5$ lemons.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Only Type"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following table shows the distance from Tessa's house to several different locations.  Location |School |Library |Park |Movie theater| - | :-: | :-:| :-:| :-: **Distance from Tessa's house (in kilometers)**| $3$| $5$ |  $4$| $4$  **Find the mean absolute deviation (MAD) of the data set.**    $\\text{km}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **mean absolute deviation** (MAD) is the mean of the distances from the mean.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "First, let's find the mean.  $\\dfrac{3+5+4+4}{4} = \\dfrac{16}{4}= \\blueD{4}\\text{ kilometers}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Next, let's find the distance each data point is from the mean.  Data point | Distance from the mean :-: | :-:   $3$ | $\\blueD{4}-3 = 1$  $5$ | $5-\\blueD{4} = 1$  $4$ | $4-\\blueD{4} = 0$  $4$ | $4-\\blueD{4} = 0$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Finally, we find the mean of the distances from the mean.  $\\dfrac{1+1+0+0}{4} = \\dfrac{2}{4}= 0.5 \\text{ kilometers}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The mean absolute deviation of the distances is $0.5$ kilometers.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Only Type"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following table shows the number of snow days each school district in Mill County had last winter.  School District |District $200$ |District $211$ |District $221$ |District $231$ |District $241$ | - | :-: | :-:| :-:| :-: **Number of snow days**| $6$| $8$ |  $3$| $2$| $6$   **Find the mean absolute deviation (MAD) of the data set.**     snow days",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "2",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **mean absolute deviation** (MAD) is the mean of the distances from the mean.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "First, let's find the mean.  $\\dfrac{6+8+3+2+6}{5} = \\dfrac{25}{5}= \\blueD{5} \\text{ snow days}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Next, let's find the distance each data point is from the mean.  Data point | Distance from the mean :-: | :-:   $6$ | $6-\\blueD{5} = 1$  $8$ | $8-\\blueD{5} = 3$  $3$ | $\\blueD{5}-3 = 2$  $2$ | $\\blueD{5}-2 = 3$  $6$ | $6-\\blueD{5} = 1$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Finally, we find the mean of the distances from the mean.  $\\dfrac{1+3+2+3+1}{5} = \\dfrac{10}{5}= 2\\text{ snow days}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The mean absolute deviation of the number of snow days is $2$ snow days.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Only Type"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following table shows the number of classes that each teacher in the math department at Wilburton High School teaches.  Teacher |Mr. Linn |Mrs. Ross|Mr. Riley |Ms. Moss | - | :-: | :-:| :-:| :-: **Number of classes**| $3$| $7$| $4$| $2$   **Find the mean absolute deviation (MAD) of the data set.**     classes",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "1.5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **mean absolute deviation** (MAD) is the mean of the distances from the mean.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "First, let's find the mean.  $\\dfrac{3+7+4+2}{4} = \\dfrac{16}{4}= \\blueD{4}\\text{ classes}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Next, let's find the distance each data point is from the mean.  Data point | Distance from the mean :-: | :-:   $3$ | $\\blueD{4}-3 = 1$  $7$ | $7-\\blueD{4} = 3$  $4$ | $4-\\blueD{4} = 0$  $2$ | $\\blueD{4}-2 = 2$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Finally, we find the mean of the distances from the mean.  $\\dfrac{1+3+0+2}{4} = \\dfrac{6}{4}= 1.5 \\text{ classes}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The mean absolute deviation of the number of classes is $1.5$ classes.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Only Type"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following data points represent the yearly salaries of high school cheerleading coaches in Dakota County (in thousands of dollars).  $\\qquad  41,38,  36 , 57, 43$   **Find the mean absolute deviation (MAD) of the data set.**    thousand dollars",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "5.6",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **mean absolute deviation** (MAD) is the mean of the distances from the mean.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "First, let's find the mean.  $\\dfrac{41+38+36+57+43}{5} = \\dfrac{215}{5}= \\blueD{43} \\text{ thousand dollars}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Next, let's find the distance each data point is from the mean.  Data point | Distance from the mean :-: | :-:   $41$ | $\\blueD{43}-41 = 2$  $38$ | $\\blueD{43}-38 = 5$  $36$ | $\\blueD{43}-36 = 7$  $57$ | $57-\\blueD{43} = 14$  $43$ | $43-\\blueD{43} = 0$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Finally, we find the mean of the distances from the mean.  $\\dfrac{2+5+7+14+0}{5} = \\dfrac{28}{5}= 5.6 \\text{ thousand dollars}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The mean absolute deviation of the salaries is $5.6$ thousand dollars.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Only Type"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Sebastian observed the number of minutes his dormmates spent on social media sites while they were at the library. He reported his data in the following list.  $\\qquad  13,0 ,  14 , 36, 18, 9$  **Find the mean absolute deviation (MAD) of the data set.**     minutes",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "8",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **mean absolute deviation** (MAD) is the mean of the distances from the mean.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "First, let's find the mean.  $\\dfrac{13+0+14+36+18+9}{6} = \\dfrac{90}{6}= \\blueD{15} \\text{ minutes}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Next, let's find the distance each data point is from the mean.  Data point | Distance from the mean :-: | :-:   $13$ | $\\blueD{15}-13 = 2$  $0$ | $\\blueD{15}-0 = 15$  $14$ | $\\blueD{15}-14 = 1$  $36$ | $36-\\blueD{15} = 21$  $18$ | $18-\\blueD{15} = 3$  $9$ | $\\blueD{15}-9 = 6$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Finally, we find the mean of the distances from the mean.  $\\dfrac{2+15+1+21+3+6}{6} = \\dfrac{48}{6}= 8\\text{ minutes}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The mean absolute deviation of the times is $8$ minutes.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Only Type"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following data points represent the number of alligators in each body of water near Tom's house.  $\\qquad  8, 5 ,  12, 15$  **Find the mean absolute deviation (MAD) of the data set.**     alligators",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "3.5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **mean absolute deviation** (MAD) is the mean of the distances from the mean.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "First, let's find the mean.  $\\dfrac{8+5+12+15}{4} = \\dfrac{40}{4}= \\blueD{10} \\text{ alligators}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Next, let's find the distance each data point is from the mean.  Data point | Distance from the mean :-: | :-:   $8$ | $\\blueD{10}-8 = 2$  $5$ | $\\blueD{10}-5 = 5$  $12$ | $12-\\blueD{10} = 2$  $15$ | $15-\\blueD{10} = 5$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Finally, we find the mean of the distances from the mean.  $\\dfrac{2+5+2+5}{4} = \\dfrac{14}{4}= 3.5 \\text{ alligators}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The mean absolute deviation of the number of alligators is $3.5$ alligators.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Only Type"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Thelma counted the number of apples on each of the apple trees in her backyard. She found $34$ apples on her Cortland apple tree, $29$ apples on her Red Delicious apple tree, $39$ apples on her Empire apple tree, and $34$ apples on her Fuji apple tree.   **Find the mean absolute deviation (MAD) of the data set.**     apples",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "2.5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **mean absolute deviation** (MAD) is the mean of the distances from the mean.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "First, let's find the mean.  $\\dfrac{34+29+39+34}{4} = \\dfrac{136}{4}= \\blueD{34} \\text{ apples}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Next, let's find the distance each data point is from the mean.  Data point | Distance from the mean :-: | :-:   $34$ | $34-\\blueD{34} = 0$  $29$ | $\\blueD{34}-29 = 5$  $39$ | $39-\\blueD{34} = 5$  $34$ | $34-\\blueD{34} = 0$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Finally, we find the mean of the distances from the mean.  $\\dfrac{0+5+5+0}{4} = \\dfrac{10}{4}= 2.5\\text{ apples}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The mean absolute deviation of the number of apples is $2.5$ apples.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Only Type"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Manager Mark counted the number of innings each Shire Sharks pitcher pitched during the Soiltop Tournament. Calvin pitched $11$ innings, Brody pitched $5$ innings, Thom pitched $12$ innings, Shawn pitched $7$ innings, and Harley pitched $5$ innings.  **Find the mean absolute deviation (MAD) of the data set.**     innings",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "2.8",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **mean absolute deviation** (MAD) is the mean of the distances from the mean.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "First, let's find the mean.  $\\dfrac{11+5+12+7+5}{5} = \\dfrac{40}{5}= \\blueD{8} \\text{ innings}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Next, let's find the distance each data point is from the mean.  Data point | Distance from the mean :-: | :-:   $11$ | $11-\\blueD{8} = 3$  $5$ | $\\blueD{8}-5 = 3$  $12$ | $12-\\blueD{8} = 4$  $7$ | $\\blueD{8}-7 = 1$  $5$ | $\\blueD{8}-5 = 3$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Finally, we find the mean of the distances from the mean.  $\\dfrac{3+3+4+1+3}{5} = \\dfrac{14}{5}= 2.8\\text{ innings}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The mean absolute deviation of the number of innings is $2.8$ innings.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Only Type"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A group of friends went to play minigolf at Adventureland. Anna's score was $26$ putts, Daniela's score was $31$ putts, Luiza's score was $39$ putts, and Vera's score was $32$ putts.   **Find the mean absolute deviation (MAD) of the data set.**    putts",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "3.5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **mean absolute deviation** (MAD) is the mean of the distances from the mean.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "First, let's find the mean.  $\\dfrac{26+31+39+32}{4} = \\dfrac{128}{4}= \\blueD{32} \\text{ putts}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Next, let's find the distance each data point is from the mean.  Data point | Distance from the mean :-: | :-:   $26$ | $\\blueD{32}-26 = 6$  $31$ | $\\blueD{32}-31 = 1$  $39$ | $39-\\blueD{32} = 7$  $32$ | $32-\\blueD{32} = 0$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Finally, we find the mean of the distances from the mean.  $\\dfrac{6+1+7+0}{4} = \\dfrac{14}{4}= 3.5\\text{ putts}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The mean absolute deviation of the number of putts is $3.5$ putts.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Only Type"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Find the mean absolute deviation (MAD) of the data in the dot plot below.**   $\\text{g}$",
+                                "images": [
+                                    {
+                                        "alt": "A number line labeled Mass of each rock in Ricardo's collection is labeled from left to right 35 through 45 scaling by ones. The number line is labeled Mass in grams. The dot distribution is as follows: 35, 1; 39, 1; 40, 2;  42, 1; 44, 1.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/763139dcedb3cea8f918727bc328d252cccba2cd.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "2",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **mean absolute deviation** (MAD) is the mean of the distances from the mean.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "First, let's find the mean.  $\\dfrac{35+39+40+40+42+44}{6}= \\dfrac{240}{6} = \\blueD{40} \\text{ grams}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Next, let's find the distance each data point is from the mean.  Data point | Distance from the mean :-: | :-:   $35$ | $\\blueD{40}-35 = 5$  $39$ | $\\blueD{40}-39 = 1$  $40$ | $40-\\blueD{40} = 0$  $40$ | $40-\\blueD{40} = 0$  $42$ | $42-\\blueD{40} = 2$  $44$ | $44-\\blueD{40} = 4$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Finally, we find the mean of the distances from the mean.  $\\dfrac{5+1+0+0+2+4}{6} = \\dfrac{12}{6}= 2\\text{ grams}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The mean absolute deviation of the masses is $2$ grams.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Only Type"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Find the mean absolute deviation (MAD) of the data in the dot plot below.**   goals",
+                                "images": [
+                                    {
+                                        "alt": "A dot plot labeled Lottie's lacrosse scoring in each season. The number line labeled number of goals is labeled from left to right 22 through 27 scaling by ones. The dot distribution is as follows: 22, 1; 23, 2; 25, 1;  27, 1.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/c88cf68663b0b2166ba574e80c92c9b3875e485d.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "1.6",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **mean absolute deviation** (MAD) is the mean of the distances from the mean.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "First, let's find the mean.  $\\dfrac{22+23+23+25+27}{5} = \\dfrac{120}{5}= \\blueD{24} \\text{ goals}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Next, let's find the distance each data point is from the mean.  Data point | Distance from the mean :-: | :-:   $22$ | $\\blueD{24}-22 = 2$  $23$ | $\\blueD{24}-23 = 1$  $23$ | $\\blueD{24}-23 = 1$  $25$ | $25-\\blueD{24} = 1$  $27$ | $27-\\blueD{24} = 3$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Finally, we find the mean of the distances from the mean.  $\\dfrac{2+1+1+1+3}{5} = \\dfrac{8}{5}= 1.6\\text{ goals}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The mean absolute deviation of the number of goals is $1.6$ goals.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Only Type"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Find the mean absolute deviation (MAD) of the data in the dot plot below.**   chocolate chips  $$",
+                                "images": [
+                                    {
+                                        "alt": "A dot plot labeled chocolate chips in different cookies in a package. The number line is labeled Number of chocolate chips. The distribution is as follows: 0, 1; 1, 1; 2, 1; 4, 1; 5, 1; 6, 1.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/3b10ee0a3d17117d1c17f134529a9f698d4166e3.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "2",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **mean absolute deviation** (MAD) is the mean of the distances from the mean.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "First, let's find the mean.  $\\dfrac{0+1+2+4+5+6}{6} = \\dfrac{18}{6}= \\blueD{3} \\text{ chocolate chips}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Next, let's find the distance each data point is from the mean.  Data point | Distance from the mean :-: | :-:   $0$ | $\\blueD{3}-0 = 3$  $1$ | $\\blueD{3}-1 = 2$  $2$ | $\\blueD{3}-2 = 1$  $4$ | $4-\\blueD{3} = 1$  $5$ | $5-\\blueD{3} = 2$  $6$ | $6-\\blueD{3} = 3$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Finally, we find the mean of the distances from the mean.  $ \\dfrac{3+2+1+1+2+3}{6} = \\dfrac{12}{6}= 2\\text{ chocolate chips}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The mean absolute deviation of the number of chocolate chips is $2$ chocolate chips.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Only Type"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Find the mean absolute deviation (MAD) of the data in the bar chart below.**   coins  $$",
+                                "images": [
+                                    {
+                                        "alt": "A bar graph labeled coins collected by each person in a scavenger hunt the vertical axis labeled Gold coins. The horizontal axis is Scavenger, from left to right: Julia, Alice, Davi, Lucas, and Carter. The vertical axis is labeled from the bottom of the axis to the top of the axis as follows: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10. The bar line for person shows the following: Julia bar line extends to 5, Alice bar line extends to 6, Davi bar line extends to 5, Lucas bar line extends to 6, and Carter bar line extends to 8.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/80fb0028edde0dac8d7dd641986d629b2da433cd.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "0.8",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **mean absolute deviation** (MAD) is the mean of the distances from the mean.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "First, let's find the mean.  $\\dfrac{5+6+5+6+8}{5} = \\dfrac{30}{5}= \\blueD{6} \\text{ coins}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Next, let's find the distance each data point is from the mean.  Data point | Distance from the mean :-: | :-:   $5$ | $\\blueD{6}-5 = 1$  $6$ | $6-\\blueD{6} = 0$  $5$ | $\\blueD{6}-5 = 1$  $6$ | $6-\\blueD{6} = 0$  $8$ | $8-\\blueD{6} = 2$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Finally, we find the mean of the distances from the mean.  $\\dfrac{1+0+1+0+2}{5} = \\dfrac{4}{5}= 0.8\\text{ coins}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The mean absolute deviation of the number of coins is $0.8$ coins.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Only Type"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Find the mean absolute deviation (MAD) of the data in the bar chart below.**   bubbles  $$",
+                                "images": [
+                                    {
+                                        "alt": "A bar graph labeled Bubbles blown by each gum chewer. The vertical axis labeled Number of bubbles. The horizontal axis is labeled Person, The bar line for person shows the following: Manueala bar line extends to 4, Sophia bar line extends to 5, Jada bar line extends to 6, Tara bar line extends to 1.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/6ba6c1c4dba10e817279fd072178850e07a31d5c.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "1.5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **mean absolute deviation** (MAD) is the mean of the distances from the mean.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "First, let's find the mean.  $\\dfrac{4+5+6+1}{4} = \\dfrac{16}{4}= \\blueD{4} \\text{ bubbles}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Next, let's find the distance each data point is from the mean.  Data point | Distance from the mean :-: | :-:   $4$ | $4-\\blueD{4} = 0$  $5$ | $5-\\blueD{4} = 1$  $6$ | $6-\\blueD{4} = 2$  $1$ | $\\blueD{4}-1 = 3$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Finally, we find the mean of the distances from the mean.  $\\dfrac{0+1+2+3}{4} = \\dfrac{6}{4}= 1.5\\text{ bubbles}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The mean absolute deviation of the number of bubbles is $1.5$ bubbles.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Only Type"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Find the mean absolute deviation (MAD) of the data in the bar chart below.**   albums  $$",
+                                "images": [
+                                    {
+                                        "alt": "A bar graph labeled Albums released by each artist. The vertical axis labeled Number of Albums. The horizontal axis is labeled Artist, The bar line for person shows the following: Lil Shane bar line extends to 7, Ben Raises bar line extends to 9, Nicky bar line extends to 6, Underdog bar line extends to 6.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/d6f896d9d7ad3b2760d25beaf2f759991cfa96b7.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "1",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **mean absolute deviation** (MAD) is the mean of the distances from the mean.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "First, let's find the mean.  $\\dfrac{7+9+6+6}{4} = \\dfrac{28}{4}= \\blueD{7} \\text{ albums}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Next, let's find the distance each data point is from the mean.  Data point | Distance from the mean :-: | :-:   $7$ | $7-\\blueD{7} = 0$  $9$ | $9-\\blueD{7} = 2$  $6$ | $\\blueD{7}-6 = 1$  $6$ | $\\blueD{7}-6 = 1$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Finally, we find the mean of the distances from the mean.  $\\dfrac{0+2+1+1}{4} = \\dfrac{4}{4}= 1\\text{ album}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The mean absolute deviation of the number of albums is $1$ album.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Only Type"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Find the mean absolute deviation (MAD) of the data in the pictograph below.**   pieces of stinky cheese  $$",
+                                "images": [
+                                    {
+                                        "alt": "A picture graph labeled Pieces of stinky cheese in each student's lunch box. The vertical axis is labeled Stinky cheese. The horizontal axis is labeled Student. The names from left to right on the horizontal axis are Caroline, Samuel, Abby, and Jason. There are 2 cheese pictures above Caroline. There are 4 cheese pictures above Samuel. There are 4 cheese pictures above Abby. There are 2 cheese pictures above Jason.  ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/b902e1cae23fcea794205e3ac869a5f846e5463e.svg"
+                                    },
+                                    {
+                                        "alt": "The key says 1 cheese picture equals 1 piece of cheese. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/e03aa248da60c54d5eb88e9abb05debcbd6abc3d.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "1",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **mean absolute deviation** (MAD) is the mean of the distances from the mean.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "First, let's find the mean.  $\\dfrac{2+4+4+2}{4} = \\dfrac{12}{4}= \\blueD{3} \\text{ pieces of stinky cheese}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Next, let's find the distance each data point is from the mean.  Data point | Distance from the mean :-: | :-:   $2$ | $\\blueD{3}-2 = 1$  $4$ | $4-\\blueD{3} = 1$  $4$ | $4-\\blueD{3} = 1$  $2$ | $\\blueD{3}-2 = 1$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Finally, we find the mean of the distances from the mean.  $\\dfrac{1+1+1+1}{4} = \\dfrac{4}{4}= 1\\text{ piece}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The mean absolute deviation of the number of pieces is $1$ piece.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Only Type"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Find the mean absolute deviation (MAD) of the data in the pictograph below.**   home runs",
+                                "images": [
+                                    {
+                                        "alt": "A picture graph labeled Home runs hit by each team in a baseball league. The vertical axis is labeled Home runs. The horizontal axis is labeled Team. The names from left to right on the horizontal axis are Lancers, Huskies, Grizzlies, and Raiders. There are 7 baseball pictures above Lancers. There are 2 baseballs above Huskies. There are 4 baseballs above Grizzlies. There are 3 baseballs above Raiders.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/837c58b4e856ef640f634afb303788596ba60f37.svg"
+                                    },
+                                    {
+                                        "alt": "The key says 1 baseballs picture equals 1 home run.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/d091fa0a97eaef4b272ad7e16e97af351fba0fd3.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "1.5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **mean absolute deviation** (MAD) is the mean of the distances from the mean.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "First, let's find the mean.  $\\dfrac{7+2+4+3}{4} = \\dfrac{16}{4}= \\blueD{4} \\text{ home runs}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Next, let's find the distance each data point is from the mean.  Data point | Distance from the mean :-: | :-:   $7$ | $7-\\blueD{4} = 3$  $2$ | $\\blueD{4}-2 = 2$  $4$ | $4-\\blueD{4} = 0$  $3$ | $\\blueD{4}-3 = 1$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Finally, we find the mean of the distances from the mean.  $\\dfrac{3+2+0+1}{4} = \\dfrac{6}{4}= 1.5\\text{ home runs}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The mean absolute deviation of the number of home runs is $1.5$ home runs.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Only Type"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Find the mean absolute deviation (MAD) of the data in the pictograph below.**    wands",
+                                "images": [
+                                    {
+                                        "alt": "A picture graph labeled Wands held by fairies in Fairyland. The vertical axis is labeled Magical wands. The horizontal axis is labeled Fairy name. The names from left to right on the horizontal axis are Glenda, Sprinkle, Godmother, and Rosebud. There are 5 wands above Glenda. There are 3 wands above Sprinkle. There are 3 wands above Godmother. There are 5 wands above Rosebud.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/13f958209ee3d9aa49cf5260742014ac5e90fad4.svg"
+                                    },
+                                    {
+                                        "alt": "The key says 1 wand picture equals 1 wand.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/9a5142c899e0bb28e344bd5141f8f8b493913c40.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "1",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **mean absolute deviation** (MAD) is the mean of the distances from the mean.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "First, let's find the mean.  $\\dfrac{5+3+3+5}{4} = \\dfrac{16}{4}= \\blueD{4} \\text{ wands}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Next, let's find the distance each data point is from the mean.  Data point | Distance from the mean :-: | :-:   $5$ | $5-\\blueD{4} = 1$  $3$ | $\\blueD{4}-3 = 1$  $3$ |  $\\blueD{4}-3 = 1$  $5$ | $5-\\blueD{4} = 1$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Finally, we find the mean of the distances from the mean.  $\\dfrac{1+1+1+1}{4} = \\dfrac{4}{4}= 1\\text{ wand}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The mean absolute deviation of the number of wands is $1$ wand.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Only Type"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Find the mean absolute deviation (MAD) of the data in the pictograph below.**   wands",
+                                "images": [
+                                    {
+                                        "alt": "A picture graph labeled Wands each fairy owns. The vertical axis is labeled Wands. The horizontal axis is labeled Fairy. The names from left to right on the horizontal axis are Glenda, Tink, Merry, and Gracie. There are 2 wands above Glenda. There are 3 wands above Tink. There are 4 wands above Merry. There are 5 wands above Gracie.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/69f134b85dd220b0e13715500d5df77bb30db249.svg"
+                                    },
+                                    {
+                                        "alt": "The key says 1 wand picture equals 2 wand.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/ff4db17d5ccaae5cf70032ee71395c165152ba60.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "2",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "First, notice that each picture of a wand represents $2$ wands owned.  For example, Glenda owns $2 \\times 2 = 4$ wands.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The **mean absolute deviation** (MAD) is the mean of the distances from the mean.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Now, let's find the mean.  $\\dfrac{4+6+8+10}{4} = \\dfrac{28}{4}= \\blueD{7} \\text{ wands}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Next, let's find the distance each data point is from the mean.  Data point | Distance from the mean :-: | :-:   $4$ | $\\blueD{7}-4 = 3$  $6$ | $\\blueD{7}-6 = 1$  $8$ | $8-\\blueD{7} = 1$  $10$ | $10-\\blueD{7} = 3$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Finally, we find the mean of the distances from the mean.  $\\dfrac{3+1+1+3}{4} = \\dfrac{8}{4}= 2\\text{ wands}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The mean absolute deviation of the number of wands is $2$ wands.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Only Type"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Find the mean absolute deviation (MAD) of the data in the pictograph below.**    baskets",
+                                "images": [
+                                    {
+                                        "alt": "A picture graph labeled Baskets each student made. The vertical axis is labeled Baskets made. The horizontal axis is labeled Student. The names from left to right on the horizontal axis are Reynaldo, Marcelle, Allie, and Fernando. There are two basketball pictures above Reynaldo. There are four basketball pictures above Marcelle. There are three basketball pictures above Allie. There are five basketball pictures above Fernando. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/936e28639bd9966bb093facbc4121745356d67aa.svg"
+                                    },
+                                    {
+                                        "alt": "The key says one basketball picture equals two baskets. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/81083ac1fc3d06ebdfe39b1531463945e9b50c68.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "2",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "First, notice that each picture of a basketball represents $2$ baskets.  For example, Reynaldo made $2 \\times 2 = 4$ baskets.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The **mean absolute deviation** (MAD) is the mean of the distances from the mean.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Now, let's find the mean.  $\\dfrac{4+8+6+10}{4}= \\dfrac{28}{4} = \\blueD{7} \\text{ baskets}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Next, let's find the distance each data point is from the mean.  Data point | Distance from the mean :-: | :-:   $4$ | $\\blueD{7}-4 = 3$  $8$ | $8-\\blueD{7} = 1$  $6$ | $\\blueD{7}-6 = 1$  $10$ | $10-\\blueD{7} = 3$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Finally, we find the mean of the distances from the mean.  $\\dfrac{3+1+1+3}{4} = \\dfrac{8}{4}= 2\\text{ baskets}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The mean absolute deviation of the number of baskets is $2$ baskets.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Only Type"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Find the mean absolute deviation (MAD) of the data in the pictograph below.**    sundaes",
+                                "images": [
+                                    {
+                                        "alt": "A picture graph labeled Sundaes each store made on Monday. The vertical axis is labeled Sundaes made on Monday. The horizontal axis is labeled Store. The store names from left to right on the horizontal axis are Two Scoops, I Scream, Dream Cream, and Sundays. There are 4 bowls of ice cream above Two Scoops. There are 6 bowls of ice cream above I Scream. There are 2 bowls of ice cream above Dream Cream. There are 4 bowls of ice cream above Sundays.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/5d30ae927c5f057c44234310ff2fcab76c5f4b53.svg"
+                                    },
+                                    {
+                                        "alt": "The key says one sundae picture equals two sundaes. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/e118d6ff45d3dcbdbd116f7a55d7934f199c4c58.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "2",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "First, notice that each picture of a sundae represents $2$ sundaes.  For example, TwoScoops made $4 \\times 2 = 8$ sundaes.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The **mean absolute deviation** (MAD) is the mean of the distances from the mean.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Now, let's find the mean.  $\\dfrac{8+12+4+8}{4} = \\dfrac{32}{4}= \\blueD{8} \\text{ sundaes}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Next, let's find the distance each data point is from the mean.  Data point | Distance from the mean :-: | :-:   $8$ | $8-\\blueD{8} = 0$  $12$ | $12-\\blueD{8} = 4$  $4$ | $\\blueD{8}-4 = 4$  $8$ | $8-\\blueD{8} = 0$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Finally, we find the mean of the distances from the mean.  $\\dfrac{0+4+4+0}{4} = \\dfrac{8}{4}= 2\\text{ sundaes}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The mean absolute deviation of the number of sundaes is $2$ sundaes.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Only Type"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The Alstons ran a family relay race. Below are the distances that each of the six family members ran (in kilometers).         **Find the mean absolute deviation (MAD) of the data set.**    $\\text{ km}$",
+                                "images": [
+                                    {
+                                        "alt": "A rectangle made up by six identical rectangles. They make up 3 columns and 2 rows. The first row values are as follows: 3 tenths, 6 tenths, 5 tenths. The second row values are as follows: 1, 4 tenths, 8 tenths.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/9dddbc6a56cfcee0c81bce869e9ac3c13c361a33.png"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "0.2",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **mean absolute deviation** (MAD) is the mean of the distances from the mean.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "First, let's find the mean.  $\\dfrac{0.3 + 0.6 + 0.5 + 1 + 0.4 + 0.8}{6} = \\dfrac{3.6}{6}= \\blueD{0.6} \\text{ km}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Next, let's find the distance each data point is from the mean.  Data point | Distance from the mean :-: | :-:  $0.3$ | $\\blueD{0.6}-0.3 = 0.3$  $0.6$ | $0.6-\\blueD{0.6} = 0$  $0.5$ | $\\blueD{0.6}-0.5 = 0.1$  $1$ | $1-\\blueD{0.6} = 0.4$  $0.4$ | $\\blueD{0.6}-0.4 = 0.2$  $0.8$ | $0.8-\\blueD{0.6} = 0.2$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Finally, we find the mean of the distances from the mean.  $\\dfrac{0.3 + 0 + 0.1 + 0.4 + 0.2 + 0.2}{6} = \\dfrac{1.2}{6}= 0.2 \\text{ km}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The mean absolute deviation of the distances is $0.2\\text{ km}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Only Type"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A family went out to eat. Below is the number of corn dogs that each of the four people ate.         **Find the mean absolute deviation (MAD) of the data set.**     corn dogs",
+                                "images": [
+                                    {
+                                        "alt": "A rectangle made up by four identical rectangles. They make up 4 columns and 1 row. The row values are as follows: 1 and 1 half, 0, 4, 2 and 1 half. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/eaa36ef9f911a5b2e133969260f1f93afb171b3b.png"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "1.25",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **mean absolute deviation** (MAD) is the mean of the distances from the mean.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "First, let's find the mean.  $\\dfrac{1 \\dfrac12 + 0 + 4 + 2 \\dfrac12}{4} = \\dfrac{8}{4}= \\blueD{2} \\text{ corn dogs}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Next, let's find the distance each data point is from the mean.  Data point | Distance from the mean :-: | :-:  $1 \\dfrac12$ | $\\blueD{2}-1 \\dfrac12 = \\dfrac12$  $0$ | $\\blueD{2}-0 = 2$  $4$ | $4-\\blueD{2} = 2$  $2 \\dfrac12$ | $2 \\dfrac12-\\blueD{2} = \\dfrac12$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Finally, we find the mean of the distances from the mean.  $\\dfrac{\\dfrac12 + 2 + 2 + \\dfrac12}{4} = \\dfrac{5}{4}= 1.25\\text{ corn dogs}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The mean absolute deviation of the number of corn dogs is $1.25$ corn dogs.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Only Type"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Below are the distances that each of Davi the Dragon Keeper's four dragons can blow fire (in meters).     **Find the mean absolute deviation (MAD) of the data set.**     $\\text{ m}$",
+                                "images": [
+                                    {
+                                        "alt": "A rectangle made up by four identical rectangles. They make up 4 columns and 1 row. The row values are as follows: 9 tenths, 1 half, 3 tenths, 1 and 1 tenth. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/9bb01d913b6848a9e076d0fa84326e707fa456c3.png"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "0.3",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **mean absolute deviation** (MAD) is the mean of the distances from the mean.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "First, let's find the mean.  $\\dfrac{0.9 + 0.5 + 0.3 + 1.1}{4} = \\dfrac{2.8}{4}= \\blueD{0.7} \\text{ m}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Next, let's find the distance each data point is from the mean.  Data point | Distance from the mean :-: | :-:  $0.9$ | $0.9-\\blueD{0.7} = 0.2$  $0.5$ | $\\blueD{0.7}-0.5 = 0.2$  $0.3$ | $\\blueD{0.7}-0.3 = 0.4$  $1.1$ | $1.1-\\blueD{0.7}= 0.4$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Finally, we find the mean of the distances from the mean.  $\\dfrac{0.2 + 0.2 + 0.4 + 0.4}{4} = \\dfrac{1.2}{4}= 0.3 \\text{ m}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The mean absolute deviation of the distances is $0.3\\text{ m}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Only Type"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Below are the distances from Jamar's house to each of the four restaurants in his town (in kilometers).       **Find the mean absolute deviation (MAD) of the data set.**    $\\text{ km}$",
+                                "images": [
+                                    {
+                                        "alt": "A rectangle made up by four identical rectangles. They make up 2 columns and 2 rows. The first row values are as follows: 4 tenths, 2 tenths. The second row values are as follows: 4 tenths, 6 tenths.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/086964df1d4810740269425b30984c3075561e7c.png"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "0.1",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **mean absolute deviation** (MAD) is the mean of the distances from the mean.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "First, let's find the mean.  $\\dfrac{0.4 + 0.2 + 0.4 + 0.6}{4} = \\dfrac{1.6}{4}= \\blueD{0.4} \\text{ km}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Next, let's find the distance each data point is from the mean.  Data point | Distance from the mean :-: | :-:  $0.4$ | $0.4-\\blueD{0.4} = 0$  $0.2$ | $\\blueD{0.4}-0.2 = 0.2$  $0.4$ | $0.4-\\blueD{0.4} = 0$  $0.6$ | $0.6-\\blueD{0.4} = 0.2$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Finally, we find the mean of the distances from the mean.  $\\dfrac{0 + 0.2 + 0 + 0.2}{4} = \\dfrac{0.4}{4}= 0.1 \\text{ km}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The mean absolute deviation of the distances is $0.1\\text{ km}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Only Type"
+                    }
+                }
+            }
+        }
+    ]
+}

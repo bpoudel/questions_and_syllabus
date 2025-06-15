@@ -1,0 +1,806 @@
+{
+    "standard_metadata": {
+        "standard_id": "8.F.B.4",
+        "standard_description": "Construct a function to model a linear relationship between two quantities. Determine the rate of change&nbsp; and initial value of the function from a description of a relationship or from two (<i>x, y</i>) values, including reading these from a table or from a graph. Interpret the rate of change and initial value of a linear function in terms of the situation it models, and in terms of its graph or a table of values.",
+        "standard_title": "Slope from two points",
+        "standard_url": "https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:linear-equations-graphs/x2f8bb11595b61c86:slope/e/slope-from-two-points"
+    },
+    "id": "x16af7528",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the slope of the line through $(1,0)$ and $(3,8)$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$4$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac14$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-4$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-\\dfrac14$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{Slope}=\\dfrac{\\text{Rise}}{\\text{Run}}=\\dfrac{\\text{Change in }y}{\\text{Change in }x}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{Slope}&=\\dfrac{8-0}{3-1} \\\\\\\\ &=\\dfrac{8}{2} \\\\\\\\ &=4 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The slope is $4$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Slope is positive integer"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the slope of the line through $(-1,-7)$ and $(3,9)$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$4$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac14$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-4$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-\\dfrac14$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{Slope}=\\dfrac{\\text{Rise}}{\\text{Run}}=\\dfrac{\\text{Change in }y}{\\text{Change in }x}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{Slope}&=\\dfrac{9-(-7)}{3-(-1)} \\\\\\\\ &=\\dfrac{16}{4} \\\\\\\\ &=4 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The slope is $4$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Slope is positive integer"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the slope of the line through $(-7,-2)$ and $(-6,7)$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$9$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac19$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-9$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-\\dfrac19$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{Slope}=\\dfrac{\\text{Rise}}{\\text{Run}}=\\dfrac{\\text{Change in }y}{\\text{Change in }x}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{Slope}&=\\dfrac{7-(-2)}{-6-(-7)} \\\\\\\\ &=\\dfrac{9}{1} \\\\\\\\ &=9 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The slope is $9$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Slope is positive integer"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the slope of the line through $(-2,-6)$ and $(2,2)$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$2$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac12$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-2$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-\\dfrac12$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{Slope}=\\dfrac{\\text{Rise}}{\\text{Run}}=\\dfrac{\\text{Change in }y}{\\text{Change in }x}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{Slope}&=\\dfrac{2-(-6)}{2-(-2)} \\\\\\\\ &=\\dfrac{8}{4} \\\\\\\\ &=2 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The slope is $2$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Slope is positive integer"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the slope of the line through $(-1,8)$ and $(3,-4)$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$-3$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-\\dfrac13$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$3$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac13$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{Slope}=\\dfrac{\\text{Rise}}{\\text{Run}}=\\dfrac{\\text{Change in }y}{\\text{Change in }x}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{Slope}&=\\dfrac{-4-8}{3-(-1)} \\\\\\\\ &=\\dfrac{-12}{4} \\\\\\\\ &=-3 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The slope is $-3$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Slope is negative integer"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the slope of the line through $(6,9)$ and $(7,1)$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$-8$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-\\dfrac18$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$8$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac18$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{Slope}=\\dfrac{\\text{Rise}}{\\text{Run}}=\\dfrac{\\text{Change in }y}{\\text{Change in }x}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{Slope}&=\\dfrac{1-9}{7-6} \\\\\\\\ &=\\dfrac{-8}{1} \\\\\\\\ &=-8 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The slope is $-8$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Slope is negative integer"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the slope of the line through $(-9,6)$ and $(-6,-9)$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$-5$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-\\dfrac15$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$5$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac15$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{Slope}=\\dfrac{\\text{Rise}}{\\text{Run}}=\\dfrac{\\text{Change in }y}{\\text{Change in }x}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{Slope}&=\\dfrac{-9-6}{-6-(-9)} \\\\\\\\ &=\\dfrac{-15}{3} \\\\\\\\ &=-5 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The slope is $-5$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Slope is negative integer"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the slope of the line through $(2,-2)$ and $(9,3)$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$\\dfrac57$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac75$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-\\dfrac57$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-\\dfrac75$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{Slope}=\\dfrac{\\text{Rise}}{\\text{Run}}=\\dfrac{\\text{Change in }y}{\\text{Change in }x}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{Slope}&=\\dfrac{3-(-2)}{9-2} \\\\\\\\ &=\\dfrac{5}{7} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The slope is $\\dfrac{5}{7}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3. Slope is positive fraction"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the slope of the line through $(-7,-8)$ and $(0,4)$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$\\dfrac{12}{7}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{7}{12}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-\\dfrac{12}{7}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-\\dfrac{7}{12}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{Slope}=\\dfrac{\\text{Rise}}{\\text{Run}}=\\dfrac{\\text{Change in }y}{\\text{Change in }x}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{Slope}&=\\dfrac{4-(-8)}{0-(-7)} \\\\\\\\ &=\\dfrac{12}{7} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The slope is $\\dfrac{12}{7}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3. Slope is positive fraction"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the slope of the line through $(-5,-10)$ and $(-1,5)$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$\\dfrac{15}{4}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{4}{15}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-\\dfrac{15}{4}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-\\dfrac{4}{15}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{Slope}=\\dfrac{\\text{Rise}}{\\text{Run}}=\\dfrac{\\text{Change in }y}{\\text{Change in }x}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{Slope}&=\\dfrac{5-(-10)}{-1-(-5)} \\\\\\\\ &=\\dfrac{15}{4} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The slope is $\\dfrac{15}{4}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3. Slope is positive fraction"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the slope of the line through $(-9,6)$ and $(-3,9)$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$\\dfrac12$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$2$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-\\dfrac12$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-2$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{Slope}=\\dfrac{\\text{Rise}}{\\text{Run}}=\\dfrac{\\text{Change in }y}{\\text{Change in }x}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{Slope}&=\\dfrac{9-6}{-3-(-9)} \\\\\\\\ &=\\dfrac{3}{6} \\\\\\\\ &=\\dfrac{1}{2} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The slope is $\\dfrac{1}{2}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3. Slope is positive fraction"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the slope of the line through $(-10,1)$ and $(0,-4)$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$-\\dfrac12$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-2$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac12$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$2$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{Slope}=\\dfrac{\\text{Rise}}{\\text{Run}}=\\dfrac{\\text{Change in }y}{\\text{Change in }x}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{Slope}&=\\dfrac{-4-1}{0-(-10)} \\\\\\\\ &=\\dfrac{-5}{10} \\\\\\\\ &=-\\dfrac{1}{2} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The slope is $-\\dfrac{1}{2}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "4. Slope is negative fraction"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the slope of the line through $(-9,-6)$ and $(3,-9)$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$-\\dfrac14$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-4$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac14$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$4$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{Slope}=\\dfrac{\\text{Rise}}{\\text{Run}}=\\dfrac{\\text{Change in }y}{\\text{Change in }x}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{Slope}&=\\dfrac{-9-(-6)}{3-(-9)} \\\\\\\\ &=\\dfrac{-3}{12} \\\\\\\\ &=-\\dfrac{1}{4} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The slope is $-\\dfrac{1}{4}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "4. Slope is negative fraction"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the slope of the line through $(-4,2)$ and $(3,-3)$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$-\\dfrac57$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-\\dfrac75$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac57$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac75$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{Slope}=\\dfrac{\\text{Rise}}{\\text{Run}}=\\dfrac{\\text{Change in }y}{\\text{Change in }x}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{Slope}&=\\dfrac{-3-2}{3-(-4)} \\\\\\\\ &=\\dfrac{-5}{7} \\\\\\\\ &=-\\dfrac{5}{7} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The slope is $-\\dfrac{5}{7}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "4. Slope is negative fraction"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the slope of the line through $(1,-1)$ and $(5,-7)$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$-\\dfrac32$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-\\dfrac23$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac32$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac23$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{Slope}=\\dfrac{\\text{Rise}}{\\text{Run}}=\\dfrac{\\text{Change in }y}{\\text{Change in }x}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{Slope}&=\\dfrac{-7-(-1)}{5-1} \\\\\\\\ &=\\dfrac{-6}{4} \\\\\\\\ &=-\\dfrac{3}{2} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The slope is $-\\dfrac{3}{2}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "4. Slope is negative fraction"
+                    }
+                }
+            }
+        }
+    ]
+}

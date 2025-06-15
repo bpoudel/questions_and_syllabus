@@ -1,0 +1,1003 @@
+{
+    "standard_metadata": {
+        "standard_id": "5.OA.A.2",
+        "standard_description": "Write simple expressions that record calculations with numbers, and interpret numerical expressions without evaluating them.",
+        "standard_title": "Create expressions with parentheses",
+        "standard_url": "https://www.khanacademy.org/math/cc-fifth-grade-math/imp-algebraic-thinking/imp-writing-expressions/e/creating-expressions-with-parenthesis"
+    },
+    "id": "x66b5c400",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Louise earned $\\$25$ by mowing a neighbor's yard. She mowed a few more yards and earned an additional $\\$75$. She mowed all of the same yards each week for a total of $5$ weeks, earning money at the same rate. At the end of the $5$ weeks, she spent $\\$250$.    **Which numerical expression shows the amount of money Louise has left?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$5\\times({25} + 75) - {250}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$(5\\times{25}) + 75 - {250}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$250 - (5\\times{25}) + 75$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Louise starts with earning $\\$\\blueE{25}$ for mowing a neighbor's yard.  $\\$\\blueE{25}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Then she earns $\\$\\tealE{75}$ for mowing more yards.  $\\$\\blueE{25} + \\$\\tealE{75}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "She did this for $\\maroonE{5}$ weeks, so we multiply the expression by $\\maroonE{5}$. To show that we are multiplying the whole expression by $\\maroonE{5}$, we can put the expression $\\blueE{25} + \\tealE{75}$ in parentheses.  $\\maroonE5\\times(\\blueE{25} + \\tealE{75})$  This tells us that everything inside the parentheses is being multiplied by $\\maroonE{5}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "At the end of the $\\maroonE5$ weeks, she spent $\\$\\purpleE{250}$, so we will subtract $\\purpleE{250}$ from $\\maroonE5\\times(\\blueE{25} + \\tealE{75})$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Our final expression is $\\maroonE5\\times(\\blueE{25} + \\tealE{75}) - \\purpleE{250}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Alan found $4$ marbles to add to the $5$ marbles in his collection. Then, he went to the store and tripled the number of marbles he had.    **Which numerical expression shows the amount of marbles Alan has now?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$3\\times(5 + 4)$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$5 + (4\\times3)$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$(4\\times5) + 3$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Alan has $\\blueD{5}$ marbles in collection.  $\\blueD{5}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "He found $\\greenD{4}$ marbles to add to his collection, so we add the $\\greenD{4}$ to the $\\blueD{5}$.  $\\blueD{5} + \\greenD{4}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "He tripled his amount of marbles, so we multiply by $\\maroonD3$. To show that we are multiplying the whole expression by $\\maroonD3$, we can put the expression $\\blueD{5} + \\greenD{4}$ in parentheses like this:  We put the $\\maroonD3$ outside of the parentheses.  $\\maroonD3\\times(\\blueD{5} + \\greenD{4})$  This tells us that everything inside the parentheses is being multiplied by $\\maroonD3$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Our final expression is $\\maroonD3\\times(\\blueD{5} + \\greenD{4})$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Jordan is chopping wood for the winter. For $10$ days in a row, he follows the same process:    In the morning, he chops $20$ pieces of wood, and in the evening, he chops an additional $30$ pieces of wood.  After Jordan chopped all the wood, he sorted the wood into $5$ equal-sized piles.  **Which numerical expression shows the amount of wood that would go into each pile?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$10\\times(20+30)\\div5$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$(10\\times20) + (30\\div5)$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$(5\\times20) + (30\\div10)$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Jordan chops $\\blueD{20}$ pieces of wood in the morning.   $\\blueD{20}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Then he chops $\\greenD{30}$ more pieces in the evening, we add the $\\greenD{30}$ to the $\\blueD{20}$.  $\\blueD{20} + \\greenD{30}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Jordan chops wood for $\\maroonD{10}$ days, so we multiply the expression by $\\maroonD{10}$. We can put the $\\maroonD{10}$ outside of the parentheses.  $\\maroonD{10}\\times(\\blueD{20} + \\greenD{30})$  This tells us that everything inside the parentheses is being multiplied by $\\maroonD{10}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "After the $10$ days, Jordan sorts the wood into $\\purpleD5$ piles. So we divide the entire expression by $\\purpleD5$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Our final expression is $\\maroonD{10}\\times(\\blueD{20} + \\greenD{30})\\div\\purpleD5$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Terry plays baseball for $5$ hours in the morning and $4$ hours in the afternoon. He does this for a total of $30$ days. At the end of the $30$ days, he has a tournament and plays baseball for $15$ more hours.      **Which numerical expression shows  the total number of hours Terry played baseball?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$30\\times(5 + 4)+15$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$(30\\times5) + (4+15)$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$(5\\times4) + (30+30+15)$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Terry plays baseball for $\\blueD{5}$ hours in the morning.  $\\blueD{5}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Then Terry plays baseball for $\\greenD{4}$ hours in the afternoon, so we add the $\\greenD{4}$ to the $\\blueD{5}$.  $\\blueD{5} + \\greenD{4}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Terry played baseball like this for $\\maroonD{30}$ days, so we multiply the expression by $\\maroonD{30}$. We put the $\\maroonD{30}$ outside of the parentheses.  $\\maroonD{30}\\times(\\blueD{5} + \\greenD{4})$  This tells us that everything inside the parentheses is being multiplied by $\\maroonD{30}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since he played $\\purpleD{15}$ more hours at the tournament, we add $\\purpleD{15}$ to the end of our expression.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Our final expression is $\\maroonD{30}\\times(\\blueD{5} + \\greenD{4})+\\purpleD{15}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Sandy had $10$ dolls in her collection. For her birthday, her parents quadrupled $($multiplied by $4)$ how many dolls she had. Then she decided to share the dolls equally with her brother.   **Which numerical expression shows the total number of dolls Sandy has after sharing with her brother?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$(10\\times4) \\div 2$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$(10\\times4) -2$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$2\\div (10\\times4)$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Sandy has $\\blueD{10}$ dolls.  $\\blueD{10}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Her parents quadrupled her dolls for her birthday. We can show this by multiplying by $\\maroonD4$.  $\\blueD{10} \\times \\maroonD{4}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Then she split her dolls equally between her and her brother. We can show this by dividing the entire expression by $\\greenD2$.  $(\\blueD{10} \\times \\maroonD{4})\\div\\greenD2$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Our final expression is $(\\blueD{10} \\times \\maroonD{4})\\div\\greenD2$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Kathy worked for $20$ weeks so she could buy a bike for $\\$300$.  The table below shows the amount of money she earned each week. She made the same amount of money each week.  Job | Money earned :- | :- Mowing lawns | $\\$15$ Delivering newspapers | $\\$35$  **Which numerical expression shows the amount of money Kathy has left after buying her bike?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "${20}\\times({15} + {35}) - {300}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "${20}\\times{15} + ({35} - {300})$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "${20}\\times({15} + {35}) + {300}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Kathy earns $\\blueD{\\$15}$ for mowing lawns and $\\greenD{\\$35}$ for delivering newspapers each week.  $\\blueD{15} + \\greenD{35}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "She did this for $\\maroonD{20}$ weeks, so we multiply the expression by $\\maroonD{20}$. To show that we are multiplying the whole expression by $\\maroonD{20}$, we can put the expression $\\blueD{15} + \\greenD{35}$ in parentheses.  $\\maroonD{20}\\times(\\blueD{15} + \\greenD{35})$  This tells us that everything inside the parentheses is being multiplied by $\\maroonD{20}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "At the end of the $20$ weeks, she spent $\\$\\purpleD{300}$ for her bike, so we will subtract $\\purpleD{300}$ from $\\maroonD{20}\\times(\\blueD{15} + \\greenD{35})$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Our final expression is $\\maroonD{20}\\times(\\blueD{15} + \\greenD{35}) - \\purpleD{300}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Steve has been saving his money in different places around the house. The table below shows how much money he has saved.  ${}$ | Amount - | - | - Piggy bank | $\\$10$ Shoebox | $\\$15$ Drawer | $\\$5$   Steve's parents were so impressed with his savings that they doubled his money.  **Which numerical expression shows the amount of money Steve has after his parents doubled his money?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$(10+15+5) \\times2$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$(10+15) + (5\\times2)$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$10 + 15 + 5 \\times2$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Steve has $\\$\\blueD{10}$ in his piggy bank, $\\$\\maroonD{15}$ in his shoebox, and $\\$\\greenD{5}$ in drawer. To find the total, we can add them together.  $\\blueD{10} + \\maroonD{15} + \\greenD5$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Steve's parents doubled the amount of money he saved. We can show this by multiplying the entire expression by $\\purpleD2$. To show that we are multiplying the whole expression, we can put the expression $\\blueD{10} + \\maroonD{15} + \\greenD5$ in parentheses.  $(\\blueD{10} + \\maroonD{15} +\\greenD5)\\times\\purpleD2$  This tells us that everything inside the parentheses is being multiplied by $\\purpleD2$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Our final expression is $(\\blueD{10} + \\maroonD{15} +\\greenD5)\\times\\purpleD2$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Alina has been collecting video games for a year. The table below shows how many games she has received over the year.  ${}$ | Amount of video games - | :-: | - Birthday | $4$ Holidays | $8$ School trades | $6$  At the end of the year, she went to a store and sold half of her video games.   **Which numerical expression shows the amount of video games Alina has left after selling half?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$(4+8+6) \\div2$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$(4+8) + (6\\div2)$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$2\\div (4+8+6)$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Alina has been collecting video games for a year. She got $\\blueD4$ games for her birthday, $\\greenD8$ games for holiday gifts, and $\\maroonD6$ games during school trades. To find the total, we add them together.  $\\blueD4 + \\greenD8 + \\maroonD6$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Alina sold half of her video games. We can show this by dividing the entire expression by $\\purpleD2$. To show that we are dividing the whole expression, we can put the expression $\\blueD{4} + \\maroonD{8} + \\greenD6$ in parentheses.  $(\\blueD{4} + \\maroonD{8} +\\greenD6)\\div\\purpleD2$  This tells us that everything inside the parentheses is being divided by $\\purpleD2$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Our final expression is $(\\blueD{4} + \\maroonD{8} +\\greenD6)\\div\\purpleD2$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Kellan's neighbor went out of town for $9$ days.    The table below shows the work she did for her neighbors and how much they paid her for each task.  Chore | Amount - | - | - Dog walking | $\\$7$ Plant watering | $\\$2$ Empty litter box | $\\$3$  Kellan performed each task once a day for $9$ days.  **Which numerical expression shows the total amount of money Kellan earned over the nine days?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$(7+2+3) \\times9$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$(9 + 7 + 2+ 3)$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$9\\times (7+2) + 3$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Kellan did each task once a day. She earned $\\$\\blueD7$ for dog walking, $\\$\\greenD2$ for watering plants, and $\\$\\maroonD3$ for cleaning the litter box. To find the total she earned each day, we add them together.  $\\blueD7 + \\greenD2 + \\maroonD3$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since Kellan earned the same amount of money each day for $9$ days, we can show this by multiplying the entire expression by $\\purpleD9$. To show that we are multiplying the whole expression, we can put the expression $\\blueD{7} + \\maroonD{2} + \\greenD3$ in parentheses.  $(\\blueD{7} + \\maroonD{2} +\\greenD3)\\times\\purpleD9$  This tells us that everything inside the parentheses is being multiplying by $\\purpleD9$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Our final expression is $(\\blueD{7} + \\maroonD{2} +\\greenD3)\\times\\purpleD9$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Fiona and her brother Gary love making paper airplanes.    The table below shows the amount of planes they made on Saturday.  ${}$ | Morning | Afternoon - | :-: | :-: Fiona | $12$ | $3$ Gary | $8$ | $1$  **Which numerical expression shows the difference between how many planes Fiona made and Gary made?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$(12+3) - (8+1)$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$(12 + 8) - (3+1)$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$(12-3) - (8-1)$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To find the difference between Fiona and Gary, we first need to find out how many airplanes they each made.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Fiona made $\\greenD{12}$ airplanes in the morning and $\\blueD3$ airplanes in the afternoon, so we add $\\greenD{12}$ and $\\blueD{3}$.  $\\blueD{12} + \\greenD{3}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Gary made $\\maroonD{8}$ airplanes in the morning and $\\purpleD1$ airplane in the afternoon, so we add $\\maroonD{8}$ and $\\purpleD{1}$.  $\\maroonD{8} + \\purpleD{1}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "To find the difference between their totals, we need to subtract the total amount of each expression. To do so, we need to put each expression in parentheses and subtract.  $(\\blueD{12} + \\greenD{3}) - (\\maroonD8 + \\purpleD1)$  This tells us that everything inside the parentheses is being added before we subtract.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Our final expression is $(\\blueD{12} + \\greenD{3}) - (\\maroonD8 + \\purpleD1)$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which problem could be solved with the expression $(4+2)\\times4?$**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Danny ran $4$ miles in the morning and $2$ miles in the afternoon. He did this for $4$ days.  How many miles did he run?",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Bobby sold $4$ baseball cards on Monday. He then sold $2$ more on Tuesday. He sold the same amount for $2$ weeks. How many did he sell?",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Suzanne makes wooden dolls. She made $2$ in the morning and $2$ in the afternoon. She did this for $4$ days. How many dolls did she make?",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Bobby  Bobby sold $\\blueD4$ cards on Monday and $\\maroonD2$ cards on Tuesday.  $\\blueD4 + \\maroonD2$  He did this for $\\greenD{2}$ weeks, so we multiply the expression by $\\greenD{2}$.  $(\\blueD4 + \\maroonD2)\\times\\greenD2$   This does not match, **so the expression does not solve the Bobby problem**.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Suzanne  Suzanne made $\\blueD2$ wooden dolls in the morning and $\\maroonD2$ in the afternoon.   $\\blueD2 + \\maroonD2$  She did this for $\\greenD{4}$ days, so we multiply the expression by $\\greenD{4}$.  $(\\blueD2 + \\maroonD2)\\times\\greenD{4}$    This does not match, **so the expression does not solve the Suzanne problem**.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Danny  Danny ran $\\blueD{4}$ miles in the morning and $\\maroonD{2}$ in the afternoon.  $\\blueD{4} + \\maroonD{2}$  He did this $\\greenD4$ days. We show this by multiplying the expression by $\\greenD4$.  $(\\blueD{4} + \\maroonD{2})\\times\\greenD4$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "This situation represents the expression $(4+2)\\times4$:  Danny ran $4$ miles in the morning and $2$ miles in the afternoon. He did this for $4$ days.  How many miles did he run?",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which problem could be solved with the expression $(5 +5+ 2)\\times3$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Mandi planted $3$ flowers in the morning and $2$ flowers in the afternoon. She did this for $5$ days. How many flowers did she plant?",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Sierra played pretend for $5$ hours on Monday. She then played $5$ hours on Tuesday. She played the same amount for $2$ weeks. How many hours did she play?",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Alexis builds toolboxes. She built $5$ in the morning, $5$ in the afternoon, and $2$ at night. She did this for $3$ days.  How many toolboxes did she build?",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Mandi  Mandi planted $\\blueD3$ flowers in the morning and $\\maroonD2$ flowers in the afternoon.   $\\blueD3 + \\maroonD2$  She did this for $\\greenD{5}$ days, so we multiply the expression by $\\greenD{5}$.  $(\\blueD3 + \\maroonD2)\\times\\greenD{5}$  This does not match, **so the expression does not solve the Mandi problem**.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Sierra  Sierra played for $\\blueD5$ hours on Monday and $\\maroonD5$ hours on Tuesday.  $\\blueD5 + \\maroonD5$  She did this for $\\greenD{2}$ weeks, so we multiply the expression by $\\greenD{2}$.  $(\\blueD5 + \\maroonD5)\\times\\greenD2$  This does not match, **so the expression does not solve the Sierra problem**.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Alexis  Alexis built $\\blueD{5}$ in the morning, $\\maroonD{5}$ in the afternoon, and $\\greenD2$ at night.   $\\blueD{5} + \\maroonD{5} +\\greenD2$  She did this for $\\purpleD3$ days. We show this by multiplying the expression by $\\purpleD3$.  $(\\blueD{5} + \\maroonD{5}+\\greenD2)\\times\\purpleD3$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "This situation represents the expression $(5 +5+ 2)\\times3$:  Alexis builds toolboxes. She built $5$ in the morning, $5$ in the afternoon, and $2$ at night. She did this for $3$ days.  How many toolboxes did she build?",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which problem could be solved with the expression $(6+4)\\times 3?$**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Edward mowed $3$ lawns in the morning and $6$ lawns in the afternoon. He did this for $4$ days. How many lawns did he mow?",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Danielle had $6$ dolls. She bought $4$ additional dolls. She then went to the thrift store and tripled her collection. How many dolls does she have now?",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Barry ate $3$ cookies on Monday. He then ate $6$ cookies on Tuesday. On Friday he ate $4$ cookies. He follows this pattern for $4$ weeks. How many cookies did he eat?",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Edward  Edward mowed $\\blueD3$ lawns in the morning and $\\maroonD6$ in the afternoon.  $\\blueD3+\\maroonD6$     He did this for $\\greenD4$ days, so we multiply by $\\greenD4$.   $(\\blueD3+\\maroonD6)\\times\\greenD4$  In this problem $\\maroonD6$ is being added to $\\blueD3$ instead of adding $6$ to $4$.   This does not match, so **the expression does not solve the Edward problem.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Barry  Barry ate $\\blueD3$ cookies on Monday, $\\maroonD6$ cookies on Tuesday, and $\\greenD4$ cookies on Friday.  $\\blueD3+\\maroonD6+\\greenD4$     He did this for $\\purpleD4$ weeks, so we multiply by $\\purpleD4$.   $(\\blueD3+\\maroonD6+\\greenD4)\\times\\purpleD4$    This does not match, so **the expression does not solve the Barry problem.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Danielle  Danielle started with $\\blueD{6}$ dolls and bought $\\maroonD{4}$ more.  $\\blueD{6} + \\maroonD{4}$  She then went to the thrift store and tripled her collection which we can represent by multiplying her dolls by $\\greenD{3}$.  $(\\blueD6 + \\maroonD4)\\times\\greenD3$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "This situation represents the expression $(6+4)\\times 3$:  Danielle had $6$ dolls. She bought $4$ additional dolls. She then went to the thrift store and tripled her collection. How many dolls does she have now?",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which problem could be solved with the expression $32\\div(3+1)?$**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Greg has $32$ toys. He decides to split the toys evenly between him and his $3$ brothers. How many toys would each boy receive?",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Betty has $32$ students she tutors. She got $3$ additional students. She then advertised and got one more student. How many students does she have now?",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Allie builds furniture. She built $32$ chairs. She sold $3$ chairs and broke one. How many chairs does she have left?",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Allie  Allie built $\\blueD{32}$ chairs and sold $\\maroonD3$.  $\\blueD{32}-\\maroonD3$  Then she broke $\\greenD1$ chair, so we subtract $\\greenD1$.   $(\\blueD{32}-\\maroonD3)-\\greenD1$  In this problem we subtracted $\\maroonD3$ and $\\greenD1$ from $\\blueD{32}$ instead of dividing.    This does not match, **so the expression does not solve the Allie problem**.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Betty  Betty tutors $\\blue{32}$ students and gets $\\maroonD3$ more.  $\\blue{32}+\\maroonD3$  After this, she gets one more student, so we add the expression by $\\greenD1$.   $(\\blueD{32}+\\maroonD3) + \\greenD1$  In this problem we add instead of dividing.    This does not match, **so the expression does not solve the Betty problem**.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Greg   Greg has $\\blueD{32}$ toys. He wants to split them between him and his $\\maroonD{3}$ brothers. First, we need to find out how many people are splitting the toys by adding.  $\\maroonD{3} + \\greenD{1}$  Then he evenly splits up the $\\blueD{32}$ toys, so we divide $\\blueD{32}$ by the entire expression.  $\\blueD{32}\\div(\\maroonD{3} + \\greenD1)$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "This situation represents the expression $32\\div(3+1)$:  Greg has $32$ toys. He decides to split the toys evenly between him and his $3$ brothers. How many toys would each boy receive?",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which problem could be solved with the expression $(5+3)\\div2?$**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "On Monday, Paul washed $5$ cars in the morning and $3$ cars in the afternoon. On Tuesday, he washed half as many cars. How many cars did he wash on Tuesday?",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Zelda has $3$ puppies she walks. She got $5$ additional puppies. Two owners moved, so she lost $2$ puppies. How many puppies does she have now?",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Larry spent $\\$3$ on Monday and $\\$5$ on Tuesday.  He spent the same amount for $2$ weeks. How much did he spend?",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Zelda  Zelda has $\\blueD3$ puppies and got $\\maroonD5$ additional puppies. Two owners moved, so she lost $\\greenD2$ puppies.  $\\blueD3+\\maroonD5-\\greenD2$  This does not match, so **the expression does not solve the Zelda problem.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Larry problem  Larry spent $\\blueD{\\${3}}$ on Monday and $\\maroonD{\\${5}}$ on Tuesday.  $\\blueD{3} + \\maroonD{5}$  He spent the same amount for $\\greenD2$ weeks. We show this by multiplying the expression by $\\greenD2$.  $(\\blueD3 + \\maroonD5)\\times\\greenD2$  This does not match, so **the expression does not solve the Larry problem.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Paul   On Monday, Paul washed $\\blueD{5}$ cars in the morning and $\\maroonD{3}$ in the afternoon.  $\\blueD{5} + \\maroonD{3}$  On Tuesday, he washed half as many. We show this by dividing the expression by $\\greenD2$.  $(\\blueD5 + \\maroonD3)\\div\\greenD2$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "This situation represents the expression $(5+3)\\div2$:  On Monday, Paul washed $5$ cars in the morning and $3$ cars in the afternoon. On Tuesday, he washed half as many cars. How many cars did he wash on Tuesday?",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which problem could be solved with the expression $3\\times( 5 - 2) - 1\\,?$**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Of Ralph’s $5$ toy cars, he gave $2$ to his sister. After that, he found $1$ more toy car.  Then, he decided to go to the store and triple his number of cars. How many toy cars does Ralph have now?",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Stephanie had $3$ apples. She then found $5$ more but immediately ate $2$ of them. Several minutes later, she ate $1$ more. How many apples does she still have?",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Orlando had $5$ action figures but decided to give $2$ of them to his younger brother. His parents were so impressed with his kindness that they tripled the action figures he had left. Since he got so many new action figures, he then gave $1$ more to his brother. How many action figures does he now have?",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Ralph  Ralph had $\\blueD5$ cars; he gave $\\maroonD2$ to his sister and then found $\\greenD1$.  $\\blueD5-\\maroonD2+\\greenD1$     Then he tripled the cars, which we can represent by multiplying his cars by $\\goldD3$.  $(\\blueD5-\\maroonD2+\\greenD1)\\times\\goldD3$   This does not match, so **the expression does not solve the Ralph problem.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Stephanie  Stephanie had $\\blueD3$ apples and then found $\\maroonD5$ more.  $\\blueD3+\\maroonD5$     Then, she ate $\\greenD2$ of the apples.  $\\blueD3+\\maroonD5 - \\greenD2$    Later, she ate $\\goldD1$ more.  $\\blueD3+\\maroonD5 - \\greenD2-\\goldD1$    This does not match, so **the expression does not solve the Stephanie problem.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Orlando   Orlando started with $\\blueD{5}$ action figures and gave $\\maroonD{2}$ to his brother.  $\\blueD{5} - \\maroonD{2}$  His parents then tripled his current action figures which we can represent by multiplying his action figures by $\\goldD{3}$.  $\\goldD3\\times(\\blueD{5} - \\maroonD{2})$  Finally, he gave $\\greenD{1}$ of his current figures to his brother.  $\\goldD3\\times(\\blueD5 - \\maroonD2) - \\greenD1$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "This situation represents the expression $3\\times( 5 - 2) - 1$:  Orlando had $5$ action figures but decided to give $2$ of them to his younger brother. His parents were so impressed with his kindness that they tripled the action figures he had left. Since he got so many new action figures, he then gave $1$ more to his brother. How many action figures does he now have?",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which problem could be solved with the expression $(6-4+1)\\times2?$**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Harry practiced soccer for $6$ hours in the morning, $4$ hours in the afternoon, and $1$ hour at night. He did this for $2$ days. How many hours did he practice?",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Shawn had $6$ skateboards. He gave $4$ skateboards to his brother. He then found $1$ skateboard in his garage. After finding the skateboard, he went to the store and doubled his collection. How many does he have now?",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Meredith sold $3$ lemonades on Monday. She then sold $4$ lemonades on Tuesday. She sold the same amount for $6$ weeks. How many did she sell?",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Harry problem  Harry practiced $\\blueD6$ hours in the morning, $\\maroonD4$ hours in the afternoon, and $\\greenD1$ hour at night.   $\\blueD6 + \\maroonD4 + \\greenD1$  He did this for $\\goldD{2}$ days, so we multiply the expression by $\\goldD{2}$.  $(\\blueD6 + \\maroonD4 + \\greenD1)\\times\\goldD2$  In this problem, we added the $\\maroonD4$ to the $\\blueD6$ instead of subtracting $4$ from $6$.  This does not match, so **the expression does not solve the Harry problem.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Meredith  Meredith sold $\\blueD3$ lemonades on Monday and $\\maroonD4$ lemonades on Tuesday.  $\\blueD3 + \\maroonD4$  She did this for $\\greenD{6}$ weeks, so we multiply the expression by $\\greenD{6}$.  $(\\blueD3 + \\maroonD4)\\times\\greenD6$  This does not match, so **the expression does not solve the Meredith problem.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Shawn  Shawn has $\\blueD{6}$ skateboards and gave $\\maroonD{4}$ to his brother.  $\\blueD{6} - \\maroonD{4}$  He then found $\\greenD1$ in his garage.  $\\blueD{6} - \\maroonD{4} + \\greenD1$  He then went to the store and doubled his collection. We show this by multiplying the expression by $\\goldD2$.  $(\\blueD{6} - \\maroonD{4}+\\greenD1)\\times\\goldD2$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "This situation represents the expression $(6-4+1)\\times2$:  Shawn had $6$ skateboards. He gave $4$ skateboards to his brother. He then found $1$ skateboard in his garage. After finding the skateboard, he went to the store and doubled his collection. How many does he have now?",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which problem could be solved with the expression $5\\times(2+4)\\div6$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Shadi is building a new back deck.  He puts $2$ nails and $4$ screws in each board.  He did this to $5$ boards.  How many total screws and nails did he use?",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Hayden made $2$ bracelets before school and $4$ after school each day for $5$ days.  Then he split the bracelets into $6$ equal groups. How many bracelets did Hayden have in each group?",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Khai, the dog, ate $2$ bones on Monday, $4$ bones on Tuesday and $6$ bones on Wednesday.  On Thursday, she ate $5$ times more bones than the other days combined. How many bones did Khai eat on Thursday?",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Khai  Khai eats $\\blueD2$ bones on Monday, $\\maroonD4$ bones on Tuesday and $\\greenD6$ bones on Wednesday.   $\\blueD2 + \\maroonD4 + \\greenD6$  On Thursday, she ate $\\goldD{5}$ times as many bones as the other days combined, so we multiply the entire expression by $\\goldD{5}$.  $(\\blueD2 + \\maroonD4 + \\greenD6)\\times\\goldD5$   This does not match, so **the expression does not solve the Khai problem.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Shadi   Shadi puts $\\blueD2$ nails and $\\maroonD4$ screws in each board.    $\\blueD2 + \\maroonD4 $  He did this to $\\greenD{5}$ boards, so we multiply the entire expression by $\\greenD{5}$.  $\\greenD{5}\\times(\\blueD2 + \\maroonD4)$     This does not match, so **the expression does not solve the Shadi problem.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Hayden  Hayden makes $\\blueD{2}$ bracelets before school and $\\maroonD{4}$ bracelets after school.  $\\blueD{2} + \\maroonD{4}$  He does this for  $\\goldD5$ days.  We show this by multiplying the expression by $\\goldD5$.  $\\goldD5 \\times (\\blueD{2} + \\maroonD{4})$  He then split the bracelets into $\\greenD6$ boxes, so we divide the entire expression by $\\greenD6$.  $\\goldD5 \\times (\\blueD{2} + \\maroonD{4}) \\div \\greenD6$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "This situation represents the expression $5\\times(2+4)\\div6$:  Hayden made $2$ bracelets before school and $4$ after school each day for $5$ days.  Then he split the bracelets into $6$ equal groups. How many bracelets did Hayden have in each group?",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which problem could be solved with the expression $4\\times(6+3)?$**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Issa ate $6$ marshmallows on Saturday and $4$ marshmallows on Sunday.  He follows this pattern for $3$ weeks. How many marshmallows did he eat?",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Connie has $4$ beanbags. She bought $6$ additional beanbags. She then played a game with the beanbags and lost $3$ of them. How many beanbags does she have now?",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Mason goes on vacation with her family for $4$ days.  Each morning, she bikes $6$ kilometers to the donut shop and then $3$ more kilometers to the swimming hole.  She rides home from the swimming hole in her mom's car.  How many kilometers does Mason bike on vacation?",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Issa   Issa ate $\\blueD6$ marshmallows on Saturday and $\\maroonD4$ marshmallows on Sunday.   $\\blueD6+\\maroonD4$     He did this for $\\greenD3$ weeks, so we multiply by $\\greenD3$.   $\\greenD3\\times(\\blueD6+\\maroonD4)$  In this problem $\\maroonD4$ is being added to $\\blueD6$ instead of adding $3$ to $6$.   This does not match, so **the expression does not solve the Issa problem.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Connie  Connie had $\\blueD4$ beanbags and bought $\\maroonD6$ more.  $\\blueD4+\\maroonD6$     Then, she lost $\\greenD3$ beanbags, so we subtract $\\greenD3$.  $\\blueD4+\\maroonD6- \\greenD3$      This does not match, so **the expression does not solve the Connie problem.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Mason  Mason bikes $\\blueD{6}$ kilometers and then $\\maroonD{3}$ more kilometers.  $\\blueD{6} + \\maroonD{3}$  She does this for $\\greenD4$ days, which we can represent by multiplying the expression by $\\greenD{4}$.  $\\greenD4\\times(\\blueD6 + \\maroonD3)$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "This situation represents the expression $4\\times(6+3)$:  Mason goes on vacation with her family for $4$ days.  Each morning, she bikes $6$ kilometers to the donut shop and then $3$ more kilometers to the swimming hole.  She rides home from the swimming hole in her mom's car.  How many kilometers does Mason bike on vacation?",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        }
+    ]
+}

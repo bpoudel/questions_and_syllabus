@@ -1,0 +1,2138 @@
+{
+    "standard_metadata": {
+        "standard_id": "8.EE.B.5",
+        "standard_description": "Graph proportional relationships, interpreting the unit rate as the slope of the graph. Compare two different proportional relationships represented in different ways.",
+        "standard_title": "Graphing proportional relationships",
+        "standard_url": "https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-linear-equations-functions/cc-8th-graphing-prop-rel/e/graphing-proportional-relationships"
+    },
+    "id": "xbe07143b",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Graph the line that represents a proportional relationship between $y$ and $x$ where the *unit rate* of change of $y$ with respect to $x$ is $\\dfrac{5}{3}$ .  In other words, a change of $1$ unit in $x$ corresponds to a change of  $\\dfrac{5}{3}$ units in $y$.  **Graph the line and write the equation of the line.**  The equation is   .",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "y=5/3x",
+                                        "correct": false
+                                    },
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    3,
+                                                    5
+                                                ],
+                                                [
+                                                    0,
+                                                    0
+                                                ]
+                                            ],
+                                            "type": "linear"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Any proportional relationship has the form $y=kx$, where $k$ is called the *proportionality constant.*  So we know that the point $(\\pink0,\\blue0)$ lies on the line, because $\\blue0=k\\cdot\\pink0$.  What other point will lie on the line?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let’s use the fact that the *unit rate* of $y$ with respect to $x$ is $\\,1\\dfrac{2}{3}$ .  This tells us that if $x$ increases from $0$ to $1$, then $y$ will increase from $0$ to $\\,1\\dfrac{2}{3}$ .  Therefore the point $\\left(\\pink1,\\blue{\\dfrac{5}{3}}\\,\\right)$ lies on the line.     However, to graph the line representing the relationship, it will be helpful to find another point on the line.  How can we do that?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "If $x$ increases from $\\pink0$ to $\\pink3$, then $y$ will increase from $\\blue0$ to $\\,1\\dfrac{2}{3}(\\pink3)=\\dfrac{5}{3}(\\pink3)=\\blue5$.  Therefore the point $(\\pink3,\\blue5)$ lies on the line.      Let's graph the line connecting $(\\pink0,\\blue0)$ and $(\\pink3,\\blue5)$.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "An XY coordinate plane divided into four quadrants. The horizontal x axis runs left to right from negative 10 to 10 in intervals of 1. The vertical y axis runs up and down from negative 10 to 10 in intervals of 1. The graph passes through the points (negative 3, negative 5), (0, 0), and (3, 5). Closed points are plotted at (0, 0) and (3, 5).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/45ec77531735e4530c438a1bbd7f886c70d089c8.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let’s see what the value of $k$ is.  We know that $y=kx$, and if $x=\\pink1$, $y=\\blue{\\dfrac{5}{3}}$ .  So  $\\blue{\\dfrac{5}{3}}=k(\\pink1)=k$, and $k=\\dfrac{5}{3}$ .",
+                                    "images": []
+                                },
+                                {
+                                    "content": "**The equation of the line is $y=\\dfrac{5}{3}x$.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Graph the line that represents a proportional relationship between $y$ and $x$ where the *unit rate* of change of $y$ with respect to $x$ is $\\,\\dfrac{4}{5}$ .   In other words, a change of $1$ unit in $x$ corresponds to a change of $\\,\\dfrac{4}{5}$ units in $y$.  **Graph the line and write the equation of the line.**   The equation is   .",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    5,
+                                                    4
+                                                ],
+                                                [
+                                                    0,
+                                                    0
+                                                ]
+                                            ],
+                                            "type": "linear"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Any proportional relationship has the form $y=kx$, where $k$ is called the *proportionality constant.*  So we know that the point $(\\pink0,\\blue0)$ lies on the line, because $\\blue0=k\\cdot\\pink0$.  What other point will lie on the line?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let’s use the fact that the *unit rate* of change of $y$ with respect to $x$ is $\\,\\dfrac{4}{5}$ .  This tells us that the point $\\left(1,\\dfrac{4}{5}\\right)$ lies on the graph.   However, to graph the line representing the relationship, it will be helpful to find another point on the line.  How can we do that?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "If $x$ increases from $\\pink0$ to $\\pink5$, then $y$ will increase from $\\blue0$ to $\\,\\dfrac{4}{5}(\\pink5)=\\blue4$.  Therefore the point $(\\pink5,\\blue4)$ lies on the line.      Let's graph the line connecting $(\\pink0,\\blue0)$ and $(\\pink5,\\blue4)$.   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "An XY coordinate plane divided into four quadrants. The horizontal x axis runs left to right from negative 10 to 10 in intervals of 1. The vertical y axis runs up and down from negative 10 to 10 in intervals of 1. The graph passes through the points (negative 5, negative 4), (0, 0), and (5, 4). Closed points are plotted at (0, 0) and (5, 4).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/4a62018d7095dc05df8021a4e750182b465fa6c5.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let’s see what the value of $k$ is.  We know that $y=kx$, and if $x=\\pink1$, $y=\\blue{\\dfrac{4}{5}}$ .  So  $\\begin{align}\\blue{\\dfrac{4}{5}}&=k(\\pink1)\\\\&=k,\\end{align}$   and $k=\\dfrac{4}{5},$ the value of the unit rate of change.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "**The equation of the line is $y=\\dfrac{4}{5}x$.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Graph the line that represents a proportional relationship between $y$ and $x$ where the *unit rate* of change of $y$ with respect to $x$ is $\\,\\dfrac{10}{7}$ .   In other words, a change of $1$ unit in $x$ corresponds to a change of $\\,\\dfrac{10}{7}$ units in $y$.  **Graph the line and write the equation of the line.**  The equation is  .",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    0,
+                                                    0
+                                                ],
+                                                [
+                                                    7,
+                                                    10
+                                                ]
+                                            ],
+                                            "type": "linear"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Any proportional relationship has the form $y=kx$, where $k$ is called the *proportionality constant.*  So we know that the point $(\\pink0,\\blue0)$ lies on the line, because $\\blue0=k\\cdot\\pink0$.  What other point will lie on the line?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let’s use the fact that the *unit rate* of change of $y$ with respect to $x$ is $\\,\\dfrac{10}{7}$ .  This tells us that if $x$ increases from $0$ to $1$, then $y$ will increase from $0$ to $\\,\\dfrac{10}{7}$.  Therefore the point $\\left(\\pink1,\\blue{\\dfrac{10}{7}}\\,\\right)$ lies on the line.   However, to draw the graph, it will be useful to find another point on the line.  If $x$ increases from $0$ to $7$, then $y$ will increase from $0$ to $\\dfrac{10}{7}(\\pink7)=\\blue{10}$.  So the point $(\\pink7,\\blue{10})$ lies on the line.  We can graph the line connecting the points $(\\pink0,\\blue0)$ and $(\\pink7,\\blue{10})$.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "An XY coordinate plane divided into four quadrants. The horizontal x axis runs left to right from negative 10 to 10 in intervals of 1. The vertical y axis runs up and down from negative 12 to 12 in intervals of 1. The graph passes through the points (negative 7, negative 10), (0, 0), and (7, 10). Closed points are plotted at (0, 0) and (7, 10).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/3fa84b8844ead9e0064cfac0eb40234699b4a307.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let’s see what the value of $k$ is.  We know that $y=kx$, and if $x=\\pink1$, $y=\\blue{\\dfrac{10}{7}}$.  So  $\\blue{\\dfrac{10}{7}}=k(\\pink1)=k$, and $k=\\dfrac{10}{7}$ , the value of the unit rate.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "**The equation of the line is $y=\\dfrac{10}{7}x$.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Graph the line that represents a proportional relationship between $y$ and $x$ where the  *unit rate* of change of $y$ with respect to $x$ is $\\,\\dfrac{4}{3}$ .   In other words, a change of $1$ unit in $x$ corresponds to a change of $\\,\\dfrac{4}{3}$ units in $y$.  **Graph the line and write the equation of the line.**    The equation is   .",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    6,
+                                                    8
+                                                ],
+                                                [
+                                                    0,
+                                                    0
+                                                ]
+                                            ],
+                                            "type": "linear"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Any proportional relationship has the form $y=kx$, where $k$ is called the *proportionality constant.*  So we know that the point $(\\pink0,\\blue0)$ lies on the line, because $\\blue0=k\\cdot\\pink0$.  What other point will lie on the line?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let’s use the fact that the *unit rate* of change of $y$ with respect to $x$ is $\\,\\dfrac{4}{3}$ .  This tells us that if $x$ increases from $0$ to $1$, then $y$ will increase from $0$ to $\\dfrac 43$ .  Also, if $x$ increases from $0$ to $3$, then $y$ will increase from $0$ to $ 4$.  Therefore the point $(\\pink3,\\blue4)$ lies on the line.    We can now graph the line connecting the points  $(\\pink0,\\blue0)$ and $(\\pink3,\\blue4)$ .   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "An XY coordinate plane divided into four quadrants. The horizontal x axis runs left to right from negative 10 to 10 in intervals of 1. The vertical y axis runs up and down from negative 10 to 10 in intervals of 1. The graph passes through the points (negative 3, negative 4), (0, 0), and (3, 4). Closed points are plotted at (0, 0) and (3, 4).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/96d77ccaccbd7137ad8658982cbb3b038d9cdc7d.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let’s see what the value of $k$ is.  We know that $y=kx$, and if $x=\\pink1$, $y=\\blue{\\dfrac{4}{3}}$ .  So  $\\blue{\\dfrac{4}{3}}=k(\\pink1)=k$, and $k=\\dfrac{4}{3}$ , the value of the unit rate.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "**The equation of the line is $y=\\dfrac{4}{3}x$.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Graph the line that represents a proportional relationship between $y$ and $x$ where the *unit rate* of change of $y$ with respect to $x$ is $0.4.$  In other words, a change of $1$ unit in $x$ corresponds to a change of $0.4$ units in $y$.  **Graph the line and write the equation of the line.**   The equation is   .",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    5,
+                                                    2
+                                                ],
+                                                [
+                                                    0,
+                                                    0
+                                                ]
+                                            ],
+                                            "type": "linear"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Any proportional relationship has the form $y=kx$, where $k$ is called the *proportionality constant.*  So we know that the point $(\\pink0,\\blue0)$ lies on the line, because $\\blue0=k\\cdot\\pink0$.  What other point will lie on the line?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let’s use the fact that the *unit rate* of change of $y$ with respect to $x$ is $0.4$.  This tells us that if $x$ increases from $0$ to $1$, then $y$ will increase from $0$ to $0.4(1)=0.4$.  Therefore the point $(\\pink1,\\blue{0.4}\\,)$ lies on the line.  However, to draw the graph, it will be useful to find another point on the line.  If $x$ increases from $0$ to $5$, then $y$ will increase from $0$ to $0.4(\\pink5)=\\blue2$.  So the point $(\\pink5,\\blue2)$ lies on the line.     Let's graph the line connecting $(\\pink0,\\blue0)$ and $(\\pink5,\\blue2)$.   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "An XY coordinate plane divided into four quadrants. The horizontal x axis runs left to right from negative 10 to 10 in intervals of 1. The vertical y axis runs up and down from negative 10 to 10 in intervals of 1. The graph passes through the points (negative 5, negative 2), (0, 0), and (5, 2). Closed points are plotted at (0, 0) and (5, 2).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/cce137b41fd7a6cbbd8c02555fb8c3057608dfa5.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let’s find the value of $k$.  We know that $y=kx$, and if $x=\\pink1$, $y=\\blue{0.4}$.  So  $\\begin{align}\\blue{0.4}&=k(\\pink1)\\\\\\\\&=k,\\end{align}$   and $k=0.4$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "**The equation of the line is $y=0.4x$.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Graph the line that represents a proportional relationship between $y$ and $x$ where the *unit rate* of change of $y$ with respect to $x$ is $\\,\\dfrac{3}{8}$ .  In other words, a change of $1$ unit in $x$ corresponds to a change of $\\,\\dfrac{3}{8}$ units in $y$.  **Graph the line and write the equation of the line.**  The equation is   .",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "y=3/8x",
+                                        "correct": false
+                                    },
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    8,
+                                                    3
+                                                ],
+                                                [
+                                                    0,
+                                                    0
+                                                ]
+                                            ],
+                                            "type": "linear"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Any proportional relationship has the form $y=kx$, where $k$ is called the *proportionality constant.*  So we know that the point $(\\pink0,\\blue0)$ lies on the line, because $\\blue0=k\\cdot\\pink0$.  What other point will lie on the line?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let’s use the fact that the *unit rate* of change of $y$ with respect to $x$ is $\\,\\dfrac{3}{8}$ .  This tells us that if $x$ increases from $0$ to $8$, then $y$ will increase from $0$ to $\\,\\dfrac{3}{8}(\\pink8)=\\blue3$.  Therefore the point $(\\pink8,\\blue3)$ lies on the line.    We can draw the graph connecting the points $(\\pink0,\\blue0)$ and $(\\pink8,\\blue3)$ .    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "An XY coordinate plane divided into four quadrants. The horizontal x axis runs left to right from negative 10 to 10 in intervals of 1. The vertical y axis runs up and down from negative 10 to 10 in intervals of 1. The graph passes through the points (negative 8, negative 3), (0, 0), and (8, 3). Closed points are plotted at (0, 0) and (8, 3).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/6708a844bb7b6dc6fd219f6f9c1cc3720f5e6823.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let’s see what the value of $k$ is.  We know that $y=kx$, and if $x=\\pink1$, $y=\\blue{\\dfrac{3}{8}}$ .  So  $\\blue{\\dfrac{3}{8}}=k(\\pink1)=k$, and $k=\\dfrac{3}{8}$ , the value of the unit rate.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "**The equation of the line is $y=\\dfrac{3}{8}x$.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A proportional relationship is shown in the table below:   |||||| -:|-:|-:|-:|-:|-:| $x$|$0$|$3$|$6$|$9$|$12$ $y$|$0$|$0.6$|$1.2$|$1.8$|$2.4$   **What is the slope of the line that represents this relationship?**    $\\qquad$  **Graph the line that represents this relationship.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.2",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    0,
+                                                    0
+                                                ],
+                                                [
+                                                    5,
+                                                    1
+                                                ]
+                                            ],
+                                            "type": "linear"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "First, we see that the relationship *is* proportional.  The point $(\\pink0,\\blue0)$ is in the table, and for each increase of $3$ in $x$, there is an increase of $0.6$ in $y$.  Let’s find the unit rate of change of $y$ with respect to $x$: what is the $y$-value corresponding to $x=\\pink1?$  $\\begin{align}\\dfrac{\\blue{0.6}}{\\pink{3}}&=\\dfrac{\\blue{\\dfrac{3}{5}}}{{\\pink3}}\\\\ &\\\\&\\\\&\\\\ &=\\blue{\\dfrac{3}{5}}\\cdot\\pink{\\dfrac{1}{3}}\\\\&\\\\&=\\dfrac{1}{5}=0.2\\end{align}$    This is the unit rate, and the point $\\left(\\pink1,\\blue{\\dfrac{1}{5}}\\right)$ lies on the line.  However, to graph the line representing the relationship, it will be helpful to find another point on the line.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The graph goes through $(\\pink0,\\blue0)$.   Because the unit rate is $\\dfrac{1}{5}$ , a change of $\\pink{5}$ units in $x$ results in an increase of $\\dfrac{1}{5}(\\pink{5})=\\blue{1}$ unit in $y$.  So the point $(\\pink{5},\\blue{{1}})$  lies on the graph.    Now we can draw the line connecting these two points.",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/80243290e1b7fa2ab2400e9ff02659e9e7c0f8c8.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Since the graph goes through $(\\pink0,\\blue0)$ and $(\\pink5,\\blue{1})$,   the slope is  $\\dfrac{\\left(\\blue{1}-\\blue0\\right)}{(\\pink5-\\pink0)}=\\dfrac{1}{5}$ , the same as the unit rate of change of $y$ with respect to $x$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The slope is $\\dfrac{1}{5}$.",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/80243290e1b7fa2ab2400e9ff02659e9e7c0f8c8.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A proportional relationship is shown in the table below:   |||||| -:|-:|-:|-:|-:|-:| $x$|$0$|$1.4$|$2.8$|$4.2$|$5.6$ $y$|$0$|$1$|$2$|$3$|$4$  **What is the slope of the line that represents this relationship?**    $\\qquad$  **Graph the line that represents this relationship.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.7142857142857143",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    0,
+                                                    0
+                                                ],
+                                                [
+                                                    7,
+                                                    5
+                                                ]
+                                            ],
+                                            "type": "linear"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "First, we see that the relationship *is* proportional.  The point $(\\pink0,\\blue0)$ is in the table, and for each increase of $1.4$ in $x$, there is an increase of $1$ in $y$.  Let’s find the unit rate of change of $y$ with respect to $x$: what is the $y$-value corresponding to $x=\\pink1?$  $\\begin{align}\\dfrac{\\blue1}{\\pink{1.4}}&=\\dfrac{\\blue1}{\\pink{\\dfrac{14}{10}}}\\\\ &\\\\&\\\\&\\\\ &=\\blue1\\cdot{\\pink{\\dfrac{10}{14}}}\\\\&\\\\&=\\dfrac{5}{7}\\end{align}$    This is the unit rate of change of $y$ with respect to $x$, and the point $\\left(\\pink1,\\blue{\\dfrac{5}{7}}\\right)$ lies on the line.  However, to graph the line representing the relationship, it will be helpful to find another point on the line.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The graph goes through $(\\pink0,\\blue0)$.   Because the unit rate of change is $\\dfrac{5}{7}$ , a change of $\\pink{7}$ units in $x$ results in an increase of $\\dfrac{5}{7}(\\pink{7})=\\blue{5}$ units in $y$.  So the point $(\\pink{7},\\blue{{5}})$  lies on the graph.    Now we can draw the line connecting these two points.   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "An XY coordinate plane divided into four quadrants. The horizontal x axis runs left to right from negative 10 to 10 in intervals of 1. The vertical y axis runs up and down from negative 10 to 10 in intervals of 1. The graph passes through the points (negative 7, negative 5), (0, 0), and (7, 5). Closed points are plotted at (0, 0) and (7, 5).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/b6b7cf2b9c265fdc6060f924ad4abc064af890ad.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Since the graph goes through $(\\pink0,\\blue0)$ and $(\\pink7,\\blue{5})$,   the slope is  $\\dfrac{\\left(\\blue{5}-\\blue0\\right)}{(\\pink7-\\pink0)}=\\dfrac{5}{7}$ , the same as the unit rate of change.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The slope is $\\dfrac{5}{7}.$",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/b6b7cf2b9c265fdc6060f924ad4abc064af890ad.png"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A proportional relationship is shown in the table below:   |||||| -:|-:|-:|-:|-:|-:| $x$|$0$|$0.3$|$0.6$|$0.9$|$1.2$ $y$|$0$|$1$|$2$|$3$|$4$  **What is the slope of the line that represents this relationship?**    $\\qquad$  **Graph the line that represents this relationship.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "3.3333333333333335",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    0,
+                                                    0
+                                                ],
+                                                [
+                                                    3,
+                                                    10
+                                                ]
+                                            ],
+                                            "type": "linear"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "First, we see that the relationship *is* proportional.  The point $(\\pink0,\\blue0)$ is in the table, and for an increase of $0.3$ in $x$, there is an increase of $1$ in $y$.  Let’s find the unit rate of change of $y$ with respect to $x$: what is the $y$-value corresponding to $x=\\pink1?$  $\\begin{align}\\dfrac{\\blue1}{\\pink{0.3}}&=\\dfrac{\\blue1}{\\pink{\\dfrac{3}{10}}}\\\\ &\\\\ &\\\\ &= \\blue1 \\cdot \\pink{\\dfrac{10}{3}}\\\\ &\\\\&=\\dfrac{10}{3}\\end{align}$    This is the unit rate, and the point $\\left(\\pink1,\\blue{\\dfrac{10}{3}}\\right)$ lies on the line.  However, to graph the line representing the relationship, it will be helpful to find another point on the line.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The graph goes through $(\\pink0,\\blue0)$.   Because the unit rate is $\\dfrac{10}{3}$ , a change of $\\pink{3}$ units in $x$ results in an increase of $\\dfrac{10}{3}(\\pink{3})=\\blue{10}$ units in $y$.  So the point $(\\pink{3},\\blue{{10}})$  lies on the graph.    Now we can draw the line connecting these two points.   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "An XY coordinate plane divided into four quadrants. The horizontal x axis runs left to right from negative 10 to 10 in intervals of 1. The vertical y axis runs up and down from negative 10 to 10 in intervals of 1. The graph passes through the points (negative 3, negative 10), (0, 0), and (3, 10). Closed points are plotted at (0, 0) and (3, 10).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/95f86d7a4d95c60417c79f5814c3eee7517f4595.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Since the graph goes through $(\\pink0,\\blue0)$ and $(\\pink3,\\blue{10})$,   the slope is  $\\dfrac{\\left(\\blue{10}-\\blue0\\right)}{(\\pink3-\\pink0)}=\\dfrac{10}{3}$ .",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The slope is $\\dfrac{10}{3}.$",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/95f86d7a4d95c60417c79f5814c3eee7517f4595.png"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A proportional relationship is shown in the table below:   |||||| -:|-:|-:|-:|-:|-:| $x$|$0$|$2$|$4$|$6$|$8$ $y$|$0$|$1.2$|$2.4$|$3.6$|$4.8$  **What is the slope of the line that represents this relationship?**    $\\qquad$  **Graph the line that represents this relationship.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.6",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    0,
+                                                    0
+                                                ],
+                                                [
+                                                    5,
+                                                    3
+                                                ]
+                                            ],
+                                            "type": "linear"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "First, we see that the relationship *is* proportional.  The point $(\\pink0,\\blue0)$ is in the table, and for an increase of $2$ in $x$, there is an increase of $1.2$ in $y$.  Let’s find the unit rate of change of $y$ with respect to $x$: what is the $y$-value corresponding to $x=\\pink1?$  $\\begin{align}\\dfrac{\\blue{1.2}}{\\pink{2}}&=\\dfrac{\\blue{\\dfrac{6}{5}}}{\\pink2}\\\\ &\\\\&\\\\&\\\\ &={\\blue{\\dfrac{6}{5}}}\\cdot\\pink{\\dfrac{1}{2}}\\\\&\\\\&=\\dfrac{3}{5}\\end{align}$   This is the unit rate, and the point $\\left(\\pink1,\\blue{\\dfrac{3}{5}}\\right)$ lies on the line.  However, to graph the line representing the relationship, it will be helpful to find another point on the line.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The graph goes through $(\\pink0,\\blue0)$.    Because the unit rate is $\\dfrac{3}{5}$ , a change of $\\pink{5}$ units in $x$ results in an increase of $\\dfrac{3}{5}(\\pink{5})=\\blue{3}$ units in $y$.  So the point $(\\pink{5},\\blue{{3}})$  lies on the graph.    Now we can draw the line connecting these two points.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "An XY coordinate plane divided into four quadrants. The horizontal x axis runs left to right from negative 10 to 10 in intervals of 1. The vertical y axis runs up and down from negative 10 to 10 in intervals of 1. The graph passes through the points (negative 5, negative 3), (0, 0), and (5, 3). Closed points are plotted at (0, 0) and (5, 3).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/89020f1a51183bd4b40b0e224978923465a97d31.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Since the graph goes through $(\\pink0,\\blue0)$ and $(\\pink5,\\blue{3})$,   the slope is  $\\dfrac{\\left(\\blue{3}-\\blue0\\right)}{(\\pink5-\\pink0)}=\\dfrac{3}{5}$ .",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The slope is $\\dfrac{3}{5}.$",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/89020f1a51183bd4b40b0e224978923465a97d31.png"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A proportional relationship is shown in the table below:   |||||| -:|-:|-:|-:|-:|-:| $x$|$0$|$1.3$|$2.6$|$3.9$|$5.2$ $y$|$0$|$1$|$2$|$3$|$4$  **What is the slope of the line that represents this relationship?**     $\\qquad$    **Graph the line that represents this relationship.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.7692307692307693",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    13,
+                                                    10
+                                                ],
+                                                [
+                                                    0,
+                                                    0
+                                                ]
+                                            ],
+                                            "type": "linear"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "First, we see that the relationship *is* proportional.  The point $(\\pink0,\\blue0)$ is in the table, and for an increase of $1.3$ in $x$, there is an increase of $1$ in $y$.  Let’s find the unit rate of change of $y$ with respect to $x$: what is the $y$-value corresponding to $x=\\pink1?$  $\\begin{align}\\dfrac{\\blue1}{\\pink{1.3}}&=\\dfrac{\\blue1}{\\pink{\\dfrac{13}{10}}}\\\\ &\\\\&\\\\&\\\\ &=\\blue1\\cdot\\pink{\\dfrac{10}{13}}\\\\&\\\\&=\\dfrac{10}{13}\\end{align}$    This is the unit rate of change of $y$ with respect to $x$, and the point $\\left(\\pink1,\\blue{\\dfrac{10}{13}}\\right)$ lies on the line.  However, to graph the line representing the relationship, it will be helpful to find another point on the line.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The graph goes through $(\\pink0,\\blue0)$.   Because the unit rate is $\\dfrac{10}{13}$ , a change of $\\pink{13}$ units in $x$ results in an increase of $\\dfrac{10}{13}(\\pink{13})=\\blue{10}$ units in $y$.  So the point $(\\pink{13},\\blue{{10}})$  lies on the graph.    Now we can draw the line connecting these two points.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "An XY coordinate plane divided into four quadrants. The horizontal x axis runs left to right from negative 14 to 14 in intervals of 1. The vertical y axis runs up and down from negative 14 to 14 in intervals of 1. The graph passes through the points (negative 13, negative 10), (0, 0), and (13, 10). Closed points are plotted at (0, 0) and (13, 10).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/4a45d16eb75aa4de87ff34e1d74ee7e5f193d1e6.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Since the graph goes through $(\\pink0,\\blue0)$ and $(\\pink{13},\\blue{10})$,   the slope is  $\\dfrac{\\left(\\blue{10}-\\blue0\\right)}{(\\pink{13}-\\pink0)}=\\dfrac{10}{13}$ , the same as the unit rate of change.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The slope is $\\dfrac{10}{13}.$",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/4a45d16eb75aa4de87ff34e1d74ee7e5f193d1e6.png"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A proportional relationship is shown in the table below:   |||||| -:|-:|-:|-:|-:|-:| $x$|$0$|$1$|$2$|$3$|$4$ $y$|$0$|$3$|$6$|$9$|$12$   **What is the slope of the line that represents this relationship?**    $\\qquad$  **Graph the line that represents this relationship.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "3",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    0,
+                                                    0
+                                                ],
+                                                [
+                                                    2,
+                                                    6
+                                                ]
+                                            ],
+                                            "type": "linear"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "First, we see that the relationship *is* proportional.  The point $(\\pink0,\\blue0)$ is in the table, and for an increase of $1$ in $x$, there is an increase of $3$ in $y$.  Let’s find the unit rate of change of $y$ with respect to $x$: what is the $y$-value corresponding to $x=\\pink1?$  $\\dfrac{\\blue3}{\\pink{1}}=3$    This is the unit rate, and the point $(\\pink1,\\blue{3})$ lies on the line. Now we can draw the graph.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "[[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "An XY coordinate plane divided into four quadrants. The horizontal x axis runs left to right from negative 10 to 10 in intervals of 1. The vertical y axis runs up and down from negative 10 to 10 in intervals of 1. The graph passes through the points (negative 1, negative 3), (0, 0), and (1, 3). Closed points are plotted at (0, 0) and (1, 3).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/977c2bcda32eb9e9638e699e1a8065da4fa44a85.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Since the graph goes through $(\\pink0,\\blue0)$ and $(\\pink1,\\blue{3})$,   the slope is  $\\dfrac{\\left(\\blue{3}-\\blue0\\right)}{(\\pink1-\\pink0)}=3$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The slope is $3.$",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/977c2bcda32eb9e9638e699e1a8065da4fa44a85.png"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Graph the line that represents a proportional relationship between $d$  and $t$ with the property that an increase of $5$ units in $t$ corresponds to an increase of $8$ units in $d$.   **What is the unit rate of change of $d$ with respect to $t$? **  (That is, a change of $1$ unit in $t$ will correspond to a change of how many units in $d$?)   The unit rate is  .  **Graph the relationship.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "1.6",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    0,
+                                                    0
+                                                ],
+                                                [
+                                                    5,
+                                                    8
+                                                ]
+                                            ],
+                                            "type": "linear"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Any proportional relationship in the variables $d$ and $t$ has the form $d=kt$, where $k$ is called the *proportionality constant.*  Since $d=k$ when $t=1$, $k$ is also the unit rate.  We know that the point $(\\pink0,\\blue0)$ lies on the line, because $\\blue0=k\\cdot\\pink0$.  What other point will lie on the line?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let’s use the fact that an increase of $5$ units in $t$ corresponds to an increase of $8$ units in $d$ to find the unit rate of change of $d$ with respect to $t$:    $\\dfrac{\\blue{8}}{\\pink{5}}=1\\dfrac{3}{5}=1.6.$   So the unit rate of change is $1.6$, and the equation of the line representing this relationship is  $d=1.6t$.    Let's use this to find another point on the line.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "If $t=\\pink{5}$, then $d=1.6(\\pink5)=\\blue{8}$.  So the point $(\\pink5,\\blue{8})$ lies on the line.  We can now graph the line connecting $(\\pink0,\\blue0)$  and $(\\pink5,\\blue{8})$.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "An XY coordinate plane divided into four quadrants. The horizontal x axis, labeled t, runs left to right from negative 10 to 14 in intervals of 1. The vertical y axis, labeled d, runs up and down from negative 10 to 14 in intervals of 1. The graph passes through the points (negative 5, negative 8), (0, 0), and (5, 8). Closed points are plotted at (0, 0) and (5, 8).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/8c891ea36137c63de881ee3230a94983cb2851c9.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The unit rate of change of $d$ with respect to $t$ is $1.6$ .",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Graph the line that represents a proportional relationship between $d$  and $t$  with the property that an increase of $0.2$ units in $t$ corresponds to an increase of $1.8$ units in $d$.  **What is the unit rate of change of $d$ with respect to $t$? **  (That is, a change of $1$ unit in $t$ will correspond to a change of how many units in $d?$)   The unit rate of change is  .  **Graph the line. **",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "9",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    0,
+                                                    0
+                                                ],
+                                                [
+                                                    1,
+                                                    9
+                                                ]
+                                            ],
+                                            "type": "linear"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Any proportional relationship in the variables $d$ and $t$ has the form $d=kt$, where $k$ is called the *proportionality constant.*  So we know that the point $(\\maroonD0,\\blueE0)$ lies on the line, because $\\blueE0=k\\cdot\\maroonD0$.  What other point will lie on the line?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let’s use the fact that an increase of $0.2$ units in $t$ corresponds to an increase of $1.8$ units in $d$ to find the unit rate of change of $d$ with respect to $t$:   $\\begin{align}\\dfrac{\\blueE{1.8}}{\\maroonD{0.2}}&=\\dfrac{\\blueE{1\\dfrac{8}{10}}}{\\maroonD{\\dfrac{2}{10}}}\\\\&\\\\ &=\\blueE{\\dfrac{18}{\\cancel{10}}}\\cdot\\maroonD{\\dfrac{\\cancel{10}}{2}}\\\\&\\\\&=9.\\end{align}$  Therefore if $t=\\maroonD1$, $d=\\blueE9$, so the point $(\\maroonD1,\\blueE9)$ is on the line, and the unit rate is $9$.  We can now graph the line connecting the points $(\\maroonD0,\\blueE0)$ and $(\\maroonD1,\\blueE9)$.     [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "An XY coordinate plane divided into four quadrants. The horizontal x axis, labeled t, runs left to right from negative 10 to 10 in intervals of 1. The vertical y axis, labeled d, runs up and down from negative 10 to 10 in intervals of 1. The graph passes through the points (negative 1, negative 9), (0, 0), and (1, 9). Closed points are plotted at (0, 0) and (1, 9).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/6c7d5dcd51c82fe3792caaf3060a3b6ab59f1a54.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "**The unit rate of change of $d$ with respect to $t$ is $9.$**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Graph the line that represents a proportional relationship between $d$  and $t$ with the property that an increase of $3$ units in $t$ corresponds to an increase of $8$ units in $d$.    **What is the unit rate of change of $d$ with respect to $t$? **  (That is, a change of $1$ unit in $t$ will correspond to a change of how many units in $d$?)   The unit rate of change is  .  **Graph the relationship.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "2.6666666666666665",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    0,
+                                                    0
+                                                ],
+                                                [
+                                                    3,
+                                                    8
+                                                ]
+                                            ],
+                                            "type": "linear"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Any proportional relationship in the variables $d$ and $t$ has the form $d=kt$, where $k$ is called the *proportionality constant.*  So we know that the point $(\\pink0,\\blue0)$ lies on the line, because $\\blue0=k\\cdot\\pink0$.  What other point will lie on the line?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let’s use the fact that an increase of $3$ units in $t$ corresponds to an increase of $8$ units in $d$.  This tells us that if $t$ increases from $0$ to $3$, then $d$ will increase from $0$ to $8$.  Therefore the point $(\\pink3,\\blue8)$ lies on the line.  Now we can graph the line connecting the points $(\\pink0,\\blue0)$ and $(\\pink3,\\blue8)$.   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "An XY coordinate plane divided into four quadrants. The horizontal x axis, labeled t, runs left to right from negative 10 to 10 in intervals of 1. The vertical y axis, labeled d, runs up and down from negative 10 to 10 in intervals of 1. The graph passes through the points (negative 3, negative 8), (0, 0), and (3, 8). Closed points are plotted at (0, 0) and (3, 8).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/df24bc707868caff2d1ac50ef1e037d6f9662e48.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's find the slope:  $\\dfrac{(\\blue8-\\blue0)}{(\\pink3-\\pink0)}=\\dfrac{8}{3}$ ,    which is also the unit rate of change of $d$ with respect to $t$.  For a change of $\\pink1$ unit in $t$, there is a change of $\\blue{\\dfrac 83}$ units in $d$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The unit rate of change of $d$ with respect to $t$ is $\\,\\dfrac{8}{3}$ .",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Graph the line that represents a proportional relationship between $d$  and $t$ with the property that an increase of $6$ units in $t$ corresponds to an increase of $7$ units in $d$.   **What is the unit rate of change of $d$ with respect to $t$? **  (That is, a change of $1$ unit in $t$ will correspond to a change of how many units in $d$?)   The unit rate of change is  .  **Graph the line.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "1.1666666666666667",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    0,
+                                                    0
+                                                ],
+                                                [
+                                                    6,
+                                                    7
+                                                ]
+                                            ],
+                                            "type": "linear"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Any proportional relationship in the variables $d$ and $t$ has the form $d=kt$, where $k$ is called the *proportionality constant.*  So we know that the point $(\\pink0,\\blue0)$ lies on the line, because $\\blue0=k\\cdot\\pink0$.  What other point will lie on the line?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let’s use the fact that an increase of $6$ units in $t$ corresponds to an increase of $7$ units in $d$.  This tells us that if $t$ increases from $0$ to $6$, then $d$ will increase from $0$ to $7$.  Therefore the point $(\\pink6,\\blue7)$ lies on the line.  Now we can graph the line connecting the points $(\\pink0,\\blue0)$ and $(\\pink6,\\blue7)$.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "An XY coordinate plane divided into four quadrants. The horizontal x axis, labeled t, runs left to right from negative 10 to 10 in intervals of 1. The vertical y axis, labeled d, runs up and down from negative 10 to 10 in intervals of 1. The graph passes through the points (negative 6, negative 7), (0, 0), and (6, 7). Closed points are plotted at (0, 0) and (6, 7).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/15cab023f69bd1da817f315be394299c578ff0a3.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's find the slope:  $\\dfrac{(\\blue7-\\blue0)}{(\\pink6-\\pink0)}=\\dfrac{7}{6}$ ,  which is also the unit rate of change of $d$ with respect to $t$. For a change of $\\pink1$ unit in $t$, there is a change of $\\blue{\\dfrac 76}$ units in $d$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The unit rate of change of $d$ with respect to $t$ is $\\dfrac{7}{6}$ .",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Graph the line that represents a proportional relationship between $d$ and $t$  with the property that an increase of $3$ units in $t$ corresponds to an increase of $4$ units in $d$.    **What is the unit rate of change of $d$ with respect to $t$? **  (That is, a change of $1$ unit in $t$ will correspond to a change of how many units in $d$?)   The unit rate is  .  **Graph the relationship.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "1.3333333333333333",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    0,
+                                                    0
+                                                ],
+                                                [
+                                                    3,
+                                                    4
+                                                ]
+                                            ],
+                                            "type": "linear"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Any proportional relationship in the variables $d$ and $t$ has the form $d=kt$, where $k$ is called the *proportionality constant.*  Since $d=k$ when $t=1$, $k$ is also the unit rate of change of $d$ with respect to $t$. We know that the point $(\\pink0,\\blue0)$ lies on the line, because $\\blue0=k\\cdot\\pink0$.  What other point will lie on the line?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let’s use the fact that an increase of $3$ units in $t$ corresponds to an increase of $4$ units in $d$ to find the unit rate of change of $d$ with respect to $t$:   $\\begin{align}\\dfrac{\\blue{4}}{\\pink{3}}&=\\dfrac{\\dfrac{4}{3}}{1}.\\end{align}$  Therefore if $t=\\pink1$, $d=\\blue{\\dfrac{4}{3}}$ , so the point $\\left(\\pink1,\\blue{\\dfrac{4}{3}}\\right)$ is on the line, and the unit rate of change of $d$ with respect to $t$ is $\\dfrac 43$ .  It will be difficult to plot this point, so let's find another point on the graph.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since the unit rate is $\\dfrac 43$ , the equation corresponding to this relationship is   $d=\\dfrac 43t.$   To find another point on the line, let's set $t=\\pink3$.  Then $d=\\dfrac 43(\\pink3)=\\blue4$, so the point $(\\pink3,\\blue4)$ lies on the line.  We can now draw the line connecting $(\\pink0,\\blue0)$ and $(\\pink3,\\blue4)$.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "An XY coordinate plane divided into four quadrants. The horizontal x axis runs left to right from negative 10 to 10 in intervals of 1. The vertical y axis runs up and down from negative 10 to 10 in intervals of 1. The graph passes through the points (negative 3, negative 4), (0, 0), and (3, 4). Closed points are plotted at (0, 0) and (3, 4).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/c41cecea9361fd8b19c011d172c6d69539ce55b7.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The unit rate of change of $d$ with respect to $t$ is $\\dfrac 43$ .",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Graph the line that represents a proportional relationship between $d$ and $t$ with the property that an increase of $5$ units in $t$ corresponds to an increase of $2$ units in $d$.    **What is the unit rate of change of $d$ with respect to $t$? **  (That is, a change of $1$ unit in $t$ will correspond to a change of how many units in $d$?)   The unit rate is  .  **Graph the line.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.4",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    0,
+                                                    0
+                                                ],
+                                                [
+                                                    5,
+                                                    2
+                                                ]
+                                            ],
+                                            "type": "linear"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Any proportional relationship in the variables $d$ and $t$ has the form $d=kt$, where $k$ is called the *proportionality constant.*  So we know that the point $(\\pink0,\\blue0)$ lies on the line, because $\\blue0=k\\cdot\\pink0$.  What other point will lie on the line?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's  find another point on the line.  If $t$ increases from $0$ to $5$, then $d$ will increase from $0$ to $2$, so the point $(\\pink5,\\blue2)$ lies on the line.   We can now graph the line connecting $(\\pink0,\\blue0)$ and $(\\pink5,\\blue2)$.   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "An XY coordinate plane divided into four quadrants. The horizontal x axis, labeled t, runs left to right from negative 10 to 10 in intervals of 1. The vertical y axis, labeled d, runs up and down from negative 10 to 10 in intervals of 1. The graph passes through the points (negative 5, negative 2), (0, 0), and (5, 2). Closed points are plotted at (0, 0) and (5, 2).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/c6d39222b8d2fb7a357457d07b4262b589013630.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's find the slope:  $\\dfrac{(\\blue2-\\blue0)}{(\\pink5-\\pink0)}=\\dfrac{2}{5}$ ,  which is also the unit rate of change of $d$ with respect to $t$. For a change of $\\pink1$ unit in $t$, there is a change of $\\blue{\\dfrac 25}$ units in $d$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The unit rate of change of $d$ with respect to $t$  is $\\dfrac{2}{5}$ .",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Graph $y=\\dfrac{2}{3}x$.**     **Which of the following statements are true?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    0,
+                                                    0
+                                                ],
+                                                [
+                                                    3,
+                                                    2
+                                                ]
+                                            ],
+                                            "type": "linear"
+                                        }
+                                    },
+                                    {
+                                        "content": "The equation represents a proportional relationship.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The unit rate of change of $y$ with respect to $x$  is $\\dfrac{2}{3}$.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The slope of the line is $\\dfrac{2}{3}$.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "A change of $3$ units in $x$ results in a change of $2$ units in $y$.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "A change of $3$ units in $x$ results in a change of $1$ unit in $y$.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "This is a proportional relationship, because it is of the form $y=kx$ for a number $k$.  Its graph is a straight line.  First, let's graph the equation by finding two points that make the equation true, and then graphing them.  If $x=\\pink0$, then $y=\\dfrac{2}{3}\\cdot\\pink0=\\blue0,$ so the point $(\\pink0,\\blue0)$ lies on the line.  Let's find another point that lies on the line.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can set $x=\\pink3$, then $y=\\dfrac{2}{3}(\\pink3)=\\blue{2}.$  So the point $(\\pink3,\\blue{2})$ lies on the line.  Let's graph the line connecting these two points.   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "An XY coordinate plane divided into four quadrants. The horizontal x axis runs left to right from negative 10 to 10 in intervals of 1. The vertical y axis runs up and down from negative 10 to 10 in intervals of 1. The graph passes through the points (negative 3, negative 2), (0, 0), and (3, 2). Closed points are plotted at (0, 0) and (3, 2).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/1d79af7445f5442bb214c4d879599da080329c54.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now, which of the answer choices is true?  We have already seen that the equation represents a proportional relationship, so this statement is true. What about the others?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The unit rate of change of $y$ with respect to $x$ is the value of $y$ corresponding to $x=\\pink1$.  So the unit rate of change is  $y=\\dfrac{2}{3}(\\pink1)=\\blue{\\dfrac{2}{3}}$ .   In a proportional relationship, the slope and the unit rate of change are equal, so the slope is also $\\dfrac{2}{3}$ .",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Finally, a change of $3$ units in $x$ results in a change of $y=\\dfrac{2}{3}(\\pink3)=\\blue2$ units in $y$, so this statement is true; the statement that this change in $x$ results in a change of $1$ unit in $y$ is *not* true.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "**All of the statements are true *except* the one that states a change of $3$ units in $x$ results in a change of $1$ unit in $y$.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 4"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Graph $y=8.5x$.**     **Which of the following statements are true?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    0,
+                                                    0
+                                                ],
+                                                [
+                                                    1,
+                                                    8.5
+                                                ]
+                                            ],
+                                            "type": "linear"
+                                        }
+                                    },
+                                    {
+                                        "content": "The equation represents a proportional relationship.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The unit rate of change of $y$ with respect to $x$ is $8.5$.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The slope of the line is $\\dfrac{2}{17}$ .",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "A change of $17$ units in $x$ results in a change of $2$ units in $y$.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "A change of $4$ units in $x$ results in a change of $34$ units in $y$.",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "This is a proportional relationship, because it is of the form $y=kx$ for a number $k$.  Its graph is a straight line.  First, let's graph the equation by finding two points that make the equation true, and then graphing them.  If $x=\\pink0$, then $y=8.5\\cdot\\pink0=\\blue0,$ so the point $(\\pink0,\\blue0)$ lies on the line.  Find another point that lies on the line.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's set $x=\\pink1$, then $y=8.5(\\pink1)=\\blue{8.5}$.  So the point $(\\pink1,\\blue{8.5})$ lies on the line.  Let's graph the line connecting these two points.   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "An XY coordinate plane divided into four quadrants. The horizontal x axis runs left to right from negative 10 to 10 in intervals of 1. The vertical y axis runs up and down from negative 10 to 10 in intervals of 1. The graph passes through the points (negative 1, negative 8.5), (0, 0), and (1, 8.5). Closed points are plotted at (0, 0) and (1, 8.5).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/00f48c38af31061805553d4c1e2b65143cd6796f.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now, which of the answer choices is true?  We have already seen that the equation represents a proportional relationship, so this statement is true. What about the others?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The unit rate of change of $y$ with respect to $x$ is the value of $y$ corresponding to $x=\\pink1$.  So the unit rate of change is $8.5$.    In a proportional relationship, the slope and the unit rate of change are equal, so the slope is also $8.5$.  The statement that the slope is $\\dfrac{2}{17}$ is *not* true.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "A change of $17$ units in $x$ results in a change of $y=8.5(\\pink{17})=144.5$ units, *not* $2$ units.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Finally, a change of $4$ units in $x$ results in a change of $y=8.5(\\pink4)=34$ units in $y$, so this statement is true.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "**The equation represents a proportional relationship, the unit rate of change of $y$ with respect to $x$ is $8.5$, and a change of $4$ units in $x$ results in a change of $34$ units in $y$.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 4"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Graph $y=\\dfrac{2}{7}\\,x$.**     **Which of the following statements are true?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    0,
+                                                    0
+                                                ],
+                                                [
+                                                    7,
+                                                    2
+                                                ]
+                                            ],
+                                            "type": "linear"
+                                        }
+                                    },
+                                    {
+                                        "content": "The equation represents  a proportional relationship.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The unit rate of change of $y$ with respect to $x$ is $\\dfrac{7}{2}$ .",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The slope of the line is $\\dfrac{2}{7}$ .",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "A change of $7$ units in $x$ results in a change of $2$ units in $y$.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "A change of $6$ units in $x$ results in a change of $21$ units in $y$.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "This *is* a proportional relationship, because it is of the form $y=kx$ for a number $k$.  Its graph is a straight line.  First, let's graph the equation by finding two points that make the equation true, and then graphing them.  If $x=\\pink0$, then $y=\\dfrac{2}{7}\\cdot\\pink0=\\blue0,$ so the point $(\\pink0,\\blue0)$ lies on the line.  Let's find another point that lies on the line.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's set $x=\\pink7$, then $y=\\dfrac{2}{7}(\\pink7)=\\blue{2}.$  So the point $(\\pink7,\\blue{2})$ lies on the line.  Let's graph the line connecting these two points.   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "An XY coordinate plane divided into four quadrants. The horizontal x axis runs left to right from negative 10 to 10 in intervals of 1. The vertical y axis runs up and down from negative 10 to 10 in intervals of 1. The graph passes through the points (negative 7, negative 2), (0, 0), and (7, 2). Closed points are plotted at (0, 0) and (7, 2).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/56020b16b53a32b8b151b0a00f542be8a5cb5abf.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now, which of the answer choices is true?  We have already seen that the equation represents a proportional relationship, so this statement is  true. What about the others?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The unit rate of change of $y$ with respect to $x$ is the value of $y$ corresponding to $x=\\pink1$.  So the unit rate of change is  $y=\\dfrac{2}{7}(\\pink1)=\\blue{\\dfrac{2}{7}}$ . The unit rate of change is $\\dfrac{2}{7}$ , *not* $\\dfrac{7}{2}$ .    In a proportional relationship, the slope and the unit rate of change are equal, so the slope is also $\\dfrac{2}{7}$ .",
+                                    "images": []
+                                },
+                                {
+                                    "content": "A change of $\\pink7$ units in $x$ results in a change of $y=\\dfrac{2}{7}(\\pink7)=\\blue2$ units, so this statement is true.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Finally, a change of $\\pink6$ units in $x$ results in a change of $y=\\dfrac{2}{7}(\\pink6)=\\blue{\\dfrac{12}{7}}$ units in $y$, *not* $21$ units, so this statement is not true.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "**The equation represents a proportional relationship, the slope of the line is $\\dfrac{2}{7}$ , and a change of $7$ units in $x$ results in a change of $2$ units in $y$.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 4"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Graph $y=2.5x$.**     **Which of the following statements are true?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    0,
+                                                    0
+                                                ],
+                                                [
+                                                    2,
+                                                    5
+                                                ]
+                                            ],
+                                            "type": "linear"
+                                        }
+                                    },
+                                    {
+                                        "content": "The equation represents a proportional relationship.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The unit rate of change of $y$ with respect to $x$ is $\\dfrac{2}{5}$ .",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The slope of the line is $2.5.$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "A change of $5$ units in $x$ results in a change of $2$ units in $y$.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "A change of $2$ units in $x$ results in a change of $5$ units in $y$.",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "This is a proportional relationship, because it has the form $y=kx$ for a number $k$.  Its graph is a straight line.  First, let's graph the equation by finding two points that make the equation true, and then graphing them.  If $x=\\pink0$, then $y=2.5\\cdot\\pink0=\\blue0,$ so the point $(\\pink0,\\blue0)$ lies on the line.  Find another point that lies on the line.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's set $x=\\pink2$, then $y=2.5(\\pink2)=\\blue{5}$.  So the point $(\\pink2,\\blue{5})$ lies on the line.  Let's graph the line connecting these two points.   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "An XY coordinate plane divided into four quadrants. The horizontal x axis runs left to right from negative 10 to 10 in intervals of 1. The vertical y axis runs up and down from negative 10 to 10 in intervals of 1. The graph passes through the points (negative 2, negative 5), (0, 0), and (2, 5). Closed points are plotted at (0, 0) and (2, 5).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/54d25c58371ce554b3ca5faf3d87db6f17c6794f.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now, which of the answer choices is true?  We have already seen that the equation represents a proportional relationship, so the first statement is true. What about the others?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The unit rate of change of $y$ with respect to $x$ is the value of $y$ corresponding to $x=\\pink1$.  So the unit rate of change is  $y=2.5(\\pink1)=2.5$ The unit rate is $2.5,$ *not* $\\dfrac{2}{5}$ .    In a proportional relationship, the slope and the unit rate of change are equal, so the slope is   $2.5$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "A change of $\\pink5$ units in $x$ results in a change of $y=2.5(\\pink5)=\\blue{12.5}$ units, so the statement that such a change results in a change of $2$ units in $y$ is *not* true.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Finally, a change of $\\pink2$ units in $x$ results in a change of $y=2.5(\\pink2)=\\blue5$ units in $y$, so this statement is true.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "**The equation represents a proportional relationship, the slope of the line is $2.5$, and a change of $2$ units in $x$ results in a change of $5$ units in $y$.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 4"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Graph $y=0.4x$.**     **Which of the following statements are true?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    0,
+                                                    0
+                                                ],
+                                                [
+                                                    5,
+                                                    2
+                                                ]
+                                            ],
+                                            "type": "linear"
+                                        }
+                                    },
+                                    {
+                                        "content": "The equation represents a proportional relationship.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The unit rate of change of $y$ with respect to $x$ is $0.4$.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The slope of the line is $0.4$.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "A change of $2$ units in $x$ results in a change of $0.2$ units in $y$.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "A change of $3$ units in $x$ results in a change of $1.2$ units in $y$.",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "This is a proportional relationship, because it is of the form $y=kx$ for a number $k$.  Its graph is a straight line.  First, let's graph the equation by finding two points that make the equation true, and then graphing them.  If $x=\\pink0$, then $y=0.4\\cdot\\pink0=\\blue0$, so the point $(\\pink0,\\blue0)$ lies on the line.  Find another point that lies on the line.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's set $x=\\pink5$, then $y=0.4(\\pink5)=\\blue{2}$.  So the point $(\\pink5,\\blue{2})$ lies on the line.  Let's graph the line connecting these two points.   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "An XY coordinate plane divided into four quadrants. The horizontal x axis runs left to right from negative 10 to 10 in intervals of 1. The vertical y axis runs up and down from negative 10 to 10 in intervals of 1. The graph passes through the points (negative 5, negative 2), (0, 0), and (5, 2). Closed points are plotted at (0, 0) and (5, 2).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/4075c445ea974e7e0a67846ee8695806b3adf569.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now, which of the answer choices is true?  We have already seen that the equation represents a proportional relationship, so this statement is true. What about the others?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The unit rate of change of $y$ with respect to $x$ is the value of $y$ corresponding to $x=\\pink1$.  So the unit rate of change is  $y=0.4(\\pink1)=0.4$.     In a proportional relationship, the slope and the unit rate of change are equal, so the slope is also $0.4$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "A change of $\\pink2$ units in $x$ results in a change of $y=0.4(\\pink2)=\\blue{0.8}$ units, so the statement that such a change results in a change of $0.2$ units in $y$ is *not* true.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Finally, a change of $\\pink3$ units in $x$ results in a change of $y=0.4(\\pink3)=\\blue{1.2}$ units in $y$, so this statement is true.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "*All* of the statements are true *except* the one that states that a change of $2$ units in $x$ results in a change of $0.2$ units in $y$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 4"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Graph $y=1.4x$.**      **Which of the following statements are true?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    0,
+                                                    0
+                                                ],
+                                                [
+                                                    5,
+                                                    7
+                                                ]
+                                            ],
+                                            "type": "linear"
+                                        }
+                                    },
+                                    {
+                                        "content": "The equation represents a proportional relationship.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The unit rate of change of $y$ with respect to $x$  is $1.4$.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The slope of the line is $\\dfrac{5}{7}$ .",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "A change of $2$ units in $x$ results in a change of $2.8$ units in $y$.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "A change of $3$ units in $x$ results in a change of $1.2$ units in $y$.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "This is a proportional relationship, because it is of the form $y=kx$ for a number $k$.  Its graph is a straight line.  First, let's graph the equation by finding two points that make the equation true, and then graphing them.  If $x=\\pink0$, then $y=1.4\\cdot\\pink0=\\blue0$, so the point $(\\pink0,\\blue0)$ lies on the line.  Find another point that lies on the line.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's set $x=\\pink5$, then $y=1.4(\\pink5)=\\blue{7.0}$.  So the point $(\\pink5,\\blue{7})$ lies on the line.  Let's graph the line connecting these two points.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "An XY coordinate plane divided into four quadrants. The horizontal x axis runs left to right from negative 10 to 10 in intervals of 1. The vertical y axis runs up and down from negative 10 to 10 in intervals of 1. The graph passes through the points (negative 5, negative 7), (0, 0), and (5, 7). Closed points are plotted at (0, 0) and (5, 7).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/780595497d559aaf1bc0e9c54f4d3296e44321d3.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now, which of the answer choices is true?  We have already seen that the equation represents a proportional relationship, so this statement is true. What about the others?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The unit rate of change of $y$ with respect to $x$ is the value of $y$ corresponding to $x=\\pink1$.  So the unit rate of change is  $y=1.4(\\pink1)=1.4$.   In a proportional relationship, the slope and the unit rate of change are equal, so the slope is also $1.4$.  The statement about the slope is *not* true.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "A change of $\\pink2$ units in $x$ results in a change of $y=1.4(\\pink2)=\\blue{2.8}$ units in $y$, so this statement is true.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Finally, a change of $\\pink3$ units in $x$ results in a change of $y=1.4(\\pink3)=\\blue{4.2}$ units in $y$, so this statement is not true.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The equation represents a proportional relationship, the unit rate of change of $y$ with respect to $x$ is $1.4$, and a change of $2$ units in $x$ results in a change of $2.8$ units in $y$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 4"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Keith is saving money for a car.  He has saved the same amount each year for the past three years, and records how much he has at the end of each year in the table below.   |Year $1$|Year $2$|Year $3$ -:|-:|-:|-: Total amount saved |$\\$1500$|$\\$3000$|$\\$4500$  **What is Keith's *unit rate* of change of dollars with respect to time; that is, how much does Keith save in *one* year? **  The unit rate is  dollars per  year.    **Graph the proportional relationship described above, with the $x$-coordinate representing years, and the $y$-coordinate representing amount saved in thousands of dollars.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "1500",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    0,
+                                                    0
+                                                ],
+                                                [
+                                                    2,
+                                                    3
+                                                ]
+                                            ],
+                                            "type": "linear"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "First, let’s plot two points on the graph.  Even though it is not in the table, the point $(\\pink0,\\blue0)$ lies on the graph, because after $\\pink0$ years, $\\blue0$ thousand dollars is saved.  What other point lies on the graph?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's plot the point $(\\pink2,\\blue3)$, because $\\$\\blue3$ thousand is saved after $\\pink2$ years.  Now we can draw the line connecting these two points.   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x-axis runs from 0 to 5 and is scaled by 1. The y-axis runs from 0 to 10 and is scaled by 1.  A graph of a line intersects the points (0, 0), (2, 3), and (4, 6). Closed points are plotted at (0, 0) and (2, 3).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/436701ee1d6eb5b6d2e923ceaebf4736973fa05d.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "From the table, we see that $\\$1500$ is saved in one year, so the unit rate of change of dollars with respect to time is $\\$1500$ per year.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The unit rate is $\\$1500$ dollars per  year.",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/436701ee1d6eb5b6d2e923ceaebf4736973fa05d.png"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Type 5"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Tara takes her pulse in order to determine her resting heart rate, measured in beats per minute $(\\text{bpm})$.  She takes it for three minutes, and makes the following chart of the results.  We'll assume that Tara's heart rate is constant over the three-minute period.   |||| -:|-:|-:|-: Minutes|$1$|$2$|$3$ Beats|$60$|$120$|$180$  **Graph the proportional relationship described above, where the $x$-coordinate represents minutes, and the $y$-coordinate represents beats.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    0,
+                                                    0
+                                                ],
+                                                [
+                                                    1,
+                                                    60
+                                                ]
+                                            ],
+                                            "type": "linear"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "First, let’s check that this is a proportional relationship.  We see from the chart that Tara's resting heart rate is $60\\,\\text{bpm}$.  After $\\red1$ minute, she counted $60$ beats; after $\\blue2$ minutes, $120$ beats; and after $\\green3$ minutes, $180$ beats.  In each case, the quotient of beats divided by minutes is the same, $60$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The unit rate of change of beats with respect to time is $60\\,\\text{bpm}$.  The graph will go through the point $(\\pink1,\\blue{60})$. It also goes through the point $(\\pink0,\\blue0)$, because there are $\\blue0$ beats in $\\pink0$ minutes.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "**Now we can graph the line that represents this relationship.**     [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x-axis runs from 0 to 8 and is scaled by 1. The y-axis runs from 0 to 100 and is scaled by 10.  A graph of a line intersects the points (0, 0) and (1, 60). Closed points are plotted at (0, 0) and (1, 60).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/8e60cc9e28011c1bcfb731c938b82f947fe7e752.png"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Type 5"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "You are driving along the open highway on a cross-country road trip, cruising at a steady speed of $60$ miles per hour.   **What is the slope of the line representing this relationship?**  The slope is  .   **Graph the proportional relationship  $d=60t\\,$ that expresses your distance traveled $d$ (in miles) in terms of time $t$ (in hours) since you started going $60\\, \\text{mph}$. **",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "60",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    0,
+                                                    0
+                                                ],
+                                                [
+                                                    1,
+                                                    60
+                                                ]
+                                            ],
+                                            "type": "linear"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "First, let’s note that this is a proportional relationship.  The equation  has the form $d=kt$, where $k$ is a number $($in this case, $60)$.  To draw the graph, let's find two points $(t,d)$ that satisfy the equation.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let $t=0$.  Then $d=60(\\pink0)=\\blue0$, so the point $(\\pink0,\\blue0)$ lies on the line.  What is another point on the line?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's set $t=1$.  Then $d=60(\\pink1)=\\blue{60}$, so the point $(\\pink1,\\blue{60})$ lies on the line.  Now we can graph the line connecting these two points.   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x-axis, labeled t, runs from 0 to 8 and is scaled by 1. The y-axis, labeled d, runs from 0 to 100 and is scaled by 10.  A graph of a line intersects the points (0, 0) and (1, 60). Closed points are plotted at (0, 0) and (1, 60).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d41d9ff887fde24f4be7c2751c8be5c4cbedea90.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Since $(\\pink1,\\blue{60})$ lies on the line, we know that the unit rate of change of $d$ with respect to $t$ is $60$.  This is also the value of the slope:  $\\dfrac{\\blue{60}-\\blue0}{\\pink{1}-\\pink0}=60$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The slope of the line is $60$.",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d41d9ff887fde24f4be7c2751c8be5c4cbedea90.png"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Type 5"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Roberto is having his house painted.  The job takes three days, and he pays the painter the same hourly rate every day.  The cost of the job is in the chart below.   |Day $1$|Day $2$|Day $3$ -:|-:|-:|-: Hours worked|$5$|$4$|$6$ Amount paid|$\\$300$|$\\$240$|$\\$360$  **What is the painter's *unit rate* of change of dollars with respect to time; that is, how much is the painter paid for *one* hour worked? **  The unit rate of change is  dollars per hour.  **Graph the proportional relationship described above, with the $x$-coordinate representing hours worked, and the $y$-coordinate representing amount paid in dollars.**    Graph the relationship.",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "60",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    0,
+                                                    0
+                                                ],
+                                                [
+                                                    1,
+                                                    60
+                                                ]
+                                            ],
+                                            "type": "linear"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "First, let’s check that this is a proportional relationship.  If we look at Day $1$, we see the painter worked $\\pink5$ hours and received $\\$300$, so the hourly rate is  $\\dfrac{\\$300}{\\pink5\\,\\, \\text{hours}}=\\dfrac{\\$60}{\\pink1\\,\\, \\text{hour}} =\\$60.00$ per hour.  This is the painter’s unit rate of change of dollars with respect to time.  Since it is the same every day, we could stop here, but let’s check Days $2$ and $3$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "On Day $2$, the hourly rate is  $\\dfrac{\\$240}{\\blue4\\,\\,\\text{hours}}=\\$60.00$ per hour,  and on Day $3$ it is  $\\dfrac{\\$360}{\\green6\\,\\,\\text{hours}}=\\$60.00$ per hour.    The ratio of dollars paid to hours worked is always the same, so the relationship is proportional.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Now, let's draw the graph.  The graph will be a straight line, and we know it will go through $(\\pink0,\\blue0)$, because the painter will earn $\\blue0$ dollars for $\\pink0$ hours of work. What is another point that will lie on the line?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "For $\\pink1$ hour of work, the painter earns $\\$\\blue{60}$, so the point $(\\pink1,\\blue{60})$ lies on the line.  Now we can plot these two points and graph the line connecting them.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x-axis runs from 0 to 8 and is scaled by 1. The y-axis runs from 0 to 100 and is scaled by 10.  A graph of a line intersects the points (0, 0) and (1, 60). Closed points are plotted at (0, 0) and (1, 60).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/8e60cc9e28011c1bcfb731c938b82f947fe7e752.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "**The painter's unit rate of change of dollars with respect to time is $\\$60$ per hour.**",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/8e60cc9e28011c1bcfb731c938b82f947fe7e752.png"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Type 5"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Igor’s summer job at the frozen yogurt shop paid him the following amounts in his first three days on the job (he got paid the same hourly rate every day).   |Day $1$|Day $2$|Day $3$ -:|-:|-:|-: Hours worked|$6$|$9$|$7$ Amount paid|$\\$57.00$|$\\$85.50$|$\\$66.50$  **What is Igor's *unit rate* of change of dollars with respect to time; that is, how much is he paid for *one* hour worked? **  The unit rate is  dollars per hour.  **Graph the proportional relationship described above, with the $x$-coordinate representing hours worked, and the $y$-coordinate representing amount paid in dollars.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "9.5",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    0,
+                                                    0
+                                                ],
+                                                [
+                                                    1,
+                                                    9.5
+                                                ]
+                                            ],
+                                            "type": "linear"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "First, let’s check that this is a proportional relationship.   On Day $1$, Igor worked $\\pink6$ hours and received $\\$57.00$, so his hourly rate is   $\\dfrac{\\$57.00}{\\pink6\\,\\, \\text{hours}}= \\$9.50$ per hour.  Similarly, we see that on Day $2$, he received an hourly rate of  $\\dfrac{\\$85.50}{\\blue9\\,\\,\\text{hours}}=\\$9.50$ per hour,   and on Day $3$ he received   $\\dfrac{\\$66.50}{\\green7\\,\\,\\text{hours}}=\\$9.50$ per hour.  So Igor’s unit rate of change of dollars with respect to time is $\\$9.50$ per hour.    The ratio of dollars paid to hours worked is always the same, so the relationship is proportional.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Now, let's draw the graph.  The graph will be a straight line, and we know it will go through $(\\pink0,\\blue0)$, because Igor will earn $\\blue0$ dollars for $\\pink0$ hours of work. What is another point that will lie on the line?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "For $\\pink1$ hour of work, Igor earns $\\$\\blue{9.50}$, so the point $(\\pink1,\\blue{9.5})$ lies on the line.    Now we can plot these two points and graph the line connecting them.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x-axis runs from 0 to 11 and is scaled by 1. The y-axis runs from 0 to 11 and is scaled by 1.  A graph of a line intersects the points (0, 0) and (1, 9.5). Closed points are plotted at (0, 0) and (1, 9.5).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/55b368285a8f286f3fbb8a3062ab63f05cf7bfa3.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Igor's unit rate of change of dollars with respect to time is $\\$9.50$ per hour.   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x-axis runs from 0 to 11 and is scaled by 1. The y-axis runs from 0 to 11 and is scaled by 1.  A graph of a line intersects the points (0, 0) and (1, 9.5). Closed points are plotted at (0, 0) and (1, 9.5).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/55b368285a8f286f3fbb8a3062ab63f05cf7bfa3.png"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Type 5"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Melissa made three batches of oatmeal cookies.  Her recipe calls for amounts of sugar (in cups) and flour (in cups) in the following ratios.   |||| -:|-:|-:|-: |**Batch $1$**|**Batch $2$**|**Batch $3$** Cups of sugar|$2$|$3$|$4$ Cups of flour|$4\\dfrac{1}{2}$|$6\\dfrac{3}{4}$|$9$  **What is the unit rate of change of flour $(y)$ with respect to sugar $(x)$?**  That is, how much flour corresponds to *one* cup of sugar?  The unit rate of change is  .   **Graph the proportional relationship described above, with the $x$-coordinate representing cups of sugar, and the $y$-coordinate representing cups of flour.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "2.25",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    0,
+                                                    0
+                                                ],
+                                                [
+                                                    4,
+                                                    9
+                                                ]
+                                            ],
+                                            "type": "linear"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "First, we see that the relationship *is* proportional, because an increase of $\\pink1$ cup of sugar corresponds to an increase $\\blue{2\\dfrac 14}$ cups of flour.  Let’s graph the relationship by finding two points on the graph.  Even though it is not shown in the table, the point $(\\pink0,\\blue0)$ lies on the line, because $\\blue0$ cups of flour correspond to $\\pink0$ cups of sugar.   How do we find another point on the line?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We see from the table that $\\pink4$ cups of sugar correspond to $\\blue9$ cups of flour, so the point $(\\pink4,\\blue9)$ also lies on the line.  Now we can graph the line connecting these two points.   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x-axis runs from 0 to 11 and is scaled by 1. The y-axis runs from 0 to 11 and is scaled by 1.  A graph of a line intersects the points (0, 0) and (4, 9). Closed points are plotted at (0, 0) and (4, 9).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d8c21342cc08a908b6a6b7d870fda7cd0cfecf4a.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "What is the unit rate of change of flour with respect to sugar?  Since the line goes through $(\\pink4,\\blue9)$, we know that the slope is   $\\dfrac{\\blue9-\\blue0}{\\pink4-\\pink0}=\\dfrac{9}{4}$ ,   which is also the unit rate.  $\\pink1$ cup of sugar corresponds to $\\blue{\\dfrac{9}{4}}$ cups of flour.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The unit rate of change of flour $(y)$ with respect to sugar $(x)$ is $\\dfrac{9}{4}$ .    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x-axis runs from 0 to 11 and is scaled by 1. The y-axis runs from 0 to 11 and is scaled by 1.  A graph of a line intersects the points (0, 0) and (4, 9). Closed points are plotted at (0, 0) and (4, 9).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d8c21342cc08a908b6a6b7d870fda7cd0cfecf4a.png"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Type 5"
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,995 @@
+{
+    "standard_metadata": {
+        "standard_id": "6.NS.A.1",
+        "standard_description": "Interpret and compute quotients of fractions, and solve word problems involving division of fractions by fractions, e.g., by using visual fraction models and equations to represent the problem.",
+        "standard_title": "Dividing fractions",
+        "standard_url": "https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-arithmetic-operations/cc-6th-dividing-fractions/e/dividing_fractions_1.5"
+    },
+    "id": "x6e88b14f",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Evaluate.**  $\\dfrac{3}{2} \\div \\dfrac{8}{3} = $",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.5625",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We want to know how many groups of $\\blueE{\\dfrac{8}{3}}$ are in $\\maroonD{\\dfrac{3}{2}}$.  The **[[☃ definition 1]]** of $\\blueE{\\dfrac{8}{3}}$ tells us the number of groups of $\\blueE{\\dfrac{8}{3}}$ in $1$ whole.  We have $\\maroonD{\\dfrac{3}{2}}$ wholes, so we can multiply the reciprocal of $\\blueE{\\dfrac{8}{3}}$ by $\\maroonD{\\dfrac{3}{2}}$.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The reciprocal of $\\blueE{\\dfrac{8}{3}}$ is $\\purpleD{\\dfrac{3}{8}}$.  Therefore:  $\\maroonD{\\dfrac{3}{2}} \\div \\blueE{\\dfrac{8}{3}} = \\maroonD{\\dfrac{3}{2}} \\times \\purpleD{\\dfrac{3}{8}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The reciprocal of $\\blueE{\\dfrac{8}{3}}$ is $\\purpleD{\\dfrac{3}{8}}$.  Therefore:   $\\begin{align} \\maroonD{\\dfrac{3}{2}} \\div \\blueE{\\dfrac{8}{3}} &= \\maroonD{\\dfrac{3}{2}} \\times \\purpleD{\\dfrac{3}{8}}\\\\\\\\ &= \\dfrac{\\maroonD{3} \\times \\purpleD{3}}{\\maroonD{2} \\times \\purpleD{8}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{\\dfrac{3}{2}} \\div \\blueE{\\dfrac{8}{3}} = \\goldE{\\dfrac{9}{16}}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Evaluate"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Evaluate.**  $\\dfrac{5}{2} \\div \\dfrac{5}{7} = $",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "3.5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We want to know how many groups of $\\blueE{\\dfrac{5}{7}}$ are in $\\maroonD{\\dfrac{5}{2}}$.  The **[[☃ definition 1]]** of $\\blueE{\\dfrac{5}{7}}$ tells us the number of groups of $\\blueE{\\dfrac{5}{7}}$ in $1$ whole.  We have $\\maroonD{\\dfrac{5}{2}}$ wholes, so we can multiply the reciprocal of $\\blueE{\\dfrac{5}{7}}$ by $\\maroonD{\\dfrac{5}{2}}$.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The reciprocal of $\\blueE{\\dfrac{5}{7}}$ is $\\purpleD{\\dfrac{7}{5}}$.  Therefore:  $\\maroonD{\\dfrac{5}{2}} \\div \\blueE{\\dfrac{5}{7}} = \\maroonD{\\dfrac{5}{2}} \\times \\purpleD{\\dfrac{7}{5}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The reciprocal of $\\blueE{\\dfrac{5}{7}}$ is $\\purpleD{\\dfrac{7}{5}}$.  Therefore:  $\\begin{align} \\maroonD{\\dfrac{5}{2}} \\div \\blueE{\\dfrac{5}{7}} &= \\maroonD{\\dfrac{5}{2}} \\times \\purpleD{\\dfrac{7}{5}}\\\\\\\\ &= \\dfrac{\\maroonD{5} \\times \\purpleD{7}}{\\maroonD{2} \\times \\purpleD{5}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\maroonD{\\dfrac{5}{2}} \\div \\blueE{\\dfrac{5}{7}} &= \\goldE{\\dfrac{35}{10}}\\\\\\\\ &= \\goldE{\\dfrac{7}{2}} \\end{align}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Evaluate"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Evaluate.**  $\\dfrac{8}{3} \\div \\dfrac{5}{3} = $",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "1.6",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We want to know how many groups of $\\blueE{\\dfrac{5}{3}}$ are in $\\maroonD{\\dfrac{8}{3}}$.  The **[[☃ definition 1]]** of $\\blueE{\\dfrac{5}{3}}$ tells us the number of groups of $\\blueE{\\dfrac{5}{3}}$ in $1$ whole.  We have $\\maroonD{\\dfrac{8}{3}}$ wholes, so we can multiply the reciprocal of $\\blueE{\\dfrac{5}{3}}$ by $\\maroonD{\\dfrac{8}{3}}$.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The reciprocal of $\\blueE{\\dfrac{5}{3}}$ is $\\purpleD{\\dfrac{3}{5}}$.  Therefore:  $\\maroonD{\\dfrac{8}{3}} \\div \\blueE{\\dfrac{5}{3}} = \\maroonD{\\dfrac{8}{3}} \\times \\purpleD{\\dfrac{3}{5}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The reciprocal of $\\blueE{\\dfrac{5}{3}}$ is $\\purpleD{\\dfrac{3}{5}}$.  Therefore:  $\\begin{align} \\maroonD{\\dfrac{8}{3}} \\div \\blueE{\\dfrac{5}{3}} &= \\maroonD{\\dfrac{8}{3}} \\times \\purpleD{\\dfrac{3}{5}}\\\\\\\\ &= \\dfrac{\\maroonD{8} \\times \\purpleD{3}}{\\maroonD{3} \\times \\purpleD{5}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\maroonD{\\dfrac{8}{3}} \\div \\blueE{\\dfrac{5}{3}} &= \\goldE{\\dfrac{24}{15}}\\\\\\\\ &= \\goldE{\\dfrac{8}{5}} \\end{align}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Evaluate"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Evaluate.**  $\\dfrac{1}{3} \\div \\dfrac{1}{4} = $",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "1.3333333333333333",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We want to know how many groups of $\\blueE{\\dfrac{1}{4}}$ are in $\\maroonD{\\dfrac{1}{3}}$.  The **[[☃ definition 1]]** of $\\blueE{\\dfrac{1}{4}}$ tells us the number of groups of $\\blueE{\\dfrac{1}{4}}$ in $1$ whole.  We have $\\maroonD{\\dfrac{1}{3}}$ wholes, so we can multiply the reciprocal of $\\blueE{\\dfrac{1}{4}}$ by $\\maroonD{\\dfrac{1}{3}}$.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The reciprocal of $\\blueE{\\dfrac{1}{4}}$ is $\\purpleD{\\dfrac{4}{1}}$.  Therefore:  $\\maroonD{\\dfrac{1}{3}} \\div \\blueE{\\dfrac{1}{4}} = \\maroonD{\\dfrac{1}{3}} \\times \\purpleD{\\dfrac{4}{1}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The reciprocal of $\\blueE{\\dfrac{1}{4}}$ is $\\purpleD{\\dfrac{4}{1}}$.  Therefore:  $\\begin{align} \\maroonD{\\dfrac{1}{3}} \\div \\blueE{\\dfrac{1}{4}} &= \\maroonD{\\dfrac{1}{3}} \\times \\purpleD{\\dfrac{4}{1}}\\\\\\\\ &= \\dfrac{\\maroonD{1} \\times \\purpleD{4}}{\\maroonD{3} \\times \\purpleD{1}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{\\dfrac{1}{3}} \\div \\blueE{\\dfrac{1}{4}} = \\goldE{\\dfrac{4}{3}}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Evaluate"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Evaluate.**  $\\dfrac{4}{3} \\div \\dfrac{7}{8} = $",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "1.5238095238095237",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We want to know how many groups of $\\blueE{\\dfrac{7}{8}}$ are in $\\maroonD{\\dfrac{4}{3}}$.  The **[[☃ definition 1]]** of $\\blueE{\\dfrac{7}{8}}$ tells us the number of groups of $\\blueE{\\dfrac{7}{8}}$ in $1$ whole.  We have $\\maroonD{\\dfrac{4}{3}}$ wholes, so we can multiply the reciprocal of $\\blueE{\\dfrac{7}{8}}$ by $\\maroonD{\\dfrac{4}{3}}$.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The reciprocal of $\\blueE{\\dfrac{7}{8}}$ is $\\purpleD{\\dfrac{8}{7}}$.  Therefore:  $\\maroonD{\\dfrac{4}{3}} \\div \\blueE{\\dfrac{7}{8}} = \\maroonD{\\dfrac{4}{3}} \\times \\purpleD{\\dfrac{8}{7}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The reciprocal of $\\blueE{\\dfrac{7}{8}}$ is $\\purpleD{\\dfrac{8}{7}}$.  Therefore:  $\\begin{align} \\maroonD{\\dfrac{4}{3}} \\div \\blueE{\\dfrac{7}{8}} &= \\maroonD{\\dfrac{4}{3}} \\times \\purpleD{\\dfrac{8}{7}}\\\\\\\\ &= \\dfrac{\\maroonD{4} \\times \\purpleD{8}}{\\maroonD{3} \\times \\purpleD{7}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{\\dfrac{4}{3}} \\div \\blueE{\\dfrac{7}{8}} = \\goldE{\\dfrac{32}{21}}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Evaluate"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Evaluate.**  $\\dfrac{1}{4} \\div \\dfrac{8}{3} = $",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.09375",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We want to know how many groups of $\\blueE{\\dfrac{8}{3}}$ are in $\\maroonD{\\dfrac{1}{4}}$.  The **[[☃ definition 1]]** of $\\blueE{\\dfrac{8}{3}}$ tells us the number of groups of $\\blueE{\\dfrac{8}{3}}$ in $1$ whole.  We have $\\maroonD{\\dfrac{1}{4}}$ wholes, so we can multiply the reciprocal of $\\blueE{\\dfrac{8}{3}}$ by $\\maroonD{\\dfrac{1}{4}}$.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The reciprocal of $\\blueE{\\dfrac{8}{3}}$ is $\\purpleD{\\dfrac{3}{8}}$.  Therefore:  $\\maroonD{\\dfrac{1}{4}} \\div \\blueE{\\dfrac{8}{3}} = \\maroonD{\\dfrac{1}{4}} \\times \\purpleD{\\dfrac{3}{8}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The reciprocal of $\\blueE{\\dfrac{8}{3}}$ is $\\purpleD{\\dfrac{3}{8}}$.  Therefore:  $\\begin{align} \\maroonD{\\dfrac{1}{4}} \\div \\blueE{\\dfrac{8}{3}} &= \\maroonD{\\dfrac{1}{4}} \\times \\purpleD{\\dfrac{3}{8}}\\\\\\\\ &= \\dfrac{\\maroonD{1} \\times \\purpleD{3}}{\\maroonD{4} \\times \\purpleD{8}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{\\dfrac{1}{4}} \\div \\blueE{\\dfrac{8}{3}} = \\goldE{\\dfrac{3}{32}}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Evaluate"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Evaluate.**  $\\dfrac{3}{4} \\div \\dfrac{3}{4} = $",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "1",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We want to know how many groups of $\\blueE{\\dfrac{3}{4}}$ are in $\\maroonD{\\dfrac{3}{4}}$.  The **[[☃ definition 1]]** of $\\blueE{\\dfrac{3}{4}}$ tells us the number of groups of $\\blueE{\\dfrac{3}{4}}$ in $1$ whole.  We have $\\maroonD{\\dfrac{3}{4}}$ wholes, so we can multiply the reciprocal of $\\blueE{\\dfrac{3}{4}}$ by $\\maroonD{\\dfrac{3}{4}}$.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The reciprocal of $\\blueE{\\dfrac{3}{4}}$ is $\\purpleD{\\dfrac{4}{3}}$.  Therefore:  $\\maroonD{\\dfrac{3}{4}} \\div \\blueE{\\dfrac{3}{4}} = \\maroonD{\\dfrac{3}{4}} \\times \\purpleD{\\dfrac{4}{3}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The reciprocal of $\\blueE{\\dfrac{3}{4}}$ is $\\purpleD{\\dfrac{4}{3}}$.  Therefore:  $\\begin{align} \\maroonD{\\dfrac{3}{4}} \\div \\blueE{\\dfrac{3}{4}} &= \\maroonD{\\dfrac{3}{4}} \\times \\purpleD{\\dfrac{4}{3}}\\\\\\\\ &= \\dfrac{\\maroonD{3} \\times \\purpleD{4}}{\\maroonD{4} \\times \\purpleD{3}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\maroonD{\\dfrac{3}{4}} \\div \\blueE{\\dfrac{3}{4}} &= \\goldE{\\dfrac{12}{12}}\\\\\\\\ &= \\goldE{1} \\end{align}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Evaluate"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Evaluate.**  $\\dfrac{5}{4} \\div \\dfrac{3}{5} = $",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "2.0833333333333335",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We want to know how many groups of $\\blueE{\\dfrac{3}{5}}$ are in $\\maroonD{\\dfrac{5}{4}}$.  The **[[☃ definition 1]]** of $\\blueE{\\dfrac{3}{5}}$ tells us the number of groups of $\\blueE{\\dfrac{3}{5}}$ in $1$ whole.  We have $\\maroonD{\\dfrac{5}{4}}$ wholes, so we can multiply the reciprocal of $\\blueE{\\dfrac{3}{5}}$ by $\\maroonD{\\dfrac{5}{4}}$.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The reciprocal of $\\blueE{\\dfrac{3}{5}}$ is $\\purpleD{\\dfrac{5}{3}}$.  Therefore:  $\\maroonD{\\dfrac{5}{4}} \\div \\blueE{\\dfrac{3}{5}} = \\maroonD{\\dfrac{5}{4}} \\times \\purpleD{\\dfrac{5}{3}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The reciprocal of $\\blueE{\\dfrac{3}{5}}$ is $\\purpleD{\\dfrac{5}{3}}$.  Therefore:  $\\begin{align} \\maroonD{\\dfrac{5}{4}} \\div \\blueE{\\dfrac{3}{5}} &= \\maroonD{\\dfrac{5}{4}} \\times \\purpleD{\\dfrac{5}{3}}\\\\\\\\ &= \\dfrac{\\maroonD{5} \\times \\purpleD{5}}{\\maroonD{4} \\times \\purpleD{3}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{\\dfrac{5}{4}} \\div \\blueE{\\dfrac{3}{5}} = \\goldE{\\dfrac{25}{12}}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Evaluate"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Evaluate.**  $\\dfrac{2}{5} \\div \\dfrac{8}{5} = $",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.25",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We want to know how many groups of $\\blueE{\\dfrac{8}{5}}$ are in $\\maroonD{\\dfrac{2}{5}}$.  The **[[☃ definition 1]]** of $\\blueE{\\dfrac{8}{5}}$ tells us the number of groups of $\\blueE{\\dfrac{8}{5}}$ in $1$ whole.  We have $\\maroonD{\\dfrac{2}{5}}$ wholes, so we can multiply the reciprocal of $\\blueE{\\dfrac{8}{5}}$ by $\\maroonD{\\dfrac{2}{5}}$.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The reciprocal of $\\blueE{\\dfrac{8}{5}}$ is $\\purpleD{\\dfrac{5}{8}}$.  Therefore:  $\\maroonD{\\dfrac{2}{5}} \\div \\blueE{\\dfrac{8}{5}} = \\maroonD{\\dfrac{2}{5}} \\times \\purpleD{\\dfrac{5}{8}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The reciprocal of $\\blueE{\\dfrac{8}{5}}$ is $\\purpleD{\\dfrac{5}{8}}$.  Therefore:  $\\begin{align} \\maroonD{\\dfrac{2}{5}} \\div \\blueE{\\dfrac{8}{5}} &= \\maroonD{\\dfrac{2}{5}} \\times \\purpleD{\\dfrac{5}{8}}\\\\\\\\ &= \\dfrac{\\maroonD{2} \\times \\purpleD{5}}{\\maroonD{5} \\times \\purpleD{8}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\maroonD{\\dfrac{2}{5}} \\div \\blueE{\\dfrac{8}{5}} &= \\goldE{\\dfrac{10}{40}}\\\\\\\\ &= \\goldE{\\dfrac{1}{4}} \\end{align}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Evaluate"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Evaluate.**  $\\dfrac{2}{5} \\div \\dfrac{1}{6} = $",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "2.4",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We want to know how many groups of $\\blueE{\\dfrac{1}{6}}$ are in $\\maroonD{\\dfrac{2}{5}}$.  The **[[☃ definition 1]]** of $\\blueE{\\dfrac{1}{6}}$ tells us the number of groups of $\\blueE{\\dfrac{1}{6}}$ in $1$ whole.  We have $\\maroonD{\\dfrac{2}{5}}$ wholes, so we can multiply the reciprocal of $\\blueE{\\dfrac{1}{6}}$ by $\\maroonD{\\dfrac{2}{5}}$.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The reciprocal of $\\blueE{\\dfrac{1}{6}}$ is $\\purpleD{\\dfrac{6}{1}}$.  Therefore:  $\\maroonD{\\dfrac{2}{5}} \\div \\blueE{\\dfrac{1}{6}} = \\maroonD{\\dfrac{2}{5}} \\times \\purpleD{\\dfrac{6}{1}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The reciprocal of $\\blueE{\\dfrac{1}{6}}$ is $\\purpleD{\\dfrac{6}{1}}$.  Therefore:  $\\begin{align} \\maroonD{\\dfrac{2}{5}} \\div \\blueE{\\dfrac{1}{6}} &= \\maroonD{\\dfrac{2}{5}} \\times \\purpleD{\\dfrac{6}{1}}\\\\\\\\ &= \\dfrac{\\maroonD{2} \\times \\purpleD{6}}{\\maroonD{5} \\times \\purpleD{1}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{\\dfrac{2}{5}} \\div \\blueE{\\dfrac{1}{6}} = \\goldE{\\dfrac{12}{5}}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Evaluate"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Evaluate.**  $\\dfrac{2}{5} \\div \\dfrac{1}{7} = $",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "2.8",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We want to know how many groups of $\\blueE{\\dfrac{1}{7}}$ are in $\\maroonD{\\dfrac{2}{5}}$.  The **[[☃ definition 1]]** of $\\blueE{\\dfrac{1}{7}}$ tells us the number of groups of $\\blueE{\\dfrac{1}{7}}$ in $1$ whole.  We have $\\maroonD{\\dfrac{2}{5}}$ wholes, so we can multiply the reciprocal of $\\blueE{\\dfrac{1}{7}}$ by $\\maroonD{\\dfrac{2}{5}}$.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The reciprocal of $\\blueE{\\dfrac{1}{7}}$ is $\\purpleD{\\dfrac{7}{1}}$.  Therefore:  $\\maroonD{\\dfrac{2}{5}} \\div \\blueE{\\dfrac{1}{7}} = \\maroonD{\\dfrac{2}{5}} \\times \\purpleD{\\dfrac{7}{1}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The reciprocal of $\\blueE{\\dfrac{1}{7}}$ is $\\purpleD{\\dfrac{7}{1}}$.  Therefore:  $\\begin{align} \\maroonD{\\dfrac{2}{5}} \\div \\blueE{\\dfrac{1}{7}} &= \\maroonD{\\dfrac{2}{5}} \\times \\purpleD{\\dfrac{7}{1}}\\\\\\\\ &= \\dfrac{\\maroonD{2} \\times \\purpleD{7}}{\\maroonD{5} \\times \\purpleD{1}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{\\dfrac{2}{5}} \\div \\blueE{\\dfrac{1}{7}} = \\goldE{\\dfrac{14}{5}}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Evaluate"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Evaluate.**  $\\dfrac{8}{5} \\div \\dfrac{7}{8} = $",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "1.8285714285714285",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We want to know how many groups of $\\blueE{\\dfrac{7}{8}}$ are in $\\maroonD{\\dfrac{8}{5}}$.  The **[[☃ definition 1]]** of $\\blueE{\\dfrac{7}{8}}$ tells us the number of groups of $\\blueE{\\dfrac{7}{8}}$ in $1$ whole.  We have $\\maroonD{\\dfrac{8}{5}}$ wholes, so we can multiply the reciprocal of $\\blueE{\\dfrac{7}{8}}$ by $\\maroonD{\\dfrac{8}{5}}$.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The reciprocal of $\\blueE{\\dfrac{7}{8}}$ is $\\purpleD{\\dfrac{8}{7}}$.  Therefore:  $\\maroonD{\\dfrac{8}{5}} \\div \\blueE{\\dfrac{7}{8}} = \\maroonD{\\dfrac{8}{5}} \\times \\purpleD{\\dfrac{8}{7}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The reciprocal of $\\blueE{\\dfrac{7}{8}}$ is $\\purpleD{\\dfrac{8}{7}}$.  Therefore:  $\\begin{align} \\maroonD{\\dfrac{8}{5}} \\div \\blueE{\\dfrac{7}{8}} &= \\maroonD{\\dfrac{8}{5}} \\times \\purpleD{\\dfrac{8}{7}}\\\\\\\\ &= \\dfrac{\\maroonD{8} \\times \\purpleD{8}}{\\maroonD{5} \\times \\purpleD{7}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{\\dfrac{8}{5}} \\div \\blueE{\\dfrac{7}{8}} = \\goldE{\\dfrac{64}{35}}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Evaluate"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Evaluate.**  $\\dfrac{3}{5} \\div \\dfrac{1}{9} = $",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "5.4",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We want to know how many groups of $\\blueE{\\dfrac{1}{9}}$ are in $\\maroonD{\\dfrac{3}{5}}$.  The **[[☃ definition 1]]** of $\\blueE{\\dfrac{1}{9}}$ tells us the number of groups of $\\blueE{\\dfrac{1}{9}}$ in $1$ whole.  We have $\\maroonD{\\dfrac{3}{5}}$ wholes, so we can multiply the reciprocal of $\\blueE{\\dfrac{1}{9}}$ by $\\maroonD{\\dfrac{3}{5}}$.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The reciprocal of $\\blueE{\\dfrac{1}{9}}$ is $\\purpleD{\\dfrac{9}{1}}$.  Therefore:  $\\maroonD{\\dfrac{3}{5}} \\div \\blueE{\\dfrac{1}{9}} = \\maroonD{\\dfrac{3}{5}} \\times \\purpleD{\\dfrac{9}{1}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The reciprocal of $\\blueE{\\dfrac{1}{9}}$ is $\\purpleD{\\dfrac{9}{1}}$.  Therefore:  $\\begin{align} \\maroonD{\\dfrac{3}{5}} \\div \\blueE{\\dfrac{1}{9}} &= \\maroonD{\\dfrac{3}{5}} \\times \\purpleD{\\dfrac{9}{1}}\\\\\\\\ &= \\dfrac{\\maroonD{3} \\times \\purpleD{9}}{\\maroonD{5} \\times \\purpleD{1}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{\\dfrac{3}{5}} \\div \\blueE{\\dfrac{1}{9}} = \\goldE{\\dfrac{27}{5}}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Evaluate"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Evaluate.**  $\\dfrac{7}{6} \\div \\dfrac{4}{3} = $",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.875",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We want to know how many groups of $\\blueE{\\dfrac{4}{3}}$ are in $\\maroonD{\\dfrac{7}{6}}$.  The **[[☃ definition 1]]** of $\\blueE{\\dfrac{4}{3}}$ tells us the number of groups of $\\blueE{\\dfrac{4}{3}}$ in $1$ whole.  We have $\\maroonD{\\dfrac{7}{6}}$ wholes, so we can multiply the reciprocal of $\\blueE{\\dfrac{4}{3}}$ by $\\maroonD{\\dfrac{7}{6}}$.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The reciprocal of $\\blueE{\\dfrac{4}{3}}$ is $\\purpleD{\\dfrac{3}{4}}$.  Therefore:  $\\maroonD{\\dfrac{7}{6}} \\div \\blueE{\\dfrac{4}{3}} = \\maroonD{\\dfrac{7}{6}} \\times \\purpleD{\\dfrac{3}{4}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The reciprocal of $\\blueE{\\dfrac{4}{3}}$ is $\\purpleD{\\dfrac{3}{4}}$.  Therefore:  $\\begin{align} \\maroonD{\\dfrac{7}{6}} \\div \\blueE{\\dfrac{4}{3}} &= \\maroonD{\\dfrac{7}{6}} \\times \\purpleD{\\dfrac{3}{4}}\\\\\\\\ &= \\dfrac{\\maroonD{7} \\times \\purpleD{3}}{\\maroonD{6} \\times \\purpleD{4}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\maroonD{\\dfrac{7}{6}} \\div \\blueE{\\dfrac{4}{3}} &= \\goldE{\\dfrac{21}{24}}\\\\\\\\ &= \\goldE{\\dfrac{7}{8}} \\end{align}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Evaluate"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Evaluate.**  $\\dfrac{5}{6} \\div \\dfrac{9}{4} = $",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.37037037037037035",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We want to know how many groups of $\\blueE{\\dfrac{9}{4}}$ are in $\\maroonD{\\dfrac{5}{6}}$.  The **[[☃ definition 1]]** of $\\blueE{\\dfrac{9}{4}}$ tells us the number of groups of $\\blueE{\\dfrac{9}{4}}$ in $1$ whole.  We have $\\maroonD{\\dfrac{5}{6}}$ wholes, so we can multiply the reciprocal of $\\blueE{\\dfrac{9}{4}}$ by $\\maroonD{\\dfrac{5}{6}}$.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The reciprocal of $\\blueE{\\dfrac{9}{4}}$ is $\\purpleD{\\dfrac{4}{9}}$.  Therefore:  $\\maroonD{\\dfrac{5}{6}} \\div \\blueE{\\dfrac{9}{4}} = \\maroonD{\\dfrac{5}{6}} \\times \\purpleD{\\dfrac{4}{9}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The reciprocal of $\\blueE{\\dfrac{9}{4}}$ is $\\purpleD{\\dfrac{4}{9}}$.  Therefore:  $\\begin{align} \\maroonD{\\dfrac{5}{6}} \\div \\blueE{\\dfrac{9}{4}} &= \\maroonD{\\dfrac{5}{6}} \\times \\purpleD{\\dfrac{4}{9}}\\\\\\\\ &= \\dfrac{\\maroonD{5} \\times \\purpleD{4}}{\\maroonD{6} \\times \\purpleD{9}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\maroonD{\\dfrac{5}{6}} \\div \\blueE{\\dfrac{9}{4}} &= \\goldE{\\dfrac{20}{54}}\\\\\\\\ &= \\goldE{\\dfrac{10}{27}} \\end{align}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Evaluate"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Evaluate.**  $\\dfrac{5}{6} \\div \\dfrac{1}{7} = $",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "5.833333333333333",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We want to know how many groups of $\\blueE{\\dfrac{1}{7}}$ are in $\\maroonD{\\dfrac{5}{6}}$.  The **[[☃ definition 1]]** of $\\blueE{\\dfrac{1}{7}}$ tells us the number of groups of $\\blueE{\\dfrac{1}{7}}$ in $1$ whole.  We have $\\maroonD{\\dfrac{5}{6}}$ wholes, so we can multiply the reciprocal of $\\blueE{\\dfrac{1}{7}}$ by $\\maroonD{\\dfrac{5}{6}}$.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The reciprocal of $\\blueE{\\dfrac{1}{7}}$ is $\\purpleD{\\dfrac{7}{1}}$.  Therefore:  $\\maroonD{\\dfrac{5}{6}} \\div \\blueE{\\dfrac{1}{7}} = \\maroonD{\\dfrac{5}{6}} \\times \\purpleD{\\dfrac{7}{1}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The reciprocal of $\\blueE{\\dfrac{1}{7}}$ is $\\purpleD{\\dfrac{7}{1}}$.  Therefore:  $\\begin{align} \\maroonD{\\dfrac{5}{6}} \\div \\blueE{\\dfrac{1}{7}} &= \\maroonD{\\dfrac{5}{6}} \\times \\purpleD{\\dfrac{7}{1}}\\\\\\\\ &= \\dfrac{\\maroonD{5} \\times \\purpleD{7}}{\\maroonD{6} \\times \\purpleD{1}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{\\dfrac{5}{6}} \\div \\blueE{\\dfrac{1}{7}} = \\goldE{\\dfrac{35}{6}}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Evaluate"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Evaluate.**  $\\dfrac{4}{7} \\div \\dfrac{7}{2} = $",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.16326530612244897",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We want to know how many groups of $\\blueE{\\dfrac{7}{2}}$ are in $\\maroonD{\\dfrac{4}{7}}$.  The **[[☃ definition 1]]** of $\\blueE{\\dfrac{7}{2}}$ tells us the number of groups of $\\blueE{\\dfrac{7}{2}}$ in $1$ whole.  We have $\\maroonD{\\dfrac{4}{7}}$ wholes, so we can multiply the reciprocal of $\\blueE{\\dfrac{7}{2}}$ by $\\maroonD{\\dfrac{4}{7}}$.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The reciprocal of $\\blueE{\\dfrac{7}{2}}$ is $\\purpleD{\\dfrac{2}{7}}$.  Therefore:  $\\maroonD{\\dfrac{4}{7}} \\div \\blueE{\\dfrac{7}{2}} = \\maroonD{\\dfrac{4}{7}} \\times \\purpleD{\\dfrac{2}{7}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The reciprocal of $\\blueE{\\dfrac{7}{2}}$ is $\\purpleD{\\dfrac{2}{7}}$.  Therefore:  $\\begin{align} \\maroonD{\\dfrac{4}{7}} \\div \\blueE{\\dfrac{7}{2}} &= \\maroonD{\\dfrac{4}{7}} \\times \\purpleD{\\dfrac{2}{7}}\\\\\\\\ &= \\dfrac{\\maroonD{4} \\times \\purpleD{2}}{\\maroonD{7} \\times \\purpleD{7}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{\\dfrac{4}{7}} \\div \\blueE{\\dfrac{7}{2}} = \\goldE{\\dfrac{8}{49}}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Evaluate"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Evaluate.**  $\\dfrac{2}{7} \\div \\dfrac{8}{3} = $",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.10714285714285714",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We want to know how many groups of $\\blueE{\\dfrac{8}{3}}$ are in $\\maroonD{\\dfrac{2}{7}}$.  The **[[☃ definition 1]]** of $\\blueE{\\dfrac{8}{3}}$ tells us the number of groups of $\\blueE{\\dfrac{8}{3}}$ in $1$ whole.  We have $\\maroonD{\\dfrac{2}{7}}$ wholes, so we can multiply the reciprocal of $\\blueE{\\dfrac{8}{3}}$ by $\\maroonD{\\dfrac{2}{7}}$.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The reciprocal of $\\blueE{\\dfrac{8}{3}}$ is $\\purpleD{\\dfrac{3}{8}}$.  Therefore:  $\\maroonD{\\dfrac{2}{7}} \\div \\blueE{\\dfrac{8}{3}} = \\maroonD{\\dfrac{2}{7}} \\times \\purpleD{\\dfrac{3}{8}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The reciprocal of $\\blueE{\\dfrac{8}{3}}$ is $\\purpleD{\\dfrac{3}{8}}$.  Therefore:  $\\begin{align} \\maroonD{\\dfrac{2}{7}} \\div \\blueE{\\dfrac{8}{3}} &= \\maroonD{\\dfrac{2}{7}} \\times \\purpleD{\\dfrac{3}{8}}\\\\\\\\ &= \\dfrac{\\maroonD{2} \\times \\purpleD{3}}{\\maroonD{7} \\times \\purpleD{8}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\maroonD{\\dfrac{2}{7}} \\div \\blueE{\\dfrac{8}{3}} &= \\goldE{\\dfrac{6}{56}}\\\\\\\\ &= \\goldE{\\dfrac{3}{28}} \\end{align}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Evaluate"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Evaluate.**  $\\dfrac{6}{7} \\div \\dfrac{1}{6} = $",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "5.142857142857143",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We want to know how many groups of $\\blueE{\\dfrac{1}{6}}$ are in $\\maroonD{\\dfrac{6}{7}}$.  The **[[☃ definition 1]]** of $\\blueE{\\dfrac{1}{6}}$ tells us the number of groups of $\\blueE{\\dfrac{1}{6}}$ in $1$ whole.  We have $\\maroonD{\\dfrac{6}{7}}$ wholes, so we can multiply the reciprocal of $\\blueE{\\dfrac{1}{6}}$ by $\\maroonD{\\dfrac{6}{7}}$.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The reciprocal of $\\blueE{\\dfrac{1}{6}}$ is $\\purpleD{\\dfrac{6}{1}}$.  Therefore:  $\\maroonD{\\dfrac{6}{7}} \\div \\blueE{\\dfrac{1}{6}} = \\maroonD{\\dfrac{6}{7}} \\times \\purpleD{\\dfrac{6}{1}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The reciprocal of $\\blueE{\\dfrac{1}{6}}$ is $\\purpleD{\\dfrac{6}{1}}$.  Therefore:  $\\begin{align} \\maroonD{\\dfrac{6}{7}} \\div \\blueE{\\dfrac{1}{6}} &= \\maroonD{\\dfrac{6}{7}} \\times \\purpleD{\\dfrac{6}{1}}\\\\\\\\ &= \\dfrac{\\maroonD{6} \\times \\purpleD{6}}{\\maroonD{7} \\times \\purpleD{1}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{\\dfrac{6}{7}} \\div \\blueE{\\dfrac{1}{6}} = \\goldE{\\dfrac{36}{7}}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Evaluate"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Evaluate.**  $\\dfrac{2}{7} \\div \\dfrac{4}{9} = $",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.6428571428571429",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We want to know how many groups of $\\blueE{\\dfrac{4}{9}}$ are in $\\maroonD{\\dfrac{2}{7}}$.  The **[[☃ definition 1]]** of $\\blueE{\\dfrac{4}{9}}$ tells us the number of groups of $\\blueE{\\dfrac{4}{9}}$ in $1$ whole.  We have $\\maroonD{\\dfrac{2}{7}}$ wholes, so we can multiply the reciprocal of $\\blueE{\\dfrac{4}{9}}$ by $\\maroonD{\\dfrac{2}{7}}$.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The reciprocal of $\\blueE{\\dfrac{4}{9}}$ is $\\purpleD{\\dfrac{9}{4}}$.  Therefore:  $\\maroonD{\\dfrac{2}{7}} \\div \\blueE{\\dfrac{4}{9}} = \\maroonD{\\dfrac{2}{7}} \\times \\purpleD{\\dfrac{9}{4}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The reciprocal of $\\blueE{\\dfrac{4}{9}}$ is $\\purpleD{\\dfrac{9}{4}}$.  Therefore:  $\\begin{align} \\maroonD{\\dfrac{2}{7}} \\div \\blueE{\\dfrac{4}{9}} &= \\maroonD{\\dfrac{2}{7}} \\times \\purpleD{\\dfrac{9}{4}}\\\\\\\\ &= \\dfrac{\\maroonD{2} \\times \\purpleD{9}}{\\maroonD{7} \\times \\purpleD{4}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\maroonD{\\dfrac{2}{7}} \\div \\blueE{\\dfrac{4}{9}} &= \\goldE{\\dfrac{18}{28}}\\\\\\\\ &= \\goldE{\\dfrac{9}{14}} \\end{align}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Evaluate"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Evaluate.**  $\\dfrac{3}{8} \\div \\dfrac{5}{9} = $",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.675",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We want to know how many groups of $\\blueE{\\dfrac{5}{9}}$ are in $\\maroonD{\\dfrac{3}{8}}$.  The **[[☃ definition 1]]** of $\\blueE{\\dfrac{5}{9}}$ tells us the number of groups of $\\blueE{\\dfrac{5}{9}}$ in $1$ whole.  We have $\\maroonD{\\dfrac{3}{8}}$ wholes, so we can multiply the reciprocal of $\\blueE{\\dfrac{5}{9}}$ by $\\maroonD{\\dfrac{3}{8}}$.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The reciprocal of $\\blueE{\\dfrac{5}{9}}$ is $\\purpleD{\\dfrac{9}{5}}$.  Therefore:  $\\maroonD{\\dfrac{3}{8}} \\div \\blueE{\\dfrac{5}{9}} = \\maroonD{\\dfrac{3}{8}} \\times \\purpleD{\\dfrac{9}{5}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The reciprocal of $\\blueE{\\dfrac{5}{9}}$ is $\\purpleD{\\dfrac{9}{5}}$.  Therefore:  $\\begin{align} \\maroonD{\\dfrac{3}{8}} \\div \\blueE{\\dfrac{5}{9}} &= \\maroonD{\\dfrac{3}{8}} \\times \\purpleD{\\dfrac{9}{5}}\\\\\\\\ &= \\dfrac{\\maroonD{3} \\times \\purpleD{9}}{\\maroonD{8} \\times \\purpleD{5}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{\\dfrac{3}{8}} \\div \\blueE{\\dfrac{5}{9}} = \\goldE{\\dfrac{27}{40}}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Evaluate"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Evaluate.**  $\\dfrac{5}{9} \\div \\dfrac{8}{5} = $",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.3472222222222222",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We want to know how many groups of $\\blueE{\\dfrac{8}{5}}$ are in $\\maroonD{\\dfrac{5}{9}}$.  The **[[☃ definition 1]]** of $\\blueE{\\dfrac{8}{5}}$ tells us the number of groups of $\\blueE{\\dfrac{8}{5}}$ in $1$ whole.  We have $\\maroonD{\\dfrac{5}{9}}$ wholes, so we can multiply the reciprocal of $\\blueE{\\dfrac{8}{5}}$ by $\\maroonD{\\dfrac{5}{9}}$.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The reciprocal of $\\blueE{\\dfrac{8}{5}}$ is $\\purpleD{\\dfrac{5}{8}}$.  Therefore:  $\\maroonD{\\dfrac{5}{9}} \\div \\blueE{\\dfrac{8}{5}} = \\maroonD{\\dfrac{5}{9}} \\times \\purpleD{\\dfrac{5}{8}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The reciprocal of $\\blueE{\\dfrac{8}{5}}$ is $\\purpleD{\\dfrac{5}{8}}$.  Therefore:  $\\begin{align} \\maroonD{\\dfrac{5}{9}} \\div \\blueE{\\dfrac{8}{5}} &= \\maroonD{\\dfrac{5}{9}} \\times \\purpleD{\\dfrac{5}{8}}\\\\\\\\ &= \\dfrac{\\maroonD{5} \\times \\purpleD{5}}{\\maroonD{9} \\times \\purpleD{8}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{\\dfrac{5}{9}} \\div \\blueE{\\dfrac{8}{5}} = \\goldE{\\dfrac{25}{72}}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Evaluate"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Evaluate.**  $\\dfrac{1}{9} \\div \\dfrac{8}{7} = $",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.09722222222222222",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We want to know how many groups of $\\blueE{\\dfrac{8}{7}}$ are in $\\maroonD{\\dfrac{1}{9}}$.  The **[[☃ definition 1]]** of $\\blueE{\\dfrac{8}{7}}$ tells us the number of groups of $\\blueE{\\dfrac{8}{7}}$ in $1$ whole.  We have $\\maroonD{\\dfrac{1}{9}}$ wholes, so we can multiply the reciprocal of $\\blueE{\\dfrac{8}{7}}$ by $\\maroonD{\\dfrac{1}{9}}$.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The reciprocal of $\\blueE{\\dfrac{8}{7}}$ is $\\purpleD{\\dfrac{7}{8}}$.  Therefore:  $\\maroonD{\\dfrac{1}{9}} \\div \\blueE{\\dfrac{8}{7}} = \\maroonD{\\dfrac{1}{9}} \\times \\purpleD{\\dfrac{7}{8}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The reciprocal of $\\blueE{\\dfrac{8}{7}}$ is $\\purpleD{\\dfrac{7}{8}}$.  Therefore:  $\\begin{align} \\maroonD{\\dfrac{1}{9}} \\div \\blueE{\\dfrac{8}{7}} &= \\maroonD{\\dfrac{1}{9}} \\times \\purpleD{\\dfrac{7}{8}}\\\\\\\\ &= \\dfrac{\\maroonD{1} \\times \\purpleD{7}}{\\maroonD{9} \\times \\purpleD{8}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{\\dfrac{1}{9}} \\div \\blueE{\\dfrac{8}{7}} = \\goldE{\\dfrac{7}{72}}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Evaluate"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Evaluate.**  $\\dfrac{2}{9} \\div \\dfrac{9}{8} = $",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.19753086419753085",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We want to know how many groups of $\\blueE{\\dfrac{9}{8}}$ are in $\\maroonD{\\dfrac{2}{9}}$.  The **[[☃ definition 1]]** of $\\blueE{\\dfrac{9}{8}}$ tells us the number of groups of $\\blueE{\\dfrac{9}{8}}$ in $1$ whole.  We have $\\maroonD{\\dfrac{2}{9}}$ wholes, so we can multiply the reciprocal of $\\blueE{\\dfrac{9}{8}}$ by $\\maroonD{\\dfrac{2}{9}}$.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The reciprocal of $\\blueE{\\dfrac{9}{8}}$ is $\\purpleD{\\dfrac{8}{9}}$.  Therefore:  $\\maroonD{\\dfrac{2}{9}} \\div \\blueE{\\dfrac{9}{8}} = \\maroonD{\\dfrac{2}{9}} \\times \\purpleD{\\dfrac{8}{9}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The reciprocal of $\\blueE{\\dfrac{9}{8}}$ is $\\purpleD{\\dfrac{8}{9}}$.  Therefore:  $\\begin{align} \\maroonD{\\dfrac{2}{9}} \\div \\blueE{\\dfrac{9}{8}} &= \\maroonD{\\dfrac{2}{9}} \\times \\purpleD{\\dfrac{8}{9}}\\\\\\\\ &= \\dfrac{\\maroonD{2} \\times \\purpleD{8}}{\\maroonD{9} \\times \\purpleD{9}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{\\dfrac{2}{9}} \\div \\blueE{\\dfrac{9}{8}} = \\goldE{\\dfrac{16}{81}}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Evaluate"
+                    }
+                }
+            }
+        }
+    ]
+}

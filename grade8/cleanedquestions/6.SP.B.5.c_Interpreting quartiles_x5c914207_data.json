@@ -1,0 +1,1271 @@
+{
+    "standard_metadata": {
+        "standard_id": "6.SP.B.5.c",
+        "standard_description": "Giving quantitative measures of center (median and/or mean) and variability (interquartile range and/or mean absolute deviation), as well as describing any overall pattern and any striking deviations from the overall pattern with reference to the context in which the data were gathered.",
+        "standard_title": "Interpreting quartiles",
+        "standard_url": "https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-data-statistics/cc-6th-box-whisker-plots/e/interpreting-quartiles-on-box-plots"
+    },
+    "id": "x5c914207",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following table shows the five-number summary for the number of band members by high school in Orange County.  $\\text{Min}$ |$Q_1$ |$\\text{Median}$ |$Q_3$ |$\\text{Max}$ :-: | :-: | :-:| :-:| :-: $80$|$90$|$105$|$115$|$130$  **What percent of high schools in Orange County have more than $130$ band members?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$0\\%$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$25\\%$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$50\\%$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$75\\%$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$100\\%$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Each **quartile** helps us split the data points into fourths.  Value | Approximate fraction of data above this value | Approximate percentage of data above this value -|-:|-: Minimum | All | $100\\%$ $Q_1$ | $\\dfrac{3}{4}$ | $75\\%$ Median |  $\\dfrac{2}{4}$, which is $\\dfrac{1}{2}$ | $50\\%$ $Q_3$ | $\\dfrac{1}{4}$ | $25\\%$ Maximum | None | $0\\%$  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{130}$ band members is the maximum. So $0\\%$ of high schools have *more* than $\\maroonD{130}$ members.  |$\\text{Min}$ |$Q_1$ |$\\text{Median}$ |$Q_3$ |$\\text{Max}$ :-:|:-: | :-: | :-:| :-:| :-: **Five-number summary**|$80$| $90 $| $105$ |  $115$| $\\maroonD{\\boxed{130}}$ **Approximate percentage of data *above* this value**|$100\\%$|$75\\%$|$50\\%$|$25\\%$|$\\blueE{\\boxed{0\\%}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$0\\%$ of high schools in Orange County have more than $130$ band members.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1) 5NS-Percent"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following table shows the five-number summary for the number of surfers at each beach in Miami.  $\\text{Min}$ |$Q_1$ |$\\text{Median}$ |$Q_3$ |$\\text{Max}$ :-: | :-: | :-:| :-:| :-: $2$|$8$|$13$|$15$|$19$  **What percent of beaches in Miami have $2$ or more surfers?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$0\\%$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$25\\%$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$50\\%$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$75\\%$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$100\\%$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Each **quartile** helps us split the data points into fourths.  Value | Approximate fraction of data above this value | Approximate percentage of data above this value -|-:|-: Minimum | All | $100\\%$ $Q_1$ | $\\dfrac{3}{4}$ | $75\\%$ Median |  $\\dfrac{2}{4}$, which is $\\dfrac{1}{2}$ | $50\\%$ $Q_3$ | $\\dfrac{1}{4}$ | $25\\%$ Maximum | None | $0\\%$  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{2}$ surfers is the minimum. So $100\\%$ of the beaches have $\\maroonD{2}$ or *more* surfers.  |$\\text{Min}$ |$Q_1$ |$\\text{Median}$ |$Q_3$ |$\\text{Max}$ :-:|:-: | :-: | :-:| :-:| :-: **Five-number summary**|$\\maroonD{\\boxed{2}}$| $8 $| $13$ |  $15$| $19$ **Approximate percentage of data *above* this value**|$\\blueE{\\boxed{100\\%}}$|$75\\%$|$50\\%$|$25\\%$|$0\\%$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$100\\%$ of beaches in Miami have $2$ or more surfers.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1) 5NS-Percent"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following table shows the five-number summary for the number of gym members at each gym in Shanesville.  $\\text{Min}$ |$Q_1$ |$\\text{Median}$ |$Q_3$ |$\\text{Max}$ :-: | :-: | :-:| :-:| :-: $50$|$56$|$64$|$70$|$76$  **About what percent of gyms in Shanesville have fewer than $56$ gym members?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$0\\%$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$25\\%$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$50\\%$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$75\\%$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$100\\%$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Each **quartile** helps us split the data points into fourths.  Value | Approximate fraction of data below this value | Approximate percentage of data below this value -|-:|-: Minimum | None | $0\\%$ $Q_1$ | $\\dfrac{1}{4}$ | $25\\%$ Median |  $\\dfrac{2}{4}$, which is $\\dfrac{1}{2}$ | $50\\%$ $Q_3$ | $\\dfrac{3}{4}$ | $75\\%$ Maximum | All | $100\\%$  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{56}$ gym members is the first quartile. So about $25\\%$ of the gyms have *fewer* than $\\maroonD{56}$ members.  |$\\text{Min}$ |$Q_1$ |$\\text{Median}$ |$Q_3$ |$\\text{Max}$ :-:|:-: | :-: | :-:| :-:| :-: **Five-number summary**|$50$| $\\maroonD{\\boxed{56}} $| $64$ |  $70 $| $76$ **Approximate percentage of data *below* this value**|$0\\%$|$\\blueE{\\boxed{25\\%}}$|$50\\%$|$75\\%$|$100\\%$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "About $25\\%$ of gyms in Shanesville have fewer than $56$ gym members.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1) 5NS-Percent"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following table shows the five-number summary for the number of aces  Olga served during each tennis match.  $\\text{Min}$ |$Q_1$ |$\\text{Median}$ |$Q_3$ |$\\text{Max}$ :-: | :-: | :-:| :-:| :-: $0$|$3$|$6$|$10$|$14$  **Olga served more than $6$ aces in about what percent of tennis matches?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$0\\%$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$25\\%$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$50\\%$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$75\\%$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$100\\%$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Each **quartile** helps us split the data points into fourths.  Value | Approximate fraction of data above this value | Approximate percentage of data above this value -|-:|-: Minimum | All | $100\\%$ $Q_1$ | $\\dfrac{3}{4}$ | $75\\%$ Median |  $\\dfrac{2}{4}$, which is $\\dfrac{1}{2}$ | $50\\%$ $Q_3$ | $\\dfrac{1}{4}$ | $25\\%$ Maximum | None | $0\\%$  [[☃ explanation 2]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{6}$ aces is the median. So about $50\\%$ of the matches have *more* than $\\maroonD{6}$ aces.  |$\\text{Min}$ |$Q_1$ |$\\text{Median}$ |$Q_3$ |$\\text{Max}$ :-:|:-: | :-: | :-:| :-:| :-: **Five-number summary**|$0$| $3$| $\\maroonD{\\boxed{6}}$ |  $10$| $14$ **Approximate percentage of data *above* this value**|$100\\%$|$75\\%$|$\\blueE{\\boxed{50\\%}}$|$25\\%$|$0\\%$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Olga served more than $6$ aces in about $50\\%$ of tennis matches.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1) 5NS-Percent"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following table shows the five-number summary for the number of touchdowns each quarterback in the British Football League threw.  $\\text{Min}$ |$Q_1$ |$\\text{Median}$ |$Q_3$ |$\\text{Max}$ :-: | :-: | :-:| :-:| :-: $3$|$7$|$10$|$13$|$18$  **About what percent of quarterbacks in the British Football League threw more than $13$ touchdowns?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$0\\%$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$25\\%$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$50\\%$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$75\\%$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$100\\%$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Each **quartile** helps us split the data points into fourths.  Value | Approximate fraction of data above this value | Approximate percentage of data above this value -|-:|-: Minimum | All | $100\\%$ $Q_1$ | $\\dfrac{3}{4}$ | $75\\%$ Median |  $\\dfrac{2}{4}$, which is $\\dfrac{1}{2}$ | $50\\%$ $Q_3$ | $\\dfrac{1}{4}$ | $25\\%$ Maximum | None | $0\\%$  [[☃ explanation 2]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{13}$ touchdowns is the third quartile. So about $25\\%$ of the quarterbacks threw *more* than $\\maroonD{13}$ touchdowns.  |$\\text{Min}$ |$Q_1$ |$\\text{Median}$ |$Q_3$ |$\\text{Max}$ :-:|:-: | :-: | :-:| :-:| :-: **Five-number summary**|$3$| $7$| $10$ |  $\\maroonD{\\boxed{13}}$| $18$ **Approximate percentage of data *above* this value**|$100\\%$|$75\\%$|$50\\%$|$\\blueE{\\boxed{25\\%}}$|$0\\%$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "About $25\\%$ of quarterbacks in the British Football League threw more than $13$ touchdowns.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1) 5NS-Percent"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following table shows the five-number summary for the number of accounts each sales manager at Force Inc. manages.  $\\text{Min}$ |$Q_1$ |$\\text{Median}$ |$Q_3$ |$\\text{Max}$ :-: | :-: | :-:| :-:| :-: $35$|$45$|$50$|$65$|$85$  **About $50\\%$ of sales managers at Force Inc. manage fewer than what number of accounts?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$35$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$45$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$50$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$65$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$85$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Each **quartile** helps us split the data points into fourths.  Value | Approximate fraction of data below this value | Approximate percentage of data below this value -|-:|-: Minimum | None | $0\\%$ $Q_1$ | $\\dfrac{1}{4}$ | $25\\%$ Median |  $\\dfrac{2}{4}$, which is $\\dfrac{1}{2}$ | $50\\%$ $Q_3$ | $\\dfrac{3}{4}$ | $75\\%$ Maximum | All | $100\\%$  [[☃ explanation 2]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{50}$ accounts is the median. So about $50\\%$ of sales managers have fewer than $\\maroonD{50}$ accounts.  |$\\text{Min}$ |$Q_1$ |$\\text{Median}$ |$Q_3$ |$\\text{Max}$ :-:|:-: | :-: | :-:| :-:| :-: **Five-number summary**|$35$| $45$| $\\maroonD{\\boxed{50}}$ |  $65 $| $85$ **Approximate percentage of data *below* this value**|$0\\%$|$25\\%$|$\\blueE{\\boxed{50\\%}}$|$75\\%$|$100\\%$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "About $50\\%$ of sales managers at Force Inc. manage fewer than $50$ accounts.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2) 5NS-Number"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following table shows the five-number summary for the number of stylists each hair salon in Jamesville employs.  $\\text{Min}$ |$Q_1$ |$\\text{Median}$ |$Q_3$ |$\\text{Max}$ :-: | :-: | :-:| :-:| :-: $7$|$9$|$12$|$15$|$18$  **About $75\\%$ of hair salons in Jamesville employ fewer than how many stylists?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$7$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$9$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$12$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$15$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$18$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Each **quartile** helps us split the data points into fourths.  Value | Approximate fraction of data below this value | Approximate percentage of data below this value -|-:|-: Minimum | None | $0\\%$ $Q_1$ | $\\dfrac{1}{4}$ | $25\\%$ Median |  $\\dfrac{2}{4}$, which is $\\dfrac{1}{2}$ | $50\\%$ $Q_3$ | $\\dfrac{3}{4}$ | $75\\%$ Maximum | All | $100\\%$  [[☃ explanation 2]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{15}$ stylists is the third quartile. So about $75\\%$ of hair salons in Jamesville employ fewer than $\\maroonD{15}$ stylists.  |$\\text{Min}$ |$Q_1$ |$\\text{Median}$ |$Q_3$ |$\\text{Max}$ :-:|:-: | :-: | :-:| :-:| :-: **Five-number summary**|$7$| $9$| $12$ |  $\\maroonD{\\boxed{15}}$| $18$ **Approximate percentage of data *below* this value**|$0\\%$|$25\\%$|$50\\%$|$\\blueE{\\boxed{75\\%}}$|$100\\%$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "About $75\\%$ of hair salons in Jamesville employ fewer than $15$ stylists.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2) 5NS-Number"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following table shows the five-number summary for the number of years of experience for each teacher at Carlson High School.  $\\text{Min}$ |$Q_1$ |$\\text{Median}$ |$Q_3$ |$\\text{Max}$ :-: | :-: | :-:| :-:| :-: $2$|$5$|$8$|$11$|$16$  **About $25\\%$ of Carlson High School teachers have fewer than how many years of experience?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$2$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$5$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$8$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$11$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$16$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Each **quartile** helps us split the data points into fourths.  Value | Approximate fraction of data below this value | Approximate percentage of data below this value -|-:|-: Minimum | None | $0\\%$ $Q_1$ | $\\dfrac{1}{4}$ | $25\\%$ Median |  $\\dfrac{2}{4}$, which is $\\dfrac{1}{2}$ | $50\\%$ $Q_3$ | $\\dfrac{3}{4}$ | $75\\%$ Maximum | All | $100\\%$  [[☃ explanation 2]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{5}$ years is the first quartile. So about $25\\%$ of of teachers at Carlson High School have fewer than $\\maroonD{5}$ years of experience.   |$\\text{Min}$ |$Q_1$ |$\\text{Median}$ |$Q_3$ |$\\text{Max}$ :-:|:-: | :-: | :-:| :-:| :-: **Five-number summary**|$2$| $\\maroonD{\\boxed{5}}$| $8$ |  $11$| $16$ **Approximate percentage of data *below* this value**|$0\\%$|$\\blueE{\\boxed{25\\%}}$|$50\\%$|$75\\%$|$100\\%$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "About $25\\%$ of Carlson High School teachers have fewer than $5$ years of experience.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2) 5NS-Number"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following table shows the five-number summary for the number of teams in each of Brad's fantasy football leagues.  $\\text{Min}$ |$Q_1$ |$\\text{Median}$ |$Q_3$ |$\\text{Max}$ :-: | :-: | :-:| :-:| :-: $4$|$7$|$10$|$14$|$18$  **About $50\\%$ of Brad's fantasy football leagues have fewer than how many teams?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$4$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$7$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$10$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$14$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$18$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Each **quartile** helps us split the data points into fourths.  Value | Approximate fraction of data below this value | Approximate percentage of data below this value -|-:|-: Minimum | None | $0\\%$ $Q_1$ | $\\dfrac{1}{4}$ | $25\\%$ Median |  $\\dfrac{2}{4}$, which is $\\dfrac{1}{2}$ | $50\\%$ $Q_3$ | $\\dfrac{3}{4}$ | $75\\%$ Maximum | All | $100\\%$  [[☃ explanation 2]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{10}$ teams is the median. So about $50\\%$ of Brad's fantasy football leagues have fewer than $\\maroonD{10}$ teams.  |$\\text{Min}$ |$Q_1$ |$\\text{Median}$ |$Q_3$ |$\\text{Max}$ :-:|:-: | :-: | :-:| :-:| :-: **Five-number summary**|$4$| $7$| $\\maroonD{\\boxed{10}}$ |  $14$| $18$ **Approximate percentage of data *below* this value**|$0\\%$|$25\\%$|$\\blueE{\\boxed{50\\%}}$|$75\\%$|$100\\%$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "About $50\\%$ of Brad's fantasy football leagues have fewer than $10$ teams.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2) 5NS-Number"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following box plot shows the number of band members by high school in Orange County.    **About $50\\%$ of high schools in Orange County have more than what number of band members?**",
+                                "images": [
+                                    {
+                                        "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 70 to 150, in increments of 5. A left whisker extends from 80 to 90. The box extends from 90 to 115 and is divided into 2 parts by a vertical line segment at 105. The right whisker extends from 115 to 130. All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/9eab85465de91418e5329e3585202907d14dda1e.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$80$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$90$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$105$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$115$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$130$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Each **quartile** helps us split the data points into fourths.  Value | Approximate fraction of data above this value | Approximate percentage of data above this value -|-:|-: Minimum | All | $100\\%$ $Q_1$ | $\\dfrac{3}{4}$ | $75\\%$ Median |  $\\dfrac{2}{4}$, which is $\\dfrac{1}{2}$ | $50\\%$ $Q_3$ | $\\dfrac{1}{4}$ | $25\\%$ Maximum | None | $0\\%$  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{105}$ band members is the median. So about $\\tealE{50\\%}$ of high schools in Orange County have more than $\\maroonD{105}$ band members.  [[☃ image 2]]",
+                                    "images": [
+                                        {
+                                            "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 70 to 150, in increments of 5. A left whisker extends from 80 to 90. The box extends from 90 to 115 and is divided into 2 parts by a vertical line segment at 105. A right whisker extends from 115 to 130. The two whiskers and the two parts of the box are each labeled 25%. The vertical line segment at 105 is highlighted. The two 25% labels to the right of that vertical line segment are highlighted. All values estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/bf1b92c91d02cbf0f1b25b163164a69b3ed5bbe9.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "About $50\\%$ of high schools in Orange County have more than $105$ band members.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3) Image-Number"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following box plot shows the number of aces Olga served during each tennis match.    **Olga served fewer than what number of aces during about $75\\%$ of tennis matches?**",
+                                "images": [
+                                    {
+                                        "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 0 to 20, in increments of 1. A left whisker extends from 0 to 3. The box extends from 3 to 10 and is divided into 2 parts by a vertical line segment at 6. The right whisker extends from 10 to 14. All values estimated.f",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/c34a511e4c25034e126c500e021bd3e14ddf963f.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$0$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$3$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$6$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$10$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$14$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Each **quartile** helps us split the data points into fourths.  Value | Approximate fraction of data below this value | Approximate percentage of data below this value -|-:|-: Minimum | None | $0\\%$ $Q_1$ | $\\dfrac{1}{4}$ | $25\\%$ Median |  $\\dfrac{2}{4}$, which is $\\dfrac{1}{2}$ | $50\\%$ $Q_3$ | $\\dfrac{3}{4}$ | $75\\%$ Maximum | All | $100\\%$  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{10}$ aces is the third quartile. So Olga served fewer than $\\maroonD{10}$ aces in about $\\tealE{75\\%}$ of her tennis matches.  [[☃ image 2]]",
+                                    "images": [
+                                        {
+                                            "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 0 to 20, in increments of 1. A left whisker extends from 0 to 3. The box extends from 3 to 10 and is divided into 2 parts by a vertical line segment at 6. A right whisker extends from 10 to 14. The two whiskers and the two parts of the box are each labeled 25%. the vertical line segment at 10 is highlighted. The three 25% labels to the left of that vertical line segment are highlighted. All values estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/3a1116581d79045b29e66875aa6ccc18b41fe88f.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Olga served fewer than $10$ aces in about $75\\%$ of tennis matches.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3) Image-Number"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following box plot shows the number of touchdowns each quarterback in the Boy's Football League threw.    **About $25\\%$ of quarterbacks in the Boy's Football League threw fewer than what number of touchdowns?**",
+                                "images": [
+                                    {
+                                        "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 0 to 20, in increments of 1. A left whisker extends from 3 to 7. The box extends from 7 to 13 and is divided into 2 parts by a vertical line segment at 10. The right whisker extends from 13 to 18. All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/729f11694f55163ff80290fa286a863b4c793a53.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$3$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$7$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$10$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$13$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$18$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Each **quartile** helps us split the data points into fourths.  Value | Approximate fraction of data below this value | Approximate percentage of data below this value -|-:|-: Minimum | None | $0\\%$ $Q_1$ | $\\dfrac{1}{4}$ | $25\\%$ Median |  $\\dfrac{2}{4}$, which is $\\dfrac{1}{2}$ | $50\\%$ $Q_3$ | $\\dfrac{3}{4}$ | $75\\%$ Maximum | All | $100\\%$  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{7}$ touchdowns is the first quartile. So about $\\tealE{25\\%}$ of quarterbacks threw fewer than $\\maroonD{7}$ touchdowns.  [[☃ image 2]]",
+                                    "images": [
+                                        {
+                                            "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 0 to 20, in increments of 1. A left whisker extends from 3 to 7. The box extends from 7 to 13 and is divided into 2 parts by a vertical line segment at 10. A right whisker extends from 13 to 18. The two whiskers and the two parts of the box are each labeled 25%. The vertical line segment at 7 is highlighted. The 25% label to the left of that vertical line segment is highlighted. All values estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/8a3c61443aebc6b46fd47877a5ae8bc19cf70786.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "About $25\\%$ of quarterbacks in the Boy's Football League threw fewer than $7$ touchdowns.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3) Image-Number"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following box plot shows the number of house boats on each lake in Minnesota.    **About what percent of lakes in Minnesota have fewer than $23$ house boats?**",
+                                "images": [
+                                    {
+                                        "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 10 to 30, in increments of 1. A left whisker extends from 12 to 18. The box extends from 18 to 26 and is divided into 2 parts by a vertical line segment at 23. The right whisker extends from 26 to 29. All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/10ae78be10354e6980ac0dec4aaf310101349534.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$0\\%$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$25\\%$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$50\\%$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$75\\%$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$100\\%$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Each **quartile** helps us split the data points into fourths.  Value | Approximate fraction of data below this value | Approximate percentage of data below this value -|-:|-: Minimum | None | $0\\%$ $Q_1$ | $\\dfrac{1}{4}$ | $25\\%$ Median |  $\\dfrac{2}{4}$, which is $\\dfrac{1}{2}$ | $50\\%$ $Q_3$ | $\\dfrac{3}{4}$ | $75\\%$ Maximum | All | $100\\%$  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{23}$ house boats is the median. So about $\\tealE{50\\%}$ of lakes in Minnesota have fewer than $\\maroonD{23}$ house boats.  [[☃ image 2]]",
+                                    "images": [
+                                        {
+                                            "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 10 to 30, in increments of 1. A left whisker extends from 12 to 18. The box extends from 18 to 26 and is divided into 2 parts by a vertical line segment at 23. A right whisker extends from 26 to 29. The two whiskers and the two parts of the box are each labeled 25%. The vertical line segment at 23 is highlighted. The two 25% labels to the left of that vertical line segment is highlighted. All values estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/2e0cbe426734f119e6a60010eb28f5276f7199e5.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "About $50\\%$ of lakes in Minnesota have fewer than $23$ house boats.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "4) Image-Percent"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following box plot shows the number of accounts each sales manager at Force Inc. manages.    **What percent of sales managers at Force Inc. manage fewer than $35$ accounts?**",
+                                "images": [
+                                    {
+                                        "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 30 to 100, in increments of 5. A left whisker extends from 35 to 45. The box extends from 45 to 65 and is divided into 2 parts by a vertical line segment at 50. The right whisker extends from 65 to 85. All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/1f9c498c154379b0ff9f4ab68bf66d758170032e.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$0\\%$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$25\\%$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$50\\%$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$75\\%$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$100\\%$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Each **quartile** helps us split the data points into fourths.  Value | Approximate fraction of data below this value | Approximate percentage of data below this value -|-:|-: Minimum | None | $0\\%$ $Q_1$ | $\\dfrac{1}{4}$ | $25\\%$ Median |  $\\dfrac{2}{4}$, which is $\\dfrac{1}{2}$ | $50\\%$ $Q_3$ | $\\dfrac{3}{4}$ | $75\\%$ Maximum | All | $100\\%$  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{35}$ accounts is the minimum. So $0\\%$ of sales managers manage fewer than $\\maroonD{35}$ accounts.  [[☃ image 2]]",
+                                    "images": [
+                                        {
+                                            "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 30 to 100, in increments of 5. A left whisker extends from 35 to 45. The box extends from 45 to 65 and is divided into 2 parts by a vertical line segment at 50. A right whisker extends from 65 to 85. The two whiskers and the two parts of the box are each labeled 25%. The point at 35 is highlighted. All values estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/a93d9a17c2ab95dcf221080886822c4616625f76.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$0\\%$ of sales managers at Force Inc. manage fewer than $35$ accounts.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "4) Image-Percent"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following box plot shows the number of stylists each hair salon in Jamesville employs.    **What percent of salons in Jamesville employ $18$ or fewer stylists?**",
+                                "images": [
+                                    {
+                                        "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 0 to 20, in increments of 1. A left whisker extends from 7 to 9. The box extends from 9 to 15 and is divided into 2 parts by a vertical line segment at 12. The right whisker extends from 15 to 18. All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/18a51c2f7d55de717866451996c3abb419c75968.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$0\\%$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$25\\%$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$50\\%$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$75\\%$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$100\\%$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Each **quartile** helps us split the data points into fourths.  Value | Approximate fraction of data below this value | Approximate percentage of data below this value -|-:|-: Minimum | None | $0\\%$ $Q_1$ | $\\dfrac{1}{4}$ | $25\\%$ Median |  $\\dfrac{2}{4}$, which is $\\dfrac{1}{2}$ | $50\\%$ $Q_3$ | $\\dfrac{3}{4}$ | $75\\%$ Maximum | All | $100\\%$  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{18}$ stylists is the maximum. So $\\tealE{100\\%}$ of salons in Jamesville employ $\\maroonD{18}$ or fewer stylists.  [[☃ image 2]]",
+                                    "images": [
+                                        {
+                                            "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 0 to 20, in increments of 1. A left whisker extends from 7 to 9. The box extends from 9 to 15 and is divided into 2 parts by a vertical line segment at 12. A right whisker extends from 15 to 18. The two whiskers and the two parts of the box are each labeled 25%. The point at 18 is highlighted. All four 25% labels are highlighted. All values estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/62101d26003c1f38795bace62e92083cc3286163.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$100\\%$ of salons in Jamesville employ $18$ or fewer stylists.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "4) Image-Percent"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following box plot shows the number of years of experience for each Carlson High School teacher.    **About what percent of Carlson High School teachers have more than $11$ years of experience?**",
+                                "images": [
+                                    {
+                                        "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 0 to 20, in increments of 1. A left whisker extends from 2 to 5. The box extends from 5 to 11 and is divided into 2 parts by a vertical line segment at 8. The right whisker extends from 11 to 16. All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/5f06904f576ea677fa03a204a8199f76435c883e.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$0\\%$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$25\\%$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$50\\%$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$75\\%$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$100\\%$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Each **quartile** helps us split the data points into fourths.  Value | Approximate fraction of data above this value | Approximate percentage of data above this value -|-:|-: Minimum | All | $100\\%$ $Q_1$ | $\\dfrac{3}{4}$ | $75\\%$ Median |  $\\dfrac{2}{4}$, which is $\\dfrac{1}{2}$ | $50\\%$ $Q_3$ | $\\dfrac{1}{4}$ | $25\\%$ Maximum | None | $0\\%$  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{11}$ years is the third quartile. So about $\\tealE{25\\%}$ of Carlson High School teachers have more than $\\maroonD{11}$ years of experience.  [[☃ image 2]]",
+                                    "images": [
+                                        {
+                                            "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 0 to 20, in increments of 1. A left whisker extends from 2 to 5. The box extends from 5 to 11 and is divided into 2 parts by a vertical line segment at 8. A right whisker extends from 11 to 16. The two whiskers and the two parts of the box are each labeled 25%. The vertical line segment at 11 is highlighted. The 25% label to the right of that vertical line segment is highlighted. All values estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/7d1f2dfc1b4a77e698c18acf5d0b2d1135707adb.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "About $25\\%$ of Carlson High School teachers have more than $11$ years of experience.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "4) Image-Percent"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following box plot shows the number of teams in each of Brad's fantasy football leagues.    **About what percent of Brad's fantasy football leagues have fewer than $7$ teams?**",
+                                "images": [
+                                    {
+                                        "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 0 to 20, in increments of 1. A left whisker extends from 4 to 7. The box extends from 7 to 14 and is divided into 2 parts by a vertical line segment at 10. The right whisker extends from 14 to 18. All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/49783b6103a46277d96725ec77f4e4d084abf0d2.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$0\\%$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$25\\%$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$50\\%$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$75\\%$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$100\\%$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Each **quartile** helps us split the data points into fourths.  Value | Approximate fraction of data below this value | Approximate percentage of data below this value -|-:|-: Minimum | None | $0\\%$ $Q_1$ | $\\dfrac{1}{4}$ | $25\\%$ Median |  $\\dfrac{2}{4}$, which is $\\dfrac{1}{2}$ | $50\\%$ $Q_3$ | $\\dfrac{3}{4}$ | $75\\%$ Maximum | All | $100\\%$  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{7}$ teams is the first quartile. So about $\\tealE{25\\%}$ of Brad's fantasy football leagues have fewer than $\\maroonD{7}$ teams.  [[☃ image 2]]",
+                                    "images": [
+                                        {
+                                            "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 0 to 20, in increments of 1. A left whisker extends from 4 to 7. The box extends from 7 to 14 and is divided into 2 parts by a vertical line segment at 10. A right whisker extends from 14 to 18. The two whiskers and the two parts of the box are each labeled 25%. The vertical line segment at 7 is highlighted. The 25% label to the left of that vertical line segment is highlighted. All values estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/6138b2e92aac67d929159fffca57febf119f4334.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "About $25\\%$ of Brad's fantasy football leagues have fewer than $7$ teams.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "4) Image-Percent"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following box plot shows the number of gym members at each gym in Shanesville.    **About $25\\%$ of gyms in Shanesville have more than what number of gym members?**",
+                                "images": [
+                                    {
+                                        "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 40 to 80, in increments of 2. A left whisker extends from 50 to 56. The box extends from 56 to 70 and is divided into 2 parts by a vertical line segment at 64. The right whisker extends from 70 to 76. All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/abdb99b5071903edd16623244f19dedefbf9c079.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$50$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$56$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$64$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$70$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$76$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Each **quartile** helps us split the data points into fourths.  Value | Approximate fraction of data above this value | Approximate percentage of data above this value -|-:|-: Minimum | All | $100\\%$ $Q_1$ | $\\dfrac{3}{4}$ | $75\\%$ Median |  $\\dfrac{2}{4}$, which is $\\dfrac{1}{2}$ | $50\\%$ $Q_3$ | $\\dfrac{1}{4}$ | $25\\%$ Maximum | None | $0\\%$  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{70}$ gym members is the third quartile. So about $\\tealE{25\\%}$ of gyms in Shanesville have more than $\\maroonD{70}$ gym members.  [[☃ image 2]]",
+                                    "images": [
+                                        {
+                                            "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 40 to 80, in increments of 2. A left whisker extends from 50 to 56. The box extends from 56 to 70 and is divided into 2 parts by a vertical line segment at 64. A right whisker extends from 70 to 76. The two whiskers and the two parts of the box are each labeled 25%. The vertical line segment at 70 is highlighted. The 25% label to the right of that vertical line segment is highlighted. All values estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/bb7d0cbffc98c651b875af20ee6e0e30e036cabf.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "About $25\\%$ of gyms in Shanesville have more than $70$ gym members.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "HARD - MAKE MORE OF"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following table shows the five-number summary for the number of house boats on each lake in Minnesota.  $\\text{Min}$ |$Q_1$ |$\\text{Median}$ |$Q_3$ |$\\text{Max}$ :-: | :-: | :-:| :-:| :-: $12$|$18$|$23$|$26$|$29$  **About $75\\%$ of lakes in Minnesota have more than what number of house boats?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$12$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$18$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$23$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$26$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$29$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Each **quartile** helps us split the data points into fourths.  Value | Approximate fraction of data above this value | Approximate percentage of data above this value -|-:|-: Minimum | All | $100\\%$ $Q_1$ | $\\dfrac{3}{4}$ | $75\\%$ Median |  $\\dfrac{2}{4}$, which is $\\dfrac{1}{2}$ | $50\\%$ $Q_3$ | $\\dfrac{1}{4}$ | $25\\%$ Maximum | None | $0\\%$  [[☃ explanation 2]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{18}$ house boats is the first quartile. So about $75\\%$ of lakes in Minnesota have more than $\\maroonD{18}$ house boats.  |$\\text{Min}$ |$Q_1$ |$\\text{Median}$ |$Q_3$ |$\\text{Max}$ :-:|:-: | :-: | :-:| :-:| :-: **Five-number summary**|$12$| $\\maroonD{\\boxed{18}}$| $23$ |  $26$| $29$ **Approximate percentage of data *above* this value**|$100\\%$|$\\blueE{\\boxed{75\\%}}$|$50\\%$|$25\\%$|$0\\%$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "About $75\\%$ of lakes in Minnesota have more than $18$ house boats.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "HARD - MAKE MORE OF"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following box plot shows the number of surfers at each beach in Miami.    **About $75\\%$ of beaches in Miami have more than what number of surfers?**",
+                                "images": [
+                                    {
+                                        "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 0 to 20, in increments of 1. A left whisker extends from 2 to 8. The box extends from 8 to 15 and is divided into 2 parts by a vertical line segment at 13. The right whisker extends from 15 to 19. All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/151721dabe543362b75b584e9a7ae637a5315f6a.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$2$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$8$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$13$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$15$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$19$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Each **quartile** helps us split the data points into fourths.  Value | Approximate fraction of data above this value | Approximate percentage of data above this value -|-:|-: Minimum | All | $100\\%$ $Q_1$ | $\\dfrac{3}{4}$ | $75\\%$ Median |  $\\dfrac{2}{4}$, which is $\\dfrac{1}{2}$ | $50\\%$ $Q_3$ | $\\dfrac{1}{4}$ | $25\\%$ Maximum | None | $0\\%$  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{8}$ beaches is the first quartile quartile. So about $\\tealE{75\\%}$ of beaches in Miami have $\\maroonD{8}$ or more surfers.  [[☃ image 2]]",
+                                    "images": [
+                                        {
+                                            "alt": "A horizontal boxplot is plotted along a horizontal axis marked from 0 to 20, in increments of 1. A left whisker extends from 2 to 8. The box extends from 8 to 15 and is divided into 2 parts by a vertical line segment at 13. A right whisker extends from 15 to 19. The two whiskers and the two parts of the box are each labeled 25%. The vertical line segment at 8 is highlighted. The three 25% labels to the right of that vertical line segment is highlighted. All values estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/2ce084d4324e7869e5d3f1c308d2890c01ce5f69.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "About $75\\%$ of beaches in Miami have more than $8$ surfers.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "HARD - MAKE MORE OF"
+                    }
+                }
+            }
+        }
+    ]
+}

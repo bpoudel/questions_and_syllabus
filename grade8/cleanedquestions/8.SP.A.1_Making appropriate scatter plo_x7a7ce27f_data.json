@@ -1,0 +1,1061 @@
+{
+    "standard_metadata": {
+        "standard_id": "8.SP.A.1",
+        "standard_description": "Construct and interpret scatter plots for bivariate measurement data to investigate patterns of association between two quantities. Describe patterns such as clustering, outliers, positive or negative association, linear association, and nonlinear association.",
+        "standard_title": "Making appropriate scatter plots",
+        "standard_url": "https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-data/cc-8th-scatter-plots/e/making-good-scatter-plots"
+    },
+    "id": "x7a7ce27f",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Lynn wants to predict how much fuel her car will use based on its speed. She drove her car $100\\,\\text{km}$ at each of the speeds below, and she measured how much fuel was used at each speed. Her data is summarized in the table below.  ||||||| :-- | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | **Speed (km/hour)** | $20$ | $40$ | $60$ | $80$ | $100$ | $120$ **Fuel used (liters)** | $13.0$ | $8.0$ | $5.9$ | $7.0$ | $8.3$ | $9.9$  **All of the scatter plots below  display the data *correctly*, but which one of them displays the data *best*?**   *By convention, a good scatter plot uses a reasonable scale on both axes and puts the explanatory variable on the $x$-axis.*    $~~~~$  $~~$",
+                                "images": [
+                                    {
+                                        "alt": "Graph A provides Fuel used, in liters, from 0 to 14, in increments of 2, on the y-axis, versus Speed, in kilometers per hour, from 0 to 150, in increments of 50, on the x-axis. 6 points fall with decreasing steepness from (20, 13) to a minimum at (60, 6) before rising with decreasing steepness to (120, 10). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/a08062f14517c8ea600a076d6698f4818c4f5354.svg"
+                                    },
+                                    {
+                                        "alt": "Graph B provides Speed, in kilometers per hour, from 0 to 150, in increments of 50, on the y-axis versus Fuel used, in liters, from 0 to 14, in increments of 2, on the x-axis. 6 points create a rightward opening U-shape, rising from (6, 60) to (10, 120), and falling from (6, 60) to (13, 20). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/193aafa45cc1d7e35a262f8834a44e701f2c7ac2.svg"
+                                    },
+                                    {
+                                        "alt": "Graph C provides Fuel used, in liters, from 0 to 100, in increments of 10, on the y-axis, versus Speed, in kilometers per hour, from 0 to 300, in increments of 100, on the x-axis. 6 points fall with decreasing steepness from (20, 13) to a minimum at (60, 6) before rising with decreasing steepness to (120, 10). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/a05ce007c9050210d1eb924b8f5f84d576ff6c57.svg"
+                                    },
+                                    {
+                                        "alt": "Graph D provides Speed, in kilometers per hour, from 0 to 300, in increments of 100, on the y-axis versus Fuel used, in liters, from 0 to 100, in increments of 10, on the x-axis. 6 points create a rightward opening U-shape, rising from (6, 60) to (10, 120), and falling from (6, 60) to (13, 20). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/12c6aa9e40ffdef8ecd7626f977f3c6ae10209ef.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Graph A",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Graph B",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Graph C",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Graph D",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "By convention, a good scatter plot has the explanatory variable labeled on the horizontal ($x$) axis and the response variable labeled on the vertical ($y$) axis.  [[☃ explanation 1]]  Lynn wants to use *speed* to predict *fuel use*. The variable being predicted is the response variable because its value changes in response to the other variable.  **So *speed* is the explanatory variable, and it goes on the horizontal axis. *Fuel use* is the response variable, and it goes on the vertical axis.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "A good scatter plot has a reasonable scale for both axes that makes the data easy to read.  **The scales in Graph C and Graph D are not reasonable because they create a lot of blank space and make the data difficult to read.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Graph A displays the data the best since it has the variables on the correct axes and uses reasonable scaling.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "JEFF SAMPLE (NEW)"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Daniel wants to predict how much time a hike will take based on the distance of the hike. He collected some data on the time (in hours) and distance (in kilometers) of some of his previous hikes. His data is summarized in the following table:  |||||| :-- | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | **Distance (km)** | $5.00$ | $8.00$ | $9.50$ | $16.00$ | $18.00$  **Time (hours)** | $2.00$ | $2.75$ | $4.00$ | $7.25$ | $8.50$   **All of the scatter plots below  display the data *correctly*, but which one of them displays the data *best*?**   *By convention, a good scatter plot uses a reasonable scale on both axes and puts the explanatory variable on the $x$-axis.*    $~~~~$  $~~$",
+                                "images": [
+                                    {
+                                        "alt": "Graph A provides Distance, in kilometers, from 0 to 20, in increments of 2, on the y-axis versus Time, in hours, from 0 to 10, in increments of 1, on the x-axis. 5 points rise diagonally between (2, 4.5) and (8.5, 18). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/f676c232f8c5ff427a498451b45d258093c6db33.svg"
+                                    },
+                                    {
+                                        "alt": "Graph B provides Distance, in kilometers, from 0 to 60, in increments of 5, on the y-axis versus Time, in hours, from 0 to 30, in increments of 5, on the x-axis. 5 points rise diagonally between (2, 4.5) and (8.5, 18). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/9c161247bd6a61c47fa04ec89d0a6027f7c261e1.svg"
+                                    },
+                                    {
+                                        "alt": "Graph C provides Time, in hours, from 0 to 10, in increments of 1, on the y-axis, versus Distance, in kilometers, from 0 to 20, in increments of 2, on the x-axis. 5 points rise diagonally between (4.5, 2) and (18, 8.5). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/4c18f4046194201bd016692245302287533efece.svg"
+                                    },
+                                    {
+                                        "alt": "Graph D provides Time, in hours, from 0 to 30, in increments of 5, on the y-axis, versus Distance, in kilometers, from 0 to 60, in increments of 5, on the x-axis. 5 points rise diagonally between (4.5, 2) and (18, 8.5). All values estimated. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/032abc40a78cbb4488393d236718b93e20c248b8.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Graph A",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Graph B",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Graph C",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Graph D",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "By convention, a good scatter plot has the explanatory variable labeled on the horizontal ($x$) axis and the response variable labeled on the vertical ($y$) axis.  [[☃ explanation 1]]  Daniel wants to use *distance* to predict *time*. The variable being predicted is the response variable because its value changes in response to the other variable.  **So *distance* is the explanatory variable, and it goes on the horizontal axis. *Time* is the response variable, and it goes on the vertical axis.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "A good scatter plot has a reasonable scale for both axes that makes the data easy to read.  **The scales in Graph B and Graph D are not reasonable because they create a lot of blank space and make the data difficult to read.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Graph C displays the data the best since it has the variables on the correct axes and uses reasonable scaling.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "JEFF SAMPLE (NEW)"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Cheryl is curious how different amounts of sunlight will impact the growth of her tomatoes. She exposed some of her tomatoes to varying amounts of sunlight (in hours per day) and recorded the change in their circumferences (in centimeters) after a week. Her data is summarized in the table below.  |||||| :-- | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | **Sunlight (hours per day)** | $0$ | $2$ | $4$ | $6$ | $8$  **Change in circumference (cm)** | $1.00$ | $2.50$ | $5.25$ | $10.75$ | $11.25$   **All of the scatter plots below  display the data *correctly*, but which one of them displays the data *best*?**   *By convention, a good scatter plot uses a reasonable scale on both axes and puts the explanatory variable on the $x$-axis.*    $~~~~$  $~~$",
+                                "images": [
+                                    {
+                                        "alt": "Graph A provides Sunlight, in hours per day, from 0 to 10, in increments of 1, on the y-axis versus Change in circumference, in centimeters, from 0 to 12, in increments of 1, on the x-axis. 5 points rise diagonally between (1, 0) and (11.3, 8). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/365c6701c258741fc5b6a9f9c31f91b4d389864b.svg"
+                                    },
+                                    {
+                                        "alt": "Graph B provides Change in circumference, in centimeters, from 0 to 12, in increments of 1, on the y-axis, versus Sunlight, in hours per day, from 0 to 10, in increments of 1, on the x-axis. 5 points rise diagonally between (0, 1) and (8, 11.3). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/aa640347b2d52c0991a24c7ed9e21dfe38ab5ef7.svg"
+                                    },
+                                    {
+                                        "alt": "Graph C provides Sunlight, in hours per day, from 0 to 30, in increments of 15, on the y-axis versus Change in circumference, from 0 to 35, in centimeters, in increments of 5, on the x-axis. 5 points rise diagonally between (1, 0) and (11.3, 8). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/89d8acd2c36ea88d73e5d4dea21a1ab4a518fb5c.svg"
+                                    },
+                                    {
+                                        "alt": "Graph D provides Change in circumference, in centimeters, from 0 to 35, in increments of 5, on the y-axis, versus Sunlight, in hours per day, from 0 to 30, in increments of 5, on the x-axis. 5 points rise diagonally between (0, 1) and (8, 11.3). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/7a3be66dede7dc754a6ca34f750994fd076508d9.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Graph A",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Graph B",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Graph C",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Graph D",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "By convention, a good scatter plot has the explanatory variable labeled on the horizontal ($x$) axis and the response variable labeled on the vertical ($y$) axis.  [[☃ explanation 1]]  Cheryl is curious how *sunlight* impacts *change in circumference*. The variable being impacted is the response variable because its value changes in response to the other variable.  **So *sunlight* is the explanatory variable, and it goes on the horizontal axis. *Change in circumference* is the response variable, and it goes on the vertical axis.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "A good scatter plot has a reasonable scale for both axes that makes the data easy to read.  **The scales in Graph C and Graph D are not reasonable because they create a lot of blank space and make the data difficult to read.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Graph B displays the data the best since it has the variables on the correct axes and uses reasonable scaling.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "JEFF SAMPLE (NEW)"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Cindy wants to predict how much energy she will use to heat her home based on how cold it is outside. The table below shows the mean amount of gas per day (in cubic meters) that Cindy used each month and the average temperature that month (in degrees Celsius) for one heating season.  ||||||| :-- | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | **Temperature (degrees Celsius)** | $0.0$ | $2.0$ | $4.5$ | $7.2$ | $10.0$ | $12.8$  **Gas used (cubic meters)** | $22.0$ | $17.0$ | $16.7$ | $14.2$ | $12.0$ | $6.0$   **All of the scatter plots below  display the data *correctly*, but which one of them displays the data *best*?**   *By convention, a good scatter plot uses a reasonable scale on both axes and puts the explanatory variable on the $x$-axis.*    $~~~~$  $~~$",
+                                "images": [
+                                    {
+                                        "alt": "Graph A provides Temperature, in degrees Celsius, from 0 to 40, in increments of 5, on the y-axis, versus Gas used, in cubic meters, from 0 to 60, in increments of 10, on the x-axis. 6 points fall diagonally between (6, 13) and (23, 0). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/05420bb8fa58db0bc595b8cfd5704cadc5bbed59.svg"
+                                    },
+                                    {
+                                        "alt": "Graph B provides Gas used, in cubic meters, from 0 to 60, in increments of 10, on the y-axis, versus Temperature, in degrees Celsius, from 0 to 40, in increments of 5, on the x-axis. 6 points fall diagonally between (0, 23) and (13, 6). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/42588db15b779d1df86a0af59bdddf55c3916315.svg"
+                                    },
+                                    {
+                                        "alt": "Graph C provides Temperature, in degrees Celsius, from 0 to 15, in increments of 5, on the y-axis, versus Gas used, in cubic meters, from 0 to 25, in increments of 5, on the x-axis. 6 points fall diagonally between (6, 13) and (23, 0). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/878709fa19b6b0da88207aa74ad70b329c677d43.svg"
+                                    },
+                                    {
+                                        "alt": "Graph D provides Gas used, in cubic meters, from 0 to 25, in increments of 5, on the y-axis, versus Temperature, in degrees Celsius, from 0 to 14, in increments of 2, on the x-axis. 6 points fall diagonally between (0, 23) and (13, 6). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/c8bc1ea11cbb8584ac5d1969d62a43a25af6d880.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Graph A",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Graph B",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Graph C",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Graph D",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "By convention, a good scatter plot has the explanatory variable labeled on the horizontal ($x$) axis and the response variable labeled on the vertical ($y$) axis.  [[☃ explanation 1]]  Cindy wants to use *temperature* to predict *gas use*. The variable being predicted is the response variable because its value changes in response to the other variable.  **So *temperature* is the explanatory variable, and it goes on the horizontal axis. *Gas used* is the response variable, and it goes on the vertical axis.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "A good scatter plot has a reasonable scale for both axes that makes the data easy to read.  **The scales in Graph A and Graph B are not reasonable because they create a lot of blank space and make the data difficult to read.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Graph D displays the data the best since it has the variables on the correct axes and uses reasonable scaling.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "JEFF SAMPLE (NEW)"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Nate wants to predict how long people use the internet each day based on their age. The table below shows the age (in years) and average daily internet usage (in hours) for a sample of people.  ||||||| :-- | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | **Age (years)** | $3$ | $10$ | $16$ | $22$ | $35$ | $55$  **Internet use (hours per day)** | $0.0$ | $1.0$ | $2.5$ | $4.0$ | $3.0$ | $0.5$   **All of the scatter plots below  display the data *correctly*, but which one of them displays the data *best*?**   *By convention, a good scatter plot uses a reasonable scale on both axes and puts the explanatory variable on the $x$-axis.*    $~~~~$  $~~~~$",
+                                "images": [
+                                    {
+                                        "alt": "Graph A provides Internet use, in hours, from 0 to 4, in increments of 1, on the y-axis, versus Age, in years, from 0 to 60, in increments of 5, on the x-axis. 6 points rise from (3, 0) to a maximum at (22, 4) before falling to (55, 0.5). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/018b92aad9335183f9a07d9846cf6f9b6b42b5ac.svg"
+                                    },
+                                    {
+                                        "alt": "Graph B provides Internet use, in hours, from 0 to 14, in increments of 2, on the y-axis, versus Age, in years, from 0 to 150, in increments of 50, on the x-axis. 6 points rise from (3, 0) to a maximum at (22, 4) before falling to (55, 0.5). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/e3cce0fbcf460fb90023642f9fc652766a26f388.svg"
+                                    },
+                                    {
+                                        "alt": "Graph C provides Age, in years, from 0 to 60, in increments of 5, on the y-axis, versus Internet use, in hours, from 0 to 4, in increments of 1, on the x-axis. 6 points create a leftward opening U-shape, falling from (0.5, 55) to (4, 22), and rising from (0, 4) to (4, 22). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/a5e8339e39ddab137c05601d8340f327826d446f.svg"
+                                    },
+                                    {
+                                        "alt": "Graph D provides Age, in years, from 0 to 150, in increments of 50, on the y-axis, versus Internet use, in hours, from 0 to 14, in increments of 2, on the x-axis. 6 points create a leftward opening U-shape, falling from (0.5, 55) to (4, 22), and rising from (0, 4) to (4, 22). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/5ae49760373ce7ed535be2a7a6aa1991ba745c4b.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Graph A",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Graph B",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Graph C",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Graph D",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "By convention, a good scatter plot has the explanatory variable labeled on the horizontal ($x$) axis and the response variable labeled on the vertical ($y$) axis.  [[☃ explanation 1]]  Nate is curious how *age* impacts *internet use*. The variable being impacted is the response variable because its value changes in response to the other variable.  **So *age* is the explanatory variable, and it goes on the horizontal axis. *Internet use* is the response variable, and it goes on the vertical axis.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "A good scatter plot has a reasonable scale for both axes that makes the data easy to read.  **The scales in Graph B and Graph D are not reasonable because they create a lot of blank space and make the data difficult to read.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Graph A displays the data the best since it has the variables on the correct axes and uses reasonable scaling.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "JEFF SAMPLE (NEW)"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Arthur wanted to investigate how the amount he exercises impacts his weight loss. Each week he recorded the number of hours he exercised and the amount of weight he lost that week (in kilograms).    ||||||| :-- | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | **Exercise (hours)** | $1$ | $2$ | $3$ | $4$ | $5$ |  **Weight lost (kg)** | $0.86$ | $1.13$ | $1.59$ | $2.27$ | $2.62$ |   **All of the scatter plots below  display the data *correctly*, but which one of them displays the data *best*?**   *By convention, a good scatter plot uses a reasonable scale on both axes and puts the explanatory variable on the $x$-axis.*    $~~~$  $~~$",
+                                "images": [
+                                    {
+                                        "alt": "Graph A provides Weight lost, in kilograms, from 0 to 9, in increments of 1, on the y-axis, versus Exercise, in hours, from 0 to 20, in increments of 5, on the x-axis. 5 points rise diagonally between (1, 0.8) and (5, 2.75). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/9394e633dba210fb2c355d2cd307647a0ab65e44.svg"
+                                    },
+                                    {
+                                        "alt": "Graph B provides Weight lost, in kilograms, from 0 to 3, in increments of 0.5, on the y-axis, versus Exercise, in hours, from 0 to 6, in increments of 1, on the x-axis. 5 points rise diagonally between (1, 0.8) and (5, 2.75). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/b3539cb33032e779b8190436ab4d3cb6a3160932.svg"
+                                    },
+                                    {
+                                        "alt": "Graph C provides Exercise, in hours, from 0 to 20, in increments of 5, on the y-axis, versus Weight lost, in kilograms, from 0 to 9, in increments of 1, on the x-axis. 5 points rise diagonally between (0.8, 1) and (2.75, 5). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/67f5a61d7a837cb4fd4366b329717e451b67e060.svg"
+                                    },
+                                    {
+                                        "alt": "Graph D provides Exercise, in hours, from 0 to 6, in increments of 1, on the y-axis, versus Weight lost, in kilograms, from 0 to 3, in increments of 0.5, on the x-axis. 5 points rise diagonally between (0.8, 1) and (2.75, 5). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/9d84d39a975621fecf7c979efe2e69695a7fb761.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Graph A",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Graph B",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Graph C",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Graph D",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "By convention, a good scatter plot has the explanatory variable labeled on the horizontal ($x$) axis and the response variable labeled on the vertical ($y$) axis.  [[☃ explanation 1]]  Arthur is curious how *exercise* impacts *weight loss*. The variable being impacted is the response variable because its value changes in response to the other variable.  **So *exercise* is the explanatory variable, and it goes on the horizontal axis. *Weight lost* is the response variable, and it goes on the vertical axis.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "A good scatter plot has a reasonable scale for both axes that makes the data easy to read.  **The scales in Graph A and Graph C are not reasonable because they create a lot of blank space and make the data difficult to read.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Graph B displays the data the best since it has the variables on the correct axes and uses reasonable scaling.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "JEFF SAMPLE (NEW)"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Corey wants to predict how much time a run will take based on the distance of the run. He collected some data on the time (in minutes) and distance (in kilometers) of some of his previous runs. His data is summarized in the table below.    ||||||| :-- | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | **Distance (km)** | $1$ | $2$ | $3$ | $4$ | $5$ | $6$  **Time (minutes)** | $5.1$ | $11.8$ | $17.7$ | $25.2$ | $33.0$ | $41.9$   **All of the scatter plots below  display the data *correctly*, but which one of them displays the data *best*?**   *By convention, a good scatter plot uses a reasonable scale on both axes and puts the explanatory variable on the $x$-axis.*    $~~~$  $~~$",
+                                "images": [
+                                    {
+                                        "alt": "Graph A provides Time, in minutes, from 0 to 150, in increments of 50, on the y-axis, versus Distance, in kilometers, from 0 to 20, in increments of 5 on the x-axis. 6 points rise diagonally between (1, 5) and (6, 42). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/64a94b5d596fdd7e2f2ad65c5960feb5dcc8ebea.svg"
+                                    },
+                                    {
+                                        "alt": "Graph B provides Distance, in kilometers, from 0 to 20, in increments of 5, on the y-axis, versus Time, in minutes, from 0 to 150, in increments of 50, on the x-axis. 6 points rise diagonally between (5, 1) and (42, 6). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/793b576133dd02341f967409b8f4aa23861a2e44.svg"
+                                    },
+                                    {
+                                        "alt": "Graph C provides Time, in minutes, from 0 to 50, in increments of 5, on the y-axis, versus Distance, in kilometers, from 0 to 6, in increments of 1, on the x-axis. 6 points rise diagonally between (1, 5) and (6, 42). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/8108ccb6a7131f100581c6463e850a906beaad44.svg"
+                                    },
+                                    {
+                                        "alt": "Graph D provides Distance, in kilometers, from 0 to 6, in increments of 1, on the y-axis, versus Time, in minutes, from 0 to 50, in increments of 5, on the x-axis. 6 points rise diagonally between (5, 1) and (42, 6). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/667a4b0615258115df88ccb36397be889e54bd14.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Graph A",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Graph B",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Graph C",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Graph D",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "By convention, a good scatter plot has the explanatory variable labeled on the horizontal ($x$) axis and the response variable labeled on the vertical ($y$) axis.  [[☃ explanation 1]]  Corey wants to use *distance* to predict *time*. The variable being predicted is the response variable because its value changes in response to the other variable.  **So *distance* is the explanatory variable, and it goes on the horizontal axis. *Time* is the response variable, and it goes on the vertical axis.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "A good scatter plot has a reasonable scale for both axes that makes the data easy to read.  **The scales in Graph A and Graph B are not reasonable because they create a lot of blank space and make the data difficult to read.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Graph C displays the data the best since it has the variables on the correct axes and uses reasonable scaling.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "JEFF SAMPLE (NEW)"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Megan wants to predict how much gas is left in her tank based on the distance she has driven. She filled up her tank and measured the amount of gas in her tank (in liters) after driving certain distances (in kilometers). Her data is summarized in the table below.    ||||||| :-- | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | **Distance (km)** | $0$ | $100$ | $200$ | $300$ | $400$ | $500$  **Gas left (L)** | $50.0$ | $42.2$ | $34.2$ | $26.0$ | $17.6$ | $9.1$  **All of the scatter plots below  display the data *correctly*, but which one of them displays the data *best*?**   *By convention, a good scatter plot uses a reasonable scale on both axes and puts the explanatory variable on the $x$-axis.*    $~$  $~$",
+                                "images": [
+                                    {
+                                        "alt": "Graph A provides Distance, in kilometers, from 0 to 1500, in increments of 500, on the y-axis, versus Gas left, in liters, from 0 to 150, in increments of 30, on the x-axis. 6 points fall in a linear pattern from (9, 500) to (50, 0). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/cde74a31ccbcf7595adf6b22414020309d1ca348.svg"
+                                    },
+                                    {
+                                        "alt": "Graph B provides Gas left, in liters, from 0 to 150, in increments of 30, on the y-axis, versus, Distance, in kilometers, from 0 to 1500, in increments of 500, on the x-axis. 6 points fall in a linear pattern from (0, 50) to (500, 9). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/5fb16d8a878a3bf3b3476a4c8efd28c09ff743ed.svg"
+                                    },
+                                    {
+                                        "alt": "Graph C provides Distance, in kilometers, from 0 to 500, in increments of 100, on the y-axis, versus Gas left, in liters, from 0 to 50, in increments of 10, on the x-axis. 6 points fall in a linear pattern from (9, 500) to (50, 0). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/39827f5c7820dafb088f3f2c1ac55d3476d31ac9.svg"
+                                    },
+                                    {
+                                        "alt": "Graph D provides Gas left, in liters, from 0 to 50, in increments of 10, on the y-axis, versus, Distance, in kilometers, from 0 to 500, in increments of 100, on the x-axis. 6 points fall in a linear pattern from (0, 50) to (500, 9). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/1fa2d8e03367e8d33e70d0926d30749146a21a51.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Graph A",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Graph B",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Graph C",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Graph D",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "By convention, a good scatter plot has the explanatory variable labeled on the horizontal ($x$) axis and the response variable labeled on the vertical ($y$) axis.  [[☃ explanation 1]]  Megan wants to use *distance* to predict *gas left*. The variable being predicted is the response variable because its value changes in response to the other variable.  **So *distance* is the explanatory variable, and it goes on the horizontal axis. *Gas left* is the response variable, and it goes on the vertical axis.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "A good scatter plot has a reasonable scale for both axes that makes the data easy to read.  **The scales in Graph A and Graph B are not reasonable because they create a lot of blank space and make the data difficult to read.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Graph D displays the data the best since it has the variables on the correct axes and uses reasonable scaling.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "JEFF SAMPLE (NEW)"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A group of meteorologists wanted to investigate if average low temperature is a function of latitude. They collected data in the table below.    |Bangkok|Hanoi|Havana|Jerusalem|Paris :-- | --: | --: | --: | --: | --: | --: | --: | --: | --: | --:  **Latitude (degrees)**  | $13.4$ | $21.1$ | $23.8$ | $31.5$ | $48.5$  **Low temp. (degrees Celsius)**| $20$ | $7$ | $17$ | $4$ | $1$   **All of the scatter plots below  display the data *correctly*, but which one of them displays the data *best*?**   *By convention, a good scatter plot uses a reasonable scale on both axes and puts the explanatory variable on the $x$-axis.*    $~~~$  $~~~$",
+                                "images": [
+                                    {
+                                        "alt": "Graph A provides Low temperature, in degrees Celsius, from 0 to 25, in increments of 5, on the y-axis, versus Latitude, in degrees, from 0 to 50, in increments of 5, on the x-axis. 5 points are plotted as follows: (14, 20), (21, 7), (24, 17), (31, 4), and (49, 1). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/e24013953c84df80170e56e9fff154df74b44f40.svg"
+                                    },
+                                    {
+                                        "alt": "Graph B provides Latitude, in degrees, from 0 to 50, in increments of 5, on the y-axis, versus Low temperature, in degrees Celsius, from 0 to 25, in increments of 5, on the x-axis. 5 points are plotted as follows: (1, 49), (4, 31), (7, 21), (17, 24), and (20, 14). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/cde41626be4a4e3a4f0cd2f2eee1152f8391a92b.svg"
+                                    },
+                                    {
+                                        "alt": "Graph C provides Low temperature, in degrees Celsius, from 0 to 75, in increments of 15, on the y-axis, versus Latitude, in degrees, from 0 to 180, in increments of 15, on the x-axis. 5 points are plotted as follows: (14, 20), (21, 7), (24, 17), (31, 4), and (49, 1). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/4834c081843ee9caf3f2621de1dfa8c05cc7093c.svg"
+                                    },
+                                    {
+                                        "alt": "Graph D provides Latitude, in degrees, from 0 to 180, in increments of 15, on the y-axis, versus Low temperature, in degrees Celsius, from 0 to 60, in increments of 15, on the x-axis. 5 points are plotted as follows: (1, 49), (4, 31), (7, 21), (17, 24), and (20, 14). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/890542244e4c314a7ec0e3a9205aa698f26b2220.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Graph A",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Graph B",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Graph C",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Graph D",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "By convention, a good scatter plot has the explanatory variable labeled on the horizontal ($x$) axis and the response variable labeled on the vertical ($y$) axis.  [[☃ explanation 1]]  The meteorologists are investigating if *temperature* is a function of *latitude*. So they are seeing if *temperature* changes in response to *latitude*.  **So *latitude* is the explanatory variable, and it goes on the horizontal axis. *Temperature* is the response variable, and it goes on the vertical axis.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "A good scatter plot has a reasonable scale for both axes that makes the data easy to read.  **The scales in Graph C and Graph D are not reasonable because they create a lot of blank space and make the data difficult to read.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Graph A displays the data the best since it has the variables on the correct axes and uses reasonable scaling.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "JEFF SAMPLE (NEW)"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A group of scientists wants to investigate if they can predict the life expectancy of mammal species given its average heart rate. The table below shows the relationship between average heart rate (in beats per minute) and life expectancy (in years) for a sample of mammals.    |Whale|Elephant|Horse|Lion|Sheep|Pig :-- | --: | --: | --: | --: | --: | --: | --: | --: | --: | --:  **Average heart rate (BPM)**  | $20$ | $30$ | $34$ | $50$ | $75$ | $95$ **Life expectancy (years)**| $70$ | $70$ | $40$ | $13$ | $15$ | $25$  **All of the scatter plots below  display the data *correctly*, but which one of them displays the data *best*?**   *By convention, a good scatter plot uses a reasonable scale on both axes and puts the explanatory variable on the $x$-axis.*    $~~~$  $~~~$",
+                                "images": [
+                                    {
+                                        "alt": "Graph A provides Heart rate, in beats per minute, from 0 to 100, in increments of 10, on the y-axis, versus Life expectancy, in years, from 0 to 80, in increments of 10, on the x-axis. 6 points are plotted as follows: (12, 50), (13, 75), (25, 95), (40, 32), (70, 20), and (70, 30). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/e0795ef4fbc6e53687a74a42ef5ba679228b26b0.svg"
+                                    },
+                                    {
+                                        "alt": "Graph B provides Life expectancy, in years, from 0 to 80, in increments of 10, on the y-axis, versus Heart rate, in beats per minute, from 0 to 100, in increments of 10, on the x-axis. 6 points are plotted as follows: (20, 70), (30, 70), (32, 40), (50, 12), (75, 13), and (95, 25). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/6a7b99dfc3dee72ac7e06b08e8e53097d1877d6e.svg"
+                                    },
+                                    {
+                                        "alt": "Graph C provides Heart rate, in beats per minute, from 0 to 300, in increments of 60, on the y-axis, versus Life expectancy, in years, from 0 to 240, in increments of 60, on the x-axis. 6 points are plotted as follows: (12, 50), (13, 75), (25, 95), (40, 32), (70, 20), and (70, 30). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/d6e14b64964bd99595bc3dd8b894218d9b63ae78.svg"
+                                    },
+                                    {
+                                        "alt": "Graph D provides Life expectancy, in years, from 0 to 240, in increments of 60, on the y-axis, versus Heart rate, in beats per minute, from 0 to 300, in increments of 60, on the x-axis. 6 points are plotted as follows: (20, 70), (30, 70), (32, 40), (50, 12), (75, 13), and (95, 25). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/d684f2e83cdaf44df5b7bf9c0b065241b3662c68.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Graph A",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Graph B",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Graph C",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Graph D",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "By convention, a good scatter plot has the explanatory variable labeled on the horizontal ($x$) axis and the response variable labeled on the vertical ($y$) axis.  [[☃ explanation 1]]  The scientists want to use *heart rate* to predict *life expectancy*. The variable being predicted is the response variable because its value changes in response to the other variable.  **So *heart rate* is the explanatory variable, and it goes on the horizontal axis. *Life expectancy* is the response variable, and it goes on the vertical axis.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "A good scatter plot has a reasonable scale for both axes that makes the data easy to read.  **The scales in Graph C and Graph D are not reasonable because they create a lot of blank space and make the data difficult to read.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Graph B displays the data the best since it has the variables on the correct axes and uses reasonable scaling.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "JEFF SAMPLE (NEW)"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Carley owns an ice cream stand. She wants to predict how many ice cream cones she will sell as a function of the average daily high temperature each month. The data for the past $7$ months is shown in the table below.    |Jan|Feb|Mar|Apr|May|Jun|Jul :-- | --: | --: | --: | --: | --: | --: | --: | --: | --: | --:  **Cones sold**  | $0$ | $0$ | $30$ | $61$ | $118$ | $426$ | $485$  **Average high temp. (degrees Celsius)**| $1.0$ | $3.0$ | $7.3$ | $14.3$ | $21.2$ | $26.1$ | $28.6$   **All of the scatter plots below  display the data *correctly*, but which one of them displays the data *best*?**   *By convention, a good scatter plot uses a reasonable scale on both axes and puts the explanatory variable on the $x$-axis.*    $~~~$  $~~~$",
+                                "images": [
+                                    {
+                                        "alt": "Graph A provides Average high temperature, in degrees Celsius, from 0 to 30, in increments of 5, on the y-axis versus Cones sold from 0 to 500, in increments of 50, on the x-axis. 7 points rise in a curve pattern with decreasing steepness from (0, 1) to (490, 27). There is a gap between x = 150 and x = 400. All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/0ea933281c677b743142af2acc9f9c547b3f0873.svg"
+                                    },
+                                    {
+                                        "alt": "Graph B provides Average high temperature, in degrees Celsius, from 0 to 90, in increments of 7.5, on the y-axis versus Cones sold from 0 to 1500, in increments of 150, on the x-axis. 7 points rise in a curve pattern with decreasing steepness from (0, 1) to (490, 27). There is a gap between x = 150 and x = 400. All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/9e8a1a8a9e44a594e7c4c798ceed795050312077.svg"
+                                    },
+                                    {
+                                        "alt": "Graph C provides Cones sold from 0 to 500, in increments of 50, on the y-axis versus Average high temperature, in degrees Celsius, from 0 to 30, in increments of 5, on the x-axis. 7 points rise in a curve pattern with increasing steepness from (1, 0) to (27, 490). There is a gap between x = 22 and x = 26. All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/a9bd794320ebf6fa5fcd4b3b6f3e648c92a6474b.svg"
+                                    },
+                                    {
+                                        "alt": "Graph D provides Cones sold from 0 to 1500, in increments of 150, on the y-axis versus Average high temperature, in degrees Celsius, from 0 to 90, in increments of 7.5, on the x-axis. 7 points rise in a curve pattern with increasing steepness from (1, 0) to (27, 490). There is a gap between x = 22 and x = 26. All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/4cc3df817b3b0e13d5e2d90b590181c118e3b1e8.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Graph A",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Graph B",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Graph C",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Graph D",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "By convention, a good scatter plot has the explanatory variable labeled on the horizontal ($x$) axis and the response variable labeled on the vertical ($y$) axis.  [[☃ explanation 1]]  Carley wants to use *temperature* to predict *cones sold*. The variable being predicted is the response variable because its value changes in response to the other variable.  **So *temperature* is the explanatory variable, and it goes on the horizontal axis. *Cones sold* is the response variable, and it goes on the vertical axis.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "A good scatter plot has a reasonable scale for both axes that makes the data easy to read.  **The scales in Graph B and Graph D are not reasonable because they create a lot of blank space and make the data difficult to read.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Graph C displays the data the best since it has the variables on the correct axes and uses reasonable scaling.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "JEFF SAMPLE (NEW)"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A bus company wanted to know if the number of complaints they received was a function of the number of buses it ran. The company carried out a study comparing the average number of buses per hour for different days and the number of complaints that it received on those days. Here are the results:    |||||||| :-- | --: | --: | --: | --: | --: | --: | --: | --: | --: | --:  **Number of complaints**  | $52$ | $33$ | $21$ | $23$ | $20$ | $17$ | $14$  **Avg. number of buses per hour**| $2.00$ | $2.50$ | $4.25$ | $5.00$ | $5.25$ | $6.25$ | $7.25$   **All of the scatter plots below  display the data *correctly*, but which one of them displays the data *best*?**   *By convention, a good scatter plot uses a reasonable scale on both axes and puts the explanatory variable on the $x$-axis.*    $~~~$  $~~~$",
+                                "images": [
+                                    {
+                                        "alt": "Graph A provides Average number of buses per hour, from 0 to 24, in increments of 3, on the y-axis, versus number of complaints, from 0 to 180, in increments of 15 on the x-axis. 7 points fall in a curved pattern with decreasing steepness between (14, 7.5) and (52, 2). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/fc18e660a5450a7b9cfd5fc6fdbe69014698bddc.svg"
+                                    },
+                                    {
+                                        "alt": "Graph B provides Number of complaints, from 0 to 180, in increments of 15, on the y-axis, versus Average number of buses per hour, from 0 to 24, in increments of 3, on the x-axis. 7 points fall in a curved pattern with decreasing steepness between (2, 52) and (7.5, 14). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/018d8c3222e4544cf05e4e2de33539c165ddbfce.svg"
+                                    },
+                                    {
+                                        "alt": "Graph C provides Average number of buses per hour, from 0 to 8, in increments of 1, on the y-axis, versus number of complaints, from 0 to 60, in increments of 5 on the x-axis. 7 points fall in a curved pattern with decreasing steepness between (14, 7.5) and (52, 2). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/caeddce90189668173eae1dc0cd8ac8a7c6329b3.svg"
+                                    },
+                                    {
+                                        "alt": "Graph D provides Number of complaints, from 0 to 60, in increments of 5, on the y-axis, versus Average number of buses per hour, from 0 to 8, in increments of 0.5, on the x-axis. 7 points fall in a loose curved pattern with decreasing steepness between (2, 52) and (7.5, 14). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/507af52b25c96bf2052318886fbe66cba3441d44.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Graph A",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Graph B",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Graph C",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Graph D",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "By convention, a good scatter plot has the explanatory variable labeled on the horizontal ($x$) axis and the response variable labeled on the vertical ($y$) axis.  [[☃ explanation 1]]  The bus company is investigating if  the *number of complaints* are a function of the *number of buses*. So they are seeing if the *number of complaints* changes in response to the *number of buses.*  **So the *number of buses* is the explanatory variable, and it goes on the horizontal axis. The *number of complaints* is the response variable, and it goes on the vertical axis.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "A good scatter plot has a reasonable scale for both axes that makes the data easy to read.  **The scales in Graph A and Graph B are not reasonable because they create a lot of blank space and make the data difficult to read.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Graph D displays the data the best since it has the variables on the correct axes and uses reasonable scaling.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "JEFF SAMPLE (NEW)"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A drug company testing a pain medication wants to know the impact of different dosages on patients' pain levels. They recruited volunteers experiencing pain to try one of $6$ different dosages and then rate their pain levels on a scale of $1$ to $10$.  Here are the results:    |||||||| :-- | --: | --: | --: | --: | --: | --: | --: | --: | --: | --:  **Average pain level**  | $6.0$ | $5.8$ | $5.2$ | $4.9$ | $3.9$ | $3.6$ | $3.5$  **Dosage (mg)**| $0$ | $50$ | $100$ | $150$ | $200$ | $250$ | $300$   **All of the scatter plots below  display the data *correctly*, but which one of them displays the data *best*?**   *By convention, a good scatter plot uses a reasonable scale on both axes and puts the explanatory variable on the $x$-axis.*    $~~~$  $~~~$",
+                                "images": [
+                                    {
+                                        "alt": "Graph A provides Average pain level, from 0 to 10, in increments of 1, on the y-axis versus Dosage, in milligrams, from 0 to 350, in increments of 50, on the x-axis. 7 points fall diagonally between (0, 6) and (300, 3.5). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/3ce5107333b4d017acfe0a342849bb4fee50ee83.svg"
+                                    },
+                                    {
+                                        "alt": "Graph B provides Average pain level, from 0 to 30, in increments of 3, on the y-axis versus Dosage, in milligrams, from 0 to 1050, in increments of 150, on the x-axis. 7 points fall diagonally between (0, 6) and (300, 3.5). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/25a7f382b96dbdfc36d5f61eddd8ee59554048eb.svg"
+                                    },
+                                    {
+                                        "alt": "Graph C provides Dosage, in milligrams, from 0 to 350, in increments of 50, on the y-axis, versus Average pain level, from 0 to 10, in increments of 1, on the x-axis. 7 points fall nearly vertically between (3.5, 300) and (6, 0). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/b79e5d21689e7ba68d3724afb5f72a0f7586c7ea.svg"
+                                    },
+                                    {
+                                        "alt": "Graph D provides Dosage, in milligrams, from 0 to 1050, in increments of 150, on the y-axis, versus Average pain level, from 0 to 30, in increments of 3, on the x-axis. 7 points fall nearly vertically between (3.5, 300) and (6, 0). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/1faa78bf8a3678b6c04f90f3107442b32c6a4bf4.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Graph A",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Graph B",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Graph C",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Graph D",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "By convention, a good scatter plot has the explanatory variable labeled on the horizontal ($x$) axis and the response variable labeled on the vertical ($y$) axis.  [[☃ explanation 1]]  The company wants to know how *dosage* impacts *pain level*. The variable being impacted is the response variable because its value changes in response to the other variable.  **So *dosage* is the explanatory variable, and it goes on the horizontal axis. *Pain level* is the response variable, and it goes on the vertical axis.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "A good scatter plot has a reasonable scale for both axes that makes the data easy to read.  **The scales in Graph B and Graph D are not reasonable because they create a lot of blank space and make the data difficult to read.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Graph A displays the data the best since it has the variables on the correct axes and uses reasonable scaling.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "JEFF SAMPLE (NEW)"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A car company wants to predict how much fuel different cars will use based on their masses. They took a sample of cars,  drove each car $100\\,\\text{km}$, and measured how much fuel was used in each case (in liters). The data is summarized in the table below.    |||||| :-- | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | **Fuel used (L)** | $3.6$ | $6.7$ | $9.8$ | $11.2$ | $14.7$ **Mass (metric tons)** | $0.45$ | $0.91$ | $1.36$ | $1.81$ | $2.27$   **All of the scatter plots below  display the data *correctly*, but which one of them displays the data *best*?**   *By convention, a good scatter plot uses a reasonable scale on both axes and puts the explanatory variable on the $x$-axis.*    $~~~$  $~~~$",
+                                "images": [
+                                    {
+                                        "alt": "Graph A provides Mass, in metric tons, from 0 to 2.5, in increments of 0.5, on the y-axis, versus Fuel used, in liters, from 0 to 15, in increments of 3, on the x-axis. 5 points rise diagonally from (4, 0.4) to (14, 2.25). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/3c21190ba1646b901409aa05bafef70612020b85.svg"
+                                    },
+                                    {
+                                        "alt": "Graph B provides Fuel used, in liters, from 0 to 15, in increments of 3, on the y-axis, versus Mass, in metric tons, from 0 to 2.5, in increments of 0.5, on the x-axis. 5 points rise diagonally from (0.4, 4) to (2.25, 14). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/72d78c0226fedb8ab265c5901f2a5012ffb3e093.svg"
+                                    },
+                                    {
+                                        "alt": "Graph C provides Mass, in metric tons, from 0 to 7.5, in increments of 1.5, on the y-axis, versus Fuel used, in liters, from 0 to 36, in increments of 9, on the x-axis. 5 points rise diagonally from (4, 0.4) to (14, 2.25). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/2e142385b9921f4ae74cabd142a38f967e42d4b1.svg"
+                                    },
+                                    {
+                                        "alt": "Graph D provides Fuel used, in liters, from 0 to 36, in increments of 9, on the y-axis, versus Mass, in metric tons, from 0 to 7.5, in increments of 1.5, on the x-axis. 5 points rise diagonally from (0.4, 4) to (2.25, 14). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/a93e3347fcb00eeaae615243129d21e056eac59f.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Graph A",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Graph B",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Graph C",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Graph D",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "By convention, a good scatter plot has the explanatory variable labeled on the horizontal ($x$) axis and the response variable labeled on the vertical ($y$) axis.  [[☃ explanation 1]]  The company wants to use *mass* to predict *fuel use*. The variable being predicted is the response variable because its value changes in response to the other variable.  **So *mass* is the explanatory variable, and it goes on the horizontal axis. *Fuel use* is the response variable, and it goes on the vertical axis.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "A good scatter plot has a reasonable scale for both axes that makes the data easy to read.  **The scales in Graph C and Graph D are not reasonable because they create a lot of blank space and make the data difficult to read.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Graph B displays the data the best since it has the variables on the correct axes and uses reasonable scaling.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "JEFF SAMPLE (NEW)"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "An advertising company is curious about the impact the lengths of their television advertisements have on viewers' feelings about a product. They showed advertisements of different lengths to a group of volunteers and asked the volunteers to rate how positive they felt about the product on a scale of $1$ to $10$. Their data is shown in the table below.    |||||| :-- | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | **Avg. product rating** | $6.0$ | $7.0$ | $5.0$ | $3.0$ | $2.5$ **Ad length (seconds)** | $30$ | $45$ | $60$ | $75$ | $90$   **All of the scatter plots below  display the data *correctly*, but which one of them displays the data *best*?**   *By convention, a good scatter plot uses a reasonable scale on both axes and puts the explanatory variable on the $x$-axis.*    $$",
+                                "images": [
+                                    {
+                                        "alt": "Graph A provides Average rating, from 0 to 24, in increments of 3, on the y-axis, versus Ad length, in seconds, from 0 to 270, in increments of 45, on the x-axis. 5 points fall diagonally between (30, 6) and (90, 2.5). The second point is an outlier at (45, 7). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/f6139dd00154af5d203ba073963c8430d43f0835.svg"
+                                    },
+                                    {
+                                        "alt": "Graph B provides Ad length, in seconds, from 0 to 270, in increments of 45 on the y-axis, versus Average rating, from 0 to 24, in increments of 3, on the x-axis. 5 points fall nearly vertically between (2.5, 90) and (6, 30). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/fde78222b5ca8058db68828033a2e0ded9871e2e.svg"
+                                    },
+                                    {
+                                        "alt": "Graph C provides Average rating, from 0 to 8, in increments of 1, on the y-axis, versus Ad length, in seconds, from 0 to 90, in increments of 15. 5 points fall diagonally between (30, 6) and (90, 2.5). The second point is an outlier at (45, 7). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/b78ee167e3a1f6ba51aacec6d1df887ca5d4f32a.svg"
+                                    },
+                                    {
+                                        "alt": "Graph D provides Ad length, in seconds, from 0 to 90, in increments of 15 on the y-axis, versus Average rating, from 0 to 7, in increments of 1, on the x-axis. 5 points fall diagonally between (2.5, 90) and (6, 30). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/95d29b1bbeaef42d6cff0fadb07cdfc8c53ac2a6.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Graph A",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Graph B",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Graph C",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Graph D",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "By convention, a good scatter plot has the explanatory variable labeled on the horizontal ($x$) axis and the response variable labeled on the vertical ($y$) axis.  [[☃ explanation 1]]  The company is curious how *ad length* impacts *product rating*. The variable being impacted is the response variable because its value changes in response to the other variable.  **So *ad length* is the explanatory variable, and it goes on the horizontal axis. *Product rating* is the response variable, and it goes on the vertical axis.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "A good scatter plot has a reasonable scale for both axes that makes the data easy to read.  **The scales in Graph A and Graph B are not reasonable because they create a lot of blank space and make the data difficult to read.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Graph C displays the data the best since it has the variables on the correct axes and uses reasonable scaling.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "JEFF SAMPLE (NEW)"
+                    }
+                }
+            }
+        }
+    ]
+}

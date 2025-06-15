@@ -1,0 +1,611 @@
+{
+    "standard_metadata": {
+        "standard_id": "7.G.A.1",
+        "standard_description": "Solve problems involving scale drawings of geometric figures, including computing actual lengths and areas from a scale drawing and reproducing a scale drawing at a different scale.",
+        "standard_title": "Scale drawings",
+        "standard_url": "https://www.khanacademy.org/math/cc-seventh-grade-math/x6b17ba59:scale-drawings/cc-7th-scale-drawings/e/interpreting-scale-drawings"
+    },
+    "id": "xbe226bed",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A scale on a map shows that $3$ centimeters represents $10$ kilometers.  **What number of centimeters on the map represents an actual distance of $25$ kilometers?**   centimeters",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "7.5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Our scale is $\\blueD{3}\\text{ cm}:\\greenD{10}\\text{ km}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can use our scale $\\blueD{3}:\\greenD{10}$ and the actual distance of $\\greenD{25}\\text{ km}$ to find the number of centimeters.  Centimeters | Kilometers :-:|:-: $3$ | $10$ $\\downarrow \\times 2.5$ | $\\downarrow \\times 2.5$ ${?}$ | ${25}$  If the kilometers are $2.5$ times as long, then we also need to multiply the centimeters by $2.5$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\blueD3\\times 2.5=7.5$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The number of centimeters on the map that represents an actual distance of $25$ kilometers is $7.5$ centimeters.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "contexts"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A scale on a map shows that $2.5$ centimeters represents $15$ kilometers.  **What number of actual kilometers are represented by $17.5$ centimeters on the map?**   kilometers",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "105",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Our scale is $\\blueD{2.5}\\text{ cm}:\\greenD{15}\\text{ km}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can use our scale $\\blueD{2.5}:\\greenD{15}$ and the  distance of $\\blueD{17.5}\\text{ cm}$ on the map to find the actual number  of kilometers.  Centimeters | Kilometers :-:|:-: $2.5$ | $15$ $\\downarrow \\times 7$ | $\\downarrow \\times 7$ ${17.5}$ | ${?}$  If the centimeters are $7$ times as long, then we also need to multiply the kilometers by $7$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\greenD{15}\\times 7=105$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The number of actual kilometers represented by $17.5$ centimeters on the map is $105$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "contexts"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A scale on a blue print drawing of a house shows that $6$ centimeters represents $3$ meters.  **What number of centimeters on the blue print represents an actual distance of $27$ meters?**   centimeters",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "54",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Our scale is $\\blueD{6}\\text{ cm}:\\greenD{3}\\text{ m}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can use our scale $\\blueD{6}:\\greenD{3}$ and the actual distance of $\\greenD{27}\\text{ m}$ to find the number of centimeters.  Centimeters | Meters :-:|:-: $6$ | $3$ $\\downarrow \\times 9$ | $\\downarrow \\times 9$ ${?}$ | ${27}$  If the meters are $9$ times as long, then we also need to multiply the centimeters by $9$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\blueD6\\times 9=54$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The number of centimeters on the blue print that represent an actual distance of $27$ meters is $54$ centimeters.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "contexts"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A scale on a blue print drawing of a house shows that $10$ centimeters represents $2$ meters.  **What number of  actual meters are represented by $18$ centimeters on the blue print?**   meters",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "3.6",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Our scale is $\\blueD{10}\\text{ cm}:\\greenD{2}\\text{ m}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can use our scale $\\blueD{10}:\\greenD{2}$ and the distance of $\\blueD{18}\\text{ cm}$ on the blueprint to find the number of actual meters.  Centimeters | Meters :-:|:-: $10$ | $2$ $\\downarrow \\times 1.8$ | $\\downarrow \\times 1.8$ ${18}$ | ${?}$  If the centimeters are $1.8$ times as long, then we also need to multiply the meters by $1.8$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\blueD2\\times 1.8=3.6$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The number of  actual meters that are represented by $18$ centimeters on the blue print is $3.6$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "contexts"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A scale on a hiking map shows that $1.5$ inches  represents $4$ miles.  **What number of  actual miles are represented by $6$ inches on the map?**   miles",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "16",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Our scale is $\\blueD{1.5}\\text{ inches}:\\greenD{4}\\text{ miles}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can use our scale $\\blueD{1.5}:\\greenD{4}$ and the  distance of $\\blueD{6}\\text{ inches}$ on the map to find the number of miles.  Inches | Miles :-:|:-: $1.5$ | $4$ $\\downarrow \\times 4$ | $\\downarrow \\times 4$ ${6}$ | ${?}$  If the inches are $4$ times as long, then we also need to multiply the miles  by $4$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\greenD4\\times 4=16$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The number of  actual miles that are represented by $6$ inches on the hiking map is $16$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "contexts"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A scale on a hiking map shows that $3$ inches represents $1.25$ miles.  **What number of  inches on the map represent $10$ actual miles?**   inches",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "24",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Our scale is $\\blueD{3}\\text{ inches}:\\greenD{1.25}\\text{ miles}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can use our scale $\\blueD{3}:\\greenD{1.25}$ and the  actual distance of $\\greenD{10}\\text{ miles}$ to find the number of inches on the map.  Inches | Miles :-:|:-: $3$ | $1.25$ $\\downarrow \\times 8$ | $\\downarrow \\times 8$ ${?}$ | ${10}$  If the miles are $8$ times as long, then we also need to multiply the inches by $8$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\blueD3\\times 8=24$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The number of  inches on the map that  represent $10$ actual miles is $24$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "contexts"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Gwendolyn draws a hotdog on graph paper using the scale shown below. The hotdog has a length of $9$ units in the drawing.    **What is the length, in $\\text{cm}$, of the actual hotdog?**   $\\text{cm}$",
+                                "images": [
+                                    {
+                                        "alt": "A hotdog on graph paper. A 9-unit long line is labeled, \"length.\" A 6-unit long scale is labeled, \"10 centimeters.\"",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/79c89b49febfb203065d1372498f7c2dc2eb79e8.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "15",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Our scale is $\\blueD{6}\\text{ units}:\\greenD{10}\\text{ cm}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can use our scale $\\blueD{6}:\\greenD{10}$ and the  drawing length of $\\blueD{9}\\text{ cm}$ to find the number of units on the drawing.  Units | Centimeters :-:|:-: $6$ | $10$ $\\downarrow \\times 1.5$ | $\\downarrow \\times 1.5$ ${9}$ | ${?}$  If the length in units is $1.5$ times as long, then we also need to multiply the length in centimeters  by $1.5$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\greenD{10} \\times 1.5=15$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The hotdog has an actual length of $15\\text{ cm}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Jaylynn draws a hen on graph paper using the scale shown below. The hen has a height of $16$ units in the drawing.    **What is the height, in $\\text{cm}$, of the actual hen?**   $\\text{cm}$",
+                                "images": [
+                                    {
+                                        "alt": "A hen on graph paper. A 16-unit long line is labeled, \"height.\" A 2-unit long scale is labeled, \"6 centimeters.\"",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/30f4fd69d7c20747f92c2d602ddef723881003fd.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "48",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Our scale is $\\blueD{2}\\text{ units}:\\greenD{6}\\text{ cm}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can use our scale $\\blueD{2}:\\greenD{6}$ and the  drawing height of $\\blueD{16}$ units to find the height of the real hen.  Units | Centimeters :-:|:-: $2$ | $6$ $\\downarrow \\times 8$ | $\\downarrow \\times 8$ ${16}$ | ${?}$  If the height in units is $8$ times as long, then we also need to multiply the height in centimeters  by $8$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\greenD{6} \\times 8=48$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The hen has an actual height of $48\\text{ cm}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Babatunde draws a drinking glass on graph paper using the scale shown below. The glass has a length of $8$ units in the drawing.    **What is the height, in $\\text{cm}$, of the actual glass?**   $\\text{cm}$",
+                                "images": [
+                                    {
+                                        "alt": "A drinking glass on graph paper. An 8-unit long line is labeled, \"height.\" A 2-unit long scale is labeled, \"2.5 centimeters.\"",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/8f9b806b62063f2820df3b1017150dbe24a3f4fe.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "10",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Our scale is $\\blueD{2}\\text{ units}:\\greenD{2.5}\\text{ cm}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can use our scale $\\blueD{2}:\\greenD{2.5}$ and the  drawing height of $\\blueD{8}$ units to find the height of the real glass.  Units | Centimeters :-:|:-: $2$ | $2.5$ $\\downarrow \\times 4$ | $\\downarrow \\times 4$ ${8}$ | ${?}$  If the height in units is $4$ times as long, then we also need to multiply the height in centimeters  by $4$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\greenD{2.5} \\times 4=10$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The glass has an actual height of $10\\text{ cm}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Seren draws a chick on graph paper using the scale shown below. The chick has a height of $5\\,\\text{cm}$ in the drawing.  **Which of the following drawings best represents the height of the chick at the scale Seren chose?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "",
+                                        "correct": true,
+                                        "images": [
+                                            {
+                                                "alt": "A chick on graph paper. A line labeled \"10 units\" shows the height of the chick. A 1-unit long scale is labeled, \"half centimeter.\"",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/9664b4f1331720ff7249966006eff406edd4f804.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A chick on graph paper. A line labeled \"2.5 units\" shows the height of the chick. A 1-unit long scale is labeled, \"half centimeter.\"",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/de9f99b15a553d3f5c6ed34166d25dd9feecaa0e.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A chick on graph paper. A line labeled \"5 units\" shows the height of the chick. A 1-unit long scale is labeled, \"half centimeter.\"",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/95e482d42d30f65e249014d96f40a861ea5bef1c.svg"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Our scale is $\\blueD{1}\\text{ unit}:\\greenD{\\dfrac{1}{2}}\\text{ cm}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can use our scale $\\blueD{1}\\text{ unit}:\\greenD{\\dfrac{1}{2}}\\text{ cm}$ and the  real height of $\\greenD{5}\\,\\text{cm}$ to find the height of the chick in the drawing.  Units | Centimeters :-:|:-: $1$ | $\\dfrac{1}{2}$ $\\downarrow \\times 10$ | $\\downarrow \\times 10$ ${?}$ | ${5}$  If the height in centimeters is $10$ times as long, then we also need to multiply the height in units  by $10$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\blueD{1} \\times 10=10$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The drawing should represent the chick with a height of $10$ units.",
+                                    "images": [
+                                        {
+                                            "alt": "A chick on graph paper. A line labeled \"10 units\" shows the height of the chick. A 1-unit long scale is labeled, \"half centimeter.\"",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/ae36a82467e409450e61f4af38b27d599a1d373d.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Leonardo draws a cookie on graph paper using the scale shown below. The cookie has a diameter of $12.5\\,\\text{cm}$ in the drawing.  **Which of the following drawings best represents the diameter of the cookie at the scale Leonardo chose?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A cookie on graph paper. A line labeled \"12.5 units\" shows the diameter of the cookie. A 2-unit long scale is labeled, \"5 centimeters.\"",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/5772b7e25ecbc83fb83b2c41f70182dae81f65dd.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": true,
+                                        "images": [
+                                            {
+                                                "alt": "A cookie on graph paper. A line labeled \"5 units\" shows the diameter of the cookie. A 2-unit long scale is labeled, \"5 centimeters.\"",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/4609407861f2649a5d09fcdcb06113e3d9240429.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A cookie on graph paper. A line labeled \"2.5 units\" shows the diameter of the cookie. A 2-unit long scale is labeled, \"5 centimeters.\"",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/2e00d056e6086c5e5b62132fdf53719af14a6cf1.svg"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Our scale is $\\blueD{2}\\text{ units}:\\greenD{5}\\text{ cm}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can use our scale $\\blueD{2}\\text{ units}:\\greenD{5}\\text{ cm}$ and the  real diameter of $\\greenD{12.5}\\,\\text{cm}$ to find the diameter of the cookie in the drawing.  Units | Centimeters :-:|:-: $2$ | $5$ $\\downarrow \\times 2.5$ | $\\downarrow \\times 2.5$ ${?}$ | ${12.5}$  If the diameter in centimeters is $2.5$ times as long, then we also need to multiply the diameter in units  by $2.5$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\blueD{2} \\times 2.5=5$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The drawing should represent the cookie with a diameter of $5$ units.",
+                                    "images": [
+                                        {
+                                            "alt": "A cookie on graph paper. A line labeled \"5 units\" shows the diameter of the cookie. A 2-unit long scale is labeled, \"5 centimeters.\"",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/1200e6e17ac26f3871e8a2495facac9833ee614a.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Hüseyin draws a fox on graph paper using the scale shown below. The fox has a height of $80\\,\\text{cm}$ in the drawing.  **Which of the following drawings best represents the height of the fox at the scale Hüseyin chose?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "",
+                                        "correct": true,
+                                        "images": [
+                                            {
+                                                "alt": "A fox on graph paper. A line labeled \"16 units\" shows the height of the fox. A 3-unit long scale is labeled, \"15 centimeters.\"",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/38f08a85495c72fa8a5a7877ce96a1d224038196.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A fox on graph paper. A line labeled \"5 and 1-third units\" shows the height of the fox. A 3-unit long scale is labeled, \"15 centimeters.\"",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/bd3cf28df1a8605a4051f257366970ae6a299ee5.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A fox on graph paper. A line labeled \"12 units\" shows the height of the fox. A 3-unit long scale is labeled, \"15 centimeters.\"",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/1ca11c806fc4f5ce9402784c3dedba02858a9bf4.svg"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Our scale is $\\blueE{3}\\text{ units}:\\purpleE{15}\\text{ cm}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can use our scale $\\blueE{3}\\text{ units}:\\purpleE{15}\\text{ cm}$ and the  real height of $\\purpleE{80}\\,\\text{cm}$ to find the height of the fox in the drawing.  Units | Centimeters :-:|:-: $3$ | $15$ $\\downarrow \\div 3$ | $\\downarrow \\div 3$ $1$ | $5$ $\\downarrow \\times 16$ | $\\downarrow \\times 16$ ${16}$ | ${80}$  If the height in centimeters is $\\dfrac{16}{3}$ times as long, then we also need to multiply the height in units  by $\\dfrac{16}{3}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\blueE{3} \\times \\dfrac{16}{3}=16$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The drawing should represent the fox with a height of $16$ units.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A fox on graph paper. A line labeled \"16 units\" shows the height of the fox. A 3-unit long scale is labeled, \"15 centimeters.\"",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/38f08a85495c72fa8a5a7877ce96a1d224038196.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        }
+    ]
+}

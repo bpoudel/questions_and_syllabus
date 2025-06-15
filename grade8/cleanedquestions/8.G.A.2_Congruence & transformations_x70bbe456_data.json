@@ -1,0 +1,1020 @@
+{
+    "standard_metadata": {
+        "standard_id": "8.G.A.2",
+        "standard_description": "Understand that a two-dimensional figure is congruent to another if the second can be obtained from the first by a sequence of rotations, reflections, and translations; given two congruent figures, describe a sequence that exhibits the congruence between them.",
+        "standard_title": "Congruence & transformations",
+        "standard_url": "https://www.khanacademy.org/math/geometry/hs-geo-congruence/hs-geo-trans-and-congruence/e/exploring-rigid-transformations-and-congruence"
+    },
+    "id": "x70bbe456",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Yuki was curious if $\\triangle ABC$ was congruent to $\\triangle FED$, so she tried to map one triangle onto the other using transformations:      Yuki concluded:    \"It's not possible to map $\\triangle ABC$ onto $\\triangle FED$ using a sequence of rigid transformations, so the triangles are **not** congruent.\"  **What error did Yuki make in her conclusion?**",
+                                "images": [
+                                    {
+                                        "alt": "A coordinate plane. The x- and y-axes both scale by one. A pre-image Triangle A B C has point A at two, two, point B at five, four, and Point C at eleven, two. Another triangle D E F has point D at three, twelve, point E at nine, ten, and point F at twelve twelve. Triangle A B C is translated four units to the right and six units up to form the image Triangle A prime at six, eight, B prime at nine, ten, and C prime at fifteen, eight.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/e0f7aca64e21c50a98ed8b4014f8bd059e64fa60.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "One more transformation — a rotation — would map $\\triangle ABC$ onto $\\triangle FED$. So the triangles **are** congruent.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "One more transformation — a reflection — would map $\\triangle ABC$ onto $\\triangle FED$. So the triangles **are** congruent.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is no error. This is a correct conclusion.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's see if a sequence of [[☃ definition 1]] (translations, reflections, and rotations) can map $\\triangle ABC$ onto $\\triangle FED$. If it is possible, then the triangles are congruent.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are many possible sequences of transformations that may map one figure onto another.  Yuki translated point $B$ onto point $E$.    [[☃ image 1]]  Is there another rigid transformation we could now use to complete the mapping?",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. A pre-image Triangle A B C has point A at two, two, point B at five, four, and Point C at eleven, two. Another triangle D E F has point D at three, twelve, point E at nine, ten, and point F at twelve twelve. Triangle A B C is translated four units to the right and six units up to form the image Triangle A prime at six, eight, B prime at nine, ten, and C prime at fifteen, eight.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/e0f7aca64e21c50a98ed8b4014f8bd059e64fa60.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's try rotating by $180^\\circ$ about point $E$.    [[☃ image 1]]  The pre-image $\\triangle ABC$ maps exactly onto $\\triangle FED$.",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. Triangle A B C has point A at two, two, point B at five, four, and Point C at eleven, two.  A pre-image triangle D E F has point D at three, twelve, point E at nine, ten, and point F at twelve twelve. Triangle D E F is rotated at point E to form the image Triangle F prime at six, eight, E prime at nine, ten, and D prime at fifteen, eight.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/cae8165b57f9bb23c601c2150055d11bfaae9919.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Yuki concluded, \"It's not possible to map $\\triangle ABC$ onto $\\triangle FED$ using a sequence of rigid transformations, so the triangles are **not** congruent,\" but she made an error.  **One more transformation — a rotation — would map $\\triangle ABC$ onto $\\triangle FED$. So the triangles are congruent.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1: N map; Y cong"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Adam was curious if quadrilaterals $ABCD$ and $GFEH$ were congruent, so he tried to map one figure onto the other using transformations:      Adam concluded:    \"It's not possible to map $ABCD$ onto $GFEH$ using a sequence of rigid transformations, so the quadrilaterals are **not** congruent.\"  **What error did Adam make in his conclusion?**",
+                                "images": [
+                                    {
+                                        "alt": "A coordinate plane. The x- and y-axes both scale by one. A pre-image quadrilateral A B C D has point A at ten, eight, point B at fourteen, eight, and Point C at fourteen, six, and Point D at eleven, six. Another quadrilateral E F G H has point E at six, fourteen, point F at six, twelve, point G at two twelve, and point H at three, fourteen. Quadrilateral A B C D is translated eight units to the left and four units up to form the image Quadrilateral A prime B prime C prime D prime has point A prime at two, twelve, point B prime at six, twelve, and Point C prime at six, ten, and Point D prime at three, ten.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/c48938943ee4bbaedc753bbfc05e4b362e9c5d12.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "One more transformation — a rotation — would map $ABCD$ onto $GFEH$. So the quadrilaterals **are** congruent.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "One more transformation — a reflection — would map $ABCD$ onto $GFEH$. So the quadrilaterals **are** congruent.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is no error. This is a correct conclusion.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's see if a sequence of [[☃ definition 1]] (translations, reflections, and rotations) can map $ABCD$ onto $GFEH$. If it is possible, then the quadrilaterals are congruent.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are many possible sequences of transformations that may map one figure onto another.  Adam translated point $A$ onto point $G$.    [[☃ image 1]]  Is there another rigid transformation we could now use to complete the mapping?",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. A pre-image quadrilateral A B C D has point A at ten, eight, point B at fourteen, eight, and Point C at fourteen, six, and Point D at eleven, six. Another quadrilateral E F G H has point E at six, fourteen, point F at six, twelve, point G at two twelve, and point H at three, fourteen. Quadrilateral A B C D is translated eight units to the left and four units up to form the image Quadrilateral A prime B prime C prime D prime has point A prime at two, twelve, point B prime at six, twelve, and Point C prime at six, ten, and Point D prime at three, ten.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/c48938943ee4bbaedc753bbfc05e4b362e9c5d12.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's try reflecting over side $\\overline{GF}$.    [[☃ image 1]]  The pre-image $ABCD$ maps exactly onto $GFEH$.",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. A quadrilateral A B C D has point A at ten, eight, point B at fourteen, eight, and Point C at fourteen, six, and Point D at eleven, six. A pre-image quadrilateral E F G H has point E at six, fourteen, point F at six, twelve, point G at two twelve, and point H at three, fourteen. Quadrilateral E F G H is reflected across a horizontal line that passes through points G and F to form the image Quadrilateral E prime F prime G prime H prime has point E prime at six, ten, point F prime at six, twelve, Point G prime at two, ten, and Point H prime at three, ten.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/fd2613f6e131d299157afe1d39e2cf835c3f24ff.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Adam concluded, \"It's not possible to map $ABCD$ onto $GFEH$ using a sequence of rigid transformations, so the quadrilaterals are **not** congruent,\" but he made an error.  **One more transformation — a reflection — would map $ABCD$ onto $GFEH$. So the quadrilaterals are congruent.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1: N map; Y cong"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Alon was curious if segments $\\overline{JK}$ and $\\overline{NM}$ were congruent, so he tried to map one figure onto the other using transformations:      Alon concluded:    \"It's not possible to map $\\overline{JK}$ onto $\\overline{NM}$ using a sequence of rigid transformations, so the segments are **not** congruent.\"  **What error did Alon make in his conclusion?**",
+                                "images": [
+                                    {
+                                        "alt": "A coordinate plane. The x- and y-axes both scale by one. A pre-image line segment J K has endpoint J at seven, three and endpoint K at twelve, eight.  Another line segment has endpoints M at three, fourteen and N at eight, nine.  Segment J K is translated one unit to the right and six units up to form the image Segment J prime K prime with J prime at eight, nine and K prime at thirteen, fourteen.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/e858c441516dc82880bf8e411af0e29d89f94379.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "One more transformation — a rotation — would map $\\overline{JK}$ onto $\\overline{NM}$. So the segments **are** congruent.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "One more transformation — a translation — would map $\\overline{JK}$ onto $\\overline{NM}$. So the segments **are** congruent.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is no error. This is a correct conclusion.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's see if a sequence of [[☃ definition 1]] (translations, reflections, and rotations) can map $\\overline{JK}$ onto $\\overline{NM}$. If it is possible, then the segments are congruent.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are many possible sequences of transformations that may map one figure onto another.  Alon translated point $J$ onto point $N$.    [[☃ image 1]]  Is there another rigid transformation we could now use to complete the mapping?",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. A pre-image line segment J K has endpoint J at seven, three and endpoint K at twelve, eight.  Another line segment has endpoints M at three, fourteen and N at eight, nine.  Segment J K is translated one unit to the right and six units up to form the image Segment J prime K prime with J prime at eight, nine and K prime at thirteen, fourteen.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/e858c441516dc82880bf8e411af0e29d89f94379.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's try rotating $90\\degree$ about point $N$.    [[☃ image 1]]  The pre-image $\\overline{JK}$ maps exactly onto $\\overline{NM}$.",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. A pre-image line segment J K has endpoint J at seven, three and endpoint K at twelve, eight.  Another line segment has endpoints M at three, fourteen and N at eight, nine.   Segment J prime K prime has J prime at eight, nine and K prime at twelve, eight. It is rotated ninety degrees so that the image J prime is at three, fourteen and K prime is at eight, nine.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/147d06957f81f36743ea9637fe56283e9a9a809d.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Alon concluded, \"It's not possible to map $\\overline{JK}$ onto $\\overline{NM}$ using a sequence of rigid transformations, so the segments are **not** congruent,\" but he made an error.  **One more transformation — a rotation — would map $\\overline{JK}$ onto $\\overline{NM}$. So the segments are congruent.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1: N map; Y cong"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Kelsey was curious if $\\triangle ABC$ was congruent to $\\triangle FED$, so she tried to map one triangle onto the other using transformations:      Kelsey concluded:    \"It's not possible to map $\\triangle ABC$ onto $\\triangle FED$ using a sequence of rigid transformations, so the triangles are **not** congruent.\"  **What error did Kelsey make in her conclusion?**",
+                                "images": [
+                                    {
+                                        "alt": "A coordinate plane. The x- and y-axes both scale by one. A pre-image Triangle A B C has point A at fifteen, ten, point B at five, nine, and Point C at eleven, three. Another triangle D E F has point D at three, three, point E at eleven, three, and point F at five, eleven. Triangle A B C is rotated to form the image Triangle A prime at nine, eleven, B prime at three, three, and C prime at eleven, three.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/b31d971bb62bbb0acf838d19ebd9620c7853cc14.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "One more transformation — a rotation — would map $\\triangle ABC$ onto $\\triangle FED$. So the triangles **are** congruent.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "One more transformation — a reflection — would map $\\triangle ABC$ onto $\\triangle FED$. So the triangles **are** congruent.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is no error. This is a correct conclusion.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's see if a sequence of [[☃ definition 1]] (translations, reflections, and rotations) can map $\\triangle ABC$ onto $\\triangle FED$. If it is possible, then the triangles are congruent.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are many possible sequences of transformations that may map one figure onto another.  Kelsey rotated $\\triangle ABC$ about point $C$.    [[☃ image 1]]  Is there another rigid transformation we could now use to complete the mapping?",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. A pre-image Triangle A B C has point A at fifteen, ten, point B at five, nine, and Point C at eleven, three. Another triangle D E F has point D at three, three, point E at eleven, three, and point F at five, eleven. Triangle A B C is rotated to form the image Triangle A prime at nine, eleven, B prime at three, three, and C prime at eleven, three.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/b31d971bb62bbb0acf838d19ebd9620c7853cc14.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's try reflecting over a vertical line that passes through the midpoint of $\\overline{DE}$.    [[☃ image 1]]  The pre-image $\\triangle ABC$ maps exactly onto $\\triangle FED$.",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. A pre-image Triangle A B C has point A at fifteen, ten, point B at five, nine, and Point C at nine, three. Another triangle D E F has point D at three, three, point E at nine, three, and point F at five, eleven. Triangle A prime at nine, eleven, B prime at three, three, and C prime at nine, three is reflected across a vertical line passing through seven, zero and seven, ten. The image shows triangle A prime at five, eleven, B prime at three, three, and C prime at nine, three.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/6ba3cdfdae1bdfbe101058f5abde520a865eb8e7.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Kelsey concluded, \"It's not possible to map $\\triangle ABC$ onto $\\triangle FED$ using a sequence of rigid transformations, so the triangles are **not** congruent,\" but she made an error.  **One more transformation — a reflection — would map $\\triangle ABC$ onto $\\triangle FED$. So the triangles are congruent.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1: N map; Y cong"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Jerome was curious if $\\triangle ABC$ was congruent to $\\triangle FED$, so he tried to map one triangle onto the other using transformations:      Jerome concluded:    \"It's not possible to map $\\triangle ABC$ onto $\\triangle FED$ using a sequence of rigid transformations, so the triangles are **not** congruent.\"  **What error did Jerome make in his conclusion?**",
+                                "images": [
+                                    {
+                                        "alt": "A coordinate plane. The x- and y-axes both scale by one. A pre-image Triangle A B C has point A at nine, six, point B at nine, two, and Point C at fourteen, five. Another triangle D E F has point D at two, twelve, point E at seven, ten, and point F at seven, fourteen. Triangle A B C is translated two units to the left and eight units up to form the image Triangle A prime at seven, fourteen, B prime at seven, ten, and C prime at twelve, thirteen.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/3d31382028f5440c793a7a6330986637cb23a8b4.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "One more transformation — a rotation — would map $\\triangle ABC$ onto $\\triangle FED$. So the triangles **are** congruent.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "One more transformation — a reflection — would map $\\triangle ABC$ onto $\\triangle FED$. So the triangles **are** congruent.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is no error. This is a correct conclusion.",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's see if a sequence of [[☃ definition 1]] (translations, reflections, and rotations) can map $\\triangle ABC$ onto $\\triangle FED$. If it is possible, then the triangles are congruent.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are many possible sequences of transformations that may map one figure onto another.  Jerome translated point $B$ onto point $E$.    [[☃ image 1]]  Are there other rigid transformations we could now use to complete the mapping?",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. A pre-image Triangle A B C has point A at nine, six, point B at nine, two, and Point C at fourteen, five. Another triangle D E F has point D at two, twelve, point E at seven, ten, and point F at seven, fourteen. Triangle A B C is translated two units to the left and eight units up to form the image Triangle A prime at seven, fourteen, B prime at seven, ten, and C prime at twelve, thirteen.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/3d31382028f5440c793a7a6330986637cb23a8b4.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We successfully mapped $\\overline{AB}$ to $\\overline{FE}$, so let's try reflecting over $\\overleftrightarrow{FE}$.    [[☃ image 1]]  This doesn't map one figure onto the other.",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. A pre-image Triangle A B C has point A at nine, six, point B at nine, two, and Point C at fourteen, five. Another triangle D E F has point D at two, twelve, point E at seven, ten, and point F at seven, fourteen. Triangle A B C is translated two units to the left and eight units up to form the image Triangle A prime at seven, fourteen, B prime at seven, ten, and C prime at twelve, thirteen. It is then reflected across side F E where A prime is at seven , fourteen, B prime is at seven, ten, and C prime is at two, thirteen.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/588a35f2e3fcf08f5221553a9433dbe3b19378f3.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "To keep $\\overline{AB}$ mapped onto $\\overline{FE}$, let's try rotating $180 \\degree$ about the midpoint of $\\overline{FE}$.    [[☃ image 1]]  This doesn't map one figure onto the other.  Notice that $\\triangle ABC$ and $\\triangle FED$ have different side lengths and angle measures, so they can't be congruent.",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. A pre-image Triangle A B C has point A at nine, six, point B at nine, two, and Point C at fourteen, five. Another triangle D E F has point D at two, twelve, point E at seven, ten, and point F at seven, fourteen. Triangle A prime at seven, fourteen, B prime at seven, ten, and C prime at twelve, thirteen. It is then rotated about seven, twelve one hundred eighty degrees clockwise. F E where A prime is at seven, ten, B prime is at seven, fourteen, and C prime is at two, eleven.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/c1de713633348d233942da227717e3ae57f7d8d8.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Jerome concluded, \"It's not possible to map $\\triangle ABC$ onto $\\triangle FED$ using a sequence of rigid transformations, so the triangles are **not** congruent.\"  **There is no error. This is a correct conclusion.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2: N map; N cong"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Shonda was curious if segments $\\overline{WX}$ and $\\overline{YZ}$ were congruent, so she tried to map one figure onto the other using transformations:      Shonda concluded:    \"It's not possible to map $\\overline{WX}$ onto $\\overline{YZ}$ using a sequence of rigid transformations, so the segments are **not** congruent.\"  **What error did Shonda make in her conclusion?**",
+                                "images": [
+                                    {
+                                        "alt": "A coordinate plane. The x- and y-axes both scale by one. A pre-image line segment X W has endpoint X at three, thirteen and endpoint W at eight, thirteen.  Another line segment has endpoints Y at twelve, eight and Z at twelve, two.  Segment X W is translated four units to the right and five units down to form the image Segment X prime W prime with X prime at seven, eight and W prime at twelve, eight.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/efa92d396762bf289f35b913b5182bd606057a4f.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "One more transformation — a rotation — would map $\\overline{WX}$ onto $\\overline{YZ}$. So the segments **are** congruent.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "One more transformation — a reflection — would map $\\overline{WX}$ onto $\\overline{YZ}$. So the segments **are** congruent.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is no error. This is a correct conclusion.",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's see if a sequence of [[☃ definition 2]] (translations, reflections, and rotations) can map $\\overline{WX}$ onto $\\overline{YZ}$. If it is possible, then the segments are congruent.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are many possible sequences of transformations that may map one figure onto another.  Shonda translated point $W$ onto point $Y$.    [[☃ image 1]]  Are there other rigid transformations we could now use to complete the mapping?",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. A pre-image line segment X W has endpoint X at three, thirteen and endpoint W at eight, thirteen.  Another line segment has endpoints Y at twelve, eight and Z at twelve, two.  Segment X W is translated four units to the right and five units down to form the image Segment X prime W prime with X prime at seven, eight and W prime at twelve, eight.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/efa92d396762bf289f35b913b5182bd606057a4f.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's try rotating $90 \\degree$ about point $Y$.    [[☃ image 1]]  This doesn't map one figure onto the other.  Notice that $\\overline{WX}$ and $\\overline{YZ}$ have different lengths, so they can't be congruent.",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. A pre-image line segment X W has endpoint X at three, thirteen and endpoint W at eight, three.  Another line segment has endpoints Y at twelve, eight and Z at twelve, two.  Segment X prime W prime has X prime at seven, eight and W prime at twelve, eight. It is rotated ninety degrees to where x prime is at twelve, three, and y prime is at twelve, eight.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/1c48d5bae10ac7af661baafb17e2675d521a6722.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Shonda concluded, \"It's not possible to map $\\overline{WX}$ onto $\\overline{YZ}$ using a sequence of rigid transformations, so the segments are **not** congruent.\"  **There is no error. This is a correct conclusion.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2: N map; N cong"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Molly was curious if quadrilaterals $ABCD$ and $EFGH$ were congruent, so she tried to map one figure onto the other using transformations:      Molly concluded:    \"It's not possible to map $ABCD$ onto $EFGH$ using a sequence of rigid transformations, so the quadrilaterals are **not** congruent.\"  **What error did Molly make in her conclusion?**",
+                                "images": [
+                                    {
+                                        "alt": "A coordinate plane. The x- and y-axes both scale by one. A pre-image quadrilateral A B C D has point A at five, four, point B at two, six, and Point C at two, two, and Point D at five, two. Another quadrilateral E F G H has point E at eleven, eleven, point F at fourteen, fourteen, point G at fourteen, nine, and point H at eleven, nine. Quadrilateral A B C D is translated six units to the right and seven units up to form the image Quadrilateral A prime B prime C prime D prime has point A prime at eleven, eleven, point B prime at eight, thirteen, and Point C prime at eight, nine, and Point D prime at eleven, nine.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/2c1b1ac18bd9ae96d9556a0600f9e81103eef20c.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "One more transformation — a rotation — would map $ABCD$ onto $EFGH$. So the quadrilaterals **are** congruent.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "One more transformation — a reflection — would map $ABCD$ onto $EFGH$. So the quadrilaterals **are** congruent.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is no error. This is a correct conclusion.",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's see if a sequence of [[☃ definition 1]] (translations, reflections, and rotations) can map $ABCD$ onto $EFGH$. If it is possible, then the quadrilaterals are congruent.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are many possible sequences of transformations that may map one figure onto another.  Molly translated point $D$ onto point $H$.   [[☃ image 1]]  Is there another rigid transformation we could now use to complete the mapping?",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. A pre-image quadrilateral A B C D has point A at five, four, point B at two, six, and Point C at two, two, and Point D at five, two. Another quadrilateral E F G H has point E at eleven, eleven, point F at fourteen, fourteen, point G at fourteen, nine, and point H at eleven, nine. Quadrilateral A B C D is translated six units to the right and seven units up to form the image Quadrilateral A prime B prime C prime D prime has point A prime at eleven, eleven, point B prime at eight, thirteen, and Point C prime at eight, nine, and Point D prime at eleven, nine.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/2c1b1ac18bd9ae96d9556a0600f9e81103eef20c.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's try reflecting over side $\\overline{EH}$.    [[☃ image 1]]  This doesn't map one figure onto the other.  Notice that $ABCD$ and $EFGH$ have different side lengths and angle measures, so they can't be congruent.",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. A pre-image quadrilateral A B C D has point A at five, four, point B at two, six, and Point C at two, two, and Point D at five, two. Another quadrilateral E F G H has point E at eleven, eleven, point F at fourteen, fourteen, point G at fourteen, nine, and point H at nine, eleven. Quadrilateral A prime B prime C prime D prime has point A prime at eleven, eleven, point B prime at eight, thirteen, and Point C prime at eight, nine, and Point D prime at nine, eleven. It is reflected across a vertical line that passes through eleven, eleven, and nine, eleven. A prime is at eleven, eleven, B prime is at fourteen, thirteen, C prime is at fourteen, nine, and D prime is at nine, eleven.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/0849f0977155a0f61edc0fd813919334ffdf865c.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Molly concluded, \"It's not possible to map $ABCD$ onto $EFGH$ using a sequence of rigid transformations, so the quadrilaterals are **not** congruent.\"  **There is no error. This is a correct conclusion.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2: N map; N cong"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Helena was curious if quadrilaterals $QRST$ and $XYZW$ were congruent, so she tried to map one figure onto the other using transformations:      Helena concluded:    \"It's not possible to map $QRST$ onto $XYZW$ using a sequence of rigid transformations, so the quadrilaterals are **not** congruent.\"  **What error did Helena make in her conclusion?**",
+                                "images": [
+                                    {
+                                        "alt": "A coordinate plane. The x- and y-axes both scale by one. A pre-image quadrilateral Q R S T has point Q at six, ten, point R at two, fourteen, and Point S at two, six, and Point T at six, two. Another quadrilateral W X Y Z has point W at six, ten, point X at fourteen, ten, point Y at twelve, fourteen, and point Z at four, fourteen. Quadrilateral Q R S T is rotated about point Q to form the image Quadrilateral Q prime R prime S prime T prime has point Q prime at six, ten, point R prime at two, six, and Point S prime at ten, six, and Point T prime at fourteen, ten.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/07a0aa2303f38a4e54747db2c3284a2a75f5ab38.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "One more transformation — a rotation — would map $QRST$ onto $XYZW$. So the quadrilaterals **are** congruent.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "One more transformation — a reflection — would map $QRST$ onto $XYZW$. So the quadrilaterals **are** congruent.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is no error. This is a correct conclusion.",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's see if a sequence of [[☃ definition 1]] (translations, reflections, and rotations) can map $QRST$ onto $XYZW$. If it is possible, then the quadrilaterals are congruent.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are many possible sequences of transformations that may map one figure onto another.  Helena rotated $QRST$ about point $Q$.    [[☃ image 1]]  Is there another rigid transformation we could now use to complete the mapping?",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. A pre-image quadrilateral Q R S T has point Q at six, ten, point R at two, fourteen, and Point S at two, six, and Point T at six, two. Another quadrilateral W X Y Z has point W at six, ten, point X at fourteen, ten, point Y at twelve, fourteen, and point Z at four, fourteen. Quadrilateral Q R S T is rotated about point Q to form the image Quadrilateral Q prime R prime S prime T prime has point Q prime at six, ten, point R prime at two, six, and Point S prime at ten, six, and Point T prime at fourteen, ten.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/07a0aa2303f38a4e54747db2c3284a2a75f5ab38.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's try reflecting over side $\\overline{WX}$.    [[☃ image 1]]  This doesn't map one figure onto the other.  Notice that $QRST$ and $XYZW$ have different side lengths and angle measures, so they can't be congruent.",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. A pre-image quadrilateral Q R S T has point Q at six, ten, point R at two, fourteen, and Point S at two, six, and Point T at six, two. Another quadrilateral W X Y Z has point W at six, ten, point X at fourteen, ten, point Y at twelve, fourteen, and point Z at four, fourteen. Quadrilateral Q prime R prime S prime T prime has point Q prime at six, ten, point R prime at two, six, and Point S prime at ten, six, and Point T prime at fourteen, ten. It is reflected across side W X to form Q prime at six, ten, R prime at two , fourteen, S prime at ten, fourteen, and T prime at fourteen, ten.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/86a4914b3176979748c97068ba0991c90902569d.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Helena concluded, \"It's not possible to map $QRST$ onto $XYZW$ using a sequence of rigid transformations, so the quadrilaterals are **not** congruent.\"  **There is no error. This is a correct conclusion.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2: N map; N cong"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Tammy was curious if quadrilaterals $ABCD$ and $FGHE$ were congruent. She was able to map one figure onto the other using a reflection and a translation.      Tammy concluded:    \"I was able to map quadrilateral $ABCD$ onto $FGHE$ using a sequence of rigid transformations, so the figures **are** congruent.\"  **What error did Tammy make in her conclusion?**",
+                                "images": [
+                                    {
+                                        "alt": "A coordinate plane. The x- and y-axes both scale by one. A pre-image quadrilateral A B C D has point A at two, five, point B at six, five, and Point C at seven, two, and Point D at three, two. Another quadrilateral E F G H has point E at ten, fourteen, point F at nine, eleven, point G at thirteen, eleven, and point H at fourteen, fourteen. Quadrilateral A B C D is reflected across side A B then translated seven units to the right and six units up to form the image Quadrilateral A prime B prime C prime D prime has point A prime at nine, eleven, point B prime at thirteen, eleven, Point C prime at fourteen, fourteen, and Point D prime at ten, fourteen.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/36921e4cf534c5512a4c4c7eeb06b8cb88878015.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Tammy didn't use only rigid transformations, so the figures are **not** congruent.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "It's possible to map quadrilateral $ABCD$ onto $FGHE$ using a sequence of rigid transformations, but the figures are **not** congruent.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is no error. This is a correct conclusion.",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "If a sequence of [[☃ definition 1]] (translations, reflections, and rotations) can map $ABCD$ onto $FGHE$, then the figures are congruent.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Tammy successfully mapped $ABCD$ onto $FGHE$. Most importantly, she did this using a reflection and a translation, which are both rigid transformations. So the figures are congruent.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. A pre-image quadrilateral A B C D has point A at two, five, point B at six, five, and Point C at seven, two, and Point D at three, two. Another quadrilateral E F G H has point E at ten, fourteen, point F at nine, eleven, point G at thirteen, eleven, and point H at fourteen, fourteen. Quadrilateral A B C D is reflected across side A B then translated seven units to the right and six units up to form the image Quadrilateral A prime B prime C prime D prime has point A prime at nine, eleven, point B prime at thirteen, eleven, Point C prime at fourteen, fourteen, and Point D prime at ten, fourteen.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/36921e4cf534c5512a4c4c7eeb06b8cb88878015.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Tammy concluded, \"I was able to map quadrilateral $ABCD$ onto $FGHE$ using a sequence of rigid transformations, so the figures **are** congruent.\"  **There is no error. This is a correct conclusion.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3: Y map; Y cong"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Circles $A$ and $B$ coincide.      Alex concluded:    \"Circles $A$ and $B$ have no sides or angles with the same measurement, so the circles are **not** congruent.\"  **What error did Alex make in their conclusion?**",
+                                "images": [
+                                    {
+                                        "alt": "A coordinate plane. The x- and y-axes both scale by one. A circle with a center at eight, eight  and a radius of seven. Another circle is mapped on top of the first circle with a center at eight, eight and a radius of seven.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/ea4a6164a263a22d1fed5f216554370654c62794.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "The circles are mapped onto each other, so they **are** congruent.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The circles are **not** congruent, because no transformations were used.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is no error. This is a correct conclusion.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "If a sequence of [[☃ definition 1]] (translations, reflections, and rotations) can map circle $A$ onto circle $B$, then the figures are congruent.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We don't need any transformations! These circles already coincide (they are on top of each other).    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one.                                                              A circle with a center at eight, eight  and a radius of seven. Another circle is mapped on top of the first circle with a center at eight, eight and a radius of seven.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/ea4a6164a263a22d1fed5f216554370654c62794.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Alex concluded, \"Circles $A$ and $B$ have no sides or angles with the same measurement, so the circles are **not** congruent,\" but they made an error.  **The circles are mapped onto each other, so they are congruent.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3: Y map; Y cong"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Segments $\\overline{AB}$ and $\\overline{CD}$ coincide.      Vinay concluded:    \"Segments $\\overline{AB}$ and $\\overline{CD}$ have no angles with the same measurement, so they are **not** congruent.\"  **What error did Vinay make in his conclusion?**",
+                                "images": [
+                                    {
+                                        "alt": "A coordinate plane. The x- and y-axes both scale by one. A line segment A B has endpoint A at three, thirteen and endpoint B at eleven, five. Another line segment C D has endpoint C at three, thirteen and endpoint D at eleven, five.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/7b0152c444b5ae00d1ee2ca7c499c6e846f9dca3.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "The segments are mapped onto each other, so they **are** congruent.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The segments are **not** congruent, because no transformations were used.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is no error. This is a correct conclusion.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "If a sequence of [[☃ definition 1]] (translations, reflections, and rotations) can map $\\overline{AB}$ onto $\\overline{CD}$, then the segments are congruent.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We don't need any transformations! These segments already coincide (they are on top of each other).    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. A line segment A B has endpoint A at three, thirteen and endpoint B at eleven, five. Another line segment C D has endpoint C at three, thirteen and endpoint D at eleven, five.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/7b0152c444b5ae00d1ee2ca7c499c6e846f9dca3.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Vinay concluded, \"Segments $\\overline{AB}$ and $\\overline{CD}$ have no angles with the same measurement, so they are **not** congruent,\" but he made an error.  **The segments are mapped onto each other, so they are congruent.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3: Y map; Y cong"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Amad was curious if triangles $\\triangle ABC$ and $\\triangle EDF$ were congruent. He was able to map one figure onto the other using a reflection and a rotation.      Amad concluded:    \"I was able to map $\\triangle ABC$ onto $\\triangle EDF$ using a sequence of rigid transformations, so the figures **are** congruent.\"  **What error did Amad make in his conclusion?**",
+                                "images": [
+                                    {
+                                        "alt": "A coordinate plane. The x- and y-axes both scale by one. A pre-image Triangle A B C has point A at seven, six, point B at eleven, three and a half, and Point C at eight and a half, three. Another triangle D E F has point D at twelve, six, point E at seven, six, and point F at ten, twelve. The Triangle A B C is reflected across a vertical line passing through point A, then rotated to form the image Triangle A prime at seven, six, B prime at twelve, six, and C prime at ten, twelve.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/2985e55ab01e985110be7e96d501b97ef3a930fb.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Amad didn't use only rigid transformations, so the figures are **not** congruent.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "It's possible to map $\\triangle ABC$ onto $\\triangle EDF$ using a sequence of rigid transformations, but the figures are **not** congruent.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is no error. This is a correct conclusion.",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "If a sequence of [[☃ definition 1]] (translations, reflections, and rotations) can map $\\triangle ABC$ onto $\\triangle EDF$, then the figures are congruent.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Amad successfully mapped $\\triangle ABC$ onto $\\triangle EDF$. Most importantly, he did this using a reflection and a rotation, which are both rigid transformations. So the figures are congruent.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. A pre-image Triangle A B C has point A at seven, six, point B at eleven, three and a half, and Point C at eight and a half, three. Another triangle D E F has point D at twelve, six, point E at seven, six, and point F at ten, twelve. The Triangle A B C is reflected across a vertical line passing through point A, then rotated to form the image Triangle A prime at seven, six, B prime at twelve, six, and C prime at ten, twelve.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/2985e55ab01e985110be7e96d501b97ef3a930fb.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Amad concluded, \"I was able to map $\\triangle ABC$ onto $\\triangle EDF$ using a sequence of rigid transformations, so the figures **are** congruent.\"  **There is no error. This is a correct conclusion.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3: Y map; Y cong"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Pete was able to map quadrilateral $ABCD$ onto $EFGH$ using a translation and a dilation.      Pete concluded:    \"I was able to map quadrilateral $ABCD$ onto $EFGH$ using a sequence of rigid transformations, so the figures **are** congruent.\"  **What error did Pete make in his conclusion?**",
+                                "images": [
+                                    {
+                                        "alt": "A coordinate plane. The x- and y-axes both scale by one. A pre-image quadrilateral A B C D has point A at fourteen, ten, point B at ten, ten, and Point C at eight, fourteen, and Point D at twelve, fourteen. Another quadrilateral E F G H has point E at five, four, point F at three, four, point G at two, six, and point H at four, six. Quadrilateral A B C D is translated six units to the left and eight units down then dilated so that A prime is at five, four, B prime is at three, four, C prime is at two, six, and D prime is at four, six.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/8a9d6e5024c39c90155ea6529ba4cfc026ff8921.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Pete didn't use only rigid transformations, so the figures are **not** congruent.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "It's possible to map quadrilateral $ABCD$ onto $EFGH$ using a sequence of rigid transformations, but the figures are **not** congruent.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is no error. This is a correct conclusion.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "If a sequence of [[☃ definition 1]] (translations, reflections, and rotations) can map $ABCD$ onto $EFGH$, then the figures are congruent.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Pete successfully mapped $ABCD$ onto $EFGH$. But he used a dilation, which isn't a rigid transformation.    [[☃ image 1]]  We can see that $ABCD$ and $EFGH$ have different side lengths, so they can't be congruent.",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. A pre-image quadrilateral A B C D has point A at fourteen, ten, point B at ten, ten, and Point C at eight, fourteen, and Point D at twelve, fourteen. Another quadrilateral E F G H has point E at five, four, point F at three, four, point G at two, six, and point H at four, six. Quadrilateral A B C D is translated six units to the left and eight units down then dilated so that A prime is at five, four, B prime is at three, four, C prime is at two, six, and D prime is at four, six.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/8a9d6e5024c39c90155ea6529ba4cfc026ff8921.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Pete concluded, \"I was able to map quadrilateral $ABCD$ onto $EFGH$ using a sequence of rigid transformations, so the figures **are** congruent,\" but he made an error.  **Pete didn't use only rigid transformations, so the figures are not congruent. **",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 4: Y map; N cong"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Layla was able to map circle $M$ onto circle $N$ using a translation and a dilation.      Layla concluded:    \"I was able to map circle $M$ onto circle $N$ using a sequence of rigid transformations, so the figures **are** congruent.\"  **What error did Layla make in her conclusion?**",
+                                "images": [
+                                    {
+                                        "alt": "An image of circle N which has a radius of seven units. The first pre image of circle M has a radius of two is in the top right section of the circle. The second pre image for the circle M has a radius of two units and is a translation of four units left and three units down so that it has the same center as circle N. The image of circle M has a radius of seven units after a dilation.\n",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/58204ba4f41050d4a12ae9ce1125e2d90f917a43.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Layla didn't use only rigid transformations, so the figures are **not** congruent.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "It's possible to map circle $M$ onto circle $N$ using a sequence of rigid transformations, but the figures are **not** congruent.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is no error. This is a correct conclusion.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "If a sequence of [[☃ definition 1]] (translations, reflections, and rotations) can map circle $M$ onto circle $N$, then the figures are congruent.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Layla successfully mapped circle $M$ onto circle $N$. But she used a dilation, which isn't a rigid transformation.    [[☃ image 1]]  We can see that circles $M$ and $N$ have different diameters, so they can't be congruent.",
+                                    "images": [
+                                        {
+                                            "alt": "An image of circle N which has a radius of seven units. The first pre image of circle M has a radius of two is in the top right section of the circle. The second pre image for the circle M has a radius of two units and is a translation of four units left and three units down so that it has the same center as circle N. The image of circle M has a radius of seven units after a dilation.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/58204ba4f41050d4a12ae9ce1125e2d90f917a43.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Layla concluded, \"I was able to map circle $M$ onto circle $N$ using a sequence of rigid transformations, so the figures **are** congruent,\" but he made an error.  **Layla didn't use only rigid transformations, so the figures are not congruent. **",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 4: Y map; N cong"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Stefan was able to map $\\triangle ABD$ onto $\\triangle ABC$.      Stefan concluded:    \"I was able to map $\\triangle ABD$ onto $\\triangle ABC$ using a sequence of rigid transformations, so the figures **are** congruent.\"  **What error did Stefan make in his conclusion?**",
+                                "images": [
+                                    {
+                                        "alt": "A coordinate plane. The x- and y-axes both scale by one. A pre-image Triangle A B C has point A at three, three, point B at nine, three, and Point C at three, twelve. Another triangle A B D has point D at twelve, twelve. An arrow points from point D to point C.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/1bd16cbf895328e35c242b32b9904e0136d1c484.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Stefan didn't use only rigid transformations, so the figures are **not** congruent.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "It's possible to map $\\triangle ABD$ onto $\\triangle ABC$ using a sequence of rigid transformations, but the figures are **not** congruent.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is no error. This is a correct conclusion.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "If a sequence of [[☃ definition 1]] (translations, reflections, and rotations) can map $\\triangle ABD$ onto $\\triangle ABC$, then the figures are congruent.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Stefan successfully mapped $\\triangle ABD$ onto $\\triangle ABC$, but he didn't use rigid transformations. He translated some points more than others. Notice how point $D$ traveled farther than points closer to $A$ did, and points $A$ and $B$ didn't move at all.    [[☃ image 1]]  We can see that $\\triangle ABD$ and $\\triangle ABC$ have different side lengths and angle measures, so they can't be congruent.",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. A pre-image Triangle A B C has point A at three, three, point B at nine, three, and Point C at three, twelve. Another triangle A B D has point D at twelve, twelve. An arrow points from point D to point C. Another arrow points two units from five, five to three, five.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/219af8e9b787eed1750ad47f3cdbdc6c653f5513.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Stefan concluded, \"I was able to map $\\triangle ABD$ onto $\\triangle ABC$ using a sequence of rigid transformations, so the figures **are** congruent,\" but he made an error.  **Stefan didn't use only rigid transformations, so the figures are not congruent. **",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 4: Y map; N cong"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Leslie was able to map $\\overline{ST}$ onto $\\overline{QR}$ using a rotation and dilation.      Leslie concluded:    \"I was able to map $\\overline{ST}$ onto $\\overline{QR}$ using a sequence of rigid transformations, so the figures **are** congruent.\"  **What error did Leslie make in her conclusion?**",
+                                "images": [
+                                    {
+                                        "alt": "A coordinate plane. The x- and y-axes both scale by one. Segment S T has point S at five, three and T at twelve, three. Another segment, Q R has point Q at twelve, thirteen. Segment S T is rotated clockwise about point T and ending S prime at twelve, ten. It is then dilated to where the endpoint S double prime is at twelve, thirteen.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/010afacc42813efebf53bfca5c8685b32be32f17.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Leslie didn't use only rigid transformations, so the figures are **not** congruent.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "It's possible to map $\\overline{ST}$ onto $\\overline{QR}$ using a sequence of rigid transformations, but the figures are **not** congruent.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is no error. This is a correct conclusion.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "If a sequence of [[☃ definition 2]] (translations, reflections, and rotations) can map $\\overline{ST}$ onto $\\overline{QR}$, then the segments are congruent.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Leslie successfully mapped $\\overline{ST}$ onto $\\overline{QR}$. But she used a dilation, which isn't a rigid transformation.    [[☃ image 1]]  We can see that $\\overline{ST}$ and $\\overline{QR}$ have different lengths, so they can't be congruent.",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. Segment S T has point S at five, three and T at twelve, three. Another segment, Q R has point Q at twelve, thirteen. Segment S T is rotated clockwise about point T and ending S prime at twelve, ten. It is then dilated to where the endpoint S double prime is at twelve, thirteen.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/010afacc42813efebf53bfca5c8685b32be32f17.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Leslie concluded, \"I was able to map $\\overline{ST}$ onto $\\overline{QR}$ using a sequence of rigid transformations, so the figures **are** congruent,\" but she made an error.  **Leslie didn't use only rigid transformations, so the figures are not congruent. **",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 4: Y map; N cong"
+                    }
+                }
+            }
+        }
+    ]
+}

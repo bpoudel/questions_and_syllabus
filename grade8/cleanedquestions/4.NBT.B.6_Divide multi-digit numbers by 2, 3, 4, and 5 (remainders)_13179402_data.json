@@ -1,0 +1,855 @@
+{
+    "standard_metadata": {
+        "standard_id": "4.NBT.B.6",
+        "standard_description": "Find whole-number quotients and remainders with up to four-digit dividends and one-digit divisors, using strategies based on place value, the properties of operations, and/or the relationship between multiplication and division. Illustrate and explain the calculation by using equations, rectangular arrays, and/or area models.",
+        "standard_title": "Divide multi-digit numbers by 2, 3, 4, and 5 (remainders)",
+        "standard_url": "https://www.khanacademy.org/math/cc-fourth-grade-math/division/multi-digit-division/e/division_1.5"
+    },
+    "id": "13179402",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  $417\\div3=$  remainder",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To divide larger numbers, we can split them into smaller numbers that we already know how to divide.  Let's think of a few multiples of $3$ that may be useful:  - $3 \\times 3 = 9$ - $3 \\times 5 = 15$ - $3 \\times 9 = 27$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "What multiple of $3$ is less than $417$?  $\\begin{array}{rr} {3}&\\overline{\\Big)417} \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's start by dividing $417$ into $\\purpleD{100}$ threes.  $\\begin{array}{rr|rl} \\maroonD{3}&\\overline{\\Big)417}\\\\ &\\mathllap{-}\\underline{\\blueE{300}}&\\purpleD{100}&\\maroonD{3} \\times \\purpleD{100} = \\blueE{300}\\\\ &117 \\end{array}$  We have $117$ left.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's divide $117$ into $\\purpleD{30}$ more threes.  $\\begin{array}{rr|rl} \\maroonD{3}&\\overline{\\Big)417}\\\\ &\\mathllap{-}\\underline{300}&100\\\\ &117\\\\ &\\mathllap{-}\\underline{\\blueE{90}}&\\purpleD{30}&\\maroonD{3} \\times \\purpleD{30} = \\blueE{90}\\\\ &27\\\\ \\end{array}$  We have $27$ left.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's divide $27$ into $\\purpleD{9}$ more threes since  $9 \\times 3=27$.  $\\begin{array}{rr|rl} \\maroonD{3}&\\overline{\\Big)417}\\\\ &\\mathllap{-}\\underline{300}&100\\\\ &117\\\\ &\\mathllap{-}\\underline{90}&30\\\\ &27\\\\ &\\mathllap{-}\\underline{\\blueE{27}}&\\purpleD{9}&\\maroonD{3} \\times \\purpleD{9} = \\blueE{27}\\\\ &0 \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Now, let's add all of the partial quotients to find our total quotient.   $\\begin{array}{rr|rl} {3}&\\overline{\\Big)417}\\\\ &\\mathllap{-}\\underline{300}&\\purpleD{100}\\\\ &117\\\\ &\\mathllap{-}\\underline{90}&\\purpleD{30}\\\\ &27\\\\ &\\mathllap{-}\\underline{27}&\\underline{{}+\\purpleD{9}}\\\\ &\\goldE{0}&\\greenE{139} \\end{array}$  $\\purpleD{100} + \\purpleD{30} + \\purpleD{9}= \\greenE{139}$. There is a remainder of $\\goldE{0}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$417\\div3=\\greenE{139}$ remainder $\\goldE{0}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Divisors 2, 3, 4, 5 No remainders"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  $6{,}352\\div4=$  remainder",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To divide larger numbers, we can split them into smaller numbers that we already know how to divide.  Let's think of a few multiples of $4$ that may be useful:  - $4 \\times 2 = 8$ - $4 \\times 5 = 20$ - $4 \\times 8 = 32$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "What multiple of $4$ is less than $6{,}352$?  $\\begin{array}{rr} {4}&\\overline{\\Big)6{,}352} \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's start by dividing $6{,}352$ into $\\purpleD{1{,}000}$ fours.  $\\begin{array}{rr|rl} \\maroonD{4}&\\overline{\\Big)6{,}352}\\\\ &\\mathllap{-}\\underline{\\blueE{4{,}000}}&\\purpleD{1{,}000}&\\maroonD{4} \\times \\purpleD{1{,}000} = \\blueE{4{,}000}\\\\ &2{,}352 \\end{array}$  We have $2{,}352$ left.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's divide $2{,}352$ into $\\purpleD{500}$ more fours.  $\\begin{array}{rr|rl} \\maroonD{4}&\\overline{\\Big)6{,}352}\\\\ &\\mathllap{-}\\underline{4{,}000}&1{,}000\\\\ &2{,}352\\\\ &\\mathllap{-}\\underline{\\blueE{2{,}000}}&\\purpleD{500}&\\maroonD{4} \\times \\purpleD{500} = \\blueE{2{,}000}\\\\ &352 \\end{array}$  We have $352$ left.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's divide $352$ into $\\purpleD{80}$ more fours.  $\\begin{array}{rr|rl} \\maroonD{4}&\\overline{\\Big)6{,}352}\\\\ &\\mathllap{-}\\underline{4{,}000}&1{,}000\\\\ &2{,}352\\\\ &\\mathllap{-}\\underline{2{,}000}&500\\\\ &352\\\\ &\\mathllap{-}\\underline{\\blueE{320}}&\\purpleD{80}&\\maroonD{4} \\times \\purpleD{80} = \\blueE{320}\\\\ &32 \\end{array}$  We have $32$ left.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's divide $32$ into $\\purpleD{8}$ more fours since  $8 \\times 4=32$.  $\\begin{array}{rr|rl} \\maroonD{4}&\\overline{\\Big)6{,}352}\\\\ &\\mathllap{-}\\underline{4{,}000}&1{,}000\\\\ &2{,}352\\\\ &\\mathllap{-}\\underline{2{,}000}&500\\\\ &352\\\\ &\\mathllap{-}\\underline{320}&80\\\\ &32\\\\ &\\mathllap{-}\\underline{\\blueE{32}}&\\purpleD{8}&\\maroonD{4} \\times \\purpleD{8} = \\blueE{32}\\\\ &0 \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Now, let's add all of the partial quotients to find our total quotient.   $\\begin{array}{rr|rl} {4}&\\overline{\\Big)6{,}352}\\\\ &\\mathllap{-}\\underline{4{,}000}&\\purpleD{1{,}000}\\\\ &2{,}352\\\\ &\\mathllap{-}\\underline{2{,}000}&\\purpleD{500}\\\\ &352\\\\ &\\mathllap{-}\\underline{320}&\\purpleD{80}\\\\ &32\\\\ &\\mathllap{-}\\underline{32}&\\underline{{}+\\purpleD{8}}\\\\ &\\goldE{0}&\\greenE{1{,}588}\\\\ \\end{array}$  $\\purpleD{1000} + \\purpleD{500} + \\purpleD{80} + \\purpleD{8}= \\greenE{1{,}588}$. There is a remainder of $\\goldE{0}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$6{,}352\\div4=\\greenE{1{,}588}$ remainder $\\goldE{0}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Divisors 2, 3, 4, 5 No remainders"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**   remainder    $2\\overline{\\Big)952}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To divide larger numbers, we can split them into smaller numbers that we already know how to divide.  Let's think of a few multiples of $2$ that may be useful:  - $2 \\times 4 = 8$ - $2 \\times 5 = 10$ - $2 \\times 25 = 50$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "What multiple of $2$ is less than $952$?  $\\begin{array}{rr} {2}&\\overline{\\Big)952}\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's start by dividing $952$ into $\\purpleD{400}$ twos.  $\\begin{array}{rr|rl} \\maroonD{2}&\\overline{\\Big)952}\\\\ &\\mathllap{-}\\underline{\\blueE{800}}&\\purpleD{400}&\\maroonD{2} \\times \\purpleD{400} = \\blueE{800}\\\\ &152 \\end{array}$  We have $152$ left.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's divide $152$ into $\\purpleD{50}$ more twos.  $\\begin{array}{rr|rl} \\maroonD{2}&\\overline{\\Big)952}\\\\ &\\mathllap{-}\\underline{800}&400\\\\ &152\\\\ &\\mathllap{-}\\underline{\\blueE{100}}&\\purpleD{50}&\\maroonD{2} \\times \\purpleD{50} = \\blueE{100}\\\\ &52 \\end{array}$  We have $52$ left.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's divide $52$ into $\\purpleD{25}$ more twos.  $\\begin{array}{rr|rl} \\maroonD{2}&\\overline{\\Big)952}\\\\ &\\mathllap{-}\\underline{800}&400\\\\ &152\\\\ &\\mathllap{-}\\underline{100}&50\\\\ &52\\\\ &\\mathllap{-}\\underline{\\blueE{50}}&\\purpleD{25}&\\maroonD{2} \\times \\purpleD{25} = \\blueE{50}\\\\ &2 \\end{array}$  We have $2$ left.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's divide $2$ into $\\purpleD{1}$ last two.  $\\begin{array}{rr|rl} \\maroonD{2}&\\overline{\\Big)952}\\\\ &\\mathllap{-}\\underline{800}&400\\\\ &152\\\\ &\\mathllap{-}\\underline{100}&50\\\\ &52\\\\ &\\mathllap{-}\\underline{50}&25\\\\ &2\\\\ &\\mathllap{-}\\underline{\\blueE{2}}&\\purpleD{1}&\\maroonD{2} \\times \\purpleD{1} = \\blueE{2}\\\\ &0 \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Now, let's add all of the partial quotients to find our total quotient.   $\\begin{array}{rr|rl} {2}&\\overline{\\Big)952}\\\\ &\\mathllap{-}\\underline{800}&\\purpleD{400}\\\\ &152\\\\ &\\mathllap{-}\\underline{100}&\\purpleD{50}\\\\ &52\\\\ &\\mathllap{-}\\underline{50}&\\purpleD{25}\\\\ &2\\\\ &\\mathllap{-}\\underline{2}&\\underline{{}+\\purpleD{1}}\\\\ &\\goldE{0}&\\greenE{476} \\end{array}$  $\\purpleD{400} + \\purpleD{50} + \\purpleD{25} + \\purpleD{1}= \\greenE{476}$. There is a remainder of $\\goldE{0}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\greenE{476}&\\text{ remainder }\\goldE{0}\\\\ 2\\overline{\\Big)952}& \\end{align}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Divisors 2, 3, 4, 5 No remainders"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  $\\phantom{0}$ remainder    $5\\overline{\\Big)2{,}235}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To divide larger numbers, we can split them into smaller numbers that we already know how to divide.  Let's think of a few multiples of $5$ that may be useful:  - $5 \\times 4 = 20$ - $5 \\times 5 = 25$ - $5 \\times 7 = 35$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "What multiple of $5$ is less than $2{,}235$?  $\\begin{array}{rr} {5}&\\overline{\\Big)2{,}235} \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's start by dividing $2{,}235$ into $\\purpleD{400}$ fives.  $\\begin{array}{rr|rl} \\maroonD{5}&\\overline{\\Big)2{,}235}\\\\ &\\mathllap{-}\\underline{\\blueE{2{,}000}}&\\purpleD{400}&\\maroonD{5} \\times \\purpleD{400} = \\blueE{2{,}000}\\\\ &235 \\end{array}$  We have $235$ left.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's divide $235$ into $\\purpleD{40}$ more fives.  $\\begin{array}{rr|rl} \\maroonD{5}&\\overline{\\Big)2{,}235}\\\\ &\\mathllap{-}\\underline{2{,}000}&400\\\\ &235\\\\ &\\mathllap{-}\\underline{\\blueE{200}}&\\purpleD{40}&\\maroonD{5} \\times \\purpleD{40} = \\blueE{200}\\\\ &35 \\end{array}$  We have $35$ left.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's divide $35$ into $\\purpleD{7}$ more fives since  $7 \\times 5=35$.  $\\begin{array}{rr|rl} \\maroonD{5}&\\overline{\\Big)2{,}235}\\\\ &\\mathllap{-}\\underline{2{,}000}&400\\\\ &235\\\\ &\\mathllap{-}\\underline{200}&40\\\\ &35\\\\ &\\mathllap{-}\\underline{\\blueE{35}}&\\purpleD{7}&\\maroonD{5} \\times \\purpleD{7} = \\blueE{35}\\\\ &0\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Now, let's add all of the partial quotients to find our total quotient.   $\\begin{array}{rr|rl} {5}&\\overline{\\Big)2{,}235}\\\\ &\\mathllap{-}\\underline{2{,}000}&\\purpleD{400}\\\\ &235\\\\ &\\mathllap{-}\\underline{200}&\\purpleD{40}\\\\ &35\\\\ &\\mathllap{-}\\underline{35}&\\underline{{}+\\purpleD{7}}\\\\ &\\goldE{0}&\\greenE{447} \\end{array}$  $\\purpleD{400} + \\purpleD{40} + \\purpleD{7}= \\greenE{447}$. There is a remainder of $\\goldE{0}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\greenE{447}&\\text{ remainder }\\goldE{0}\\\\ 5\\overline{\\Big)2{,}235}& \\end{align}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Divisors 2, 3, 4, 5 No remainders"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  $430\\div2=$  remainder",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To divide larger numbers, we can split them into smaller numbers that we already know how to divide.  Let's think of a few multiples of $2$ that may be useful:  - $2 \\times 10 = 20$ - $2 \\times 2 = 4$ - $2 \\times 5 = 10$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "What multiple of $2$ is less than $430$?  $\\begin{array}{rr} {2}&\\overline{\\Big)430}\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's start by dividing $430$ into $\\purpleD{200}$ twos.  $\\begin{array}{rr|rl} \\maroonD{2}&\\overline{\\Big)430}\\\\ &\\mathllap{-}\\underline{\\blueE{400}}&\\purpleD{200}&\\maroonD{2} \\times \\purpleD{200} = \\blueE{400}\\\\ &30\\\\ \\end{array}$  We have $30$ left.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's divide $30$ into $\\purpleD{10}$ more twos.  $\\begin{array}{rr|rl} \\maroonD{2}&\\overline{\\Big)430}\\\\ &\\mathllap{-}\\underline{400}&200\\\\ &30\\\\ &\\mathllap{-}\\underline{\\blueE{20}}&\\purpleD{10}&\\maroonD{2} \\times \\purpleD{10} = \\blueE{20}\\\\ &10\\\\ \\end{array}$  We have $10$ left.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's divide $10$ into $\\purpleD{5}$ more twos since  $2 \\times 5=10$.  $\\begin{array}{rr|rl} \\maroonD{2}&\\overline{\\Big)430}\\\\ &\\mathllap{-}\\underline{400}&200\\\\ &30\\\\ &\\mathllap{-}\\underline{20}&10\\\\ &10\\\\ &\\mathllap{-}\\underline{\\blueE{10}}&\\purpleD{5}&\\maroonD{2} \\times \\purpleD{5} = \\blueE{10}\\\\ &0\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Now, let's add all of the partial quotients to find our total quotient.   $\\begin{array}{rr|rl} {2}&\\overline{\\Big)430}\\\\ &\\mathllap{-}\\underline{400}&\\purpleD{200}\\\\ &30\\\\ &\\mathllap{-}\\underline{20}&\\purpleD{10}\\\\ &10\\\\ &\\mathllap{-}\\underline{10}&\\underline{{}+\\purpleD{5}}\\\\ &\\goldE{0}&\\greenE{215}\\\\ \\end{array}$  $\\purpleD{200} + \\purpleD{10} + \\purpleD{5}= \\greenE{215}$. There is a remainder of $\\goldE{0}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$430\\div2 = \\greenE{215}$ remainder $\\goldE{0}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "0 in dividend divisor<=5"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  $5{,}007 \\div 4 =$  remainder",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "3",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To divide larger numbers, we can split them into smaller numbers that we already know how to divide.  Let's think of a few multiples of $4$ that may be useful:  - $4 \\times 25 = 100$ - $4 \\times 2 = 8$ - $4 \\times 10 = 40$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "What multiple of $4$ is less than $5{,}007$?  $\\begin{array}{rr} {4}&\\overline{\\Big)5{,}007}\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's start by dividing $5{,}007$ into $\\purpleD{1{,}000}$ fours.  $\\begin{array}{rr|rl} \\maroonD{4}&\\overline{\\Big)5{,}007}\\\\ &\\mathllap{-}\\underline{\\blueE{4{,}000}}&\\purpleD{1{,}000}&\\maroonD{4} \\times \\purpleD{1{,}000} = \\blueE{4{,}000}\\\\ &1{,}007\\\\ \\end{array}$  We have $1{,}007$ left.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's divide $1{,}007$ into $\\purpleD{250}$ more fours.  $\\begin{array}{rr|rl} \\maroonD{4}&\\overline{\\Big)5{,}007}\\\\ &\\mathllap{-}\\underline{4{,}000}&1{,}000\\\\ &1{,}007\\\\ &\\mathllap{-}\\underline{\\blueE{1{,}000}}&\\purpleD{250}&\\maroonD{4} \\times \\purpleD{250} = \\blueE{1{,}000}\\\\ &7\\\\ \\end{array}$  We have $7$ left.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's divide $7$ into $\\purpleD{1}$ last four.  $\\begin{array}{rr|rl} \\maroonD{4}&\\overline{\\Big)5{,}007}\\\\ &\\mathllap{-}\\underline{4{,}000}&1{,}000\\\\ &1{,}007\\\\ &\\mathllap{-}\\underline{1{,}000}&250\\\\ &7\\\\ &\\mathllap{-}\\underline{\\blueE{4}}&\\purpleD{1}&\\maroonD{4} \\times \\purpleD{1} = \\blueE{4}\\\\ &3\\\\ \\end{array}$  We have $3$ left. That is less than $4$, so we'll stop dividing.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Now, let's add all of the partial quotients to find our total quotient.   $\\begin{array}{rr|rl} {4}&\\overline{\\Big)5{,}007}\\\\ &\\mathllap{-}\\underline{4{,}000}&\\purpleD{1{,}000}\\\\ &1{,}007\\\\ &\\mathllap{-}\\underline{1{,}000}&\\purpleD{250}\\\\ &7\\\\ &\\mathllap{-}\\underline{4}&\\underline{{}+\\purpleD{1}}\\\\ &\\goldE{3}&\\greenE{1{,}251}\\\\ \\end{array}$  $\\purpleD{1{,}000} + \\purpleD{250} + \\purpleD{1}= \\greenE{1{,}251}$. There is a remainder of $\\goldE{3}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$5{,}007\\div 4 = \\greenE{1{,}251}$ remainder $\\goldE{3}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "0 in dividend divisor<=5"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**   remainder    $5\\overline{\\Big)320}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To divide larger numbers, we can split them into smaller numbers that we already know how to divide.  Let's think of a few multiples of $5$ that may be useful:  - $5 \\times 2 = 10$ - $5 \\times 5 = 25$ - $5 \\times 6 = 30$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "What multiple of $5$ is less than $320$?  $\\begin{array}{rr} {5}&\\overline{\\Big)320} \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's start by dividing $320$ into $\\purpleD{60}$ fives.  $\\begin{array}{rr|rl} \\maroonD{5}&\\overline{\\Big)320}\\\\ &\\mathllap{-}\\underline{\\blueE{300}}&\\purpleD{60}&\\maroonD{5} \\times \\purpleD{60} = \\blueE{300}\\\\ &20 \\end{array}$  We have $20$ left.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's divide $20$ into $\\purpleD{4}$ more fives since  $4 \\times 5=20$.  $\\begin{array}{rr|rl} \\maroonD{5}&\\overline{\\Big)320}\\\\ &\\mathllap{-}\\underline{300}&60\\\\ &20\\\\ &\\mathllap{-}\\underline{\\blueE{20}}&\\purpleD{4}&\\maroonD{5} \\times \\purpleD{4} = \\blueE{20}\\\\ &0 \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Now, let's add all of the partial quotients to find our total quotient.   $\\begin{array}{rr|rl} {5}&\\overline{\\Big)320}\\\\ &\\mathllap{-}\\underline{300}&\\purpleD{60}\\\\ &20\\\\ &\\mathllap{-}\\underline{20}&\\underline{{}+\\purpleD{4}}\\\\ &\\goldE{0}&\\greenE{64} \\end{array}$  $\\purpleD{60} + \\purpleD{4}= \\greenE{64}$. There is a remainder of $\\goldE{0}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\greenE{64}&\\text{ remainder }\\goldE{0}\\\\ 5\\overline{\\Big)320}& \\end{align}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "0 in dividend divisor<=5"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  $\\phantom{0}$ remainder    $3\\overline{\\Big)1{,}090}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "1",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To divide larger numbers, we can split them into smaller numbers that we already know how to divide.  Let's think of a few multiples of $3$ that may be useful:  - $3 \\times 2 = 6$ - $3 \\times 3 = 9$ - $3 \\times 6 = 18$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "What multiple of $3$ is less than $1{,}090$?  $\\begin{array}{rr} {3}&\\overline{\\Big)1{,}090} \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's start by dividing $1{,}090$ into $\\purpleD{300}$ threes.  $\\begin{array}{rr|rl} \\maroonD{3}&\\overline{\\Big)1{,}090}\\\\ &\\mathllap{-}\\underline{\\blueE{900}}&\\purpleD{300}&\\maroonD{3} \\times \\purpleD{300} = \\blueE{900}\\\\ &190 \\end{array}$  We have $190$ left.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's divide $190$ into $\\purpleD{60}$ more threes.  $\\begin{array}{rr|rl} \\maroonD{3}&\\overline{\\Big)1{,}090}\\\\ &\\mathllap{-}\\underline{900}&300\\\\ &190\\\\ &\\mathllap{-}\\underline{\\blueE{180}}&\\purpleD{60}&\\maroonD{3} \\times \\purpleD{60} = \\blueE{180}\\\\ &10 \\end{array}$  We have $10$ left.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's divide $10$ into $\\purpleD{3}$ more threes since $3\\times 3=9$.  $\\begin{array}{rr|rl} \\maroonD{3}&\\overline{\\Big)1{,}090}\\\\ &\\mathllap{-}\\underline{900}&300\\\\ &190\\\\ &\\mathllap{-}\\underline{180}&60\\\\ &10\\\\ &\\mathllap{-}\\underline{\\blueE{9}}&\\purpleD{3}&\\maroonD{3} \\times \\purpleD{3} = \\blueE{9}\\\\ &1 \\end{array}$  We have $1$ left. That is less than $3$, so we'll stop dividing.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Now, let's add all of the partial quotients to find our total quotient.   $\\begin{array}{rr|rl} {3}&\\overline{\\Big)1{,}090}\\\\ &\\mathllap{-}\\underline{900}&\\purpleD{300}\\\\ &190\\\\ &\\mathllap{-}\\underline{180}&\\purpleD{60}\\\\ &10\\\\ &\\mathllap{-}\\underline{9}&\\underline{{}+\\purpleD{3}}\\\\ &\\goldE{1}&\\greenE{363} \\end{array}$  $\\purpleD{300} + \\purpleD{60} + \\purpleD{3}= \\greenE{363}$. There is a remainder of $\\goldE{1}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\greenE{363}&\\text{ remainder }\\goldE{1}\\\\ 3\\overline{\\Big)1{,}090}& \\end{align}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "0 in dividend divisor<=5"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  $2{,}721\\div3=$  remainder",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To divide larger numbers, we can split them into smaller numbers that we already know how to divide.  Let's think of a few multiples of $3$ that may be useful:  - $3 \\times 2 = 6$ - $3 \\times 7 = 21$ - $3 \\times 9 = 27$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "What multiple of $3$ is less than $2{,}721$?  $\\begin{array}{rr} {3}&\\overline{\\Big)2{,}721} \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's start by dividing $2{,}721$ into $\\purpleD{900}$ threes.  $\\begin{array}{rr|rl} \\maroonD{3}&\\overline{\\Big)2{,}721}\\\\ &\\mathllap{-}\\underline{\\blueE{2{,}700}}&\\purpleD{900}&\\maroonD{3} \\times \\purpleD{900} = \\blueE{2{,}700}\\\\ &21 \\end{array}$  We have $21$ left.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's divide $21$ into $\\purpleD{7}$ more threes since  $7 \\times 3=21$.  $\\begin{array}{rr|rl} \\maroonD{3}&\\overline{\\Big)2{,}721}\\\\ &\\mathllap{-}\\underline{2{,}700}&900\\\\ &21\\\\ &\\mathllap{-}\\underline{\\blueE{21}}&\\purpleD{7}&\\maroonD{3} \\times \\purpleD{7} = \\blueE{21}\\\\ &0 \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Now, let's add all of the partial quotients to find our total quotient.   $\\begin{array}{rr|rl} {3}&\\overline{\\Big)2{,}721}\\\\ &\\mathllap{-}\\underline{2{,}700}&\\purpleD{900}\\\\ &21\\\\ &\\mathllap{-}\\underline{21}&\\underline{{}+\\purpleD{7}}\\\\ &\\goldE{0}&\\greenE{907} \\end{array}$  $\\purpleD{900} + \\purpleD{7}= \\greenE{907}$. There is a remainder of $\\goldE{0}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$2{,}721\\div3=\\greenE{907}$ remainder $\\goldE{0}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "0 in quotient, divisor<=5"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  $413\\div2=$  remainder",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "1",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To divide larger numbers, we can split them into smaller numbers that we already know how to divide.  Let's think of a few multiples of $2$ that may be useful:  - $2 \\times 2 = 4$ - $2 \\times 5 = 10$ - $2 \\times 6 = 12$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "What multiple of $2$ is less than $413$?  $\\begin{array}{rr} {2}&\\overline{\\Big)413} \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's start by dividing $413$ into $\\purpleD{200}$ twos.  $\\begin{array}{rr|rl} \\maroonD{2}&\\overline{\\Big)413}\\\\ &\\mathllap{-}\\underline{\\blueE{400}}&\\purpleD{200}&\\maroonD{2} \\times \\purpleD{200} = \\blueE{400}\\\\ &13\\\\ \\end{array}$  We have $13$ left.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's divide $13$ into $\\purpleD{6}$ more twos.  $\\begin{array}{rr|rl} \\maroonD{2}&\\overline{\\Big)413}\\\\ &\\mathllap{-}\\underline{400}&200\\\\ &13\\\\ &\\mathllap{-}\\underline{\\blueE{12}}&\\purpleD{6}&\\maroonD{2} \\times \\purpleD{6} = \\blueE{12}\\\\ &1 \\end{array}$  We have $1$ left. That is less than $2$, so we'll stop dividing.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Now, let's add all of the partial quotients to find our total quotient.   $\\begin{array}{rr|rl} {2}&\\overline{\\Big)413}\\\\ &\\mathllap{-}\\underline{400}&\\purpleD{200}\\\\ &13\\\\ &\\mathllap{-}\\underline{12}&\\underline{{}+\\purpleD{6}}\\\\ &\\goldE{1}&\\greenE{206} \\end{array}$  $\\purpleD{200} + \\purpleD{6}= \\greenE{206}$. There is a remainder of $\\goldE{1}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$413\\div2=\\greenE{206}$ remainder $\\goldE{1}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "0 in quotient, divisor<=5"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**   remainder    $4\\overline{\\Big)828}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To divide larger numbers, we can split them into smaller numbers that we already know how to divide.  Let's think of a few multiples of $4$ that may be useful:  - $4 \\times 2 = 8$ - $4 \\times 5 = 20$ - $4 \\times 7 = 28$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "What multiple of $4$ is less than $828$?  $\\begin{array}{rr} {4}&\\overline{\\Big)828}\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's start by dividing $828$ into $\\purpleD{200}$ fours.  $\\begin{array}{rr|rl} \\maroonD{4}&\\overline{\\Big)828}\\\\ &\\mathllap{-}\\underline{\\blueE{800}}&\\purpleD{200}&\\maroonD{4} \\times \\purpleD{200} = \\blueE{800}\\\\ &28\\\\ \\end{array}$  We have $28$ left.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's divide $28$ into $\\purpleD{7}$ more fours since  $7 \\times 4=28$.  $\\begin{array}{rr|rl} \\maroonD{4}&\\overline{\\Big)828}\\\\ &\\mathllap{-}\\underline{800}&200\\\\ &28\\\\ &\\mathllap{-}\\underline{\\blueE{28}}&\\purpleD{7}&\\maroonD{4} \\times \\purpleD{7} = \\blueE{28}\\\\ &0 \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Now, let's add all of the partial quotients to find our total quotient.   $\\begin{array}{rr|rl} {4}&\\overline{\\Big)828}\\\\ &\\mathllap{-}\\underline{800}&\\purpleD{200}\\\\ &28\\\\ &\\mathllap{-}\\underline{28}&\\underline{{}+\\purpleD{7}}\\\\ &\\goldE{0}&\\greenE{207} \\end{array}$  $\\purpleD{200} + \\purpleD{7}= \\greenE{207}$. There is a remainder of $\\goldE{0}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\greenE{207}&\\text{ remainder }\\goldE{0}\\\\ 4\\overline{\\Big)828}& \\end{align}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "0 in quotient, divisor<=5"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  $\\phantom{0}$ remainder    $5\\overline{\\Big)4{,}454}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "4",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To divide larger numbers, we can split them into smaller numbers that we already know how to divide.  Let's think of a few multiples of $5$ that may be useful:  - $5 \\times 8 = 40$ - $5 \\times 9 = 45$ - $5 \\times 10 = 50$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "What multiple of $5$ is less than $4{,}454$?  $\\begin{array}{rr} {5}&\\overline{\\Big)4{,}454} \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's start by dividing $4{,}454$ into $\\purpleD{800}$ fives.  $\\begin{array}{rr|rl} \\maroonD{5}&\\overline{\\Big)4{,}454}\\\\ &\\mathllap{-}\\underline{\\blueE{4{,}000}}&\\purpleD{800}&\\maroonD{5} \\times \\purpleD{800} = \\blueE{4{,}000}\\\\ &454 \\end{array}$  We have $454$ left.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's divide $454$ into $\\purpleD{80}$ more fives.  $\\begin{array}{rr|rl} \\maroonD{5}&\\overline{\\Big)4{,}454}\\\\ &\\mathllap{-}\\underline{4{,}000}&800\\\\ &454\\\\ &\\mathllap{-}\\underline{\\blueE{400}}&\\purpleD{80}&\\maroonD{5} \\times \\purpleD{80} = \\blueE{400}\\\\ &54\\\\ \\end{array}$  We have $54$ left.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's divide $54$ into $\\purpleD{10}$ more fives.  $\\begin{array}{rr|rl} \\maroonD{5}&\\overline{\\Big)4{,}454}\\\\ &\\mathllap{-}\\underline{4{,}000}&800\\\\ &454\\\\ &\\mathllap{-}\\underline{400}&80\\\\ &54\\\\ &\\mathllap{-}\\underline{\\blueE{50}}&\\purpleD{10}&\\maroonD{5} \\times \\purpleD{10} = \\blueE{50}\\\\ &4 \\end{array}$  We have $4$ left. That is less than $5$, so we'll stop dividing.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Now, let's add all of the partial quotients to find our total quotient.   $\\begin{array}{rr|rl} {5}&\\overline{\\Big)4{,}454}\\\\ &\\mathllap{-}\\underline{4{,}000}&\\purpleD{800}\\\\ &454\\\\ &\\mathllap{-}\\underline{400}&\\purpleD{80}\\\\ &54\\\\ &\\mathllap{-}\\underline{50}&\\underline{{}+\\purpleD{10}}\\\\ &\\goldE{4}&\\greenE{890} \\end{array}$  $\\purpleD{800} + \\purpleD{80} + \\purpleD{10}= \\greenE{890}$. There is a remainder of $\\goldE{4}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\greenE{890}&\\text{ remainder }\\goldE{4}\\\\ 5\\overline{\\Big)4{,}454}& \\end{align}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "0 in quotient, divisor<=5"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  $416\\div3=$  remainder",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "2",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To divide larger numbers, we can split them into smaller numbers that we already know how to divide.  Let's think of a few multiples of $3$ that may be useful:  - $3 \\times 3 = 9$ - $3 \\times 5 = 15$ - $3 \\times 8 = 24$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "What multiple of $3$ is less than $416$?  $\\begin{array}{rr} {3}&\\overline{\\Big)416} \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's start by dividing $416$ into $\\purpleD{100}$ threes.  $\\begin{array}{rr|rl} \\maroonD{3}&\\overline{\\Big)416}\\\\ &\\mathllap{-}\\underline{\\blueE{300}}&\\purpleD{100}&\\maroonD{3} \\times \\purpleD{100} = \\blueE{300}\\\\ &116 \\end{array}$  We have $116$ left.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's divide $116$ into $\\purpleD{30}$ more threes.  $\\begin{array}{rr|rl} \\maroonD{3}&\\overline{\\Big)416}\\\\ &\\mathllap{-}\\underline{300}&100\\\\ &116\\\\ &\\mathllap{-}\\underline{\\blueE{90}}&\\purpleD{30}&\\maroonD{3} \\times \\purpleD{30} = \\blueE{90}\\\\ &26 \\end{array}$  We have $26$ left.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's divide $26$ into $\\purpleD{8}$ more threes.  $\\begin{array}{rr|rl} \\maroonD{3}&\\overline{\\Big)416}\\\\ &\\mathllap{-}\\underline{300}&100\\\\ &116\\\\ &\\mathllap{-}\\underline{90}&30\\\\ &26\\\\ &\\mathllap{-}\\underline{\\blueE{24}}&\\purpleD{8}&\\maroonD{3} \\times \\purpleD{8} = \\blueE{24}\\\\ &2 \\end{array}$  We have $2$ left. That is less than $3$, so we'll stop dividing.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Now, let's add all of the partial quotients to find our total quotient.   $\\begin{array}{rr|rl} {3}&\\overline{\\Big)416}\\\\ &\\mathllap{-}\\underline{300}&\\purpleD{100}\\\\ &116\\\\ &\\mathllap{-}\\underline{90}&\\purpleD{30}\\\\ &26\\\\ &\\mathllap{-}\\underline{24}&\\underline{{}+\\purpleD{8}}\\\\ &\\goldE{2}&\\greenE{138} \\end{array}$  $\\purpleE{100} + \\purpleE{30} + \\purpleE{8}= \\greenE{138}$. There is a remainder of $\\goldE{2}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$416\\div3=\\greenE{138}$ remainder $\\goldE{2}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Remainder, divisor<=5"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  $123\\div5=$  remainder",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "3",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To divide larger numbers, we can split them into smaller numbers that we already know how to divide.  Let's think of a few multiples of $5$ that may be useful:  - $5 \\times 2 = 10$ - $5 \\times 4 = 20$ - $5 \\times 8 = 40$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "What multiple of $5$ is less than $123$?  $\\begin{array}{rr} {5}&\\overline{\\Big)123} \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's start by dividing $123$ into $\\purpleD{20}$ fives.  $\\begin{array}{rr|rl} \\maroonD{5}&\\overline{\\Big)123}\\\\ &\\mathllap{-}\\underline{\\blueE{100}}&\\purpleD{20}&\\maroonD{5} \\times \\purpleD{20} = \\blueE{100}\\\\ &23\\\\ \\end{array}$  We have $23$ left.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's divide $23$ into $\\purpleD{4}$ more fives.  $\\begin{array}{rr|rl} \\maroonD{5}&\\overline{\\Big)123}\\\\ &\\mathllap{-}\\underline{100}&20\\\\ &23\\\\ &\\mathllap{-}\\underline{\\blueE{20}}&\\purpleD{4}&\\maroonD{5} \\times \\purpleD{4} = \\blueE{20}\\\\ &3 \\end{array}$  We have $3$ left. That is less than $5$, so we'll stop dividing.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Now, let's add all of the partial quotients to find our total quotient.   $\\begin{array}{rr|rl} {5}&\\overline{\\Big)123}\\\\ &\\mathllap{-}\\underline{100}&\\purpleD{20}\\\\ &23\\\\ &\\mathllap{-}\\underline{20}&\\underline{{}+\\purpleD{4}}\\\\ &\\goldE{3}&\\greenE{24}\\\\ \\end{array}$  $\\purpleD{20} + \\purpleD{4}= \\greenE{24}$. There is a remainder of $\\goldE{3}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$123\\div5=\\greenE{24}$ remainder $\\goldE{3}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Remainder, divisor<=5"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  $\\phantom{0}$ remainder    $4\\overline{\\Big)3{,}874}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "2",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To divide larger numbers, we can split them into smaller numbers that we already know how to divide.  Let's think of a few multiples of $4$ that may be useful:  - $4 \\times 2 = 8$ - $4 \\times 5 = 20$ - $4 \\times 9 = 36$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "What multiple of $4$ is less than $3{,}874$?  $\\begin{array}{rr} {4}&\\overline{\\Big)3{,}874} \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's start by dividing $3{,}874$ into $\\purpleD{900}$ fours.  $\\begin{array}{rr|rl} \\maroonD{4}&\\overline{\\Big)3{,}874}\\\\ &\\mathllap{-}\\underline{\\blueE{3{,}600}}&\\purpleD{900}&\\maroonD{4} \\times \\purpleD{900} = \\blueE{3{,}600}\\\\ &274\\\\ \\end{array}$  We have $274$ left.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's divide $274$ into $\\purpleD{50}$ more fours.  $\\begin{array}{rr|rl} \\maroonD{4}&\\overline{\\Big)3{,}874}\\\\ &\\mathllap{-}\\underline{3{,}600}&900\\\\ &274\\\\ &\\mathllap{-}\\underline{\\blueE{200}}&\\purpleD{50}&\\maroonD{4} \\times \\purpleD{50} = \\blueE{200}\\\\ &74 \\end{array}$  We have $74$ left.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's divide $74$ into $\\purpleD{10}$ more fours.  $\\begin{array}{rr|rl} \\maroonD{4}&\\overline{\\Big)3{,}874}\\\\ &\\mathllap{-}\\underline{3{,}600}&900\\\\ &274\\\\ &\\mathllap{-}\\underline{200}&50\\\\ &74\\\\ &\\mathllap{-}\\underline{\\blueE{40}}&\\purpleD{10}&\\maroonD{4} \\times \\purpleD{10} = \\blueE{40}\\\\ &34 \\end{array}$  We have $34$ left.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's divide $34$ into $\\purpleD{8}$ more fours because $8\\times 4=32$.  $\\begin{array}{rr|rl} \\maroonD{4}&\\overline{\\Big)3{,}874}\\\\ &\\mathllap{-}\\underline{3{,}600}&900\\\\ &274\\\\ &\\mathllap{-}\\underline{200}&50\\\\ &74\\\\ &\\mathllap{-}\\underline{40}&10\\\\ &34\\\\ &\\mathllap{-}\\underline{\\blueE{32}}&\\purpleD{8}&\\maroonD{4} \\times \\purpleD{8} = \\blueE{32}\\\\ &2 \\end{array}$  We have $2$ left. That is less than $4$, so we'll stop dividing.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Now, let's add all of the partial quotients to find our total quotient.   $\\begin{array}{rr|rl} {4}&\\overline{\\Big)3{,}874}\\\\ &\\mathllap{-}\\underline{3{,}600}&\\purpleD{900}\\\\ &274\\\\ &\\mathllap{-}\\underline{200}&\\purpleD{50}\\\\ &74\\\\ &\\mathllap{-}\\underline{40}&\\purpleD{10}\\\\ &34\\\\ &\\mathllap{-}\\underline{32}&\\underline{{}+\\purpleD{8}}\\\\ &\\goldE{2}&\\greenE{968} \\end{array}$  $\\purpleD{900} + \\purpleD{50} + \\purpleD{10} + \\purpleD{8}= \\greenE{968}$. There is a remainder of $\\goldE{2}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\greenE{968}&\\text{ remainder }\\goldE{2}\\\\ 4\\overline{\\Big)3{,}874}& \\end{align}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Remainder, divisor<=5"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  $\\phantom{0}$ remainder    $2\\overline{\\Big)2{,}367}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "1",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To divide larger numbers, we can split them into smaller numbers that we already know how to divide.  Let's think of a few multiples of $2$ that may be useful:  - $2 \\times 3 = 6$ - $2 \\times 5 = 10$ - $2 \\times 8 = 16$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "What multiple of $2$ is less than $2{,}367$?  $\\begin{array}{rr} {2}&\\overline{\\Big)2{,}367} \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's start by dividing $2{,}367$ into $\\purpleD{1{,}000}$ twos.  $\\begin{array}{rr|rl} \\maroonD{2}&\\overline{\\Big)2{,}367}\\\\ &\\mathllap{-}\\underline{\\blueE{2{,}000}}&\\purpleD{1{,}000}&\\maroonD{2} \\times \\purpleD{1{,}000} = \\blueE{2{,}000}\\\\ &367 \\end{array}$  We have $367$ left.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's divide $367$ into $\\purpleD{100}$ more twos.  $\\begin{array}{rr|rl} \\maroonD{2}&\\overline{\\Big)2{,}367}\\\\ &\\mathllap{-}\\underline{2{,}000}&1{,}000\\\\ &367\\\\ &\\mathllap{-}\\underline{\\blueE{200}}&\\purpleD{100}&\\maroonD{2} \\times \\purpleD{100} = \\blueE{200}\\\\ &167 \\end{array}$  We have $167$ left.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's divide $167$ into $\\purpleD{80}$ more twos.  $\\begin{array}{rr|rl} \\maroonD{2}&\\overline{\\Big)2{,}367}\\\\ &\\mathllap{-}\\underline{2{,}000}&1{,}000\\\\ &367\\\\ &\\mathllap{-}\\underline{200}&100\\\\ &167\\\\ &\\mathllap{-}\\underline{\\blueE{160}}&\\purpleD{80}&\\maroonD{2} \\times \\purpleD{80} = \\blueE{160}\\\\ &7 \\end{array}$  We have $7$ left.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's divide $7$ into $\\purpleD{3}$ more twos.  $\\begin{array}{rr|rl} \\maroonD{2}&\\overline{\\Big)2{,}367}\\\\ &\\mathllap{-}\\underline{2{,}000}&1{,}000\\\\ &367\\\\ &\\mathllap{-}\\underline{200}&100\\\\ &167\\\\ &\\mathllap{-}\\underline{160}&80\\\\ &7\\\\ &\\mathllap{-}\\underline{\\blueE{6}}&\\purpleD{3}&\\maroonD{2} \\times \\purpleD{3} = \\blueE{6}\\\\ &1\\\\ \\end{array}$  We have $1$ left. That is less than $2$, so we'll stop dividing.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Now, let's add all of the partial quotients to find our total quotient.   $\\begin{array}{rr|rl} {2}&\\overline{\\Big)2{,}367}\\\\ &\\mathllap{-}\\underline{2{,}000}&\\purpleD{1{,}000}\\\\ &367\\\\ &\\mathllap{-}\\underline{200}&\\purpleD{100}\\\\ &167\\\\ &\\mathllap{-}\\underline{160}&\\purpleD{80}\\\\ &7\\\\ &\\mathllap{-}\\underline{6}&\\underline{{}+\\purpleD{3}}\\\\ &\\goldE{1}&\\greenE{1{,}183} \\end{array}$  $\\purpleD{1{,}000} + \\purpleD{100} + \\purpleD{80} + \\purpleD{3}= \\greenE{1{,}183}$. There is a remainder of $\\goldE{1}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\greenE{1{,}183}&\\text{ remainder }\\goldE{1}\\\\ 2\\overline{\\Big)2{,}367}& \\end{align}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Remainder, divisor<=5"
+                    }
+                }
+            }
+        }
+    ]
+}

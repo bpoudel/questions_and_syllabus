@@ -1,0 +1,963 @@
+{
+    "standard_metadata": {
+        "standard_id": "5.NF.A.1",
+        "standard_description": "Add and subtract fractions with unlike denominators (including mixed numbers) by replacing given fractions with equivalent fractions in such a way as to produce an equivalent sum or difference of fractions with like denominators.",
+        "standard_title": "Add and subtract fractions",
+        "standard_url": "https://www.khanacademy.org/math/cc-fifth-grade-math/imp-fractions-3/imp-adding-and-subtracting-fractions-with-unlike-denominators/e/adding-and-subtracting-fractions-with-unlike-denominators"
+    },
+    "id": "xae374fee",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Solve: **  $\\dfrac{1}{4} + \\dfrac{3}{5} - \\dfrac{3}{10} = $",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.55",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's look at the multiples of each denominator and see which multiples they have in common.  Denominator | Multiples :-: | :-: $\\blueD{4}$ | $4, 8, 12, 16, \\underline{\\greenD{20}}$ $\\maroonD{5}$ | $5, 10, 15, \\underline{\\greenD{20}}$ $\\goldE{10}$| $10, \\underline{\\greenD{20}}, 30$  The least common multiple is $\\greenD{20}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's use multiplication to make each fraction have a denominator of $20$.  $\\begin{align} &\\blueD{\\dfrac{1}{4}}=\\dfrac{\\blueD{1} \\times 5}{\\blueD{4} \\times 5} = {\\dfrac\\blueD{5}\\blueD{20}}\\\\\\\\ &\\maroonD{\\dfrac{3}{5}}=\\dfrac{\\maroonD{3} \\times 4}{\\maroonD{5} \\times 4} = {\\dfrac\\maroonD{12}\\maroonD{20}}\\\\\\\\ &\\goldE{\\dfrac{3}{10}}=\\dfrac{\\goldE{3} \\times 2}{\\goldE{10} \\times 2} = {\\dfrac\\goldE{6}\\goldE{20}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} &\\blueD{\\dfrac{1}{4}} + \\maroonD{\\dfrac{3}{5}} - \\goldE{\\dfrac{3}{10}}\\\\\\\\ ={}& \\blueD{\\dfrac{5}{20}} + \\maroonD{\\dfrac{12}{20}} - \\goldE{\\dfrac{6}{20}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} &\\blueD{\\dfrac{1}{4}} + \\maroonD{\\dfrac{3}{5}} - \\goldE{\\dfrac{3}{10}}\\\\\\\\ ={}& \\blueD{\\dfrac{5}{20}} + \\maroonD{\\dfrac{12}{20}} - \\goldE{\\dfrac{6}{20}}\\\\\\\\ ={}&\\dfrac{\\blueD5 + \\maroonD{12} - \\goldE{6}}{20} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} &\\blueD{\\dfrac{1}{4}} + \\maroonD{\\dfrac{3}{5}} - \\goldE{\\dfrac{3}{10}}\\\\\\\\ ={}& \\blueD{\\dfrac{5}{20}} + \\maroonD{\\dfrac{12}{20}} - \\goldE{\\dfrac{6}{20}}\\\\\\\\ ={}&\\dfrac{\\blueD5 + \\maroonD{12} - \\goldE{6}}{20}\\\\\\\\ ={}&\\dfrac{17 - \\goldE6}{20} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} &\\blueD{\\dfrac{1}{4}} + \\maroonD{\\dfrac{3}{5}} - \\goldE{\\dfrac{3}{10}}\\\\\\\\ ={}& \\blueD{\\dfrac{5}{20}} + \\maroonD{\\dfrac{12}{20}} - \\goldE{\\dfrac{6}{20}}\\\\\\\\ ={}&\\dfrac{\\blueD5 + \\maroonD{12} - \\goldE{6}}{20}\\\\\\\\ ={}&\\dfrac{17 - \\goldE6}{20}\\\\\\\\ ={}&\\dfrac{11}{20} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\dfrac{1}{4} + \\dfrac{3}{5} - \\dfrac{3}{10} = \\dfrac{11}{20}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3 addends and subtrahends"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Solve: **  $\\dfrac{3}{5} + \\dfrac{7}{10} - \\dfrac{1}{2} = $",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.8",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's look at the multiples of each denominator and see which multiples they have in common.  Denominator | Multiples :-: | :-: $\\blueD{5}$ | $5, \\underline{\\greenD{10}}, 15, 20$ $\\maroonD{10}$ | $\\underline{\\greenD{10}}, 20, 30$ $\\goldE{2}$| $2, 4, 6, 8, \\underline{\\greenD{10}}$  The least common multiple is $\\greenD{10}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's use multiplication to make each fraction have a denominator of $10$.  $\\begin{align} &\\blueD{\\dfrac{3}{5}}=\\dfrac{\\blueD{3} \\times 2}{\\blueD{5} \\times 2} = {\\dfrac\\blueD{6}\\blueD{10}}\\\\\\\\ &\\maroonD{\\dfrac{7}{10}}\\\\\\\\ &\\goldE{\\dfrac{1}{2}}=\\dfrac{\\goldE{1} \\times 5}{\\goldE{2} \\times 5} = {\\dfrac\\goldE{5}\\goldE{10}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} &\\blueD{\\dfrac{3}{5}} + \\maroonD{\\dfrac{7}{10}} - \\goldE{\\dfrac{1}{2}}\\\\\\\\ ={}& \\blueD{\\dfrac{6}{10}} + \\maroonD{\\dfrac{7}{10}} - \\goldE{\\dfrac{5}{10}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} &\\blueD{\\dfrac{3}{5}} + \\maroonD{\\dfrac{7}{10}} - \\goldE{\\dfrac{1}{2}}\\\\\\\\ ={}& \\blueD{\\dfrac{6}{10}} + \\maroonD{\\dfrac{7}{10}} - \\goldE{\\dfrac{5}{10}}\\\\\\\\ ={}&\\dfrac{\\blueD6 + \\maroonD{7} - \\goldE{5}}{10} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} &\\blueD{\\dfrac{3}{5}} + \\maroonD{\\dfrac{7}{10}} - \\goldE{\\dfrac{1}{2}}\\\\\\\\ ={}& \\blueD{\\dfrac{6}{10}} + \\maroonD{\\dfrac{7}{10}} - \\goldE{\\dfrac{5}{10}}\\\\\\\\ ={}&\\dfrac{\\blueD6 + \\maroonD{7} - \\goldE{5}}{10}\\\\\\\\ ={}&\\dfrac{13 - \\goldE5}{10} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} &\\blueD{\\dfrac{3}{5}} + \\maroonD{\\dfrac{7}{10}} - \\goldE{\\dfrac{1}{2}}\\\\\\\\ ={}& \\blueD{\\dfrac{6}{10}} + \\maroonD{\\dfrac{7}{10}} - \\goldE{\\dfrac{5}{10}}\\\\\\\\ ={}&\\dfrac{\\blueD6 + \\maroonD{7} - \\goldE{5}}{10}\\\\\\\\ ={}&\\dfrac{13 - \\goldE5}{10}\\\\\\\\ ={}&\\dfrac{8}{10} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\dfrac35 + \\dfrac{7}{20} - \\dfrac{1}{2} = \\dfrac{8}{10}$  $\\dfrac8{10}$ can also be written as $\\dfrac45$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3 addends and subtrahends"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Solve: **  $\\dfrac{3}{4} + \\dfrac{1}{6} - \\dfrac{2}{3} = $",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.25",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's look at the multiples of each denominator and see which multiples they have in common.  Denominator | Multiples :-: | :-: $\\blueD{4}$ | $4, 8, \\underline{\\greenD{12}}$ $\\maroonD{6}$ | $6, \\underline{\\greenD{12}}, 18$ $\\goldE{3}$| $3, 6, 9, \\underline{\\greenD{12}}$  The least common multiple is $\\greenD{12}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's use multiplication to make each fraction have a denominator of $12$.  $\\begin{align} &\\blueD{\\dfrac{3}{4}}=\\dfrac{\\blueD{3} \\times 3}{\\blueD{4} \\times 3} = {\\dfrac\\blueD{9}\\blueD{12}}\\\\\\\\ &\\maroonD{\\dfrac{1}{6}}=\\dfrac{\\maroonD{1} \\times 2}{\\maroonD{6} \\times2} = {\\dfrac\\maroonD{2}\\maroonD{12}}\\\\\\\\ &\\goldE{\\dfrac{2}{3}}=\\dfrac{\\goldE{2} \\times 4}{\\goldE{3} \\times4} = {\\dfrac\\goldE{8}\\goldE{12}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} &\\blueD{\\dfrac{3}{4}} + \\maroonD{\\dfrac{1}{6}} - \\goldE{\\dfrac{2}{3}}\\\\\\\\ ={}& \\blueD{\\dfrac{9}{12}} + \\maroonD{\\dfrac{2}{12}} - \\goldE{\\dfrac{8}{12}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} &\\blueD{\\dfrac{3}{4}} + \\maroonD{\\dfrac{1}{6}} - \\goldE{\\dfrac{2}{3}}\\\\\\\\ ={}& \\blueD{\\dfrac{9}{12}} + \\maroonD{\\dfrac{2}{12}} - \\goldE{\\dfrac{8}{12}}\\\\\\\\ ={}&\\dfrac{\\blueD9 + \\maroonD{2} - \\goldE{8}}{12} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} &\\blueD{\\dfrac{3}{4}} + \\maroonD{\\dfrac{1}{6}} - \\goldE{\\dfrac{2}{3}}\\\\\\\\ ={}& \\blueD{\\dfrac{9}{12}} + \\maroonD{\\dfrac{2}{12}} - \\goldE{\\dfrac{8}{12}}\\\\\\\\ ={}&\\dfrac{\\blueD9 + \\maroonD{2} - \\goldE{8}}{12}\\\\\\\\ ={}&\\dfrac{11 - \\goldE8}{12} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} &\\blueD{\\dfrac{3}{4}} + \\maroonD{\\dfrac{1}{6}} - \\goldE{\\dfrac{2}{3}}\\\\\\\\ ={}& \\blueD{\\dfrac{9}{12}} + \\maroonD{\\dfrac{2}{12}} - \\goldE{\\dfrac{8}{12}}\\\\\\\\ ={}&\\dfrac{\\blueD9 + \\maroonD{2} - \\goldE{8}}{12}\\\\\\\\ ={}&\\dfrac{11 - \\goldE8}{12}\\\\\\\\ ={}&\\dfrac{3}{12} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\dfrac34 + \\dfrac{1}{6} - \\dfrac{2}{3} = \\dfrac{3}{12}$  $\\dfrac3{12}$ can also be written as $\\dfrac14$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3 addends and subtrahends"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Solve: **  $\\dfrac{1}{2} + \\dfrac{1}{3} + \\dfrac{5}{6} = $",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "1.6666666666666667",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's look at the multiples of each denominator and see which multiples they have in common.  Denominator | Multiples :-: | :-: $\\blueD{2}$ | $2, 4, \\underline{\\greenD{6}}$ $\\maroonD{3}$ | $3, \\underline{\\greenD{6}}, 9$ $\\goldE{6}$| $\\underline{\\greenD{6}}, 12, 18$  The least common multiple is $\\greenD{6}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's use multiplication to make each fraction have a denominator of $6$.  $\\begin{align} &\\blueD{\\dfrac{1}{2}}=\\dfrac{\\blueD{1} \\times 3}{\\blueD{2} \\times 3} = {\\dfrac\\blueD{3}\\blueD{6}}\\\\\\\\ &\\maroonD{\\dfrac{1}{3}}=\\dfrac{\\maroonD{1} \\times 2}{\\maroonD{3} \\times2} = {\\dfrac\\maroonD{2}\\maroonD{6}}\\\\\\\\ &\\goldE{\\dfrac{5}{6}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} &\\blueD{\\dfrac{1}{2}} + \\maroonD{\\dfrac{1}{3}} + \\goldE{\\dfrac{5}{6}}\\\\\\\\ ={}& \\blueD{\\dfrac{3}{6}} + \\maroonD{\\dfrac{2}{6}} + \\goldE{\\dfrac{5}{6}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} &\\blueD{\\dfrac{1}{2}} + \\maroonD{\\dfrac{1}{3}} + \\goldE{\\dfrac{5}{6}}\\\\\\\\ ={}& \\blueD{\\dfrac{3}{6}} + \\maroonD{\\dfrac{2}{6}} + \\goldE{\\dfrac{5}{6}}\\\\\\\\ ={}&\\dfrac{\\blueD3 + \\maroonD{2} + \\goldE{5}}{6} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} &\\blueD{\\dfrac{1}{2}} + \\maroonD{\\dfrac{1}{3}} + \\goldE{\\dfrac{5}{6}}\\\\\\\\ ={}& \\blueD{\\dfrac{3}{6}} + \\maroonD{\\dfrac{2}{6}} + \\goldE{\\dfrac{5}{6}}\\\\\\\\ ={}&\\dfrac{\\blueD3 + \\maroonD{2} + \\goldE{5}}{6}\\\\\\\\ ={}&\\dfrac{5 + \\goldE5}{6} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} &\\blueD{\\dfrac{1}{2}} + \\maroonD{\\dfrac{1}{3}} + \\goldE{\\dfrac{5}{6}}\\\\\\\\ ={}& \\blueD{\\dfrac{3}{6}} + \\maroonD{\\dfrac{2}{6}} + \\goldE{\\dfrac{5}{6}}\\\\\\\\ ={}&\\dfrac{\\blueD3 + \\maroonD{2} + \\goldE{5}}{6}\\\\\\\\ ={}&\\dfrac{5 + \\goldE5}{6}\\\\\\\\ ={}&\\dfrac{10}{6} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\dfrac12 + \\dfrac{1}{3} + \\dfrac{5}{6} = \\dfrac{10}{6}$  $\\dfrac{10}6$ can also be written as $\\dfrac53$ or $1\\dfrac23$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3 addends and subtrahends"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Solve: **  $\\dfrac{5}{6} + \\dfrac{3}{4} + \\dfrac{2}{3} = $",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "2.25",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's look at the multiples of each denominator and see which multiples they have in common.  Denominator | Multiples :-: | :-: $\\blueD{6}$ | $6, \\underline{\\greenD{12}}, 18$ $\\maroonD{4}$ | $4, 8, \\underline{\\greenD{12}}, 16$ $\\goldE{3}$| $3, 6, 9, \\underline{\\greenD{12}}$  The least common multiple is $\\greenD{12}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's use multiplication to make each fraction have a denominator of $12$.  $\\begin{align} &\\blueD{\\dfrac{5}{6}}=\\dfrac{\\blueD{5} \\times 2}{\\blueD{6} \\times2} = {\\dfrac\\blueD{10}\\blueD{12}}\\\\\\\\ &\\maroonD{\\dfrac{3}{4}}=\\dfrac{\\maroonD{3} \\times 3}{\\maroonD{4} \\times3} = {\\dfrac\\maroonD{9}\\maroonD{12}}\\\\\\\\ &\\goldE{\\dfrac{2}{3}}=\\dfrac{\\goldE{2} \\times 4}{\\goldE{3} \\times4} = {\\dfrac\\goldE{8}\\goldE{12}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} &\\blueD{\\dfrac{5}{6}} + \\maroonD{\\dfrac{3}{4}} + \\goldE{\\dfrac{2}{3}}\\\\\\\\ ={}& \\blueD{\\dfrac{10}{12}} + \\maroonD{\\dfrac{9}{12}} + \\goldE{\\dfrac{8}{12}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} &\\blueD{\\dfrac{5}{6}} + \\maroonD{\\dfrac{3}{4}} + \\goldE{\\dfrac{2}{3}}\\\\\\\\ ={}& \\blueD{\\dfrac{10}{12}} + \\maroonD{\\dfrac{9}{12}} + \\goldE{\\dfrac{8}{12}}\\\\\\\\ ={}&\\dfrac{\\blueD{10} + \\maroonD{9} + \\goldE{8}}{12} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} &\\blueD{\\dfrac{5}{6}} + \\maroonD{\\dfrac{3}{4}} + \\goldE{\\dfrac{2}{3}}\\\\\\\\ ={}& \\blueD{\\dfrac{10}{12}} + \\maroonD{\\dfrac{9}{12}} + \\goldE{\\dfrac{8}{12}}\\\\\\\\ ={}&\\dfrac{\\blueD{10} + \\maroonD{9} + \\goldE{8}}{12}\\\\\\\\ ={}&\\dfrac{19 + \\goldE8}{12} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} &\\blueD{\\dfrac{5}{6}} + \\maroonD{\\dfrac{3}{4}} + \\goldE{\\dfrac{2}{3}}\\\\\\\\ ={}& \\blueD{\\dfrac{10}{12}} + \\maroonD{\\dfrac{9}{12}} + \\goldE{\\dfrac{8}{12}}\\\\\\\\ ={}&\\dfrac{\\blueD{10} + \\maroonD{9} + \\goldE{8}}{12}\\\\\\\\ ={}&\\dfrac{19 + \\goldE8}{12}\\\\\\\\ ={}&\\dfrac{27}{12} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "${\\dfrac{5}{6}} +{\\dfrac{3}{4}} +{\\dfrac{2}{3}} = \\dfrac{27}{12}$  $\\dfrac{27}{12}$ can also be written as $\\dfrac{9}{4}$, or $2\\dfrac14$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3 addends and subtrahends"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Solve: **  $\\dfrac{3}{2} - \\dfrac{5}{6} - \\dfrac{2}{9} = $",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.4444444444444444",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's look at the multiples of each denominator and see which multiples they have in common.  Denominator | Multiples :-: | :-: $\\blueD{2}$ | $2, 4, 6, 8, 10, 12, 14, 16, \\underline{\\greenD{18}}$ $\\maroonD{6}$ | $6, 12, \\underline{\\greenD{18}}, 24$ $\\goldE{9}$| $9, \\underline{\\greenD{18}}, 27$  The least common multiple is $\\greenD{18}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's use multiplication to make each fraction have a denominator of $18$.  $\\begin{align} &\\blueD{\\dfrac{3}{2}}=\\dfrac{\\blueD{3} \\times 9}{\\blueD{2} \\times9} = {\\dfrac\\blueD{27}\\blueD{18}}\\\\\\\\ &\\maroonD{\\dfrac{5}{6}}=\\dfrac{\\maroonD{5} \\times 3}{\\maroonD{6} \\times3} = {\\dfrac\\maroonD{15}\\maroonD{18}}\\\\\\\\ &\\goldE{\\dfrac{2}{9}}=\\dfrac{\\goldE{2} \\times 2}{\\goldE{9} \\times2} = {\\dfrac\\goldE{4}\\goldE{18}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} &\\blueD{\\dfrac{3}{2}} - \\maroonD{\\dfrac{5}{6}} - \\goldE{\\dfrac{2}{9}}\\\\\\\\ ={}& \\blueD{\\dfrac{27}{18}} - \\maroonD{\\dfrac{15}{18}} - \\goldE{\\dfrac{4}{18}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} &\\blueD{\\dfrac{3}{2}} - \\maroonD{\\dfrac{5}{6}} - \\goldE{\\dfrac{2}{9}}\\\\\\\\ ={}& \\blueD{\\dfrac{27}{18}} - \\maroonD{\\dfrac{15}{18}} - \\goldE{\\dfrac{4}{18}}\\\\\\\\ ={}&\\dfrac{\\blueD{27} - \\maroonD{15} - \\goldE{4}}{18} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} &\\blueD{\\dfrac{3}{2}} - \\maroonD{\\dfrac{5}{6}} - \\goldE{\\dfrac{2}{9}}\\\\\\\\ ={}& \\blueD{\\dfrac{27}{18}} - \\maroonD{\\dfrac{15}{18}} - \\goldE{\\dfrac{4}{18}}\\\\\\\\ ={}&\\dfrac{\\blueD{27} - \\maroonD{15} - \\goldE{4}}{18}\\\\\\\\ ={}&\\dfrac{12 - \\goldE4}{18} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} &\\blueD{\\dfrac{3}{2}} - \\maroonD{\\dfrac{5}{6}} - \\goldE{\\dfrac{2}{9}}\\\\\\\\ ={}& \\blueD{\\dfrac{27}{18}} - \\maroonD{\\dfrac{15}{18}} - \\goldE{\\dfrac{4}{18}}\\\\\\\\ ={}&\\dfrac{\\blueD{27} - \\maroonD{15} - \\goldE{4}}{18}\\\\\\\\ ={}&\\dfrac{12 - \\goldE4}{18}\\\\\\\\ ={}&\\dfrac{8}{18} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "${\\dfrac{3}{2}} - {\\dfrac{5}{6}} - {\\dfrac{2}{9}} = \\dfrac{8}{18}$  $ \\dfrac{8}{18}$ can also be written as $\\dfrac{4}{9}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3 addends and subtrahends"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Solve: **  $\\dfrac{5}{4} - \\dfrac{1}{3} - \\dfrac{1}{2} = $",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.4166666666666667",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's look at the multiples of each denominator and see which multiples they have in common.  Denominator | Multiples :-: | :-: $\\blueD{4}$ | $4, 8, \\underline{\\greenD{12}}, 16$ $\\maroonD{3}$ | $3, 6, 9, \\underline{\\greenD{12}}, 15$ $\\goldE{2}$| $2, 4, 6, 8, 10, \\underline{\\greenD{12}}$  The least common multiple is $\\greenD{12}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's use multiplication to make each fraction have a denominator of $12$.  $\\begin{align} &\\blueD{\\dfrac{5}{4}}=\\dfrac{\\blueD{5} \\times 3}{\\blueD{4} \\times3} = {\\dfrac\\blueD{15}\\blueD{12}}\\\\\\\\ &\\maroonD{\\dfrac{1}{3}}=\\dfrac{\\maroonD{1} \\times 4}{\\maroonD{3} \\times4} = {\\dfrac\\maroonD{4}\\maroonD{12}}\\\\\\\\ &\\goldE{\\dfrac{1}{2}}=\\dfrac{\\goldE{1} \\times 6}{\\goldE{2} \\times6} = {\\dfrac\\goldE{6}\\goldE{12}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} &\\blueD{\\dfrac{5}{4}} - \\maroonD{\\dfrac{1}{3}} - \\goldE{\\dfrac{1}{2}}\\\\\\\\ ={}& \\blueD{\\dfrac{15}{12}} - \\maroonD{\\dfrac{4}{12}} - \\goldE{\\dfrac{6}{12}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} &\\blueD{\\dfrac{5}{4}} - \\maroonD{\\dfrac{1}{3}} - \\goldE{\\dfrac{1}{2}}\\\\\\\\ ={}& \\blueD{\\dfrac{15}{12}} - \\maroonD{\\dfrac{4}{12}} - \\goldE{\\dfrac{6}{12}}\\\\\\\\ ={}&\\dfrac{\\blueD{15} - \\maroonD{4} - \\goldE{6}}{12} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} &\\blueD{\\dfrac{5}{4}} - \\maroonD{\\dfrac{1}{3}} - \\goldE{\\dfrac{1}{2}}\\\\\\\\ ={}& \\blueD{\\dfrac{15}{12}} - \\maroonD{\\dfrac{4}{12}} - \\goldE{\\dfrac{6}{12}}\\\\\\\\ ={}&\\dfrac{\\blueD{15} - \\maroonD{4} - \\goldE{6}}{12}\\\\\\\\ ={}&\\dfrac{11-\\goldE{6}}{12} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} &\\blueD{\\dfrac{5}{4}} - \\maroonD{\\dfrac{1}{3}} - \\goldE{\\dfrac{1}{2}}\\\\\\\\ ={}& \\blueD{\\dfrac{15}{12}} - \\maroonD{\\dfrac{4}{12}} - \\goldE{\\dfrac{6}{12}}\\\\\\\\ ={}&\\dfrac{\\blueD{15} - \\maroonD{4} - \\goldE{6}}{12}\\\\\\\\ ={}&\\dfrac{11-\\goldE{6}}{12}\\\\\\\\ ={}&\\dfrac5{12} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\blueD{\\dfrac{5}{4}} - \\maroonD{\\dfrac{1}{3}} - \\goldE{\\dfrac{1}{2}} = \\dfrac{5}{12}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3 addends and subtrahends"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Solve: **  $\\dfrac{7}{8} - \\dfrac{1}{4} - \\dfrac{1}{2} = $",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.125",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's look at the multiples of each denominator and see which multiples they have in common.  Denominator | Multiples :-: | :-: $\\blueD{8}$ | $\\underline{\\greenD{8}}, 16, 24$ $\\maroonD{4}$ | $4, \\underline{\\greenD{8}}, 12$ $\\goldE{2}$| $2, 4, 6, \\underline{\\greenD{8}}$  The least common multiple is $\\greenD{8}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's use multiplication to make each fraction have a denominator of $8$.  $\\begin{align} &\\blueD{\\dfrac{7}{8}}\\\\\\\\ &\\maroonD{\\dfrac{1}{4}}=\\dfrac{\\maroonD{1} \\times 2}{\\maroonD{4} \\times2} = {\\dfrac\\maroonD{2}\\maroonD{8}}\\\\\\\\ &\\goldE{\\dfrac{1}{2}}=\\dfrac{\\goldE{1} \\times 4}{\\goldE{2} \\times4} = {\\dfrac\\goldE{4}\\goldE{8}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} &\\blueD{\\dfrac{7}{8}} - \\maroonD{\\dfrac{1}{4}} - \\goldE{\\dfrac{1}{2}}\\\\\\\\ ={}& \\blueD{\\dfrac{7}{8}} - \\maroonD{\\dfrac{2}{8}} - \\goldE{\\dfrac{4}{8}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} &\\blueD{\\dfrac{7}{8}} - \\maroonD{\\dfrac{1}{4}} - \\goldE{\\dfrac{1}{2}}\\\\\\\\ ={}& \\blueD{\\dfrac{7}{8}} - \\maroonD{\\dfrac{2}{8}} - \\goldE{\\dfrac{4}{8}}\\\\\\\\ ={}&\\dfrac{\\blueD{7} - \\maroonD{2} - \\goldE{4}}{8} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} &\\blueD{\\dfrac{7}{8}} - \\maroonD{\\dfrac{1}{4}} - \\goldE{\\dfrac{1}{2}}\\\\\\\\ ={}& \\blueD{\\dfrac{7}{8}} - \\maroonD{\\dfrac{2}{8}} - \\goldE{\\dfrac{4}{8}}\\\\\\\\ ={}&\\dfrac{\\blueD{7} - \\maroonD{2} - \\goldE{4}}{8}\\\\\\\\ ={}&\\dfrac{5-\\goldE{4}}{8} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} &\\blueD{\\dfrac{7}{8}} - \\maroonD{\\dfrac{1}{4}} - \\goldE{\\dfrac{1}{2}}\\\\\\\\ ={}& \\blueD{\\dfrac{7}{8}} - \\maroonD{\\dfrac{2}{8}} - \\goldE{\\dfrac{4}{8}}\\\\\\\\ ={}&\\dfrac{\\blueD{7} - \\maroonD{2} - \\goldE{4}}{8}\\\\\\\\ ={}&\\dfrac{5-\\goldE{4}}{8}\\\\\\\\ ={}&\\dfrac18 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\blueD{\\dfrac{7}{8}} - \\maroonD{\\dfrac{1}{4}} - \\goldE{\\dfrac{1}{2}} = \\dfrac{1}{8}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3 addends and subtrahends"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Look at the equation below.   $\\square + \\dfrac{1}{16} = \\dfrac{3}{2}$  **Which fraction makes the addition equation true?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$\\dfrac{2}{14}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{21}{16}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{23}{16}$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's look at the multiples of each denominator and see which multiples they have in common.  Denominator | Multiples :-: | :-: $\\blueE{2}$ | $2, 4,6,8, 10, 12, 14, \\underline{\\tealE{16}}$ $\\maroonE{16}$ | $\\underline{\\tealE{16}}, 32$   The least common multiple is $\\tealE{16}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's use multiplication to make $\\blueE{\\dfrac{3}{2}}$ have a denominator of $16$.  $\\blueE{\\dfrac{3}{2}}=\\dfrac{\\blueE{3} \\times 8}{\\blueE{2} \\times 8} = {\\dfrac\\blueE{24}\\blueE{16}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "So, $\\boxed{\\phantom{\\dfrac14}} + \\maroonE{\\dfrac{1}{16}} = \\blueE{\\dfrac{24}{16}}$  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A tape diagram with two tapes of equal length side by side. Each tape is divided into 16 equal parts for a total of 32 equal parts. The first 23 parts are shaded brown. The next 1 part is shaded pink. Above the tape, a curved bracket across the first 23 parts is labeled with an empty answer box. Across the next 1 part is a curved bracket labeled one sixteenth. Below the tape, a curved bracket across the shaded parts is labeled twenty four-sixteenths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/38dbaf0e224c351d0d1fd9f40a67c7aa198d0453.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$\\boxed{\\goldE{\\dfrac{23}{16}}} + \\maroonE{\\dfrac{1}{16}} = \\blueE{\\dfrac{24}{16}}$  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A tape diagram with two tapes of equal length side by side. Each tape is divided into 16 equal parts for a total of 32 equal parts. The first 23 parts are shaded brown. The next 1 part is shaded pink. Above the tape, a curved bracket across the first 23 parts is labeled twenty three sixteenths. Across the next 1 part is a curved bracket labeled one sixteenth. Below the tape, a curved bracket across the shaded parts is labeled twenty four-sixteenths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/f1b67db6d4d064748ccff57d627c476cc4f51b48.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$\\boxed{\\goldE{\\dfrac{23}{16}}} + \\maroonE{\\dfrac{1}{16}} = \\blueE{\\dfrac{3}{2}}$  We can also write $\\goldE{\\dfrac{23}{16}}$ as $\\goldE{1 \\dfrac{7}{16}}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Missing addend or subtrahend"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Look at the equation below.   $\\dfrac{2}{5} + \\square = \\dfrac{7}{10}$  **Which fraction makes the addition equation true?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$\\dfrac{3}{10}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{5}{10}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{5}{5}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's look at the multiples of each denominator and see which multiples they have in common.  Denominator | Multiples :-: | :-: $\\blueE{5}$ | $5, \\underline{\\tealE{10}}, 15$ $\\maroonE{10}$ | $\\underline{\\tealE{10}}, 20, 30$   The least common multiple is $\\tealE{10}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's use multiplication to make $\\blueE{\\dfrac{2}{5}}$ have a denominator of $10$.  $\\blueE{\\dfrac{2}{5}}=\\dfrac{\\blueE{2} \\times 2}{\\blueE{5} \\times 2} = {\\dfrac\\blueE{4}\\blueE{10}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "So, $\\blueE{\\dfrac4{10}} + \\boxed{\\phantom{\\dfrac14}} = \\maroonE{\\dfrac{7}{10}}$  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A tape diagram divided into ten equal parts. The first four parts are shaded in blue. The next three parts are shaded in brown. Above the tape, a curved bracket across the first four parts is labeled four-tenths. Across the next three parts is a curved bracket labeled with an empty box. Below the tape, a curved bracket across the shaded parts is labeled seven-tenths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/a29abe3f9d025dfb2732fa1d6f4ae99315b1631c.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$\\blueE{\\dfrac4{10}} + \\boxed{\\goldE{\\dfrac3{10}}} = \\maroonE{\\dfrac{7}{10}}$  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A tape diagram divided into ten equal parts. The first four parts are shaded in blue. The next three parts are shaded in brown. Above the tape, a curved bracket across the first four parts is labeled four-tenths. Across the next three parts is a curved bracket labeled three-tenths. Below the tape, a curved bracket across the shaded parts is labeled seven-tenths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/fbf334719bcf73c087484f824eea1516a11e899f.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$\\blueE{\\dfrac4{10}} + \\boxed{\\goldE{\\dfrac3{10}}} = \\maroonE{\\dfrac{7}{10}}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Missing addend or subtrahend"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Look at the equation below.   $\\dfrac{1}{2} + \\square = \\dfrac{7}{8}$  **Which fraction makes the addition equation true?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$\\dfrac{3}{8}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{3}{4}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{6}{6}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's look at the multiples of each denominator and see which multiples they have in common.  Denominator | Multiples :-: | :-: $\\blueE{2}$ | $2, 4, 6, \\underline{\\tealE{8}}, 10$ $\\maroonE{8}$ | $\\underline{\\tealE{8}}, 16, 24$   The least common multiple is $\\tealE{8}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's use multiplication to make $\\blueE{\\dfrac{1}{2}}$ have a denominator of $8$.  $\\blueE{\\dfrac{1}{2}}=\\dfrac{\\blueE{1} \\times 4}{\\blueE{2} \\times 4} = {\\dfrac\\blueE{4}\\blueE{8}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "So, $\\blueE{\\dfrac4{8}} + \\boxed{\\phantom{\\dfrac14}} = \\maroonE{\\dfrac{7}{8}}$  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A tape diagram divided into eight equal parts. The first four parts are shaded in blue. The next three parts are shaded in brown. Above the tape, a curved bracket across the first four parts is labeled four-eighths. Across the next three parts is a curved bracket labeled with an empty box. Below the tape, a curved bracket across the shaded parts is labeled seven-eighths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/19dbf564f425b54e69d672acb8e4ae7217dd823e.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$\\blueE{\\dfrac4{8}} + \\boxed{\\goldE{\\dfrac38}} = \\maroonE{\\dfrac{7}{8}}$   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A tape diagram divided into eight equal parts. The first four parts are shaded in blue. The next three parts are shaded in brown. Above the tape, a curved bracket across the first four parts is labeled four-eighths. Across the next three parts is a curved bracket labeled three-eighths. Below the tape, a curved bracket across the shaded parts is labeled seven-eighths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/f11b314c25dfbd3107d51b638ab4f6504358b94a.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$\\blueE{\\dfrac{1}{2}} + \\boxed{\\goldE{\\dfrac{3}{8}}} = \\maroonE{\\dfrac{7}{8}}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Missing addend or subtrahend"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Look at the equation below.   $\\square + \\dfrac{1}{3} = \\dfrac{3}{4}$  **Which fraction makes the addition equation true?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$\\dfrac{3}{12}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{5}{12}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{2}{1}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's look at the multiples of each denominator and see which multiples they have in common.  Denominator | Multiples :-: | :-: $\\blueE{3}$ | $3,6, 9, \\underline{\\tealE{12}}, 15$ $\\maroonE{4}$ | $4, 8, \\underline{\\tealE{12}}, 16$   The least common multiple is $\\tealE{12}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's use multiplication to make each fraction have a denominator of $12$.  $\\blueE{\\dfrac{1}{3}}=\\dfrac{\\blueE{1} \\times 4}{\\blueE{3} \\times 4} = {\\dfrac\\blueE{4}\\blueE{12}}$  $\\maroonE{\\dfrac{3}{4}}=\\dfrac{\\maroonE{3} \\times 3}{\\maroonE{4} \\times 3} = {\\dfrac\\maroonE{9}\\maroonE{12}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "So, $\\boxed{\\phantom{\\dfrac14}} + \\blueE{\\dfrac4{12}}= \\maroonE{\\dfrac{9}{12}}$  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A tape diagram divided into twelve equal parts. The first five parts are shaded in brown. The next four parts are shaded in blue. Above the tape, a curved bracket across the first five parts is labeled with an empty answer box. Across the next four parts is a curved bracket labeled four-twelfths. Below the tape, a curved bracket across the shaded parts is labeled nine-twelfths. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/57dd93ea078b242c9d3285c94ab0c3c95dbd83f8.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$\\boxed{\\goldE{\\dfrac5{12}}} + \\blueE{\\dfrac4{12}}= \\maroonE{\\dfrac{9}{12}}$   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A tape diagram divided into twelve equal parts. The first five parts are shaded in brown. The next four parts are shaded in blue. Above the tape, a curved bracket across the first five parts is labeled five-twelfths. Across the next four parts is a curved bracket labeled four-twelfths. Below the tape, a curved bracket across the shaded parts is labeled nine-twelfths. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/e37e2cef02b15e238b8e075445bba065a061aa21.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$\\boxed{\\goldE{\\dfrac{5}{12}}} + \\blueE{\\dfrac{1}{3}} = \\maroonE{\\dfrac{3}{4}}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Missing addend or subtrahend"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Look at the equation below.   $\\square - \\dfrac{3}{4} = \\dfrac{2}{3}$  **Which fraction makes the subtraction equation true?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$\\dfrac{5}{7}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{11}{12}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{17}{12}$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's look at the multiples of each denominator and see which multiples they have in common.  Denominator | Multiples :-: | :-: $\\blueE{4}$ | $4, 8, \\underline{\\tealE{12}}, 16$ $\\maroonE{3}$ | $3, 6, 9, \\underline{\\tealE{12}}, 15$  The least common multiple is $\\tealE{12}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's use multiplication to make each fraction have a denominator of $12$.  $\\blueE{\\dfrac{3}{4}}=\\dfrac{\\blueE{3} \\times 3}{\\blueE{4} \\times 3} = {\\dfrac\\blueE{9}\\blueE{12}}$  $\\maroonE{\\dfrac{2}{3}}=\\dfrac{\\maroonE{2} \\times 4}{\\maroonE{3} \\times 4} = {\\dfrac\\maroonE{8}\\maroonE{12}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "So, $\\boxed{\\phantom{\\dfrac14}} - \\blueE{\\dfrac9{12}}= \\maroonE{\\dfrac{8}{12}}$   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A tape diagram with two tapes of equal length side by side. Each tape is divided into 12 equal parts for a total of 24 equal parts. The first 9 parts are shaded blue. The next eight parts are shaded pink. Above the tape, a curved bracket across the first 9 parts is labeled nine-twelfths. Across the next 8 parts is a curved bracket labeled eight-twelfths. Below the tape, a curved bracket across the shaded parts is labeled with an empty box. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/8aca26d7a0ae4d8f38e059cff60f094fe1546527.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$\\boxed{\\goldE{\\dfrac{17}{12}}} - \\blueE{\\dfrac9{12}}= \\maroonE{\\dfrac{8}{12}}$   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A tape diagram with two tapes of equal length side by side. Each tape is divided into 12 equal parts for a total of 24 equal parts. The first 9 parts are shaded blue. The next eight parts are shaded pink. Above the tape, a curved bracket across the first 9 parts is labeled nine-twelfths. Across the next 8 parts is a curved bracket labeled eight-twelfths. Below the tape, a curved bracket across the shaded parts is labeled seventeen-twelfths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/7b0efce100df574603fd2bd4ff1afbdb96954a0f.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$\\boxed{\\goldE{\\dfrac{17}{12}}} - \\blueE{\\dfrac{3}{4}} = \\maroonE{\\dfrac{2}{3}}$  $\\goldE{\\dfrac{17}{12}}$ can also be written as $\\goldE{1 \\dfrac{5}{12}}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Missing addend or subtrahend"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Look at the equation below.   $\\square - \\dfrac{3}{10} = \\dfrac{1}{5}$  **Which fraction makes the subtraction equation true?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$\\dfrac{4}{15}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{4}{10}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{5}{10}$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's look at the multiples of each denominator and see which multiples they have in common.  Denominator | Multiples :-: | :-: $\\blueE{10}$ | $\\underline{\\tealE{10}}, 20, 30$ $\\maroonE{5}$ | $5, \\underline{\\tealE{10}}, 15$   The least common multiple is $\\tealE{10}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's use multiplication to make $\\maroonE{\\dfrac{1}{5}}$ have a denominator of $10$.  $\\maroonE{\\dfrac{1}{5}}=\\dfrac{\\maroonE{1} \\times 2}{\\maroonE{5} \\times 2} = {\\dfrac\\maroonE{2}\\maroonE{10}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "So, $\\boxed{\\phantom{\\dfrac14}} - \\blueE{\\dfrac3{10}}= \\maroonE{\\dfrac{2}{10}}$  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A tape diagram divided into ten equal parts. The first three parts are shaded in blue. The next two parts are shaded in pink. Above the tape, a curved bracket across the first three parts is labeled three-tenths. Across the next two parts is a curved bracket labeled two-tenths. Below the tape, a curved bracket across the shaded parts is labeled with an empty box.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/be45e181d377b4c73d86a2dd4bae00b584bbbd40.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$\\boxed{\\goldE{\\dfrac{5}{10}}} - \\blueE{\\dfrac3{10}}= \\maroonE{\\dfrac{2}{10}}$   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A tape diagram divided into ten equal parts. The first three parts are shaded in blue. The next two parts are shaded in pink. Above the tape, a curved bracket across the first three parts is labeled three-tenths. Across the next two parts is a curved bracket labeled two-tenths. Below the tape, a curved bracket across the shaded parts is labeled five-tenths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d28459bbe5f1efcf34b9a96f799c5743cc63ec34.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$\\boxed{\\goldE{\\dfrac{5}{10}}} - \\blueE{\\dfrac{3}{10}} = \\maroonE{\\dfrac{1}{5}}$  $\\goldE{\\dfrac{5}{10}}$ can also be written as $\\goldE{\\dfrac{1}{2}}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Missing addend or subtrahend"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Look at the equation below.   $\\dfrac{5}{6} - \\square = \\dfrac{1}{2}$  **Which fraction makes the subtraction equation true?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$\\dfrac{1}{6}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{2}{6}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{4}{4}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's look at the multiples of each denominator and see which multiples they have in common.  Denominator | Multiples :-: | :-: $\\blueE{6}$ | $\\underline{\\tealE{6}}, 12, 18$ $\\maroonE{2}$ | $2, 4, \\underline{\\tealE{6}}, 8, 10$   The least common multiple is $\\tealE{6}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's use multiplication to make $\\maroonE{\\dfrac{1}{2}}$ have a denominator of $6$.  $\\maroonE{\\dfrac{1}{2}}=\\dfrac{\\maroonE{1} \\times 3}{\\maroonE{2} \\times 3} = {\\dfrac\\maroonE{3}\\maroonE{6}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "So, $\\blueE{\\dfrac56} - \\boxed{\\phantom{\\dfrac14}}= \\maroonE{\\dfrac{3}{6}}$    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A tape diagram divided into six equal parts. The first two parts are shaded in orange. The next three parts are shaded in pink. Above the tape, a curved bracket across the first two parts is labeled with an empty answer box. Across the next three parts is a curved bracket labeled three-sixths. Below the tape, a curved bracket across the shaded parts is labeled five-sixths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/a6734c2ce3cb710099fb09e53449530db86275a6.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$\\blueE{\\dfrac56} - \\boxed{\\goldE{\\dfrac26}} - = \\maroonE{\\dfrac{3}{6}}$   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A tape diagram divided into six equal parts. The first two parts are shaded in orange. The next three parts are shaded in pink. Above the tape, a curved bracket across the first two parts is labeled two-sixths. Across the next three parts is a curved bracket labeled three-sixths. Below the tape, a curved bracket across the shaded parts is labeled five-sixths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/66b274234f42bc286c7ff4d819302f3b7f2374c5.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "${\\blueE{\\dfrac{5}{6}}} - \\boxed{\\goldE{\\dfrac{2}{6}}} = \\maroonE{\\dfrac{1}{2}}$  $\\goldE{\\dfrac{2}{6}}$ can also be written as $\\goldE{\\dfrac{1}{3}}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Missing addend or subtrahend"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Look at the equation below.   $\\dfrac{5}{2} - \\square = \\dfrac{1}{3}$  **Which fraction makes the subtraction equation true?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$\\dfrac{12}{6}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{13}{6}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{4}{1}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's look at the multiples of each denominator and see which multiples they have in common.  Denominator | Multiples :-: | :-: $\\blueE{2}$ | $2, 4, \\underline{\\tealE{6}}$ $\\maroonE{3}$ | $3, \\underline{\\tealE{6}}, 9$   The least common multiple is $\\tealE{6}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's use multiplication to make each fraction have a denominator of $6$.  $\\blueE{\\dfrac{5}{2}}=\\dfrac{\\blueE{5} \\times 3}{\\blueE{2} \\times 3} = {\\dfrac\\blueE{15}\\blueE{6}}$  $\\maroonE{\\dfrac{1}{3}}=\\dfrac{\\maroonE{1} \\times 2}{\\maroonE{3} \\times 2} = {\\dfrac\\maroonE{2}\\maroonE{6}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "So, $\\blueE{\\dfrac{15}6} - \\boxed{\\phantom{\\dfrac14}}= \\maroonE{\\dfrac{2}{6}}$  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A tape diagram with three tapes of equal length side by side. Each tape is divided into 6 equal parts for a total of 18 equal parts. The first 13 parts are shaded brown. The next 2 parts are shaded pink. Above the tape, a curved bracket across the first 13 parts is labeled with an empty answer box. Across the next 2 parts is a curved bracket labeled two-sixths. Below the tape, a curved bracket across the shaded parts is labeled fifteen-sixths. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/b3890b0cc832841dd93b5f227890a992609bd7bf.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$\\blueE{\\dfrac{15}6} - \\boxed{\\goldE{\\dfrac{13}6}}= \\maroonE{\\dfrac{2}{6}}$   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A tape diagram with three tapes of equal length side by side. Each tape is divided into 6 equal parts for a total of 18 equal parts. The first 13 parts are shaded brown. The next 2 parts are shaded pink. Above the tape, a curved bracket across the first 13 parts is labeled thirteen-sixths. Across the next 2 parts is a curved bracket labeled two-sixths. Below the tape, a curved bracket across the shaded parts is labeled fifteen-sixths. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d032aea0de45a604a954423d9808d9a96aa5ae53.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "${\\blueE{\\dfrac{5}{2}}} - \\boxed{\\goldE{\\dfrac{13}{6}}} = \\maroonE{\\dfrac{1}{3}}$  $\\goldE{\\dfrac{13}{6}}$ can also be written as $\\goldE2\\goldE{\\dfrac{1}{6}}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Missing addend or subtrahend"
+                    }
+                }
+            }
+        }
+    ]
+}

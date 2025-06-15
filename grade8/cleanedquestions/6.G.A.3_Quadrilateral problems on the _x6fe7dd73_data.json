@@ -1,0 +1,887 @@
+{
+    "standard_metadata": {
+        "standard_id": "6.G.A.3",
+        "standard_description": "Draw polygons in the coordinate plane given coordinates for the vertices; use coordinates to find the length of a side joining points with the same first coordinate or the same second coordinate. Apply these techniques in the context of solving real-world and mathematical problems.",
+        "standard_title": "Quadrilateral problems on the coordinate plane",
+        "standard_url": "https://www.khanacademy.org/math/cc-sixth-grade-math/x0267d782:coordinate-plane/cc-6th-quadrilaterals-on-plane/e/polygons-in-the-coordinate-plane"
+    },
+    "id": "x6fe7dd73",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Does coordinate $a$ or coordinate $b$ represent a greater number in the following rectangle?**",
+                                "images": [
+                                    {
+                                        "alt": "A rectangle. The bottom, left vertex is (0, 0). The top, left vertex is (0, 4). The top, right vertex is (6, b). The bottom, right vertex is (a, 0).",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/c5b4c42a6b7a9e3655631417757a2a220fa0a509.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$a$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$b$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We know that $a=6$ because $(a, 0)$ has the same horizontal coordinate as $(6,b)$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We know that $b=4$ because $(6, b)$ has the same vertical coordinate as $(0,4)$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$6>4$, so $a>b$.  Coordinate $a$ represents a greater number.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Reasoning"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Does coordinate $x$ or coordinate $y$ represent a greater number in the following rectangle?**",
+                                "images": [
+                                    {
+                                        "alt": "A rectangle. The bottom, left vertex is (x , 3). The top, left vertex is (2, 7). The top, right vertex is (y, 7). The bottom, right vertex is (4, 3).",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/3fc1f54c8f40085c283c01cf5330b9d8cbba47d6.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$x$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$y$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We know that $x=2$ because $(x, 3)$ has the same horizontal coordinate as $(2,7)$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We know that $y=4$ because $(y, 7)$ has the same horizontal coordinate as $(4,3)$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$4>2$, so $y>x$.  Coordinate $y$ represents a greater number.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Reasoning"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Does coordinate $c$ or coordinate $d$ represent a greater number in the following rectangle?**",
+                                "images": [
+                                    {
+                                        "alt": "A rectangle. The bottom, left vertex is (negative 2, negative 1). The top, left vertex is (c, 5). The top, right vertex is (3, 5). The bottom, right vertex is (3, d).",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/02ad723fbcebf658bbebcff7e4d08434a2e45ce7.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$c$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$d$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We know that $c=-2$ because $(c, 5)$ has the same horizontal coordinate as $(-2,-1)$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We know that $d=-1$ because $(3, d)$ has the same vertical coordinate as $(-2,-1)$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$-1>-2$, so $d>c$.  Coordinate $d$ represents a greater number.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Reasoning"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Does coordinate $m$ or coordinate $n$ represent a greater number in the following parallelogram?**",
+                                "images": [
+                                    {
+                                        "alt": "A quadrilateral. The bottom, left vertex is (0, 1). The top, left vertex is (3, 5). The top, right vertex is (10, 5). The bottom, right vertex is (m, n).",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/6a0db5eaf26462a27cba4d77ba254bf52cfc43a8.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$m$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$n$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We know that $n=1$ because $(m, n)$ has the same vertical coordinate as $(0,1)$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We know that $m > 3$ because $(m, n)$ is to the right of $(3,5)$.   So, $m > n$ because $3 >1$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Coordinate $m$ represents a greater number.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Reasoning"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Does coordinate $p$ or coordinate $q$ represent a greater number?**",
+                                "images": [
+                                    {
+                                        "alt": "A quadrilateral. The bottom, left vertex is (p, q). The top, left vertex is (6, 5). The top, right vertex is (9, 2). The bottom, right vertex is (9, 0).",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/f984d4fb1e7041935466d723087b10f84562bc10.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$p$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$q$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We know that $p=6$ because $(p,q)$ has the same horizontal coordinate as $(6,5)$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We know that $q<5$ because $(p,q)$ is below $(6,5)$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since $p=6$ and $q$ is less than $5$, we know that $p$ is greater than $q$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Coordinate $p$ represents a greater number.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Reasoning"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Does coordinate $s$ or coordinate $t$ represent a greater number in the following parallelogram?**",
+                                "images": [
+                                    {
+                                        "alt": "A quadrilateral. The bottom, left vertex is (s, negative 1). The top, left vertex is (negative 2, 3). The top, right vertex is (t, 3). The bottom, right vertex is (0, negative 1).",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/41e3933e57538a82cf7bd66f4c9d83dbe9168b38.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$s$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$t$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We know that $s<-2$ because $(s, -1)$ is to the left of $(-2,3)$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We know that $t > 0$ because $(t, 3)$ is to the right of $(0,-1)$.   So, we know $t > s$ because $t$ is a positive number and $s$ is a negative number.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Coordinate $t$ represents a greater number.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Reasoning"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "You are graphing square $ABCD$ in the coordinate plane.  The following are three of the vertices of the square: $A(4, -7), B(8, -7),$ and $C(8, -3)$.    **What are the coordinates of point $D$?**  $\\large($ ,  $\\large)$",
+                                "images": [
+                                    {
+                                        "alt": "A rectangle is in the fourth quadrant coordinate plane. The x axis runs horizontally. The y axis runs vertically. Vertices A, B, C, and D are plotted in quadrant 4. Point A is the bottom, left vertex. Point B is the bottom, right vertex. Point C is the top, right vertex. Point D is the top, left vertex. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/12ad6e0c1712f17fc52d3ee2a3285aaaf511190b.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "-3",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's begin by plotting the three given points of our square on a graph with grid marks:     [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "The coordinate grid is labeled from negative 10 to 10 from the origin in both the x and y axis. Point A is at (4, negative 7). Point B is at (8, negative 7). Point C is at (8, negative 3). A line connects point A and point B. A line connects point B and point C.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/5fc904e0472191dddf07e31dfba7e09e504901b9.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We can see that point $D$ will have an $x$-coordinate of $4$ and a $y$-coordinate of $-3$.  So point $D$ is $(4,-3)$.   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A rectangle is on the coordinate plane. The coordinate grid is labeled from negative 10 to 10 from the origin in both the x and y axis. Vertex A is at (4, negative 7). Vertex B is at (8, negative 7). Vertex C is at (8, negative 3). Vertex D is at (4, negative 3). ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/4dada514e290d90f20610d96bdc4d406451e3625.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Point $D$  is $(4, -3)$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Missing coords"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "You are graphing rectangle $ABCD$ in the coordinate plane.  The following are three of the vertices of the rectangle: $A(2, 1), B(5, 1),$ and $C(5, 6)$.    **What are the coordinates of point $D$?**  $\\large($ ,  $\\large)$",
+                                "images": [
+                                    {
+                                        "alt": "A rectangle is in the first quadrant coordinate plane. The x axis runs horizontally. The y axis runs vertically. Vertices A, B, C, and D are plotted in quadrant 1. Point A is the bottom, left vertex. Point B is the bottom, right vertex. Point C is the top, right vertex. Point D is the top, left vertex. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/e81d3952ffc2440d9a6843ae94850fb17e4ca201.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "6",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's begin by plotting the three given points of our rectangle on a graph with grid marks:     [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "The coordinate grid is labeled from negative 10 to 10 from the origin in both the x and y axis. Point A is at (2, 1). Point B is at (5, 1). Point C is at (5, 6). A line connects point A and point B. A line connects point B and point C.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/2e1ee0e035ddbe040ef9f22607f662c6d34e8e36.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We can see that point $D$ will have an $x$-coordinate of $2$ and a $y$-coordinate of $6$.  So point $D$ is $(2,6)$.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A rectangle is on the coordinate plane. The coordinate grid is labeled from negative 10 to 10 from the origin in both the x and y axis. Vertex A is at (2, 1). Vertex B is at (5, 1). Vertex C is at (5, 6). Vertex D is at (2, 6). ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/76e362bf0e90f33412360364c6df2f70e5ef1549.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Point $D$ is $(2, 6)$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Missing coords"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "You are graphing rectangle $ABCD$ in the coordinate plane.  The following are three of the vertices of the rectangle: $A(-7, -7.5), B(-3, -7.5),$ and $C(-3,2.5)$.    **What are the coordinates of point $D$?**  $\\large($, $\\large)$",
+                                "images": [
+                                    {
+                                        "alt": "A rectangle is in the first quadrant coordinate plane. The x axis runs horizontally. The y axis runs vertically. Vertices A and B are plotted in quadrant 3. Points C and D are plotted in quadrant 2. Point A is the bottom, left vertex. Point B is the bottom, right vertex. Point C is the top, right vertex. Point D is the top, left vertex. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/00f0c916e7866c799fe1f1c5aacbe052aebf0af2.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "2.5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's begin by plotting the three given points of our rectangle on a graph with grid marks:       [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "The coordinate grid is labeled from negative 10 to 10 from the origin in both the x and y axis. Point A is at (negative 7, negative 7.5). Point B is at (negative 3, negative 7.5). Point C is at (3, 2.5). A line connects point A and point B. A line connects point B and point C.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/0b25ce88838242406e9871e27d3f24d1a43fb741.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We can see that point $D$ will have an $x$-coordinate of $-7$ and a $y$-coordinate of $2.5$.  So point $D$ is $(-7,2.5)$.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A rectangle is on the coordinate plane. The coordinate grid is labeled from negative 10 to 10 from the origin in both the x and y axis. Vertex A is at (negative 7, negative 7.5). Vertex B is at (negative 3, negative 7.5). Vertex C is at (3, 2.5). Vertex D is at (negative 7, 2.5).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/506583597de19ad54d3a05d51438051186c5c33d.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Point $D$ is $(-7, 2.5)$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Missing coords"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "You are graphing rectangle $ABCD$ in the coordinate plane.  The following are three of the vertices of the rectangle: $A(3, 5), B(3, -4),$ and $C(-2,-4)$.    **What are the coordinates of point $D$?**  $\\large($, $\\large)$",
+                                "images": [
+                                    {
+                                        "alt": "A rectangle is in the first quadrant coordinate plane. The x axis runs horizontally. The y axis runs vertically. Vertex A is the top, right vertex and is plotted in quadrant 1. Vertex B is the bottom, right vertex and is plotted in quadrant 4. Vertex C is the bottom, left vertex and is plotted in quadrant 3.  Vertex D is the top, left vertex and is plotted in quadrant 2. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/63739a2027ab645da004d27f108d9235378cc9ec.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's begin by plotting the three given points of our rectangle on a graph with grid marks:        [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "The coordinate grid is labeled from negative 10 to 10 from the origin in both the x and y axis. Point A is at (3, 5). Point B is at (3, negative 4). Point C is at (negative 2, negative 4). A line connects point A and point B. A line connects point B and point C.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/33ab87d9bea62cb80391fe01629864537921c969.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We can see that point $D$ will have an $x$-coordinate of $-2$ and a $y$-coordinate of $5$.  So point $D$ is $(-2,5)$.   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A rectangle is on the coordinate plane. The coordinate grid is labeled from negative 10 to 10 from the origin in both the x and y axis. Vertex A is at (3, 5). Vertex B is at (3, negative 4). Vertex C is at (negative 2, negative 4). Vertex D is at (negative 2, 5).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/26165278ca4040d20a6bafca91ef09af1cdc0b36.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Point $D$ is $(-2,5)$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Missing coords"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "You are graphing rectangle $ABCD$ in the coordinate plane.  The following are three of the vertices of the rectangle: $A(-5, -8), B(-5, 0),$ and $C(-2,0)$.    **What are the coordinates of point $D$?**  $\\large($, $\\large)$",
+                                "images": [
+                                    {
+                                        "alt": "A rectangle is in the third quadrant coordinate plane. The x axis runs horizontally. The y axis runs vertically. Vertices A and D are plotted in quadrant 3. Points B and C are plotted in on the x axis to the left of the origin. Point A is the bottom, left vertex. Point B is the top, left vertex. Point C is the top, right vertex. Point D is the bottom, right vertex. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/1f8e0063ceb7ffeec603ecb3d1ff9d31eac2ef21.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "-8",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's begin by plotting the three given points of our rectangle on a graph with grid marks:       [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "The coordinate grid is labeled from negative 10 to 10 from the origin in both the x and y axis. Point A is at (negative 5, negative 8). Point B is at (negative 5, 0). Point C is at (negative 2, 0). A line connects point A and point B. A line connects point B and point C.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/23fcfe331cfa0e59d86e7cfe4b7643de03e6803b.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We can see that point $D$ will have an $x$-coordinate of $-2$ and a $y$-coordinate of $-8$.  So point $D$ is $(-2,-8)$.   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A rectangle is on the coordinate plane. The coordinate grid is labeled from negative 10 to 10 from the origin in both the x and y axis. Vertex A is at (negative 5, negative 8). Vertex B is at (negative 5, 0). Vertex C is at (negative 2, 0). Vertex D is at (negative 2, negative 8).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/45343c044f40facb525addaa2ae0c1e5889c556f.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Point $D$ is $(-2,-8)$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Missing coords"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "You are graphing rectangle $ABCD$ in the coordinate plane.  The following are three of the vertices of the rectangle: $A(-7, -2), B(3, -2),$ and $C(3,-5)$.    **What are the coordinates of point $D$?**  $\\large($, $\\large)$",
+                                "images": [
+                                    {
+                                        "alt": "A rectangle is in the third and fourth quadrant coordinate plane. The x axis runs horizontally. The y axis runs vertically. Vertices A and D are plotted in quadrant 3. Points B and C are plotted in quadrant 4. Point A is the top, left vertex. Point B is the top, right vertex. Point C is the bottom, right vertex. Point D is the bottom, left vertex. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/a58c653389e779236645bd3516a4f4577bc8e701.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "-5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's begin by plotting the three given points of our rectangle on a graph with grid marks:        [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "The coordinate grid is labeled from negative 10 to 10 from the origin in both the x and y axis. Point A is at (negative 7, negative 2). Point B is at (3, negative 2). Point C is at (3, negative 5). A line connects point A and point B. A line connects point B and point C.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/6f594b9f2e79b480f8d873fb7405249a7d2b3407.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We can see that point $D$ will have an $x$-coordinate of $-7$ and a $y$-coordinate of $-5$.  So point $D$ is $(-7,-5)$.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A rectangle is on the coordinate plane. The coordinate grid is labeled from negative 10 to 10 from the origin in both the x and y axis. Vertex A is at (negative 7, negative 2). Vertex B is at (3, negative 2). Vertex C is at (3, negative 5).  Vertex D is at (negative 7, negative 5).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/df0c070a5d3743f9567ab318999536af2eec31c5.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Point $D$ is $(-7,-5)$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Missing coords"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Rectangle $ABCD$ is graphed in the coordinate plane.  The following are the vertices of the rectangle: $A(2, 1)$, $B(5, 1)$, $C(5, 6)$, and $D(2, 6)$.    **Given these coordinates, what is the length of side $AB$ of this rectangle?**   units",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "3",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's begin by drawing our rectangle.     [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A rectangle is on the coordinate plane. The coordinate grid is labeled from negative 10 to 10 from the origin in both the x and y axis. Vertex A is at (2, 1). Vertex B is at (5, 1). Vertex C is at (5, 6).  Vertex D is at (2, 6).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/e771b9a95173777d7ebaab7013a24e3e5b5b8c84.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Since  $A(\\greenD{2},\\blueD{ 1})$ and $B(\\greenD{5}, \\blueD{1})$ have the same $\\blueD{y}$-coordinates, they form a horizontal line segment.  Therefore the length of $AB$ is the distance between the $\\greenD{x}$-coordinates:    $\\begin{align}\\greenD{5}-\\greenD 2&=3\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The length of side $AB$ is $3$ units.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Length from coords"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Rectangle $ABCD$ is graphed in the coordinate plane.  The following are the vertices of the rectangle: $A(-7, -5), B(-7, 6),$ $C(-4, 6)$, and $D(-4, -5)$.    **Given these coordinates, what is the length of side $CD$ of this rectangle?**   units",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "11",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's begin by drawing our rectangle.     [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A rectangle is on the coordinate plane. The coordinate grid is labeled from negative 10 to 10 from the origin in both the x and y axis. Vertex A is at (negative 7, negative 5). Vertex B is at (negative 7, 6). Vertex C is at (negative 4, 6).  Vertex D is at (negative 4, negative 5).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/cd017c89ed8d9a954a062dc682a1bbe2c0e61283.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Since  $C(\\greenD{-4},\\blueD{6})$ and $D(\\greenD{-4}, \\blueD{-5})$ have the same $\\greenD{x}$-coordinates, they form a vertical line segment.  Therefore the length of $CD$ is the distance between the $\\blueD{y}$-coordinates:   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A rectangle is on the coordinate plane. The coordinate grid is labeled from negative 10 to 10 from the origin in both the x and y axis. Vertex A is at (negative 7, negative 5). Vertex B is at (negative 7, 6). Vertex C is at (negative 4, 6).  Vertex D is at (negative 4, negative 5). A bracket connects the point representing Vertex C and D to show that the two points are 11 units apart.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/fe7cc6677217ff51e4642afc5762f05bc6f1165b.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The length of side $CD$ is $11$ units.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Length from coords"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Rectangle $ABCD$ is graphed in the coordinate plane.  The following are the vertices of the rectangle: $A(-8, -6),$ $B(-3,-6)$, $C(-3, -4)$, and $D(-8, -4)$.    **Given these coordinates, what is the length of side $AB$ of this rectangle?**   units",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's begin by drawing our rectangle.     [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A rectangle is on the coordinate plane. The coordinate grid is labeled from negative 10 to 10 from the origin in both the x and y axis. Vertex A is at (negative 8, negative 6). Vertex B is at (negative 3, negative 6). Vertex C is at (negative 3, negative 4).  Vertex D is at (negative 8, negative 4).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/bb08c7aef440fe66019491724070c656083ff41a.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Since $A(\\greenD{-8},\\blueD{-6})$ and $B(\\greenD{-3}, \\blueD{-6})$ have the same $\\blueD{y}$-coordinates, they form a horizontal line segment.  Therefore the length of $AB$ is the distance between the $\\greenD{x}$-coordinates:     [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A rectangle is on the coordinate plane. The coordinate grid is labeled from negative 10 to 10 from the origin in both the x and y axis. Vertex A is at (negative 8, negative 6). Vertex B is at (negative 3, negative 6). Vertex C is at (negative 3, negative 4).  Vertex D is at (negative 8, negative 4). A bracket connects the point representing Vertex A and B to show that the two points are 5 units apart.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/49428b5081fab72db566ca627387a872fcd29641.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The length of side $AB$ is $5$ units.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Length from coords"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Rectangle $ABCD$ is graphed in the coordinate plane.  The following are the vertices of the rectangle: $A(0, 6),$ $B(4,6)$, $C(4, 2)$, and $D(0, 2)$.    **Given these coordinates, what is the length of side $CD$ of this rectangle?**   units",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "4",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's begin by drawing our rectangle.      [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A rectangle is on the coordinate plane. The coordinate grid is labeled from negative 10 to 10 from the origin in both the x and y axis. Vertex A is at (0, 6). Vertex B is at (4, 6). Vertex C is at (4, 2).  Vertex D is at (0, 2).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/35697a767d539bcb1522a3c68f42d59b3c0c260a.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Since $C(\\greenD{4},\\blueD{ 2})$ and $D(\\greenD{0}, \\blueD{2})$ have the same $\\blueD{y}$-coordinates, they form a horizontal line segment.  Therefore the length of $CD$ is the distance between the $\\greenD{x}$-coordinates:    $\\begin{align}\\greenD{4}-\\greenD{0}&=4\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The length of side $CD$ is $4$ units.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Length from coords"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Rectangle $ABCD$ is graphed in the coordinate plane.  The following are the vertices of the rectangle: $A(5, 5),$ $B(7,5)$, $C(7,-1)$, and $D(5,-1)$.    **Given these coordinates, what is the length of side $BC$ of this rectangle?**   units",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "6",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's begin by drawing our rectangle.     [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A rectangle is on the coordinate plane. The coordinate grid is labeled from negative 10 to 10 from the origin in both the x and y axis. Vertex A is at (5, 5). Vertex B is at (7, 5). Vertex C is at (7, negative 1).  Vertex D is at (5, negative 1).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/30b229dbc113c4973d23d0d61a867f615e375a7a.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Since $B(\\greenD{7},\\blueD{5})$ and $C(\\greenD{7}, \\blueD{-1})$ have the same $\\greenD{x}$-coordinates, they form a vertical line segment.  Therefore the length of $BC$ is the distance between the $\\blueD{y}$-coordinates:      [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A rectangle is on the coordinate plane. The coordinate grid is labeled from negative 10 to 10 from the origin in both the x and y axis. Vertex A is at (5, 5). Vertex B is at (7, 5). Vertex C is at (7, negative 1).  Vertex D is at (5, negative 1). A bracket connects the point representing Vertex B and C to show that the two points are 6 units apart.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/75e866bd84e43960412288e0b5b1ddc24eb22ce7.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The length of side $BC$ is $6$ units.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Length from coords"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Rectangle $ABCD$ is graphed in the coordinate plane.  The following are the vertices of the rectangle: $A(-1, -6),$ $B(-1,7)$, $C(1, 7)$, and $D(1, -6)$.    **Given these coordinates, what is the length of side $AB$ of this rectangle?**   units",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "13",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's begin by drawing our rectangle.     [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A rectangle is on the coordinate plane. The coordinate grid is labeled from negative 10 to 10 from the origin in both the x and y axis. Vertex A is at (negative 1, negative 6). Vertex B is at (negative 1, 7). Vertex C is at (1, 7).  Vertex D is at (1, negative 6).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/27bc5f54d070e9ea102593aad5bd6e7df7e1335d.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Since $A(\\greenD{-1},\\blueD{-6})$ and $B(\\greenD{-1}, \\blueD{7})$ have the same $\\greenD{x}$-coordinates, they form a vertical line segment.  Therefore the length of $AB$ is the distance between the $\\blueD{y}$-coordinates:     [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A rectangle is on the coordinate plane. The coordinate grid is labeled from negative 10 to 10 from the origin in both the x and y axis. Vertex A is at (negative 1, negative 6). Vertex B is at (negative 1, 7). Vertex C is at (1, 7).  Vertex D is at (1, negative 6). A bracket connects the point representing Vertex A and B to show that the two points are 13 units apart.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/07c6e155521b418aa09192ec7969d90c8b7ed16e.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The length of side $AB$ is $13$ units.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Length from coords"
+                    }
+                }
+            }
+        }
+    ]
+}

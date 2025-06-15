@@ -1,0 +1,647 @@
+{
+    "standard_metadata": {
+        "standard_id": "6.G.A.2",
+        "standard_description": "Find the volume of a right rectangular prism with fractional edge lengths by packing it with unit cubes of the appropriate unit fraction edge lengths, and show that the volume is the same as would be found by multiplying the edge lengths of the prism. Apply the formulas <i>V = l w h</i> and <i>V = b h</i> to find volumes of right rectangular prisms with fractional edge lengths in the context of solving real-world and mathematical problems.",
+        "standard_title": "Volume with cubes with fraction lengths",
+        "standard_url": "https://www.khanacademy.org/math/geometry-home/geometry-volume-surface-area/geometry-volume-with-fractions/e/volume-with-cubes-with-fraction-lengths"
+    },
+    "id": "x84e9147a46e29e9e",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**How many cubes with side lengths of $\\dfrac14\\text{ cm}$ does it take to fill the prism?**     cubes",
+                                "images": [
+                                    {
+                                        "alt": "",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/9a28e6226b0cd82cddea321bc68ccc2a24b61934.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "224",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The prism is measured with cubes that are $\\dfrac14\\text{ cm}$ on all edges.    So, let's change our dimensions to be written in fourths.",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/1f2749c2926815196352acb1bd337bd6d168b0a1.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The length is $\\dfrac\\redD84\\text{ cm}$, so it is made up of $\\redD{\\text{eight}}$ $\\dfrac14$ cubes.    The width is $\\dfrac\\greenD74\\text{ cm}$, so it is made up of $\\greenD{\\text{seven}}$ rows of $\\dfrac14$ cubes.   So, the bottom layer of cubes is made up of $\\greenD7$ rows of $\\redD8$ cubes.  $\\greenD7\\times \\redD8=56$  The bottom layer has $56$ cubes.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The height is $\\dfrac\\purpleD44\\text{ cm}$, so it is made up of $\\purpleD{\\text{four}}$ layers of $\\dfrac14$ cubes.   So, there are $\\purpleD4$ layers of $56$ cubes.  $\\purpleD4\\times 56=224$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "It takes $224$ of the $\\dfrac14 \\text{ cm}$ cubes to fill the prism.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**How many cubes with side lengths of $\\dfrac14\\text{ cm}$ does it take to fill the prism?**     cubes",
+                                "images": [
+                                    {
+                                        "alt": "",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/6df7119719e5002de4de29464171fba96e54c512.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "135",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The prism is measured with cubes that are $\\dfrac14\\text{ cm}$ on all edges.    So, let's change our dimensions to be written in fourths.",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/84515b17bb28d0f0b8caf848e7e667599b4d696a.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The length is $\\dfrac\\redD94\\text{ cm}$, so it is made up of $\\redD{\\text{nine}}$ $\\dfrac14$ cubes.    The width is $\\dfrac\\greenD34\\text{ cm}$, so it is made up of $\\greenD{\\text{three}}$ rows of $\\dfrac14$ cubes.   So, the bottom layer of cubes is made up of $\\greenD3$ rows of $\\redD9$ cubes.  $\\greenD3\\times \\redD9=27$  The bottom layer has $27$ cubes.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The height is $\\dfrac\\purpleD54\\text{ cm}$, so it is made up of $\\purpleD{\\text{five}}$ layers of $\\dfrac14$ cubes.   So, there are $\\purpleD5$ layers of $27$ cubes.  $\\purpleD5\\times 27=135$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "It takes $135$ of the $\\dfrac14 \\text{ cm}$ cubes to fill the prism.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**How many cubes with side lengths of $\\dfrac13\\text{ cm}$ does it take to fill the prism?**     cubes",
+                                "images": [
+                                    {
+                                        "alt": "",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/bc0af6c7c9166278e21c516cadb554b728e37b4f.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "120",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The prism is measured with cubes that are $\\dfrac13\\text{ cm}$ on all edges.    So, let's change our dimensions to be written in thirds.",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/06e74cbb2bcf2ddb8e642800342fd021a674d67d.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The length is $\\dfrac\\redD53\\text{ cm}$, so it is made up of $\\redD{\\text{five}}$ $\\dfrac13$ cubes.    The width is $\\dfrac\\greenD43\\text{ cm}$, so it is made up of $\\greenD{\\text{four}}$ rows of $\\dfrac13$ cubes.   So, the bottom layer of cubes is made up of $\\greenD4$ rows of $\\redD5$ cubes.  $\\greenD4\\times \\redD5=20$  The bottom layer has $20$ cubes.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The height is $\\dfrac\\purpleD63\\text{ cm}$, so it is made up of $\\purpleD{\\text{six}}$ layers of $\\dfrac13$ cubes.   So, there are $\\purpleD6$ layers of $20$ cubes.  $\\purpleD6\\times 20=120$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "It takes $120$ of the $\\dfrac13 \\text{ cm}$ cubes to fill the prism.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**How many cubes with side lengths of $\\dfrac13\\text{ cm}$ does it take to fill the prism?**     cubes",
+                                "images": [
+                                    {
+                                        "alt": "",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/8b096833143e7ffed82af569572e2f6b73c6ff2f.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "48",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The prism is measured with cubes that are $\\dfrac13\\text{ cm}$ on all edges.    So, let's change our dimensions to be written in thirds.",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/0bc407298a77bea62b4b2df3ebf19f4f18db2085.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The length is $\\dfrac\\redD83\\text{ cm}$, so it is made up of $\\redD{\\text{eight}}$ $\\dfrac13$ cubes.    The width is $\\dfrac\\greenD33\\text{ cm}$, so it is made up of $\\greenD{\\text{three}}$ rows of $\\dfrac13$ cubes.   So, the bottom layer of cubes is made up of $\\greenD3$ rows of $\\redD8$ cubes.  $\\greenD3\\times \\redD8=24$  The bottom layer has $24$ cubes.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The height is $\\dfrac\\purpleD23\\text{ cm}$, so it is made up of $\\purpleD{\\text{two}}$ layers of $\\dfrac13$ cubes.   So, there are $\\purpleD2$ layers of $24$ cubes.  $\\purpleD2\\times 24=48$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "It takes $48$ of the $\\dfrac13 \\text{ cm}$ cubes to fill the prism.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**How many cubes with side lengths of $\\dfrac12 \\text{ cm}$ does it take to fill the prism?**     cubes",
+                                "images": [
+                                    {
+                                        "alt": "",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/846e8b3f1707cc9a98229ebddca570259d45d0b0.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "24",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The prism is measured with cubes that are $\\dfrac12\\text{ cm}$ on all edges.    So, let's change our dimensions to be written in halves.",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/2b0a97d2fcf523874ce377d6bf0651d97180ac84.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The length is $\\dfrac\\redD42\\text{ cm}$, so it is made up of $\\redD{\\text{four}}$ $\\dfrac12$ cubes.    The width is $\\dfrac\\greenD22\\text{ cm}$, so it is made up of $\\greenD{\\text{two}}$ rows of $\\dfrac12$ cubes.   So, the bottom layer of cubes is made up of $\\greenD2$ rows of $\\redD4$ cubes.  $\\greenD2\\times \\redD4=8$  The bottom layer has $8$ cubes.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The height is $\\dfrac\\purpleD32\\text{ cm}$, so it is made up of $\\purpleD{\\text{three}}$ layers of $\\dfrac12$ cubes.   So, there are $\\purpleD3$ layers of $8$ cubes.  $\\purpleD3\\times 8=24$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "It takes $24$ of the $\\dfrac12 \\text{ cm}$ cubes to fill the prism.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**How many cubes with side lengths of $\\dfrac12 \\text{ cm}$ does it take to fill the prism?**     cubes",
+                                "images": [
+                                    {
+                                        "alt": "",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/4ced1d97e92a8b310539d6f0f10fedfb5bdc7573.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "40",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The prism is measured with cubes that are $\\dfrac12\\text{ cm}$ on all edges.    So, let's change our dimensions to be written in halves.",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/3e3fbe732c982f4ba2cc433b6ca8ac01ed5add74.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The length is $\\dfrac\\redD52\\text{ cm}$, so it is made up of $\\redD{\\text{five}}$ $\\dfrac12$ cubes.    The width is $\\dfrac\\greenD42\\text{ cm}$, so it is made up of $\\greenD{\\text{four}}$ rows of $\\dfrac12$ cubes.   So, the bottom layer of cubes is made up of $\\greenD4$ rows of $\\redD5$ cubes.  $\\greenD4\\times \\redD5=20$  The bottom layer has $20$ cubes.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The height is $\\dfrac\\purpleD22\\text{ cm}$, so it is made up of $\\purpleD{\\text{two}}$ layers of $\\dfrac12$ cubes.   So, there are $\\purpleD2$ layers of $20$ cubes.  $\\purpleD2\\times 20=40$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "It takes $40$ of the $\\dfrac12 \\text{ cm}$ cubes to fill the prism.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A rectangular prism with a volume of $10$ cubic units is filled with cubes with side lengths of $\\dfrac12$ unit.  **How many $\\dfrac12$ unit cubes does it take to fill the prism?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "80",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The volume of the prism is $\\blueD{10}$ cubic units.  This means the prism can be filled with $\\blueD{\\text{ten}}$ $1\\times1\\times1$ unit cubes.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "How many cubes with $\\dfrac12$-unit side lengths can fit in a cube with $1$-unit side lengths?",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/6a134f993c1c46edee28a191204a7e629252c15b.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "There are $8$ cubes with  $\\dfrac12$-unit side lengths in $1$ cubic unit.",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/cad4fa849f13053b28d672c5f9a8a0d83685f8fa.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Since the rectangular prism is made up of $10$ cubic units, we would have $10\\times8$ total cubes with $\\dfrac12$-unit side lengths.  $10\\times8=80$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "It takes $80$ of the $\\dfrac12$ unit cubes to fill the prism.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A rectangular prism with a volume of $6$ cubic units is filled with cubes with side lengths of $\\dfrac12$ unit.  **How many $\\dfrac12$ unit cubes does it take to fill the prism?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "48",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The volume of the prism is $\\blueD6$ cubic units.  This means the prism can be filled with $\\blueD{\\text{six}}$ $1\\times1\\times1$ unit cubes.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "How many cubes with $\\dfrac12$-unit side lengths can fit in a cube with $1$-unit side lengths?",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/6a134f993c1c46edee28a191204a7e629252c15b.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "There are $8$ cubes with  $\\dfrac12$-unit side lengths in $1$ cubic unit.",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/cad4fa849f13053b28d672c5f9a8a0d83685f8fa.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Since the rectangular prism is made up of $6$ cubic units, we would have $6\\times8$ total cubes with $\\dfrac12$-unit side lengths.  $6\\times8=48$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "It takes $48$ of the $\\dfrac12$ unit cubes to fill the prism.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A rectangular prism with a volume of $4$ cubic units is filled with cubes with side lengths of $\\dfrac13$ unit.  **How many $\\dfrac13$ unit cubes does it take to fill the prism?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "108",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The volume of the prism is $\\blueD4$ cubic units.  This means the prism can be filled with $\\blueD{\\text{four}}$ $1\\times1\\times1$ unit cubes.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "How many cubes with $\\dfrac13$-unit side lengths can fit in a cube with $1$-unit side lengths?",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/ad7bd324ec2608edbbd48ad2db677bcfeadd6c54.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "There are $27$ cubes with  $\\dfrac13$-unit side lengths in $1$ cubic unit.",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/b0af42bccb54c844abef432c7198ac0d52d4b3c1.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Since the rectangular prism is made up of $4$ cubic units, we would have $4\\times27$ total cubes with $\\dfrac13$-unit side lengths.  $4\\times27=108$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "It takes $108$ of the $\\dfrac13$ unit cubes to fill the prism.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A rectangular prism with a volume of $5$ cubic units is filled with cubes with side lengths of $\\dfrac13$ unit.  **How many $\\dfrac13$ unit cubes does it take to fill the prism?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "135",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The volume of the prism is $\\blueD5$ cubic units.  This means the prism can be filled with $\\blueD{\\text{five}}$ $1\\times1\\times1$ unit cubes.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "How many cubes with $\\dfrac13$-unit side lengths can fit in a cube with $1$-unit side lengths?",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/ad7bd324ec2608edbbd48ad2db677bcfeadd6c54.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "There are $27$ cubes with  $\\dfrac13$-unit side lengths in $1$ cubic unit.",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/b0af42bccb54c844abef432c7198ac0d52d4b3c1.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Since the rectangular prism is made up of $5$ cubic units, we would have $5\\times27$ total cubes with $\\dfrac13$-unit side lengths.  $5\\times27=135$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "It takes $135$ of the $\\dfrac13$ unit cubes to fill the prism.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A rectangular prism with a volume of $3$ cubic units is filled with cubes with side lengths of $\\dfrac14$ unit.  **How many $\\dfrac14$ unit cubes does it take to fill the prism?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "192",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The volume of the prism is $\\blueD3$ cubic units.  This means the prism can be filled with $\\blueD{\\text{three}}$ $1\\times1\\times1$ unit cubes.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "How many cubes with $\\dfrac14$-unit side lengths can fit in a cube with $1$-unit side lengths?",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/11c5cea143bd106f18b8843d6167d700beb5b34b.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "There are $64$ cubes with  $\\dfrac14$-unit side lengths in $1$ cubic unit.",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/20418bdeb82cb3dbf78a2f0deee9dcc0ad2c92f1.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Since the rectangular prism is made up of $3$ cubic units, we would have $3\\times64$ total cubes with $\\dfrac14$-unit side lengths.  $3\\times64=192$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "It takes $192$ of the $\\dfrac14$ unit cubes to fill the prism.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A rectangular prism with a volume of $2$ cubic units is filled with cubes with side lengths of $\\dfrac14$ unit.  **How many $\\dfrac14$ unit cubes does it take to fill the prism?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "128",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The volume of the prism is $\\blueD2$ cubic units.  This means the prism can be filled with $\\blueD{\\text{two}}$ $1\\times1\\times1$ unit cubes.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "How many cubes with $\\dfrac14$-unit side lengths can fit in a cube with $1$-unit side lengths?",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/11c5cea143bd106f18b8843d6167d700beb5b34b.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "There are $64$ cubes with  $\\dfrac14$-unit side lengths in $1$ cubic unit.",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/20418bdeb82cb3dbf78a2f0deee9dcc0ad2c92f1.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Since the rectangular prism is made up of $2$ cubic units, we would have $2\\times64$ total cubes with $\\dfrac14$-unit side lengths.  $2\\times64=128$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "It takes $128$ of the $\\dfrac14$ unit cubes to fill the prism.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        }
+    ]
+}

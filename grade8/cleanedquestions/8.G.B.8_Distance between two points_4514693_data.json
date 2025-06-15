@@ -1,0 +1,1362 @@
+{
+    "standard_metadata": {
+        "standard_id": "8.G.B.8",
+        "standard_description": "Apply the Pythagorean Theorem to find the distance between two points in a coordinate system.",
+        "standard_title": "Distance between two points",
+        "standard_url": "https://www.khanacademy.org/math/geometry/hs-geo-analytic-geometry/hs-geo-distance-and-midpoints/e/distance_formula"
+    },
+    "id": "4514693",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the distance between the following points?**",
+                                "images": [
+                                    {
+                                        "alt": "The first and second quadrants on the x- y- coordinate plane. The tick marks count by ones. A point is at four, six and another point is at negative five, eight.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/295f08073041c18e5a26b4c9bfd1e69306b66879.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$\\sqrt{85}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\sqrt{90}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$11$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$12$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can make a right triangle where the hypotenuse of the triangle is the distance between the two points. We can represent the length of the line with $\\greenD x$:    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "The first and second quadrants on the x- y- coordinate plane. The tick marks count by ones. A point is at four, six and another point is at negative five, eight. A horizontal line starts at the first point and moves left nine spaces and up two units to form a right triangle The hypotenuse is x. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/0b8461d0b79a2bd8ef4abb80e4b9ff8b27962fe7.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now we can use the Pythagorean theorem to find the distance $\\greenD x$:  $\\begin{align} \\maroonD a^2 + \\maroonD b^2 &= \\greenD x^2 ~~~~~~~~\\small\\gray{\\text{The Pythagorean theorem}}\\\\\\\\ \\maroonD{9}^2 + \\maroonD{2}^2 &= \\greenD{x}^2 ~~~~~~~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ 81 + 4 &= \\greenD x^2 ~~~~~~~~\\small\\gray{\\text{Evaluate } 9^2 \\text{ and }  2^2}\\\\\\\\ 85 &= \\greenD x^2~~~~~~~~\\small\\gray{\\text{Add 4 and 81}}\\\\\\\\ \\greenD x &= \\sqrt{85} ~~~~~~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###The answer  The distance between the points is $\\sqrt{85}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Points (visual)"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the distance between the following points?**",
+                                "images": [
+                                    {
+                                        "alt": "A coordinate plane with 2 points on it. The x- and y- axes scale by one. The first point is 6 spaces to the left of the origin and up four spaces. The second point is 5 spaces left of the origin and down 4 spaces.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/e533e32d672eb7a6bca7058b69871e26967c11e3.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$7$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$9$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\sqrt{65}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\sqrt{80}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "When we make a right triangle with the two points, the distance is the hypotenuse which we can represent with $\\greenD x$:    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane with 2 points on it. The x- and y- axes scale by one. The first point is 6 spaces to the left of the origin and up four spaces. The second point is 5 spaces left of the origin and down 4 spaces. A vertical line starts at the first point and goes down eight units and right one unit to form a right triangle. The hypotenuse is x. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/bc06e4507535bf4b2c9dc8af6ad91fb21e89821b.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now we can use the Pythagorean theorem to find the distance $\\greenD x$:  $\\begin{align} \\maroonD a^2 + \\maroonD b^2 &= \\greenD x^2 ~~~~~~~~\\small\\gray{\\text{The Pythagorean theorem}}\\\\\\\\ \\maroonD{1}^2 + \\maroonD{8}^2 &= \\greenD{x}^2 ~~~~~~~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ 1 + 64 &= \\greenD x^2 ~~~~~~~~\\small\\gray{\\text{Evaluate } 1^2 \\text{ and }  8^2}\\\\\\\\ 65 &= \\greenD x^2~~~~~~~~\\small\\gray{\\text{Add 1 and 64}}\\\\\\\\ \\greenD x &= \\sqrt{65} ~~~~~~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###The answer  The distance between the points is $\\sqrt{65}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Points (visual)"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the distance between the following points?**",
+                                "images": [
+                                    {
+                                        "alt": "A coordinate plane with 2 points on it. The x- and y- axes scale by one. The first point is at four, two. The second point is at eight, five.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/7291941c8a22f306789af93789529804fb2a86cf.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$5$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$7$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\sqrt{12}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\sqrt{28}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "When we make a right triangle with the two points, the distance is the hypotenuse which we can represent with $\\greenD x$:    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A vertical line connects from the first point, moves up three units, and horizontally right four units to the second point. A line connects the first and second point being x units. These lines form a right triangle.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d30e99107ada727c841c74e469bd12314bf8ede5.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now we can use the Pythagorean theorem to find the distance $\\greenD x$:  $\\begin{align} \\maroonD a^2 + \\maroonD b^2 &= \\greenD x^2 ~~~~~~~~\\small\\gray{\\text{The Pythagorean theorem}}\\\\\\\\ \\maroonD{4}^2 + \\maroonD{3}^2 &= \\greenD{x}^2 ~~~~~~~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ 16 + 9 &= \\greenD x^2 ~~~~~~~~\\small\\gray{\\text{Evaluate } 4^2 \\text{ and }  3^2}\\\\\\\\ 25 &= \\greenD x^2~~~~~~~~\\small\\gray{\\text{Add 16 and 9}}\\\\\\\\ \\greenD x &= 5 ~~~~~~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###The answer  The distance between the points is $5$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Points (visual)"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the distance between the following points?**",
+                                "images": [
+                                    {
+                                        "alt": "A coordinate plane with two points on it. The x- and y- axes scale by one. The first point is at two, negative three. The second point is at eight, negative nine.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/c3f9f42a6bb7b4b27032348f19ab95fa29bf5ddf.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$6$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$8$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\sqrt{72}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\sqrt{79}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "When we make a right triangle with the two points, the distance is the hypotenuse which we can represent with $\\greenD x$:    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane with two points on it. The x- and y- axes scale by one. The first point is at two, negative three. The second point is at eight, negative nine. A vertical line starts at the first point six units beneath it. The horizontal line then is six units to the second point. A third line connects both points and is x units making a right triangle. The hypotenuse is x. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/f3ce40b588205481d37d182d797329a994e70485.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now we can use the Pythagorean theorem to find the distance $\\greenD x$:  $\\begin{align} \\maroonD a^2 + \\maroonD b^2 &= \\greenD x^2 ~~~~~~~~\\small\\gray{\\text{The Pythagorean theorem}}\\\\\\\\ \\maroonD{6}^2 + \\maroonD{6}^2 &= \\greenD{x}^2 ~~~~~~~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ 36 + 36 &= \\greenD x^2 ~~~~~~~~\\small\\gray{\\text{Evaluate } 6^2 \\text{ and }  6^2}\\\\\\\\ 72 &= \\greenD x^2~~~~~~~~\\small\\gray{\\text{Add 36 and 36}}\\\\\\\\ \\greenD x &= \\sqrt{72} ~~~~~~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###The answer  The distance between the points is $\\sqrt{72}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Points (visual)"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the distance between the following points?**",
+                                "images": [
+                                    {
+                                        "alt": "A coordinate plane with two points on it. The x- and y- axes scale by one. The first point is at two, four. The second point is at six, negative five.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/ddf65b8637bcd60589c2a5a420ba21dca592ba34.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$12$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$13$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\sqrt{36}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\sqrt{97}$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "When we make a right triangle with the two points, the distance is the hypotenuse which we can represent with $\\greenD x$:    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane with two points on it. The x- and y- axes scale by one. The first point is at two, four. The second point is at six, negative five. The horizontal line starts at the first point four units and vertical line nine units to the second point. A third line connects both points and is x units making a right triangle. The hypotenuse is x. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/093688a52af01a9c7b1ce233f74f11804edcdd81.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now we can use the Pythagorean theorem to find the distance $\\greenD x$:  $\\begin{align} \\maroonD a^2 + \\maroonD b^2 &= \\greenD x^2 ~~~~~~~~\\small\\gray{\\text{The Pythagorean theorem}}\\\\\\\\ \\maroonD{4}^2 + \\maroonD{9}^2 &= \\greenD{x}^2 ~~~~~~~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ 16 + 81 &= \\greenD x^2 ~~~~~~~~\\small\\gray{\\text{Evaluate } 4^2 \\text{ and }  9^2}\\\\\\\\ 97 &= \\greenD x^2~~~~~~~~\\small\\gray{\\text{Add 16 and 81}}\\\\\\\\ \\greenD x &= \\sqrt{97} ~~~~~~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###The answer  The distance between the points is $\\sqrt{97}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Points (visual)"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the distance between the following points?**",
+                                "images": [
+                                    {
+                                        "alt": "A coordinate plane with two points on it. The x- and y- axes scale by one. The first point is at three, negative nine. The second point is at six, negative two.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/7cbbceb44fcac458416c80b580adf0db04ca5400.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$9$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$10$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\sqrt{21}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\sqrt{58}$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "When we make a right triangle with the two points, the distance is the hypotenuse which we can represent with $\\greenD x$:    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane with two points on it. The x- and y- axes scale by one. The first point is at three, negative nine. The second point is at six, negative two. A vertical line starts at the first point seven units and a horizontal line three units to the second point. A third line connects both points and is x units making a right triangle. The hypotenuse is x. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/7595a5b786d90ce09d4170e678da0507500f9725.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now we can use the Pythagorean theorem to find the distance $\\greenD x$:  $\\begin{align} \\maroonD a^2 + \\maroonD b^2 &= \\greenD x^2 ~~~~~~~~\\small\\gray{\\text{The Pythagorean theorem}}\\\\\\\\ \\maroonD{3}^2 + \\maroonD{7}^2 &= \\greenD{x}^2 ~~~~~~~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ 9 + 49 &= \\greenD x^2 ~~~~~~~~\\small\\gray{\\text{Evaluate } 3^2 \\text{ and }  7^2}\\\\\\\\ 58 &= \\greenD x^2~~~~~~~~\\small\\gray{\\text{Add 9 and 49}}\\\\\\\\ \\greenD x &= \\sqrt{58} ~~~~~~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###The answer  The distance between the points is $\\sqrt{58}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Points (visual)"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the distance between the following points?**",
+                                "images": [
+                                    {
+                                        "alt": "A coordinate plane with two points on it. The x- and y- axes scale by one. The first point is at negative two, seven. The second point is at seven, nine.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/2b3ae1023bab8bfa7c6e961d84505d1ad8d151d6.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$\\sqrt{63}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\sqrt{77}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\sqrt{79}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\sqrt{85}$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "When we make a right triangle with the two points, the distance is the hypotenuse which we can represent with $\\greenD x$:    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane with two points on it. The x- and y- axes scale by one. The first point is at negative two, seven. The second point is at seven, nine. A vertical line starts at the first point two units and a horizontal line nine units to the second point. A third line connects both points and is x units making a right triangle. The hypotenuse is x. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/f3168f2f751c0a286855cc2695e5032413a443e7.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now we can use the Pythagorean theorem to find the distance $\\greenD x$:  $\\begin{align} \\maroonD a^2 + \\maroonD b^2 &= \\greenD x^2 ~~~~~~~~\\small\\gray{\\text{The Pythagorean theorem}}\\\\\\\\ \\maroonD{9}^2 + \\maroonD{2}^2 &= \\greenD{x}^2 ~~~~~~~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ 81 + 4 &= \\greenD x^2 ~~~~~~~~\\small\\gray{\\text{Evaluate } 9^2 \\text{ and }  2^2}\\\\\\\\ 85 &= \\greenD x^2~~~~~~~~\\small\\gray{\\text{Add 81 and 4}}\\\\\\\\ \\greenD x &= \\sqrt{85} ~~~~~~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###The answer  The distance between the points is $\\sqrt{85}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Points (visual)"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the length of the line?**",
+                                "images": [
+                                    {
+                                        "alt": "The first quadrant of an x- y- coordinate plane. A line segment extends from two, two to six, five.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/fde18b51c7272b61973eea369f7e3bacf44e79c9.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$4$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$5$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\sqrt5$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$6$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can make a right triangle where the hypotenuse of the triangle is the given line. We can represent the length of the line with $\\greenD x$:    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "The first quadrant of an x- y- coordinate plane. A line segment extends from two, two to six, five. A dashed horizontal line extends four units and up vertically three units to six, five to make a right triangle. The hypotenuse is x. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/f0083bcfb0dfcc4d0b28a54ef020fca56147a5ae.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now we can use the Pythagorean theorem to find $\\greenD x$:  $\\begin{align} \\maroonD a^2 + \\maroonD b^2 &= \\greenD x^2 ~~~~~~~~\\small\\gray{\\text{The Pythagorean theorem}}\\\\\\\\ \\maroonD{4}^2 + \\maroonD{3}^2 &= \\greenD{x}^2 ~~~~~~~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ 16 + 9&= \\greenD x^2 ~~~~~~~~\\small\\gray{\\text{Evaluate } 4^2 \\text{ and }  3^2}\\\\\\\\ 25 &= \\greenD x^2~~~~~~~~\\small\\gray{\\text{Add 16 and 9}}\\\\\\\\ \\greenD x &=5~~~~~~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###The answer  The length of the line is $5$ units.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Line"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the length of the line?**",
+                                "images": [
+                                    {
+                                        "alt": "The first quadrant of an x- y- coordinate plane. A line segment extends from one, two to seven, three.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/48895c635e5478757244f9d6943a0d61e2b99f8f.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$6.5$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$7$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\sqrt{35}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\sqrt{37}$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can make a right triangle where the hypotenuse of the triangle is the given line. We can represent the length of the line with $\\greenD x$:    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "The first quadrant of an x- y- coordinate plane. A line segment extends from one, two to seven, three. A dashed vertical line extends from one, two one unit and horizontally six units to seven, three, making a right triangle. The hypotenuse is x. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/a3684a6f5380d3ce52ce6fa05d3f12fb8d14093c.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now we can use the Pythagorean theorem to find $\\greenD x$:  $\\begin{align} \\maroonD a^2 + \\maroonD b^2 &= \\greenD x^2 ~~~~~~~~\\small\\gray{\\text{The Pythagorean theorem}}\\\\\\\\ \\maroonD{1}^2 + \\maroonD{6}^2 &= \\greenD{x}^2 ~~~~~~~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ 1 + 36&= \\greenD x^2 ~~~~~~~~\\small\\gray{\\text{Evaluate } 1^2 \\text{ and }  6^2}\\\\\\\\ 37 &= \\greenD x^2~~~~~~~~\\small\\gray{\\text{Add 1 and 36}}\\\\\\\\ \\greenD x &=\\sqrt{37}~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###The answer  The length of the line is $\\sqrt{37}$ units.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Line"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the length of the line?**",
+                                "images": [
+                                    {
+                                        "alt": "The first quadrant of an x- y- coordinate plane. A line segment extends from two, two to eight, five.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/04f701737db0504a309d31aead2ed12ae7a1a2fa.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$9$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$8$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\sqrt{45}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\sqrt{27}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can make a right triangle where the hypotenuse of the triangle is the given line. We can represent the length of the line with $\\greenD x$:    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "The first quadrant of an x- y- coordinate plane. A line segment extends from two, two to eight, five. A dashed horizontal line extends six units then vetrically three units to eight, five to form a right triangle. The hypotenuse is x. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d138a0344a29d5c1e4eaaadba55450e92e87a557.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now we can use the Pythagorean theorem to find $\\greenD x$:  $\\begin{align} \\maroonD a^2 + \\maroonD b^2 &= \\greenD x^2 ~~~~~~~~\\small\\gray{\\text{The Pythagorean theorem}}\\\\\\\\ \\maroonD{6}^2 + \\maroonD{3}^2 &= \\greenD{x}^2 ~~~~~~~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ 36+ 9&= \\greenD x^2 ~~~~~~~~\\small\\gray{\\text{Evaluate } 6^2 \\text{ and }  3^2}\\\\\\\\ 45 &= \\greenD x^2~~~~~~~~\\small\\gray{\\text{Add 36 and 9}}\\\\\\\\ \\greenD x &=\\sqrt{45}~~~~~~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###The answer  The length of the line is $\\sqrt{45}$ units.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Line"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the length of the line?**",
+                                "images": [
+                                    {
+                                        "alt": "The first quadrant of an x- y- coordinate plane. A line segment extends from two, two to eight, seven.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/a73cf7ff0eda6ab62b0a2dcddeca73584f6ee958.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$\\sqrt{11}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\sqrt{61}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$8$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$11$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can make a right triangle where the hypotenuse of the triangle is the given line. We can represent the length of the line with $\\greenD x$:    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "The first quadrant of an x- y- coordinate plane. A line segment extends from two, two to eight, seven. A dashed horizontal line extends from two, two six units then vertically give units to eight, seven to form a right triangle. The hypotenuse is x. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/8216e440bdf6d8ff57138d80f0dae19e7d865c26.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now we can use the Pythagorean theorem to find $\\greenD x$:  $\\begin{align} \\maroonD a^2 + \\maroonD b^2 &= \\greenD x^2 ~~~~~~~~\\small\\gray{\\text{The Pythagorean theorem}}\\\\\\\\ \\maroonD{5}^2 + \\maroonD{6}^2 &= \\greenD{x}^2 ~~~~~~~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ 25+ 36&= \\greenD x^2 ~~~~~~~~\\small\\gray{\\text{Evaluate } 5^2 \\text{ and }  6^2}\\\\\\\\ 61&= \\greenD x^2~~~~~~~~\\small\\gray{\\text{Add 25 and 36}}\\\\\\\\ \\greenD x &=\\sqrt{61}~~~~~~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###The answer  The length of the line is $\\sqrt{61}$ units.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Line"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the length of the line?**",
+                                "images": [
+                                    {
+                                        "alt": "The first quadrant of an x- y- coordinate plane. A line segment extends from two, eight to twelve, two.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/51dd6745e1f4f663c1a8505c1043d53f1fd63d12.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$8$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$12$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\sqrt{60}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\sqrt{136}$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can make a right triangle where the hypotenuse of the triangle is the given line. We can represent the length of the line with $\\greenD x$:   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "The first quadrant of an x- y- coordinate plane. A line segment extends from two, eight to twelve, two. A vertical dashed line extends from two, eight six units and horizontally ten units to twelve, two to form a right triangle. The hypotenuse is x. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/2d554f0ea7ef77b9590e01dfe847d3e775ff79ba.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now we can use the Pythagorean theorem to find $\\greenD x$:  $\\begin{align} \\maroonD a^2 + \\maroonD b^2 &= \\greenD x^2 ~~~~~~~~~\\small\\gray{\\text{The Pythagorean theorem}}\\\\\\\\ \\maroonD{6}^2 + \\maroonD{10}^2 &= \\greenD{x}^2 ~~~~~~~~~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ 36+ 100&= \\greenD x^2 ~~~~~~~~~~\\small\\gray{\\text{Evaluate } 6^2 \\text{ and }  10^2}\\\\\\\\ 136&= \\greenD x^2~~~~~~~~~~\\small\\gray{\\text{Add 36 and 100}}\\\\\\\\ \\greenD x &=\\sqrt{136}~~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###The answer  The length of the line is $\\sqrt{136}$ units.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Line"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the length of the line?**",
+                                "images": [
+                                    {
+                                        "alt": "The first quadrant of an x- y- coordinate plane. A line segment extends from two, seven to fourteen, two.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/cdac03bcdd4c910f2b3a7b459e97d26fa29a9a96.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$\\sqrt{119}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\sqrt{60}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\sqrt{17}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$13$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can make a right triangle where the hypotenuse of the triangle is the given line. We can represent the length of the line with $\\greenD x$:    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "The first quadrant of an x- y- coordinate plane. A line segment extends from two, seven to fourteen, two. A vertical dashed line extends from two, seven five units and horizontally twelve units to fourteen, two to form a right triangle. The hypotenuse is x. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/dfa780293f374aa29b785a16213e95f1b64b484b.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now we can use the Pythagorean theorem to find $\\greenD x$:  $\\begin{align} \\maroonD a^2 + \\maroonD b^2 &= \\greenD x^2 ~~~~~~~~\\small\\gray{\\text{The Pythagorean theorem}}\\\\\\\\ \\maroonD{5}^2 + \\maroonD{12}^2 &= \\greenD{x}^2 ~~~~~~~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ 25+ 144&= \\greenD x^2 ~~~~~~~~\\small\\gray{\\text{Evaluate } 5^2 \\text{ and }  12^2}\\\\\\\\ 169&= \\greenD x^2~~~~~~~~\\small\\gray{\\text{Add 25 and 144}}\\\\\\\\ \\greenD x &=13~~~~~~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###The answer  The length of the line is $13$ units.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Line"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the length of the line?**",
+                                "images": [
+                                    {
+                                        "alt": "The first quadrant of an x- y- coordinate plane. A line segment extends from two, seven to four, two.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/a8d0356a498e5b86ac49282017379eec2ef6440e.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$7$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\sqrt{10}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\sqrt{29}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\sqrt{21}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can make a right triangle where the hypotenuse of the triangle is the given line. We can represent the length of the line with $\\greenD x$:    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "The first quadrant of an x- y- coordinate plane. A line segment extends from two, seven to four, two. A dashed vertical line extends from two, seven a length of five then horizontally a length of two to four, two.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d8c0fdac8a7c3d59b938175ae7cf24dad1e19288.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now we can use the Pythagorean theorem to find $\\greenD x$:  $\\begin{align} \\maroonD a^2 + \\maroonD b^2 &= \\greenD x^2 ~~~~~~~~\\small\\gray{\\text{The Pythagorean theorem}}\\\\\\\\ \\maroonD{2}^2 + \\maroonD{5}^2 &= \\greenD{x}^2 ~~~~~~~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ 4+ 25&= \\greenD x^2 ~~~~~~~~\\small\\gray{\\text{Evaluate } 2^2 \\text{ and }  5^2}\\\\\\\\ 29 &= \\greenD x^2~~~~~~~~\\small\\gray{\\text{Add 4 and 25}}\\\\\\\\ \\greenD x &=\\sqrt{29}~~~~~~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###The answer  The length of the line is $\\sqrt{29}$ units.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Line"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the distance between $(4, 7)$ and $(2, 2)$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$\\sqrt{10}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\sqrt{29}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$8$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$9$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's visualize the two points on the coordinate plane:    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "The first quadrant of an x- y- coordinate plane. The tick marks count by ones. There's a point at two, two and four, seven.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/e0c094fe96504e429e7aab83d66df8e1a46450d8.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "When we make a right triangle with the two points, the distance is the hypotenuse which we can represent with $\\greenD x$:    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "The first quadrant of an x- y- coordinate plane. The tick marks count by ones. There's a point at two, two and four, seven. A vertical line extends a length of five then horizontally a length of two. The two points connect to form the hypotenuse of a right triangle with a length of x.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/14c2b62f1d8470c6cc59726c87dbc5a2876739ed.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now we can use the Pythagorean theorem to find the distance $\\greenD x$:  $\\begin{align} \\maroonD a^2 + \\maroonD b^2 &= \\greenD x^2 ~~~~~~~~\\small\\gray{\\text{The Pythagorean theorem}}\\\\\\\\ \\maroonD{2}^2 + \\maroonD{5}^2 &= \\greenD{x}^2 ~~~~~~~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ 4 + 25 &= \\greenD x^2 ~~~~~~~~\\small\\gray{\\text{Evaluate } 2^2 \\text{ and }  5^2}\\\\\\\\ 29 &= \\greenD x^2~~~~~~~~\\small\\gray{\\text{Add 4 and 25}}\\\\\\\\ \\greenD x &= \\sqrt{29} ~~~~~~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###The answer  The distance between $(4,7)$ and $(2, 2)$ is $\\sqrt{29}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Points (non visual)"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the distance between $(-6, 8)$ and $(-3, 9)$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$4$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$6$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\sqrt{10}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\sqrt{15}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's visualize the two points on the coordinate plane:    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "The second quadrant of an x- y- coordinate plane. The tick marks count by ones. There's a point at negative six, eight and negative three, nine.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/2c7cfa65f8df8944ec3c972ab41c8dc567f780b4.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "When we make a right triangle with the two points, the distance is the hypotenuse which we can represent with $\\greenD x$:    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "The second quadrant of an x- y- coordinate plane. The tick marks count by ones. There's a point at negative six, eight and negative three, nine. A horizontal line extends from the first point a length of three units and vertically one unit to the second point. The points connect with a line to form the hypotenuse of a right triangle a length of x.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/8195ee217f20adf8d736918c15b531fec10f8ea5.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now we can use the Pythagorean theorem to find the distance $\\greenD x$:  $\\begin{align} \\maroonD a^2 + \\maroonD b^2 &= \\greenD x^2 ~~~~~~~~\\small\\gray{\\text{The Pythagorean theorem}}\\\\\\\\ \\maroonD{3}^2 + \\maroonD{1}^2 &= \\greenD{x}^2 ~~~~~~~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ 9 + 1 &= \\greenD x^2 ~~~~~~~~\\small\\gray{\\text{Evaluate } 3^2 \\text{ and }  1^2}\\\\\\\\ 10 &= \\greenD x^2~~~~~~~~\\small\\gray{\\text{Add 9 and 1}}\\\\\\\\ \\greenD x &= \\sqrt{10} ~~~~~~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###The answer  The distance between $(-6,8)$ and $(-3, 9)$ is $\\sqrt{10}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Points (non visual)"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the distance between $(-6, 4)$ and $(-8, 6)$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$2$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$3$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\sqrt{4}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\sqrt{8}$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's visualize the two points on the coordinate plane:    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "The second quadrant of an x- y- coordinate plane. The tick marks count by ones. There's a point at negative eight, six and negative six, four.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/e99e113dfb70dc87ec2b23705855d5b3a5be95f8.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "When we make a right triangle with the two points, the distance is the hypotenuse which we can represent with $\\greenD x$:    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "The second quadrant of an x- y- coordinate plane. The tick marks count by ones. There's a point at negative eight, six and negative six, four. A vertical line extends from the first point a length of two units and horizontally a length of two units. The points connect to form the hypotenuse of a right triangle a length of x.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/ab1730aea24fae2e5941cc152fa90d148c99c186.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now we can use the Pythagorean theorem to find the distance $\\greenD x$:  $\\begin{align} \\maroonD a^2 + \\maroonD b^2 &= \\greenD x^2 ~~~~~~~~\\small\\gray{\\text{The Pythagorean theorem}}\\\\\\\\ \\maroonD{2}^2 + \\maroonD{2}^2 &= \\greenD{x}^2 ~~~~~~~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ 4 + 4 &= \\greenD x^2 ~~~~~~~~\\small\\gray{\\text{Evaluate } 2^2 \\text{ and }  2^2}\\\\\\\\ 8 &= \\greenD x^2~~~~~~~~\\small\\gray{\\text{Add 4 and 4}}\\\\\\\\ \\greenD x &= \\sqrt{8} ~~~~~~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###The answer  The distance between $(-6,4)$ and $(-8, 6)$ is $\\sqrt{8}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Points (non visual)"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the distance between $(-9, -6)$ and $(-2, -2)$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$\\sqrt{28}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\sqrt{33}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\sqrt{65}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\sqrt{121}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's visualize the two points on the coordinate plane:    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "The third quadrant of an x- y- coordinate plane. The tick marks count by ones. There's a point at negative nine, negative six and negative two, negative two.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/f54640ffddaa21bdaae08999540c8b6243628f40.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "When we make a right triangle with the two points, the distance is the hypotenuse which we can represent with $\\greenD x$:    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "The third quadrant of an x- y- coordinate plane. The tick marks count by ones. There's a point at negative nine, negative six and negative two, negative two. A horizontal line extends from the first point a length of seven units then vertically a length of four units to the second point. The points connect with a line to form the hypotenuse of a right triangle that has a length of x.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/f8e139cf0bbd1431fd32cb22f1a4799e1dba14f8.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now we can use the Pythagorean theorem to find the distance $\\greenD x$:  $\\begin{align} \\maroonD a^2 + \\maroonD b^2 &= \\greenD x^2 ~~~~~~~~\\small\\gray{\\text{The Pythagorean theorem}}\\\\\\\\ \\maroonD{7}^2 + \\maroonD{4}^2 &= \\greenD{x}^2 ~~~~~~~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ 49 + 16 &= \\greenD x^2 ~~~~~~~~\\small\\gray{\\text{Evaluate } 7^2 \\text{ and }  4^2}\\\\\\\\ 65 &= \\greenD x^2~~~~~~~~\\small\\gray{\\text{Add 49 and 16}}\\\\\\\\ \\greenD x &= \\sqrt{65} ~~~~~~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###The answer  The distance between $(-9,-6)$ and $(-2, -2)$ is $\\sqrt{65}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Points (non visual)"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the distance between $(-5, -5)$ and $(-9, -2)$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$5$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$7$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\sqrt{12}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\sqrt{29}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's visualize the two points on the coordinate plane:    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "The third quadrant of an x- y- coordinate plane. The tick marks count by ones. There's a point at negative nine, negative two and negative five, negative five.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/6baaabc2795281172d7afb96f4119463944ba8b6.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "When we make a right triangle with the two points, the distance is the hypotenuse which we can represent with $\\greenD x$:    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "The third quadrant of an x- y- coordinate plane. The tick marks count by ones. There's a point at negative nine, negative two and negative five, negative five. A line vertically extends a length of three units from the first point then horizontally four units to the second point. The points connect to form the hypotenuse of a right triangle a length of x. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/5a312f509838f560ce1a277b0a42422667db0bee.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now we can use the Pythagorean theorem to find the distance $\\greenD x$:  $\\begin{align} \\maroonD a^2 + \\maroonD b^2 &= \\greenD x^2 ~~~~~~~~\\small\\gray{\\text{The Pythagorean theorem}}\\\\\\\\ \\maroonD{4}^2 + \\maroonD{3}^2 &= \\greenD{x}^2 ~~~~~~~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ 16 + 9 &= \\greenD x^2 ~~~~~~~~\\small\\gray{\\text{Evaluate } 4^2 \\text{ and }  3^2}\\\\\\\\ 25 &= \\greenD x^2~~~~~~~~\\small\\gray{\\text{Add 16 and 9}}\\\\\\\\ \\greenD x &= 5 ~~~~~~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###The answer  The distance between $(-5,-5)$ and $(-9, -2)$ is $5$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Points (non visual)"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the distance between $(-5, -6)$ and $(-3, -8)$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$2$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$4$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\sqrt{4}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\sqrt{8}$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's visualize the two points on the coordinate plane:    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "The third quadrant of an x- y- coordinate plane. The tick marks count by ones. There's a point at negative five, negative six and negative three, negative eight.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/63644f879836d9a2275b1b526a48aabf86b2a65d.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "When we make a right triangle with the two points, the distance is the hypotenuse which we can represent with $\\greenD x$:    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "The third quadrant of an x- y- coordinate plane. The tick marks count by ones. There's a point at negative five, negative six and negative three, negative eight. A horzontal line extends a length of two units from the first point then vertically a length of two units to the second point. The points connect with a line to form  the hypotenuse of a right triangle with a length of x.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/4a1c5524046de4d67d50be1dfec1a8bf0b09b814.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now we can use the Pythagorean theorem to find the distance $\\greenD x$:  $\\begin{align} \\maroonD a^2 + \\maroonD b^2 &= \\greenD x^2 ~~~~~~~~\\small\\gray{\\text{The Pythagorean theorem}}\\\\\\\\ \\maroonD{2}^2 + \\maroonD{2}^2 &= \\greenD{x}^2 ~~~~~~~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ 4 + 4 &= \\greenD x^2 ~~~~~~~~\\small\\gray{\\text{Evaluate } 2^2 \\text{ and }  2^2}\\\\\\\\ 8 &= \\greenD x^2~~~~~~~~\\small\\gray{\\text{Add 4 and 4}}\\\\\\\\ \\greenD x &= \\sqrt{8} ~~~~~~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###The answer  The distance between $(-5,-6)$ and $(-3, -8)$ is $\\sqrt{8}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Points (non visual)"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the distance between $(8, -3)$ and $(4, -7)$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$6$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$9$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\sqrt{32}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\sqrt{42}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's visualize the two points on the coordinate plane:    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "The fourth quadrant of an x- y- coordinate plane. The tick marks count by ones. There's a point at eight, negative three and four, negative seven.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/fa26150beb1e52d4e22d0fa896fa428e25ea8c84.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "When we make a right triangle with the two points, the distance is the hypotenuse which we can represent with $\\greenD x$:    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "The fourth quadrant of an x- y- coordinate plane. The tick marks count by ones. There's a point at eight, negative three and four, negative seven. A horizontal line extends from the first point a length of four units then vertically a length of four units to the second point. The two points are connected by a line to form a right triangle. The hypotenuse is x.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/101d994e176f9b2a7f2dc3584781478920bf2ab9.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now we can use the Pythagorean theorem to find the distance $\\greenD x$:  $\\begin{align} \\maroonD a^2 + \\maroonD b^2 &= \\greenD x^2 ~~~~~~~~\\small\\gray{\\text{The Pythagorean theorem}}\\\\\\\\ \\maroonD{4}^2 + \\maroonD{4}^2 &= \\greenD{x}^2 ~~~~~~~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ 16 + 16 &= \\greenD x^2 ~~~~~~~~\\small\\gray{\\text{Evaluate } 4^2 \\text{ and }  4^2}\\\\\\\\ 32 &= \\greenD x^2~~~~~~~~\\small\\gray{\\text{Add 16 and 16}}\\\\\\\\ \\greenD x &= \\sqrt{32} ~~~~~~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###The answer  The distance between $(8,-3)$ and $(4, -7)$ is $\\sqrt{32}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Points (non visual)"
+                    }
+                }
+            }
+        }
+    ]
+}

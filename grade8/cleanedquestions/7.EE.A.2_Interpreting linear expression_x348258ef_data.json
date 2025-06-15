@@ -1,0 +1,1329 @@
+{
+    "standard_metadata": {
+        "standard_id": "7.EE.A.2",
+        "standard_description": "Understand that rewriting an expression in different forms in a problem context can shed light on the problem and how the quantities in it are related.",
+        "standard_title": "Interpreting linear expressions",
+        "standard_url": "https://www.khanacademy.org/math/cc-seventh-grade-math/cc-7th-variables-expressions/cc-7th-interpreting-lin-exp/e/interpreting-expressions"
+    },
+    "id": "x348258ef",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Donovan eats $2$ granola bars and drinks $1$ glass of orange juice for breakfast every day. The price of a granola bar is $B$ dollars and the price of a glass of orange juice is $J$ dollars.  The expression $7(2B+J)$ describes how much Donovan spends on breakfast in one week.  **Match each amount in the situation with the expression that represents it.**",
+                                "images": [],
+                                "options": []
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Amount Donovan spends on juice each day  The price of a glass of orange juice is $J$ dollars, and Donovan drinks $1$ glass of orange juice for breakfast every day.   So Donavan spends $1\\cdot J$ dollars, which equals $J$ dollars, on juice each day.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Amount Donovan spends on granola bars each day  The price of a granola bar is $B$ dollars, and Donovan eats $2$ granola bars for breakfast every day.  So Donavan spends $2\\cdot B$ dollars, which equals $2B$ dollars, on granola bars each day.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Amount Donovan spends on breakfast each day  Donovan spends $2B$ dollars for his granola bars and $J$ dollars for his juice, so Donovan spends a total of $2B+J$ dollars on breakfast each day.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Number of days Donovan buys breakfast.  There are $7$ days in a week, so $7$ represents the number of days Donovan buys breakfast.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Altogether, Donovan spends $(2B+J)$ dollars on breakfast for each of $7$ days.  So Donovan spends $7(2B+J)$ dollars on breakfast in one week.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Situation | Expression :- | :-: Amount Donovan spends on breakfast each day | $2B+J$  Amount Donovan spends on granola bars each day | $2B$ Amount Donovan spends on juice each day | $J$ Number of days Donovan buys breakfast. | $7$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Interpret parts - 7.6.6"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "It costs the school band $S$ dollars per sandwich that they make. The band sells each sandwich for $20\\%$ more than it costs to make so they earn a profit.  The expression $73(S+0.2S)$ describes how much money the school band received selling sandwiches at their last fundraiser.  **Match each amount in the situation with the expression that represents it.**",
+                                "images": [],
+                                "options": []
+                            },
+                            "hints": [
+                                {
+                                    "content": "###The cost to make one sandwich  It costs the school band $S$ dollars per sandwich that they make.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###The profit the band earns from one sandwich  The band marks the sandwiches up by $20\\%$ of the original cost $S$ to get their profit.  So the band earns a profit $20\\% \\cdot S$ dollars, which equals $0.2S$ dollars, on each sandwich they sell.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###The amount of money that the band receives for selling one sandwich  The band charges what it costs them to make the sandwich plus their intended profit for each sandwich. So the band receives $S+0.2S$ dollars per sandwich they sell.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###The number of sandwiches the the band sold  The band receives a total of $(S+0.2S)$ times the number of sandwiches they sell.   Since $73(S+0.2S)$ describes how much money the school band received selling sandwiches at their last fundraiser, they must have sold $73$ sandwiches.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Situation | Expression :- | :-: The number of sandwiches the the band sold | $73$  The cost to make one sandwich | $S$ The profit the band earns from one sandwich | $0.2S$ The amount of money that the band receives for selling one sandwich | $S+0.2S$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Interpret parts - 7.6.6"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A single ticket to the magic show costs $t$ dollars, but there is a discount of $5\\%$ per ticket if a group buys $10$ tickets.  The expression $10t-10\\cdot 0.05t$ describes the total cost of buying $10$ tickets for a group.  **Match each amount in the situation with the expression that represents it.**",
+                                "images": [],
+                                "options": []
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Number of tickets  We know from the problem that there need to be $10$ tickets to get the discounted group ticket price.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Cost of buying $10$ single tickets  A single ticket to the magic show costs $t$ dollars.  So the cost of buying $10$ single tickets is $10\\cdot t$ dollars, which is equivalent to $10t$ dollars.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Amount of discount per ticket  For group tickets, there is a discount of $5\\%$ of the single ticket price per ticket.  So the discount for $1$ group ticket is $1\\cdot 5\\% \\cdot t$, which is equal to $0.05t$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Total discount for $10$ group tickets  To get the discount for $10$ group tickets, we multiply the discount for $1$ group ticket by $10$.  So, the total discount for $10$ group tickets is $10\\cdot 0.05t$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Situation | Expression :- | :-: Total discount for $10$ group tickets | $10\\cdot 0.05t$ Amount of discount per ticket | $0.05t$ Number of tickets | $10$ Cost of buying $10$ single tickets | $10t$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Interpret parts - 7.6.6"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Garret is partway through  a $20$-minute bike ride. It takes $4$ minutes for him to go a kilometer. Suppose $k$ is the number of kilometers Garret has already biked.   The expression $4(5-k)$ describes the number of minutes Garret has left in his ride.  **Match each amount in the situation with the expression that represents it.**",
+                                "images": [],
+                                "options": []
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Number of kilometers Garret already biked  $k$ is the number of kilometers Garret has already biked.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Number of minutes Garret takes per kilometer  It takes $4$ minutes for Garret to bike a kilometer.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Total number of kilometers in the ride  The ride takes $20$ minutes, and Garret takes $4$ minutes to bike a kilometer.  There are $20\\div 4$ kilometers, which equals $5$ kilometers, in the ride.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Number of kilometers left in the ride  Since there are $5$ kilometers in the ride, and Garret has already biked $k$ kilometers, he has $5-k$ kilometers left.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Situation | Expression :- | :-: Total number of kilometers in the ride | $5$ Number of kilometers Garret already biked | $k$ Number of kilometers left in the ride | $5-k$ Number of minutes Garret takes per kilometer | $4$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Interpret parts - 7.6.6"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Martin likes to make flower bouquets that have $3$ daffodils and $4$ tulips per vase. A daffodil has a mass of $d$ grams, a tulip has a mass of $t$ grams, and the vase has a mass of $v$ grams.  The expression $5(3d+4t+v)$ describes the mass of $5$ bouquets.  **Match each amount in the situation with the expression that represents it.**",
+                                "images": [],
+                                "options": []
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Number of bouquets  There are $5$ bouquets.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Mass of the daffodils in one bouquet  Each bouquet has $3$ daffodils, and each daffodil has a mass of $d$ grams.  The daffodils in one bouquet have a mass of $3\\cdot d$ grams, which is equivalent to $3d$ grams.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Mass of the tulips in one bouquet  Each bouquet has $4$ tulips, and each tulip has a mass of $t$ grams.  The tulips in one bouquet have a mass of $4\\cdot t$ grams, which is equivalent to $4t$ grams.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Mass of one bouquet  Each bouquet includes $3$ daffodils, $4$ tulips, and a vase.   So to find the mass of one bouquet, we add the masses of those three parts together:  $3d+4t+v$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Situation | Expression :- | :-: Number of bouquets | $5$ Mass of one bouquet | $3d+4t+v$ Mass of the tulips in one bouquet | $4t$ Mass of the daffodils in one bouquet | $3d$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Interpret parts - 7.6.6"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Donovan eats $2$ granola bars and drinks $1$ glass of orange juice for breakfast every day. The price of a granola bar is $B$ dollars and the price of a glass of orange juice is $J$ dollars.  The expression $7(2B+J)$ describes how much Donovan spends on breakfast in one week.  **What does $2B$ represent in the expression?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Amount Donovan spends on breakfast each day",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Amount Donovan spends on granola bars each day",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Amount Donovan spends on juice each day",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Number of days Donovan buys breakfast.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The price of a granola bar is $B$ dollars, and Donovan eats $2$ granola bars for breakfast every day.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "So Donavan spends $2\\cdot B$ dollars, which equals $2B$ dollars, on granola bars each day.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The expression $2B$ represents the amount Donovan spends on granola bars each day.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "7.6.6 type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A robin flew $r$ meters per second, and a cardinal flew $c$ meters per second. The birds flew for $t$ seconds.  The expression $t(r-c)$ describes how many more meters the robin flew than the cardinal flew during that time.  **What does $(r-c)$ represent in this context?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "The total number of meters the cardinal flew",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The total number of meters the robin flew",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "How many more meters the robin flew than the cardinal flew each second",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "How many more meters the cardinal flew than the robin flew each second",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The variable $r$ represents the number of meters the robin flew in one second.  The variable $c$ represents the number of meters the cardinal flew in one second.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since we are *subtracting* those distances, we want to know the *difference* between how far the robin and the cardinal flew each second.  In other words, how many more meters did one bird fly than the other one did?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since the expression $t(r-c)$ describes how many more meters the robin flew than the cardinal flew during $t$ seconds, then $1(r-c)$ describes how many more meters the robin flew than the cardinal flew during $1$ second.  $1(r-c)=(r-c)$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The expression $(r-c)$ represents how many more meters the robin flew than the cardinal flew each second.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "7.6.6 type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A school charges $\\$6$ per ticket to a dance. They spend $\\$300$ on music and decorations.  The expression $6n-300$ describes the amount of profit the school makes from the dance if $n$ students buy tickets.  **What does $6n$ represent in this context?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "The amount of money the school charges for all $n$ tickets",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The amount of money the school spends on the dance",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The number of students who buy tickets",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The profit the school earns per ticket",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The school charges $\\$6$ per ticket, and $n$ students buy tickets.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "So the school charges a total of $6\\cdot n$, which equals $6n$, dollars for all of the tickets.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The expression $6n$ represents the amount of money the school charges for all $n$ tickets.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "7.6.6 type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Camilla borrows a book from the library for $d$ days. The library charges a late fee of $0.10$ dollars per day that the book is late.  If Camilla returns the book more than $21$ days after she borrowed it, the expression $0.10(d-21)$ represents the total late fee Camilla owes.  **What does $(d-21)$ represent in this context?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "The number of days Camilla borrows the book",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The late fee Camilla owes per day the book is late",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The late fee Camilla owes per day she borrowed the book",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The number of days the book is late",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The library charges a late fee of $0.10$ dollars per day that the book is late.  So the total late fee is:  $\\blueD{0.10}\\cdot [\\maroonD{\\text{number of days the book is late}}]$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The expression $\\blueD{0.10}(\\maroonD{d-21})$ also represents the total late fee.  We see that $d-21$ corresponds to the number of days the book is late.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The expression $(d-21)$ represents the number of days the book is late.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "7.6.6 type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Kelby has several pets. She has $B$ , $C$ , and $F$ .  The expression $B+(C+F)$ represents the total number of pets Kelby has.  **What does $C+F$ represent in this context?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "The total number of cold-blooded pets",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The total number of warm-blooded pets",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The total number of pets with $2$ legs",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The total number of pets with $4$ legs",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$C$ is the number of cats, and $F$ is the number of frogs Kelby has.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Both cats and frogs have $4$ legs each.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The expression $C+F$ represents the number of pets with $4$ legs.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "7.6.6 type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Ray is buying some ginger roots to brew some fresh ginger ale. The price of the ginger roots is $G$, and Ray has a coupon for $10\\%$ off.  The expression $0.9G$ represents the price Ray pays for the ginger roots after using the coupon.  **What does $0.9$ represent in this context?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "The amount of the discount from the coupon",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The percent, as a decimal, of the discount from the coupon",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The percent, as a decimal, of the original price that Ray pays",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The amount Ray pays after using the coupon",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Without the coupon, Ray would pay $100\\%$ of the price.  The coupon gives a $10\\%$ discount.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$100\\%-10\\%=90\\%$  Ray pays $90\\%$ of the original price of the ginger roots.   Percent means *per hundred*, so we can write $\\blueD{90\\%}$ as $\\blueD{\\dfrac{90}{100}}$ or $\\blueD{0.9}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The expression $0.9$ represents the percent, as a decimal, of the original price that Ray pays.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "7.6.6 type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Edgar ran $e$ meters per second, and Mathieu ran $m$ meters per second. The boys ran for $t$ seconds.  The expression $t(m-e)$ describes how many more meters Mathieu ran than Edgar ran during that time. We can also use the expression $tm-te$ to represent the same quantity.  **Match each amount in the situation with the expression that represents it.**",
+                                "images": [],
+                                "options": []
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Number of seconds the boys ran  The boys ran for $t$ seconds.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Total number of meters Edgar ran  The variable $e$ represents the number of meters Edgar ran in one second. Edgar ran for $t$ seconds.  So Edgar ran a total of $e\\cdot t$ meters, which is equivalent to $te$ meters.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Total number of meters Mathieu ran  The variable $m$ represents the number of meters Mathieu ran in one second. Mathieu ran for $t$ seconds.  So Mathieu ran a total of $m\\cdot t$ meters, which is equivalent to $tm$ meters.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "### How many more meters Mathieu ran than Edgar ran per second   When we subtract $e$ from $m$, we find the *difference* between how far Mathieu and Edgar ran each second.  In other words, $m-e$ tells us how many more meters Mathieu ran than Edgar did each second.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Situation | Expression :- | :-: Total number of meters Edgar ran | $te$  Total number of meters Mathieu ran | $tm$ How many more meters Mathieu ran than Edgar ran per second | $m-e$ Number of seconds the boys ran | $t$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "7.6.6 type 3"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Molly and Arthur are taking their daughter Ginny on a roller coaster ride. For safety, they need to find their total weight before getting into the same car. Molly’s weight is $M$ kilograms, Arthur’s weight is $A$ kilograms, and Ginny’s weight is $G$ kilograms.  The expression $(M+A)+G$ describes their total weight. We can also use the expression $A+(G+M)$ to represent the same quantity.  **Match each amount in the situation with the expression that represents it.**    For reference:   Molly is a female and an adult.   Arthur is a male and an adult.   Ginny is a female and a child.",
+                                "images": [],
+                                "options": []
+                            },
+                            "hints": [
+                                {
+                                    "content": "###The weight of the male  Arthur is the only male. Arthur's weight is $A$ kilograms.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###The total weight of the females  The females are Ginny and Molly. Ginny's weight is $G$ kilograms, and Molly's weight is $M$ kilograms.  So the total weight of the females is $G+M$ kilograms.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###The weight of the child  Ginny is the only child. Ginny's weight is $G$ kilograms.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###The total weight of the adults  The adults are Molly and Arthur. Molly's weight is $M$ kilograms, and Arthur's weight is $A$ kilograms.  So the total weight of the adults is $M+A$ kilograms.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Situation | Expression :- | :-: The weight of the male | $A$ The total weight of the females | $G+M$ The weight of the child | $G$ The total weight of the adults | $M+A$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "7.6.6 type 3"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Today, Isaac needs to walk his dog, water the garden, and feed his fish. $D$ is the number of minutes it takes to walk his dog, $G$ is the number of minutes it takes to water the garden, and $F$ is the number of minutes it takes to feed his fish.  The expression $G+(D+F)$ describes the total number of minutes it takes Isaac to do all three tasks. We can also use the expression $(G+D)+F$ to represent the same quantity.  **Match each amount in the situation with the expression that represents it.**    For reference:   The dog is an animal, and he needs to go outside to walk.   The garden is a bunch of plants (not an animal), and it is outside.   The fish is an animal, and she lives in a water tank inside.",
+                                "images": [],
+                                "options": []
+                            },
+                            "hints": [
+                                {
+                                    "content": "###The total minutes of the inside tasks  The only inside task is feeding the fish. It takes Isaac $F$ minutes to feed his fish.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###The total minutes of the outside tasks  The outside tasks are watering the garden and walking the dog. It takes Isaac $G$ minutes to water the garden and $D$ minutes to walk the dog.  So the outside tasks take Isaac a total of $G+D$ minutes.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###The total minutes of the tasks involving animals  The tasks involving animals are walking the dog and feeding the fish. It takes Isaac $D$ minutes to walk the dog and $F$ minutes to feed his fish.  So the tasks involving animals take Isaac a total of $D+F$ minutes.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###The total minutes of the tasks *not* involving animals  The only task *not* involving animals is watering the garden. It takes Isaac $G$ minutes to water the garden.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Situation | Expression :- | :-: The total minutes of the inside tasks | $F$ The total minutes of the outside tasks | $G+D$ The total minutes of the tasks involving animals | $D+F$ The total minutes of the tasks *not* involving animals | $G$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "7.6.6 type 3"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "On Thursday, $r$ centimeters of rain fell on Deborah's garden. On Saturday, $15\\%$ more rain fell on the garden.  The expression $r+0.15r$ describes the number of centimeters of rain Deborah's garden got on Saturday. We can also use the expression $1.15r$ to represent the same quantity.  **Match each amount in the situation with the expression that represents it.**",
+                                "images": [],
+                                "options": []
+                            },
+                            "hints": [
+                                {
+                                    "content": "###The centimeters of rain on Thursday  Deborah's garden got $r$ centimeters of rain on Thursday.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###How many more centimeters of rain fell on Saturday than on Thursday  On Saturday, $15\\%$ more rain fell on the garden than fell on Thursday. We can write $15\\%$ as $0.15$.  So, $0.15 \\cdot r$ *more rain*, which is equivalent to $0.15r$, fell on Saturday than on Thursday.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###The centimeters of rain on Saturday  The expression $1.15r$ describes the number of centimeters of rain Deborah's garden got on Saturday.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Situation | Expression :- | :-: The centimeters of rain on Thursday | $r$ How many more centimeters of rain fell on Saturday than on Thursday | $0.15r$ The centimeters of rain on Saturday | $1.15r$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "7.6.6 type 3"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Chad bought a watch that normally costs $w$ dollars. He used a $30\\%$ discount.  The expression $0.7w$ describes the amount of money Chad paid for the watch. We can also use the expression $w-0.3w$ to represent the same quantity.  **Match each amount in the situation with the expression that represents it.**",
+                                "images": [],
+                                "options": []
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Amount the watch normally costs  The watch that normally costs $w$ dollars.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Percent decrease of the discount, as a decimal  Chad used a $30\\%$ discount. We can rewrite $30\\%$ as a decimal as $0.3$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Amount of the discount  The discount is $30\\%$ of the normal price of the watch.  So the amount of the discount is $30\\%\\cdot w$, which is equivalent to $0.3w$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Percent of the normal cost that Chad paid, as a decimal  Chad paid $100\\%-30\\%=70\\%$ of the normal price of the watch. We can rewrite $70\\%$ as $0.7$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Situation | Expression :- | :-: Amount the watch normally costs | $w$ Amount of the discount | $0.3w$ Percent decrease of the discount, as a decimal | $0.3$ Percent of the normal cost that Chad paid, as a decimal | $0.7$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "7.6.6 type 3"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Lei  $32$ carnations for a fundraiser, then she sold $c$ more carnations on the day of the fundraiser. She earned $0.25$ dollars for each carnation she sold.  The expression $8+ 0.25c$ describes how much money Lei earned for the fundraiser. We can also use the expression $0.25(32+c)$ to represent the same quantity.  **Match each amount in the situation with the expression that represents it.**",
+                                "images": [],
+                                "options": []
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Amount of money earned per carnation  Lei earned $0.25$ dollars per carnation.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Total number of carnations Lei sold  Lei presold $32$ carnations, and then she sold $c$ more carnations.  Lei sold a total of $32+c$ carnations.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Amount of money earned for carnations Lei presold  Lei presold $32$ carnations. She earned $0.25$ dollars for each.  Lei earned $32 \\cdot 0.25$ dollars, which is equivalent to $8$ dollars, for the carnations she presold.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Amount of money earned for carnations Lei sold on the day of the fundraiser  Lei sold $c$ carnations on the day of the fundraiser. She earned $0.25$ dollars for each.  Lei earned $c\\cdot 0.25$ dollars, which is equivalent to $0.25c$ dollars, for the carnations she sold on the day of the fundraiser.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Situation | Expression :- | :-: Total number of carnations Lei sold | $32+c$ Amount of money earned per carnation | $0.25$ Amount of money earned for carnations Lei presold | $8$ Amount of money earned for carnations Lei sold on the day of the fundraiser | $0.25c$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "7.6.6 type 3"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Nadeen is at an arcade. She started with $18$ tokens. Each game costs $3$ tokens. So far, Nadeen has played $x$ games.  **Which expressions can we use to describe how many tokens Nadeen has left? **",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$18-3x$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$3(6-x)$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$18-x$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$3x+18$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$3(3-3x)$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "One way to find how many tokens Nadeen has left is to subtract the $\\blueD{\\text{number of tokens she has used}}$ from the $\\greenD{\\text{tokens she started with}}$.  Nadeen started with $\\greenD{18}$ tokens.  $\\greenD{18}-\\blueD{\\text{number of tokens used}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Each game costs $3$ tokens to play, so the number of tokens Nadeen has used is $3$ times the number of games she has played.  $\\blueD{3x}$ is an expression for the $\\blueD{\\text{number of tokens Nadeen has used}}$.  $\\greenD{18}-\\blueD{3x}$   One expression to find how many tokens Nadeen has left is $\\greenD{18}-\\blueD{3x}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's see if there is another way to represent how many tokens Nadeen has left.  Since Nadeen can play $6$ games total with her $18$ tokens, the number of games she has left to play is:  $6-x$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Each of the $6-x$ games costs $3$ tokens, so the number of tokens Nadeen has left is:  $3(6-x)$  We can also use the expression $3(6-x)$ to find how many tokens Nadeen has left.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "These expressions are equivalent.   $\\begin{align} 3(6-x) &= 3\\cdot6-3\\cdot x\\\\\\\\ &= 18-3x \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can use the expression $18-3x$ or $3(6-x)$ to describe how many tokens Nadeen has left.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "7.6.6 type 4"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Jasmijn is a pet groomer. She charges $n$ dollars to clip a dog's nails, $w$ dollars to wash the dog, and $h$ dollars to cut a dog's hair. Jasmijn will perform all three services for each of the $4$ dogs she needs to groom this weekend.   **Which expressions can we use to describe how much Jasmijn will charge for grooming all $4$ dogs? **",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$4n+4w+4h$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$4n+w+h$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$4(n+h)+w$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$n+w+h+4$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$4(n+w+h)$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "One way to find how much Jasmijn charges is to multiply the $\\blueD{\\text{number of dogs}}$ by the $\\greenD{\\text{amount she charges per dog}}$.  Jasmijn needs to groom $\\blueD{4}$ dogs.  $\\blueD{4}\\cdot\\greenD{\\text{amount she charges per dog}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "For each dog, she charges $n$ dollars to clip its nails, $w$ dollars to wash it, and $h$ dollars to cut its hair.  $\\greenD{n+w+h}$ is an expression for the $\\greenD{\\text{amount she charges per dog}}$.  $\\blueD{4}\\greenD{(n+w+h)}$   One expression to find how much Jasmijn charges is $\\blueD{4}\\greenD{(n+w+h)}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's see if there is another way to represent how much Jasmijn charges.  Since Jasmijn charges $n$ dollars to clip one dog's nails, she charges $4n$ dollars to clip $4$ dogs' nails.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Likewise, she charges $4w$ dollars to wash all $4$ dogs and $4h$ dollars to cut all the dogs' hair.  $4n+4w+4h$  We can also use the expression $4n+4w+4h$ to find how much Jasmijn charges to groom all four dogs.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "These expressions are equivalent.   $\\begin{align} {4}{(n+w+h)}&= 4\\cdot n + 4\\cdot w + 4\\cdot h\\\\\\\\ &=4n+4w+4h \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can use the expression ${4}{(n+w+h)}$ or $4n+4w+4h$ to describe how much Jasmijn will charge for grooming all $4$ dogs.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "7.6.6 type 4"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Ariane feeds her kitten $k$ grams of food $2$ times in the morning and $2$ times in the evening. She feeds her dog $d$ grams of food $1$ time in the morning and $1$ time in the evening.  **Which expressions can we use to describe how many grams of food Ariane feeds her animals per day? **",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$4(k+2d)$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$2d+4k$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$(2k+d)+(2k+d)$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$(k+d)2$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$(4+2)\\cdot(k+d)$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "One way to find how much food Ariane feeds to her animals is to add the $\\blueD{\\text{amount of kitten food}}$ to the $\\greenD{\\text{amount of dog food}}$.  $\\greenD{\\text{amount of dog food}}+\\blueD{\\text{amount of kitten food}} $",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Ariane feeds her kitten $k$ grams of food a total of $4$ times a day.  $\\blueD{4k}$ is an expression for the $\\blueD{\\text{amount of kitten food}}$.  Ariane feeds her dog $d$ grams of food a total of $2$ times a day.  $\\greenD{2d}$ is an expression for the $\\greenD{\\text{amount of dog food}}$.  One expression to find how much food Ariane feeds her animals is $\\greenD{2d}+\\blueD{4k}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's see if there is another way to represent how much food Ariane feeds her animals.  We can add the amounts of food Ariane feeds her animals in the morning and the evening.  $\\maroonD{\\text{morning food}}+\\goldE{\\text{evening food}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "In the morning, Ariane feeds her kitten a total of $2k$ grams of food and her dog $d$ grams of food.  $\\maroonD{2k+d}$ is an expression for the amount of food Ariane feeds her animals in the morning.  Likewise, she feed her animals the same amount in the evening, so $\\goldE{2k+d}$ is an expression for the amount of food Ariane feeds her animals in the evening.  $(\\maroonD{2k+d})+(\\goldE{2k+d})$  We can also use the expression $(\\maroonD{2k+d})+(\\goldE{2k+d})$ to find how much food Ariane feeds her animals per day.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "These expressions are equivalent.   $\\begin{align} ({2k+d})+({2k+d})&= 2(2k+d)\\\\\\\\ &=2\\cdot2k+2\\cdot d\\\\\\\\ &=4k+2d\\\\\\\\ &=2d+4k \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can use the expression $2d+4k$ or $(2k+d)+(2k+d)$ to describe how many grams of food Ariane feeds her animals per day.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "7.6.6 type 4"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A model house that runs completely on renewable energy uses $2$ windmills and $3$ solar panels. Each windmill generates $M$ kilowatt-hours (kWh) of energy per year, and each solar panel generates $S$ kWh per year.  **Which expressions can we use to describe how many kWh of energy the model house will output in $10$ years? **",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$5(10M+10S)$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$20M+30S$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$3S+2M$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$10(2M+3S)$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$(M+M+M+S+S)10$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "One way to find how much energy the house outputs is to multiply the $\\blueD{\\text{number of years}}$ by the $\\greenD{\\text{output per year}}$.  We are interested in the output for $\\blueD{10}$ years.  $\\blueD{10}\\cdot\\greenD{\\text{output per year}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are $2$ windmills and they each output $M$ kWh of energy per year. So the windmills output a total of $2M$ kWh per year.  There are $3$ solar panels and they each output $S$ kWh of energy per year. So the solar panels output a total of $3S$ kWh per year.  $\\greenD{2M+3S}$ is an expression for the $\\greenD{\\text{output per year}}$.  One expression to find how much energy the model house outputs in ten years is $\\blueD{10}\\greenD{(2M+3S)}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's see if there is another way to represent how much energy the house outputs per year.  Since the windmills output $2M$ kWh per year, they output $10\\cdot 2M$ kWh, which is equal to $\\maroonD{20M}$, in $10$ years.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Likewise, since the solar panels output $3S$ kWh per year, they output $10\\cdot 3S$ kWh, which is equal to $\\goldE{30S}$, in $10$ years.   We can use the expression $\\maroonD{20M}+\\goldE{30S}$ to show the sum of the total output from the windmills and the total output from the solar panels.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "These expressions are equivalent.   $\\begin{align} 10(2M+3S)&=10\\cdot2M+10\\cdot3S\\\\\\\\ &=20M+30S \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can use the expression $10(2M+3S)$ or $20M+30S$ to describe how many kWh of energy the model house will output in $10$ years.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "7.6.6 type 4"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Niu has decorated $x$ cards. He started with $24$ stickers, and he used $4$ stickers per card.  **Which expressions can we use to describe how many stickers Niu has left? **",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$4x+24$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$4+24x$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$4(6-x)$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$24-x$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$24-4x$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "One way to find how many stickers Niu has left is to subtract the $\\blueD{\\text{number of stickers he has used}}$ from the $\\greenD{\\text{number of stickers he started with}}$.  Niu started with $\\greenD{24}$ stickers.  $\\greenD{24}-\\blueD{\\text{number of stickers used}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Niu used $4$ stickers per card, so the number of stickers Niu has used is $4$ times the number of cards he has decorated. Niu has decorated $x$ cards.  $\\blueD{4x}$ is an expression for the $\\blueD{\\text{number of stickers Niu has used}}$.  $\\greenD{24}-\\blueD{4x}$   One expression to find how many stickers Niu has left is $\\greenD{24}-\\blueD{4x}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's see if there is another way to represent how many stickers Niu has left.  Since Niu can decorate $6$ total cards with his $24$ stickers, the number of cards he has left to decorate is:  $6-x$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Each of the $6-x$ cards requires $4$ stickers, so the number of stickers Niu has left is:  $4(6-x)$  We can also use the expression $4(6-x)$ to find how many stickers Niu has left.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "These expressions are equivalent.   $\\begin{align} 4(6-x)&=4\\cdot 6-4\\cdot x\\\\\\\\ &=24-4x \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can use the expression $24-4x$ or $4(6-x)$ to describe how many stickers Niu has left.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "7.6.6 type 4"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Mr. Golv is practicing his jiu-jitsu drill where he does $5$ guard passes and $2$ kimura arm locks. A guard pass takes $G$ seconds, and a kimura arm lock takes $K$ seconds.  **Which expressions can we use to describe the number of seconds it takes Mr. Golv to complete his jiu-jitsu drill $7$ times? **",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$7(K+G)$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$2K+5G$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$7(5G-2K)$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$7(5G+2K)$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$14K+35G$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "One way to find how long Mr. Golv spends on his drills is to multiply the $\\blueD{\\text{number of drills}}$ by the $\\greenD{\\text{number of seconds per drill}}$.  Mr. Golv practiced his drill $\\greenD{7}$ times.  $\\greenD{7}(\\blueD{\\text{number of seconds per drill}})$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "During a drill, Mr. Golv does $5$ guard passes, and each guard pass takes $G$ seconds. So he spends $5G$ seconds on guard passes per drill.  During a drill, Mr. Golv does $2$ kimura arm locks, and each arm lock takes $K$ seconds. So he spends $2K$ seconds on kimura arm locks per drill.  $\\blueD{5G+2K}$ is an expression for the $\\blueD{\\text{number seconds per drill}}$.  $\\greenD{7}(\\blueD{5G+2K})$  One expression to find how many seconds it takes Mr. Golv to complete his jiu-jitsu drill $7$ times is $\\greenD{7}(\\blueD{5G+2K})$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's see if there is another way to represent how many seconds Mr. Golv's drills take.  We could add the time he spends on arm locks to the time he spends on guard passes.  $\\maroonD{\\text{seconds on arm locks}}+\\goldE{\\text{seconds on guard passes}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since he takes $5G$ seconds to finish the guard passes per drill, he spends $7\\cdot 5G$ seconds, which equals $\\goldE{35G}$ seconds, to finish the guard passes in all $7$ drills.  Likewise, he takes $2K$ seconds to finish the kimura arm locks per drill, so he spends $7\\cdot 2K$ seconds, which equals $\\maroonD{14K}$ seconds, to finish the kimura arm locks in all $7$ drills.  $\\maroonD{14K}+\\goldE{35G}$  We can also use the expression $\\maroonD{14K}+\\goldE{35G}$ to find the number of seconds it takes Mr. Golv to complete his jiu-jitsu drill $7$ times.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "These expressions are equivalent.   $\\begin{align} 7(5G+2K)&=7\\cdot 5G+7\\cdot 2K\\\\\\\\ &=35G+14K\\\\\\\\ &=14K+35G \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can use the expression $7(5G+2K)$ or $14K+35G$ to describe the number of seconds it takes Mr. Golv to complete his jiu-jitsu drill $7$ times.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "7.6.6 type 4"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Tatenda takes $t$ seconds to mow a square meter of lawn and Ciara takes $c$ seconds to mow a square meter of lawn. Tatenda mows $700$ square meters of lawn per week and Ciara mows $750$ square meters of lawn per week.  **Which expressions can we use to describe how many more seconds Tatenda spends than Ciara spends mowing lawns during $4$ weeks? **",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$4(750c-700t)$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$3000c+2800t$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$2800t-3000c$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$4(700t-750c)$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$4(700t+750c)$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "One way to find how many more seconds Tatenda spends is to subtract $\\blueD{\\text{Ciara's total  seconds}}$ from  $\\greenD{\\text{Tatenda's total seconds}}$.  $\\greenD{\\text{Tatenda's total seconds}}-\\blueD{\\text{Ciara's total  seconds}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Tatenda spends $t$ seconds mowing each square meter, mows $700$ square meters per week, and mows for $4$ weeks.  $t(700)(4)=2800t$  We can use the expression $\\greenD{2800t}$ to represent $\\greenD{\\text{Tatenda's total seconds}}$.  Ciara spends $c$ seconds mowing each square meter, mows $750$ square meters per week, and mows for $4$ weeks.  $c(750)(4)=3000c$  We can use the expression $\\blueD{3000c}$ to represent $\\blueD{\\text{Ciara's total seconds}}$.  One expression to find how many more seconds Tatenda spends than Ciara spends mowing lawns during $4$ weeks is:  $\\greenD{2800t}-\\blueD{3000c}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's see if there is another way to represent how many more seconds Tatenda spends than Ciara spends mowing lawns during $4$ weeks.  Tatenda spends $t$ seconds per square meter and mows $700$ square meters of lawn per week. So in one week, Tatenda mows for $\\maroonD{700t}$ seconds.  Ciara spends $c$ seconds per square meter and mows $750$ square meters of lawn per week. So in one week, Ciara mows for $\\goldE{750c}$ seconds.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "That means that each week, Tatenda spends $\\maroonD{700t}-\\goldE{750c}$ more seconds mowing than Ciara does.  So in $\\purple{4}$ weeks, he spends $\\purple{4}$ times that many more seconds mowing.  We can also use the expression $\\purpleD{4}(\\maroonD{700t}-\\goldE{750c})$ to find how many more seconds Tatenda spent in all.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "These expressions are equivalent.   $\\begin{align} {4}({700t}-{750c})&=4\\cdot700t-4\\cdot750c\\\\\\\\ &=2800t-3000c \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can use the expression $2800t-3000c$ or ${4}({700t}-{750c})$ to describe how many more seconds Tatenda spends than Ciara spends mowing lawns during $4$ weeks.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "7.6.6 type 4"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Kayson mixes $300$ milliliters $(\\text{mL})$ of spinach, $200\\,\\text{mL}$ of berries, and $42\\,\\text{mL}$ of dressing to make a salad.  There are $s$ milligrams $(\\text{mg})$ of vitamin C per milliliter of spinach, $b\\,\\text{mg}$ per milliliter of berries, and $d\\,\\text{mg}$ per milliliter of dressing.  **Which expressions can we use to describe how many milligrams of vitamin C are in the salad? **",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$200b+(300s+42d)$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$300(200b+42d)$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$542(d+s+b)$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$300d+200b+42s$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$300s+200b+42d$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "One way to find how many milligrams of vitamin C are in the salad is to add the $\\blueD{\\text{spinach's vitamin C}}$, the  $\\greenD{\\text{berries' vitamin C}}$, and the $\\purpleD{\\text{dressing's vitamin C}}$.  $\\blueD{\\text{spinach's vitamin C}}+\\greenD{\\text{berries' vitamin C}}+\\purpleD{\\text{dressing's vitamin C}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are $300\\,\\text{mL}$ of spinach and each milliliter has $s\\,\\text{mg}$ of vitamin C.  We can use the expression $\\blueD{300s}$ to represent the $\\blueD{\\text{spinach's vitamin C}}$.  There are $200\\,\\text{mL}$ of berries and each milliliter has $b\\,\\text{mg}$ of vitamin C.  We can use the expression $\\greenD{200b}$ to represent the $\\greenD{\\text{berries' vitamin C}}$.  There are $42\\,\\text{mL}$ of dressing and each milliliter has $d\\,\\text{mg}$ of vitamin C.  We can use the expression $\\purpleD{42d}$ to represent the $\\purpleD{\\text{dressing's vitamin C}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "One expression we can use to represent the total vitamin C is:  $\\blueD{300s}+\\greenD{200b}+\\purpleD{42d}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's see if there is another way to represent how many milligrams of vitamin C are in the salad.  We can add and group terms in any order, so $\\greenD{200b}+(\\blueD{300s}+\\purpleD{42d})$ is another way to represent the total amount of vitamin C.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can use the expression ${300s}+{200b}+{42d}$ or ${200b}+({300s}+{42d})$ to describe how many milligrams of vitamin C are in the salad.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "7.6.6 type 4"
+                    }
+                }
+            }
+        }
+    ]
+}

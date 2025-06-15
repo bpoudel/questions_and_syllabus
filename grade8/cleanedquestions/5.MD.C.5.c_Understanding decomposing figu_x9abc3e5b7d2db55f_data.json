@@ -1,0 +1,983 @@
+{
+    "standard_metadata": {
+        "standard_id": "5.MD.C.5.c",
+        "standard_description": "Recognize volume as additive. Find volumes of solid figures composed of two non-overlapping right rectangular prisms by adding the volumes of the non-overlapping parts, applying this technique to solve real world problems.",
+        "standard_title": "Understanding decomposing figures to find volume",
+        "standard_url": "https://www.khanacademy.org/math/cc-fifth-grade-math/5th-volume/decompose-figures-to-find-volume/e/understanding-decomposing-figures-to-find-volume"
+    },
+    "id": "x9abc3e5b7d2db55f",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The figure below is made up of two rectangular prisms.     **Which expression can be used to find the volume of the figure?**",
+                                "images": [
+                                    {
+                                        "alt": "A figure made up of 2 rectangular prisms. Color is used to show the rectangular prisms that make up the figure. The first rectangular prism is blue and has the dimensions 9 centimeters length by 5 centimeters width by 2 centimeters height. The second rectangular prism is purple and has the dimensions 9 centimeters length by 1 centimeter width by 8 centimeters height.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/da547a614238d4c62bd9b4c4af73c535f9a5c385.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$(\\blueE2\\text{ cm}\\times\\blueE9\\text{ cm}\\times\\blueE5\\text{ cm}) + (\\purpleD1\\text{ cm}\\times\\purpleD8\\text{ cm}\\times\\purpleD9\\text{ cm})$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$(\\blueE2\\text{ cm}\\times\\blueE9\\text{ cm}\\times\\blueE5\\text{ cm}) + (\\purpleD2\\text{ cm}\\times\\purpleD8\\text{ cm}\\times\\purpleD5\\text{ cm})$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$(\\blueE2\\text{ cm}\\times\\blueE9\\text{ cm}\\times\\blueE5\\text{ cm}) + (\\purpleD1\\text{ cm}\\times\\purpleD8\\text{ cm}\\times\\purpleD5\\text{ cm})$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$(\\blueE2\\text{ cm}\\times\\blueE9\\text{ cm}\\times\\blueE5\\text{ cm}) + (\\purpleD2\\text{ cm}\\times\\purpleD8\\text{ cm}\\times\\purpleD9\\text{ cm})$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To find the volume of a rectangular prism, we multiply the $\\text{length}\\times\\text{height}\\times{\\text{width}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's break the figure into $2$ parts.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Two rectangular prisms. The first rectangular prism is blue and has the dimensions 9 centimeters length by 5 centimeters width by 2 centimeters height. The second rectangular prism is purple and has the dimensions 9 centimeters length by 1 centimeter width by 8 centimeters height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/5f7d8fad94910c479ada31ff40f7765349474036.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The first prism has dimensions of $\\blueE2\\text{ cm}, \\blueE9\\text{ cm}$ and $\\blueE5\\text{ cm}$.  [[☃ image 1]]  So, to find the volume we use the expression $\\blueE2\\text{ cm}\\times\\blueE9\\text{ cm}\\times\\blueE5\\text{ cm}$.",
+                                    "images": [
+                                        {
+                                            "alt": "The blue rectangular prism from above is shown and has the dimensions 9 centimeters length by 5 centimeters width by 2 centimeters height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/10a3db0bddcf41c43502606e54483cffe98fc332.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The second prism has dimensions of $\\purpleD8\\text{ cm}, \\purpleD9\\text{ cm}$ and $\\purpleD1\\text{ cm}$.   [[☃ image 1]]  So, to find the volume we use the expression $\\purpleD8\\text{ cm}\\times\\purpleD9\\text{ cm}\\times\\purpleD1\\text{ cm}$.",
+                                    "images": [
+                                        {
+                                            "alt": "The purple rectangular prism from above is shown and has the dimensions 9 centimeters length by 1 centimeter width by 8 centimeters height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/ff6d2adda1d03b4c2704287cc3a56788c3bb722a.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "To find the total volume, we add both volumes together.  $(\\blueE2\\text{ cm}\\times\\blueE9\\text{ cm}\\times\\blueE5\\text{ cm}) + (\\purpleD1\\text{ cm}\\times\\purpleD8\\text{ cm}\\times\\purpleD9\\text{ cm})$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "MC- expressions"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The figure below is made up of two rectangular prisms.     **Which expression can be used to find the volume of the figure?**",
+                                "images": [
+                                    {
+                                        "alt": "A figure made up of 2 rectangular prisms. Color is used to show the rectangular prisms that make up the figure. The first rectangular prism is blue and has the dimensions 12 centimeters length by 5 centimeters width by 5 centimeters height. The second rectangular prism is purple and has the dimensions 12 centimeters length by 3 centimeters width by 10 centimeters height.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/38950bebe2687787421d180787da20fd8799c5a8.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$(\\blueE5\\text{ cm}\\times\\blueE{12}\\text{ cm}\\times\\blueE5\\text{ cm}) + (\\purpleD3\\text{ cm}\\times\\purpleD{10}\\text{ cm}\\times\\purpleD{12}\\text{ cm})$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$(\\blueE5\\text{ cm}\\times\\blueE5\\text{ cm}\\times\\blueE{12}\\text{ cm}) + (\\purpleD3\\text{ cm}\\times\\purpleD{10}\\text{ cm} \\times\\purpleD{10}\\text{ cm}) $",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$(\\blueE5\\text{ cm}\\times\\blueE{12}\\text{ cm}\\times\\blueE5\\text{ cm}) + (\\purpleD3\\text{ cm}\\times\\purpleD{10}\\text{ cm})$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$(\\blueE{12}\\text{ cm}\\times\\blueE5\\text{ cm}\\times\\blueE5\\text{ cm}) + (\\purpleD5\\text{ cm}\\times\\purpleD3\\text{ cm}\\times\\purpleD{10}\\text{ cm})$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To find the volume of a rectangular prism, we multiply the $\\text{length}\\times\\text{height}\\times{\\text{width}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's break the figure into $2$ parts.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Two rectangular prisms. The first rectangular prism is blue and has the dimensions 12 centimeters length by 5 centimeters width by 5 centimeters height. The second rectangular prism is purple and has the dimensions 12 centimeters length by 3 centimeters width by 10 centimeters height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/9cf250e92b64d420a5989800928ccb9bb6030df1.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The first prism has dimensions of $\\blueE5\\text{ cm}, \\blueE{12}\\text{ cm}$ and $\\blueE5\\text{ cm}$.  [[☃ image 1]]  So, to find the volume we use the expression $\\blueE5\\text{ cm}\\times\\blueE{12}\\text{ cm}\\times\\blueE5\\text{ cm}$.",
+                                    "images": [
+                                        {
+                                            "alt": "The blue rectangular prism from above is shown and has the dimensions 12 centimeters length by 5 centimeters width by 5 centimeters height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/dc4ce8a604adc3a2ad183eb268856e63ea0aea1d.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The second prism has dimensions of $\\purpleD{12}\\text{ cm}, \\purpleD{10}\\text{ cm}$ and $\\purpleD3\\text{ cm}$.  [[☃ image 1]]  So, to find the volume we use the expression $\\purpleD{12}\\text{ cm}\\times\\purpleD{10}\\text{ cm}\\times\\purpleD3\\text{ cm}$.",
+                                    "images": [
+                                        {
+                                            "alt": "The purple rectangular prism from above is shown and has the dimensions 12 centimeters length by 3 centimeters width by 10 centimeters height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/4e71dbb8d4466c08aee26324cec8ffc98b235ddc.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "To find the total volume, we add both volumes together.  $(\\blueE5\\text{ cm}\\times\\blueE{12}\\text{ cm}\\times\\blueE5\\text{ cm}) + (\\purpleD3\\text{ cm}\\times\\purpleD{10}\\text{ cm}\\times\\purpleD{12}\\text{ cm})$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "MC- expressions"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The figure below is made up of two rectangular prisms.     **Which expression can be used to find the volume of the figure?**",
+                                "images": [
+                                    {
+                                        "alt": "A figure made up of 2 rectangular prisms. Color is used to show the rectangular prisms that make up the figure. The first rectangular prism is blue and has the dimensions 8 centimeters length by 7 centimeters width by 2 centimeters height. The second rectangular prism is purple and has the dimensions 8 centimeters length by 1 centimeter width by 6 centimeters height.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/76209ee98a4ca57eed667520334cc9a4d78d7897.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$(\\blueE2\\text{ cm}\\times\\blueE{8}\\text{ cm}\\times\\blueE7\\text{ cm}) + (\\purpleD1\\text{ cm}\\times\\purpleD{6}\\text{ cm}\\times\\purpleD{8}\\text{ cm})$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$(\\blueE2\\text{ cm}\\times\\blueE7\\text{ cm} \\times\\blueE6\\text{ cm}) + (\\purpleD1\\text{ cm}\\times\\purpleD{6}\\text{ cm}\\times\\purpleD{8}\\text{ cm})$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$(\\blueE2\\text{ cm}\\times\\blueE{7}\\text{ cm}\\times\\blueE1\\text{ cm}) + (\\purpleD1\\text{ cm}\\times\\purpleD{6}\\text{ cm}\\times\\purpleD{8}\\text{ cm})$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$(\\blueE{2}\\text{ cm}\\times\\blueE7\\text{ cm}) + (\\purpleD1\\text{ cm}\\times\\purpleD{6}\\text{ cm}\\times\\purpleD{8}\\text{ cm})$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To find the volume of a rectangular prism, we multiply the $\\text{length}\\times\\text{height}\\times{\\text{width}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's break the figure into $2$ parts.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Two rectangular prisms. The first rectangular prism is blue and has the dimensions 8 centimeters length by 7 centimeters width by 2 centimeters height. The second rectangular prism is purple and has the dimensions 8 centimeters length by 1 centimeter width by 6 centimeters height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/24e521959f959990ec5d9e3c9e5b6ef99ae43427.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The first prism has dimensions of $\\blueE2\\text{ cm}, \\blueE{8}\\text{ cm}$ and $\\blueE7\\text{ cm}$.  [[☃ image 1]]  So, to find the volume we use the expression $\\blueE2\\text{ cm}\\times\\blueE{8}\\text{ cm}\\times\\blueE7\\text{ cm}$.",
+                                    "images": [
+                                        {
+                                            "alt": "The blue rectangular prism from above is shown and has the dimensions 8 centimeters length by 7 centimeters width by 2 centimeters height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/dc2c6397c00bac0920a7746ad45af212441bef5a.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The second prism has dimensions of $\\purpleD{8}\\text{ cm}, \\purpleD{6}\\text{ cm}$ and $\\purpleD1\\text{ cm}$.  [[☃ image 1]]  So, to find the volume we use the expression $\\purpleD{1}\\text{ cm}\\times\\purpleD{6}\\text{ cm}\\times\\purpleD8\\text{ cm}$.",
+                                    "images": [
+                                        {
+                                            "alt": "The purple rectangular prism from above is shown and has the dimensions 8 centimeters length by 1 centimeter width by 6 centimeters height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/2a1f82166b992845662398d9660d83d0ec2caab5.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "To find the total volume, we add both volumes together.  $(\\blueE2\\text{ cm}\\times\\blueE{8}\\text{ cm}\\times\\blueE7\\text{ cm}) + (\\purpleD1\\text{ cm}\\times\\purpleD{6}\\text{ cm}\\times\\purpleD{8}\\text{ cm})$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "MC- expressions"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The figure below is made up of two rectangular prisms.     **Which expression can be used to find the volume of the figure?**",
+                                "images": [
+                                    {
+                                        "alt": "A figure made up of 2 rectangular prisms. Color is used to show the rectangular prisms that make up the figure. The first rectangular prism is gold and has the dimensions 5 centimeters length by 3 centimeters width by 1 centimeter height. The second rectangular prism is purple and has the dimensions 5 centimeters length by 4 centimeter width by 7 centimeters height.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/f6c65aeacde8b5579044e9c9da5b008fac88f4bb.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$(\\goldE1\\text{ cm}\\times\\goldE{5}\\text{ cm}\\times\\goldE3\\text{ cm}) + (\\purpleD4\\text{ cm}\\times\\purpleD{7}\\text{ cm}\\times\\purpleD{5}\\text{ cm})$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$(\\goldE1\\text{ cm}\\times\\goldE3\\text{ cm}) + (\\purpleD4\\text{ cm}\\times\\purpleD{7}\\text{ cm}\\times\\purpleD{5}\\text{ cm})$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$(\\goldE1\\text{ cm}\\times\\goldE{4}\\text{ cm}\\times\\goldE3\\text{ cm}) + (\\purpleD4\\text{ cm}\\times\\purpleD{7}\\text{ cm}\\times\\purpleD{5}\\text{ cm})$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$(\\goldE1\\text{ cm}\\times\\goldE{7}\\text{ cm}\\times\\goldE3\\text{ cm})+ (\\purpleD4\\text{ cm}\\times\\purpleD{7}\\text{ cm}\\times\\purpleD{5}\\text{ cm})$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To find the volume of a rectangular prism, we multiply the $\\text{length}\\times\\text{height}\\times{\\text{width}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's break the figure into $2$ parts.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Two rectangular prisms. The first rectangular prism is gold and has the dimensions 5 centimeters length by 3 centimeters width by 1 centimeter height. The second rectangular prism is purple and has the dimensions 5 centimeters length by 7 centimeters width by 4 centimeters height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/0f7288971dd62bfac64c3fa4baeba6ea60964e16.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The first prism has dimensions of $\\goldE1\\text{ cm}, \\goldE{5}\\text{ cm}$ and $\\goldE3\\text{ cm}$.  [[☃ image 1]]  So, to find the volume we use the expression $\\goldE1\\text{ cm}\\times\\goldE{5}\\text{ cm}\\times\\goldE3\\text{ cm}$.",
+                                    "images": [
+                                        {
+                                            "alt": "The gold rectangular prism from above is shown and has the dimensions 5 centimeters length by 3 centimeters width by 1 centimeter height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/763d0a0cfc24fafe776263441510d8b2fe61ae4e.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The second prism has dimensions of $\\purpleD{5}\\text{ cm}, \\purpleD{7}\\text{ cm}$ and $\\purpleD4\\text{ cm}$.  [[☃ image 1]]  So, to find the volume we use the expression $\\purpleD{4}\\text{ cm}\\times\\purpleD{7}\\text{ cm}\\times\\purpleD5\\text{ cm}$.",
+                                    "images": [
+                                        {
+                                            "alt": "The purple rectangular prism from above is shown and has the dimensions 5 centimeters length by 4 centimeters width by 7 centimeters height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/78c31f7f8f4fb76fa0a6a41afbcc361093364bfb.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "To find the total volume, we add both volumes together.  $(\\goldE1\\text{ cm}\\times\\goldE{5}\\text{ cm}\\times\\goldE3\\text{ cm}) + (\\purpleD4\\text{ cm}\\times\\purpleD{7}\\text{ cm}\\times\\purpleD{5}\\text{ cm})$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "MC- expressions"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The figure below is made up of two rectangular prisms.     **Which expression can be used to find the volume of the figure?**",
+                                "images": [
+                                    {
+                                        "alt": "A figure made up of 2 rectangular prisms. Color is used to show the rectangular prisms that make up the figure. The first rectangular prism is blue and has the dimensions 5 centimeters length by 7 centimeters width by 3 centimeters height. The second rectangular prism is gold and has the dimensions 8 centimeters height by 3 centimeter width by 7 inches length.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/da8adf50c6c7b2db16561e771db9041dac465edf.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$(\\blueE3\\text{ cm}\\times\\blueE{7}\\text{ cm}\\times\\blueE5\\text{ cm}) + (\\goldE3\\text{ cm}\\times\\goldE{7}\\text{ cm}\\times\\goldE{8}\\text{ cm})$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$(\\blueE3\\text{ cm}\\times\\blueE{7}\\text{ cm}\\times\\blueE5\\text{ cm}) + (\\goldE3\\text{ cm}\\times\\goldE{8}\\text{ cm})$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$(\\blueE3\\text{ cm}\\times\\blueE{7}\\text{ cm}\\times\\blueE5\\text{ cm}) + (\\goldE3\\text{ cm}\\times\\goldE{3}\\text{ cm}\\times\\goldE{8}\\text{ cm})$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$(\\blueE3\\text{ cm}\\times\\blueE{7}\\text{ cm}\\times\\blueE5\\text{ cm}) +(\\goldE3\\text{ cm}\\times\\goldE{5}\\text{ cm}\\times\\goldE{8}\\text{ cm})$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To find the volume of a rectangular prism, we multiply the $\\text{length}\\times\\text{height}\\times{\\text{width}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's break the figure into $2$ parts.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Two rectangular prisms. The first rectangular prism is blue and has the dimensions 7 centimeters length by 5 centimeters width by 3 centimeters height. The second rectangular prism is gold and has the dimensions 7 centimeters length by 3 centimeters width by 8 centimeters height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/6ecdaf9114b2063aaaf93b44c0aab4ef195a0c07.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The first prism has dimensions of $\\blueE3\\text{ cm}, \\blueE{7}\\text{ cm}$ and $\\blueE5\\text{ cm}$.  [[☃ image 1]]  So, to find the volume we use the expression $\\blueE3\\text{ cm}\\times\\blueE{7}\\text{ cm}\\times\\blueE5\\text{ cm}$.",
+                                    "images": [
+                                        {
+                                            "alt": "The blue rectangular prism from above is shown and has the dimensions 7 centimeters length by 5 centimeters width by 3 centimeters height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/35e3daf97fd21b8cd535a558f6e803dec32082a5.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The second prism has dimensions of $\\goldE{3}\\text{ cm}, \\goldE{8}\\text{ cm}$ and $\\goldE7\\text{ cm}$.  [[☃ image 1]]  So, to find the volume we use the expression $\\goldE{3}\\text{ cm}\\times\\goldE{7}\\text{ cm}\\times\\goldE8\\text{ cm}$.",
+                                    "images": [
+                                        {
+                                            "alt": "The gold rectangular prism from above is shown and has the dimensions 7 centimeters length by 3 centimeters width by 8 centimeters height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/a3367d4b7e17a3a67f46080a819ffc59a9c8a226.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "To find the total volume, we add both volumes together.  $(\\blueE3\\text{ cm}\\times\\blueE{7}\\text{ cm}\\times\\blueE5\\text{ cm}) + (\\goldE3\\text{ cm}\\times\\goldE{7}\\text{ cm}\\times\\goldE{8}\\text{ cm})$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "MC- expressions"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The figure below is made up of two rectangular prisms.     **Which expression can be used to find the volume of the figure?**",
+                                "images": [
+                                    {
+                                        "alt": "A figure made up of 2 rectangular prisms. Color is used to show the rectangular prisms that make up the figure. The first rectangular prism is blue and has the dimensions 6 meters length by 2 meters width by 4 meters height. The second rectangular prism is maroon and has the dimensions 6 meters length by 3 meters width by 7 meters height.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/81b16e05c164c5f34049e12e2942c575cf27bc66.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$(\\blueE4\\text{ m}\\times\\blueE6\\text{ m}\\times\\blueE2\\text{ m}) + (\\maroonE6\\text{ m}\\times\\maroonE7\\text{ m}\\times\\maroonE3\\text{ m})$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$(\\blueE4\\text{ m}\\times\\blueE2\\text{ m}) + (\\maroonE6\\text{ m}\\times\\maroonE7\\text{ m}\\times\\maroonE3\\text{ m})$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$(\\blueE4\\text{ m}\\times\\blueE7\\text{ m}\\times\\blueE2\\text{ m}) + (\\maroonE6\\text{ m}\\times\\maroonE7\\text{ m}\\times\\maroonE3\\text{ m})$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$(\\blueE4\\text{ m}\\times\\blueE3\\text{ m}\\times\\blueE2\\text{ m}) + (\\maroonE6\\text{ m}\\times\\maroonE7\\text{ m}\\times\\maroonE3\\text{ m})$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To find the volume of a rectangular prism, we multiply the $\\text{length}\\times\\text{height}\\times{\\text{width}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's break the figure into $2$ parts.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Two rectangular prisms.  The first rectangular prism is blue and has the dimensions 6 meters length by 2 meters width by 4 meters height. The second rectangular prism is maroon and has the dimensions 6 meters length by 3 meters width by 7 meters height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/09765eac76e09011224043afaae1c011540848fb.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The first prism has dimensions of $\\blueE4\\text{ m}, \\blueE6\\text{ m}$ and $\\blueE2\\text{ m}$.  [[☃ image 1]]  So, to find the volume we use the expression $\\blueE4\\text{ m}\\times\\blueE6\\text{ m}\\times\\blueE2\\text{ m}$.",
+                                    "images": [
+                                        {
+                                            "alt": "The blue rectangular prism from above is shown and has the dimensions 4 meters length by 6 meters width by 2 meters height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/bc295b5525750340c0cef4180e3104ace7def607.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The second prism has dimensions of $\\maroonE6\\text{ m}, \\maroonE7\\text{ m}$ and $\\maroonE3\\text{ m}$.   [[☃ image 1]]  So, to find the volume we use the expression $\\maroonE6\\text{ m}\\times\\maroonE7\\text{ m}\\times\\maroonE3\\text{ m}$.",
+                                    "images": [
+                                        {
+                                            "alt": "The maroon rectangular prism from above is shown and has the dimensions 6 meters length by 3 meters width by 7 meters height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/9ead70817cd8ac50563bb3388c9f2a5001d5dae3.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "To find the total volume, we add both volumes together.  $(\\blueE4\\text{ m}\\times\\blueE6\\text{ m}\\times\\blueE2\\text{ m}) + (\\maroonE6\\text{ m}\\times\\maroonE7\\text{ m}\\times\\maroonE3\\text{ m})$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "MC- expressions"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The figure below is made up of two rectangular prisms.     **Which expression can be used to find the volume of the figure?**",
+                                "images": [
+                                    {
+                                        "alt": "A figure made up of 2 rectangular prisms. Color is used to show the rectangular prisms that make up the figure. The first rectangular prism is purple and has the dimensions 2 meters length by 6 meters width by 3 meters height. The second rectangular prism is orange and has the dimensions 6 meters length by 6 meters width by 10 meters height.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/f60f4a49214f250d98c79024ac3fc90264c9a1ba.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$\\purpleD{36} \\text{ cubic meters}+\\goldE{360}\\text{ cubic meters}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\purpleD{12} \\text{ cubic meters}+\\goldE{60}\\text{ cubic meters}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\purpleD{18} \\text{ cubic meters}+\\goldE{120}\\text{ cubic meters}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\purpleD{18} \\text{ cubic meters}+\\goldE{60}\\text{ cubic meters}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To find the volume of a rectangular prism, we multiply the $\\text{length}\\times\\text{height}\\times{\\text{width}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's break the figure into $2$ parts.   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Two rectangular prisms. The first rectangular prism is purple and has the dimensions 2 meters length by 6 meters width by 3 meters height. The second rectangular prism is orange and has the dimensions 6 meters length by 6 meters width by 10 meters height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/81b567712664065e7085e149b24339f14ea6425a.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The first prism has the dimensions of $\\purpleD3\\text{ m}, \\purpleD6\\text{ m}$ and $\\purpleD2\\text{ m}$.   [[☃ image 1]]  So, to find the volume we multiply $\\purpleD3\\text{ m}\\times\\purpleD6\\text{ m}\\times\\purpleD2\\text{ m}$.  The volume for this prism is $\\purpleD{36}\\text{ cubic meters}$.",
+                                    "images": [
+                                        {
+                                            "alt": "The purple rectangular prism from above has the dimensions 2 meters length by 6 meters width by 3 meters height. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/2fbd655c53eb4baab5217fd04f52772a1baa5d6c.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The second prism has the dimensions of $\\goldE6\\text{ m}, \\goldE{10}\\text{ m}$ and $\\goldE6\\text{ m}$.   [[☃ image 1]]  So, to find the volume we use the expression $\\goldE6\\text{ m}\\times\\goldE{10}\\text{ m}\\times\\goldE6\\text{ m}$.  The volume for this prism is $\\goldE{360}\\text{ cubic meters}$.",
+                                    "images": [
+                                        {
+                                            "alt": "The orange rectangular prism from above is shown and has the dimensions 6 meters length by 6 meters width by 10 meters height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/8cc1ae564d3b42ea3e9ab3728376541d447753ef.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "To find the total volume, we add both volumes together.  $\\purpleD{36} \\text{ cubic meters}+\\goldE{360}\\text{ cubic meters}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "MC- Totals"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The figure below is made up of two rectangular prisms.     **Which expression can be used to find the volume of the figure?**",
+                                "images": [
+                                    {
+                                        "alt": "A figure made up of 2 rectangular prisms. Color is used to show the rectangular prisms that make up the figure. The first rectangular prism is blue and has the dimensions 5 meters length by 4 meters width by 3 meters height. The second rectangular prism is pink and has the dimensions 5 meters length by 2 meters width by 10 meters height.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/5dfe4c0a40b430c7392e746997bb7551ba659975.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$\\blueE{60} \\text{ cubic meters}+\\maroonE{100}\\text{ cubic meters}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\blueE{15} \\text{ cubic meters}+\\maroonE{100}\\text{ cubic meters}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\blueE{20} \\text{ cubic meters}+\\maroonE{200}\\text{ cubic meters}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\blueE{60} \\text{ cubic meters}+\\maroonE{20}\\text{ cubic meters}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To find the volume of a rectangular prism, we multiply the $\\text{length}\\times\\text{height}\\times{\\text{width}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's break the figure into $2$ parts.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Two rectangular prisms. The first rectangular prism is blue and has the dimensions 5 meters length by 4 meters width by 3 meters height. The second rectangular prism is pink and has the dimensions 5 meters length by 2 meters width by 10 meters height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/8e018c759c64a777862d4a86f9d8c78972f87fe6.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The first prism has dimensions of $\\blueE3\\text{ m}, \\blueE{4}\\text{ m}$ and $\\blueE5\\text{ m}$.  [[☃ image 1]]  So, to find the volume we use the expression $\\blueE3\\text{ m}\\times\\blueE{4}\\text{ m}\\times\\blueE5\\text{ m}$.  The volume for this prism is $\\blueE{60}\\text{ cubic meters}$.",
+                                    "images": [
+                                        {
+                                            "alt": "The blue rectangular prism from above is shown and has  the dimensions 5 meters length by 4 meters width by 3 meters height. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/443f1e453564ae13d047f5924647f4e0167edb85.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The second prism has the dimensions of $\\maroonE5\\text{ m}, \\maroonE{10}\\text{ m}$ and $\\maroonE2\\text{ m}$.  [[☃ image 1]]  So, to find the volume we multiply $\\maroonE5\\text{ m}\\times\\maroonE{10}\\text{ m}\\times\\maroonE{2}\\text{ m}$.  The volume for this prism is $\\maroonE{100}\\text{ cubic meters}$.",
+                                    "images": [
+                                        {
+                                            "alt": "The pink rectangular prism from above is shown and has  the dimensions 5 meters length by 2 meters width by 10 meters height. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/7cf7fbbf4124fb33d2afc0239a7e0be6162f8784.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "To find the total volume, we add both volumes together.  $\\blueE{60} \\text{ cubic meters}+\\maroonE{100}\\text{ cubic meters}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "MC- Totals"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The figure below is made up of two rectangular prisms.     **Which expression can be used to find the volume of the figure?**",
+                                "images": [
+                                    {
+                                        "alt": "A figure made up of 2 rectangular prisms. Color is used to show the rectangular prisms that make up the figure. The first rectangular prism is gold and has the dimensions 6 meters length by 8 meters width by 2 meters height. The second rectangular prism is pink and has the dimensions 6 meters length by 5 meters width by 8 meters height.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/8beaa26d6c73e539f9fcc84942ce11bf3f81a7c9.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$\\goldE{96} \\text{ cubic meters}+\\maroonE{240}\\text{ cubic meters}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\goldE{16} \\text{ cubic meters}+\\maroonE{240}\\text{ cubic meters}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\goldE{80} \\text{ cubic meters}+\\maroonE{40}\\text{ cubic meters}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\goldE{128} \\text{ cubic meters}+\\maroonE{200}\\text{ cubic meters}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To find the volume of a rectangular prism, we multiply the $\\text{length}\\times\\text{height}\\times{\\text{width}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's break the figure into $2$ parts.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Two rectangular prisms. The first rectangular prism is gold and has the dimensions 6 meters length by 8 meters width by 2 meters height. The second rectangular prism is pink and has the dimensions 6 meters length by 5 meters width by 8 meters height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/864c1d6f2c8289be99e5794dfffde3d0be26b5d8.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The first prism has the dimensions of $\\goldE2\\text{ m}, \\goldE6\\text{ m}$ and $\\goldE8\\text{ m}$.  [[☃ image 1]]  So, to find the volume we multiply $\\goldE2\\text{ m}\\times\\goldE6\\text{ m}\\times\\goldE8\\text{ m}$.  The volume for this prism is $\\goldE{96}\\text{ cubic meters}$.",
+                                    "images": [
+                                        {
+                                            "alt": "The gold rectangular prism from above is shown and has the dimensions 6 meters length by 8 meters width by 2 meters height. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/7add1b6a599680f3347c55dc8bbf11929435464b.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The second prism has the dimensions of $\\maroonE6\\text{ m}, \\maroonE{8}\\text{ m}$ and $\\maroonE5\\text{ m}$.  [[☃ image 1]]  So, to find the volume we use the expression $\\maroonE6\\text{ m}\\times\\maroonE{8}\\text{ m}\\times\\maroonE5\\text{ m}$.  The volume for this prism is $\\maroonE{240}\\text{ cubic meters}$.",
+                                    "images": [
+                                        {
+                                            "alt": "The pink rectangular prism from above is shown and has the dimensions 6 meters length by 5 meters width by 8 meters height. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/93c986f372f9296d1f42d4e9e6660701e71e75d4.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "To find the total volume, we add both volumes together.  $\\goldE{96} \\text{ cubic meters}+\\maroonE{240}\\text{ cubic meters}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "MC- Totals"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The figure below is made up of two rectangular prisms.     **Which expression can be used to find the volume of the figure?**",
+                                "images": [
+                                    {
+                                        "alt": "A figure made up of 2 rectangular prisms. Color is used to show the rectangular prisms that make up the figure. The first rectangular prism is blue and has the dimensions 7 meters length by 1 meter width by 2 meters height. The second rectangular prism is pink and has the dimensions 7 meters length by 5 meters width by 8 meters height.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/3ab623fc274d9328d8ea48e9bdba6e4a34bd6918.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$\\blueE{14} \\text{ cubic meters}+\\maroonE{280}\\text{ cubic meters}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\blueE{14} \\text{ cubic meters}+\\maroonE{40}\\text{ cubic meters}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\blueE{14} \\text{ cubic meters}+\\maroonE{200}\\text{ cubic meters}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\blueE{14} \\text{ cubic meters}+\\maroonE{80}\\text{ cubic meters}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To find the volume of a rectangular prism, we multiply the $\\text{length}\\times\\text{height}\\times{\\text{width}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's break the figure into $2$ parts.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Two rectangular prisms. The first rectangular prism is blue and has dimensions 7 meters length by 1 meters width by 2 meters height. The second rectangular prism is pink and has the dimensions 7 meters length by 5 meters width by 8 meters height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/c05e1753418b02da5016ff2c6d64a940552fe88f.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The first prism has dimensions of $\\blueE2\\text{ m}, \\blueE{7}\\text{ m}$ and $\\blueE1\\text{ m}$.  [[☃ image 1]]  So, to find the volume we use the expression $\\blueE2\\text{ m}\\times\\blueE7\\text{ m}\\times\\blueE1\\text{ m}$.  The volume for this prism is $\\blueE{14}\\text{ cubic meters}$.",
+                                    "images": [
+                                        {
+                                            "alt": "The blue rectangular prism from above is shown and has the dimensions 7 meters length by 1 meters width by 2 meters height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/63e06796a3eac8175333a35d70376b72692f826c.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The second prism has the dimensions of $\\maroonE5\\text{ m}, \\maroonE8\\text{ m}$ and $\\maroonE7\\text{ m}$.  [[☃ image 1]]  So, to find the volume we multiply $\\maroonE5\\text{ m}\\times\\maroonE8\\text{ m}\\times\\maroonE7\\text{ m}$.  The volume for this prism is $\\maroonE{280}\\text{ cubic meters}$.",
+                                    "images": [
+                                        {
+                                            "alt": "The pink rectangular prism from above is shown and has  the dimensions 7 meters length by 5 meters width by 8 meters height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/40826cf2622ac87eda42bcd95d9acdfbd44dffbe.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "To find the total volume, we add both volumes together.  $\\blueE{14} \\text{ cubic meters}+\\maroonE{280}\\text{ cubic meters}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "MC- Totals"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The figure below is made up of two rectangular prisms.     **Which expression can be used to find the volume of the figure?**",
+                                "images": [
+                                    {
+                                        "alt": "A figure made up of 2 rectangular prisms. Color is used to show the rectangular prisms that make up the figure. The first rectangular prism is gold and has the dimensions 7 meters length by 8 meters width by 4 meters height. The second rectangular prism is pink and has the dimensions 7 meters length by 3 meters width by 9 meters height.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/1a0068df777b9b13240c144190be86d16dc5a7c6.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$\\goldE{224} \\text{ cubic meters}+\\maroonE{189}\\text{ cubic meters}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\goldE{12} \\text{ cubic meters}+\\maroonE{189}\\text{ cubic meters}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\goldE{32} \\text{ cubic meters}+\\maroonE{189}\\text{ cubic meters}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\goldE{288} \\text{ cubic meters}+\\maroonE{189}\\text{ cubic meters}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To find the volume of a rectangular prism, we multiply the $\\text{length}\\times\\text{height}\\times{\\text{width}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's break the figure into $2$ parts.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Two rectangular prisms. The first rectangular prism is gold and has the dimensions 7 meters length by 8 meters width by 4 meters height. The second rectangular prism is pink and has the dimensions 7 meters length by 3 meters width by 9 meters height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/ac749da8af879d55d9f3bc7c1e50b775020e8779.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The first prism has the dimensions of $\\goldE4\\text{ m}, \\goldE7\\text{ m}$ and $\\goldE8\\text{ m}$.  [[☃ image 1]]  So, to find the volume we multiply $\\goldE4\\text{ m}\\times\\goldE7\\text{ m}\\times\\goldE8\\text{ m}$.  The volume for this prism is $\\goldE{224}\\text{ cubic meters}$.",
+                                    "images": [
+                                        {
+                                            "alt": "The gold rectangular prism from above is shown and has the dimensions 7 meters length by 8 meters width by 4 meters height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/b84e78072903c545ab7c7ed71929e643d22d3346.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The second prism has the dimensions of $\\maroonE7\\text{ m}, \\maroonE{9}\\text{ m}$ and $\\maroonE3\\text{ m}$.  [[☃ image 1]]  So, to find the volume we use the expression $\\maroonE7\\text{ m}\\times\\maroonE{9}\\text{ m}\\times\\maroonE3\\text{ m}$.  The volume for this prism is $\\maroonE{189}\\text{ cubic meters}$.",
+                                    "images": [
+                                        {
+                                            "alt": "The pink rectangular prism from above is shown and has the dimensions dimensions 7 meters length by 3 meters width by 9 meters height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/00643bf63ebfaad199aafdccde00b6c9bc55780c.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "To find the total volume, we add both volumes together.  $\\goldE{224} \\text{ cubic meters}+\\maroonE{189}\\text{ cubic meters}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "MC- Totals"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The figure below is made up of two rectangular prisms.     **Which expression can be used to find the volume of the figure?**",
+                                "images": [
+                                    {
+                                        "alt": "A figure made up of 2 rectangular prisms. Color is used to show the rectangular prisms that make up the figure. The first rectangular prism is purple and has the dimensions 5 meters length by 4 meters width by 3 meters height. The second rectangular prism is orange and has the dimensions 8 meters length by 4 meters width by 6 meters height.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/f31a2fbc7e495bcec49f5bf1cf7e4b8cc7dec53b.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$\\purpleD{60} \\text{ cubic meters}+\\goldE{192}\\text{ cubic meters}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\purpleD{60} \\text{ cubic meters}+\\goldE{48}\\text{ cubic meters}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\purpleD{60} \\text{ cubic meters}+\\goldE{240}\\text{ cubic meters}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\purpleD{60} \\text{ cubic meters}+\\goldE{144}\\text{ cubic meters}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To find the volume of a rectangular prism, we multiply the $\\text{length}\\times\\text{height}\\times{\\text{width}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's break the figure into $2$ parts.   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Two rectangular prisms. The first rectangular prism is purple and has the dimensions 5 meters length by 4 meters width by 3 meters height. The second rectangular prism is orange and has the dimensions 8 meters length by 4 meters width by 6 meters height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/deb088ce0a79ebc9475281bfc29c78a357f9ea65.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The first prism has the dimensions of $\\purpleD3\\text{ m}, \\purpleD4\\text{ m}$ and $\\purpleD5\\text{ m}$.   [[☃ image 1]]  So, to find the volume we multiply $\\purpleD3\\text{ m}\\times\\purpleD4\\text{ m}\\times\\purpleD5\\text{ m}$.  The volume for this prism is $\\purpleD{60}\\text{ cubic meters}$.",
+                                    "images": [
+                                        {
+                                            "alt": "The purple rectangular prism from above has the dimensions 5 meters length by 4 meters width by 3 meters height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/c96c6fa57691ca33942ec39a7ed6463a499ea8c7.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The second prism has the dimensions of $\\goldE6\\text{ m}, \\goldE{8}\\text{ m}$ and $\\goldE4\\text{ m}$.   [[☃ image 1]]  So, to find the volume we use the expression $\\goldE6\\text{ m}\\times\\goldE{8}\\text{ m}\\times\\goldE4\\text{ m}$.  The volume for this prism is $\\goldE{192}\\text{ cubic meters}$.",
+                                    "images": [
+                                        {
+                                            "alt": "The orange rectangular prism from above is shown and has the dimensions 8 meters length by 4 meters width by 6 meters height.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/7ad5c27923c8601b3df39ffe03c63e9a8eedd1f1.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "To find the total volume, we add both volumes together.  $\\purpleD{60} \\text{ cubic meters}+\\goldE{192}\\text{ cubic meters}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "MC- Totals"
+                    }
+                }
+            }
+        }
+    ]
+}

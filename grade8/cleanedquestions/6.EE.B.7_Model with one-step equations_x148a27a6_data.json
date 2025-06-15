@@ -1,0 +1,797 @@
+{
+    "standard_metadata": {
+        "standard_id": "6.EE.B.7",
+        "standard_description": "Solve real-world and mathematical problems by writing and solving equations of the form <i>x</i> + <i>p</i> = <i>q</i> and<i> px</i> = <i>q</i> for cases in which <i>p</i>, <i>q</i> and <i>x</i> are all nonnegative rational numbers.",
+        "standard_title": "Model with one-step equations",
+        "standard_url": "https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-equations-and-inequalities/cc-6th-super-yoga/e/equations-in-one-variable-1"
+    },
+    "id": "x148a27a6",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Anna wants to celebrate her birthday by eating pizza with her friends.  For $\\$42.50$ total, they can buy $p$ boxes of pizza. Each box of pizza costs $\\$8.50$.   **Select the equation that matches this situation.**",
+                                "images": [
+                                    {
+                                        "alt": "Image of a pizza.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-images/80ed2ea5ba937c3f83b0125b77808633a9959f40.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$42.5p = 8.5$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$p = 8.5 \\cdot 42.5$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{42.5}{8.5}=p$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Anna has $\\blue{$42.50}$ to pay for pizza.  She will buy an unknown number of pizzas, which we are calling $\\green{p}$.   Each pizza costs $\\pink{$8.50}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "To find the total number of pizzas that Anna can buy, we can take the amount that she has to spend and divide it by the cost of each pizza.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following equation matches this situation:  >$\\dfrac{\\blue{42.5}}{\\pink{8.5}}=\\green{p}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "ALT_Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Kenny and Michael have scored points during a basketball game. Kenny has scored  $13$ points, and Michael has scored $p$ points.  Together they have scored a total of $27$ points.   **Select the equation that matches this situation.**",
+                                "images": [
+                                    {
+                                        "alt": "Image of a basketball.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-images/f01c5017f2de18d821f6fe7641394b75d51e12e8.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$13 - p = 27$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$13 + p = 27$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$13  = p + 27$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Kenny has scored $\\blue{13}$ points and Michael has scored an unknown number of points, which we're calling $\\green{p}$.  All together, they have scored $\\pink{27}$ points.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can represent Kenny and Michael's points as a sum:   $\\blue{13} + \\green{p}$  We know that together they have scored $\\pink{27}$ points.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following equation matches this situation:   >$\\blue{13} + \\green{p} = \\pink{27}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "ALT_Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Ross and Gabby sold boxes of cookies for their soccer team fundraiser. Ross sold $b$ boxes of cookies, and Gabby sold $35$ boxes of cookies. Together they sold a total of $69$ boxes of cookies.   **Select the equation that matches this situation.**",
+                                "images": [
+                                    {
+                                        "alt": "Image of a cookie.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-images/fb9cd5696ce5ebd01f8ea7f85a0dcf9696509da4.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$b + 35 = 69$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$69 = b - 35$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$35b = 69$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Ross sold  an unknown number of boxes of cookies, which we are calling $\\blue{b}$, and Gabby sold  $\\green{35}$ boxes of cookies. All together, they sold $\\pink{69}$ boxes of cookies.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can represent the number of boxes of cookies that Ross and Gabby sold as a sum:  $\\blue{b} + \\green{35}$  We know that together they sold  $\\pink{69}$ boxes of cookies.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following equation matches this situation:  >$\\blue{b} + \\green{35} = \\pink{69}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "ALT_Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Mrs. Lindy is purchasing notebooks for her students. She spends  $\\$52$ on $n$ notebooks. Each notebook costs $\\$3.25$.   **Select the equation that matches this situation.**",
+                                "images": [
+                                    {
+                                        "alt": "Image of a notebook.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-images/447a8dca1e53c3eb3c02d4786b9ebfdf8c83cc35.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$n = 3.25 \\times 52$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{3.25}{52}=n$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$52=3.25n$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Mrs. Lindy has $\\blueD{$52}$ to pay for notebooks.  She will buy an unknown number of notebooks, which we are calling $\\green{n}$.   Each notebook costs $\\maroonD{$3.25}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "To find the total number of notebooks that Mrs. Lindy can buy, we can say the amount she spends $(\\blueD{\\$52})$ is equal to $\\maroonD{\\$3.25}$ times the number of notebooks, $\\greenD n$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following equation matches this situation:  ${\\blueD{52}}={\\maroonD{3.25}}\\greenD{n}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "ALT_Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Kendle wants to play several games of laser tag. She has $\\$35$ to play $g$ games. Each game of laser tag costs $\\$5$.  **Select the equation that matches this situation.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$g = 5 \\times 35$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{5}{35}=g$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{35}{5}=g$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Kendle has $\\blue{$35}$ to play laser tag.  She will play an unknown number of games, which we are calling $\\green{g}$.   Each game costs $\\pink{$5}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "To find the total number of games that Kendle can play, we can take the amount that she has to spend and divide it by the cost of  each game.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following equation matches this situation:  >$\\dfrac{\\blue{35}}{\\pink{5}}=\\green{g}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "ALT_Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "James and Simon have a reading assignment to complete. James has read  $r$ pages, and Simon has read $75$ pages.  Together they have read a total of $200$ pages.   **Select the equation that matches this situation.**",
+                                "images": [
+                                    {
+                                        "alt": "Image of 8 books.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-images/7607a303ccd9687b49e9b17af46314f0c593a572.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$200 = 75-r$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$r + 75 = 200$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$75 = 200 + r$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "James has read an unknown number of pages, which we're calling $\\blue{r}$, and Simon has read $\\green{75}$ pages. All together, they have read  $\\pink{200}$ pages.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can represent the number of pages read by James and Simon as a sum:  $\\blue{r} + \\green{75}$  We know that together they have read $\\pink{200}$ pages.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following equation matches this situation:  >$\\blue{r} + \\green{75} = \\pink{200}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "ALT_Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Jamahl wants to celebrate his birthday by roller skating with his friends. He has a total of $\\$45$ to buy $t$ tickets. Each ticket costs $\\$5$.   **Select the equation that matches this situation.**",
+                                "images": [
+                                    {
+                                        "alt": "Image of a roller skate.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-images/c704771522c72376a73676eb01a937a2e45ab527.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$t = 5 \\times 45$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{5}{45}=t$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$45=5t$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Jamahl has $\\blueD{$45}$ to pay for roller skating tickets.  He will buy an unknown number of tickets, which we are calling $\\green{t}$.   Each ticket costs $\\maroonD{$5}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "To find the total number of tickets that Jamahl can buy, we can say the amount he has to spend $(\\blueD{\\$45})$ is equal to $\\maroonD{\\$5}$ times the number of tickets, $\\greenD t$, he buys.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following equation matches this situation:  $\\blueD{45}=\\maroonD5\\greenD{t}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "ALT_Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Gina wants to go to the water park with her friends.  They have a total of $w$ dollars to buy $5$ tickets. Each ticket costs $15$ dollars.   **Select the equation that matches this situation.**",
+                                "images": [
+                                    {
+                                        "alt": "Image of an unknown dollar bill.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-images/a5a4299d2a238071950497234ab8957d08496c14.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$w = 5 \\times 15$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$w = 15  +5$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$5 = 15 \\times w$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Gina and her friends have an unknown cost, which we are calling $\\blue{w}$ dollars.  They will need to buy $\\green{5}$ tickets.  Each ticket costs $\\pink{15}$ dollars.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "To find the total cost, we can multiply the number of tickets needed times the cost of each ticket.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following equation matches this situation:  >$\\blue{w} = \\green{5 }\\times \\pink{15}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "ALT_Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Chas and Tyler have been collecting video games. Chas has $25$ video games, and Tyler has $m$ video games. Together they have a total of $65$ video games.   **Write an equation to describe this situation.**",
+                                "images": [
+                                    {
+                                        "alt": "Image of a video game controller.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-images/7c7faeb173d95a624b65d34d8bb2d510031ad20e.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "25+m=65",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Chas has $\\blue{25}$ video games, and Tyler has an  unknown number of  video games, which we're calling $\\green{m}$.  All together, they have $\\pink{65}$ video games.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can represent Chas and Tyler's video games as a sum:  $\\blue{25} + \\green{m}$  We know that together they have $\\pink{65}$ video games.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can set these two expressions equal to describe this situation with an equation:  $\\blue{25} + \\green{m} = \\pink{65}$  We can also write this as  $\\green{m} + \\blue{25} = \\pink{65}$,  $\\pink{65} = \\green{m} + \\blue{25}$, or $\\pink{65} = \\blue{25} + \\green{m}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The equation is $25+m=65$ or any of the equivalent equations above.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "ALT_Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Jeremy and Robin like to collect nickels. Jeremy has $n$ nickels, and Robin has $55$ nickels. Together they have a total of $100$ nickels.   **Write an equation to describe this situation.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "n+55=100",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Jeremy has an unknown amount of nickels, which we're calling $\\blue{n}$, and Robin has $\\green{55}$ nickels. All together, they have $\\pink{100}$ nickels.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can represent the amount of nickels that Jeremy and Robin have as a sum:  $\\blue{n} + \\green{55}$  We know that together they have $\\pink{100}$ nickels.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can set these two expressions equal to describe this situation with an equation:  $\\blue{n} + \\green{55} = \\pink{100}$  We can also write this as  $\\green{55} + \\blue{n} = \\pink{100}$,  $\\pink{100} = \\green{55} + \\blue{n}$, or $\\pink{100} = \\blue{n} + \\green{55}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The equation is $n+55=100$ or any of the equivalent equations above.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "ALT_Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Sharon read a $300$-page book. She read at a rate of $15$ pages per day in $d$ days.   **Write an equation to describe this situation.**",
+                                "images": [
+                                    {
+                                        "alt": "Image of 5 books.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-images/f521b5da982f902428d65116554372a8af1f6f79.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "300=15d",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Sharon read $\\blue{300}$ pages at a rate of $\\green{15}$ pages per day. The number of days read is unknown, which we’re calling $\\pink{d}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The $\\green{rate}$  times the number of $\\pink{days}$  is equal to $\\blue{300 }$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can describe this situation with an equation:   $\\green{15}$$\\pink{d}$  = $\\blue{300}$  We can also write this as: $\\blue{300}=\\green{15}$$\\pink{d}$,  $\\pink{d} = \\dfrac{\\blue{300}}{\\green{15}}$, or  $\\dfrac{\\blue{300}}{\\green{15}}=\\pink{d}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The equation is $300=15d$ or any of the equivalent equations above.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "ALT_Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Brandon and Jerry like to play video games. Brandon has $v$ video games, and Jerry has $29$ video games. Together they have a total of $73$ video games.   **Write an equation to describe this situation.**",
+                                "images": [
+                                    {
+                                        "alt": "Image of a video game controller.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-images/7c7faeb173d95a624b65d34d8bb2d510031ad20e.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "v+29=73",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Brandon has an unknown amount of video games, which we're calling $\\blue{v}$, and Jerry has $\\green{29}$ video games. All together, they have $\\pink{73}$ video games.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can represent the amount of video games that Brandon and Jerry have as a sum:  $\\blue{v} + \\green{29}$  We know that together they have $\\pink{73}$ video games.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can set these two expressions equal to describe this situation with an equation:  $\\blue{v} + \\green{29} = \\pink{73}$  We can also write this as  $\\green{29} + \\blue{v} = \\pink{73}$ ,  $\\pink{73} = \\green{29} + \\blue{v}$, or $\\pink{73} = \\blue{v} + \\green{29}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The equation is $v+29=73$ or any of the equivalent equations above.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "ALT_Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Mr. Herman's class is selling candy for a school fundraiser. The class has a goal of raising $\\$500$ by selling $c$ boxes of candy.  For every box they sell, they make $\\$2.75$.    **Write an equation that the students could solve to figure out how many boxes of candy they need to sell.**",
+                                "images": [
+                                    {
+                                        "alt": "Image of lollipop.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-images/32070dccb16d88d3de48518d96043bc7def408ae.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "2.75c=500",
+                                        "correct": false
+                                    },
+                                    {
+                                        "content": "c=\\frac{500}{2.75}",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Mr. Herman's class has a goal of raising ${\\blue{$500}}$.   The number of boxes to be sold is unknown, which we’re calling $\\green{c}$ .   They make $\\pink{$2.75}$ for each box sold.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The fundraiser $\\blue{\\text{goal}}$ is equal to the $\\pink{\\text{money made per box}}$ times the number of $\\green{\\text{boxes}}.$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can describe this situation with an equation:   $\\blue{500}$ = $\\pink{2.75}$$\\green{c}$  We can also write this as $\\pink{2.75}$$\\green{c} = \\blue{500}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The equation is $500=2.75c$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "ALT_Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Larry read a $400$-page book.  He read at a rate of $10$ pages per day for $d$ days.   **Write an equation that could be used to find out how many days it took Larry to read the book.**",
+                                "images": [
+                                    {
+                                        "alt": "Image of 5 books.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-images/1b01709845920ddbdfc7c3f2503761d3dbbdd35c.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "400=10d",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Larry read $\\blue{400}$ pages at a rate of $\\green{10}$ pages per day. The number of days read is unknown, which we’re calling $\\pink{d}$ .",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The $\\green{\\text{rate}}$  times the number of $\\pink{\\text{days}}$  is equal to $\\blue{400 }$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can describe this situation with an equation:   $\\green{10}$$\\pink{d}$  = $\\blue{400}$.   We can also write this as: $\\blue{400}=\\green{10}$$\\pink{d}$ ,  $\\pink{d} = \\dfrac{\\blue{400}}{\\green{10}}$, or  $\\dfrac{\\blue{400}}{\\green{10}}=\\pink{d}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The equation is $400=10d$ or any of the equivalent equations above.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "ALT_Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Melissa and Rachel like to make funny hats. Melissa has made $20$ zebra-printed hats, and Rachel has made $h$ striped hats. Together they have made a total of $42$ hats.   **Write an equation to describe this situation.**",
+                                "images": [
+                                    {
+                                        "alt": "Image of a hat.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-images/e8404e1acbb149d4eabeddf6a88f6feaa58df949.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "20+h=42",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Melissa has made $\\blue{20}$ hats, and Rachel has made an unknown amount of hats, which we're calling $\\green{h}$. All together, they have made $\\pink{42}$ hats.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can represent the amount of hats that Melissa and Rachel made as a sum:  $\\blue{20} + \\green{h}$  We know that together they made $\\pink{42}$ hats.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can set these two expressions equal to describe this situation with an equation:  $\\blue{20} + \\green{h} = \\pink{42}$  We can also write this as  $\\green{h} + \\blue{20} = \\pink{42}$ ,  $\\pink{42} = \\green{h} + \\blue{20}$, or $\\pink{42} = \\blue{20} + \\green{h}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The equation is $20+h=42$ or any of the equivalent equations above.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "ALT_Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Richard and Jordan went to see a movie. Richard spent $m$ dollars at the movie theater, and Jordan spent $\\$12$ at the movie theater. Together they spent a total of $\\$26$.    **Write an equation to describe this situation.**",
+                                "images": [
+                                    {
+                                        "alt": "Image of an unknown dollar bill.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-images/a5a4299d2a238071950497234ab8957d08496c14.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "m+12=26",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Richard spent an unknown amount of dollars at the movie theater, which we're calling $\\blue{$m}$, and Jordan has spent $\\green{$12}$ at the movie theater. All together, they have spent $\\pink{$26}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can represent the amount of dollars that Richard and Jordan spent as a sum:  $\\blue{m} + \\green{12}$  We know that together they spent $\\pink{$26}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can set these two expressions equal to describe this situation with an equation:  $\\blue{m} + \\green{12} = \\pink{26}$  We can also write this as  $\\green{12} + \\blue{m} = \\pink{26}$ ,  $\\pink{26} = \\green{12} + \\blue{m}$, or $\\pink{26} = \\blue{m} + \\green{12}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The equation is $m+12=26$ or any of the equivalent equations above.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "ALT_Type 2"
+                    }
+                }
+            }
+        }
+    ]
+}

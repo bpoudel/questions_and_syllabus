@@ -1,0 +1,659 @@
+{
+    "standard_metadata": {
+        "standard_id": "8.EE.C.8",
+        "standard_description": "Analyze and solve pairs of simultaneous linear equations.",
+        "standard_title": "Number of solutions to a system of equations graphically",
+        "standard_url": "https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:systems-of-equations/x2f8bb11595b61c86:number-of-solutions-to-systems-of-equations/e/graphical-solutions-to-systems"
+    },
+    "id": "x62f8a7e5",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**How many solutions does the system have?**   *You can use the interactive graph below to find the answer.*  $\\begin{cases} 2x+3y=-6 \\\\\\\\ 3x-4y=-12 \\end{cases}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Exactly one solution",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No solutions",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Infinitely many solutions",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Graphing the equations  The equations are both in *standard form*: $Ax+By=C$. A common way of graphing equations in this form is to find the $x$- and $y$-intercepts.  Let's find the intercepts for $2x+3y=-6$:  $y$-intercept (substitute $x=0$)  | $x$-intercept (substitute $y=0$) :-: | :-: $\\begin{align}2\\blueD x+3y&=-6\\\\\\\\2 \\cdot \\blueD 0+3y&=-6\\\\\\\\3y&=-6\\\\\\\\y&=-2\\end{align}$ | $\\begin{align}2x+3\\maroonD y&=-6\\\\\\\\2x+3\\cdot\\maroonD 0&=-6\\\\\\\\2x&=-6\\\\\\\\x&=-3\\end{align}$  We can use a similar strategy to find that the intercepts for $3x-4y=-12$ are $(0,3)$ and $(-4,0)$.  [[☃ explanation 1]]  We can graph the lines using these intercepts:  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. The equation two x plus three y equals negative six is graphed with the points negative three, zero and zero, negative two plotted on the line. The equation three x minus four y equals negative twelve is graphed with the points negative four, zero and zero, three plotted on the line.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/2c8fbee3ebdc15852ba9a8b37aa16c653b6acc98.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Upon graphing our system of equations, we see that the lines intersect exactly once.  Since the lines intersect exactly once, the system has **exactly one solution**.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. The equation two x plus three y equals negative six is graphed with the points negative three, zero and zero, negative two plotted on the line. The equation three x minus four y equals negative twelve is graphed with the points negative four, zero and zero, three plotted on the line. The intersection of these two lines is plotted at an x-value between negative four and negative three and a y-value between zero and one.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/09eeef1a88c37725e5f0e37726ab91fe58b6c85c.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "1. One solution"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**How many solutions does the system have?**   *You can use the interactive graph below to find the answer.*  $\\begin{cases} 4x-2y=8 \\\\\\\\ 2x+y=2 \\end{cases}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Exactly one solution",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No solutions",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Infinitely many solutions",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Graphing the equations  The equations are both in *standard form*: $Ax+By=C$. A common way of graphing equations in this form is to find the $x$- and $y$-intercepts.  Let's find the intercepts for $4x-2y=8$:  $y$-intercept (substitute $x=0$)  | $x$-intercept (substitute $y=0$) :-: | :-: $\\begin{align}4\\blueD x-2y&=8\\\\\\\\4 \\cdot \\blueD 0-2y&=8\\\\\\\\-2y&=8\\\\\\\\y&=-4\\end{align}$ | $\\begin{align}4x-2\\maroonD y&=8\\\\\\\\4x-2\\cdot\\maroonD 0&=8\\\\\\\\4x&=8\\\\\\\\x&=2\\end{align}$  We can use a similar strategy to find that the intercepts for $2x+y=2$ are $(0,2)$ and $(1,0)$.  [[☃ explanation 1]]  We can graph the lines using these intercepts:  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. The equation four x minus two y equals eight is graphed with the points negative zero, negative four and two, zero plotted on the line. The equation two x plus y equals two is graphed with the points negative zero, two and one, zero plotted on the line.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d401c376392a9b01e7a7c92f188621df549dc8ed.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Upon graphing our system of equations, we see that the lines intersect exactly once.  Since the lines intersect exactly once, the system has **exactly one solution**.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. The equation four x minus two y equals eight is graphed with the points negative zero, negative four and two, zero plotted on the line. The equation two x plus y equals two is graphed with the points negative zero, two and one, zero plotted on the line. The intersection of these two lines is plotted at an x-value between one and two and a y-value between zero and negative one.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/59d6d8984667047c8ca02e04183d27b672036e00.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "1. One solution"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**How many solutions does the system have?**   *You can use the interactive graph below to find the answer.*  $\\begin{cases} y=x+1 \\\\\\\\ y=2x-5 \\end{cases}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Exactly one solution",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No solutions",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Infinitely many solutions",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Graphing the equations  The equations are both in *slope intercept form*: $y=\\goldD{m}x+\\purpleC{b}$. We can use the $y$-intercept and slope to identify points on each line.  The line given by the first equation $y=\\goldD{1}x+\\purpleC{1} $ has a $y$-intercept of $(0,\\purpleC{1})$ and a slope of $\\goldD{1}$, so another point on that line is $(0+1,\\purpleC{1}+\\goldD{1})=(1,2).$ Now we have two points to graph this line.  In a similar manner, we will find that the line given by $y=\\goldD{2}x\\purpleC{-5}$ passes through $(0,\\purpleC{-5})$ and $(0+1,\\purpleC{-5}+\\goldD{2})=(1,-3)$.  We can graph the lines using these points:  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. The equation y equals one x plus one is graphed with the points zero, one and one, two plotted on the line. The equation y equals two x minus five is graphed with the points zero, negative five and one, negative three plotted on the line.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/38bd1c33610285ea3e3029ef00c9cc4492f68669.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Upon graphing our system of equations, we see that the lines intersect exactly once.  Since the lines intersect exactly once, the system has **exactly one solution**.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. The equation y equals one x plus one is graphed with the points zero, one and one, two plotted on the line. The equation y equals two x minus five is graphed with the points zero, negative five and one, negative three plotted on the line. The intersection of these two lines is plotted at six, seven.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/149e9834082c229fdc6ae3e1f399f2cc3f3a6071.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "1. One solution"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**How many solutions does the system have?**   *You can use the interactive graph below to find the answer.*  $\\begin{cases} y=3x+3 \\\\\\\\ y=-2x+3 \\end{cases}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Exactly one solution",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No solutions",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Infinitely many solutions",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Graphing the equations  The equations are both in *slope intercept form*: $y=\\goldD{m}x+\\purpleC{b}$. We can use the $y$-intercept and slope to identify points on each line.  The line given by the first equation $y=\\goldD{3}x+\\purpleC{3} $ has a $y$-intercept of $(0,\\purpleC{3})$ and a slope of $\\goldD{3}$, so another point on that line is $(0+1,\\purpleC{3}+\\goldD{3})=(1,6).$ Now we have two points to graph this line.  In a similar manner, we will find that the line given by $y=\\goldD{-2}x+\\purpleC{3}$ passes through $(0,\\purpleC{3})$ and $(0+1,\\purpleC{3}\\goldD{-2})=(1,1)$.  We can graph the lines using these points:  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x and y-axes both scale by one. The equation y equals three x plus three is graphed with the points zero, three and one six plotted on the line. The equation y equals negative two x plus three is graphed with the points zero, three and one, one plotted on the line. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/3fa4ac1c0d8fb20d3483090f88e5fdfbfd1bcff2.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Upon graphing our system of equations, we see that the lines intersect exactly once.  Since the lines intersect exactly once, the system has **exactly one solution**.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x and y-axes both scale by one. The equation y equals three x plus three is graphed with the points zero, three and one six plotted on the line. The equation y equals negative two x plus three is graphed with the points zero, three and one, one plotted on the line. The intersection of these two lines is plotted at zero, three.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/c97fbb11db08757bd89c861a1c4d41e1e14b0217.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "1. One solution"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**How many solutions does the system have?**   *You can use the interactive graph below to find the answer.*  $\\begin{cases} x+2y=2 \\\\\\\\ 2x+4y=-8 \\end{cases}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Exactly one solution",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No solutions",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Infinitely many solutions",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Graphing the equations  The equations are both in *standard form*: $Ax+By=C$. A common way of graphing equations in this form is to find the $x$- and $y$-intercepts.  Let's find the intercepts for $x+2y=2$:  $y$-intercept (substitute $x=0$)  | $x$-intercept (substitute $y=0$) :-: | :-: $\\begin{align}\\blueD x+2y&=2\\\\\\\\\\blueD 0+2y&=2\\\\\\\\2y&=2\\\\\\\\y&=1\\end{align}$ | $\\begin{align}x+2\\maroonD y&=2\\\\\\\\x+2\\cdot\\maroonD 0&=2\\\\\\\\x&=2\\end{align}$  We can use a similar strategy to find that the intercepts for $2x+4y=-8$ are $(0,-2)$ and $(-4,0)$.  [[☃ explanation 1]]  We can graph the lines using these intercepts:  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. There is a line for the equation x plus two y equals two with the points zero, one and two, zero plotted on the line. There is another line for the equation two x plus four y equals negative eight with the points negative four, zero and zero, negative two plotted on the line. The two lines are parallel.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/555b08ca6d7ba1a5d8d94afc466b3f2827b94de2.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Upon graphing our system of equations, we see two distinct parallel lines.  Since distinct parallel lines don't intersect, we conclude that the system has **no solutions**.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. The equation x plus two y equals two is graphed with the points zero, one and two, zero plotted on the line. The equation two x plus four y equals negative eight is graphed with the points negative four, zero and zero, negative two plotted on the line.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/555b08ca6d7ba1a5d8d94afc466b3f2827b94de2.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "2. No solutions"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**How many solutions does the system have?**   *You can use the interactive graph below to find the answer.*  $\\begin{cases} 4x-6y=-24 \\\\\\\\ 2x-3y=-6 \\end{cases}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Exactly one solution",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No solutions",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Infinitely many solutions",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Graphing the equations  The equations are both in *standard form*: $Ax+By=C$. A common way of graphing equations in this form is to find the $x$- and $y$-intercepts.  Let's find the intercepts for $4x-6y=-24$:  $y$-intercept (substitute $x=0$)  | $x$-intercept (substitute $y=0$) :-: | :-: $\\begin{align}\\blueD 4x-6y&=-24\\\\\\\\4\\cdot\\blueD 0-6y&=-24\\\\\\\\-6y&=-24\\\\\\\\y&=4\\end{align}$ | $\\begin{align}4x-6\\maroonD y&=-24\\\\\\\\4x-6\\cdot\\maroonD 0&=-24\\\\\\\\4x&=-24\\\\\\\\x&=-6\\end{align}$  We can use a similar strategy to find that the intercepts for $2x-3y=-6$ are $(0,2)$ and $(-3,0)$.  [[☃ explanation 1]]  We can graph the lines using these intercepts:  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. The equation four x minus six y equals negative twenty-four is graphed with the points negative six, zero and zero, four plotted on the line. The equation two x minus three y equals negative six is graphed with the points negative three, zero and zero, two plotted on the line.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/2ca6095196ae09a7da809bdcc4c3d805c7206aeb.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Upon graphing our system of equations, we see two distinct parallel lines.  Since distinct parallel lines don't intersect, we conclude that the system has **no solutions**.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. The equation four x minus six y equals negative twenty-four is graphed with the points negative six, zero and zero, four plotted on the line. The equation two x minus three y equals negative six is graphed with the points negative three, zero and zero, two plotted on the line.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/2ca6095196ae09a7da809bdcc4c3d805c7206aeb.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "2. No solutions"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**How many solutions does the system have?**   *You can use the interactive graph below to find the answer.*  $\\begin{cases} y=3x+2 \\\\\\\\ y=3x-6 \\end{cases}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Exactly one solution",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No solutions",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Infinitely many solutions",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Graphing the equations  The equations are both in *slope intercept form*: $y=\\goldD{m}x+\\purpleC{b}$. We can use the $y$-intercept and slope to identify points on each line.  The line given by the first equation $y=\\goldD{3}x+\\purpleC{2} $ has a $y$-intercept of $(0,\\purpleC{2})$ and a slope of $\\goldD{3}$, so another point on that line is $(0+1,\\purpleC{2}+\\goldD{3})=(1,5).$ Now we have two points to graph this line.  In a similar manner, we will find that the line given by $y=\\goldD{3}x\\purpleC{-6}$ passes through $(0,\\purpleC{-6})$ and $(0+1,\\purpleC{-6}+\\goldD{3})=(1,-3)$.  We can graph the lines using these points:  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. The equation three x plus two is graphed with the points zero, two and one, five plotted on the line. The equation three x minus six is graphed with the points zero, negative six and one, negative three plotted on the line.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/a38979a2cb3143b81f465cbc97b7d6e972125cdc.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Upon graphing our system of equations, we see two distinct parallel lines.  Since distinct parallel lines don't intersect, we conclude that the system has **no solutions**.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. The equation y equals three x plus two is graphed with the points zero, two and one, five plotted on the line. The equation y equals three x minus six is graphed with the points zero, negative six and one, negative three plotted on the line.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/a38979a2cb3143b81f465cbc97b7d6e972125cdc.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "2. No solutions"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**How many solutions does the system have?**   *You can use the interactive graph below to find the answer.*  $\\begin{cases} y=-5x-1 \\\\\\\\ y=-5x+7 \\end{cases}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Exactly one solution",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No solutions",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Infinitely many solutions",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Graphing the equations  The equations are both in *slope intercept form*: $y=\\goldD{m}x+\\purpleC{b}$. We can use the $y$-intercept and slope to identify points on each line.  The line given by the first equation $y=\\goldD{-5}x\\purpleC{-1} $ has a $y$-intercept of $(0,\\purpleC{-1})$ and a slope of $\\goldD{-5}$, so another point on that line is $(0+1,\\purpleC{-1}\\goldD{-5})=(1,-6).$ Now we have two points to graph this line.  In a similar manner, we will find that the line given by $y=\\goldD{-5}x+\\purpleC{7}$ passes through $(0,\\purpleC{7})$ and $(0+1,\\purpleC{7}\\goldD{-5})=(1,2)$.  We can graph the lines using these points:  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. The equation y equals negative five x minus one is graphed with the points zero, negative one and one, negative six plotted on the line. The equation y equals negative five x plus seven is graphed with the points zero, seven and one, two plotted on the line.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/96cd46cc3d53848d895e77a30a777e3dacb65d13.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Upon graphing our system of equations, we see two distinct parallel lines.  Since distinct parallel lines don't intersect, we conclude that the system has **no solutions**.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. The equation y equals negative five x minus one is graphed with the points zero, negative one and one, negative six plotted on the line. The equation y equals negative five x plus seven is graphed with the points zero, seven and one, two plotted on the line.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/96cd46cc3d53848d895e77a30a777e3dacb65d13.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "2. No solutions"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**How many solutions does the system have?**   *You can use the interactive graph below to find the answer.*  $\\begin{cases} 3x-5y=15 \\\\\\\\ 6x-10y=30 \\end{cases}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Exactly one solution",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No solutions",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Infinitely many solutions",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Graphing the equations  The equations are both in *standard form*: $Ax+By=C$. A common way of graphing equations in this form is to find the $x$- and $y$-intercepts.  Let's find the intercepts for $3x-5y=15$:  $y$-intercept (substitute $x=0$)  | $x$-intercept (substitute $y=0$) :-: | :-: $\\begin{align}3\\blueD x-5y&=15\\\\\\\\3\\cdot\\blueD 0-5y&=15\\\\\\\\-5y&=15\\\\\\\\y&=-3\\end{align}$ | $\\begin{align}3x-5\\maroonD y&=15\\\\\\\\3x-5\\cdot\\maroonD 0&=15\\\\\\\\3x&=15\\\\\\\\x&=5\\end{align}$  We can use a similar strategy to find that the intercepts for $6x-10y=30$ are $(0,-3)$ and $(5,0)$.  [[☃ explanation 1]]  We can graph the lines using these intercepts:  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. There is a line for the equation three x minus five y equals fifteen with the points zero, negative three and five, zero plotted in the line. There is another line for the equation six x minus ten y equals thirty with the points zero, negative three and five, zero plotted in the line. The two lines overlap perfectly.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/a1ed09e322f2e5d1a7f89148fa5653b7bf065b21.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Upon graphing our system of equations, we see that the two lines are the same.  Since the lines are the same, they intersect infinitely many times. This means that the system has **infinitely many solutions**.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. There is a line for the equation three x minus five y equals fifteen with the points zero, negative three and five, zero plotted in the line. There is another line for the equation six x minus ten y equals thirty with the points zero, negative three and five, zero plotted in the line. The two lines overlap perfectly.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/a1ed09e322f2e5d1a7f89148fa5653b7bf065b21.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "3. Infinite solutions"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**How many solutions does the system have?**   *You can use the interactive graph below to find the answer.*  $\\begin{cases} 21x+6y=42 \\\\\\\\ 7x+2y=14 \\end{cases}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Exactly one solution",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No solutions",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Infinitely many solutions",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Graphing the equations  The equations are both in *standard form*: $Ax+By=C$. A common way of graphing equations in this form is to find the $x$- and $y$-intercepts.  Let's find the intercepts for $21x+6y=42$:  $y$-intercept (substitute $x=0$)  | $x$-intercept (substitute $y=0$) :-: | :-: $\\begin{align}21\\blueD x+6y&=42\\\\\\\\21\\cdot\\blueD 0+6y&=42\\\\\\\\6y&=42\\\\\\\\y&=7\\end{align}$ | $\\begin{align}21x+6\\maroonD y&=42\\\\\\\\21x+6\\cdot\\maroonD 0&=42\\\\\\\\21x&=42\\\\\\\\x&=2\\end{align}$  We can use a similar strategy to find that the intercepts for $7x+2y=14$ are $(0,7)$ and $(2,0)$.  [[☃ explanation 1]]  We can graph the lines using these intercepts:  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. The equation twenty-one x plus six y equals forty-two is graphed with the points zero, seven and two, zero plotted on the line. The equation seven x plus two y equals fourteen is graphed with the points zero, seven and two, zero plotted on the line.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/c2bf8f21019d4250287df7fde5819ae1c003dfa0.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Upon graphing our system of equations, we see that the two lines are the same.  Since the lines are the same, they intersect infinitely many times. This means that the system has **infinitely many solutions**.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. The equation twenty-one x plus six y equals forty-two is graphed with the points zero, seven and two, zero plotted on the line. The equation seven x plus two y equals fourteen is graphed with the points zero, seven and two, zero plotted on the line. The lines overlap entirely.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/c2bf8f21019d4250287df7fde5819ae1c003dfa0.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "3. Infinite solutions"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**How many solutions does the system have?**   *You can use the interactive graph below to find the answer.*  $\\begin{cases} 4x-10y=-20 \\\\\\\\ 6x-15y=-30 \\end{cases}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Exactly one solution",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No solutions",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Infinitely many solutions",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Graphing the equations  The equations are both in *standard form*: $Ax+By=C$. A common way of graphing equations in this form is to find the $x$- and $y$-intercepts.  Let's find the intercepts for $4x-10y=-20$:  $y$-intercept (substitute $x=0$)  | $x$-intercept (substitute $y=0$) :-: | :-: $\\begin{align}4\\blueD x-10y&=-20\\\\\\\\4\\cdot\\blueD 0-10y&=-20\\\\\\\\-10y&=-20\\\\\\\\y&=2\\end{align}$ | $\\begin{align}4x-10\\maroonD y&=-20\\\\\\\\4x-10\\cdot\\maroonD 0&=-20\\\\\\\\4x&=-20\\\\\\\\x&=-5\\end{align}$  We can use a similar strategy to find that the intercepts for $6x-15y=-30$ are $(0,2)$ and $(-5,0)$.  [[☃ explanation 1]]  We can graph the lines using these intercepts:  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. The equation four x minus ten y equals negative twenty is graphed with the points negative five, zero and zero, two plotted on the line. The equation six x minus fifteen y equals negative thirty is graphed with the points negative five, zero and zero, two plotted on the line.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/7bf1709813f228aaeed3fd86e9fff85fba42928e.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Upon graphing our system of equations, we see that the two lines are the same.  Since the lines are the same, they intersect infinitely many times. This means that the system has **infinitely many solutions**.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. The equation four x minus ten y equals negative twenty is graphed with the points negative five, zero and zero, two plotted on the line. The equation six x minus fifteen y equals negative thirty is graphed with the points negative five, zero and zero, two plotted on the line. The lines overlap entirely.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/7bf1709813f228aaeed3fd86e9fff85fba42928e.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "3. Infinite solutions"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**How many solutions does the system have?**   *You can use the interactive graph below to find the answer.*  $\\begin{cases} 12x+9y=-36 \\\\\\\\ 4x+3y=-12 \\end{cases}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Exactly one solution",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No solutions",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Infinitely many solutions",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Graphing the equations  The equations are both in *standard form*: $Ax+By=C$. A common way of graphing equations in this form is to find the $x$- and $y$-intercepts.  Let's find the intercepts for $12x+9y=-36$:  $y$-intercept (substitute $x=0$)  | $x$-intercept (substitute $y=0$) :-: | :-: $\\begin{align}12\\blueD x+9y&=-36\\\\\\\\12\\cdot\\blueD 0+9y&=-36\\\\\\\\9y&=-36\\\\\\\\y&=-4\\end{align}$ | $\\begin{align}12x+9\\maroonD y&=-36\\\\\\\\12x+9\\cdot\\maroonD 0&=-36\\\\\\\\12x&=-36\\\\\\\\x&=-3\\end{align}$  We can use a similar strategy to find that the intercepts for $4x+3y=-12$ are $(0,-4)$ and $(-3,0)$.  [[☃ explanation 1]]  We can graph the lines using these intercepts:  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. The equation twelve x plus nine y equals negative thirty-six is graphed with the points negative three, zero and zero, negative four plotted on the line. The equation four x plus three y equals negative twelve is graphed with the points negative three, zero and zero, negative four plotted on the line.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d35a65fd22bdf2cfbb8f1ad04255f634426bcda4.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Upon graphing our system of equations, we see that the two lines are the same.  Since the lines are the same, they intersect infinitely many times. This means that the system has **infinitely many solutions**.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. The equation twelve x plus nine y equals negative thirty-six is graphed with the points negative three, zero and zero, negative four plotted on the line. The equation four x plus three y equals negative twelve is graphed with the points negative three, zero and zero, negative four plotted on the line. The lines overlap entirely.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d35a65fd22bdf2cfbb8f1ad04255f634426bcda4.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "3. Infinite solutions"
+                    }
+                }
+            }
+        }
+    ]
+}

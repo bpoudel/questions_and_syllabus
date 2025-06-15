@@ -1,0 +1,2914 @@
+{
+    "standard_metadata": {
+        "standard_id": "7.NS.A.2.d",
+        "standard_description": "Convert a rational number to a decimal using long division; know that the decimal form of a rational number terminates in 0s or eventually repeats.",
+        "standard_title": "Converting fractions to decimals",
+        "standard_url": "https://www.khanacademy.org/math/cc-seventh-grade-math/cc-7th-fractions-decimals/cc-7th-fracs-to-decimals/e/converting_fractions_to_decimals"
+    },
+    "id": "245552066",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Rewrite the fraction as a decimal.**   **$\\dfrac{7}{4}=$**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "1.75",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$ \\dfrac{7}{4}$ represents $7 \\div 4 $.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0.00}&\\\\ {4}&\\overline{\\Big)\\blue{7}\\phantom{.00}}\\\\ \\end{array}$  How many times does $4$ go into $\\blue{7}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\green{1}\\phantom{.00}&\\\\ {4}&\\overline{\\Big)\\blue{7}\\phantom{.00}}\\\\ &\\mathllap{-}\\underline{4}\\phantom{.00}\\\\ &\\pink{3}\\phantom{.}\\phantom{00} \\end{array}$  $\\blue{7} \\div 4 = \\green{1}$ with a remainder of $\\pink{3}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &1.\\phantom{00}&\\\\ {4}&\\overline{\\Big)7.0\\phantom{0}}\\\\ &\\mathllap{-}\\underline{4}\\phantom{.00}\\\\ &3\\phantom{.00} \\end{array}$  Write a decimal point and a $0$ in the tenths place.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &1.\\phantom{00}&\\\\ {4}&\\overline{\\Big)7.0\\phantom{0}}\\\\ &\\mathllap{-}\\underline{4}\\phantom{.}{\\downarrow}\\phantom{0}\\\\ &\\blue{3\\phantom{.}0}\\phantom{0} \\end{array}$  How many times does $4$ go into $\\blue{30}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &1.\\green{7}\\phantom{0}&\\\\ {4}&\\overline{\\Big)7.0\\phantom{0}}\\\\ &\\mathllap{-}\\underline{4}\\phantom{.00}\\\\ &\\blue{3\\phantom{.}0}\\phantom{0}\\\\ &\\mathllap{-}\\underline{2\\phantom{.}8}\\phantom{0}\\\\ &\\pink{2}\\phantom{0}\\\\ \\end{array}$  $\\blue{30} \\div 4 = \\green{7}$ with a remainder of $\\pink{2}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &1.7\\phantom{0}&\\\\ {4}&\\overline{\\Big)7.00}\\\\ &\\mathllap{-}\\underline{4}\\phantom{.00}\\\\ &3\\phantom{.}0\\phantom{0}\\\\ &\\mathllap{-}\\underline{2\\phantom{.}8}\\phantom{0}\\\\ &\\phantom{0.}2\\phantom{0} \\end{array}$  Write a $0$ in the hundredths place.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &1.7\\phantom{0}&\\\\ {4}&\\overline{\\Big)7.00}\\\\ &\\mathllap{-}\\underline{4}\\phantom{.0}{\\downarrow}\\\\ &3\\phantom{.}0{\\downarrow}\\\\ &\\mathllap{-}\\underline{2\\phantom{.}8}{\\downarrow}\\\\ &\\phantom{0.}\\blue{20} \\end{array}$  How many times does $4$ go into $\\blue{20}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &1.7\\green{5}&\\\\ {4}&\\overline{\\Big)7.00}\\\\ &\\mathllap{-}\\underline{4}\\phantom{.00}\\\\ &3\\phantom{.}0\\phantom{0}\\\\ &\\mathllap{-}\\underline{2\\phantom{.}8}\\phantom{0}\\\\ &\\blue{\\phantom{0.}20}\\\\ &\\mathllap{-}\\underline{\\phantom{0.}20}\\\\ &\\pink{0} \\end{array}$  $\\blue{20} \\div 4 = \\green{5}$ with a remainder of $\\pink{0}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &1.75&\\\\ {4}&\\overline{\\Big)7.00}\\\\ &\\mathllap{-}\\underline{4}\\phantom{.00}\\\\ &3\\phantom{.}0\\phantom{0}\\\\ &\\mathllap{-}\\underline{2\\phantom{.}8}\\phantom{0}\\\\ &\\phantom{0.}20\\\\ &\\mathllap{-}\\underline{\\phantom{0.}20}\\\\ &0 \\end{array}$  The remainder is $0$, so we have our answer.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\dfrac{7}{4} =1.75$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "terminating"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Rewrite the fraction as a decimal.**   **$\\dfrac{94}{5}=$**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "18.8",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$ \\dfrac{94}{5}$ represents $94 \\div 5 $.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0.0}&\\\\ {5}&\\overline{\\Big)94\\phantom{.0}}\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0.0}&\\\\ {5}&\\overline{\\Big)\\blue{9}4\\phantom{.0}}\\\\ \\end{array}$  How many times does $5$ go into $\\blue{9}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\green{1}\\phantom{.00}&\\\\ {5}&\\overline{\\Big)\\blue{9}4\\phantom{.0}}\\\\ &\\mathllap{-}\\underline{5}\\phantom{.00}\\\\ &\\pink{4}\\phantom{.}\\phantom{00} \\end{array}$  $\\blue{9} \\div 5 = \\green{1}$ with a remainder of $\\pink{4}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &1\\phantom{0.0}&\\\\ {5}&\\overline{\\Big)94\\phantom{.0}}\\\\ &\\mathllap{-}\\underline{5}{\\downarrow}\\phantom{.0}\\\\ &\\blue{44}\\phantom{.0}\\\\ \\end{array}$  How many times does $5$ go into $\\blue{44}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &1\\green{8}\\phantom{.0}&\\\\ {5}&\\overline{\\Big)94\\phantom{.0}}\\\\ &\\mathllap{-}\\underline{5}\\phantom{.00}\\\\ &\\blue{44}\\phantom{.0}\\\\ &\\mathllap{-}\\underline{40}\\phantom{.0}\\\\ &\\pink{4}\\phantom{.0} \\end{array}$  $\\blue{44} \\div 5 = \\green{8}$ with a remainder of $\\pink{4}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &18.\\phantom{0}&\\\\ {5}&\\overline{\\Big)94.0}\\\\ &\\mathllap{-}\\underline{5}\\phantom{0.0}\\\\ &44\\phantom{.0}\\\\ &\\mathllap{-}\\underline{40}\\phantom{.0}\\\\ &4\\phantom{.0} \\end{array}$  Write a decimal point and a $0$ in the tenths place.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &18.\\phantom{0}&\\\\ {5}&\\overline{\\Big)94.0}\\\\ &\\mathllap{-}\\underline{5}\\phantom{.0}{\\downarrow}\\\\ &44\\phantom{.}{\\downarrow}\\\\ &\\mathllap{-}\\underline{40}\\phantom{.}{\\downarrow}\\\\ &\\blue{4\\phantom{.}0} \\end{array}$  How many times does $5$ go into $\\blue{40}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &18.\\green{8}&\\\\ {5}&\\overline{\\Big)94.0}\\\\ &\\mathllap{-}\\underline{5}\\phantom{.00}\\\\ &44\\phantom{.0}\\\\ &\\mathllap{-}\\underline{40}\\phantom{.0}\\\\ &\\blue{4\\phantom{.}0}\\\\ &\\mathllap{-}\\underline{4\\phantom{.}0}\\\\ &\\pink{0} \\end{array}$  $\\blue{40} \\div 5 = \\green{8}$ with a remainder of $\\pink{0}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &18.8&\\\\ {5}&\\overline{\\Big)94.0}\\\\ &\\mathllap{-}\\underline{5}\\phantom{.00}\\\\ &44\\phantom{.0}\\\\ &\\mathllap{-}\\underline{40}\\phantom{.0}\\\\ &4\\phantom{.}0\\\\ &\\mathllap{-}\\underline{4\\phantom{.}0}\\\\ &0 \\end{array}$  The remainder is $0$, so we have our answer.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$ \\dfrac{94}{5} = 18.8 $",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "terminating"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which decimal is equivalent to $\\dfrac{19}{4}$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$4.3$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$4.\\overline{3}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$4.75$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$4.\\overline{75}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$ \\dfrac{19}{4}$ represents $19 \\div 4 $.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0.00}&\\\\ {4}&\\overline{\\Big)19\\phantom{.00}}\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0.00}&\\\\ {4}&\\overline{\\Big)\\blue{1}9\\phantom{.00}}\\\\ \\end{array}$  How many times does $4$ go into $\\blue{1}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/c110c3d873bd5c746cd99fc1b400d643d8d327e4.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &0\\phantom{0.00}&\\\\ {4}&\\overline{\\Big)\\blue{19}\\phantom{.00}}\\\\ \\end{array}$  How many times does $4$ go into $\\blue{19}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &0\\green{4}\\phantom{.00}&\\\\ {4}&\\overline{\\Big)\\blue{19}\\phantom{.00}}\\\\ &\\mathllap{-}\\underline{16}\\phantom{.00}\\\\ &\\pink{3}\\phantom{.}\\phantom{00} \\end{array}$  $\\blue{19} \\div 4 = \\green{4}$ with a remainder of $\\pink{3}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &04.\\phantom{00}&\\\\ {4}&\\overline{\\Big)19.0\\phantom{0}}\\\\ &\\mathllap{-}\\underline{16}\\phantom{.00}\\\\ &3\\phantom{.00}\\\\ \\end{array}$  Write a decimal point and a $0$ in the tenths place.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &04.\\phantom{0}&\\\\ {4}&\\overline{\\Big)19.0}\\\\ &\\mathllap{-}\\underline{16}\\phantom{.}{\\downarrow}\\\\ &\\blue{3\\phantom{.}0}\\\\ \\end{array}$  How many times does $4$ go into $\\blue{30}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &04.\\green{7}\\phantom{0}&\\\\ {4}&\\overline{\\Big)19.0\\phantom{0}}\\\\ &\\mathllap{-}\\underline{16}\\phantom{.00}\\\\ &\\blue{3\\phantom{.}0\\phantom{0}}\\\\ &\\mathllap{-}\\underline{2\\phantom{.}8}\\phantom{0}\\\\ &\\pink{2}\\phantom{0} \\end{array}$  $\\blue{30} \\div 4 = \\green{7}$ with a remainder of $\\pink{2}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &04.7\\phantom{0}&\\\\ {4}&\\overline{\\Big)19.00}\\\\ &\\mathllap{-}\\underline{16}\\phantom{.00}\\\\ &3\\phantom{.}0\\phantom{0}\\\\ &\\mathllap{-}\\underline{2\\phantom{.}8}\\phantom{0}\\\\ &2\\phantom{0} \\end{array}$  Write a $0$ in the hundredths place.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &04.7\\phantom{0}&\\\\ {4}&\\overline{\\Big)19.00}\\\\ &\\mathllap{-}\\underline{16}\\phantom{.0}{\\downarrow}\\\\ &3\\phantom{.}0{\\downarrow}\\\\ &\\mathllap{-}\\underline{2\\phantom{.}8}{\\downarrow}\\\\ &\\blue{20} \\end{array}$  How many times does $4$ go into $\\blue{20}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &04.7\\green{5}&\\\\ {4}&\\overline{\\Big)19.00}\\\\ &\\mathllap{-}\\underline{16}\\phantom{.00}\\\\ &3\\phantom{.}0\\phantom{0}\\\\ &\\mathllap{-}\\underline{2\\phantom{.}8}\\phantom{0}\\\\ &\\blue{\\phantom{0.}20}\\\\ &\\mathllap{-}\\underline{\\phantom{0.}20}\\\\ &\\pink{0} \\end{array}$  $\\blue{20} \\div 4 = \\green{5}$ with a remainder of $\\pink{0}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &4.75&\\\\ {4}&\\overline{\\Big)19.00}\\\\ &\\mathllap{-}\\underline{16}\\phantom{.00}\\\\ &3\\phantom{.}0\\phantom{0}\\\\ &\\mathllap{-}\\underline{2\\phantom{.}8}\\phantom{0}\\\\ &20\\\\ &\\mathllap{-}\\underline{\\phantom{0.}20}\\\\ &0 \\end{array}$  The remainder is $0$, so we have our answer.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "So $\\dfrac{19}{4}$ is equivalent to  $4.75$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "terminating"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Rewrite the fraction as a decimal.**   **$\\dfrac{13}{10}=$**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "1.3",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$ \\dfrac{13}{10}$ represents $13 \\div 10 $.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0.0}&\\\\ {10}&\\overline{\\Big)13\\phantom{.0}}\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0.0}&\\\\ {10}&\\overline{\\Big)\\blue{1}3\\phantom{.0}}\\\\ \\end{array}$  How many times does $10$ go into $\\blue{1}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\green{0}\\phantom{0.0}&\\\\ {10}&\\overline{\\Big)\\blue{1}3\\phantom{.0}}\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &0\\phantom{0.0}&\\\\ {10}&\\overline{\\Big)\\blue{13}\\phantom{.0}}\\\\ \\end{array}$  How many times does $10$ go into $\\blue{13}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &0\\green{1}\\phantom{.0}&\\\\ {10}&\\overline{\\Big)\\blue{13}\\phantom{.0}}\\\\ &\\mathllap{-}\\underline{10}\\phantom{.0}\\\\ &\\pink{3}\\phantom{.}\\phantom{0} \\end{array}$  $\\blue{13} \\div 10 = \\green{1}$ with a remainder of $\\pink{3}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &01.\\phantom{0}&\\\\ {10}&\\overline{\\Big)13.0}\\\\ &\\mathllap{-}\\underline{10}\\phantom{.0}\\\\ &3\\phantom{.0}\\\\ \\end{array}$  Write a decimal point and a $0$ in the tenths place.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &01.\\phantom{0}&\\\\ {10}&\\overline{\\Big)13.0}\\\\ &\\mathllap{-}\\underline{10}\\phantom{.}{\\downarrow}\\\\ &\\blue{3\\phantom{.}0}\\\\ \\end{array}$  How many times does $10$ go into $\\blue{30}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &01.\\green{3}&\\\\ {10}&\\overline{\\Big)13.0}\\\\ &\\mathllap{-}\\underline{10}\\phantom{.0}\\\\ &\\blue{3\\phantom{.}0}\\\\ &\\mathllap{-}\\underline{3\\phantom{.}0}\\\\ &\\pink{0} \\end{array}$  $\\blue{30} \\div 10 = \\green{3}$ with a remainder of $\\pink{0}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &1.3&\\\\ {10}&\\overline{\\Big)13.0}\\\\ &\\mathllap{-}\\underline{10}\\phantom{.0}\\\\ &3\\phantom{.}0\\\\ &\\mathllap{-}\\underline{3\\phantom{.}0}\\\\ &0 \\end{array}$  The remainder is $0$, so we have our answer.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$ \\dfrac{13}{10} = 1.3 $",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "terminating"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Rewrite the fraction as a decimal.**   **$\\dfrac{15}{4}=$**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "3.75",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$ \\dfrac{15}{4}$ represents $15 \\div 4 $.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0.00}&\\\\ {4}&\\overline{\\Big)15\\phantom{.00}}\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0.00}&\\\\ {4}&\\overline{\\Big)\\blue{1}5\\phantom{.00}}\\\\ \\end{array}$  How many times does $4$ go into $\\blue{1}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\green{0}\\phantom{0.00}&\\\\ {4}&\\overline{\\Big)\\blue{1}5\\phantom{.00}}\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &0\\phantom{0.00}&\\\\ {4}&\\overline{\\Big)\\blue{15}\\phantom{.00}}\\\\ \\end{array}$  How many times does $4$ go into $\\blue{15}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &0\\green{3}\\phantom{.00}&\\\\ {4}&\\overline{\\Big)\\blue{15}\\phantom{.00}}\\\\ &\\mathllap{-}\\underline{12}\\phantom{.00}\\\\ &\\pink{3}\\phantom{.}\\phantom{00} \\end{array}$  $\\blue{15} \\div 4 = \\green{3}$ with a remainder of $\\pink{3}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &03.\\phantom{00}&\\\\ {4}&\\overline{\\Big)15.0\\phantom{0}}\\\\ &\\mathllap{-}\\underline{12}\\phantom{.00}\\\\ &3\\phantom{.00}\\\\ \\end{array}$  Write a decimal point and a $0$ in the tenths place.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &03.\\phantom{00}&\\\\ {4}&\\overline{\\Big)15.0\\phantom{0}}\\\\ &\\mathllap{-}\\underline{12}\\phantom{.}{\\downarrow}\\phantom{0}\\\\ &\\blue{3\\phantom{.}0\\phantom{0}}\\\\ \\end{array}$  How many times does $4$ go into $\\blue{30}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &03.\\green{7}\\phantom{0}&\\\\ {4}&\\overline{\\Big)15.0\\phantom{0}}\\\\ &\\mathllap{-}\\underline{12}\\phantom{.00}\\\\ &\\blue{3\\phantom{.}0}\\phantom{0}\\\\ &\\mathllap{-}\\underline{2\\phantom{.}8}\\phantom{0}\\\\ &\\pink{2}\\phantom{0} \\end{array}$  $\\blue{30} \\div 4 = \\green{7}$ with a remainder of $\\pink{2}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &03.7\\phantom{0}&\\\\ {4}&\\overline{\\Big)15.00}\\\\ &\\mathllap{-}\\underline{12}\\phantom{.00}\\\\ &3\\phantom{.}0\\phantom{0}\\\\ &\\mathllap{-}\\underline{2\\phantom{.}8}\\phantom{0}\\\\ &2\\phantom{0} \\end{array}$  Write a $0$ in the hundredths place.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &03.7\\phantom{0}&\\\\ {4}&\\overline{\\Big)15.00}\\\\ &\\mathllap{-}\\underline{12}\\phantom{.0}{\\downarrow}\\\\ &3\\phantom{.}0{\\downarrow}\\\\ &\\mathllap{-}\\underline{2\\phantom{.}8}{\\downarrow}\\\\ &\\phantom{0.}\\blue{20} \\end{array}$  How many times does $4$ go into $\\blue{20}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &03.7\\green{5}&\\\\ {4}&\\overline{\\Big)15.00}\\\\ &\\mathllap{-}\\underline{12}\\phantom{.00}\\\\ &3\\phantom{.}0\\phantom{0}\\\\ &\\mathllap{-}\\underline{2\\phantom{.}8}\\phantom{0}\\\\ &\\blue{\\phantom{0.}20}\\\\ &\\mathllap{-}\\underline{20}\\\\ &\\pink{0} \\end{array}$  $\\blue{20} \\div 4 = \\green{5}$ with a remainder of $\\pink{0}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &3.75&\\\\ {4}&\\overline{\\Big)15.00}\\\\ &\\mathllap{-}\\underline{12}\\phantom{.00}\\\\ &3\\phantom{.}0\\phantom{0}\\\\ &\\mathllap{-}\\underline{2\\phantom{.}8}\\phantom{0}\\\\ &20\\\\ &\\mathllap{-}\\underline{20}\\\\ &0 \\end{array}$  The remainder is $0$, so we have our answer.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$ \\dfrac{15}{4} = 3.75 $",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "terminating"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which decimal is equivalent to $\\dfrac{11}{25}$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$0.44$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$0.\\overline{4}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$2.2\\overline{7}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$2.\\overline{27}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$ \\dfrac{11}{25}$ represents $11 \\div 25$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0.00}&\\\\ {25}&\\overline{\\Big)11\\phantom{.00}}\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0.00}&\\\\ {25}&\\overline{\\Big)\\blue{1}1\\phantom{.00}}\\\\ \\end{array}$  How many times does $25$ go into $\\blue{1}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\green{0}\\phantom{0.00}&\\\\ {25}&\\overline{\\Big)\\blue{1}1\\phantom{.00}}\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &0\\phantom{0.00}&\\\\ {25}&\\overline{\\Big)\\blue{11}\\phantom{.00}}\\\\ \\end{array}$  How many times does $25$ go into $\\blue{11}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &0\\green{0}\\phantom{.00}&\\\\ {25}&\\overline{\\Big)\\blue{11}\\phantom{.00}}\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &00.\\phantom{00}&\\\\ {25}&\\overline{\\Big)11.0\\phantom{0}}\\\\ \\end{array}$  Write a decimal point and a $0$ in the tenths place.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &00.\\phantom{00}&\\\\ {25}&\\overline{\\Big)\\blue{11}.\\blue{0}\\phantom{0}}\\\\ \\end{array}$  How many times does $25$ go into $\\blue{110}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &00.\\green{4}\\phantom{0}&\\\\ {25}&\\overline{\\Big)\\blue{11}.\\blue{0}\\phantom{0}}\\\\ &\\mathllap{-}\\underline{10\\phantom{.}0}\\phantom{0}\\\\ &\\pink{1\\phantom{.}0\\phantom{0}} \\end{array}$  $\\blue{110} \\div 25 = \\green{4}$ with a remainder of $\\pink{10}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &00.4\\phantom{0}&\\\\ {25}&\\overline{\\Big)11.00}\\\\ &\\mathllap{-}\\underline{10\\phantom{.}0}\\phantom{0}\\\\ &\\pink{1\\phantom{.}0\\phantom{0}} \\end{array}$  Write a $0$ in the hundredths place.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &00.4\\phantom{0}&\\\\ {25}&\\overline{\\Big)11.00}\\\\ &\\mathllap{-}\\underline{10\\phantom{.}0}{\\downarrow}\\\\ &\\blue{1\\phantom{.}00} \\end{array}$  How many times does $25$ go into $\\blue{100}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &00.4\\green{4}&\\\\ {25}&\\overline{\\Big)11.00}\\\\ &\\mathllap{-}\\underline{10\\phantom{.}0}\\phantom{0}\\\\ &\\blue{1\\phantom{.}00}\\\\ &\\mathllap{-}\\underline{1\\phantom{.}00}\\\\ &\\pink{0} \\end{array}$  $\\blue{100} \\div 25 = \\green{4}$ with a remainder of $\\pink{0}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &0.44&\\\\ {25}&\\overline{\\Big)11.00}\\\\ &\\mathllap{-}\\underline{10\\phantom{.}0}\\phantom{0}\\\\ &1\\phantom{.}00\\\\ &\\mathllap{-}\\underline{1\\phantom{.}00}\\\\ &0 \\end{array}$  The remainder is $0$, so we have our answer.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "So $\\dfrac{11}{25}$ is equivalent to  $0.44$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "terminating"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Rewrite the fraction as a decimal.**   **$\\dfrac{57}{5}=$**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "11.4",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$ \\dfrac{57}{5}$ represents $57 \\div 5 $.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0.0}&\\\\ {5}&\\overline{\\Big)57\\phantom{.0}}\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0.0}&\\\\ {5}&\\overline{\\Big)\\blue{5}7\\phantom{.0}}\\\\ \\end{array}$  How many times does $5$ go into $\\blue{5}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\green{1}\\phantom{.00}&\\\\ {5}&\\overline{\\Big)\\blue{5}7\\phantom{.0}}\\\\ &\\mathllap{-}\\underline{5}\\phantom{.00}\\\\ &\\pink{0}\\phantom{.}\\phantom{00} \\end{array}$  $\\blue{5} \\div 5 = \\green{1}$ with a remainder of $\\pink{0}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &1\\phantom{0.0}&\\\\ {5}&\\overline{\\Big)57\\phantom{.0}}\\\\ &\\mathllap{-}\\underline{5}{\\downarrow}\\phantom{.0}\\\\ &0\\blue{7}\\phantom{.0}\\\\ \\end{array}$  How many times does $5$ go into $\\blue{7}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &1\\green{1}\\phantom{.0}&\\\\ {5}&\\overline{\\Big)57\\phantom{.0}}\\\\ &\\mathllap{-}\\underline{5}\\phantom{.00}\\\\ &0\\blue{7}\\phantom{.0}\\\\ &\\mathllap{-}\\underline{5}\\phantom{.0}\\\\ &\\pink{2}\\phantom{.0} \\end{array}$  $\\blue{7} \\div 5 = \\green{1}$ with a remainder of $\\pink{2}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &11.\\phantom{0}&\\\\ {5}&\\overline{\\Big)57.0}\\\\ &\\mathllap{-}\\underline{5}\\phantom{0.0}\\\\ &07\\phantom{.0}\\\\ &\\mathllap{-}\\underline{5}\\phantom{.0}\\\\ &2\\phantom{.0} \\end{array}$  Write a decimal point and a $0$ in the tenths place.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &11.\\phantom{0}&\\\\ {5}&\\overline{\\Big)57.0}\\\\ &\\mathllap{-}\\underline{5}\\phantom{.0}{\\downarrow}\\\\ &07\\phantom{.}{\\downarrow}\\\\ &\\mathllap{-}\\underline{5}\\phantom{.}{\\downarrow}\\\\ &\\blue{2\\phantom{.}0} \\end{array}$  How many times does $5$ go into $\\blue{20}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &11.\\green{4}&\\\\ {5}&\\overline{\\Big)57.0}\\\\ &\\mathllap{-}\\underline{5}\\phantom{.00}\\\\ &07\\phantom{.0}\\\\ &\\mathllap{-}\\underline{5}\\phantom{.0}\\\\ &\\blue{2\\phantom{.}0}\\\\ &\\mathllap{-}\\underline{2\\phantom{.}0}\\\\ &\\pink{0} \\end{array}$  $\\blue{20} \\div 5 = \\green{4}$ with a remainder of $\\pink{0}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &11.4&\\\\ {5}&\\overline{\\Big)57.0}\\\\ &\\mathllap{-}\\underline{5}\\phantom{.00}\\\\ &07\\phantom{.0}\\\\ &\\mathllap{-}\\underline{5}\\phantom{.0}\\\\ &2\\phantom{.}0\\\\ &\\mathllap{-}\\underline{2\\phantom{.}0}\\\\ &0 \\end{array}$  The remainder is $0$, so we have our answer.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$ \\dfrac{57}{5} = 11.4 $",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "terminating"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Rewrite the fraction as a decimal.**   **$\\dfrac{33}{25}=$**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "1.32",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$ \\dfrac{33}{25}$ represents $33 \\div 25 $.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0.00}&\\\\ {25}&\\overline{\\Big)33\\phantom{.00}}\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\phantom{0.00}&\\\\ {25}&\\overline{\\Big)\\blue{3}3\\phantom{.00}}\\\\ \\end{array}$  How many times does $25$ go into $\\blue{3}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &\\green{0}\\phantom{0.00}&\\\\ {25}&\\overline{\\Big)\\blue{3}3\\phantom{.00}}\\\\ \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &0\\phantom{0.00}&\\\\ {25}&\\overline{\\Big)\\blue{33}\\phantom{.00}}\\\\ \\end{array}$  How many times does $25$ go into $\\blue{33}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &0\\green{1}\\phantom{.00}&\\\\ {25}&\\overline{\\Big)\\blue{33}\\phantom{.00}}\\\\ &\\mathllap{-}\\underline{25}\\phantom{.00}\\\\ &\\pink{8\\phantom{.00}} \\end{array}$  $\\blue{33} \\div 25 = \\green{1}$ with a remainder of $\\pink{8}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &01.\\phantom{00}&\\\\ {25}&\\overline{\\Big)33.0\\phantom{0}}\\\\ &\\mathllap{-}\\underline{25}\\phantom{.00}\\\\ &8\\phantom{.00} \\end{array}$  Write a decimal point and a $0$ in the tenths place.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &01.\\phantom{00}&\\\\ {25}&\\overline{\\Big)33.0\\phantom0}\\\\ &\\mathllap{-}\\underline{25}\\phantom{.}{\\downarrow}\\phantom{0}\\\\ &\\blue{8\\phantom{.}0\\phantom{0}} \\end{array}$  How many times does $25$ go into $\\blue{80}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &01.\\green{3}\\phantom{0}&\\\\ {25}&\\overline{\\Big)33.0\\phantom{0}}\\\\ &\\mathllap{-}\\underline{25}\\phantom{.00}\\\\ &\\blue{8\\phantom{.}0}\\phantom{0}\\\\ &\\mathllap{-}\\underline{7\\phantom{.}5}\\phantom{0}\\\\ &\\pink{5}\\phantom{0} \\end{array}$  $\\blue{80} \\div 25 = \\green{3}$ with a remainder of $\\pink{5}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &01.3\\phantom{0}&\\\\ {25}&\\overline{\\Big)33.00}\\\\ &\\mathllap{-}\\underline{25}\\phantom{.00}\\\\ &8\\phantom{.}0\\phantom{0}\\\\ &\\mathllap{-}\\underline{7\\phantom{.}5}\\phantom{0}\\\\ &5\\phantom{0} \\end{array}$  Write a $0$ in the hundredths place.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &01.3\\phantom0&\\\\ {25}&\\overline{\\Big)33.00}\\\\ &\\mathllap{-}\\underline{25}\\phantom{.0}{\\downarrow}\\\\ &8\\phantom{.}0{\\downarrow}\\\\ &\\mathllap{-}\\underline{7\\phantom{.}5}{\\downarrow}\\\\ &\\blue{50} \\end{array}$  How many times does $25$ go into $\\blue{50}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &01.3\\green{2}&\\\\ {25}&\\overline{\\Big)33.00}\\\\ &\\mathllap{-}\\underline{25}\\phantom{.00}\\\\ &8\\phantom{.}0\\phantom{0}\\\\ &\\mathllap{-}\\underline{7\\phantom{.}5}\\phantom{0}\\\\ &\\blue{50}\\\\ &\\mathllap{-}\\underline{50}\\\\ &\\pink{0} \\end{array}$  $\\blue{50} \\div 25 = \\green{2}$ with a remainder of $\\pink{0}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} &01.32&\\\\ {25}&\\overline{\\Big)33.00}\\\\ &\\mathllap{-}\\underline{25}\\phantom{.00}\\\\ &8\\phantom{.}0\\phantom{0}\\\\ &\\mathllap{-}\\underline{7\\phantom{.}5}\\phantom{0}\\\\ &50\\\\ &\\mathllap{-}\\underline{50}\\\\ &0 \\end{array}$  The remainder is $0$, so we have our answer.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$ \\dfrac{33}{25} =1.32$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "terminating"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Rewrite the fraction as a decimal.**   **$\\dfrac{19}{50}=$**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.38",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$ \\dfrac{19}{50}$ represents $19 \\div 50 $.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/261466277681c2d1df7aad7ddcf665653391cfaf.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/8816a8433d89b791cc9f42c9f16f90bb9d041a52.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/a698efcc2d2b2573074818bd257167ffe92b0e85.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/7fc6c5e99b83f541ba129615fd3d96c7250e34c2.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/0ba1b61fa1b5351ea1346fe46e6439ced47d5ba0.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/f34c2267f9bb7f5afb454e30f65e2cce17c1cde2.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/f4820921ea8b12ed2f35a04255b0e899f67cc563.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/d7ee8abc208fb957720f68136e6a8df5aa504de8.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/574a26c1db61f5250a94d7d19390022ae9b38f3e.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/24ddc8e1d8dfe69e7fd2edc54c731cbe4c8345ae.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/ba155052d969e60bb04200467e692021e2adc1d3.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$ \\dfrac{19}{50} =0.38 $",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "terminating"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Rewrite the fraction as a decimal.**   **$\\dfrac{82}{5}=$**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "16.4",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$ \\dfrac{82}{5}$ represents $82 \\div 5 $.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/c8fb25918c229c6b457813de1e40af4b1b108d1e.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/7e8c70d2632df884c55217dfd1d10b638e0c3c3b.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/2d07e3c24eac8d1de6e0b361706282ee3456a482.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/e9b5f5b10595104cf1916f31fe94353a86857b30.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/9c3286320a314ef00e9a143fd458061e722c3045.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/a7eff3ccb9eba1ff8af35778e09a110e0cd43117.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/9cc4e2a9186814a41d029e6df84dd53c21f7ed91.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/6c69e8ae94ca49443b202310e631cc8f1e3d596c.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/be164201226c6387471157c9cf56fa9af068dde7.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$\\dfrac{82}{5} =16.4$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "terminating"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Rewrite the fraction as a decimal.**   **$\\dfrac{69}{4}= $**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "17.25",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$ \\dfrac{69}{4}$ represents $69 \\div 4 $.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/0512b1b81a14e932d4fa01957e08b7e944b7d7c0.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/1b1b997ba931a3680f081922cb07fd68b43bcf37.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/7981bc2787cf7ca750fdd441a707fb4b9bd11ba4.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/7fecdec824965def13b2029c4e0c81115f3a6159.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/52bf086b568b2ffdbf99fdd9b4c0fbc40e9bdba0.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/b3ef592a5d6649405c80354d4f34507ec63e0d41.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/9f62e6b06cf00481b9f74a53fa6bd389d04a6a0b.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/e75ed7e6908b00da1574bb3c2e713990bc7574fb.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/90c3a6c9487ac768e28be172b4e0c46633b7ffbf.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/d8652aa183a8d1f2f4d862d074c2b8fc862f046a.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/303d1f9e9faf87f75e1993e428030a0ebf2419c1.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$ \\dfrac{69}{4} = 17.25 $",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "terminating"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which decimal is equivalent to $\\dfrac{29}{11}$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$2.6\\overline{3}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$2.6363$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$2.\\overline{63}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$2.\\overline{6}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$ \\dfrac{29}{11}$ represents $29 \\div 11 $.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/2e6823d9af3677f14159d88ed8b9db40286dec41.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/1e3f1430d782976f352f9d1ea813d6349468ed77.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/5d97ecadcc1415dec45c385c5b555c8c0888b410.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/d79333a28962258991605857a203dd969a1ed974.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/a461dc24be47c6809b9ca8321732b84f60d6b9a0.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/1b873b9f6f162835de3adb263f2859d2d52a7c47.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/0d42866e258a93cfc2dd90c8199d1c44a2deed6e.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/8703fe8105c9322ece082763c3da7b59f4629f1f.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/87f578c1bdc63006ec21809f84277f2ae2227fdf.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/4130e8d86b340e074ee900f0b8b4d09fd4bba229.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/614c72c0e920e06a0263786082238422afdb5646.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/a2cd4c50446aa6631cbb61799404adacb55b85e8.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/e9d148cab777b9ba65d2e26a8ae59da618c02f64.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/89b1cb5be723e95fabae0c13ee0cf184fb9e2a47.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Notice how the decimal is repeating and will continue to repeat as we bring down more zeros.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "So $\\dfrac{29}{11}$ is equivalent to  $2.\\overline{63}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "repeating"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which decimal is equivalent to $\\dfrac{5}{6}$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$0.83$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$0.8\\overline{3}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$0.\\overline{83}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$0.\\overline{8}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$ \\dfrac{5}{6}$ represents $5 \\div 6 $.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/1c71b74daa918bc304a9072d125dc9e8d6109b3b.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/7e91822b1d48a7d84ca4be778ee5d1449b6424cd.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/aaa0e22a3c340bab8a0715bb6a5a872e58204b3b.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/7a682b55ddfb34510eb67f1b3dbd5d02150ab88b.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/8b787eb83cbd5edec45bb27ee71369a38c553584.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/4fe04ded19a6c45b0415f57a66707a14c67c1b8f.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/6a13cdcfeab4d770f15c8ca4ff81fa81912969ef.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/e06042875d4db5fa59f281a442532f44680fe4bc.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/0a3ed77774f4d82b63d84cacdbbbf12723210756.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/458e291b4ad31c614febd2f855e7b7fce4b56a3e.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/b7ba03850f2cbb278198e1db270d0b7f5c709e5f.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Notice how the decimal is repeating and will continue to repeat as we bring down more zeros.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "So $\\dfrac{5}{6}$ is equivalent to  $0.8\\overline{3}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "repeating"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which decimal is equivalent to $\\dfrac{31}{9}$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$0.\\overline{4}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$0.4444$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$3.\\overline{4}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$3.4444$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$ \\dfrac{31}{9}$ represents $31 \\div 9 $.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/c25e9145447db237a202c3ace3235a12953bc987.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/b891d9ea5d7a9bab76b34141496a6fbaeba8c4d8.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/fee5b5187ee0e0aa28c7e601c765779b2b19e9f1.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/2ac3051db44402a3aaafe5103091eaef6c8ef165.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/47ef9d46d0c0fc18abd00c2ba3566ac55ac39e3e.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/8e8daeb9a6148d94b6859913f578e3cee5b32b56.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/bb27b9163a29c6bea0f071211093c5a797a176ac.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/09b54aa3e2caa61f0171339d4a7663bbb72e85d5.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/74824feab8febcd8bb7a1c9685a845a42a9a1849.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/380e3c5d3a361660717e6f60227a1a9a0ad1a027.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/558ea7c569eb7cf0dc3bf2678b5f336cf1deaade.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/dc93110401257e41f50a7c9f34064a621a356905.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/b61e1774b91a3e496bc98d165eef1e6c68ab2919.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Notice how the decimal is repeating and will continue to repeat as we bring down more zeros.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "So $\\dfrac{31}{9}$ is equivalent to  $3.\\overline{4}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "repeating"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which decimal is equivalent to $\\dfrac{1}{3}$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$0.\\overline{13}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$0.\\overline{3}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$1.\\overline{3}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$3.\\overline{3}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$ \\dfrac{1}{3}$ represents $1 \\div 3 $.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/3f26144d832dacd43d0807b2f13d45671b5a4831.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/e4496aee3f4506fe953ac0c012eff3415da61a32.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/01d3101527a6f9c389d82491084b205796ff2ad7.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/7646e0d36555e4651e08cc6a4503260773be3a47.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/2bda29c16caacf0e38d0eaf2aee6daa3930d3ee5.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/1f84ee8214cf70e14f6403a8548381731561c578.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/934f647dfd01355962dd5a8ed4360a6a0e8bdc82.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/333bd8c46e8b57331d92bb4ed685fb7e665a917e.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/042c2691b84a2a6059b2dd6ffd44566e475df392.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/483b805f7463b65af9cc09c909a2d2e416ffbb24.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/6b4bd3e4a75fae6b70dd194ed4bd32cc277428b1.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/0626ee2be72da3bf958f7ce93b031e45da353625.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/c9779a33c1388ec64cb41eeb855876cc07a51199.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/d640d60903a78692a534cdb3b89ef13b0427b605.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Notice how the decimal is repeating and will continue to repeat as we bring down more zeros.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "So $\\dfrac{1}{3}$ is equivalent to  $0.\\overline{3}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "repeating"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which decimal is equivalent to $\\dfrac{10}{3}$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$0.\\overline{3}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$1.\\overline{3}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$3.\\overline{1}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$3.\\overline{3}$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$ \\dfrac{10}{3}$ represents $10 \\div 3 $.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/127b7ba7ec3838d12b1a40dbd15858eae612144b.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/e3d341fbb0cda3c1423aa79328333c2f0550afe4.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/1e0fdb39a7922323e736cc6c65150e50391eda2c.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/fdcef9f4d6e3370f3289de5a949dda9483736131.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/90f6fb6dfadfcf2baa4a4739071618909112ae99.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/d05884568f96a4b9d9bcf6551c2a92c6ef117347.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/9ec35e83bef523c7de96489f2f557cf49a5f0124.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/1da58bb36c69cf0fe7ad0d249751547d8a8f211d.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/a18f441a18fc85d5375984631ce67049c27f6f95.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/9acd87076b2cfecfc766c70d8448e12d6796c38f.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/efcb157bbf51c45c2c91984ff9edaa9358a78124.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/72267f534bd11cfd127e46091d1bc14ce97ae859.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/0871934ed78ef0febcf9431378bf970e02d90cbf.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/48e58ca85d2875539a03adfa37f06f86be39fa8e.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/985c0d96802ec47d66c22919d3d6ec6c4842b7bc.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Notice how the decimal is repeating and will continue to repeat as we bring down more zeros.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "So $\\dfrac{10}{3}$ is equivalent to  $3.\\overline{3}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "repeating"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which decimal is equivalent to $\\dfrac{13}{11}$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$1.\\overline{1}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$1.\\overline{181}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$1.\\overline{18}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$1.1\\overline{8}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$ \\dfrac{13}{11}$ represents $13 \\div 11$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/f2feab0e15c0c0850e9f08d1a1fde2a90ce3732f.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/7e53e6e31b67d5208e5e0d737ced2551adc34015.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/6626e80ca193771ffed1816d8c51b448cf47c0f9.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/8ff7c32e084f997e151b2c3ea07d748319e274c4.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/7ebbe751975d5675d2d8c5796b823e3c3f83966f.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/ae2ffab9927a1df29c2cce6c23436aeeaf831864.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/0c96e69b0116b0b85c7a900e8ba2c703fc4788db.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/b5beeb3a1c5bafee63da6e07425de77458e1239c.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/fad8e2bb78b5ae506679feb446613b61211f0e72.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/a3e925fef1bd0392c45202bb21edf6e06ece5459.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/863d0a1d5a37a6dabcf59c5f5151eb976a5b9b59.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/04ce0a6a0c6b2d80b8df959e9e35125628bd0334.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/0f5635d7ca0bd5d3c04ae3bd487576c84892ad85.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/bd60e45d3f1194e7ced01ecbda136214749bcc29.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Notice how the decimal is repeating and will continue to repeat as we bring down more zeros.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "So $\\dfrac{13}{11}$ is equivalent to  $1.\\overline{18}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "repeating"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which decimal is equivalent to $\\dfrac{25}{6}$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$4.\\overline{1}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$4.\\overline{16}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$4.1\\overline{6}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$4.1\\overline{667}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$ \\dfrac{25}{6}$ represents $25 \\div 6$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/84234c77e6281f2b52d113e3bb337433ef16c70d.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/0ca5c78066cbb7b56628f7342732d42ae83932fb.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/1f003338db0d81aa791cca7225b81f75f517c12d.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/f888b1cfa046824d3e4d086200d0ea4e31f1a145.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/33196f3b5482068cb022b87132cbff093e1b5bf2.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/530e5e4b6e37df1ccf51cad3c1f713523e4841e6.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/6f6bd8a396d8ef5414936a2208f5949f77704754.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/46d01f95f8a77b887a1bd32e431f06e93a394bc5.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/69bd7541e82d3593bfb70c67ff33cee7b476a54e.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/eff96877d7d396e1b8bef6b359eccefe7bbf6dce.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/c2e476a8faee19ed00d0aec7a4db2e03b71c6e7a.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/86f80497a79510b22b3f422a8a71583987a19e00.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/a9cd76ea83da2bb1acced23df1496e73b45723a3.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/0ba88a3a906d38a1a1a3b42de9873dc87fa8d1b0.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Notice how the decimal is repeating and will continue to repeat as we bring down more zeros.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "So $\\dfrac{25}{6}$ is equivalent to  $4.1\\overline{6}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "repeating"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which decimal is equivalent to $\\dfrac{76}{9}$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$8.3$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$8.\\overline{3}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$8.\\overline{4}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$8.4445$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$ \\dfrac{76}{9}$ represents $76 \\div 9 $.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/bfc14a5304e7ed6e5c67fc8b1c45ec0f7450b56a.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/a5f9847225b83dd9a8adf96d901eb85988232709.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/5636938979f47af8439cc7dd543c3192837c88df.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/75ee593a855e1dec6f937e3c252e0d6f3a669405.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/05165e4fdd47a9dc325ce2293134889c7eab770d.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/4b8857715f81e98d7e1b3df777880d7651d799f6.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/8e14aaee5bdb6553df4e193e6f149b9ff986cef5.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/5258c1400a329315eafbaaf623fe84f4e4c6bb0f.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/fa24ab1880584244cc54bac111552defd03b95f5.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/1dead5d5853909e01df6fdd37786dba640f7b07e.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/12c3e731f0d8667fa28d53df675b2f534b9ad5c3.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/a8d2185297d3a0292bc85eb7deadcb58aa8b827f.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/08febfab17b51074b95eddc3c7425bbf04106d7d.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/25153b584cc347ec6e7cfae2e56de87ec3d5dd52.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Notice how the decimal is repeating and will continue to repeat as we bring down more zeros.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "So $\\dfrac{76}{9}$ is equivalent to  $8.\\overline{4}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "repeating"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which decimal is equivalent to $\\dfrac{4}{15}$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$0.26$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$0.2626$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$0.\\overline{26}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$0.2\\overline{6}$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$ \\dfrac{4}{15}$ represents $4 \\div 15$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/a9549b8c2e30979ffa4a5999f28d1c68526a8a12.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/5b1feb8cf24541475b1b5331aaafeedaded08931.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/008a9c3ad3932c641d1bbe461e95104c7a2f8deb.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/97ad40f6ec03671dd87f1f9ba7cefebb10de8804.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/d39a02bbac90fd9003dc5ea933bdd1c59904db3b.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/6016f477196ecb718b9031efb28145206ebd0d55.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/214eb63462c160b77d86e08da8c74bf3b1b814e7.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/03ad6ef06174d62e88f301bbed341e048617609d.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/4a6688ffaa6989ea99edc5f69d51fff071f19607.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/5fcc195377c3816fc732bc7e6d229548c19eab8a.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/e90c2f1f397f71486e81e13cf0c15bd7a0477f7d.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/0493fb34b51429e68e47c9951fcda228f3780f27.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Notice how the decimal is repeating and will continue to repeat as we bring down more zeros.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "So $\\dfrac{4}{15}$ is equivalent to  $0.2\\overline{6}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "repeating"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which decimal is equivalent to $\\dfrac{4}{3}$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$0.75$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$1.25$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$1.\\overline{1}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$1.\\overline{3}$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$ \\dfrac{4}{3}$ represents $4 \\div 3 $.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/32fef079e19bcc87c513e6336e2b7ba184943fb6.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/6d8de2d5992e95b232b89c2b4e18af8d858d2dac.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/1188f2aee607a3cc65ce0ee9e8c1c9896c093db4.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/9f3dcfd45184cd7075aba1aaa9b75e8d004867e8.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/59c811b95e0c35227b72db1ee7b2828d58829f6f.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/9f6ce8f65e61dea34aefcecd7d78da23071e1739.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/aa2a7646ccdb0060169e86354fe2ad3d8bf258cb.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/c6c240e6082f7eca571aa10432884138ac070e02.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/047bee3c87682c93f64e51466f0c0b64bb96d2c4.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/94c857e2b56c835d847851321dcd8b20c9482c2b.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/adad41420c32e555efaacd42afeb9789961d9e30.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/9ebf54d96bf83af0af3c8fa305900661e168ceb9.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/adc7d2c2231fab88ebbce63dadead95e746943d1.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/be4819547902fe47644a22d01acf8b29aa9f2f18.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Notice how the decimal is repeating and will continue to repeat as we bring down more zeros.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "So $\\dfrac{4}{3}$ is equivalent to  $1.\\overline{3}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "repeating"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which decimal is equivalent to $\\dfrac{26}{9}$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$2.8$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$2.\\overline{8}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$2.889$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$2.9$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$ \\dfrac{26}{9}$ represents $26 \\div 9$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/b0d1ee8bdac2a453156eb4055814d227fbaf1ac1.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/ed1d373de1eae0646023d80a6505c84e7d7e410e.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/e747bb44b323d1ab7135c85f680d24244efcbeae.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/ec8d1cf0303cc101945e097b8b2de09cf8abf4da.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/82bf90fc23e0360d4bbb0345915235b9b328d431.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/d5f3329644f07e4f6740d188e2ec647f4a6d6853.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/3a96cd6e6e641d5950c3ef98ab3c0f4be37c8177.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/52fc16f11131114be6a1541a9ce2c7afb1930364.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/e1ad052aa8da1e276c8bef784999f540d8836922.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/8336e5e4068dbe3c24a21e3a7f82d4331b91fc07.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Notice how the decimal is repeating and will continue to repeat as we bring down more zeros.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "So $\\dfrac{26}{9}$ is equivalent to  $2.\\overline{8}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "repeating"
+                    }
+                }
+            }
+        }
+    ]
+}

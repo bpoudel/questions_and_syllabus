@@ -1,0 +1,965 @@
+{
+    "standard_metadata": {
+        "standard_id": "8.EE.C.8",
+        "standard_description": "Analyze and solve pairs of simultaneous linear equations.",
+        "standard_title": "Number of solutions to a system of equations algebraically",
+        "standard_url": "https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:systems-of-equations/x2f8bb11595b61c86:number-of-solutions-to-systems-of-equations/e/constructing-consistent-and-inconsistent-system"
+    },
+    "id": "xb99abb79",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**How many solutions does the system have?**  $\\begin{cases} y = 9x-5 \\\\\\\\ y = 9x+6 \\end{cases}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Exactly one solution",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No solutions",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Infinitely many solutions",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The equations are in slope-intercept form. Let's think about the slopes and the $y$-intercepts of the lines represented by each equation.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The first equation is $y = 9x-5$, so the slope of its line is $9$ and the $y$-intercept is $(0,-5)$.  The second equation is $y = 9x+6$, so the slope of its line is $9$ and the $y$-intercept is $(0,6)$.  Since both lines have the same slopes but different $y$-intercepts, they are distinct parallel lines.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since distinct parallel lines don't intersect, we conclude that the system has **no solutions**.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. The equation y equals nine x minus five is graphed going through the points zero, negative five and one, four. The equation y equals nine x plus six is graphed going through the points negative one, negative three and zero, six.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/946eb7ba262e06d70d8616fe10e52b831d4d1b02.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "1. No solutions"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**How many solutions does the system have?**  $\\begin{cases} y = -7x+8 \\\\\\\\ y = -7x-8 \\end{cases}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Exactly one solution",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No solutions",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Infinitely many solutions",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The equations are in slope-intercept form. Let's think about the slopes and the $y$-intercepts of the lines represented by each equation.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The first equation is $y = -7x+8$, so the slope of its line is $-7$ and the $y$-intercept is $(0,8)$.  The second equation is $y = -7x-8$, so the slope of its line is $-7$ and the $y$-intercept is $(0,-8)$.  Since both lines have the same slopes but different $y$-intercepts, they are distinct parallel lines.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since distinct parallel lines don't intersect, we conclude that the system has **no solutions**.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. The equation y equals negative seven x plus eight is graphed going through the points zero, eight and one, one. The equation y equals negative seven x minus six is graphed going through the points negative one, negative one and zero, negative eight.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/99a851ea1d0575314e249c70ded5a8bcbbb8bd7b.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "1. No solutions"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**How many solutions does the system have?**  $\\begin{cases} 2y = 4x+6 \\\\\\\\ y = 2x+6 \\end{cases}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Exactly one solution",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No solutions",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Infinitely many solutions",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's bring both equations to slope-intercept form. Then we can think about the slopes and the $y$-intercepts of the lines represented by each equation.  The slope-intercept form of the first equation $2y=4x+6$ is $y=2x+3$. The second equation $y = 2x+6$ is already in slope-intercept form.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The first equation is $y = 2x+3$, so the slope of its line is $2$ and the $y$-intercept is $(0,3)$.  The second equation is $y = 2x+6$, so the slope of its line is $2$ and the $y$-intercept is $(0,6)$.  Since both lines have the same slopes but different $y$-intercepts, they are distinct parallel lines.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since distinct parallel lines don't intersect, we conclude that the system has **no solutions**.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. The equation y equals two x plus three is graphed going through the points negative one, one and zero, three. The equation y equals two x plus six is graphed going through the points negative one, four and zero, six.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/dca05b300fa83d7137e2e6aa1c1ae9c7ff1c5bff.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "1. No solutions"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**How many solutions does the system have?**  $\\begin{cases} y = -3x+9 \\\\\\\\ 3y = -9x+9 \\end{cases}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Exactly one solution",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No solutions",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Infinitely many solutions",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's bring both equations to slope-intercept form. Then we can think about the slopes and the $y$-intercepts of the lines represented by each equation.  The first equation $y = -3x+9$ is already in slope-intercept form. The slope-intercept form of the second equation $3y=-9x+9$ is $y=-3x+3$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The first equation is $y = -3x+9$, so the slope of its line is $-3$ and the $y$-intercept is $(0,9)$.  The second equation is $y = -3x+3$, so the slope of its line is $-3$ and the $y$-intercept is $(0,3)$.  Since both lines have the same slopes but different $y$-intercepts, they are distinct parallel lines.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since distinct parallel lines don't intersect, we conclude that the system has **no solutions**.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. The equation y equals negative three x plus nine is graphed going through the points zero, nine and one, six. The equation y equals negative three x plus three is graphed going through the points zero, three and one, zero.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/9b071b5081057a92617eaa81acced4db4deaa6e3.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "1. No solutions"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**How many solutions does the system have?**  $\\begin{cases} 5x-y=2 \\\\\\\\ 5x-y=-2 \\end{cases}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Exactly one solution",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No solutions",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Infinitely many solutions",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's bring both equations to slope-intercept form. Then we can think about the slopes and the $y$-intercepts of the lines represented by each equation.  The slope-intercept form of the first equation $5x-y=2$ is $y=5x-2$.  The slope-intercept form of the second equation $5x-y=-2$ is $y=5x+2$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The first equation is $y = 5x-2$, so the slope of its line is $5$ and the $y$-intercept is $(0,-2)$.  The second equation is $y = 5x+2$, so the slope of its line is $5$ and the $y$-intercept is $(0,2)$.  Since both lines have the same slopes but different $y$-intercepts, they are distinct parallel lines.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since distinct parallel lines don't intersect, we conclude that the system has **no solutions**.  This makes sense: if $5x-y$ equals $2$, then it would be impossible for $5x-y$ to also be equal to $-2$.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. The equation y equals five x minus two is graphed going through the points zero, negative two and one, three. The equation y equals five x plus two is graphed going through the points zero, two and one, seven.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/0d6d972cdaedcd578eb32717453d8fccc9599059.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "1. No solutions"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**How many solutions does the system have?**  $\\begin{cases} 8x+2y=14 \\\\\\\\ 8x+2y=4 \\end{cases}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Exactly one solution",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No solutions",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Infinitely many solutions",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's bring both equations to slope-intercept form. Then we can think about the slopes and the $y$-intercepts of the lines represented by each equation.  The slope-intercept form of the first equation $8x+2y=14$ is $y=-4x+7$.  The slope-intercept form of the second equation $8x+2y=4$ is $y=-4x+2$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The first equation is $y = -4x+7$, so the slope of its line is $-4$ and the $y$-intercept is $(0,7)$.  The second equation is $y = -4x+2$, so the slope of its line is $-4$ and the $y$-intercept is $(0,2)$.  Since both lines have the same slopes but different $y$-intercepts, they are distinct parallel lines.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since distinct parallel lines don't intersect, we conclude that the system has **no solutions**.  This makes sense: if $8x+2y$ equals $14$, then it would be impossible for $8x+2y$ to also be equal to $4$.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. The equation y equals negative four x plus seven is graphed going through the points zero, seven and one, three. The equation y equals negative four x plus two is graphed going through the points zero, two and one, negative two.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/8d92d915bcbed288f80e5019797432fa7458aff5.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "1. No solutions"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**How many solutions does the system have?**  $\\begin{cases} y = -2x-4 \\\\\\\\ y = 3x+3 \\end{cases}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Exactly one solution",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No solutions",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Infinitely many solutions",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The equations are in slope-intercept form. Let's think about the slopes and the $y$-intercepts of the lines represented by each equation.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The first equation is $ y = -2x-4$, so the slope of its line is $-2$ and the $y$-intercept is $(0,-4)$.  The second equation is $y = 3x+3$, so the slope of its line is $3$ and the $y$-intercept is $(0,3)$.  Since the lines have different slopes, they are not parallel.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since the lines aren't parallel, they intersect exactly once. This means that the system of equations that they represent has **exactly one solution**.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. The equation y equals negative two x minus four is graphed going through the points negative two, zero and zero, negative four. The equation y equals three x plus three is graphed going through the points negative one, zero and zero, three.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/5dd50e9d59117580e359219527726bc33beaf5c3.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "2. Exactly one"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**How many solutions does the system have?**  $\\begin{cases} y = 5x+1 \\\\\\\\ y = -2x-8 \\end{cases}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Exactly one solution",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No solutions",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Infinitely many solutions",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The equations are in slope-intercept form. Let's think about the slopes and the $y$-intercepts of the lines represented by each equation.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The first equation is $y = 5x+1$, so the slope of its line is $5$ and the $y$-intercept is $(0,1)$.  The second equation is $y = -2x-8$, so the slope of its line is $-2$ and the $y$-intercept is $(0,-8)$.  Since the lines have different slopes, they are not parallel.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since the lines aren't parallel, they intersect exactly once. This means that the system of equations that they represent has **exactly one solution**.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. The equation y equals five x plus one is graphed going through the points negative one, negative four and zero, one. The equation y equals negative two x minus eight is graphed going through the points negative four, zero and zero, negative eight.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/9143c4aa57928890356dec51bf128a0dff81f91f.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "2. Exactly one"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**How many solutions does the system have?**  $\\begin{cases} y = 4x-8 \\\\\\\\ 4y =4x-8 \\end{cases}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Exactly one solution",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No solutions",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Infinitely many solutions",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's bring both equations to slope-intercept form. Then we can think about the slopes and the $y$-intercepts of the lines represented by each equation.  The first equation $y = 4x-8$ is already in slope-intercept form. The slope-intercept form of the second equation $4y =4x-8$ is $y=x-2$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The first equation is $y = 4x-8$, so the slope of its line is $4$ and the $y$-intercept is $(0,-8)$.  The second equation is $y = x-2$, so the slope of its line is $1$ and the $y$-intercept is $(0,-2)$.  Since the lines have different slopes, they are not parallel.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since the lines aren't parallel, they intersect exactly once. This means that the system of equations that they represent has **exactly one solution**.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. The equation y equals four x minus eight is graphed going through the points zero, negative eight and two, zero. The equation y equals x minus two is graphed going through the points zero, negative two and two, zero.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/a0e724e0e17f9a50126c518042b783357deb7130.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "2. Exactly one"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**How many solutions does the system have?**  $\\begin{cases} 3y =- 6x+9 \\\\\\\\ y =-6x+9 \\end{cases}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Exactly one solution",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No solutions",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Infinitely many solutions",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's bring both equations to slope-intercept form. Then we can think about the slopes and the $y$-intercepts of the lines represented by each equation.  The slope-intercept form of the first equation $3y = -6x+9$ is $y=-2x+3$. The second equation $y =-6x+9$ is already in slope-intercept form.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The first equation is $y = -2x+3$, so the slope of its line is $-2$ and the $y$-intercept is $(0,3)$.  The second equation is $y = -6x+9$, so the slope of its line is $-6$ and the $y$-intercept is $(0,9)$.  Since the lines have different slopes, they are not parallel.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since the lines aren't parallel, they intersect exactly once. This means that the system of equations that they represent has **exactly one solution**.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. The equation y equals negative two x plus three is graphed going through the points zero, three and one, one. The equation y equals negative six x plus nine is graphed going through the points zero, nine and one, three.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/c3ef3cbc2e6b7af66f64e79d273ec0add2bee133.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "2. Exactly one"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**How many solutions does the system have?**  $\\begin{cases} 3x+y=8 \\\\\\\\ 2x+2y=8 \\end{cases}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Exactly one solution",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No solutions",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Infinitely many solutions",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's bring both equations to slope-intercept form. Then we can think about the slopes and the $y$-intercepts of the lines represented by each equation.  The slope-intercept form of the first equation $3x+y=8$ is $y=-3x+8$.  The slope-intercept form of the second equation $2x+2y=8$ is $y=-x+4$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The first equation is $y = -3x+8$, so the slope of its line is $-3$ and the $y$-intercept is $(0,8)$.  The second equation is $y = -x+4$, so the slope of its line is $-1$ and the $y$-intercept is $(0,4)$.  Since the lines have different slopes, they are not parallel.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since the lines aren't parallel, they intersect exactly once. This means that the system of equations that they represent has **exactly one solution**.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. The equation y equals negative three x plus eight is graphed going through the points zero, eight and one, five. The equation y equals negative x plus four is graphed going through the points zero, four and four, zero.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/4e2587cb0a4afa83e572ce29d06061ad5fbb1959.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "2. Exactly one"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**How many solutions does the system have?**  $\\begin{cases} 6x-y=-1 \\\\\\\\ 6x+y=-1 \\end{cases}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Exactly one solution",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No solutions",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Infinitely many solutions",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's bring both equations to slope-intercept form. Then we can think about the slopes and the $y$-intercepts of the lines represented by each equation.  The slope-intercept form of the first equation $6x-y=-1$ is $y=6x+1$.  The slope-intercept form of the second equation $6x+y=-1$ is $y=-6x-1$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The first equation is $y =6x+1$, so the slope of its line is $6$ and the $y$-intercept is $(0,1)$.  The second equation is $y = -6x-1$, so the slope of its line is $-6$ and the $y$-intercept is $(0,-1)$.  Since the lines have different slopes, they are not parallel.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since the lines aren't parallel, they intersect exactly once. This means that the system of equations that they represent has **exactly one solution**.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. The equation y equals six x plus one is graphed going through the points zero, one and one, seven. The equation y equals negative six x minus one is graphed going through the points negative one, five and zero, negative one. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/29ef881a3dd4a9d4dc23079ec11c6a9b25d1ac2e.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "2. Exactly one"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**How many solutions does the system have?**  $\\begin{cases} y = -5x+1 \\\\\\\\ y =1-5x \\end{cases}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Exactly one solution",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No solutions",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Infinitely many solutions",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The equations are in slope-intercept form. Let's think about the slopes and the $y$-intercepts of the lines represented by each equation.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The first equation is $y = -5x+1$, so the slope of its line is $-5$ and the $y$-intercept is $(0,1)$.  The second equation is $y =1-5x$, so the slope of its line is $-5$ and the $y$-intercept is $(0,1)$.  So both equations have the same slope and $y$-intercept! In other words, the two equations are represented by the same line.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since both equations are represented by the same line, they intersect infinitely many times, so the system has **infinitely many solutions**.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. The equation y equals negative five x plus one is graphed going through the points zero, one and one, negative four. The equation y equals one minus five x is graphed going through the points zero, one and one, negative four. The lines overlap entirely.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/b83f538958ac9e441aed13f2dfd0b6c12a1b23ee.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "3. Infinitely many"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**How many solutions does the system have?**  $\\begin{cases} y=5+6x \\\\\\\\ y = 6x+5 \\end{cases}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Exactly one solution",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No solutions",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Infinitely many solutions",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The equations are in slope-intercept form. Let's think about the slopes and the $y$-intercepts of the lines represented by each equation.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The first equation is $y =5+6x$, so the slope of its line is $6$ and the $y$-intercept is $(0,5)$.  The second equation is $y =6x+5$, so the slope of its line is $6$ and the $y$-intercept is $(0,5)$.  So both equations have the same slope and $y$-intercept! In other words, the two equations are represented by the same line.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since both equations are represented by the same line, they intersect infinitely many times, so the system has **infinitely many solutions**.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. The equation y equals five plus six x is graphed going through the points zero, five and one, eleven. The equation y equals six x plus five is graphed going through the points zero, five and one, eleven. The lines overlap entirely.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d5c847acb95e50f99065c6ea3095a7b273664cd0.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "3. Infinitely many"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**How many solutions does the system have?**  $\\begin{cases} 5y =15x-40 \\\\\\\\ y = 3x-8 \\end{cases}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Exactly one solution",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No solutions",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Infinitely many solutions",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's bring both equations to slope-intercept form. Then we can think about the slopes and the $y$-intercepts of the lines represented by each equation.  The slope-intercept form of the first equation $5y =15x-40$ is $y=3x-8$. The second equation $y = 3x-8$ is already in slope-intercept form.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The two equations have the same slope-intercept form, which means they are represented by the same line!",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since both equations are represented by the same line, they intersect infinitely many times, so the system has **infinitely many solutions**.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. The equation five y equals fifteen x minus forty is graphed going through the points zero, negative eight and one, negative five. The equation y equals three x minus eight is graphed going through the points zero, negative eight and one, negative five. The lines overlap entirely.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/a3f4579cc865350561112b6d98dd02195b011275.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "3. Infinitely many"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**How many solutions does the system have?**  $\\begin{cases}  y= -2x+4 \\\\\\\\  7y = -14x+28 \\end{cases}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Exactly one solution",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No solutions",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Infinitely many solutions",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's bring both equations to slope-intercept form. Then we can think about the slopes and the $y$-intercepts of the lines represented by each equation.  The first equation $ y= -2x+4$ is already in slope-intercept form. The slope-intercept form of the second equation $ 7y = -14x+28$ is $y=-2x+4$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The two equations have the same slope-intercept form, which means they are represented by the same line!",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since both equations are represented by the same line, they intersect infinitely many times, so the system has **infinitely many solutions**.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. The equation y equals negative two x plus four is graphed going through the points zero, four and two, zero. The equation seven y equals negative fourteen x plus twenty-eight is graphed going through the points zero, four and two, zero. The lines overlap entirely.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/a9f87c4cf8c23ae607b691003485216a23644501.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "3. Infinitely many"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**How many solutions does the system have?**  $\\begin{cases} x+y=3 \\\\\\\\ 5x+5y=15 \\end{cases}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Exactly one solution",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No solutions",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Infinitely many solutions",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's bring both equations to slope-intercept form. Then we can think about the slopes and the $y$-intercepts of the lines represented by each equation.  The slope-intercept form of the first equation $x+y=3$ is $y=-x+3$.  The slope-intercept form of the second equation $5x+5y=15$ is $y=-x+3$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The two equations have the same slope-intercept form, which means they are represented by the same line!",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since both equations are represented by the same line, they intersect infinitely many times, so the system has **infinitely many solutions**.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. The equation x plus y equals three is graphed going through the points zero, three and three, zero. The equation five x plus five y equals fifteen is graphed going through the points zero, three and three, zero. The lines overlap entirely.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/4d3fee1b7fc784314d00d05e626a46b4713f5801.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "3. Infinitely many"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**How many solutions does the system have?**  $\\begin{cases} 20x-5y=5 \\\\\\\\ 4x-y=1 \\end{cases}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Exactly one solution",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No solutions",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Infinitely many solutions",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's bring both equations to slope-intercept form. Then we can think about the slopes and the $y$-intercepts of the lines represented by each equation.  The slope-intercept form of the first equation $20x-5y=5$ is $y=4x-1$.  The slope-intercept form of the second equation $4x-y=1$ is $y=4x-1$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The two equations have the same slope-intercept form, which means they are represented by the same line!",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since both equations are represented by the same line, they intersect infinitely many times, so the system has **infinitely many solutions**.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. The equation twenty x minus five y equals five is graphed going through the points zero, negative one and one, three. The equation four x minus y equals one is graphed going through the points zero, negative one and one, three. The lines overlap entirely.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/43341c25c222cd933bfb0414c4304a410a187a01.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "3. Infinitely many"
+                    }
+                }
+            }
+        }
+    ]
+}

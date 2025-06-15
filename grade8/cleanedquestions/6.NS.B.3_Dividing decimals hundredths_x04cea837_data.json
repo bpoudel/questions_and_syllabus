@@ -1,0 +1,895 @@
+{
+    "standard_metadata": {
+        "standard_id": "6.NS.B.3",
+        "standard_description": "Fluently add, subtract, multiply, and divide multi-digit decimals using the standard algorithm for each operation.",
+        "standard_title": "Dividing decimals: hundredths",
+        "standard_url": "https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-arithmetic-operations/cc-6th-dividing-decimals/e/dividing_decimals_3"
+    },
+    "id": "x04cea837",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  $29.88 \\div 0.36 =$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "83",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\begin{array}{rr}\\\\ {0.36}\\overline{\\Big)29.88} \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr}\\\\ {036.}\\overline{\\Big)2988.} \\end{array}$  Let's start by shifting the decimals two places values to the right. [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr}\\\\ {036.}\\overline{\\Big)\\blueE2988.} \\end{array}$  How many times does $36$ go into $\\blueE2$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} \\maroonE0\\phantom{234.}\\\\ {036.}\\overline{\\Big)\\blueE2988.} \\end{array}$  $\\blueE2\\div 36 = \\maroonE0$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} \\maroonE0\\phantom{234.}\\\\ {036.}\\overline{\\Big)\\blueE{29}88.} \\end{array}$  How many times does $36$ go into $\\blueE{29}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 0\\maroonE0\\phantom{34.}\\\\ {036.}\\overline{\\Big)\\blueE{29}88.} \\end{array}$  $\\blueE{29}\\div36 = \\maroonE0$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 0\\maroonE0\\phantom{34.}\\\\ {036.}\\overline{\\Big)\\blueE{298}8.} \\end{array}$  How many times does $36$ go into $\\blueE{298}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 00\\maroonE8\\phantom{4.}\\\\ 036.\\overline{\\Big)\\blueE{298}8.}\\\\ \\mathllap{-}\\underline{\\goldE{288}\\phantom{0.}}\\\\ \\purpleE{010}\\phantom{0.} \\end{array}$  $\\blueE{298}\\div36 = \\maroonE8$ with $\\purpleE{10}$ left over.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 00\\maroonE8\\phantom{4.}\\\\ 036.\\overline{\\Big)\\blueE{298}8.}\\\\ \\mathllap{-}\\underline{\\goldE{288}{\\downarrow}\\phantom.}\\\\ \\purpleE{010}8\\phantom{.} \\end{array}$  Now, we need to bring down the $\\blueE8$ from the ones place to get our new dividend of $\\blueE{108}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 00\\maroonE8\\phantom{4.}\\\\ 036.\\overline{\\Big)2988.}\\\\ \\mathllap{-}\\underline{\\goldE{288}{\\downarrow}\\phantom.}\\\\ \\blueE{0108}{\\phantom.} \\end{array}$  How many times does $36$ go into $\\blueE{108}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 008\\maroonE3\\phantom.\\\\ 036.\\overline{\\Big)2988.}\\\\ \\mathllap{-}\\underline{\\goldE{288}{\\downarrow}}\\phantom.\\\\ \\blueE{0108}\\phantom.\\\\ -\\underline{0108{\\phantom.}}\\\\ \\phantom{000}0{\\phantom.} \\end{array}$  $\\blueE{108}\\div36 = \\maroonE3$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$29.88 \\div 0.36 = \\maroonE{83}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Same number of places"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  $19.68 \\div 0.24 =$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "82",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\begin{array}{rr}\\\\ {0.24}\\overline{\\Big)19.68} \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr}\\\\ {024.}\\overline{\\Big)1968.} \\end{array}$  Let's start by shifting the decimals two places values to the right. [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr}\\\\ {024.}\\overline{\\Big)\\blueE1968.} \\end{array}$  How many times does $24$ go into $\\blueE1$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} \\maroonE0\\phantom{000.}\\\\ {024.}\\overline{\\Big)\\blueE1968.} \\end{array}$  $\\blueE1\\div 24 = \\maroonE0$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} \\maroonE0\\phantom{000.}\\\\ {024.}\\overline{\\Big)\\blueE{19}68.} \\end{array}$  How many times does $24$ go into $\\blueE{19}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 0\\maroonE0\\phantom{00.}\\\\ {024.}\\overline{\\Big)\\blueE{19}68.} \\end{array}$  $\\blueE{24}\\div19 = \\maroonE0$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 0\\maroonE0\\phantom{00.}\\\\ {024.}\\overline{\\Big)\\blueE{196}8.} \\end{array}$  How many times does $24$ go into $\\blueE{196}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 00\\maroonE8\\phantom{0.}\\\\ 024.\\overline{\\Big)\\blueE{196}8.}\\\\ \\mathllap{-}\\underline{\\goldE{192}\\phantom{0.}}\\\\ \\purpleE{004}\\phantom{0.} \\end{array}$  $\\blueE{196}\\div24 = \\maroonE8$ with $\\purpleE{4}$ left over.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 00\\maroonE8\\phantom{4}\\\\ 024.\\overline{\\Big)\\blueE{196}8.}\\\\ \\mathllap{-}\\underline{\\goldE{192}{\\downarrow}\\phantom.}\\\\ \\purpleE{004}8\\phantom. \\end{array}$  Now, we need to bring down the $\\blueE8$ from the ones place to get our new dividend of $\\blueE{48}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 00\\maroonE8\\phantom{o.}\\\\ 024.\\overline{\\Big)1968.}\\\\ \\mathllap{-}\\underline{\\goldE{192}{\\downarrow}\\phantom.}\\\\ \\blueE{0048}\\phantom. \\end{array}$  How many times does $24$ go into $\\blueE{48}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 008\\maroonE2\\phantom.\\\\ 024.\\overline{\\Big)1968.}\\\\ \\mathllap{-}\\underline{\\goldE{192}{\\downarrow}\\phantom.}\\\\ \\blueE{0048}\\phantom.\\\\ -\\underline{0048}\\phantom.\\\\ \\phantom{000}0\\phantom. \\end{array}$  $\\blueE{48}\\div24 = \\maroonE2$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$19.68 \\div 0.24 = \\maroonE{82}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Same number of places"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  $10.5 \\div 2.1 =$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\begin{array}{rr}\\\\ {2.1}\\overline{\\Big)10.5} \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr}\\\\ {21.}\\overline{\\Big)105.} \\end{array}$  Let's start by shifting the decimals one place value to the right. [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr}\\\\ {21.}\\overline{\\Big)\\blueE105.} \\end{array}$  How many times does $21$ go into $\\blueE1$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} \\maroonE0\\phantom{00.}\\\\ {21.}\\overline{\\Big)\\blueE105.} \\end{array}$  $\\blueE1\\div 21 = \\maroonE0$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} \\maroonE0\\phantom{00.}\\\\ {21.}\\overline{\\Big)\\blueE{10}5.} \\end{array}$  How many times does $21$ go into $\\blueE{10}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 0\\maroonE0\\phantom{4.}\\\\ {21.}\\overline{\\Big)\\blueE{10}5.} \\end{array}$  $\\blueE{10}\\div21 = \\maroonE0$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 0\\maroonE0\\phantom{4.}\\\\ {21.}\\overline{\\Big)\\blueE{105.}} \\end{array}$  How many times does $21$ go into $\\blueE{105}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 00\\maroonE5\\phantom.\\\\ 21.\\overline{\\Big)\\blueE{105.}}\\\\ \\mathllap{-}\\underline{\\goldE{105}}\\phantom.\\\\ \\purpleE{000}\\phantom. \\end{array}$  $\\blueE{105}\\div21 = \\maroonE5$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$10.5 \\div 2.1 =5$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Same number of places"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  $33.8 \\div 2.6 =$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "13",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\begin{array}{rr}\\\\ {2.6}\\overline{\\Big)33.8} \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr}\\\\ {26.}\\overline{\\Big)338.} \\end{array}$  Let's start by shifting the decimals one place value to the right. [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr}\\\\ {26.}\\overline{\\Big)\\blueE338.} \\end{array}$  How many times does $26$ go into $\\blueE3$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} \\maroonE0\\phantom{34.}\\\\ {26.}\\overline{\\Big)\\blueE338.} \\end{array}$  $\\blueE3\\div 26 = \\maroonE0$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} \\maroonE0\\phantom{24.}\\\\ {26.}\\overline{\\Big)\\blueE{33}8.} \\end{array}$  How many times does $26$ go into $\\blueE{33}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 0\\maroonE1\\phantom{0.}\\\\ 26.\\overline{\\Big)\\blueE{338.}}\\\\ \\mathllap{-}\\underline{\\goldE{26}}\\phantom{0.}\\\\ \\purpleE{07}\\phantom{0.} \\end{array}$  $\\blueE{33}\\div26 = \\maroonE1$ with $\\purpleE{7}$ left over.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 0\\maroonE1\\phantom{4.}\\\\ 26.\\overline{\\Big)\\blueE{33}8.}\\\\ \\mathllap{-}\\underline{\\goldE{26}{\\downarrow}}\\phantom.\\\\ \\purpleE{07}8\\phantom. \\end{array}$  Now, we need to bring down the $\\blueE8$ from the ones place to get our new dividend of $\\blueE{78}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 0\\maroonE1\\phantom{0.}\\\\ 26.\\overline{\\Big)338.}\\\\ \\mathllap{-}\\underline{\\phantom{0}\\goldE{26}{\\downarrow}}\\phantom.\\\\ \\blueE{078}\\phantom. \\end{array}$  How many times does $26$ go into $\\blueE{78}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 01\\maroonE3\\phantom.\\\\ 26.\\overline{\\Big)338.}\\\\ \\mathllap{-}\\underline{\\goldE{26}{\\downarrow}}\\phantom.\\\\ \\blueE{078}\\phantom.\\\\ -\\underline{078}\\phantom.\\\\ \\phantom{000}0\\phantom. \\end{array}$  $\\blueE{78}\\div26 = \\maroonE3$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$33.8 \\div 2.6 = \\maroonE{13}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Same number of places"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  $129.6 \\div 3.6 =$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "36",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\begin{array}{rr}\\\\ {3.6}\\overline{\\Big)129.6} \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr}\\\\ {36.}\\overline{\\Big)1296.} \\end{array}$  Let's start by shifting the decimals one place value to the right. [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr}\\\\ {36.}\\overline{\\Big)\\blueE1296.} \\end{array}$  How many times does $36$ go into $\\blueE1$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} \\maroonE0\\phantom{000.}\\\\ {36.}\\overline{\\Big)\\blueE1296.} \\end{array}$  $\\blueE1\\div 36 = \\maroonE0$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} \\maroonE0\\phantom{000.}\\\\ {36.}\\overline{\\Big)\\blueE{12}96.} \\end{array}$  How many times does $36$ go into $\\blueE{12}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 0\\maroonE0\\phantom{00.}\\\\ {36.}\\overline{\\Big)\\blueE{12}96.} \\end{array}$  $\\blueE{12}\\div36 = \\maroonE0$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 0\\maroonE0\\phantom{00.}\\\\ {36.}\\overline{\\Big)\\blueE{129}6.} \\end{array}$  How many times does $36$ go into $\\blueE{129}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 00\\maroonE3\\phantom{0.}\\\\ 36.\\overline{\\Big)\\blueE{129}6.}\\\\ \\mathllap{-}\\underline{\\goldE{108}}\\phantom{0.}\\\\ \\purpleE{021}\\phantom{0.} \\end{array}$  $\\blueE{129}\\div36 = \\maroonE3$ with $\\purpleE{21}$ left over.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 00\\maroonE3\\phantom{4.}\\\\ 36.\\overline{\\Big)\\blueE{129}6.}\\\\ \\mathllap{-}\\underline{\\goldE{108}{\\downarrow}}\\phantom.\\\\ \\purpleE{021}6\\phantom. \\end{array}$  Now, we need to bring down the $\\blueE6$ from the ones place to get our new dividend of $\\blueE{216}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 00\\maroonE3\\phantom{0.}\\\\ 36.\\overline{\\Big)1296.}\\\\ \\mathllap{-}\\underline{\\goldE{108}{\\downarrow}}\\phantom.\\\\ \\blueE{0216}\\phantom. \\end{array}$  How many times does $36$ go into $\\blueE{216}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 003\\maroonE6\\phantom.\\\\ 36.\\overline{\\Big)1296.}\\\\ \\mathllap{-}\\underline{\\goldE{108}{\\downarrow}}\\phantom.\\\\ \\blueE{0216}\\phantom.\\\\ -\\underline{0216}\\phantom.\\\\ \\phantom{000}0\\phantom. \\end{array}$  $\\blueE{216}\\div36 = \\maroonE6$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$129.6 \\div 3.6 = \\maroonE{36}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Same number of places"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  $470.4 \\div 8.4 =$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "56",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\begin{array}{rr}\\\\ {8.4}\\overline{\\Big)470.4} \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr}\\\\ {84.}\\overline{\\Big)4704.} \\end{array}$  Let's start by shifting the decimals one place value to the right. [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr}\\\\ {84.}\\overline{\\Big)\\blueE4704.} \\end{array}$  How many times does $84$ go into $\\blueE4$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} \\maroonE0\\phantom{000.}\\\\ {84.}\\overline{\\Big)\\blueE4704.} \\end{array}$  $\\blueE4\\div 84 = \\maroonE0$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} \\maroonE0\\phantom{000.}\\\\ {84.}\\overline{\\Big)\\blueE{47}04.} \\end{array}$  How many times does $84$ go into $\\blueE{47}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 0\\maroonE0\\phantom{00.}\\\\ {84.}\\overline{\\Big)\\blueE{47}04.} \\end{array}$  $\\blueE{47}\\div84 = \\maroonE0$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 0\\maroonE0\\phantom{00.}\\\\ {84.}\\overline{\\Big)\\blueE{470}4.} \\end{array}$  How many times does $84$ go into $\\blueE{470}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 00\\maroonE5\\phantom{0.}\\\\ 84.\\overline{\\Big)\\blueE{470}4.}\\\\ \\mathllap{-}\\underline{\\goldE{420}}\\phantom{0.}\\\\ \\purpleE{050}\\phantom{0.} \\end{array}$  $\\blueE{470}\\div84 = \\maroonE5$ with $\\purpleE{50}$ left over.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 00\\maroonE5\\phantom{4.}\\\\ 84.\\overline{\\Big)\\blueE{470}4.}\\\\ \\mathllap{-}\\underline{\\goldE{420}{\\downarrow}}\\phantom.\\\\ \\purpleE{050}4\\phantom. \\end{array}$  Now, we need to bring down the $\\blueE4$ from the ones place to get our new dividend of $\\blueE{504}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 005\\maroonE6\\phantom.\\\\ 84.\\overline{\\Big)4704.}\\\\ \\mathllap{-}\\underline{\\goldE{420}{\\downarrow}}\\phantom.\\\\ \\blueE{0504}\\phantom. \\end{array}$  How many times does $84$ go into $\\blueE{504}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 005\\maroonE6\\phantom.\\\\ 84.\\overline{\\Big)4704.}\\\\ \\mathllap{-}\\underline{\\goldE{420}{\\downarrow}}\\phantom.\\\\ \\blueE{0504}\\phantom.\\\\ -\\underline{0504}\\phantom.\\\\ \\phantom{000}0\\phantom. \\end{array}$  $\\blueE{504}\\div84 = \\maroonE6$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$470.4 \\div 8.4 = \\maroonE{56}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Same number of places"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  $1.36 \\div 1.7 =$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.8",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\begin{array}{rr}\\\\ {1.7}\\overline{\\Big)1.36} \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr}\\\\ {17.}\\overline{\\Big)13.6} \\end{array}$  Let's start by shifting the decimals one place value to the right. [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} .\\phantom.\\\\ {17.}\\overline{\\Big)13.6} \\end{array}$  Bring the decimal up into the answer (the quotient).",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} .\\phantom.\\\\ {17.}\\overline{\\Big)\\blueE13.6} \\end{array}$  How many times does $17$ go into $\\blueE1$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} \\maroonE0\\phantom0.\\phantom.\\\\ {17.}\\overline{\\Big)\\blueE13.6} \\end{array}$  $\\blueE1\\div 17 = \\maroonE0$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} \\maroonE0\\phantom0.\\phantom.\\\\ {17.}\\overline{\\Big)\\blueE{13}.6} \\end{array}$  How many times does $17$ go into $\\blueE{13}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 0\\maroonE0.\\phantom.\\\\ {17.}\\overline{\\Big)\\blueE{13}.6} \\end{array}$  $\\blueE{13}\\div17 = \\maroonE0$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 0\\maroonE0.\\phantom.\\\\ {17.}\\overline{\\Big)\\blueE{13}{.}\\blueE6} \\end{array}$  How many times does $17$ go into $\\blueE{136}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 00.\\maroonE8\\\\ {17.}\\overline{\\Big)\\blueE{13}{.}\\blueE6}\\\\ \\mathllap{-}\\underline{\\goldE{13\\phantom.6}}\\\\ \\purpleE{00\\phantom.0} \\end{array}$  $\\blueE{136}\\div17 = \\maroonE8$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$1.36 \\div 1.7 = 0.8$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Different numbers of places"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  $333.9 \\div 0.63 =$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "530",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\begin{array}{rr}\\\\ {0.63}\\overline{\\Big)333.9} \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr}\\\\ {063.}\\overline{\\Big)3339\\maroonD0.} \\end{array}$  Let's start by shifting the decimals two places values to the right. [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr}\\\\ {063.}\\overline{\\Big)\\blueE33390.} \\end{array}$  How many times does $63$ go into $\\blueE3$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr}\\\\ \\maroonE0\\phantom{0000.}\\\\ {063.}\\overline{\\Big)\\blueE33390.} \\end{array}$  $\\blueE{3}\\div 63 = \\maroonE0$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr}\\\\ \\maroonE0\\phantom{0000.}\\\\ {063.}\\overline{\\Big)\\blueE{33}390.} \\end{array}$  How many times does $63$ go into $\\blueE{33}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr}\\\\ 0\\maroonE0\\phantom{000.}\\\\ {063.}\\overline{\\Big)\\blueE{33}390.} \\end{array}$  $\\blueE{33}\\div 63 = \\maroonE0$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr}\\\\ 0\\maroonE0\\phantom{000.}\\\\ {063.}\\overline{\\Big)\\blueE{333}90.} \\end{array}$  How many times does $63$ go into $\\blueE{333}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr}\\\\ 00\\maroonE5\\phantom{00.}\\\\ {063.}\\overline{\\Big)\\blueE{333}90.}\\\\ \\mathllap{-}\\underline{\\goldE{315}}\\phantom{00.}\\\\ \\purpleE{018}\\phantom{00.} \\end{array}$  $\\blueE{333}\\div 63 = \\maroonE5$ with $\\purpleE{18}$ left over.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr}\\\\ 00\\maroonE5\\phantom{00.}\\\\ {063.}\\overline{\\Big)\\blueE{333}90.}\\\\ \\mathllap{-}\\underline{\\goldE{315} {\\downarrow}}\\phantom{0.}\\\\ \\purpleE{018}9\\phantom{0.} \\end{array}$  Now, we need to bring down the $\\blueE9$ from the tens place to get our new dividend of $\\blueE{189}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr}\\\\ 00\\maroonE5\\phantom{00.}\\\\ {063.}\\overline{\\Big)33390.}\\\\ \\mathllap{-}\\underline{\\goldE{315} {\\downarrow}}\\phantom{0.}\\\\ \\blueE{0189}\\phantom{0.} \\end{array}$  How many times does $63$ go into $\\blueE{189}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr}\\\\ 005\\maroonE3\\phantom{0.}\\\\ {063.}\\overline{\\Big)33390.}\\\\ \\mathllap{-}\\underline{\\goldE{315} {\\downarrow}}\\phantom{0.}\\\\ \\blueE{0189}\\phantom{0.}\\\\ -\\underline{0189}\\phantom{0.}\\\\ 0\\phantom{0.} \\end{array}$  $\\blueE{189}\\div 63 = \\maroonE3$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr}\\\\ 005\\maroonE3\\phantom{0.}\\\\ {063.}\\overline{\\Big)33390.}\\\\ \\left.\\begin{align} \\mathllap{-}\\underline{\\goldE{315} {\\downarrow}}\\\\ \\blueE{0189}\\\\ -\\underline{0189}\\\\ \\end{align}\\right\\downarrow\\\\ 00\\phantom{.} \\end{array}$  Now, we need to bring down the $\\blueE0$ from the ones place to get our new dividend of $\\blueE{0}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr}\\\\ 0053\\maroonE0\\phantom.\\\\ {063.}\\overline{\\Big)33390.}\\\\ \\left.\\begin{align} \\mathllap{-}\\underline{\\goldE{315} {\\downarrow}}\\\\ \\blueE{0189}\\\\ -\\underline{0189}\\\\ \\end{align}\\right\\downarrow\\\\ 00\\phantom{.} \\end{array}$  $\\blueE{0}\\div 63 = \\maroonE0$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$ 333.9 \\div 0.63 = 530 $",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Different numbers of places"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  $31.96 \\div 6.8 =$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "4.7",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\begin{array}{rr}\\\\ {6.8}\\overline{\\Big)31.96} \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr}\\\\ {68.}\\overline{\\Big)319.6} \\end{array}$  Let's start by shifting the decimals one place value to the right. [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} .\\phantom.\\\\ {68.}\\overline{\\Big)319.6} \\end{array}$  Bring the decimal up into the answer (the quotient).",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} .\\phantom.\\\\ {68.}\\overline{\\Big)\\blueE319.6} \\end{array}$  How many times does $68$ go into $\\blueE3$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} \\maroonE0\\phantom{00}.\\phantom.\\\\ {68.}\\overline{\\Big)\\blueE319.6} \\end{array}$  $\\blueE3\\div 16 = \\maroonE0$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} \\maroonE0\\phantom{00}.\\phantom.\\\\ {68.}\\overline{\\Big)\\blueE{31}9.6} \\end{array}$  How many times does $68$ go into $\\blueE{31}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 0\\maroonE0\\phantom{0}.\\phantom.\\\\ {68.}\\overline{\\Big)\\blueE{31}9.6} \\end{array}$  $\\blueE{31}\\div68 = \\maroonE0$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 0\\maroonE0\\phantom{0}.\\phantom.\\\\ {68.}\\overline{\\Big)\\blueE{319}.6} \\end{array}$  How many times does $68$ go into $\\blueE{319}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 00\\maroonE4.\\phantom.\\\\ {68.}\\overline{\\Big)\\blueE{319}.6}\\\\ \\mathllap{-}\\underline{\\goldE{272\\phantom{0.}}}\\\\ \\purpleE{047\\phantom{.0}} \\end{array}$  $\\blueE{319}\\div68 = \\maroonE4$ with $\\purpleE{47}$ left over.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 00\\maroonE4.\\phantom.\\\\ {68.}\\overline{\\Big)\\blueE{319}.6}\\\\ \\mathllap{-}\\underline{\\goldE{272}\\phantom.{\\downarrow}}\\\\ \\purpleE{047\\phantom.}6 \\end{array}$  Now, we need to bring down the $\\blueE6$ from the tenths place to get our new dividend of $\\blueE{476}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 00\\maroonE4.\\phantom.\\\\ {68.}\\overline{\\Big)319.6}\\\\ \\mathllap{-}\\underline{\\goldE{272}\\phantom.{\\downarrow}}\\\\ \\blueE{047\\phantom.6} \\end{array}$  How many times does $68$ go into $\\blueE{476}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 004.\\maroonE7\\\\ {68.}\\overline{\\Big)319.6}\\\\ \\mathllap{-}\\underline{\\goldE{272}\\phantom.{\\downarrow}}\\\\ \\blueE{047\\phantom.6}\\\\ -\\underline{047{\\phantom.}6}\\\\ 0 \\end{array}$  $\\blueE{476}\\div68 = \\maroonE7$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$31.96 \\div 6.8 = 4.7$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Different numbers of places"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  $758.4 \\div 0.96 =$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "790",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\begin{array}{rr}\\\\ {0.96}\\overline{\\Big)758.4} \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr}\\\\ {096.}\\overline{\\Big)7584\\maroonD0.} \\end{array}$  Let's start by shifting the decimals two places values to the right. [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr}\\\\ {096.}\\overline{\\Big)\\blueE75840.} \\end{array}$  How many times does $96$ go into $\\blueE7$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} \\maroonE0\\phantom{0000.}\\\\ {096.}\\overline{\\Big)\\blueE75840.} \\end{array}$  $\\blueE{7}\\div 96 = \\maroonE0$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} \\maroonE0\\phantom{0000.}\\\\ {096.}\\overline{\\Big)\\blueE{75}840.} \\end{array}$  How many times does $96$ go into $\\blueE{75}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 0\\maroonE0\\phantom{000.}\\\\ {096.}\\overline{\\Big)\\blueE{75}840.} \\end{array}$  $\\blueE{75}\\div 96 = \\maroonE0$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 0\\maroonE0\\phantom{000.}\\\\ {096.}\\overline{\\Big)\\blueE{758}40.} \\end{array}$  How many times does $96$ go into $\\blueE{758}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 00\\maroonE7\\phantom{00.}\\\\ {096.}\\overline{\\Big)\\blueE{758}40.}\\\\ \\mathllap{-}\\underline{\\goldE{672}}\\phantom{00.}\\\\ \\purpleE{086}\\phantom{00.} \\end{array}$  $\\blueE{758}\\div 96 = \\maroonE7$ with $\\purpleE{86}$ left over.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 00\\maroonE7\\phantom{00.}\\\\ {096.}\\overline{\\Big)\\blueE{758}40.}\\\\ \\mathllap{-}\\underline{\\goldE{672}{\\downarrow}}\\phantom{0.}\\\\ \\purpleE{086}4\\phantom{0.} \\end{array}$  Now, we need to bring down the $\\blueE4$ from the tens place to get our new dividend of $\\blueE{864}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 00\\maroonE7\\phantom{00.}\\\\ {096.}\\overline{\\Big)75840.}\\\\ \\mathllap{-}\\underline{\\goldE{672}{\\downarrow}}\\phantom{0.}\\\\ \\blueE{0864}\\phantom{0.} \\end{array}$  How many times does $96$ go into $\\blueE{864}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 007\\maroonE9\\phantom{0.}\\\\ {096.}\\overline{\\Big)75840.}\\\\ \\mathllap{-}\\underline{\\goldE{672}{\\downarrow}}\\phantom{0.}\\\\ \\blueE{0864}\\phantom{0.}\\\\ -\\underline{0864}\\phantom{0.}\\\\ 0\\phantom{0.} \\end{array}$  $\\blueE{864}\\div 96 = \\maroonE9$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 007\\maroonE9\\phantom{0.}\\\\ {096.}\\overline{\\Big)75840.}\\\\ \\left.\\begin{align} \\mathllap{-}\\underline{\\goldE{672} {\\downarrow}}\\\\ \\blueE{0864}\\\\ -\\underline{0864}\\\\ \\end{align}\\right\\downarrow\\\\ 00\\phantom{.} \\end{array}$  Now, we need to bring down the $\\blueE0$ from the ones place to get our new dividend of $\\blueE{0}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 007\\maroonE9\\phantom{0.}\\\\ {096.}\\overline{\\Big)75840.}\\\\ \\left.\\begin{align} \\mathllap{-}\\underline{\\goldE{672} {\\downarrow}}\\\\ \\blueE{0864}\\\\ -\\underline{0864}\\\\ \\end{align}\\right\\downarrow\\\\ \\blueE{00}\\phantom{.} \\end{array}$  How many times does $96$ go into $\\blueE{0}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 0079\\maroonE0\\phantom.\\\\ {096.}\\overline{\\Big)75840.}\\\\ \\left.\\begin{align} \\mathllap{-}\\underline{\\goldE{672} {\\downarrow}}\\\\ \\blueE{0864}\\\\ -\\underline{0864}\\\\ \\end{align}\\right\\downarrow\\\\ \\blueE{00}\\phantom{.} \\end{array}$  $\\blueE{0}\\div 96 = \\maroonE0$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$758.4 \\div 0.96 = 790$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Different numbers of places"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  $342.2 \\div 0.58 =$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "590",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\begin{array}{rr}\\\\ {0.58}\\overline{\\Big)342.2} \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr}\\\\ {058.}\\overline{\\Big)3422\\maroonD0.} \\end{array}$  Let's start by shifting the decimals two places values to the right. [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr}\\\\ {058.}\\overline{\\Big)\\blueE34220.} \\end{array}$  How many times does $58$ go into $\\blueE3$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} \\maroonE0\\phantom{0000.}\\\\ {058.}\\overline{\\Big)\\blueE34220.} \\end{array}$  $\\blueE{3}\\div 58 = \\maroonE0$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} \\maroonE0\\phantom{0000.}\\\\ {058.}\\overline{\\Big)\\blueE{34}220.} \\end{array}$  How many times does $58$ go into $\\blueE{34}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 0\\maroonE0\\phantom{000.}\\\\ {058.}\\overline{\\Big)\\blueE{34}220.} \\end{array}$  $\\blueE{34}\\div 58 = \\maroonE0$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 0\\maroonE0\\phantom{000.}\\\\ {058.}\\overline{\\Big)\\blueE{342}20.} \\end{array}$  How many times does $58$ go into $\\blueE{342}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 00\\maroonE5\\phantom{00.}\\\\ {058.}\\overline{\\Big)\\blueE{342}20.}\\\\ \\mathllap{-}\\underline{\\goldE{290}}\\phantom{00.}\\\\ \\purpleE{052}\\phantom{00.} \\end{array}$  $\\blueE{342}\\div 58 = \\maroonE5$ with $\\purpleE{52}$ left over.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 00\\maroonE5\\phantom{00.}\\\\ {058.}\\overline{\\Big)\\blueE{342}20.}\\\\ \\mathllap{-}\\underline{\\goldE{290}{\\downarrow}}\\phantom{0.}\\\\ \\purpleE{052}2\\phantom{0.} \\end{array}$  Now, we need to bring down the $\\blueE2$ from the tens place to get our new dividend of $\\blueE{522}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 005\\maroonE9\\phantom{0.}\\\\ {058.}\\overline{\\Big)34220.}\\\\ \\mathllap{-}\\underline{\\goldE{290}{\\downarrow}}\\phantom{0.}\\\\ \\blueE{0522}\\phantom{0.}\\\\ -\\underline{0522}\\phantom{0.}\\\\ 0\\phantom{0.} \\end{array}$  $\\blueE{522}\\div 58 = \\maroonE9$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 005\\maroonE9\\phantom{0.}\\\\ {058.}\\overline{\\Big)34220.}\\\\ \\left.\\begin{align} \\mathllap{-}\\underline{\\goldE{290} {\\downarrow}}\\\\ \\blueE{0522}\\\\ -\\underline{0522}\\\\ \\end{align}\\right\\downarrow\\\\ 00\\phantom{.} \\end{array}$  Now, we need to bring down the $\\blueE0$ from the ones place to get our new dividend of $\\blueE{0}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 005\\maroonE9\\phantom{0.}\\\\ {058.}\\overline{\\Big)34220.}\\\\ \\left.\\begin{align} \\mathllap{-}\\underline{\\goldE{290} {\\downarrow}}\\\\ \\blueE{0522}\\\\ -\\underline{0522}\\\\ \\end{align}\\right\\downarrow\\\\ \\blueE{00}\\phantom{.} \\end{array}$  How many times does $58$ go into $\\blueE{0}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 0059\\maroonE0\\phantom.\\\\ {058.}\\overline{\\Big)34220.}\\\\ \\left.\\begin{align} \\mathllap{-}\\underline{\\goldE{290} {\\downarrow}}\\\\ \\blueE{0522}\\\\ -\\underline{0522}\\\\ \\end{align}\\right\\downarrow\\\\ \\blueE{00}\\phantom{.} \\end{array}$  $\\blueE{0}\\div 58 = \\maroonE0$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$342.2 \\div 0.58 = 590$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Different numbers of places"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Divide.**  $18.87 \\div 3.7 =$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "5.1",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\begin{array}{rr}\\\\ {3.7}\\overline{\\Big)18.87} \\end{array}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr}\\\\ {37.}\\overline{\\Big)188.7} \\end{array}$  Let's start by shifting the decimals one place value to the right. [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} .\\phantom.\\\\ {37.}\\overline{\\Big)188.7} \\end{array}$  Bring the decimal up into the answer (the quotient).",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} .\\phantom.\\\\ {37.}\\overline{\\Big)\\blueE188.7} \\end{array}$  How many times does $37$ go into $\\blueE1$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} \\maroonE0\\phantom{00}.\\phantom.\\\\ {37.}\\overline{\\Big)\\blueE188.7} \\end{array}$  $\\blueE1\\div 37 = \\maroonE0$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} \\maroonE0\\phantom{00}.\\phantom.\\\\ {37.}\\overline{\\Big)\\blueE{18}8.7} \\end{array}$  How many times does $37$ go into $\\blueE{18}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 0\\maroonE0\\phantom{0}.\\phantom.\\\\ {37.}\\overline{\\Big)\\blueE{18}8.7} \\end{array}$  $\\blueE{18}\\div37 = \\maroonE0$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 0\\maroonE0\\phantom{0}.\\phantom.\\\\ {37.}\\overline{\\Big)\\blueE{188}.7} \\end{array}$  How many times does $37$ go into $\\blueE{188}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 00\\maroonE5.\\phantom.\\\\ {37.}\\overline{\\Big)\\blueE{188}.7}\\\\ \\mathllap{-}\\underline{\\goldE{185\\phantom{0.}}}\\\\ \\purpleE{003\\phantom{.0}} \\end{array}$  $\\blueE{188}\\div37 = \\maroonE5$ with $\\purpleE{3}$ left over.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 00\\maroonE5.\\phantom.\\\\ {37.}\\overline{\\Big)\\blueE{188}.7}\\\\ \\mathllap{-}\\underline{\\goldE{185}\\phantom.{\\downarrow}}\\\\ \\purpleE{003\\phantom.}7 \\end{array}$  Now, we need to bring down the $\\blueE7$ from the tenths place to get our new dividend of $\\blueE{37}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 00\\maroonE5.\\phantom.\\\\ {37.}\\overline{\\Big)\\blueE{188}.7}\\\\ \\mathllap{-}\\underline{\\goldE{185}\\phantom.{\\downarrow}}\\\\ \\blueE{003\\phantom.7} \\end{array}$  How many times does $37$ go into $\\blueE{37}$?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{array}{rr} 005.\\maroonE1\\\\ {37.}\\overline{\\Big)188.7}\\\\ \\mathllap{-}\\underline{\\goldE{185}\\phantom.{\\downarrow}}\\\\ \\blueE{003\\phantom.7}\\\\ -\\underline{003{\\phantom.}7}\\\\ 0 \\end{array}$  $\\blueE{37}\\div37 = \\maroonE1$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$18.87 \\div 3.7 = 5.1$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Different numbers of places"
+                    }
+                }
+            }
+        }
+    ]
+}

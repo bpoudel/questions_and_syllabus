@@ -1,0 +1,1412 @@
+{
+    "standard_metadata": {
+        "standard_id": "6.G.A.1",
+        "standard_description": "Find the area of right triangles, other triangles, special quadrilaterals, and polygons by composing into rectangles or decomposing into triangles and other shapes; apply these techniques in the context of solving real-world and mathematical problems.",
+        "standard_title": "Area of composite shapes",
+        "standard_url": "https://www.khanacademy.org/math/cc-sixth-grade-math/x0267d782:cc-6th-plane-figures/cc-6th-area/e/area-of-quadrilaterals-and-polygons"
+    },
+    "id": "xfb0c1229",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "There is a pair of parallel sides in the following shape.    **What is the area of the shape?**   $\\text{units}^2$",
+                                "images": [
+                                    {
+                                        "alt": "A quadrilateral with 1 pair of parallel sides. The top base is 2 units. The bottom base is 7 units. The height is 12 units. The length of the longest side is 13 units.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/048f7c9819a9b4fa06dd41b04d868dea88111398.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "54",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  Area tells us the amount of space enclosed by the figure.   There are many ways we could split up the space into simpler shapes. Let's split the figure into a rectangle and a triangle.  [[☃ image 1]]  We can find the area of each shape, then add them to find the total area.",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides. The top base is 2 units. The bottom base is 7 units. The height is 12 units. The length of the longest side is 13 units. There is an arrow on the bottom that begins below the bottom, left vertex and ends below the bottom, right vertex. There is a vertical line that starts at the top, right vertex to the base that is perpendicular to the base. This line creates a rectangle and a right triangle.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/430f823dd34ffb26a53f0d6cc868c2217084a753.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of the rectangle  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{rectangle} &= \\text{base} \\cdot \\text{height}\\\\\\\\ &= 2 \\cdot 12\\\\\\\\ &= 24 \\end{align}$  The rectangle has an area of $\\blueE{24}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides. There is a vertical line that starts at the top, right vertex to the base that is perpendicular to the base. This line creates a rectangle and a right triangle. The base of the rectangle is 2 units and the height is 12 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/e96ffc032a697e1ef8a97c605aeeb507b743eea0.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of the triangle  The base of the triangle is $5$ units, because $7-2=5$.  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{triangle} &= \\dfrac{1}{2} \\cdot \\text{base} \\cdot \\text{height}\\\\\\\\ &= \\dfrac{1}{2} \\cdot 5 \\cdot 12\\\\\\\\ &= 30 \\end{align}$  The triangle has an area of $\\maroonD{30}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides. The top base is 2 units. There is a vertical line that starts at the top, right vertex to the base that is perpendicular to the base. This line creates a rectangle and a right triangle. There is an arrow on the bottom that begins below the bottom, left vertex of the rectangle and ends below the bottom, right vertex of the rectangle. The base of the rectangle is 2 units. There is an arrow on the bottom that begins below the bottom, left vertex of the right triangle and ends below the bottom, right vertex of the right triangle. The base of the right triangle is 5 units. The height of the right triangle is 12 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d2c8b9eaaab0cc876019b2b286ef46fa349410f0.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Total area  To find the total area of the shape, we can add the two partial areas.  $\\blueE{24}+\\maroonD{30}=\\purpleD{54}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the shape is $54 \\text{ units}^2$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Right trapezoids"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "There is a pair of parallel sides in the following shape.    **What is the area of the shape?**   $\\text{units}^2$",
+                                "images": [
+                                    {
+                                        "alt": "A quadrilateral with 1 pair of parallel sides. The top base is 7 units. The bottom base is 3 units. The height is 3 units.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/1912b3d41cc77f7cc4d74924468623b762c1c668.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "15",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  Area tells us the amount of space enclosed by the figure.   There are many ways we could split up the space into simpler shapes. Let's split the figure into a rectangle and a triangle.  [[☃ image 1]]  We can find the area of each shape, then add them to find the total area.",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides. The top base is 7 units. The bottom base is 3 units. The height is 3 units. There is an arrow on the top that begins above the top, left vertex and ends above the top, right vertex. There is a vertical line that starts at the bottom, right vertex and goes to the base that is perpendicular to the base. This line creates a rectangle and a right triangle.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/15d0837c2083708702a21fb6fcdbecda8f19b56f.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of the rectangle  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{rectangle} &= \\text{base} \\cdot \\text{height}\\\\\\\\ &= 3 \\cdot 3\\\\\\\\ &= 9 \\end{align}$  The rectangle has an area of $\\blueE{9}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides. There is a vertical line that starts at the bottom, right vertex and goes to the base that is perpendicular to the base. This line creates a rectangle and a right triangle. The base of the rectangle is 3 units and the height is 3 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/9e6fca8d5b577e69047c421f072e3192d83c4fee.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of the triangle  The base of the triangle is $4$ units, because $7-3=4$.  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{triangle} &= \\dfrac{1}{2} \\cdot \\text{base} \\cdot \\text{height}\\\\\\\\ &= \\dfrac{1}{2} \\cdot 4 \\cdot 3\\\\\\\\ &= 6 \\end{align}$  The triangle has an area of $\\redE{6}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides. There is a vertical line that starts at the top, right vertex to the base that is perpendicular to the base. This line creates a rectangle and a right triangle. There is an arrow on the top that begins above the top, left vertex of the rectangle and ends above the top, right vertex of the rectangle. The base of the rectangle is 3 units. There is an arrow on the top that begins above the top, left vertex of the right triangle and ends above the top, right vertex of the right triangle. The base of the right triangle is 4 units. The height of the right triangle is 3 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/2859f7f509187c4987bd9a783931d07d6d039680.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Total area  To find the total area of the shape, we can add the two partial areas.  $\\blueE{9}+\\redE{6}=\\purpleD{15}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the shape is $15 \\text{ units}^2$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Right trapezoids"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "There is a pair of parallel sides in the following shape.    **What is the area of the shape?**   $\\text{units}^2$",
+                                "images": [
+                                    {
+                                        "alt": "A quadrilateral with 1 pair of parallel sides. The top base is 3 units. The bottom base is 10 units. The height is 24 units. The length of the longest side is 25 units.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/66689a8772330507de15b6bb2d0a0685e0a02303.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "156",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  Area tells us the amount of space enclosed by the figure.   There are many ways we could split up the space into simpler shapes. Let's split the figure into a rectangle with a triangle removed from it.  [[☃ image 1]]  We can find the area of each shape, then subtract them to find the total area.",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides. The top base is 3 units. The bottom base is 10 units. The height is 24 units. A dashed line that is parallel to the base and a dashed line that is parallel to the height create a rectangle.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/2548c66c64e43236479194fbacb7984fbf9d570b.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of the rectangle  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{rectangle} &= \\text{base} \\cdot \\text{height}\\\\\\\\ &= 10 \\cdot 24\\\\\\\\ &= 240 \\end{align}$  The rectangle has an area of $\\blueE{240}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A rectangle. The base is 10 units and the height is 24 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/00df1125db494b1008840358e9349e54a142831b.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of the triangle  The base of the triangle is $7$ units, because $10-3=7$.  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{triangle} &= \\dfrac{1}{2} \\cdot \\text{base} \\cdot \\text{height}\\\\\\\\ &= \\dfrac{1}{2} \\cdot 7 \\cdot 24\\\\\\\\ &= 84 \\end{align}$  The triangle has an area of $\\maroonD{84}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A rectangle. A diagonal line starts at the top and goes to the bottom, right vertex. This line creates a right triangle. There is an arrow on the top that begins above the top, left vertex of the rectangle and ends where the diagonal line begins. This length is 3 units. There is an arrow on the top that begins where the diagonal line begins and ends at the top, right vertex of the rectangle. This length is the base of the right triangle and is 7 units. The height of the right triangle is 24 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/89479e6c167568af2279c8ad12eb71066776c958.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Total area  To find the total area of the shape, we can subtract the  removed area from the larger area.  $\\blueE{240}-\\maroonD{84}=\\purpleD{156}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the shape is $156 \\text{ units}^2$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Right trapezoids"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "There is a pair of parallel sides in the following shape.    **What is the area of the shape?**   $\\text{ units}^2$",
+                                "images": [
+                                    {
+                                        "alt": "A quadrilateral with 1 pair of parallel sides. The top base is 12 units. The bottom base is 5 units. The height is 6 units.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/bd0dd494fc635795ba976cf0d8debae9e427f7b2.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "51",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  Area tells us the amount of space enclosed by the figure.   There are many ways we could split up the space into simpler shapes. Let's split the figure into a rectangle and a triangle.  [[☃ image 1]]  We can find the area of each shape, then add them to find the total area.",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides. There is a vertical line that starts at the bottom, left vertex to the base that is perpendicular to the base. This line creates a rectangle and a right triangle. The base of the rectangle is 5 units. There is an arrow on the top that begins above the top, left vertex of the right triangle and ends above the top, right vertex of the right triangle. This side is labeled 12 units. The height of the rectangle is 6 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/4d5c2a495e4de2e905a264dd9e459367465610e1.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of the triangle  The base of the triangle is $7$ units, because $12-5=7$.  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{triangle} &= \\dfrac{1}{2} \\cdot \\text{base} \\cdot \\text{height}\\\\\\\\ &= \\dfrac{1}{2} \\cdot 7 \\cdot 6\\\\\\\\ &= 21 \\end{align}$  The triangle has an area of $\\blueE{21}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides. There is a vertical line that starts at the bottom, left vertex to the base that is perpendicular to the base. This line creates a rectangle and a right triangle. There is an arrow on the top that begins above the top, left vertex of the right triangle and ends above the top, right vertex of the right triangle. The base of the right triangle is 7 units. There is an arrow on the top that begins above the top, left vertex of the rectangle and ends at the top, right vertex of the rectangle. The base of the rectangle is 5 units. The height of the rectangle is 6 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/047b66b33cc16593e34b90a9b60e9089c23b1319.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of the rectangle  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{rectangle} &= \\text{base} \\cdot \\text{height}\\\\\\\\ &= 5 \\cdot 6\\\\\\\\ &= 30 \\end{align}$  The rectangle has an area of $\\maroonD{30}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides. There is a vertical line that starts at the bottom, left vertex to the base that is perpendicular to the base. This line creates a rectangle and a right triangle. The base of the rectangle is 5 units and the height is 6 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/9c6108cc82ba3d692863589b6ffca914a37554f0.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Total area  To find the total area of the shape, we can add the two partial areas.  $\\blueE{21}+\\maroonD{30}=\\purpleD{51}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the shape is $51 \\text{ units}^2$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Right trapezoids"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "There is a pair of parallel sides in the following shape.    **What is the area of the shape?**   $\\text{units}^2$",
+                                "images": [
+                                    {
+                                        "alt": "A quadrilateral with 1 pair of parallel sides. The left base is 9 units. The right base is 10 units. The height is 4 units.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/0ed9976d779afdc3243aa431cdf3fe79616c6f42.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "38",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  Area tells us the amount of space enclosed by the figure.   There are many ways we could split up the space into simpler shapes. Let's split the figure into a rectangle with a triangle removed from it.  [[☃ image 1]]  We can find the area of each shape, then subtract them to find the total area.",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides. The left base is 9 units. The right base is 10 units. The height is 4 units. A dashed line that is parallel to the height and a dashed line that is parallel to the base create a rectangle.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/eda5eb3c46db1dca9fc3d8279f03d77330b52b5d.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of the rectangle  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{rectangle} &= \\text{base} \\cdot \\text{height}\\\\\\\\ &= 4 \\cdot 10\\\\\\\\ &= 40 \\end{align}$  The rectangle has an area of $\\blueE{40}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A rectangle. The base is 4 units and the height is 10 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/b3b8f81e265165e928c117e3b7f32cc4f4c6c31d.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of the triangle  The height of the triangle is $1$ unit, because $10-9=1$.  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{triangle} &= \\dfrac{1}{2} \\cdot \\text{base} \\cdot \\text{height}\\\\\\\\ &= \\dfrac{1}{2} \\cdot 4 \\cdot 1\\\\\\\\ &= 2 \\end{align}$  The triangle has an area of $\\maroonD{2}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A rectangle. A diagonal line starts on the left side and goes to the bottom, right vertex. This line creates a right triangle. There is an arrow on the side that begins at the bottom, left vertex of the right triangle and ends where the diagonal line begins. This length is the height of the right triangle and is 1 unit. There is an arrow on the side that begins where the diagonal line begins and ends at the top, left vertex of the rectangle. The length is 9 units. The base of the right triangle is 4 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/223cf35b8462a984ee8a150ad83b011076d03130.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Total area  To find the total area of the shape, we can subtract the  removed area from the larger area.  $\\blueE{40}-\\maroonD{2}=\\purpleD{38}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the shape is $38 \\text{ units}^2$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Right trapezoids"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "There is a pair of parallel sides in the following shape.    **What is the area of the shape?**   $\\text{units}^2$",
+                                "images": [
+                                    {
+                                        "alt": "A quadrilateral with 1 pair of parallel sides. The left base is 6 units. The right base is 4 units. The height is 4 units. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/ad4933df205f257715853cc9369aa3b0b1f2e6f1.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "20",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  Area tells us the amount of space enclosed by the figure.   There are many ways we could split up the space into simpler shapes. Let's split the figure into a rectangle with a triangle removed from it.  [[☃ image 1]]  We can find the area of each shape, then subtract them to find the total area.",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides made of a rectangle with a right triangle removed from the bottom.  A dashed line parallel to the height of the rectangle and a dashed line parallel to the base of the rectangle. The quadrilateral has a left base of 6 units and a right base of 4 units. The height is 4 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/c186e13adf123203e17b74e0014fd1f4bb8cffc9.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of the rectangle  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{rectangle} &= \\text{base} \\cdot \\text{height}\\\\\\\\ &= 4 \\cdot 6\\\\\\\\ &= 24 \\end{align}$  The rectangle has an area of $\\blueE{24}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A rectangle. The base is 4 units and the height is 6 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/af958a4e968723b750695de842ded3d48b7b578b.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of the triangle  The height of the triangle is $2$ units, because $6-4=2$.  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{triangle} &= \\dfrac{1}{2} \\cdot \\text{base} \\cdot \\text{height}\\\\\\\\ &= \\dfrac{1}{2} \\cdot 4 \\cdot 2\\\\\\\\ &= 4 \\end{align}$  The triangle has an area of $\\maroonD{4}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A rectangle. A diagonal line starts on the right side and goes to the bottom, left vertex. This line creates a right triangle. There is an arrow on the side that begins at the bottom, right vertex of the right triangle and ends where the diagonal line begins. This length is the height of the right triangle and is 2 units. There is an arrow on the side that begins where the diagonal line begins and ends at the top, right vertex of the rectangle. The length is 4 units. The base of the right triangle is 4 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/c241347d1ef9bb8372a923f0e5bdd1bb31301851.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Total area  To find the total area of the shape, we can subtract the  removed area from the larger area.  $\\blueE{24}-\\maroonD{4}=\\purpleD{20}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the shape is $20 \\text{ units}^2$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Right trapezoids"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "There is a pair of parallel sides in the following shape.    **What is the area of the shape?**   $\\text{units}^2$",
+                                "images": [
+                                    {
+                                        "alt": "A quadrilateral with 1 pair of parallel sides. The left base is 5 units. The right base is 6 units. The height is 7 units. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/b3a21a6e1aa5c185ba5c788a72450e5389d1865a.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "38.5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  Area tells us the amount of space enclosed by the figure.   There are many ways we could split up the space into simpler shapes. Let's split the figure into a rectangle with a triangle removed from it.  [[☃ image 1]]  We can find the area of each shape, then subtract them to find the total area.",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides made of a rectangle with a right triangle removed from the top.  A dashed line parallel to the height of the rectangle and a dashed line parallel to the base of the rectangle. The quadrilateral has a left base of 5 units and a right base of 6 units. The height is 7 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/98898550853bb28c043a9a95b45357de0b9940e2.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of the rectangle  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{rectangle} &= \\text{base} \\cdot \\text{height}\\\\\\\\ &= 7 \\cdot 6\\\\\\\\ &= 42 \\end{align}$  The rectangle has an area of $\\blueE{42}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A rectangle. The base is 7 units and the height is 6 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d23bec44677f4f7cefff9c29c0b0882ec6e2541a.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of the triangle  The height of the triangle is $1$ unit, because $6-5=1$.  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{triangle} &= \\dfrac{1}{2} \\cdot \\text{base} \\cdot \\text{height}\\\\\\\\ &= \\dfrac{1}{2} \\cdot 7 \\cdot 1\\\\\\\\ &= 3.5 \\end{align}$  The triangle has an area of $\\maroonD{3.5}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A rectangle. A diagonal line starts on the left side and goes to the top, right vertex. This line creates a right triangle. There is an arrow on the side that begins at the top, left vertex of the right triangle and ends where the diagonal line begins. This length is the height of the right triangle and is 1 unit. There is an arrow on the side that begins where the diagonal line begins and ends at the bottom, left vertex of the rectangle. The length is 5 units. The base of the right triangle is 7 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/b4510d9c191f3b5bf73264240ef8c5dd727338ea.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Total area  To find the total area of the shape, we can subtract the  removed area from the larger area.  $\\blueE{42}-\\maroonD{3.5}=\\purpleD{38.5}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the shape is $38.5 \\text{ units}^2$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Right trapezoids"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "There is a pair of parallel sides in the following shape.    **What is the area of the shape?**   $\\text{ units}^2$",
+                                "images": [
+                                    {
+                                        "alt": "A quadrilateral with 1 pair of parallel sides. The bottom base is 2 units. The top base is 10 units. The height is 2 units. There is a dashed line that is perpendicular to the base. There is an arrow on the top that begins at the top, left vertex and ends at the top, right vertex.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/699d37ace879dfaab673825e008cf7f027f1d7ff.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "12",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  Area tells us the amount of space enclosed by the figure.   There are many ways we could split up the space into simpler shapes. Let's split the figure into two triangles.  [[☃ image 1]]  We can find the area of each triangle, then add them to find the total area.",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides. The bottom base is 2 units. The top base is 10 units. The height is 2 units. There is a dashed line that is perpendicular to the base. There is an arrow on the top that begins at the top, left vertex and ends at the top, right vertex. A diagonal line starts in the top, left vertex and ends in the bottom, right vertex. This line creates two triangles.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/80d538c5098798e868b063ae9872dc9ccd4e8f41.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of the triangle on the left  [[☃ image 1]]  The triangles have the same height.  $\\begin{align} \\text{Area}_\\text{triangle} &= \\dfrac{1}{2} \\cdot \\text{base} \\cdot \\text{height}\\\\\\\\ &= \\dfrac{1}{2} \\cdot 2 \\cdot 2\\\\\\\\ &= 2 \\end{align}$  The triangle on the left has an area of $\\blueE{2}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides. The bottom base is 2 units. The height is 2 units. There is a dashed line that is perpendicular to the base. A diagonal line starts in the top, left vertex and ends in the bottom, right vertex. This line creates two triangles.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d6c9b677d409ec491cbf3d438d70e29c5144184e.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of the triangle on the right  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{triangle} &= \\dfrac{1}{2} \\cdot \\text{base} \\cdot \\text{height}\\\\\\\\ &= \\dfrac{1}{2} \\cdot 10 \\cdot 2\\\\\\\\ &= 10 \\end{align}$  The triangle on the right has an area of $\\maroonD{10}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides. The top base is 10 units. The height is 2 units. There is a dashed line that is perpendicular to the base. There is an arrow on the side that begins at the top, left vertex and ends at the top, right vertex. A diagonal line starts in the top, left vertex and ends in the bottom, right vertex. This line creates two triangles.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/2071d733fd28f29f74a6bb196b1b6193002cdd2f.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Total area  To find the total area of the shape, we can add the two partial areas.  $\\blueE{2}+\\maroonD{10}=\\purpleD{12}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the shape is $12 \\text{ units}^2$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Non-right trapezoids"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "There is a pair of parallel sides in the following shape.    **What is the area of the shape?**   $\\text{ units}^2$",
+                                "images": [
+                                    {
+                                        "alt": "A quadrilateral with 1 pair of parallel sides. The left base is 9 units. The right base is 5 units. The height is 3 units. There is a dashed line that is perpendicular to the base. There is an arrow on the side that begins at the bottom, left vertex and ends at the top, left vertex. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/fbde0a42d6ea94661390d4c947b751e73589d86c.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "21",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  Area tells us the amount of space enclosed by the figure.   There are many ways we could split up the space into simpler shapes. Let's split the figure into two triangles.  [[☃ image 1]]  We can find the area of each triangle, then add them to find the total area.",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides. The left base is 9 units. The right base is 5 units. The height is 3 units. There is a dashed line that is perpendicular to the base. There is an arrow on the side that begins at the bottom, left vertex and ends at the top, left vertex. A diagonal line starts in the top, left vertex and ends in the bottom, right vertex. This line creates two triangles.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/c999a1fed755936e9749488244ba43501f601802.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of the triangle on the left  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{triangle} &= \\dfrac{1}{2} \\cdot \\text{base} \\cdot \\text{height}\\\\\\\\ &= \\dfrac{1}{2} \\cdot 9 \\cdot 3\\\\\\\\ &= 13.5 \\end{align}$  The triangle on the left has an area of $\\blueE{13.5}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides. The left base is 9 units. The height is 3 units. There is a dashed line that is perpendicular to the base. There is an arrow on the side that begins at the bottom, left vertex and ends at the top, left vertex. A diagonal line starts in the top, left vertex and ends in the bottom, right vertex. This line creates two triangles.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/534421faefc8e08c887f1555d674aa21a5bcd3ed.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of the triangle on the right  [[☃ image 1]]  The triangles have the same height.  $\\begin{align} \\text{Area}_\\text{triangle} &= \\dfrac{1}{2} \\cdot \\text{base} \\cdot \\text{height}\\\\\\\\ &= \\dfrac{1}{2} \\cdot 5 \\cdot 3\\\\\\\\ &= 7.5 \\end{align}$  The triangle on the right has an area of $\\maroonD{7.5}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides. The right base is 5 units. The height is 3 units. There is a dashed line that is perpendicular to the base. A diagonal line starts in the top, left vertex and ends in the bottom, right vertex. This line creates two triangles.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/04a8f2b4f78794bb0de9b0bd959b5d9470085fbd.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Total area  To find the total area of the shape, we can add the two partial areas.  $\\blueE{13.5}+\\maroonD{7.5}=\\purpleD{21}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the shape is $21 \\text{ units}^2$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Non-right trapezoids"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "There is exactly $1$ pair of parallel sides in the following shape.    **What is the area of the shape?**   $\\text{ units}^2$",
+                                "images": [
+                                    {
+                                        "alt": "A quadrilateral with 1 pair of parallel sides. The left base is 10 units. The right base is 7 units. The height is 8 units. There is a dashed line that is perpendicular to the base. There is an arrow on the side that begins at the bottom, left vertex and ends at the top, left vertex. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/d20c276f7df6819620a7dd06eda2400d22607b89.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "68",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  Area tells us the amount of space enclosed by the figure.   There are many ways we could split up the space into simpler shapes. Let's split the figure into two triangles.  [[☃ image 1]]  We can find the area of each triangle, then add them to find the total area.",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides. The left base is 10 units. The right base is 7 units. The height is 8 units. There is a dashed line that is perpendicular to the base. There is an arrow on the side that begins at the bottom, left vertex and ends at the top, left vertex. A diagonal line starts in the top, right vertex and ends in the bottom, left vertex. This line creates two triangles.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/6f711c348a00d8cbc4b9b6d3bbb0e46bde1bc526.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of the triangle on the left  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{triangle} &= \\dfrac{1}{2} \\cdot \\text{base} \\cdot \\text{height}\\\\\\\\ &= \\dfrac{1}{2} \\cdot 10 \\cdot 8\\\\\\\\ &= 40 \\end{align}$  The triangle on the left has an area of $\\blueE{40}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides. The left base is 10 units. The height is 8 units. There is a dashed line that is perpendicular to the base. There is an arrow on the side that begins at the bottom, left vertex and ends at the top, left vertex. A diagonal line starts in the top, right vertex and ends in the bottom, left vertex. This line creates two triangles.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/ebc3e0928dbc18d4c3c2507ee6dbd925fc76a8a3.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of the triangle on the right  [[☃ image 1]]  The triangles have the same height.  $\\begin{align} \\text{Area}_\\text{triangle} &= \\dfrac{1}{2} \\cdot \\text{base} \\cdot \\text{height}\\\\\\\\ &= \\dfrac{1}{2} \\cdot 7 \\cdot 8\\\\\\\\ &= 28 \\end{align}$  The triangle on the right has an area of $\\maroonD{28}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides. The right base is 7 units. The height is 8 units. There is a dashed line that is perpendicular to the base. A diagonal line starts in the top, right vertex and ends in the bottom, left vertex. This line creates two triangles.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/4a426206c40e8786e463a2cf6ec1ec9595faa2bc.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Total area  To find the total area of the shape, we can add the two partial areas.  $\\blueE{40}+\\maroonD{28}=\\purpleD{68}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the shape is $68 \\text{ units}^2$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Non-right trapezoids"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "There is exactly $1$ pair of parallel sides in the following shape.    **What is the area of the shape?**   $\\text{ units}^2$",
+                                "images": [
+                                    {
+                                        "alt": "A quadrilateral with 1 pair of parallel sides. The top base is 6 units. The bottom base is 8 units. The height is 5 units. There is a dashed line that is perpendicular to the base.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/9df9eab814515f69de16bf4e3f48e75d81cfee10.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "35",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  Area tells us the amount of space enclosed by the figure.   There are many ways we could split up the space into simpler shapes. Let's split the figure into two triangles.  [[☃ image 1]]  We can find the area of each triangle, then add them to find the total area.",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides. The top base is 6 units. The bottom base is 8 units. The height is 5 units. There is a dashed line that is perpendicular to the base. A diagonal line starts in the top, right vertex and ends in the bottom, left vertex. This line creates two triangles.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/ed637682afc3d7e09ff45d886eb2f215b4701587.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of the triangle on the left  [[☃ image 1]]  The triangles have the same height.  $\\begin{align} \\text{Area}_\\text{triangle} &= \\dfrac{1}{2} \\cdot \\text{base} \\cdot \\text{height}\\\\\\\\ &= \\dfrac{1}{2} \\cdot 6 \\cdot 5\\\\\\\\ &= 15 \\end{align}$  The triangle on the left has an area of $\\blueE{15}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides. The top base is 6 units. The height is 5 units. There is a dashed line that is perpendicular to the base. A diagonal line starts in the top, right vertex and ends in the bottom, left vertex. This line creates two triangles.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/1d2dcdbd7923cbc399ab37d568f13c517ccc731a.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of the triangle on the right  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{triangle} &= \\dfrac{1}{2} \\cdot \\text{base} \\cdot \\text{height}\\\\\\\\ &= \\dfrac{1}{2} \\cdot 8 \\cdot 5\\\\\\\\ &= 20 \\end{align}$  The triangle on the right has an area of $\\maroonD{20}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides. The bottom base is 8 units.The height is 5 units. There is a dashed line that is perpendicular to the base. A diagonal line starts in the top, right vertex and ends in the bottom, left vertex. This line creates two triangles.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/3fc14d274d197b36dba9bd8589bce6c20539794d.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Total area  To find the total area of the shape, we can add the two partial areas.  $\\blueE{15}+\\maroonD{20}=\\purpleD{35}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the shape is $35 \\text{ units}^2$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Non-right trapezoids"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "There is a pair of parallel sides in the following shape.    **What is the area of the shape?**   $\\text{ units}^2$",
+                                "images": [
+                                    {
+                                        "alt": "A quadrilateral with 1 pair of parallel sides. The top base is 3 units. The bottom base is 11 units. The height is 7 units. The other 2 sides are equal. There is a dashed line that is perpendicular to the base. There is an arrow on the bottom that begins at the bottom, left vertex and ends at the bottom, right vertex. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/dfe0b9c8b92ae66515604501bbd588c6f0f93a6f.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "49",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  Area tells us the amount of space enclosed by the figure.   There are many ways we could split up the space into simpler shapes. Let's split the figure into two triangles.  [[☃ image 1]]  We can find the area of each triangle, then add them to find the total area.",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides. The top base is 3 units. The bottom base is 11 units. The height is 7 units. The other 2 sides are equal. There is a dashed line that is perpendicular to the base. There is an arrow on the bottom that begins at the bottom, left vertex and ends at the bottom, right vertex. A diagonal line starts in the top, left vertex and ends in the bottom, right vertex. This line creates two triangles.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/ba3ee50453a11909e863599504765dd4a6ea7298.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of the triangle on the left  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{triangle} &= \\dfrac{1}{2} \\cdot \\text{base} \\cdot \\text{height}\\\\\\\\ &= \\dfrac{1}{2} \\cdot 11 \\cdot 7\\\\\\\\ &= 38.5 \\end{align}$  The triangle on the left has an area of $\\blueE{38.5}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides. The bottom base is 11 units. The height is 7 units. The other 2 sides are equal. There is a dashed line that is perpendicular to the base. There is an arrow on the bottom that begins at the bottom, left vertex and ends at the bottom, right vertex. A diagonal line starts in the top, left vertex and ends in the bottom, right vertex. This line creates two triangles.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/1bdd52e1b602867f0502f7e6fe65ed24e0db638a.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of the triangle on the right  [[☃ image 1]]  The triangles have the same height.  $\\begin{align} \\text{Area}_\\text{triangle} &= \\dfrac{1}{2} \\cdot \\text{base} \\cdot \\text{height}\\\\\\\\ &= \\dfrac{1}{2} \\cdot 3 \\cdot 7\\\\\\\\ &= 10.5 \\end{align}$  The triangle on the right has an area of $\\maroonD{10.5}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides. The top base is 3 units. The height is 7 units. The other 2 sides are equal. There is a dashed line that is perpendicular to the base.  A diagonal line starts in the top, left vertex and ends in the bottom, right vertex. This line creates two triangles.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/55b3330d72ddc4f5559d1a4a76283157f9765ba1.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Total area  To find the total area of the shape, we can add the two partial areas.  $\\blueE{38.5}+\\maroonD{10.5}=\\purpleD{49}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the shape is $49 \\text{ units}^2$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Non-right trapezoids"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "There is a pair of parallel sides in the following shape.    **What is the area of the shape?**   $\\text{units}^2$",
+                                "images": [
+                                    {
+                                        "alt": "A quadrilateral with 1 pair of parallel sides. The top base is 9 units. The bottom base is 5 units. The height is 4 units.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/0693de1e15938c5a21de5c419f45988cbd18454b.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "28",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  Area tells us the amount of space enclosed by the figure.   There are many ways we could split up the space into simpler shapes. Let's split the figure into two triangles.  [[☃ image 1]]  We can find the area of each triangle, then add them to find the total area.",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides. The top base is 9 units. The bottom base is 5 units. The height is 4 units. A diagonal line starts in the bottom, left vertex and ends in the top, right vertex. This line creates two triangles.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/0938eb7f2419ee0cc8fc01500815bac3e71f93f5.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of the triangle on the left  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{triangle} &= \\dfrac{1}{2} \\cdot \\text{base} \\cdot \\text{height}\\\\\\\\ &= \\dfrac{1}{2} \\cdot 9 \\cdot 4\\\\\\\\ &= 18 \\end{align}$  The triangle on the left has an area of $\\blueE{18}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides. The top base is 9 units. The height is 4 units. A diagonal line starts in the bottom, left vertex and ends in the top, right vertex. This line creates two triangles.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/5e4b544b990a633fb4ee687b9980c394f2102225.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of the triangle on the right  [[☃ image 1]]  The triangles have the same height.  $\\begin{align} \\text{Area}_\\text{triangle} &= \\dfrac{1}{2} \\cdot \\text{base} \\cdot \\text{height}\\\\\\\\ &= \\dfrac{1}{2} \\cdot 5 \\cdot 4\\\\\\\\ &= 10 \\end{align}$  The triangle on the right has an area of $\\maroonD{10}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides. The bottom base is 5 units. The height is 4 units. A diagonal line starts in the bottom, left vertex and ends in the top, right vertex. This line creates two triangles.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/937c37350523c2b316baeeece47756855e7dc717.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Total area  To find the total area of the shape, we can add the two partial areas.  $\\blueE{18}+\\maroonD{10}=\\purpleD{28}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the shape is $28 \\text{ units}^2$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Non-right trapezoids"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "There is a pair of parallel sides in the following shape.    **What is the area of the shape?**   $\\text{units}^2$",
+                                "images": [
+                                    {
+                                        "alt": "A quadrilateral with 1 pair of parallel sides. The left base is 6 units. The right base is 8 units. The height is 4 units. The other 2 sides are equal. There is a dashed line that is perpendicular to the base. There is an arrow on the side that begins at the bottom, right vertex and ends at the top, right vertex.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/5189aadbd445fe2552c9fb906e1704b958d8e963.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "28",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  Area tells us the amount of space enclosed by the figure.   There are many ways we could split up the space into simpler shapes. Let's split the figure into two triangles.  [[☃ image 1]]  We can find the area of each triangle, then add them to find the total area.",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides. The left base is 6 units. The right base is 8 units. The height is 4 units. The other 2 sides are equal. There is a dashed line that is perpendicular to the base. There is an arrow on the side that begins at the bottom, right vertex and ends at the top, right vertex. A diagonal line starts in the bottom, left vertex and ends in the top, right vertex. This line creates two triangles.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/66e3290dd14b54c10ec5444ce34164ed5a00d8c2.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of the triangle on the left  [[☃ image 1]]  The triangles have the same height.  $\\begin{align} \\text{Area}_\\text{triangle} &= \\dfrac{1}{2} \\cdot \\text{base} \\cdot \\text{height}\\\\\\\\ &= \\dfrac{1}{2} \\cdot 6 \\cdot 4\\\\\\\\ &= 12 \\end{align}$  The triangle on the left has an area of $\\blueE{12}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides. The left base is 6 units. The height is 4 units. There is a dashed line that is perpendicular to the base. A diagonal line starts in the bottom, left vertex and ends in the top, right vertex. This line creates two triangles.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d0abd43de525852ec94983054c62359a33c46cd1.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of the triangle on the right  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{triangle} &= \\dfrac{1}{2} \\cdot \\text{base} \\cdot \\text{height}\\\\\\\\ &= \\dfrac{1}{2} \\cdot 8 \\cdot 4\\\\\\\\ &= 16 \\end{align}$  The triangle on the right has an area of $\\maroonD{16}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides. The right base is 8 units. The height is 4 units. There is a dashed line that is perpendicular to the base. A diagonal line starts in the bottom, left vertex and ends in the top, right vertex. This line creates two triangles.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/ff342f41e6abeeb99be43ab1dcef5dcdbffe401f.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Total area  To find the total area of the shape, we can add the two partial areas.  $\\blueE{12}+\\maroonD{16}=\\purpleD{28}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the shape is $28 \\text{ units}^2$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Non-right trapezoids"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following shape has $2$ pairs of parallel sides.    **What is the area of the shape?**   $\\text{units}^2$",
+                                "images": [
+                                    {
+                                        "alt": "A 5 sided figure with 2 pairs of parallel sides. The top base is 4 units. The bottom base is 2 units. The right side is 4 units. The left side is 8 units. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/94cd2c9909155e81883fd238ce7549a57354a15d.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "28",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  Area tells us the amount of space enclosed by the figure.   There are many ways we could split up the space into simpler shapes. Let's split the figure into a rectangle with a triangle removed from it.  [[☃ image 1]]  We can find the area of each shape, then subtract them to find the total area.",
+                                    "images": [
+                                        {
+                                            "alt": "A 5 sided figure with 2 pairs of parallel sides. The top base is 4 units. The bottom base is 2 units. The right side is 4 units. The left side is 8 units. A dashed line that is parallel to the base and a dashed line that is parallel to the height makes the shape a rectangle.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/01a4889c28018872a79c3e6b642c6557b9dd4afe.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of the rectangle  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{rectangle} &= \\text{base} \\cdot \\text{height}\\\\\\\\ &= 4 \\cdot 8\\\\\\\\ &= 32 \\end{align}$  The rectangle has an area of $\\blueE{32}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A rectangle. The base is 4 units and the height is 8 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/bd8a66c83e50507fe5b984e9678d71c56962622d.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of the triangle  The base of the triangle is $2$ units, because $4-2=2$. The height of the triangle is $4$ units, because $8-4=4$.  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{triangle} &= \\dfrac{1}{2} \\cdot \\text{base} \\cdot \\text{height}\\\\\\\\ &= \\dfrac{1}{2} \\cdot 2 \\cdot 4\\\\\\\\ &= 4 \\end{align}$  The triangle has an area of $\\maroonD{4}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A rectangle. A diagonal line starts on the right side and goes to the middle of the base. This line creates a right triangle. There is an arrow on the side that begins at the bottom, right vertex of the right triangle and ends where the diagonal line begins. This length is the height of the right triangle and is 4 units. There is an arrow on the side that begins where the diagonal line begins and ends at the top, right vertex of the rectangle. The length is 4 units. There is an arrow on the bottom that begins at the bottom, right vertex of the right triangle and ends where the diagonal line begins on the base. This length is the base of the right triangle and is 2 units. There is an arrow on the bottom that begins where the diagonal line begins and ends at the bottom, left vertex of the rectangle. The length is 2 units. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/c015a4ba35eec9825aeaaca05a2c2bf855bc380c.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Total area  To find the total area of the shape, we can subtract the  removed area from the larger area.  $\\blueE{32}-\\maroonD{4}=\\purpleD{28}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the shape is $28 \\text{ units}^2$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Pentagons and hexagons"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following shape has $1$ pair of parallel sides.    **What is the area of the shape?**   $\\text{units}^2$",
+                                "images": [
+                                    {
+                                        "alt": "A 5 sided figure made of a rectangle with a triangle removed from the top. The base of the rectangle is 7 units and the height is 10 units. A dashed line parallel to the height of the rectangle runs from the vertex of the missing triangle to the base. The dashed line is 6 units long.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/39c43ee581fa79a98b0b9b48a9f38aa4e32c5401.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "56",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  Area tells us the amount of space enclosed by the figure.   There are many ways we could split up the space into simpler shapes. Let's split the figure into a rectangle with a triangle removed from it.  [[☃ image 1]]  We can find the area of each shape, then subtract them to find the total area.",
+                                    "images": [
+                                        {
+                                            "alt": "A 5 sided figure made of a rectangle with a triangle removed from the top. The base of the rectangle is 7 units and the height is 10 units. A dashed line parallel to the height of the rectangle runs from the vertex of the missing triangle to the base. The dashed line is 6 units long. A dashed line parallel to the base connects the top vertex on the left and right side, making a rectangle.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/95d8000606598ccc80314627c9b1e46af0f052e0.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of the rectangle  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{rectangle} &= \\text{base} \\cdot \\text{height}\\\\\\\\ &= 7 \\cdot 10\\\\\\\\ &= 70 \\end{align}$  The rectangle has an area of $\\blueE{70}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A rectangle. The base is 7 units and the height is 10 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/2a48ce029717f22466961693fa4433f614b7a5c4.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of the triangle  The height of the triangle is $4$ units, because $10-6=4$.  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{triangle} &= \\dfrac{1}{2} \\cdot \\text{base} \\cdot \\text{height}\\\\\\\\ &= \\dfrac{1}{2} \\cdot 7 \\cdot 4\\\\\\\\ &= 14 \\end{align}$  The triangle has an area of $\\maroonD{14}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A 5 sided figure made of a rectangle with a triangle removed from the top. The base of the rectangle is 7 units and the height is 10 units. A dashed line parallel to the height of the rectangle runs from the vertex of the missing triangle to the base. The dashed line is 6 units long. A dashed line parallel to the base connects the top vertex on the left and right side, making a rectangle. A dashed line parallel to the height runs from the vertex of the missing triangle to the top. The dashed line is 4 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/807b7e72ae4788a914035952b9c73496fbc3ef5f.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Total area  To find the total area of the shape, we can subtract the  removed area from the larger area.  $\\blueE{70}-\\maroonD{14}=\\purpleD{56}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the shape is $56 \\text{ units}^2$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Pentagons and hexagons"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following shape has $2$ pairs of parallel sides.    **What is the area of the shape?**   $\\text{units}^2$",
+                                "images": [
+                                    {
+                                        "alt": "A 5 sided figure made of a rectangle with a triangle removed from the bottom, left side and bottom, right side. The base of the rectangle is 9 units. The left side length of the figure is 5 units. The right side length of the figure is 4 units.  A dashed line parallel to the height of the rectangle and a dashed line perpendicular to the height create a right triangle in the bottom, left and bottom, right side. The base of the left most right triangle is 3 units and the height is 4 units. The base of the right most right triangle is 4 units and the height is 5 units.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/1aeba0a6c36e3ab5d1ce111f3f2a5c3b1158be2f.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "65",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  Area tells us the amount of space enclosed by the figure.   There are many ways we could split up the space into simpler shapes. Let's split the figure into a rectangle with $2$ triangles removed from it.  [[☃ image 1]]  We can find the area of each shape, then subtract the smaller areas to find the total area.",
+                                    "images": [
+                                        {
+                                            "alt": "A 5 sided figure made of a rectangle with a triangle removed from the bottom, left side and bottom, right side. The base of the rectangle is 9 units. The left side length of the figure is 5 units. The right side length of the figure is 4 units.  A dashed line parallel to the height of the rectangle and a dashed line perpendicular to the height create a right triangle in the bottom, left and bottom, right side. The base of the left most right triangle is 3 units and the height is 4 units. The base of the right most right triangle is 4 units and the height is 5 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/1aeba0a6c36e3ab5d1ce111f3f2a5c3b1158be2f.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of the rectangle  [[☃ image 1]]  The height of the rectangle is $9$ units long because $5+4=9$.  $\\begin{align} \\text{Area}_\\text{rectangle} &= \\text{base} \\cdot \\text{height}\\\\\\\\ &= 9 \\cdot 9\\\\\\\\ &= 81 \\end{align}$  The rectangle has an area of $\\blueE{81}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A square. The base is 9 units and the height is 9 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/4d15c3f6ffc1db50e4304c6a8f3743c2b9d01ea9.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of the triangle on the left  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{triangle} &= \\dfrac{1}{2} \\cdot \\text{base} \\cdot \\text{height}\\\\\\\\ &= \\dfrac{1}{2} \\cdot 3 \\cdot 4\\\\\\\\ &= 6 \\end{align}$  The triangle on the left has an area of $\\maroonD{6}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A 5 sided figure made of a rectangle with a triangle removed from the bottom, left side and bottom, right side. The base of the left most right triangle is 3 units and the height is 4 units. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d35fce5dcb13afb17871bd8aa01634bf7d92c583.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of the triangle on the right  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{triangle} &= \\dfrac{1}{2} \\cdot \\text{base} \\cdot \\text{height}\\\\\\\\ &= \\dfrac{1}{2} \\cdot 4 \\cdot 5\\\\\\\\ &= 10 \\end{align}$  The triangle on the right has an area of $\\goldE{10}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A 5 sided figure made of a rectangle with a triangle removed from the bottom, left side and bottom, right side. The base of the right most right triangle is 4 units and the height is 5 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/df7a9dfe0e0bd4fc656b37ce9fa3b8aa12efbc9f.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Total area  To find the total area of the shape, we can subtract the  removed areas from the larger area.  $\\blueE{81}-\\maroonD{6}-\\goldE{10}=\\purpleD{65}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the shape is $65 \\text{ units}^2$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Pentagons and hexagons"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following shape has $1$ pair of parallel sides.    **What is the area of the shape?**   $\\text{units}^2$",
+                                "images": [
+                                    {
+                                        "alt": "A 6 sided figure made of a rectangle with a right triangle removed from the top, left side, top, right side, bottom, left side, and bottom, right side.  This creates a figure of a rectangle with a triangle attached to the top and the bottom. The height of the triangle attached to the top of the rectangle is 2 units. The height of the rectangle is 7 units. The height of the triangle attached to the bottom of the rectangle is 3 units. The base of the rectangle is 8 units. There is an arrow on the left that begins at the bottom of the figure and ends where the bottom triangle meets the base of the rectangle. There is an arrow on the left that begins at the base of the rectangle and ends at the top of the rectangle. There is an arrow that begins as the top of the rectangle and ends at the top of the figure.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/b8cfb3fc2b249019b6c057c1a9d6747357cba9f3.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "76",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  Area tells us the amount of space enclosed by the figure.   There are many ways we could split up the space into simpler shapes. Let's split the figure into a rectangle and $2$ triangles.  [[☃ image 1]]  We can find the area of each shape, then add them to find the total area.",
+                                    "images": [
+                                        {
+                                            "alt": "A 6 sided figure made of a rectangle with a right triangle removed from the top, left side, top, right side, bottom, left side, and bottom, right side.  This creates a figure of a rectangle with a triangle attached to the top and the bottom. The height of the triangle attached to the top of the rectangle is 2 units. The height of the rectangle is 7 units. The height of the triangle attached to the bottom of the rectangle is 3 units. The base of the rectangle is 8 units. There is an arrow on the left that begins at the bottom of the figure and ends where the bottom triangle meets the base of the rectangle. There is an arrow on the left that begins at the base of the rectangle and ends at the top of the rectangle. There is an arrow that begins as the top of the rectangle and ends at the top of the figure.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/df45e26d9fccebe90f76f1bd1dfbfa6bdf9676ca.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of the top triangle  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{triangle} &= \\dfrac{1}{2} \\cdot \\text{base} \\cdot \\text{height}\\\\\\\\ &= \\dfrac{1}{2} \\cdot 8 \\cdot 2\\\\\\\\ &= 8 \\end{align}$  The top triangle has an area of $\\blueE{8}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A 6 sided figure made of a rectangle with a right triangle removed from the top, left side, top, right side, bottom, left side, and bottom, right side.  This creates a figure of a rectangle with a triangle attached to the top and the bottom. The height of the triangle attached to the top of the rectangle is 2 units. The base is 8 units. There is an arrow that begins as the top of the rectangle and ends at the top of the figure.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/ad4051ca37c465954d906d4a53129cead2ac1a40.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of the rectangle  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{rectangle} &= \\text{base} \\cdot \\text{height}\\\\\\\\ &= 8 \\cdot 7\\\\\\\\ &= 56 \\end{align}$  The rectangle has an area of $\\maroonD{56}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A 6 sided figure made of a rectangle with a right triangle removed from the top, left side, top, right side, bottom, left side, and bottom, right side.  This creates a figure of a rectangle with a triangle attached to the top and the bottom. The height of the rectangle is 7 units. The base of the rectangle is 8 units. There is an arrow on the left that begins at the base of the rectangle and ends at the top of the rectangle. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/165ef573cab121a72327ef198d0aae2934c96a0e.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of the bottom triangle  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{triangle} &= \\dfrac{1}{2} \\cdot \\text{base} \\cdot \\text{height}\\\\\\\\ &= \\dfrac{1}{2} \\cdot 8 \\cdot 3\\\\\\\\ &= 12 \\end{align}$  The bottom triangle has an area of $\\goldE{12}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A 6 sided figure made of a rectangle with a right triangle removed from the top, left side, top, right side, bottom, left side, and bottom, right side.  This creates a figure of a rectangle with a triangle attached to the top and the bottom. The height of the triangle attached to the bottom of the rectangle is 3 units. The base of the triangle is 8 units. There is an arrow on the left that begins at the bottom of the figure and ends where the bottom triangle meets the base of the rectangle. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/f6f149ff5ba36cc9d7d50ec0285c112bfb50cca5.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Total area  To find the total area of the shape, we can add the three partial areas.  $\\blueE{8}+\\maroonD{56}+\\goldE{12}=\\purpleD{76}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the shape is $76 \\text{ units}^2$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Pentagons and hexagons"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following shape has $1$ pair of parallel sides.    **What is the area of the shape?**   $\\text{units}^2$",
+                                "images": [
+                                    {
+                                        "alt": "A 5 sided figure made of a rectangle with a right triangle removed from the top, left side and the top, right side.  This creates a figure of a rectangle with 2 right triangles attached to the top. The height of the right triangles attached to the top of the rectangle are 3 units. The base of the rectangle is 9 units. The height of the rectangle is 6 units. There is a dashed line that is parallel to the base along the top of the rectangle and the base of the right triangles. There is a dashed line that is parallel to the height that creates two right triangles.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/12c02124a4ed2aed8877cee5e9879935d766dfdc.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "67.5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  Area tells us the amount of space enclosed by the figure.   There are many ways we could split up the space into simpler shapes. Let's split the figure into a rectangle and a triangle.  [[☃ image 1]]  We can find the area of each shape, then add them to find the total area.",
+                                    "images": [
+                                        {
+                                            "alt": "A 5 sided figure made of a rectangle with a right triangle removed from the top, left side and the top, right side.  This creates a figure of a rectangle with 2 right triangles attached to the top. The height of the right triangles attached to the top of the rectangle are 3 units. The base of the rectangle is 9 units. The height of the rectangle is 6 units. There is a dashed line that is parallel to the height that creates two right triangles.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/b8c6e1d4ee4b62c9022ab922fd998973ed3bf903.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of the triangle  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{triangle} &= \\dfrac{1}{2} \\cdot \\text{base} \\cdot \\text{height}\\\\\\\\ &= \\dfrac{1}{2} \\cdot 9 \\cdot 3\\\\\\\\ &= 13.5 \\end{align}$  The triangle has an area of $\\blueE{13.5}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A 5 sided figure made of a rectangle with a right triangle removed from the top, left side and the top, right side.  This creates a figure of a rectangle with 2 right triangles attached to the top. The height of the right triangles attached to the top of the rectangle are 3 units. The base of both right triangles combined is 9 units. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/a67126ff708b25513c8890dd5124591b56679727.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of the rectangle  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{rectangle} &= \\text{base} \\cdot \\text{height}\\\\\\\\ &= 9 \\cdot 6\\\\\\\\ &= 54 \\end{align}$  The rectangle has an area of $\\maroonD{54}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A 5 sided figure made of a rectangle with a right triangle removed from the top, left side and the top, right side.  This creates a figure of a rectangle with 2 right triangles attached to the top. The base of the rectangle is 9 units. The height of the rectangle is 6 units. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/40a49ade651fcfaa0c7576c0fb1c0afa81f051cd.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Total area  To find the total area of the shape, we can add the two partial areas.  $\\blueE{13.5}+\\maroonD{54}=\\purpleD{67.5}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the shape is $67.5 \\text{ units}^2$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Pentagons and hexagons"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following shape has $0$ pairs of parallel sides.    **What is the area of the shape?**   $\\text{units}^2$",
+                                "images": [
+                                    {
+                                        "alt": "A 5 sided figure made of a rectangle with a right triangle removed from the top, right side, the bottom, left side, and the bottom, right side.  A dashed line that is parallel to the base and a dashed line that is parallel to the height create a figure of 2 right triangles and a quadrilateral with 1 pair of parallel sides. The height of the top right triangle is 7 units and the base is 10 units. The height of the bottom right triangle is 5 units. The bottom base of the quadrilateral with 1 pair of parallel sides is 3 units.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/e742a26ee90da3d88aa7569cc74bc6baefbd014d.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "67.5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  Area tells us the amount of space enclosed by the figure.   There are many ways we could split up the space into simpler shapes. Let's split the figure into three triangles.  [[☃ image 1]]  We can find the area of each shape, then add them to find the total area.",
+                                    "images": [
+                                        {
+                                            "alt": "A 5 sided figure made of a rectangle with a right triangle removed from the top, right side, the bottom, left side, and the bottom, right side.  A dashed line that is parallel to the base and a dashed line that is parallel to the height create a figure of 2 right triangles and a quadrilateral with 1 pair of parallel sides. The height of the top right triangle is 7 units and the base is 10 units. The height of the bottom right triangle is 5 units. The bottom base of the quadrilateral with 1 pair of parallel sides is 3 units. A diagonal line starts in the right vertex and ends in the bottom left vertex. The creates 4 triangles.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/db26d41bf6815cb7950f7f066c61472ca2f677da.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of the top triangle  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{triangle} &= \\dfrac{1}{2} \\cdot \\text{base} \\cdot \\text{height}\\\\\\\\ &= \\dfrac{1}{2} \\cdot 10 \\cdot 7\\\\\\\\ &= 35 \\end{align}$  The top triangle has an area of $\\blueE{35}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A 5 sided figure made of a rectangle with a right triangle removed from the top, right side, the bottom, left side, and the bottom, right side.  The height of the top right triangle is 7 units and the base is 10 units. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/03966882149bfac5cdf46628168acf03af5c0673.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of the middle triangle  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{triangle} &= \\dfrac{1}{2} \\cdot \\text{base} \\cdot \\text{height}\\\\\\\\ &= \\dfrac{1}{2} \\cdot 10 \\cdot 5\\\\\\\\ &= 25 \\end{align}$  The middle triangle has an area of $\\maroonD{25}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A 5 sided figure made of a rectangle with a right triangle removed from the top, right side, the bottom, left side, and the bottom, right side.  The base of the bottom, left triangle is 10 units and the height of the bottom, left triangle is 5 units. The bottom base of the quadrilateral with 1 pair of parallel sides is 3 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/5352628ffc2edf6405fbba72bd3e9fd8d8b669a6.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of the bottom triangle  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{triangle} &= \\dfrac{1}{2} \\cdot \\text{base} \\cdot \\text{height}\\\\\\\\ &= \\dfrac{1}{2} \\cdot 3 \\cdot 5\\\\\\\\ &= 7.5 \\end{align}$  The bottom triangle has an area of $\\goldE{7.5}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A 5 sided figure made of a rectangle with a right triangle removed from the top, right side, the bottom, left side, and the bottom, right side.  The base of the bottom, right triangle is 3 units and the height of the bottom triangle is 5 units. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/b47526ed889cf2a82986d8d6b6180a08629c47d1.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Total area  To find the total area of the shape, we can add the three partial areas.  $\\blueE{35}+\\maroonD{25}+\\goldE{7.5}=\\purpleD{67.5}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the shape is $67.5 \\text{ units}^2$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Pentagons and hexagons"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following shape has $1$ pair of parallel sides.    **What is the area of the shape?**   $\\text{units}^2$",
+                                "images": [
+                                    {
+                                        "alt": "A 5 sided figure split into 3 sections by dashed lines. The base of the figure is 16 units and the height is 8 units. The base of the first right triangle is 8 units and the height is 8 units. The base of the rectangle is 2 units and the height is 5 units. The base of the second right triangle is 6 units and the height is 5 units.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/6bb6c8600c8cde00f1119fe7123f48645f5d7acd.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "57",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  Area tells us the amount of space enclosed by the figure.   There are many ways we could split up the space into simpler shapes. Let's split the figure into $2$ triangles and a rectangle.  [[☃ image 1]]  We can find the area of each shape, then add them to find the total area.",
+                                    "images": [
+                                        {
+                                            "alt": "A 5 sided figure split into 3 sections by lines. The base of the figure is 16 units and the height is 8 units. The base of the first right triangle is 8 units and the height is 8 units. The base of the rectangle is 2 units and the height is 5 units. The base of the second right triangle is 6 units and the height is 5 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/1fadffa49bcf252937e15eb439c9ebb0fdeef362.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of the triangle on the left  [[☃ image 1]]  The height of the triangle is $8$ units long because $5+3=8$.  $\\begin{align} \\text{Area}_\\text{triangle} &= \\dfrac{1}{2} \\cdot \\text{base} \\cdot \\text{height}\\\\\\\\ &= \\dfrac{1}{2} \\cdot 8 \\cdot 8\\\\\\\\ &= 32 \\end{align}$  The triangle on the left has an area of $\\blueE{32}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A 5 sided figure split into 3 sections by lines. The base of the first right triangle is 8 units and the height is 8 units. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/1770f6583ef4636a607cbaff4df7a9e82f0801f0.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of the rectangle  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{rectangle} &= \\text{base} \\cdot \\text{height}\\\\\\\\ &= 2 \\cdot 5\\\\\\\\ &= 10 \\end{align}$  The rectangle has an area of $\\maroonD{10}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A 5 sided figure split into 3 sections by lines. The base of the rectangle is 2 units and the height is 5 units. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/a63b93ed71b723fed923f335c83c3ef663b543ee.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of the triangle on the right  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{triangle} &= \\dfrac{1}{2} \\cdot \\text{base} \\cdot \\text{height}\\\\\\\\ &= \\dfrac{1}{2} \\cdot 6 \\cdot 5\\\\\\\\ &= 15 \\end{align}$  The triangle on the right has an area of $\\goldE{15}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A 5 sided figure split into 3 sections by lines. The base of the second right triangle is 6 units and the height is 5 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d77aec9bdeb1c61e72a73c77afeb64e06373c95f.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Total area  To find the total area of the shape, we can add the three partial areas.  $\\blueE{32}+\\maroonD{10}+\\goldE{15}=\\purpleD{57}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the shape is $57 \\text{ units}^2$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Pentagons and hexagons"
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,853 @@
+{
+    "standard_metadata": {
+        "standard_id": "8.NS.A.2",
+        "standard_description": "Use rational approximations of irrational numbers to compare the size of irrational numbers, locate them approximately on a number line diagram, and estimate the value of expressions (e.g., &pi;<sup>2</sup>).",
+        "standard_title": "Comparing irrational numbers",
+        "standard_url": "https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-numbers-operations/cc-8th-approximating-irrational-numbers/e/approximating-irrational-numbers-without-a-calculator"
+    },
+    "id": "xb56ba4b8",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Without using a calculator, match each expression to the correct point.**",
+                                "images": [
+                                    {
+                                        "alt": "A number line from negative 6.5 to negative 3.5 in increments of 0.5. A closed point labeled a is plotted between negative 6.5 and negative 6. A closed point labeled b is plotted between negative 6 and negative 5.5. A closed point labeled c is plotted between negative 4.5 and negative 4.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/487dcbdc68287b7ef2bf02693bf0b0a003f71fe2.svg"
+                                    }
+                                ],
+                                "options": []
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's consider each expression one at a time.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Remember that $\\pi \\approx 3.14$.   $\\maroonD{-2\\pi} <-6$ because $-\\pi<-3$.  Point $a$ is $\\maroonD{-2\\pi}$ because it is the only point less than $-6$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\greenD{-\\dfrac{17}{3}}$ is $- 5 \\dfrac23$ when written as a mixed number.  Point $b$ is $\\greenD{-\\dfrac{17}{3}}$ because it is the only point between $-5$ and $-6$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "To make things easier, let's think about $\\sqrt{18}$ instead of $\\purpleC{-\\sqrt{18}}$. Let's square $\\sqrt{18}$:  $(\\sqrt{18})^2 = 18$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\sqrt{18}$ is between $4$ and $5$ because $18$ is between $4^2 = 16$ and $5^2 = 25$.  Point $c$ is $\\purpleC{-\\sqrt{18}}$ because it is the only point between $-4$ and $-5$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The expressions are matched to the correct points below:  Point | Expression :-: | :-:  $a$ | $\\maroonD{-2\\pi}$ $b$ | $\\greenD{-\\dfrac{17}{3}}$ $c$ | $\\purpleC{\\purpleC{-\\sqrt{18}}}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type A - Number Line Matcher"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Without using a calculator, match each expression to the correct point.**",
+                                "images": [
+                                    {
+                                        "alt": "A number line from 3.5 to 5.5 in increments of 0.5. A closed point labeled a is plotted at 4. A closed point labeled b is plotted between 5 and 5.5. A closed point labeled c is plotted to the right of 5.5.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/e2a615720dc4091522ecf2a75c05b21ac6b5abd6.svg"
+                                    }
+                                ],
+                                "options": []
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's consider each expression one at a time.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{\\sqrt{16}}  = 4$  Point $a$ is $\\maroonD{\\sqrt{16}}$ because it is the point that is at $4$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's compare $\\greenD{\\sqrt{27}}$ and $\\purpleC{\\sqrt{32}}$. Since $32>27$, $\\purpleC{\\sqrt{32}}>\\greenD{\\sqrt{27}}$.  Point $b$ is $\\greenD{\\sqrt{27}}$.   Point $c$ is $\\purpleC{\\sqrt{32}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The expressions are matched to the correct points below:  Point | Expression :-: | :-:  $a$ | $\\maroonD{\\sqrt{16}}$ $b$ | $\\greenD{\\sqrt{27}}$ $c$ | $\\purpleC{\\sqrt{32}}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type A - Number Line Matcher"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Without using a calculator, match each expression to the correct point.**",
+                                "images": [
+                                    {
+                                        "alt": "A number line from 6 to 10 in increments of 1 fourth. A closed point labeled a is plotted between the third tick mark to the right of 7 and 8. A closed point labeled b is plotted between the second and third tick mark to the right of 8. A closed point labeled c is plotted between the first and second tick marks to the right of 9.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/c961f3ddb1b3b323cba5d342850f12d4bb47a128.svg"
+                                    }
+                                ],
+                                "options": []
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's consider each expression one at a time.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Point $a$ is $\\pink{7.\\overline{81}}$ because it is the only point less than $8$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Remember that $\\pi \\approx 3.14$.   $\\green{3\\pi}>9$ because $\\pi>3$.  Point $c$ is $\\green{3\\pi}$ because it is the only point greater than $9$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\purple{\\sqrt{73}}$ is between $8$ and $9$ because $73$ is between $8^2 = 64$ and $9^2 = 81$.  Point $b$ is $\\purple{\\sqrt{73}}$ because it is the only point between $8$ and $9$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The expressions are matched to the correct points below:  Point | Expression :-: | :-:  $a$ | $\\pink{7.\\overline{81}}$ $b$ | $\\purple{\\sqrt{73}}$ $c$ | $\\green{3\\pi}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type A - Number Line Matcher"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Without using a calculator, match each expression to the correct point.**",
+                                "images": [
+                                    {
+                                        "alt": "A number line from negative 5 to 0 in increments of 1 half. A closed point labeled d is plotted between the the tick mark between negative 4 and negative 3 and negative 3. A closed point labeled e is plotted between negative 3 and the tick mark between negative 3 and negative 2. A closed point labeled f is plotted at the tick mark between negative 2 and negative 1.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/bc1b484a6ebc4854fa03a8265b8de3cd75831cc8.svg"
+                                    }
+                                ],
+                                "options": []
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's consider each expression one at a time.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{-\\dfrac32}=-1.5$  Point $f$ is $\\maroonD{-\\dfrac32}$ because it is the point that is at $-1.5$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Remember that $\\pi \\approx 3.14$.   $\\greenD{-\\pi}<-3$ because $\\pi>3$.  Point $d$ is $\\greenD{-\\pi}$ because it is the only point less than $-3$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "To make things easier, let's think about $\\sqrt{8}$ instead of $\\purpleC{-\\sqrt{8}}$. Let's square $\\sqrt{8}$:  $(\\sqrt8)^2  = 8$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\sqrt{8}$ is between $2$ and $3$ because $8$ is between $2^2 = 4$ and $3^2 = 9$.  Point $e$ is $\\purpleC{-\\sqrt8}$ because it is the only point between $-2$ and $-3$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The expressions are matched to the correct points below:  Point | Expression :-: | :-:  $d$ | $\\greenD{-\\pi}$ $e$ | $\\purpleC{-\\sqrt8}$ $f$ | $\\maroonD{-\\dfrac32}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type A - Number Line Matcher"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Without using a calculator, match each expression to the correct point.**",
+                                "images": [
+                                    {
+                                        "alt": "A number line from 8 to 11 in increments of 1 fourth. A closed point labeled d is plotted between the third tick mark to the right of 8 and 9. A closed point labeled e is plotted between the first and second tick mark to the right of 9. A closed point labeled f is plotted at 10.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/bfbbddab832aee64cb6ec3097f166420d6b6cde1.svg"
+                                    }
+                                ],
+                                "options": []
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's consider each expression one at a time.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{\\sqrt{100}}  = 10$  Point $f$ is $\\maroonD{\\sqrt{100}}$ because it is the point that is at $10$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\greenD{3\\pi}$ is between $9$ and $10$ because $\\pi$ is between $3$ and $3 \\dfrac13$.  Point $e$ is $\\greenD{3\\pi}$ because it is the only point between $9$ and $10$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\purpleC{\\sqrt{80}}$ is between $8$ and $9$ because $80$ is between $8^2 = 64$ and $9^2 = 81$.  Point $d$ is $\\purpleC{\\sqrt{80}}$ because it is the only point between $8$ and $9$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The expressions are matched to the correct points below:  Point | Expression :-: | :-:  $d$ | $\\purpleC{\\sqrt{80}}$ $e$ | $\\greenD{3\\pi}$ $f$ | $\\maroonD{\\sqrt{100}}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type A - Number Line Matcher"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Without using a calculator, match each expression to the correct point.**",
+                                "images": [
+                                    {
+                                        "alt": "A number line from 6 to 9 in increments of 1 fourth. A closed point labeled m is plotted at 7.  A closed point labeled n is plotted between 7 and the first tick mark to the right of 7. A closed point labeled o is plotted between the third tick mark to the right of 7 and 8.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/c240801fcc63a8108fff24bca3746fb4ca061ba0.svg"
+                                    }
+                                ],
+                                "options": []
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's consider each expression one at a time.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{\\sqrt{49}} =7$  Point $m$ is $\\maroonD{\\sqrt{49}}$ because it is the point that is at $7$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's compare $\\greenD{\\sqrt{52}}$ and $\\purpleC{\\sqrt{63}}$. Since $63 > 52$, $\\purpleC{\\sqrt{63}}>\\greenD{\\sqrt{52}}$.  Point $n$ is $\\greenD{\\sqrt{52}}$.   Point $o$ is $\\purpleC{\\sqrt{63}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The expressions are matched to the correct points below:  Point | Expression :-: | :-:  $m$ | $\\maroonD{\\sqrt{49}}$ $n$ | $\\greenD{\\sqrt{52}}$ $o$ | $\\purpleC{\\sqrt{63}}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type A - Number Line Matcher"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Without using a calculator, match each expression to the correct point.**",
+                                "images": [
+                                    {
+                                        "alt": "A number line from 0 to 4 in increments of 1 fourth. A closed point labeled p is plotted between the second and third tick marks to the right of 1.  A closed point labeled q is plotted between 2 and the first tick mark to the right of 2. A closed point labeled r is plotted between 3 and the first tick mark to the right of 3.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/9db6c0327d87a3c203c63dd0f4686c80094ee2be.svg"
+                                    }
+                                ],
+                                "options": []
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's consider each expression one at a time.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Point $r$ is $\\pink{3.12}$ because it is the only point greater than $3$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Remember that $\\pi \\approx 3.14$.   $\\green{\\dfrac{\\pi}{2}}$ is between $1$ and $2$ because $\\pi$ is between $2$ and $4$.  Point $p$ is $\\green{\\dfrac{\\pi}2}$ because it is the only point between $1$ and $2$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\purple{\\sqrt{5}}$ is between $2$ and $3$ because $5$ is between $2^2 = 4$ and $3^2 = 9$.  Point $q$ is $\\purple{\\sqrt{5}}$ because it is the only point between $2$ and $3$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The expressions are matched to the correct points below:  Point | Expression :-: | :-:  $p$ | $\\green{\\dfrac{\\pi}{2}}$ $q$ | $\\purple{\\sqrt{5}}$ $r$ | $\\pink{3.12}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type A - Number Line Matcher"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Without using a calculator, match each expression to the correct point.**",
+                                "images": [
+                                    {
+                                        "alt": "A number line from negative 9 to negative 4 in increments of 1 half. A closed point labeled s is plotted between the the tick mark between negative 9 and negative 8 and negative 8. A closed point labeled t is plotted between the tick mark between negative 7 and negative 6 and negative 6. A closed point labeled u is plotted at negative 5.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/52993e0ebfd39a8310fb6974b7ac000afda15b2a.svg"
+                                    }
+                                ],
+                                "options": []
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's consider each expression one at a time.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{-\\sqrt{25}} =-5$  Point $u$ is $\\maroonD{-\\sqrt{25}}$ because it is the only point that is at $-5$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Remember that $\\pi \\approx 3.14$.   $\\greenD{-2\\pi}$ is slightly less than $-6$ because $-\\pi$ is slightly less than $-3$.  Point $t$ is $\\greenD{-2\\pi}$ because it is the point slightly less than $-6$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "To make things easier, let's think about $\\sqrt{68}$ instead of $\\purpleC{-\\sqrt{68}}$. Let's square $\\sqrt{68}$:  $(\\sqrt{68})^2  = 68$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\sqrt{68}$ is between $8$ and $9$ because $68$ is between $8^2 = 64$ and $9^2 = 81$.  Point $s$ is $\\purpleC{-\\sqrt{68}}$ because it is the only point between $-8$ and $-9$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The expressions are matched to the correct points below:  Point | Expression :-: | :-:  $s$ | $\\purpleC{-\\sqrt{68}}$ $t$ | $\\greenD{-2\\pi}$ $u$ | $\\maroonD{-\\sqrt{25}}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type A - Number Line Matcher"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Without using a calculator, match each expression to the correct point.**",
+                                "images": [
+                                    {
+                                        "alt": "A number line from 6 to 11 in increments of 1 half. A closed point labeled x is plotted between the the tick mark between 8 and 9 and 9. A closed point labeled y is plotted between 9 and the tick mark between 9 and 10. A closed point labeled z is plotted at 10.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/fffbf8ae14092610ec335644ec9cce77514f1a43.svg"
+                                    }
+                                ],
+                                "options": []
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's consider each expression one at a time.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{\\sqrt{100}}  = 10$  Point $z$ is $\\maroonD{\\sqrt{100}}$ because it is the point that is at $10$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Remember that $\\pi \\approx 3.14$.   $\\greenD{3\\pi}$ is between $9$ and $10$ because $\\pi$ is between $3$ and $3 \\dfrac13$.  Point $y$ is $\\greenD{3\\pi}$ because it is the only point between $9$ and $10$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\purpleC{\\sqrt{78}}$ is between $8$ and $9$ because $78$ is between $8^2 = 64$ and $9^2 = 81$.  Point $x$ is $\\purpleC{\\sqrt{78}}$ because it is the only point between $8$ and $9$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The expressions are matched to the correct points below:  Point | Expression :-: | :-:  $x$ | $\\purpleC{\\sqrt{78}}$ $y$ | $\\greenD{3\\pi}$ $z$ | $\\maroonD{\\sqrt{100}}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type A - Number Line Matcher"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Without using a calculator, match each expression to the correct point.**",
+                                "images": [
+                                    {
+                                        "alt": "A number line from 8 to 11 in increments of 1 fourth. A closed point labeled x is plotted between the first and second marks to the right of 9.  A closed point labeled y is plotted at 10. A closed point labeled z is plotted between 10 and the first tick mark to the right of 10.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/5cabbb1ec4c77f4981ca4a36ba145aea26407a73.svg"
+                                    }
+                                ],
+                                "options": []
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's consider each expression one at a time.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{\\sqrt{100}}  = 10$  Point $y$ is $\\maroonD{\\sqrt{100}}$ because it is the only point that is at $10$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Remember that $\\pi \\approx 3.14$.   $\\greenD{3\\pi}$ is between $9$ and $10$ because $\\pi$ is between $3$ and $3 \\dfrac13$.  Point $x$ is $\\greenD{3\\pi}$ because it is the only point between $9$ and $10$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\purpleC{\\sqrt{104}}$ is between $10$ and $11$ because $104$ is between $10^2 = 100$ and $11^2 = 121$.  Point $z$ is $\\purpleC{\\sqrt{104}}$ because it is the only point between $10$ and $11$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The expressions are matched to the correct points below:  Point | Expression :-: | :-:  $x$ | $\\greenD{3\\pi}$ $y$ | $\\maroonD{\\sqrt{100}}$ $z$ | $\\purpleC{\\sqrt{104}}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type A - Number Line Matcher"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Without using a calculator, order the following expressions from least to greatest.**",
+                                "images": [],
+                                "options": []
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's consider each expression one at a time.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's look at $\\redE{3\\pi}$. Remember that $\\pi \\approx 3.14$.   $\\redE{3\\pi}>\\maroonE9$ because ${\\pi}>3$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's look at $\\purpleD{\\pi^2}$. Remember that $\\purpleD{\\pi^2}$ is the same as $\\pi \\cdot \\pi$.  $\\purpleD{\\pi^2}>\\redE{3\\pi}$ because $\\pi>3$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The numbers are ordered from least to greatest below.   || - | - | - $\\maroonE{9}$| $\\redE{3\\pi}$|$\\purpleD{\\pi^2}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type B - Orderer"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Without using a calculator, order the following expressions from least to greatest.**",
+                                "images": [],
+                                "options": []
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's consider each expression one at a time.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\greenD{\\sqrt{12}}>\\maroonD{1}$ because $\\greenD{\\sqrt{12}}>\\sqrt{1}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\purpleC{\\sqrt{18}}>\\greenD{\\sqrt{12}}$ because $18>12$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The numbers are ordered from least to greatest below.   ||||| - | - | - $\\maroonD1$ ||$\\greenD{\\sqrt{12}}$||$\\purpleC{\\sqrt{18}}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type B - Orderer"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Without using a calculator, order the following expressions from least to greatest.**",
+                                "images": [],
+                                "options": []
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's consider each expression one at a time.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's look at $\\green{\\sqrt{\\pi}}$. Remember that $\\pi \\approx 3.14$.  $\\green{\\sqrt\\pi}$ is between $1$ and $\\pink2$ because $\\pi$ is between $1^2 = 1$ and $2^2 = 4$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's look at $\\purple{\\sqrt{3}}$.  $\\purple{\\sqrt3}<\\green{\\sqrt\\pi}$ because $3<\\pi$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The numbers are ordered from least to greatest below.   ||||| - | - | - $\\purple{\\sqrt{3}}$||$\\green{\\sqrt\\pi}$|| $\\pink2$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type B - Orderer"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Without using a calculator, order the following expressions from least to greatest.**",
+                                "images": [],
+                                "options": []
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's consider each expression one at a time.",
+                                    "images": []
+                                },
+                                {
+                                    "content": ">$\\pink{\\dfrac{\\sqrt4}2} = \\dfrac22 = 1$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's look at $\\green{\\dfrac{\\pi}3}$. Remember that $\\pi \\approx 3.14$.   $\\green{\\dfrac{\\pi}3}>1$ because $\\pi>3$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's look at $\\purple{\\dfrac{\\sqrt8}3}$.  $\\sqrt8<3$ because $8< 9$.  So, $\\purple{\\dfrac{\\sqrt8}3}<1$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The numbers are ordered from least to greatest below.   ||||| - | - | - $\\purple{\\dfrac{\\sqrt8}3}$|| $\\pink{\\dfrac{\\sqrt4}2}$ ||$\\green{\\dfrac{\\pi}3}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type B - Orderer"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Without using a calculator, order the following expressions from least to greatest.**",
+                                "images": [],
+                                "options": []
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's consider each expression one at a time.",
+                                    "images": []
+                                },
+                                {
+                                    "content": ">$\\pink{\\sqrt[\\leftroot{-2}\\uproot{2}\\scriptstyle 3]{27}}=3$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's look at $\\green\\pi$.  >$\\green\\pi>3$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's look at $\\purple{\\sqrt8}$.  $\\purple{\\sqrt8}<3$ because $8<9$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The numbers are ordered from least to greatest below.   ||||| - | - | - $\\purple{\\sqrt8}$|| $\\pink{\\sqrt[\\leftroot{-2}\\uproot{2}\\scriptstyle 3]{27}}$||$\\green\\pi$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type B - Orderer"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Without using a calculator, order the following expressions from least to greatest.**",
+                                "images": [],
+                                "options": []
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's consider each expression one at a time.",
+                                    "images": []
+                                },
+                                {
+                                    "content": ">$\\pink{\\sqrt[\\leftroot{-2}\\uproot{2}\\scriptstyle 3]{64}}=4$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's look at $\\green{\\sqrt{29}}$.  $\\green{\\sqrt{29}}$ is between $5$ and $6$ because $29$ is between $5^2 = 25$ and $6^2 = 36$.  So, $\\green{\\sqrt{29}}> \\pink{\\sqrt[\\leftroot{-2}\\uproot{2}\\scriptstyle 3]{64}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's look at $\\purple{2\\pi}$. Remember that $\\pi \\approx 3.14$.   $\\purple{2\\pi}>6$ because $\\pi>3$.   So, $\\purple{2\\pi} > \\green{\\sqrt{29}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The numbers are ordered from least to greatest below.   ||||| - | - | - $\\pink{\\sqrt[\\leftroot{-2}\\uproot{2}\\scriptstyle 3]{64}}$||$\\green{\\sqrt{29}}$||$\\purple{2\\pi}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type B - Orderer"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Without using a calculator, order the following expressions from least to greatest.**",
+                                "images": [],
+                                "options": []
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's consider each expression one at a time.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{{7.\\overline{12}}} = 7.121212...$.  We know that the square of $7.\\overline{12}$ has to be between $7^2 = 49$ and $8^2 = 64$. Let's use this to help us order the other two expressions.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's look at $\\greenD{\\sqrt{45}}$.  $\\greenD{\\sqrt{45}}$ is between $6$ and $7$ because $45$ is between $6^2 = 36$ and $7^2 = 49$.  Therefore, $\\greenD{\\sqrt{45}}<\\maroonD{{7.\\overline{12}}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's look at $\\purpleC{\\sqrt{75}}$.  $\\purpleC{\\sqrt{75}}$ is between $8$ and $9$ because $75$ is between $8^2 = 64$ and $9^2 = 81$.  Therefore, $\\maroonD{{7.\\overline{12}}} < \\purpleC{\\sqrt{75}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The numbers are ordered from least to greatest below.   ||||| - | - | - $\\greenD{\\sqrt{45}}$||$\\maroonD{7.\\overline{12}}$ ||$\\purpleC{\\sqrt{75}}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type B - Orderer"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Without using a calculator, order the following expressions from least to greatest.**",
+                                "images": [],
+                                "options": []
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's consider each expression one at a time.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{\\sqrt{64}}  = 8$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's look at $\\greenD{\\sqrt{71}}$.  $\\greenD{\\sqrt{71}}$ is between $8$ and $9$ because $71$ is between $8^2 = 64$ and $9^2 = 81$.  So, $\\greenD{\\sqrt{71}} > \\maroonD{\\sqrt{64}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's look at $\\purpleC{\\pi^2}$. Remember that $\\purpleC{\\pi^2}$ is the same as $\\pi \\cdot \\pi$.  $\\purpleC{\\pi^2}>9$ because $\\pi > 3$.  So, $\\purpleC{\\pi^2} > \\greenD{\\sqrt{71}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The numbers are ordered from least to greatest below.   ||||| - | - | - $\\maroonD{\\sqrt{64}}$||$\\greenD{\\sqrt{71}}$||$\\purpleC{\\pi^2}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type B - Orderer"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Without using a calculator, order the following expressions from least to greatest.**",
+                                "images": [],
+                                "options": []
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's consider each expression one at a time.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{{9.\\overline{8}}} = 9.8888...$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's look at $\\greenD{\\sqrt{109}}$.  $\\greenD{\\sqrt{109}}$ is between $10$ and $11$ because $109$ is between $10^2 = 100$ and $11^2 = 121$.   So, $\\greenD{\\sqrt{109}} > \\maroonD{{9.\\overline{8}}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\purpleC{\\sqrt{128}}>\\greenD{\\sqrt{109}}$ because $128>109$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The numbers are ordered from least to greatest below.   ||||| - | - | - $\\maroonD{{9.\\overline{8}}}$||$\\greenD{\\sqrt{109}}$||$\\purpleC{\\sqrt{128}}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type B - Orderer"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Without using a calculator, order the following expressions from least to greatest.**",
+                                "images": [],
+                                "options": []
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's consider each expression one at a time.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{\\dfrac{11}3} \\approx 3.67$  We know that the square of $3.67$ has to be between $3^2 = 9$ and $4^2 = 16$. Let's use this to help us order the other two expressions.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's look at $\\greenD{\\sqrt{17}}$.  $\\greenD{\\sqrt{17}}$ is between $4$ and $5$ because $17$ is between $4^2 = 16$ and $5^2 = 25$.  So, $\\greenD{\\sqrt{17}} > \\maroonD{\\dfrac{11}3}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\purpleC{\\sqrt{20}}>\\green{\\sqrt{17}}$ because $20>17$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The numbers are ordered from least to greatest below.   ||||| - | - | - $\\maroonD{\\dfrac{11}3}$||$\\green{\\sqrt{17}}$||$\\purpleC{\\sqrt{20}}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type B - Orderer"
+                    }
+                }
+            }
+        }
+    ]
+}

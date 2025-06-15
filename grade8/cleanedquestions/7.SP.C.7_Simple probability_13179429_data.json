@@ -1,0 +1,1324 @@
+{
+    "standard_metadata": {
+        "standard_id": "7.SP.C.7",
+        "standard_description": "Develop a probability model and use it to find probabilities of events. Compare probabilities from a model to observed frequencies; if the agreement is not good, explain possible sources of the discrepancy.",
+        "standard_title": "Simple probability",
+        "standard_url": "https://www.khanacademy.org/math/cc-seventh-grade-math/cc-7th-probability-statistics/cc-7th-basic-prob/e/probability_1"
+    },
+    "id": "13179429",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "You roll a fair $6$-sided die.   **What is $\\text{P(roll greater than 4})$?**   *If necessary, round your answer to $2$ decimal places.*",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.3333333333333333",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "0.33",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{Probability} = \\dfrac{\\text{Number of favorable outcomes}}{\\text{Number of possible outcomes}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are $2$ favorable outcomes (rolling a $5$ or $6$).  There are $6$ possible outcomes since it is a $6$-sided die.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad \\text{P(roll greater than 4}) = \\dfrac{2}{6} \\approx 0.33$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Die, Spinner, and Coin"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "You roll a fair $6$-sided die.  **What is $\\text{P(roll less than 4})$?**   *If necessary, round your answer to $2$ decimal places.*",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.5",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "0.5",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{Probability} = \\dfrac{\\text{Number of favorable outcomes}}{\\text{Number of possible outcomes}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are $3$ favorable outcomes $($rolling a $1$, $2$, or $3)$.  There are $6$ possible outcomes since it is a $6$-sided die.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad \\text{P(roll less than 4}) = \\dfrac{3}{6} = 0.5$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Die, Spinner, and Coin"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "You roll a fair $6$-sided die.  **What is $\\text{P(not 5})$?**   *If necessary, round your answer to $2$ decimal places.*",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.8333333333333334",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "0.83",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{Probability} = \\dfrac{\\text{Number of favorable outcomes}}{\\text{Number of possible outcomes}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are $5$ favorable outcomes $($rolling a $1, 2, 3, 4,$ or $6)$.  There are $6$ possible outcomes since it is a $6$-sided die.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad \\text{P(not 5}) = \\dfrac{5}{6}\\approx0.83$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Die, Spinner, and Coin"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "You roll a fair $6$-sided die.  **What is $\\text{P(roll a 2})$?**   *If necessary, round your answer to $2$ decimal places.*",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.16666666666666666",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "0.166",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{Probability} = \\dfrac{\\text{Number of favorable outcomes}}{\\text{Number of possible outcomes}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There is $1$ favorable outcome $($rolling a $2)$.  There are $6$ possible outcomes since it is a $6$-sided die.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad \\text{P(roll a 2}) = \\dfrac{1}{6} \\approx 0.17$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Die, Spinner, and Coin"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "You roll a fair $6$-sided die.  **What is $\\text{P(roll an even number})$?**   *If necessary, round your answer to $2$ decimal places.*",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{Probability} = \\dfrac{\\text{Number of favorable outcomes}}{\\text{Number of possible outcomes}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are $3$ favorable outcomes $($rolling a $2$, $4$, or $6)$.  There are $6$ possible outcomes since it is a $6$-sided die.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\text{P(roll an even number}) = \\dfrac{3}{6} =0.5$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Die, Spinner, and Coin"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "You roll a fair $6$-sided die.  **What is $\\text{P(roll greater than }6)$?**   *If necessary, round your answer to $2$ decimal places.*",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{Probability} = \\dfrac{\\text{Number of favorable outcomes}}{\\text{Number of possible outcomes}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are $0$ favorable outcomes.  There are $6$ possible outcomes since it is a $6$-sided die.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\text{P(roll greater than }6) = \\dfrac{0}{6} =0$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Die, Spinner, and Coin"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "You roll a fair $6$-sided die.  **What is $\\text{P(not }3)$?**   *If necessary, round your answer to $2$ decimal places.*",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.8333333333333334",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{Probability} = \\dfrac{\\text{Number of favorable outcomes}}{\\text{Number of possible outcomes}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are $5$ favorable outcomes $(1$, $2$, $4$, $5$, and $6)$.  There are $6$ possible outcomes since it is a $6$-sided die.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\text{P(roll not }3) = \\dfrac{5}{6} \\approx  0.83$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Die, Spinner, and Coin"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "You spin the spinner shown below once. The spinner has $4$ equal sectors colored pink, purple, blue, and green.   **What is $\\text{P(blue})$?**   *If necessary, round your answer to $2$ decimal places.*",
+                                "images": [
+                                    {
+                                        "alt": "A circle split into fourths with each sector a different color: Blue, Purple, Pink, and Green. A spinner on the circle is pointing at the blue sector.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/957713a0041bc95cf6e0c2a1a9ede697f26bf197.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "0.25",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{Probability} = \\dfrac{\\text{Number of favorable outcomes}}{\\text{Number of possible outcomes}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There is $1$ favorable outcome (blue).  There are $4$ possible outcomes since there are $4$ equal sectors.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad  \\text{P(blue}) = \\dfrac{1}{4} = 0.25$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Die, Spinner, and Coin"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "You spin the spinner shown below once. The spinner has $4$ equal sectors colored pink, purple, blue, and green.  **What is $\\text{P(green})$?**   *If necessary, round your answer to $2$ decimal places.*",
+                                "images": [
+                                    {
+                                        "alt": "A circle split into fourths with each sector a different color: Blue, Purple, Pink, and Green. A spinner on the circle is pointing at the green sector.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/66e502676b3500cbb3e2f5b90e15cd9fb06aef0b.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "0.25",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{Probability} = \\dfrac{\\text{Number of favorable outcomes}}{\\text{Number of possible outcomes}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There is $1$ favorable outcome (green).  There are $4$ possible outcomes since there are $4$ equal sectors.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad  \\text{P(green}) = \\dfrac{1}{4}=0.25$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Die, Spinner, and Coin"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "You spin the spinner shown below once. The spinner has $4$ equal sectors colored pink, purple, blue, and green.  **What is $\\text{P(not purple})$?**   *If necessary, round your answer to $2$ decimal places.*",
+                                "images": [
+                                    {
+                                        "alt": "A circle split into fourths with each sector a different color: Blue, Purple, Pink, and Green. A spinner on the circle is pointing at the green sector.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/66e502676b3500cbb3e2f5b90e15cd9fb06aef0b.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "0.75",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{Probability} = \\dfrac{\\text{Number of favorable outcomes}}{\\text{Number of possible outcomes}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are $3$ favorable outcomes (pink, green, or blue).  There are $4$ possible outcomes since there are $4$ equal sectors.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad \\text{P(not purple}) = \\dfrac{3}{4} = 0.75$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Die, Spinner, and Coin"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "You spin the spinner shown below once. Each sector shown has an equal area.  **What is $\\text{P(not squirrel})$?**   *If necessary, round your answer to $2$ decimal places.*",
+                                "images": [
+                                    {
+                                        "alt": "A circle split into equal fifths with each sector having a different animal in it: squirrel, catepillar, rabbit, raccoon, and ladybug. A spinner on the circle is pointing at the ladybug sector.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/f06f61c27f2ac6f0fb824d35a33923477de7305a.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "0.8",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{Probability} = \\dfrac{\\text{Number of favorable outcomes}}{\\text{Number of possible outcomes}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are $4$ favorable outcomes (the $4$ sectors without squirrels).  There are $5$ possible outcomes since there are $5$ equal sectors.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$ \\text{P(not squirrel}) = \\dfrac{4}{5} = 0.8$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Die, Spinner, and Coin"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "You spin the spinner shown below once. Each sector shown has an equal area.  **What is $\\text{P(beaver})$?**   *If necessary, round your answer to $2$ decimal places.*",
+                                "images": [
+                                    {
+                                        "alt": "A circle split into equal thirds with each sector having a different animal in it: Beaver, Otter, and Turtle. A spinner on the circle is pointing at the beaver sector.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/9b7f281772e9ead76384e43e7e3035cc2fe83d26.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "0.3333333333333333",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{Probability} = \\dfrac{\\text{Number of favorable outcomes}}{\\text{Number of possible outcomes}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There is $1$ favorable outcome (the $1$ sector with a beaver).  There are $3$ possible outcomes since there are $3$ equal sectors.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$ \\text{P(beaver}) = \\dfrac{1}{3} \\approx 0.33$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Die, Spinner, and Coin"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "You flip a fair coin.  **What is $\\text{P(heads})$?**   *If necessary, round your answer to $2$ decimal places.*",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.5",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "0.5",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{Probability} = \\dfrac{\\text{Number of favorable outcomes}}{\\text{Number of possible outcomes}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There is $1$ favorable outcome (heads).  There are $2$ possible outcomes (heads or tails).",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad \\text{P(heads}) = \\dfrac{1}{2} = 0.5$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Die, Spinner, and Coin"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "You flip a fair coin.  **What is $\\text{P(tails})$?**   *If necessary, round your answer to $2$ decimal places.*",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.5",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "0.5",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{Probability} = \\dfrac{\\text{Number of favorable outcomes}}{\\text{Number of possible outcomes}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There is $1$ favorable outcome (tails).  There are $2$ possible outcomes (heads or tails).",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad \\text{P(tails}) = \\dfrac{1}{2}=0.5$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Die, Spinner, and Coin"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Giovanna owns a farm. She is going to randomly select one animal to present at the state fair. She has $6$ pigs, $7$ chickens, and $10$ cows.   **What is $\\text{P(chicken})$?**   *If necessary, round your answer to $2$ decimal places.*",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.30434782608695654",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "0.30434782608695654",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{Probability} = \\dfrac{\\text{Number of favorable outcomes}}{\\text{Number of possible outcomes}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are $7$ favorable outcomes (the $7$ chickens).  There are $23$ possible outcomes (the $6 + 7 + 10 = 23$ total animals).",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad \\text{P(chicken}) = \\dfrac{7}{23}\\approx0.3$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3 Options"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Leslie is a biologist. She is going to randomly select one animal from her lab to study. There are $5$ salamanders, $3$ crayfish, and $12$ minnows in her lab.  **What is $\\text{P(salamander})$?**   *If necessary, round your answer to $2$ decimal places.*",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.25",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "0.25",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{Probability} = \\dfrac{\\text{Number of favorable outcomes}}{\\text{Number of possible outcomes}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are $5$ favorable outcomes (the $5$ salamanders).  There are $20$ possible outcomes (the $5 + 3 + 12 = 20$ total animals).",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad \\text{P(salamander}) = \\dfrac{5}{20} = 0.25$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3 Options"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Dhruv is at a car dealership. He is going to randomly select a vehicle to test drive. There are $13$ trucks, $8$ vans, and $4$ compact cars.  **What is $\\text{P(compact car})$?**   *If necessary, round your answer to $2$ decimal places.*",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.16",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "0.16",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{Probability} = \\dfrac{\\text{Number of favorable outcomes}}{\\text{Number of possible outcomes}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are $4$ favorable outcomes (the $4$ compact cars).  There are $25$ possible outcomes (the $13 + 8 + 4 = 25$ total vehicles).",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad \\text{P(compact car}) = \\dfrac{4}{25}=0.16$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3 Options"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Greg has an MP3 player called the Jumble. The Jumble randomly selects a song for the user to listen to. Greg's Jumble has $6$ classical songs, $7$ rock songs, and $9$ rap songs on it.   **What is $\\text{P(not a rap song})$?**   *If necessary, round your answer to $2$ decimal places.*",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.5909090909090909",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "0.5909090909090909",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{Probability} = \\dfrac{\\text{Number of favorable outcomes}}{\\text{Number of possible outcomes}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are $13$ favorable outcomes (the $6 + 7 = 13$ songs that are *not* rap songs).  There are $22$ possible outcomes (the $6 + 7 + 9 = 22$ total songs).",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad \\text{P(not a rap song}) = \\dfrac{13}{22}\\approx0.59$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3 Options"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Joel has an MP3 player called the Jumble. The Jumble randomly selects a song for the user to listen to. Joel's Jumble has $2$ classical songs, $13$ rock songs, and $5$ rap songs on it.   **What is $\\text{P(rock song or rap song})$?**   *If necessary, round your answer to $2$ decimal places.*",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.9",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "0.9",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{Probability} = \\dfrac{\\text{Number of favorable outcomes}}{\\text{Number of possible outcomes}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are $18$ favorable outcomes (the $13 + 5 = 18$ songs that are either rocks songs or rap songs).  There are $20$ possible outcomes (the $2 + 13 + 5 = 20$ total songs).",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad \\text{P(rock song or rap song}) = \\dfrac{18}{20} = 0.9$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3 Options"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "You randomly draw a marble from a bag of marbles that contains $3$ blue marbles, $4$ green marbles, and $5$ red marbles.  **What is $\\text{P(draw a blue marble})$?**   *If necessary, round your answer to $2$ decimal places.*",
+                                "images": [
+                                    {
+                                        "alt": "An image of 5 red marbles, 4 green marbles, and 3 blue marbles mixed up.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/08fbf730c9f1ec141867c3c37638f30ebdc78fe4.png"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "0.25",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{Probability} = \\dfrac{\\text{Number of favorable outcomes}}{\\text{Number of possible outcomes}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are $3$ favorable outcomes (the $3$ blue marbles).  There are $12$ possible outcomes (the $3 + 4 + 5 = 12$ total marbles).",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad \\text{P(draw a blue marble}) = \\dfrac{3}{12} = 0.25$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3 Options"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "You randomly draw a marble from a bag of marbles that contains $7$ blue marbles, $2$ green marbles, and $1$ red marble.  **What is $\\text{P(not draw a blue marble})$?**   *If necessary, round your answer to $2$ decimal places.*",
+                                "images": [
+                                    {
+                                        "alt": "An image of 1 red marble, 2 green marbles, and 7 blue marbles mixed up.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/54d442b4e093e9b0028c6b2581fec7e546079f6b.png"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "0.3",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{Probability} = \\dfrac{\\text{Number of favorable outcomes}}{\\text{Number of possible outcomes}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are $3$ favorable outcomes (the $2 + 1 = 3$ marbles that are either green or red).  There are $10$ possible outcomes (the $7 + 2 + 1 = 10$ total marbles).",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad \\text{P(not draw a blue marble}) = \\dfrac{3}{10} = 0.3$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3 Options"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "You randomly draw a marble from a bag of marbles that contains $8$ blue marbles, $5$ green marbles, and $8$ red marbles.  **What is $\\text{P(draw a blue or red marble})$?**   *If necessary, round your answer to $2$ decimal places.*",
+                                "images": [
+                                    {
+                                        "alt": "An image of 8 red marbles, 5 green marbles, and 8 blue marbles mixed up.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/64430f539a7bd1d4c56f957779c43a4a184c09bd.png"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "0.7619047619047619",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{Probability} = \\dfrac{\\text{Number of favorable outcomes}}{\\text{Number of possible outcomes}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are $16$ favorable outcomes (the $8 + 8 = 16$ marbles that are either blue or red).  There are $21$ possible outcomes (the $8 + 5 + 8 = 21$ total marbles).",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad \\text{P(draw a blue or red marble}) = \\dfrac{16}{21}\\approx0.76$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3 Options"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "You spin the spinner shown below once. Each sector shown has an equal area.  **What is $\\text{P(shaded sector})$?**   *If necessary, round your answer to $2$ decimal places.*",
+                                "images": [
+                                    {
+                                        "alt": "A circle split into fifths with 2 blue sectors and 3 white sectors. A spinner on the circle is pointing at the blue sector.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/2f781c5b90e3188cfbea11153145e466cd36814f.png"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "0.4",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{Probability} = \\dfrac{\\text{Number of favorable outcomes}}{\\text{Number of possible outcomes}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are $2$ favorable outcomes (the $2$ shaded sectors).  There are $5$ possible outcomes since there are $5$ equal sectors.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad \\text{P(shaded sector}) = \\dfrac{2}{5} = 0.4$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3 Options"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "You spin the spinner shown below once. Each sector shown has an equal area.  **What is $\\text{P(not shaded sector})$?**   *If necessary, round your answer to $2$ decimal places.*",
+                                "images": [
+                                    {
+                                        "alt": "A circle split into twelve equal sectors with every other sector shaded. A spinner points at the shaded sector.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/ad799d42edd2631aeb5a1b7f634ecccf44c9831e.png"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "0.5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{Probability} = \\dfrac{\\text{Number of favorable outcomes}}{\\text{Number of possible outcomes}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are $6$ favorable outcomes (the $6$ not shaded sectors).  There are $12$ possible outcomes since there are $12$ equal sectors.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad \\text{P(not shaded sector}) = \\dfrac{6}{12} = 0.5$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3 Options"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "You spin the spinner shown below once. Each sector shown has an equal area.  **What is $\\text{P(beaver})$?**   *If necessary, round your answer to $2$ decimal places.*",
+                                "images": [
+                                    {
+                                        "alt": "A circle split into equal fifths with each sector having an animal in it. 4 sectors contain a beaver and 1 sector ccontailes a turtle. A spinner on the circle is pointing at the turtle sector.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/81c28b79c3daffcc0a893e7238bb8cf0f7b3d896.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "0.8",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{Probability} = \\dfrac{\\text{Number of favorable outcomes}}{\\text{Number of possible outcomes}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are $4$ favorable outcomes (the $4$ sectors with beavers).  There are $5$ possible outcomes since there are $5$ equal sectors.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$ \\text{P(beaver}) = \\dfrac{4}{5} = 0.8$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3 Options"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Jake is going to call one person from his contacts at random. He has $30$ total contacts. $16$ of those contacts are people he met at school.  **What is $\\text{P(call a person from school})$?**   *If necessary, round your answer to $2$ decimal places.*",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.5333333333333333",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "0.5333333333333333",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{Probability} = \\dfrac{\\text{Number of favorable outcomes}}{\\text{Number of possible outcomes}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are $16$ favorable outcomes (the $16$ people Jake met at school).  There are $30$ possible outcomes (the $30$ total contacts).",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad \\text{P(call a person from school}) = \\dfrac{16}{30} \\approx0.53$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2 Options"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Bruce is going to call one person from his contacts at random. He has $25$ total contacts. $20$ of those contacts  are from his neighborhood.  **What is $\\text{P(call a person not from his neighborhood})$?**   *If necessary, round your answer to $2$ decimal places.*",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.2",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "0.2",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{Probability} = \\dfrac{\\text{Number of favorable outcomes}}{\\text{Number of possible outcomes}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are $5$ favorable outcomes (the $25 - 20 = 5$ people not from his neighborhood).  There are $25$ possible outcomes (the $25$ total contacts).",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad \\text{P(call a person not from his neighborhood}) = \\dfrac{5}{25} = 0.2$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2 Options"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Omar ordered his sister a birthday card from a company that randomly selects a card from their inventory. The company has $21$ total cards in inventory. $14$ of those cards are birthday cards.  **What is $\\text{P(not a birthday card})$?**   *If necessary, round your answer to $2$ decimal places.*",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.3333333333333333",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "0.3333333333333333",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{Probability} = \\dfrac{\\text{Number of favorable outcomes}}{\\text{Number of possible outcomes}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are $7$ favorable outcomes (the $21 - 14 = 7$ cards that are not birthday cards).  There are $21$ possible outcomes (the $21$ total cards).",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad \\text{P(not a birthday card}) = \\dfrac{7}{21} \\approx0.33$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2 Options"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "You randomly draw a marble out of a bag that contains $20$ total marbles. $12$ of the marbles in the bag are blue.  **What is $\\text{P(draw a blue marble})$?**   *If necessary, round your answer to $2$ decimal places.*",
+                                "images": [
+                                    {
+                                        "alt": "An image of 5 red marbles, 3 green marbles, and 12 blue marbles mixed up.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/0eb01fa032d9a0483e77f3c79471b29c22f5977c.png"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "0.6",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{Probability} = \\dfrac{\\text{Number of favorable outcomes}}{\\text{Number of possible outcomes}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are $12$ favorable outcomes (the $12$ blue marbles).  There are $20$ possible outcomes (the $20$ total marbles).",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad \\text{P(draw a blue marble}) = \\dfrac{12}{20} = 0.6$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2 Options"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "You draw a card at random from a deck that contains $3$ black cards and $7$ red cards.  **What is $\\text{P(draw a black card})$?**   *If necessary, round your answer to $2$ decimal places.*",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.3",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "0.3",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{Probability} = \\dfrac{\\text{Number of favorable outcomes}}{\\text{Number of possible outcomes}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are $3$ favorable outcomes (the $3$ black cards).  There are $10$ possible outcomes (the $3 + 7 = 10$ total cards).",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad \\text{P(draw a black card}) = \\dfrac{3}{10} = 0.3$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2 Options"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Cam can't figure out what to eat. He is going to randomly select a piece of fruit from his pantry. There are $4$ apples and $5$ bananas in his pantry.  **What is $\\text{P(select an apple})$?**   *If necessary, round your answer to $2$ decimal places.*",
+                                "images": [
+                                    {
+                                        "alt": "Four apples and five bananas.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/04ed64be1f5a25fd7dd0b52e5536bc01d98b762c.png"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "0.4444444444444444",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{Probability} = \\dfrac{\\text{Number of favorable outcomes}}{\\text{Number of possible outcomes}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are $4$ favorable outcomes (the $4$ apples).  There are $9$ possible outcomes (the $4 + 5 = 9$ total pieces of fruit).",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad \\text{P(select an apple}) = \\dfrac{4}{9}\\approx0.44$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2 Options"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Mrs. Avery is going to randomly select one student from her class to read a poem out loud. There are $15$ boys and $13$ girls in her class.  **What is $\\text{P(boy})$?**   *If necessary, round your answer to $2$ decimal places.*",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.5357142857142857",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "0.5357142857142857",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{Probability} = \\dfrac{\\text{Number of favorable outcomes}}{\\text{Number of possible outcomes}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are $15$ favorable outcomes (the $15$ boys).  There are $28$ possible outcomes (the $15 + 13 = 28$ total students in the class).",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad \\text{P(boy}) = \\dfrac{15}{28}\\approx0.54$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2 Options"
+                    }
+                }
+            }
+        }
+    ]
+}

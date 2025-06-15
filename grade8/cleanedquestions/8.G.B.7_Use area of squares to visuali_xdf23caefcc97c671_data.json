@@ -1,0 +1,578 @@
+{
+    "standard_metadata": {
+        "standard_id": "8.G.B.7",
+        "standard_description": "Apply the Pythagorean Theorem to determine unknown side lengths in right triangles in real-world and mathematical problems in two and three dimensions.",
+        "standard_title": "Use area of squares to visualize Pythagorean theorem",
+        "standard_url": "https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-geometry/cc-8th-pythagorean-theorem/e/use-area-of-squares-to-visualize-pythagorean-theorem"
+    },
+    "id": "xdf23caefcc97c671",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Based on the areas of the squares, determine whether the triangle shown is a right triangle.**",
+                                "images": [
+                                    {
+                                        "alt": "A triangle with a square connected to all 3 sides of the triangle on a coordinate grid.  The triangle has a base of 8 units and a height of 3 units. The square connected to the top, left side of the triangle is labeled a squared equals 58. The square connected to the right side of the triangle is labeled b squared equals 10.  The square connected to the bottom side of the triangle is labeled c squared equals 64. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/af9fc9934ee256785b696bb9b07b78813305a935.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Yes, it is a right triangle.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No, it is not a right triangle.",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can use the Pythagorean theorem $(a^2+b^2=c^2)$ to see if the triangle is a right triangle.   $\\text{Area of a square} =\\text{side}^2$   So, we can substitute the areas of the squares that share side lengths with the triangle for $a^2, b^2$ and $c^2$ in the Pythagorean theorem.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "For example, in the diagram above, the area of the square that shares a side with side length $a$ is $58$ square units.  So, $a^2=58$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's fill in the rest of the values:  $\\begin{align} a^2 + b^2 &=  c^2 \\\\\\\\ 58 +10 &\\stackrel{\\large?}{=} 64 \\\\\\\\ 68 &\\neq 64\\\\\\\\ \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The sum of the areas of the squares connected to the two shorter triangle sides is not equal to the area of the square connected to the longest side.    So, the triangle is **not** a right triangle.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1  "
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Based on the areas of the squares, determine whether the triangle shown is a right triangle.**",
+                                "images": [
+                                    {
+                                        "alt": "A triangle with a square connected to all 3 sides of the triangle on a coordinate grid.  The square connected to the top, right side of the triangle is labeled c squared equals 27. The square connected to the bottom, right side of the triangle is labeled b squared equals 7.  The square connected to the bottom, left side of the triangle is labeled a squared equals 18. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/736885597b7beb9c16cfa7c970a9629927efb72f.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Yes, it is a right triangle.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No, it is not a right triangle.",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can use the Pythagorean theorem $(a^2+b^2=c^2)$ to see if the triangle is a right triangle.   $\\text{Area of a square} =\\text{side}^2$   So, we can substitute the areas of the squares that share side lengths with the triangle for $a^2, b^2$ and $c^2$ in the Pythagorean theorem.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "For example, in the diagram above, the area of the square that shares a side with side length $a$ is $18$ square units.  So, $a^2=18$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's fill in the rest of the values:  $\\begin{align} a^2 + b^2 &=  c^2 \\\\\\\\ 18 +7 &\\stackrel{\\large?}{=} 27 \\\\\\\\ 25 &\\neq 27\\\\\\\\ \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The sum of the areas of the squares connected to the two shorter triangle sides is not equal to the area of the square connected to the longest side.    So, the triangle is **not** a right triangle.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1  "
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The diagram shows a right triangle and three squares. The area of the largest square is $36$ units$^2$.       **Which could be the areas of the smaller squares?**",
+                                "images": [
+                                    {
+                                        "alt": "A right triangle with a pink square connected to all 3 sides of the triangle on a coordinate grid. The left side and bottom side are the legs of the right triangle.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/127ec89cca4fa480c7f31fdd91c7877af52d2ca7.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$6$ and $30$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$8$ and $28$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$4$ and $16$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can use the Pythagorean theorem $(a^2+b^2=c^2)$ to determine possible areas of the two smaller squares.   $\\text{Area of a square} =\\text{side}^2$   So, we can substitute the areas of the squares that share side lengths with the triangle for $a^2, b^2$ and $c^2$ in the Pythagorean theorem.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "For example, in the diagram above, the area of the square that shares a side with the hypotenuse is $36$ square units.  So, $c^2=36$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's fill in the possible values to see if they make the equation true.   $\\begin{align} a^2 + b^2 &=  c^2 \\\\\\\\ a^2 + b^2 &= 36 \\\\\\\\ 6 + 30 &\\stackrel{\\large?}{=}36 \\\\\\\\ 36 &\\stackrel{\\checkmark}{=}36\\\\\\\\ \\end{align}$  The sum of the areas of the squares connected to the two shorter triangle sides is equal to the area of the square connected to the longest side.    So, $6$ and $30$ could be the areas of the smaller  squares.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} a^2 + b^2 &=  c^2 \\\\\\\\ a^2 + b^2 &= 36 \\\\\\\\ 8 + 28 &\\stackrel{\\large?}{=}36 \\\\\\\\ 36 &\\stackrel{\\checkmark}{=}36\\\\\\\\ \\end{align}$  The sum of the areas of the squares connected to the two shorter triangle sides is equal to the area of the square connected to the longest side.   So, $8$ and $28$ could be the areas of the smaller  squares.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} a^2 + b^2 &=  c^2 \\\\\\\\ a^2 + b^2 &= 36 \\\\\\\\ 4 + 16 &\\stackrel{\\large?}{=}36 \\\\\\\\ 20 &\\neq 36\\\\\\\\ \\end{align}$  The sum of the areas of the squares connected to the two shorter triangle sides is **not** equal to the area of the square connected to the longest side.   So, $4$ and $16$ could **not** be the areas of the smaller  squares.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the smaller squares could be:    $6$ and $30$   $8$ and $28$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The diagram shows a right triangle and three squares. The area of the largest square is $67$ units$^2$.        **Which could be the areas of the smaller squares?**",
+                                "images": [
+                                    {
+                                        "alt": "A right triangle with a pink square connected to all 3 sides of the triangle. The right side and bottom side are the legs of the right triangle.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/8b28888dee44ca9e6cbf3b104466ce2cdbdf5a44.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$8$ and $58$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$7$ and $60$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$11$ and $56$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can use the Pythagorean theorem $(a^2+b^2=c^2)$ to determine possible areas of the two smaller squares.   $\\text{Area of a square} =\\text{side}^2$   So, we can substitute the areas of the squares that share side lengths with the triangle for $a^2, b^2$ and $c^2$ in the Pythagorean theorem.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "For example, in the diagram above, the area of the square that shares a side with the hypotenuse is $67$ square units.  So, $c^2=67$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's fill in the possible values to see if they make the equation true.   $\\begin{align} a^2 + b^2 &=  c^2 \\\\\\\\ a^2 + b^2 &= 67 \\\\\\\\ 8 + 58 &\\stackrel{\\large?}{=}67 \\\\\\\\ 66 &\\neq 67\\\\\\\\ \\end{align}$   The sum of the areas of the squares connected to the two shorter triangle sides is **not** equal to the area of the square connected to the longest side.    So, $8$ and $58$ could **not** be the areas of the smaller  squares.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} a^2 + b^2 &=  c^2 \\\\\\\\ a^2 + b^2 &= 67 \\\\\\\\ 7 + 60 &\\stackrel{\\large?}{=}67 \\\\\\\\ 67 &\\stackrel{\\checkmark}{=} 67\\\\\\\\ \\end{align}$  The sum of the areas of the squares connected to the two shorter triangle sides is equal to the area of the square connected to the longest side.    So, $7$ and $60$ could  be the areas of the smaller  squares.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} a^2 + b^2 &=  c^2 \\\\\\\\ a^2 + b^2 &= 67 \\\\\\\\ 11+ 56 &\\stackrel{\\large?}{=}67 \\\\\\\\ 67 &\\stackrel{\\checkmark}{=} 67\\\\\\\\ \\end{align}$  The sum of the areas of the squares connected to the two shorter triangle sides is equal to the area of the square connected to the longest side.    So, $11$ and $56$ could  be the areas of the smaller  squares.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the smaller squares could be:    $7$ and $60$   $11$ and $56$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The diagram shows a right triangle and three squares. The area of the largest square is $55$ units$^2$.     **Which could be the areas of the smaller squares?**",
+                                "images": [
+                                    {
+                                        "alt": "A right triangle with a pink square connected to all 3 sides of the triangle. The right side and bottom side are the legs of the right triangle.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/b40cc65f5425864fc22bb4e049ec7a5c4e3af167.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$12$ and $43$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$14$ and $40$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$16$ and $37$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can use the Pythagorean theorem $(a^2+b^2=c^2)$ to determine possible areas of the two smaller squares.   $\\text{Area of a square} =\\text{side}^2$   So, we can substitute the areas of the squares that share side lengths with the triangle for $a^2, b^2$ and $c^2$ in the Pythagorean theorem.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "For example, in the diagram above, the area of the square that shares a side with the hypotenuse is $55$ square units.  So, $c^2=55$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's fill in the possible values to see if they make the equation true.   $\\begin{align} a^2 + b^2 &=  c^2 \\\\\\\\ a^2 + b^2 &= 55\\\\\\\\ 12 + 43 &\\stackrel{\\large?}{=}55\\\\\\\\ 55&\\stackrel{\\checkmark}{=}  55\\\\\\\\ \\end{align}$  The sum of the areas of the squares connected to the two shorter triangle sides is equal to the area of the square connected to the longest side.    So, $12$ and $43$ could be the areas of the smaller  squares.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} a^2 + b^2 &=  c^2 \\\\\\\\ a^2 + b^2 &= 55\\\\\\\\ 14 + 40&\\stackrel{\\large?}{=} 55 \\\\\\\\ 54 &\\neq 55\\\\\\\\ \\end{align}$  The sum of the areas of the squares connected to the two shorter triangle sides is **not** equal to the area of the square connected to the longest side.    So, $14$ and $40$ could **not** be the areas of the smaller  squares.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} a^2 + b^2 &=  c^2 \\\\\\\\ a^2 + b^2 &= 55\\\\\\\\ 16 + 37&\\stackrel{\\large?}{=} 55\\\\\\\\ 53&\\neq 55\\\\\\\\ \\end{align}$  The sum of the areas of the squares connected to the two shorter triangle sides is **not** equal to the area of the square connected to the longest side.    So, $16$ and $37$ could **not** be the areas of the smaller  squares.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the smaller squares could be:    $12$ and $43$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The areas of the squares adjacent to two sides of a right triangle are shown below.     **What is the area of the square adjacent to the third side of the triangle?**   units$^2$",
+                                "images": [
+                                    {
+                                        "alt": "A right triangle with a square connected to all 3 sides of the triangle.  The square connected to the top, right side of the triangle is labeled 44 square units. The square connected to the bottom side of the triangle is labeled ? square units.  The square connected to the left side of the triangle is labeled 33 square units.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/f0eb1515a27209cb703346ee4970bf8d543b0a5a.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "11",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can use the Pythagorean theorem $(a^2+b^2=c^2)$ to find the area of square adjacent to  the third side.   $\\text{Area of a square} =\\text{side}^2$   So, we can substitute the areas of the squares that share side lengths with the triangle for $a^2, b^2$ and $c^2$ in the Pythagorean theorem.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "For example, in the diagram above, the area of the square that shares a side with the hypotenuse is $44$ square units.  So, $c^2=44$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's fill in the remaining values:   $\\begin{align} a^2 + b^2 &=  c^2 \\\\\\\\ x^2 + \\maroonD{33} &= \\greenD{44}\\\\\\\\ x^2 &=\\blueD{11}\\\\\\\\ \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the square adjacent to the third side of the triangle is $11$ units$^2$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The areas of the squares adjacent to two sides of a right triangle are shown below.      **What is the area of the square adjacent to the third side of the triangle?**   units$^2$",
+                                "images": [
+                                    {
+                                        "alt": "A right triangle with a square connected to all 3 sides of the triangle.  The square connected to the top, right side of the triangle is labeled ? square units. The square connected to the bottom side of the triangle is labeled 50 square units.  The square connected to the left side of the triangle is labeled 35 square units.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/627810458d35ecfb73b8e50b4ff7f4f3a3db0b80.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "85",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can use the Pythagorean theorem $(a^2+b^2=c^2)$ to find the area of square adjacent to the third side.   $\\text{Area of a square} =\\text{side}^2$   So, we can substitute the areas of the squares that share side lengths with the triangle for $a^2, b^2$ and $c^2$ in the Pythagorean theorem.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "For example, in the diagram above, the area of the square that shares a side with side length $a$ is $35$ square units.  So, $a^2=35$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's fill in the remaining values:   $\\begin{align} a^2 + b^2 &=  x^2 \\\\\\\\ \\maroonD{35} + \\greenD{50} &=  x^2\\\\\\\\ \\blueD{85} &=x^2\\\\\\\\ \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the square adjacent to the third side of the triangle is  $85$ units$^2$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Two sides of a right triangle measure $7$ units and $3$ units.     **What is the area of the square that shares a side with the third side of the triangle?**   units$^2$",
+                                "images": [
+                                    {
+                                        "alt": "A right triangle with an unlabeled square connected to the longest side of the triangle on a coordinate grid.  The base is 7 units. The height is 3 units.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/99292df3fb6b28166ad25264917551e6a03bfba3.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "58",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can use the Pythagorean theorem to find the area of the square for the third side.  The equation for the Pythagorean theorem is   >$a^2 + b^2  = c^2$  where $a$ and $b$ are the lengths of the two legs of the triangle, and $c$ is the length of the hypotenuse.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "In this case, $a = 3, b = 7$, and $c = x$.  $\\begin{align} a^2 + b^2 &=  c^2 \\\\\\\\ 3^2 +7^2&= \\blueD{ x^2}\\\\\\\\ 9 + 49 & =\\blueD{ x^2} \\\\\\\\ \\blueD{58} & = \\blueD{x^2} \\\\\\\\ \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the square for the third side of the triangle is  $58$ units$^2$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 4"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Two sides of a right triangle measure $2$ units and $4$ units.     **What is the area of the square that shares a side with the third side of the triangle?**   units$^2$",
+                                "images": [
+                                    {
+                                        "alt": "A right triangle with an unlabeled square connected to the longest side of the triangle on a coordinate grid.  The base is 2 units. The height is 4 units.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/86abeff44daf67ba3455aaeeb9bfa8b0093dc9f3.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "20",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can use the Pythagorean theorem to find the area of the square for the third side.  The equation for the Pythagorean theorem is   >$a^2 + b^2  = c^2$  where $a$ and $b$ are the lengths of the two legs of the triangle, and $c$ is the length of the hypotenuse.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "In this case, $a = 2, b = 4$, and $c = x$.  $\\begin{align} a^2 + b^2 &=  c^2 \\\\\\\\ 2^2 +4^2&= \\blueD{ x^2}\\\\\\\\ 4 + 16 & =\\blueD{ x^2} \\\\\\\\ \\blueD{20} & = \\blueD{x^2} \\\\\\\\ \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the square for the third side of the triangle is  $20$ units$^2$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 4"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The areas of the squares adjacent to two sides of a right triangle are $29.25$ units$^2$ and $13$ units$^2$.      **Find the length, $x$, of the third side of the triangle.**   units",
+                                "images": [
+                                    {
+                                        "alt": "A right triangle with a square connected to the 2 legs of the triangle.  The square connected to the top, left side of the triangle is labeled 13 square units. The square connected to the top, right side of the triangle is labeled 29.25 square units.  The longest side of the right triangle is labeled x units.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/b9fe182c5d94e68d049fb7270b0b361ebf28dfbc.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "6.5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can use the Pythagorean theorem $(a^2+b^2=c^2)$ to find the length of the third side of the triangle.   $\\text{Area of a square} =\\text{side}^2$   So, we can substitute the areas of the squares that share side lengths with the triangle for $a^2$ and $b^2$ in the Pythagorean theorem.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "For example, in the diagram above, the area of the square  that shares a side with side length $a$ is $13$ square units.  So, $a^2=13$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's fill in the remaining values:   $\\begin{align} a^2 + b^2 &=  c^2 \\\\\\\\ \\maroonD{13}  + \\blueD{29.25}&= x^2\\\\\\\\ 42.25 & = x^2 \\\\\\\\ \\sqrt{42.25} & = x \\\\\\\\ 6.5 & = x \\\\\\\\ \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The length, $x$, of the third side of the triangle is $6.5$ units.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 5"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The areas of the squares adjacent to two sides of a right triangle are $32$ units$^2$ and $32$ units$^2$.      **Find the length, $x$, of the third side of the triangle.**   units",
+                                "images": [
+                                    {
+                                        "alt": "A right triangle with a square connected to the 2 legs of the triangle.  The square connected to the top, left side of the triangle is labeled 32 square units. The square connected to the top, right side of the triangle is labeled 32 square units.  The longest side of the right triangle is labeled x units.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/e1576ba514fe67761c7302168e50ec140b878a2e.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "8",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can use the Pythagorean theorem $(a^2+b^2=c^2)$ to find the length of the third side of the triangle.   $\\text{Area of a square} =\\text{side}^2$   So, we can substitute the areas of the squares that share side lengths with the triangle for $a^2$ and $b^2$ in the Pythagorean theorem.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "For example, in the diagram above, the area of the square that shares a side with side length $a$ is $32$ square units.  So, $a^2=32$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's fill in the remaining values:   $\\begin{align} a^2 + b^2 &=  c^2 \\\\\\\\ \\maroonD{32}  + \\blueD{32}&= x^2\\\\\\\\ 64 & = x^2 \\\\\\\\ \\sqrt{64} & = x \\\\\\\\ 8 & = x \\\\\\\\ \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The length, $x$, of the third side of the triangle is $8$ units.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 5"
+                    }
+                }
+            }
+        }
+    ]
+}
