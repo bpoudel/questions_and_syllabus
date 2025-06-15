@@ -1,0 +1,667 @@
+{
+    "standard_metadata": {
+        "standard_id": "6.EE.C.9",
+        "standard_description": "Use variables to represent two quantities in a real-world problem that change in relationship to one another; write an equation to express one quantity, thought of as the dependent variable, in terms of the other quantity, thought of as the independent variable. Analyze the relationship between the dependent and independent variables using graphs and tables, and relate these to the equation.",
+        "standard_title": "Relationships between quantities in equations",
+        "standard_url": "https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-equations-and-inequalities/x0267d782:cc-6th-analyzing-relationships/e/create-two-variable-equations-from-real-world-contexts"
+    },
+    "id": "x402ac72d79df891e",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A recipe uses $300$ grams of flour for every $200$ grams of sugar.   **1. Write an equation that represents how many grams of flour we need ($f$) for some number of grams of sugar ($s$).**    **2. How many grams of flour do we need if we use $500$ grams of sugar?**   grams",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "750",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  First, let's find how much flour we need for $1$ gram of sugar.  Then, we can multiply that unit rate by any amount of sugar ($s$) to find how much flour ($f$) we would need:  Grams of sugar | Grams of flour :-: | :-: $200$ | $300$ $\\downarrow \\div 200$ | $\\downarrow \\div 200$ $1$ | $?$ $\\downarrow \\times s$ | $\\downarrow \\times s$ $s$ | $? \\cdot s$  We can use this strategy to write a general equation, and to find how much flour we need to go with $500$ grams of sugar.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Writing an equation  Grams of sugar | Grams of flour :-: | :-: $200$ | $300$ $\\downarrow \\div 200$ | $\\downarrow \\div 200$ $1$ | $\\dfrac32$ $\\downarrow \\times s$ | $\\downarrow \\times s$ $s$ | $\\dfrac32s$  So we can multiply how much sugar we use ($s$) by $\\dfrac32$ to find how much flour we need ($f$):  $f=\\dfrac32s$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###How much flour with $500$ grams of sugar?  Let's use our equation to find the value of $f$ when $s=\\blueE{500}$:  $\\begin{align} f&=\\dfrac32s \\\\\\\\ &=\\dfrac32(\\blueE{500}) \\\\\\\\ &=\\dfrac{1{,}500}{2} \\\\\\\\ &=750 \\end{align}$  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Answers  If we use $300$ grams of flour for every $200$ grams of sugar...  **1. Our equation is $\\boxed{f=\\dfrac32s}$.**  **2. We need $\\boxed{750}$ grams of flour for $500$ grams of sugar.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Jamie is going to run for $\\dfrac12$ of an hour at a constant rate, and they want to plan what that rate will be.  **1. Write an equation that represents the distance Jamie will run in kilometers ($d$) at a rate of $r$ kilometers per hour.**    **2. How far will Jamie run if they choose a rate of $8$ kilometers per hour?**   kilometers",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "4",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  Let's use the relationship between rate, distance and time:  $\\blueE{\\text{rate}}=\\dfrac{\\maroonD{\\text{distance}}}{\\goldE{\\text{time}}}$  We know that Jamie is going to run for $\\dfrac12$ of an hour. Let's use this to write a general equation, and to find how far they will run if they choose a rate of $8$ kilometers per hour.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Writing an equation  Since Jamie is going to run for $\\goldE{\\dfrac12}$ of an hour, let's substitute that for $\\goldE{\\text{time}}$. Then, we can solve for $\\maroonD{\\text{distance }(d)}$ in terms of $\\blueE{\\text{rate }(r)}$:  $\\begin{align} \\blueE{\\text{rate}} &= \\dfrac{\\maroonD{\\text{distance}}}{\\goldE{\\text{time}}} \\\\\\\\ \\blueE{r} &= \\dfrac{\\maroonD{d}}{\\goldE{\\dfrac12}} \\\\\\\\ \\dfrac12 \\cdot \\blueE{r} &= \\dfrac{\\maroonD{d}}{\\cancel{\\goldE{\\dfrac12}} }\\cdot \\cancel{\\dfrac12} \\\\\\\\ \\dfrac12 \\blueE{r} &= \\maroonD{d} \\\\\\\\ \\maroonD{d} &= \\dfrac12 \\blueE{r} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###How far at a rate of $8$ kilometers per hour?  Let's use our equation to find the value of $\\maroonD{d}$ when $\\blueE{r}=\\blueE{8}$:  $\\begin{align} \\maroonD{d} &= \\dfrac12 \\blueE{r} \\\\\\\\ &=\\dfrac12(\\blueE{8}) \\\\\\\\ &=\\dfrac{8}{2} \\\\\\\\ &=4 \\end{align}$  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Answers  If Jamie is going to run for $\\dfrac12$ of an hour at a constant rate...  **1. Our equation is $\\boxed{d=\\dfrac12r}$.**  **2. Jamie will run $\\boxed{4}$ kilometers at a rate of $8$ kilometers per hour.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Dominic is shopping at a store that is offering a discount of $15\\%$ off the usual price of any item.   **1. Write an equation that represents the amount of discount offered ($d$) on an item whose usual price is $p$.**    **2. How much discount does Dominic receive on an item whose usual price is $\\pounds 80$ ?**  $\\pounds$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "12",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  We can find $n\\%$ of a number like this:  $\\begin{align} \\goldE{n}\\% \\text{ of }(\\maroonD{\\text{whole}}) &= \\blueE{\\text{part}} \\\\\\\\ \\dfrac{\\goldE{n}}{100} \\cdot \\maroonD{\\text{whole}} &= \\blueE{\\text{part}} \\end{align}$  We know that the discount is $15\\%$. If we identify the part and the whole, we can write a general equation that relates the amount of discount ($d$) to the usual price ($p$).  Then, we can find the amount of discount Dominic receives on an item whose usual price is $\\pounds 80$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Writing an equation  Our $\\maroonD{\\text{whole}}$ is the usual price $\\maroonD{p}$, and the $\\blueE{\\text{part}}$ is the amount of discount Dominic receives ($\\blueE{d}$) with the $\\goldE{15}\\%$ discount:  $\\begin{align} \\dfrac{\\goldE{n}}{100} \\cdot \\maroonD{\\text{whole}} &= \\blueE{\\text{part}} \\\\\\\\ \\dfrac{\\goldE{15}}{100} \\cdot \\maroonD{p} &= \\blueE{d} \\\\\\\\ 0.15 \\maroonD{p} &= \\blueE{d} \\\\\\\\ \\blueE{d} &= 0.15 \\maroonD{p} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###How much saved on $\\pounds 80$ item?  Let's use our equation to find the value of $\\blueE{d}$ when $\\maroonD{p}=\\maroonD{80}$:  $\\begin{align} \\blueE{d} &= 0.15 \\maroonD{p} \\\\\\\\ &=0.15(\\maroonD{80}) \\\\\\\\ &=12 \\end{align}$  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Answers  If the store is offering a discount of $15\\%$ off the usual price...  **1. Our equation is $\\boxed{d=0.15p}$.**  **2. Dominic receives a $\\boxed{\\pounds 12}$ discount on an item whose usual price is $\\pounds 80$.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Marta is shopping where there is a sales tax of $8\\%$ on any item she buys.  **1. Write an equation that represents how much tax ($t$) Marta pays on an item whose price is $p$ dollars.**    **2. How much tax does Marta pay on an item whose price is $\\$ 20$?**  $\\$$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "1.6",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  We can find $n\\%$ of a number like this:  $\\begin{align} \\goldE{n}\\% \\text{ of }(\\maroonD{\\text{whole}}) &= \\blueE{\\text{part}} \\\\\\\\ \\dfrac{\\goldE{n}}{100} \\cdot \\maroonD{\\text{whole}} &= \\blueE{\\text{part}} \\end{align}$  We know that the tax is $8\\%$. If we identify the part and the whole, we can write a general equation that relates how much tax $(t)$ Marta pays on an item whose price is $p$ dollars.  Then, we can find how much tax Marta pays on an item whose price is $\\$ 20$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Writing an equation  Our $\\maroonD{\\text{whole}}$ is the item's price $\\maroonD{p}$, and the $\\blueE{\\text{part}}$ is how much money Marta pays $(\\blueE{t})$ with the $\\goldE{8}\\%$ tax:  $\\begin{align} \\dfrac{\\goldE{n}}{100} \\cdot \\maroonD{\\text{whole}} &= \\blueE{\\text{part}} \\\\\\\\ \\dfrac{\\goldE{8}}{100} \\cdot \\maroonD{p} &= \\blueE{t} \\\\\\\\ 0.08 \\maroonD{p} &= \\blueE{t} \\\\\\\\ \\blueE{t} &= 0.08 \\maroonD{p} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###How much tax on $\\$ 20$ item?  Let's use our equation to find the value of $\\blueE{t}$ when $\\maroonD{p}=\\maroonD{20}$:  $\\begin{align} \\blueE{t} &= 0.08 \\maroonD{p} \\\\\\\\ &=0.08(\\maroonD{20}) \\\\\\\\ &=1.6 \\end{align}$  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Answers  If the sales tax on an item is $8\\%$...  **1. Our equation is $\\boxed{t=0.08p}$.**  **2. Marta will pay $\\boxed{\\$ 1.60}$ in tax on an item whose price is $\\$ 20$.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A recipe for a single batch of cookies calls for $3$ eggs.  **1. Write an equation that represents the total number of eggs we need ($n$) for some number of batches ($b$) of this recipe.**    **2. How many eggs do we need to make $6$ batches of this recipe?**   eggs",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "18",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  We know that we need $3$ eggs for $1$ batch.  We can multiply that unit rate by any number of batches ($b$) to find the total number of eggs ($n$) we would need:  Batches | Eggs :-: | :-: $1$ | $3$ $\\downarrow \\times b$ | $\\downarrow \\times b$ $b$ | $?$  We can use this strategy to write a general equation, and to find how many eggs we need for $6$ batches.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Writing an equation  Batches | Eggs :-: | :-: $1$ | $3$ $\\downarrow \\times b$ | $\\downarrow \\times b$ $b$ | $3b$  So we can multiply the number of batches ($b$) by $3$ to find how many eggs we need ($n$):  $n=3b$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###How many eggs for $6$ batches?  Let's use our equation to find the value of $n$ when $b=\\blueE{6}$:  $\\begin{align} n&=3b \\\\\\\\ &=3(\\blueE{6}) \\\\\\\\ &=18 \\end{align}$  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Answers  If a recipe for a single batch of cookies calls for $3$ eggs...  **1. Our equation is $\\boxed{n=3b}$.**  **2. We need $\\boxed{18}$ eggs to make $6$ batches of this recipe.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Seb bikes at a constant rate of $20$ kilometers per hour.  **1. Write an equation that represents the distance, in kilometers, Seb travels ($d$) based on how many hours he bikes ($t$) at this rate.**    **2. How far will Seb travel if he bikes at this rate for $2.5$ hours?**   kilometers",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "50",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  Let's use the relationship between rate, distance and time:  $\\blueE{\\text{rate}}=\\dfrac{\\maroonD{\\text{distance}}}{\\goldE{\\text{time}}}$  We know that Seb bikes at a constant rate of $20$ kilometers per hour. Let's use this to write a general equation, and to find how far Seb travels if he bikes at this rate for $2.5$ hours.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Writing an equation  Since Seb bikes at constant rate of $\\blueE{20}$ kilometers per hour, let's substitute that for $\\blueE{\\text{rate}}$. Then, we can solve for $\\maroonD{\\text{distance}}$ ($\\maroonD{d}$) in terms of $\\goldE{\\text{time}}$ ($\\goldE{t}$):  $\\begin{align} \\blueE{\\text{rate}} &= \\dfrac{\\maroonD{\\text{distance}}}{\\goldE{\\text{time}}} \\\\\\\\ \\blueE{20} &= \\dfrac{\\maroonD{d}}{\\goldE{t}} \\\\\\\\ \\goldE{t} \\cdot \\blueE{20} &= \\dfrac{\\maroonD{d}}{\\cancel{\\goldE{t}}} \\cdot \\cancel{\\goldE{t}} \\\\\\\\ \\blueE{20} \\goldE{t} &= \\maroonD{d} \\\\\\\\ \\maroonD{d} &= \\blueE{20} \\goldE{t} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Distance when Seb bikes for $2.5$ hours?  Let's use our equation to find the value of $\\maroonD{d}$ when $\\goldE{t}=\\goldE{2.5}$:  $\\begin{align} \\maroonD{d} &= \\blueE{20} \\goldE{t} \\\\\\\\ &=\\blueE{20} (\\goldE{2.5}) \\\\\\\\ &=50 \\end{align}$  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Answers  If Seb bikes at a constant rate of $20$ kilometers per hour...  **1. Our equation is $\\boxed{d=20t}$.**  **2. Seb travels $\\boxed{50}$ kilometers if he bikes at this rate for $2.5$ hours.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Priya pours the same amount of orange juice every time she fills a glass. Each glass she pours contains $21$ grams of sugar.  **1. Write an equation that represents how many grams of sugar ($s$) are in some number of glasses of orange juice ($g$).**    **2. How much sugar is in $4$ glasses of orange juice?**   grams",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "84",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  We know that $1$ glass has $21$ grams of sugar.  We can multiply that unit rate by any number of glasses ($g$) to find the total amount of sugar ($s$):  Glasses | Grams of sugar :-: | :-: $1$ | $21$ $\\downarrow \\times g$ | $\\downarrow \\times g$ $g$ | $?$  We can use this strategy to write a general equation, and to find how much sugar is in $4$ glasses.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Writing an equation  Glasses | Grams of sugar :-: | :-: $1$ | $21$ $\\downarrow \\times g$ | $\\downarrow \\times g$ $g$ | $21g$  So we can multiply the number of glasses ($g$) by $21$ to find the total amount of sugar ($s$):  $s=21g$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###How much sugar in $4$ glasses?  Let's use our equation to find the value of $s$ when $g=\\blueE{4}$:  $\\begin{align} s&=21g \\\\\\\\ &=21(\\blueE{4}) \\\\\\\\ &=84 \\end{align}$  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Answers  If $1$ glass of orange juice contains $21$ grams of sugar...  **1. Our equation is $\\boxed{s=21g}$.**  **2. There are $\\boxed{84}$ grams of sugar in $4$ glasses of orange juice.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Shinji reads $25$ pages of a book every night.  **1. Write an equation that represents how many pages Shinji reads ($p$) in some number of nights ($n$).**    **2. How many pages does Shinji read in $8$ nights?**   pages",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "200",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  We know that Shinji reads $25$ pages every $1$ night.  We can multiply that unit rate by any number of nights ($n$) to find the total number of pages $(p)$:  Nights | Pages :-: | :-: $1$ | $25$ $\\downarrow \\times n$ | $\\downarrow \\times n$ $n$ | $?$  We can use this strategy to write a general equation, and to find how many pages Shinji reads in $8$ nights.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Writing an equation  Nights | Pages :-: | :-: $1$ | $25$ $\\downarrow \\times n$ | $\\downarrow \\times n$ $n$ | $25n$  So we can multiply the number of nights ($n$) by $25$ to find the total number of pages ($p$):  $p=25n$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###How many pages in $8$ nights?  Let's use our equation to find the value of $p$ when $n=\\blueE{8}$:  $\\begin{align} p&=25n \\\\\\\\ &=25(\\blueE{8}) \\\\\\\\ &=200 \\end{align}$  [[☃ explanation 2]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Answers  If Shinji reads $25$ pages of a book every night...  **1. Our equation is $\\boxed{p=25n}$.**  **2. Shinji reads $\\boxed{200}$ pages in $8$ nights.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Raj's catering company is serving an event for $35$ guests. Each guest will choose either a salad or a bowl of soup.  **1. Write an equation that represents how many total salads Raj needs to prepare ($s$) when $b$ guests choose a bowl of soup.**    **2. How many salads does Raj need to prepare if $21$ guests choose a bowl of soup?**   salads",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "14",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  Since each guest chooses either a salad or a bowl of soup, we know that:  $\\blueE{\\left(\\overset{\\#\\text{ of}}{ \\text{salads}}\\right)}+\\maroonD{\\left(\\overset{\\#\\text{ of}}{ \\text{bowls of soup}}\\right)}=\\goldE{\\left(\\overset{\\#\\text{ of}}{ \\text{guests}}\\right)}$  We also know that there are $35$ guests. Let's use this to write a general equation and to find how many salads Raj needs if $21$ guests choose a bowl of soup.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Writing an equation  Since there are $35$ guests, we know:  $\\begin{align} \\blueE{\\left(\\overset{\\#\\text{ of}}{ \\text{salads}}\\right)}+\\maroonD{\\left(\\overset{\\#\\text{ of}}{ \\text{bowls of soup}}\\right)}&=\\goldE{\\left(\\overset{\\#\\text{ of}}{ \\text{guests}}\\right)} \\\\\\\\ \\blueE{s} + \\maroonD{b} &= \\goldE{35} \\end{align}$  Let's rewrite this equation so $\\blueE{s}$ is by itself:  $\\begin{align} s + b &= 35 \\\\\\\\ s + b - b &= 35 - b \\\\\\\\ s &= 35 - b \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###How many salads if $21$ bowls of soups?  Let's use our equation to find the value of $s$ when $b=\\maroonD{21}$:  $\\begin{align} s &= 35 - b \\\\\\\\ &=35-\\maroonD{21} \\\\\\\\ &=14 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Answers  If each of $35$ guests will choose either a salad or a bowl of soup...  **1. Our equation is $\\boxed{s=35-b}$.**  **2. Raj needs to prepare $\\boxed{14}$ salads if $21$ guests choose a bowl of soup.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Avery is buying exactly $15$ fish. They can choose between angelfish and goldfish.  **1. Write an equation that represents how many angelfish Avery buys ($a$) if they buy $g$ goldfish.**    **2. How many angelfish does Avery buy if they buy $11$ goldfish?**   angelfish",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "4",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  Since each fish is either an angelfish or a goldfish, we know that:  $\\blueE{\\left(\\overset{\\#\\text{ of}}{ \\text{angelfish}}\\right)}+\\maroonD{\\left(\\overset{\\#\\text{ of}}{ \\text{goldfish}}\\right)}=\\goldE{\\left(\\overset{\\#\\text{ of}}{ \\text{fish}}\\right)}$  We also know that Avery is buying $15$ fish. Let's use this to write a general equation and to find how many angelfish Avery buys if they buy $11$ goldfish.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Writing an equation  Since Avery is buying $15$ fish, we know:  $\\begin{align} \\blueE{\\left(\\overset{\\#\\text{ of}}{ \\text{angelfish}}\\right)}+\\maroonD{\\left(\\overset{\\#\\text{ of}}{ \\text{goldfish}}\\right)}&=\\goldE{\\left(\\overset{\\#\\text{ of}}{ \\text{fish}}\\right)} \\\\\\\\ \\blueE{a} + \\maroonD{g} &= \\goldE{15} \\end{align}$  Let's rewrite this equation so $\\blueE{a}$ is by itself:  $\\begin{align} a + g &= 15 \\\\\\\\ a + g - g &= 15 - g \\\\\\\\ a &= 15 - g \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###How many angelfish if $11$ goldfish?  Let's use our equation to find the value of $a$ when $g=\\maroonD{11}$:  $\\begin{align} a &= 15 - g \\\\\\\\ &=15-\\maroonD{11} \\\\\\\\ &=4 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Answers  If each of $15$ fish will be either an angelfish or a goldfish..  **1. Our equation is $\\boxed{a=15-g}$.**  **2. Avery buys $\\boxed{4}$ angelfish if they buy $11$ goldfish.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Pierre is $3$ years older than his brother, Claude.   **1. Write an equation that represents how old Pierre is ($p$) when Claude is $c$ years old.**    **2. How old is Pierre when Claude is $17$ years old?**   years old",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "20",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  Since Pierre is $\\maroonD{3 \\text{ years older}}$ than Claude, we know that we can always $\\maroonD{\\text{add } 3}$ to Claude's age to find Pierre's age.  Let's use this to write a general equation, and to find how old Pierre is when Claude is $17$ years old.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Writing an equation  $\\begin{align} \\blueE{(\\text{Claude's age})}+\\maroonD{3}&=\\goldE{(\\text{Pierre's age})} \\\\\\\\ \\blueE{c} + \\maroonD{3} &= \\goldE{p} \\\\\\\\ \\goldE{p} &= \\blueE{c} + \\maroonD{3}  \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Pierre's age when Claude is $17$?  Let's use our equation to find the value of $p$ when $c=\\blueE{17}$:  $\\begin{align} p &= c + 3 \\\\\\\\ &=\\blueE{17}+3 \\\\\\\\ &=20 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Answers  If Pierre is $3$ years older than his brother, Claude...  **1. Our equation is $\\boxed{p=c+3}$.**  **2. Pierre is $\\boxed{20}$ years old when Claude is $17$ years old.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Ana is $5$ years younger than her sister, Beatriz.   **1. Write an equation that represents how old Ana is ($a$) when Beatriz is $b$ years old.**    **2. How old is Ana when Beatriz is $23$ years old?**   years old",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "18",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  Since Ana is $\\maroonD{5 \\text{ years younger}}$ than Beatriz, we know that we can always $\\maroonD{\\text{subtract } 5}$ from Beatriz's age to find Ana's age.  Let's use this to write a general equation, and to find how old Ana is when Beatriz is $23$ years old.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Writing an equation  $\\begin{align} \\blueE{(\\text{Beatriz's age})}-\\maroonD{5}&=\\goldE{(\\text{Ana's age})} \\\\\\\\ \\blueE{b} - \\maroonD{5} &= \\goldE{a} \\\\\\\\ \\goldE{a} &= \\blueE{b} - \\maroonD{5}  \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Ana's age when Beatriz is $23$?  Let's use our equation to find the value of $a$ when $b=\\blueE{23}$:  $\\begin{align} a &= b - 5 \\\\\\\\ &=\\blueE{23}-5 \\\\\\\\ &=18 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Answers  If Ana is $5$ years younger than her sister, Beatriz...  **1. Our equation is $\\boxed{a=b-5}$.**  **2. Ana is $\\boxed{18}$ years old when Beatriz is $23$ years old.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A train will travel $300$ kilometers at a constant rate.  **1. Write an equation that represents the train's rate in kilometers per hour ($r$) based on how many hours the trip takes ($t$).**    **2. What is the train's rate if the trip takes $1.5$ hours?**   kilometers per hour",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "200",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  Let's use the relationship between rate, distance and time:  $\\blueE{\\text{rate}}=\\dfrac{\\maroonD{\\text{distance}}}{\\goldE{\\text{time}}}$  We know that the trip is $300$ kilometers. Let's use this to write a general equation, and to find the train's rate if the trip takes $1.5$ hours.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Writing an equation  Let's substitute the length of the trip ($\\maroonD{300\\,\\text{kilometers}}$) for $\\maroonD{\\text{distance}}$.  $\\begin{align} \\blueE{\\text{rate}} &= \\dfrac{\\maroonD{300}}{\\goldE{\\text{time}}} \\\\\\\\ \\blueE{r} &= \\dfrac{\\maroonD{300}}{\\goldE{t}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Rate when trip takes $1.5$ hours?  Let's use our equation to find the value of $\\blueE{r}$ when $\\goldE{t}=\\goldE{1.5}$:  $\\begin{align} \\blueE{r} &= \\dfrac{\\maroonD{300}}{\\goldE{t}} \\\\\\\\ &=\\dfrac{\\maroonD{300}}{\\goldE{1.5}} \\\\\\\\ &=\\dfrac{600}{3} \\\\\\\\ &=200 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Answers  If a train will travel $300$ kilometers at a constant rate...  **1. Our equation is $\\boxed{r=\\dfrac{300}{t}}$.**  **2. The train's rate is $\\boxed{200}$ kilometers per hour when the trip takes $1.5$ hours.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 4"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Saul wants to bike $48$ kilometers to taste some really good mangoes.  **1. Write an equation that represents how many hours ($t$) the $48\\,\\text{km}$ trip will take if Saul bikes at a constant rate of $r$ kilometers per hour.**    **2. How many hours will the $48\\,\\text{km}$ trip take if Saul bikes at a constant rate of $20$ kilometers per hour?**   hours",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "2.4",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  Let's use the relationship between rate, distance and time:  $\\blueE{\\text{rate}}=\\dfrac{\\maroonD{\\text{distance}}}{\\goldE{\\text{time}}}$  We know that the trip is $48$ kilometers. Let's use this to write a general equation, and to find how long the trip will take if Saul bikes at a constant rate of $20$ kilometers per hour.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Writing an equation  Let's substitute the length of the trip ($\\maroonD{48\\,\\text{kilometers}}$) for $\\maroonD{\\text{distance}}$:  $\\begin{align} \\blueE{\\text{rate}} &= \\dfrac{\\maroonD{48}}{\\goldE{\\text{time}}} \\\\\\\\ \\blueE{r} &= \\dfrac{\\maroonD{48}}{\\goldE{t}} \\end{align}$  Let's rewrite this equation so $\\goldE{t}$ is by itself:  $\\begin{align} \\blueE{r} \\cdot \\goldE{t} &= \\dfrac{\\maroonD{48}}{\\cancel{\\goldE{t}}} \\cdot \\cancel{\\goldE{t}} \\\\\\\\ \\blueE{r} \\goldE{t} &= \\maroonD{48} \\\\\\\\ \\dfrac{\\cancel{\\blueE{r}} \\goldE{t}}{\\cancel{\\blueE{r}}} &= \\dfrac{\\maroonD{48}}{\\blueE{r}} \\\\\\\\ \\goldE{t} &= \\dfrac{\\maroonD{48}}{\\blueE{r}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Time when rate is $20$ kilometers per hour?  Let's use our equation to find the value of $\\goldE{t}$ when $\\blueE{r}=\\blueE{20}$:  $\\begin{align} \\goldE{t} &= \\dfrac{\\maroonD{48}}{\\blueE{r}} \\\\\\\\ &= \\dfrac{\\maroonD{48}}{\\blueE{20}} \\\\\\\\ &=\\dfrac{24}{10} \\\\\\\\ &=2.4 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Answers  Saul wants to bike $48$ kilometers...  **1. Our equation is $\\boxed{t=\\dfrac{48}{r}}$.**  **2. The trip takes $\\boxed{2.4}$ hours if Saul bikes at a constant rate of $20$ kilometers per hour.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 4"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Marieme wants to build a rectangular garden whose area is $24$ square meters.  **1. Write an equation that represents the garden's length in meters ($l$) based on its width in meters ($w$).**    **2. What is the garden's length if its width is $2.5$ meters?**   meters",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "9.6",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  Since we know the garden is rectangular, let's use the relationship between the area, length, and width of a rectangle:  $\\blueE{\\text{area}}=(\\maroonD{\\text{length}}) \\cdot (\\goldE{\\text{width}})$  We know that Marieme wants the area to be $24$ square meters. Let's use this to write a general equation, and to find the garden's length if its width is $2.5$ meters.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Writing an equation  Let's substitute $\\blueE{24}$ for $\\blueE{\\text{area}}$. Then, we can solve for $\\maroonD{\\text{length }(l)}$ in terms of $\\goldE{\\text{width }(w)}$:  $\\begin{align} \\blueE{\\text{area}} &= (\\maroonD{\\text{length}}) \\cdot (\\goldE{\\text{width}}) \\\\\\\\ \\blueE{24} &= \\maroonD{l} \\cdot \\goldE{w} \\\\\\\\ \\dfrac{\\blueE{24}}{\\goldE{w}} &= \\maroonD{l} \\\\\\\\ \\maroonD{l} &= \\dfrac{\\blueE{24}}{\\goldE{w}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Length when width is $2.5$ meters?  Let's use our equation to find the value of $\\maroonD{l}$ when $\\goldE{w}=\\goldE{2.5}$:  $\\begin{align} \\maroonD{l} &= \\dfrac{\\blueE{24}}{\\goldE{w}} \\\\\\\\ &=\\dfrac{\\blueE{24}}{\\goldE{2.5}} \\\\\\\\ &=\\dfrac{48}{5} \\\\\\\\ &=\\dfrac{96}{10} \\\\\\\\ &=9.6 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Answers  If a rectangular garden has an area of $24$ square meters...  **1. Our equation is $\\boxed{l=\\dfrac{24}{w}}$.**  **2. The garden's length is $\\boxed{9.6}$ meters when its width is $2.5$ meters.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 4"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Ariana wants to build a rectangular pet door whose area is $900$ square centimeters.  **1. Write an equation that represents the height of the door in centimeters ($h$) based on the width of the base in centimeters ($b$).**    **2. What is the door's height if its base is $25$ centimeters wide?**   centimeters",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "36",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  Since we know the door is rectangular, let's use the relationship between the area, base, and height of a rectangle:  $\\blueE{\\text{area}}=(\\maroonD{\\text{base}}) \\cdot (\\goldE{\\text{height}})$  We know that Ariana wants the area to be $900$ square centimeters. Let's use this to write a general equation, and to find the height of the door if the width of its base is $25$ centimeters.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Writing an equation  Let's substitute $\\blueE{900}$ for $\\blueE{\\text{area}}$. Then, we can solve for $\\goldE{\\text{height }(h)}$ in terms of $\\maroonD{\\text{base }(b)}$:  $\\begin{align} \\blueE{\\text{area}}&=(\\maroonD{\\text{base}}) \\cdot (\\goldE{\\text{height}}) \\\\\\\\ \\blueE{900} &= \\maroonD{b} \\cdot \\goldE{h} \\\\\\\\ \\dfrac{\\blueE{900}}{\\maroonD{b}} &= \\goldE{h} \\\\\\\\ \\goldE{h} &= \\dfrac{\\blueE{900}}{\\maroonD{b}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Height when base is $25$ centimeters?  Let's use our equation to find the value of $\\goldE{h}$ when $\\maroonD{b}=\\maroonD{25}$:  $\\begin{align} \\goldE{h} &= \\dfrac{\\blueE{900}}{\\maroonD{b}} \\\\\\\\ &=\\dfrac{\\blueE{900}}{\\maroonD{25}} \\\\\\\\ &=\\dfrac{3{,}600}{100} \\\\\\\\ &=36 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Answers  If a rectangular door has an area of $900$ square centimeters...  **1. Our equation is $\\boxed{h=\\dfrac{900}{b}}$.**  **2. The door's height is $\\boxed{36}$ centimeters when its base is $25$ centimeters.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 4"
+                    }
+                }
+            }
+        }
+    ]
+}

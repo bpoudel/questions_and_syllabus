@@ -1,0 +1,803 @@
+{
+    "standard_metadata": {
+        "standard_id": "4.NBT.B.6",
+        "standard_description": "Find whole-number quotients and remainders with up to four-digit dividends and one-digit divisors, using strategies based on place value, the properties of operations, and/or the relationship between multiplication and division. Illustrate and explain the calculation by using equations, rectangular arrays, and/or area models.",
+        "standard_title": "Create division equations with area models",
+        "standard_url": "https://www.khanacademy.org/math/cc-fourth-grade-math/division/division-with-area-models/e/create-division-equations-with-area-models"
+    },
+    "id": "x78201dec096c5cf3",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Jerry split up the area of a rectangle to help him solve a division equation.    **What division equation did Jerry solve?**",
+                                "images": [
+                                    {
+                                        "alt": "area model split into 4 parts, each with a width of 6 units. From top to bottom the parts have a height of 100 units and an area of 600 square units; a height of 20 units and an area of 120 square units; a height of 4 units and an area of 24 square units; an unlabeled height and an area of 2 square units",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/550b73a82965707396fc889e8c1ab7551a58c2d2.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$746 \\div 6 = 124$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$746 \\div 6 = 124$ remainder $2$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$746 \\div 6 = 124$ remainder $3$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\redE{\\text{total area}}\\div \\tealE{\\text{width}} = \\maroonD{\\text{height}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "To find the area of the entire rectangle, we need to add the areas of the smaller rectangles that make it up.  $\\purpleD{600}+\\blueE{120}+\\greenE{24}+\\goldE{2}=\\redE{746}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the entire rectangle is $\\redE{746}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "the same model with the combined area labeled 746 square units and the height labeled question mark units",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/3b97cc4bd6c274c50636f352b6c9ffa329f16ac7.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Jerry is dividing the area of the entire rectangle by $\\tealE{6}$.    To find the total height, we add each of the smaller heights. We know three of the heights.  $100+20+4=\\maroonD{124}$   The leftover smaller rectangle has an area of $\\goldE{2}$ square units. That is less than $\\tealE{6}$, so it is Jerry's remainder.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Jerry was solving the equation $\\redE{746} \\div \\tealE{6} =\\maroonD{124}$ remainder $\\goldE{2}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Equations-Fill in"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Aria split up the area of a rectangle to help her solve a division equation.    **What equation did Aria solve?**",
+                                "images": [
+                                    {
+                                        "alt": "area model split into 4 parts, each with a width of 2 units. From top to bottom the parts have a height of 4,000 units and an area of 8,000 square units; a height of 150 units and an area of 300 square units; a height of 1 unit and an area of 2 square units; an unlabeled height and an area of 1 square units.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/053198f21b6e8bec2419a599a898ac39fe14e58b.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$8{,}303 \\div 2 = 4{,}151$ remainder $1$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$8{,}302 \\div 2 = 4{,}151$ remainder $1$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$8{,}321\\div 2 = 4{,}151$ remainder $1$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\redE{\\text{total area}}\\div \\tealE{\\text{width}} = \\maroonD{\\text{height}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "To find the area of the entire rectangle, we need to add the areas of the smaller rectangles that make it up.  $\\purpleD{8{,}000}+\\blueE{300}+\\greenE{2}+\\goldE{1}=\\redE{8{,}303}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the entire rectangle is $\\redE{8{,}303}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "the same model with the combined area labeled 8,303 square units and the height labeled question mark units",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/342b00eda60b7baec58be525b7b84706d3f50e8d.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Aria is dividing the area of the entire rectangle by $\\tealE{2}$.    To find the total height, we add each of the smaller heights. We know three of the heights.  $4{,}000+150+1=\\maroonD{4{,}151}$   The leftover smaller rectangle has an area of $\\goldE{1}$ square unit. That is less than $\\tealE{2}$, so it is Aria's remainder.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Aria was solving the equation $\\redE{8{,}303} \\div \\tealE{2} =\\maroonD{4{,}151}$ remainder $\\goldE{1}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Equations-Fill in"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Amit split up the area of a rectangle to help him solve a division equation.    **What equation did Amit solve?**",
+                                "images": [
+                                    {
+                                        "alt": "area model split into 4 parts, each with a width of 7 units. From top to bottom the parts have a height of 100 units and an area of 700 square units; a height of 20 units and an area of 140 square units; a height of 6 units and an area of 42 square units; an unlabeled height and an area of 5 square units.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/5a2e28560e810762d93b1ad484b269f6d0ad73d3.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$887 \\div 7 = 126$ remainder $5$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$887 \\div 126 = 126$ remainder $5$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$887 \\div 5 = 126$ remainder $5$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\redE{\\text{total area}}\\div \\tealE{\\text{width}} = \\maroonD{\\text{height}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "To find the area of the entire rectangle, we need to add the areas of the smaller rectangles that make it up.  $\\purpleD{700}+\\blueE{140}+\\greenE{42}+\\goldE{5}=\\redE{887}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the entire rectangle is $\\redE{887}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "the same model with the combined area labeled 887 square units and the height labeled question mark units",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/0fb89893885fad82fc76c731babde41fa98a633a.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Amit is dividing the area of the entire rectangle by $\\tealE{7}$.    To find the total height, we add each of the smaller heights. We know three of the heights.  $100+20+6=\\maroonD{126}$   The leftover smaller rectangle has an area of $\\goldE{5}$ square units. That is less than $\\tealE{7}$, so it is Amit's remainder.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Amit was solving the equation $\\redE{887} \\div \\tealE{7} =\\maroonD{126}$ remainder $\\goldE{5}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Equations-Fill in"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Carlos split up the area of a rectangle to help him solve a division equation.    **What equation did Carlos solve?**",
+                                "images": [
+                                    {
+                                        "alt": "area model split into 4 parts, each with a width of 5 units. From top to bottom the parts have a height of 100 units and an area of 500 square units; a height of 20 units and an area of 100 square units; a height of 10 units and an area of 50 square units; a height of 9 units and an area of 45 square units.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/702f7e36693c1b336ab1ef94febd099d9f29e268.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$695 \\div 5 = 139$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$695 \\div 5 =139$ remainder $5$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$695 \\div 5 =130$ remainder $9$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\redE{\\text{total area}}\\div \\tealE{\\text{width}} = \\maroonD{\\text{height}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "To find the area of the entire rectangle, we need to add the areas of the smaller rectangles that make it up.  $\\purpleD{500}+\\blueE{100}+\\greenE{50}+\\goldE{45}=\\redE{695}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the entire rectangle is $\\redE{695}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "the same model with the combined area labeled 695 square units and the height labeled question mark units",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/57ee5b671f70129e8f10f3feaa5bcb51108c5992.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Carlos is dividing the area of the entire rectangle by $\\tealE{5}$.    To find the total height, we add each of the smaller heights.  $100+20+10+9=\\maroonD{139}$  There is no leftover, so the remainder is $\\goldE{0}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Carlos was solving the equation $\\redE{695} \\div \\tealE{5} =\\maroonD{139}$ remainder $\\goldE{0}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Equations-Fill in"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Manco split up the area of a rectangle to help him solve a division equation.    **What equation did Manco solve?**",
+                                "images": [
+                                    {
+                                        "alt": "area model split into 2 parts, each with a width of 9 units. From top to bottom the parts have a height of 100 units and an area of 900 square units; a height of 7 units and an area of 63 square units.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/76f0c0cd13b471f2be137070be1c94d50a3b8f88.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$963 \\div 9 = 107$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$107 \\div 9 = 107$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$900 \\div 9 = 107$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\redE{\\text{total area}}\\div \\tealE{\\text{width}} = \\maroonD{\\text{height}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "To find the area of the entire rectangle, we need to add the areas of the smaller rectangles that make it up.  $\\purpleD{900}+\\blueE{63}=\\redE{963}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the entire rectangle is $\\redE{963}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "the same model with the combined area labeled 963 square units and the height labeled question mark units",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/0d3d6d76b56fa179d5738d043ef065de02cf36d3.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Manco is dividing the area of the entire rectangle by $\\tealE{9}$.    To find the total height, we add each of the smaller heights.  $100+7=\\maroonD{107}$  There is no leftover, so there is no remainder.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Manco was solving the equation $\\redE{963} \\div \\tealE{9} =\\maroonD{107}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Equations-Fill in"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Li Na split up the area of a rectangle to help her solve a division equation.    **What equation did Li Na solve?**",
+                                "images": [
+                                    {
+                                        "alt": "area model split into 4 parts, each with a width of 4 units. From top to bottom the parts have a height of 500 units and an area of 2,000 square units; a height of 100 units and an area of 400 square units; a height of 80 units and an area of 320 square units; a height of 3 units and an area of 12 square units.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/e86e4bb4cc23af5cf7641b0ea958633a4e751776.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$2{,}732 \\div 4 =683$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$2{,}732 \\div 683 =683$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$2{,}732 \\div 3 =683$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\redE{\\text{total area}}\\div \\tealE{\\text{width}} = \\maroonD{\\text{height}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "To find the area of the entire rectangle, we need to add the areas of the smaller rectangles that make it up.  $\\purpleD{2{,}000}+\\blueE{400}+\\greenE{320}+\\goldE{12}=\\redE{2{,}732}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the entire rectangle is $\\redE{2{,}732}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "the same model with the combined area labeled 2,732 square units and the height labeled question mark units",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/899900a355e8a421783e34bb17ae4431c0244cac.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Li Na is dividing the area of the entire rectangle by $\\tealE{4}$.    To find the total height, we add each of the smaller heights.  $500+100+80+3=\\maroonD{683}$  There is no leftover, so there is no remainder.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Li Na was solving the equation $\\redE{2{,}732} \\div \\tealE{4} =\\maroonD{683}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Equations-Fill in"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Melissa split up the area of a rectangle to help her solve a division equation.    **What equation did Melissa solve?**",
+                                "images": [
+                                    {
+                                        "alt": "area model split into 4 parts, each with a width of 4 units. From top to bottom the parts have a height of 1,000 units and an area of 4,000 square units; a height of 25 units and an area of 100 square units; a height of 3 units and an area of 12 square units; an unlabeled height and an area of 3 square units.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/83196b851aeec151bb174492f6d83df034c5378e.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$4{,}115 \\div 1{,}028 = 4$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$1{,}028 \\div 4 = 4{,}115$ remainder $3$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$4{,}115 \\div 4 = 1{,}028$ remainder $3$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\redE{\\text{total area}}\\div \\tealE{\\text{width}} = \\maroonD{\\text{height}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "To find the area of the entire rectangle, we need to add the areas of the smaller rectangles that make it up.  $\\purpleD{4{,}000}+\\blueE{100}+\\greenE{12}+\\goldE{3}=\\redE{4{,}115}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the entire rectangle is $\\redE{4{,}115}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "the same model with the combined area labeled 4,115 square units and the height labeled question mark units",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/27537580e12160cccb5723a42bc4b9aa722aa226.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Melissa is dividing the area of the entire rectangle by $\\tealE{4}$.    To find the total height, we add each of the smaller heights. We know three of the heights.  $1{,}000+25+3=\\maroonD{1{,}028}$   The leftover smaller rectangle has an area of $\\goldE{3}$ square units. That is less than $\\tealE{4}$, so it is Melissa's remainder.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Melissa was solving the equation $\\redE{4{,}115} \\div \\tealE{4} =\\maroonD{1{,}028}$ remainder $\\goldE{3}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Equations-MC"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Mason split up the area of a rectangle to help him solve a division equation.    **What equation did Mason solve?**",
+                                "images": [
+                                    {
+                                        "alt": "area model split into 4 parts, each with a width of 3 units. From top to bottom the parts have a height of 900 units and an area of 2,700 square units; a height of 10 units and an area of 30 square units; a height of 3 units and an area of 9 square units; an unlabeled height and an area of 1 square units.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/4453bcbab16222ceb5c247d4751ffad18354bdff.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$2{,}700 \\div 3 = 913$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$2{,}740 \\div 3 = 913$ remainder $1$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$2{,}739 \\div 1 = 913$ remainder $3$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\redE{\\text{total area}}\\div \\tealE{\\text{width}} = \\maroonD{\\text{height}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "To find the area of the entire rectangle, we need to add the areas of the smaller rectangles that make it up.  $\\purpleD{2{,}700}+\\blueE{30}+\\greenE{9}+\\goldE{1}=\\redE{2{,}740}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the entire rectangle is $\\redE{2{,}740}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "the same model with the combined area labeled 2,740 square units and the height labeled question mark units",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/376b4df6bfb4e6db48ef47864e25e2a18f5025f5.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Mason is dividing the area of the entire rectangle by $\\tealE{3}$.    To find the total height, we add each of the smaller heights. We know three of the heights.  $900+10+3=\\maroonD{913}$   The leftover smaller rectangle has an area of $\\goldE{1}$ square unit. That is less than $\\tealE{3}$, so it is Mason's remainder.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Mason was solving the equation $\\redE{2{,}740} \\div \\tealE{3} =\\maroonD{913}$ remainder $\\goldE{1}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Equations-MC"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Jonas split up the area of a rectangle to help him solve a division equation.    **What equation did Jonas solve?**",
+                                "images": [
+                                    {
+                                        "alt": "area model split into 4 parts, each with a width of 8 units. From top to bottom the parts have a height of 50 units and an area of 400 square units; a height of 40 units and an area of 320 square units; a height of 2 units and an area of 16 square units; an unlabeled height and an area of 4 square units.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/bd4804867a921241cc27ccc7631d5edac7146132.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$542 \\div 8 = 400$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$740 \\div 92 = 8$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$740 \\div 8 = 92$ remainder $4$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\redE{\\text{total area}}\\div \\tealE{\\text{width}} = \\maroonD{\\text{height}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "To find the area of the entire rectangle, we need to add the areas of the smaller rectangles that make it up.  $\\purpleD{400}+\\blueE{320}+\\greenE{16}+\\goldE{4}=\\redE{740}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the entire rectangle is $\\redE{740}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "the same model with the combined area labeled 740 square units and the height labeled question mark units",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/0d8432674bea92c59f7b79c410566d8ecfb64149.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Jonas is dividing the area of the entire rectangle by $\\tealE{8}$.    To find the total height, we add each of the smaller heights. We know three of the heights.  $50+40+2=\\maroonD{92}$   The leftover smaller rectangle has an area of $\\goldE{4}$ square units. That is less than $\\tealE{8}$, so it is Jonas's remainder.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Jonas was solving the equation $\\redE{740} \\div \\tealE{8} =\\maroonD{92}$ remainder $\\goldE{4}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Equations-MC"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Cam split up the area of a rectangle to help him solve a division equation.    **What equation did Cam solve?**",
+                                "images": [
+                                    {
+                                        "alt": "area model split into 4 parts, each with a width of 8 units. From top to bottom the parts have a height of 500 units and an area of 4,000 square units; a height of 20 units and an area of 160 square units; a height of 10 units and an area of 80 square units; a height of 6 units and an area of 48 square units.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/1b4c8c90c529d2869c05185aa26fc3028fd81085.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$4{,}288 \\div 8 = 536$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$4{,}000 \\div 8 = 536$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$4{,}240 \\div 8 = 530$ remainder $6$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\redE{\\text{total area}}\\div \\tealE{\\text{width}} = \\maroonD{\\text{height}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "To find the area of the entire rectangle, we need to add the areas of the smaller rectangles that make it up.  $\\purpleD{4{,}000}+\\blueE{160}+\\greenE{80}+\\goldE{48}=\\redE{4{,}288}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the entire rectangle is $\\redE{4{,}288}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "the same model with the combined area labeled 4,288 square units and the height labeled question mark units",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/dbb01e3d5889685ecbd1de1c5377fe6cbc2cca66.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Cam is dividing the area of the entire rectangle by $\\tealE{8}$.    To find the total height, we add each of the smaller heights.  $500+20+10+6=\\maroonD{536}$   There is no leftover, so there is no remainder.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Cam was solving the equation $\\redE{4{,}288} \\div \\tealE{8} =\\maroonD{536}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Equations-MC"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Valerina split up the area of a rectangle to help her solve a division equation.    **What equation did Valerina solve?**",
+                                "images": [
+                                    {
+                                        "alt": "area model split into 2 parts, each with a width of 9 units. From top to bottom the parts have a height of 800 units and an area of 7,200 square units; a height of 54 units and an area of 486 square units.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/e1f0726f289f84d116c79d2624eb01e0a8336c8f.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$7{,}686 \\div 800 = 54$ remainder $9$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$7{,}686 \\div 9 = 854$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$7{,}686 \\div 854 = 9$ remainder $486$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\redE{\\text{total area}}\\div \\tealE{\\text{width}} = \\maroonD{\\text{height}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "To find the area of the entire rectangle, we need to add the areas of the smaller rectangles that make it up.  $\\purpleD{7{,}200}+\\blueE{486}=\\redE{7{,}686}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the entire rectangle is $\\redE{7{,}686}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "the same model with the combined area labeled 7,686 square units and the height labeled question mark units",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/26c8aef73ca235dad5aca7eb31f3a7ed7c64adbd.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Valerina is dividing the area of the entire rectangle by $\\tealE{9}$.    To find the total height, we add each of the smaller heights.  $800+54=\\maroonD{854}$  There is no leftover, so there is no remainder.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Valerina was solving the equation $\\redE{7{,}686} \\div \\tealE{9} =\\maroonD{854}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Equations-MC"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Vera split up the area of a rectangle to help her solve a division equation.    **What equation did Vera solve?**",
+                                "images": [
+                                    {
+                                        "alt": "area model split into 3 parts, each with a width of 9 units. From top to bottom the parts have a height of 400 units and an area of 3,600 square units; a height of 40 units and an area of 360 square units; a height of 3 units and an area of 27 square units.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/78357a8033ee1033a2e38d3fb715d653b650d319.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$3{,}987 \\div 9 = 443$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$3{,}960 \\div 9 = 443$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$3{,}600 \\div 440 = 443$ remainder $3$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\redE{\\text{total area}}\\div \\tealE{\\text{width}} = \\maroonD{\\text{height}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "To find the area of the entire rectangle, we need to add the areas of the smaller rectangles that make it up.  $\\purpleD{3{,}600}+\\blueE{360}+\\greenE{27}=\\redE{3{,}987}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the entire rectangle is $\\redE{3{,}987}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "the same model with the combined area labeled 3,987 square units and the height labeled question mark units",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/e14a0b987e4b0232d007ac754fff28e6918bb22d.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Vera is dividing the area of the entire rectangle by $\\tealE{9}$.    To find the total height, we add each of the smaller heights.  $400+40+3=\\maroonD{443}$   There is no leftover, so there is no remainder.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Vera was solving the equation $\\redE{3{,}987} \\div \\tealE{9} =\\maroonD{443}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Equations-MC"
+                    }
+                }
+            }
+        }
+    ]
+}

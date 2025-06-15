@@ -1,0 +1,795 @@
+{
+    "standard_metadata": {
+        "standard_id": "8.SP.A.3",
+        "standard_description": "Use the equation of a linear model to solve problems in the context of bivariate measurement data, interpreting the slope and intercept.",
+        "standard_title": "Interpreting slope and y-intercept for linear models",
+        "standard_url": "https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-data/cc-8th-line-of-best-fit/e/interpreting-slope-and-y-intercept-of-lines-of-best-fit"
+    },
+    "id": "xb2957fad",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Liz's math test included a survey question asking how many hours students spent studying for the test. The scatterplot and regression line below show the relationship between how many hours students spent studying and their score on the test.  The fitted line has a slope of $15$.  **What is the best interpretation of this slope?**",
+                                "images": [
+                                    {
+                                        "alt": "A graph plots Score, from 0 to 90, in increments of 10, versus Study time, in hours, from 0 to 4.5, in increments of 0.5, on an x y plane. Dozens of points rise diagonally in a tight, narrow cluster between (1.8, 62) and (4.4, 95). A regression line rises diagonally through the center of the cluster from (0, 38) to (4.2, 100). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/e4af33ae2251e57b57961bea23db4626438869a4.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "The model predicts that students who scored $0$ studied for an average of $15$ hours.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The model predicts that students who didn't study at all will have an average score of $15$ points.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The model predicts that the score will increase $15$ points for each additional hour of study time.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The model predicts that the study time will increase $15$ hours for each additional point scored.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The slope of the regression line represents the average change in the response ($y$) variable that's associated with a one-unit change in the explanatory ($x$) variable.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "In this case, the slope represents the average change in score associated with a one hour increase in study time.  $\\text{slope}=\\dfrac{\\text{rise}}{\\text{run}}=\\dfrac{15}{1}=\\dfrac{\\text{change in score }(y)}{\\text{change in study time }(x)}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The model predicts that the score will increase $15$ points for each additional hour of study time.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3 - Interpret Slope"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A panel of judges was asked to judge the quality of different kinds of potato chips. The scatterplot and regression line below show the relationship between their ratings and the price of the chips.  The fitted line has a slope of $5$.  **What is the best interpretation of this slope?**",
+                                "images": [
+                                    {
+                                        "alt": "A graph plots Average rating, from 0 to 9, in increments of 1, versus Cost, in dollars, from 0 to 2.5, in increments of 0.1. Dozens of points rise diagonally in a relatively tight, narrow cluster between (0.75, 1.15) and (2.65, 8.6). A regression line rises diagonally through the center of the cluster from (1, 0) to (3, 10). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/e4032d043a5733384d1ec2cebafbc522a7b551eb.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "We would predict a bag of chips that cost $\\$0$ to have a rating of $5$.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "We would predict a bag of chips that cost $\\$0$ to have a rating of $-5$.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "On average, each $\\$5$ increase in cost was associated with a $1$ point increase in rating.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "On average, each $\\$1$ increase in cost was associated with a $5$ point increase in rating.",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The slope of the regression line represents the average change in the response ($y$) variable that's associated with a one-unit change in the explanatory ($x$) variable.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "In this case, the slope represents the average change in average rating associated with a one dollar increase in cost per package.  $\\text{slope}=\\dfrac{\\text{rise}}{\\text{run}}=\\dfrac{5}{1}=\\dfrac{\\text{change in rating }(y)}{\\text{change in cost }(x)}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "On average, each $\\$1$ increase in cost was associated with a $5$ point increase in rating.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3 - Interpret Slope"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The scatterplot and regression line below show the average income, in dollars, in several major American cities plotted against the rent for a $2$-bedroom apartment in those cities.  The fitted line has a slope of $0.031$.  **What is the best interpretation of this slope?**",
+                                "images": [
+                                    {
+                                        "alt": "A graph plots Rent, in dollars per month, from 0 to 2000, in increments of 100, versus Average income, in dollars per year, from 0 to 50000, in increments of 5000, on an x y plane.14 points rise diagonally in a loose cluster between (36000, 825) and (58000, 1800). A regression line rises diagonally through the center of the cluster from (10000, 0) to (60000, 1520). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/baf7740a4dccb90c3da74dc91080e02b8cf131df.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "On average, each $\\$1$ increase in average income was associated with a $\\$0.031$ increase in average rent.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "On average, each $\\$0.031$ increase in average income was associated with a $1$ point increase in average rent.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "We would predict a city whose average income was $\\$0$ to have an average rent of $\\$0.031$.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "We would predict a city whose average income was $\\$0$ to have an average rent of $\\$0$.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The slope of the regression line represents the average change in the response ($y$) variable that's associated with a one-unit change in the explanatory ($x$) variable.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "In this case, the slope represents the average change in rent associated with a one dollar increase in average income.  $\\text{slope}=\\dfrac{\\text{rise}}{\\text{run}}=\\dfrac{0.031}{1}=\\dfrac{\\text{change in rent }(y)}{\\text{change in income }(x)}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "On average, each $\\$1$ increase in average income was associated with a $\\$0.031$ increase in average rent.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3 - Interpret Slope"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Baruti, a ranger in Kruger National Park in South Africa, collected data about the elephant population in the park. She compared the foot lengths of the elephants and their shoulder height (both in centimeters) and created the following scatterplot and regression line.  The fitted line has a slope of $5.89$.  **What is the best interpretation of this slope?**",
+                                "images": [
+                                    {
+                                        "alt": "A graph plots Shoulder height, in centimeters, from 0 to 340, in increments of 20, versus Foot length, in centimeters, from 0 to 55, in increments of 5, on an x y plane. Dozens of points rise diagonally in a tight, narrow cluster between (18, 99) and (54, 345). A regression line rises diagonally through the center of the cluster from (2.5, 0) to (60, 320). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/f3b22794cb53d7ccf4d0dd1899fb06d7801c7844.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "On average, each $1$ centimeter increase in foot length was associated with a $5.89$ centimeter increase in shoulder height.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "On average, each $1$ centimeter increase in shoulder height was associated with a $5.89$ centimeter increase in foot length.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "We would predict an elephant with a foot length of $0$ centimeters to have a shoulder height of $5.89$ centimeters.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "We would predict an elephant with a foot length of $0$ centimeters to have a shoulder height of $0$ centimeters.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The slope of the regression line represents the average change in the response ($y$) variable that's associated with a one-unit change in the explanatory ($x$) variable.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "In this case, the slope represents the average change in shoulder height associated with a $1$ centimeter increase in foot length.  $\\text{slope}=\\dfrac{\\text{rise}}{\\text{run}}=\\dfrac{5.89}{1}=\\dfrac{\\text{change in shoulder height }(y)}{\\text{change in foot length }(x)}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "On average, each $1$ centimeter increase in foot length was associated with a $5.89$ centimeter increase in shoulder height.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3 - Interpret Slope"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Rani went around the laboratory where she works and measured her coworkers' ear circumference (in millimeters). Then she matched her results with each coworkers' age and created the following scatterplot and regression line.  The fitted line has a slope of $0.48$.  **What is the best interpretation of this slope?**",
+                                "images": [
+                                    {
+                                        "alt": "A graph plots Ear circumference, from 0 to 160, in increments of 10, versus Age, in years, from 0 to 90, in increments of 5. Dozens of points rise diagonally in a tight, narrow cluster between (21, 72) and (94,153). A regression line rises diagonally through the center of the cluster from (0, 90) to (95, 135). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/7ac68c68a1d535bfced6f881d6ca2c47d9ed4451.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "On average, each $1$ year increase in age was associated with a $0.48$ millimeter increase in ear circumference.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "On average, each $1$ millimeter increase in ear circumference was associated with a $0.48$ year  increase in age.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "We would predict a person who is $0$ years old to have an ear circumference of $0.48\\,\\text{mm}$.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "We would predict a person who is $0$ years old to have an ear circumference of $90\\,\\text{mm}$.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The slope of the regression line represents the average change in the response ($y$) variable that's associated with a one-unit change in the explanatory ($x$) variable.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "In this case, the slope represents the average change in ear circumference associated with a one year increase in age.  $\\text{slope}=\\dfrac{\\text{rise}}{\\text{run}}=\\dfrac{0.48}{1}=\\dfrac{\\text{change in ear circ. }(y)}{\\text{change in age }(x)}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "On average, each $1$ year increase in age was associated with a $0.48$ millimeter increase in ear circumference.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3 - Interpret Slope"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Abigail gathered data on different schools' winning percentages and the average yearly salary of their head coaches (in millions of dollars) in the years $2000$-$2011$. She then created the following scatterplot and regression line.  The fitted line has a slope of $8.42$.  **What is the best interpretation of this slope?**",
+                                "images": [
+                                    {
+                                        "alt": "A graph plots Winning percentage, from 0 to 100, in increments of 5, versus Salary, in millions of dollars, from 0 to 5, in increments of 0.5. Dozens of points rise diagonally in a loose, wide cluster between (0.3, 22) and (4.1, 83). The cluster is most heavily concentrated leftward of x = 2.5. A regression line rises diagonally through the center of the cluster from (0, 38) to (5.5, 85). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/a77656ec27ed67408b24ad91f51787a76ce61f39.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "A school whose head coach had a salary of $\\$0$ would have winning percentage of  $8.42\\%$.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "A school whose head coach had a salary of $\\$0$ would have winning percentage of  about $40\\%$.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "On average, each $1$ million dollar increase in salary was associated with an $8.42$ point increase in winning percentage.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "On average, each $1$ point increase in winning percentage was associated with an $8.42$ million dollar increase in salary.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The slope of the regression line represents the average change in the response ($y$) variable that's associated with a one-unit change in the explanatory ($x$) variable.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "In this case, the slope represents the average change in winning percentage associated with a $1$ million dollar increase in salary.  $\\text{slope}=\\dfrac{\\text{rise}}{\\text{run}}=\\dfrac{8.42}{1}=\\dfrac{\\text{change in winning \\% }(y)}{\\text{change in salary }(x)}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "On average, each $1$ million dollar increase in salary was associated with an $8.42$ point increase in winning percentage.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3 - Interpret Slope"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Surya gave each member of his family a different playlist of random songs to listen to and asked them to rank each song between $0$ and $10$. He compared his family's rankings with the release year of each song and created the following scatterplot and regression line.  The fitted line has a slope of $-0.096$.  **What is the best interpretation of this slope?**",
+                                "images": [
+                                    {
+                                        "alt": "A graph plots Score, from 0 to 10, in increments of 1, versus Release year, from 1950 to 2010, in increments of 2. Dozens of points fall diagonally in a relatively loose, but relatively narrow cluster between (1954, 8.5) and (2014, 1.7). A regression line falls diagonally through the center of the cluster from (1950, 8.75) to (2015, 2.5). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/d7476b680854ec600f706dd54f403500d6be9d0f.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "A song released in $1950$ would have a rating of about $8.75$.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "A song released in $1950$ would have a rating of $-0.096$.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "On average, each $1$ year increase in release year was associated with a $-0.096$ point change in score.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "On average, each $1$ point increase in score was associated with a $-0.096$ year change in release year.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The slope of the regression line represents the average change in the response ($y$) variable that's associated with a one-unit change in the explanatory ($x$) variable.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "In this case, the slope represents the average change in score associated with a $1$ year increase in release year.  $\\text{slope}=\\dfrac{\\text{rise}}{\\text{run}}=\\dfrac{-0.096}{1}=\\dfrac{\\text{change in score }(y)}{\\text{change in release year }(x)}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "On average, each $1$ year increase in release year was associated with a $-0.096$ point change in score.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3 - Interpret Slope"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Camille's math test included a survey question asking how many hours students spent studying for the test. The scatterplot and regression line below show the relationship between how many hours students spent studying and their score on the test.  The fitted line has a $y$-intercept of $37$.  **What is the best interpretation of this $y$-intercept?**",
+                                "images": [
+                                    {
+                                        "alt": "A graph plots Score, from 0 to 90, in increments of 10, versus Study time, in hours, from 0 to 4.5, in increments of 0.5, on an x y plane. Dozens of points rise diagonally in a tight, narrow cluster between (1.8, 62) and (4.4, 95). A regression line rises diagonally through the center of the cluster from (0, 38) to (4.2, 100). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/e4af33ae2251e57b57961bea23db4626438869a4.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "The model predicts that the study time will increase $37$ hours for each additional point scored.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The model predicts that the score will increase $37$ points for each additional hour of study time.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The model predicts that a student who scored $0$ points studied for $37$ hours.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The model predicts that students who didn't study at all will have an average score of $37$ points.",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The $y$-intercept of the model describes the predicted $y$ value  when $x = 0$.   In this case, $x = 0$ refers to students who studied for $0$ hours (or said another way, students who didn't study at all).",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The model predicts that students who didn't study at all will have an average score of $37$ points.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 4 - Interpret Y-Intercept"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "This scatterplot and regression line below show the relationship between the average rent for a $1$-bedroom apartment in New York and the number of years after the year $2000$.  The fitted line has a $y$-intercept of $800$.  **What is the best interpretation of this $y$-intercept?**",
+                                "images": [
+                                    {
+                                        "alt": "A graph plots Average rent, in dollars per month, from 0 to 1200, in increments of 100, versus Years after 2000, from 0 to 12, in increments of 2. 14 points rise diagonally in a single file cluster between (0, 800) and (12, 1290). A regression line rises diagonally through the center of the cluster from (0, 800) to (12.5, 1300). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/bbb5f586d44513f9b0422c8986871df36dba213a.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "The average rent for a $1$-bedroom apartment in New York is approximately $800$ dollars.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "On average, the rent of a $1$-bedroom apartment in New York increases by $800$ dollars each year.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The model indicates that $1$-bedroom apartments in New York had an average rent of approximately $800$ dollars in $2010$.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The model indicates that $1$-bedroom apartments in New York had an average rent of $800$ dollars in $2000$.",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The $y$-intercept of the model describes the average $y$ value  when $x = 0$.   In this case, $x = 0$ refers to the year $2000$ since the $x$ variable is defined as years after $2000$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The model indicates that $1$-bedroom apartments in New York had an average rent of $800$ dollars in $2000$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 4 - Interpret Y-Intercept"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Julio distributed a survey to his fellow students asking them how many hours they spent playing sports in the past day. He also asked them to rate their mood on a scale from $0$ to $10$, with $10$ being the happiest. Julio created the following scatterplot and regression line to show this relationship.  The fitted line has a $y$-intercept of $5$.  **What is the best interpretation of this $y$-intercept?**",
+                                "images": [
+                                    {
+                                        "alt": "A graph plots Mood rating, from 0 to 9, in increments of 1, versus Hours playing sports, from 0 to 4.5, in increments of 0.5, on an x y plane. 7 points rise diagonally in a loose, but narrow cluster between (0, 4.8) and (3, 9.5). A regression line rises diagonally through the center of the cluster from (0, 5) and (3, 9.5). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/db625adca4b80486641ec47d92b1bcb56fdf0d7a.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "The model indicates that students who had a mood rating of $0$ will spend approximately $5$ hours playing sports.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The average mood rating was $5$.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Students who had a mood rating of $0$ must have spent $5$ hours playing sports.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The model indicates that students who spent $0$ hours playing sports will have an average mood rating of $5$.",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The $y$-intercept of the model describes the average $y$ value  when $x = 0$.   In this case, $x = 0$ refers to students who spent $0$ hours playing sports.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The model indicates that students who spent $0$ hours playing sports will have an average mood rating of $5$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 4 - Interpret Y-Intercept"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Adrianna gathered data on different schools' winning percentages and the average yearly salary of their head coaches (in millions of dollars) in the years $2000$-$2011$. She then created the following scatterplot and regression line.  The fitted line has a $y$-intercept of $39$.  **What is the best interpretation of this $y$-intercept?**",
+                                "images": [
+                                    {
+                                        "alt": "A graph plots Winning percentage, from 0 to 100, in increments of 5, versus Salary, in millions of dollars, from 0 to 5, in increments of 0.5. Dozens of points rise diagonally in a loose, wide cluster between (0.3, 22) and (4.1, 83). The cluster is most heavily concentrated leftward of x = 2.5. A regression line rises diagonally through the center of the cluster from (0, 38) to (5.5, 85). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/a77656ec27ed67408b24ad91f51787a76ce61f39.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "The average winning percentage was $39   \\%$.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The average salary was $39$ million dollars.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "On average, each $1$ million dollar increase in salary was associated with a $39 \\%$ increase in winning percentage.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The model indicates that teams with coaches who had a salary of $0$ million dollars will average a winning percentage of $39 \\%$.",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The $y$-intercept of the model describes the average $y$ value  when $x = 0$.   In this case, $x = 0$ refers to coaches with a salary of $0$ million dollars.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The model indicates that teams with coaches who had a salary of $0$ million dollars will average a winning percentage of $39 \\%$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 4 - Interpret Y-Intercept"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The graph shows the relationship between hours spent on video games and hours spent on homework last week for students in Joyce's class. Joyce created the following scatterplot and regression line to show this relationship.  The fitted line has a $y$-intercept of $23$.  **What is the best interpretation of this $y$-intercept?**",
+                                "images": [
+                                    {
+                                        "alt": "A graph plots Hours spent on homework, from 0 to 24, in increments of 2, versus Hours spent on video games, from 0 to 14, in increments of 2. Dozens of points fall diagonally in a relatively tight, narrow cluster between (0.5, 23.8) and (14.1, 3.1). A regression line falls diagonally through the center of the cluster from (0, 23) to (15, 3). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/246a2bc2d3ae30fe39dfb6a885e22c42dc53a48f.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Joyce spent approximately $23$ hours on homework.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Joyce spent approximately $23$ hours on video games.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The model indicates that students who spent  $23$ hours on video games will average approximately $0$ hours spent on homework.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The model indicates that students who spent  $0$ hours on video games will average $23$ hours spent on homework.",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The $y$-intercept of the model describes the average $y$ value  when $x = 0$.   In this case, $x = 0$ refers to students who spent $0$ hours on video games.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The model indicates that students who spent  $0$ hours on video games will average $23$ hours spent on homework.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 4 - Interpret Y-Intercept"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The scatterplot and regression line below show the relationship between how early students turned in an exam (measured by minutes remaining in the exam) and their exam scores.  The fitted line has a $y$-intercept of $87$.  **What is the best interpretation of this $y$-intercept?**",
+                                "images": [
+                                    {
+                                        "alt": "A graph plots Score, from 0 to 90, in increments of 10, versus Minutes remaining, from 0 to 18, in increments of 1, on an x y plane. Dozens of points fall diagonally in a tight, relatively narrow cluster between (0.1, 88) and (17, 65). A regression line falls diagonally through the center of the cluster from (0, 87) to (20, 67). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/ef8bd461490f791167cd984918b3d60d6147d562.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "The average score on the exam was approximately $87$.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "On average, spending an extra $1$ minute on the exam corresponded to an $87$-point increase in score.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The model indicates that students who spent $5$ minutes taking the exam will have an average score of approximately $87$ points.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The model indicates that students who turned in the exam exactly at the end of the period will have an average score of $87$ points.",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The $y$-intercept of the model describes the average $y$ value  when $x = 0$.   In this case, $x = 0$ refers to students who had $0$ minutes left (or said another way, students who turned in the exam exactly at the end of the period).",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The model indicates that students who turned in the exam exactly at the end of the period will have an average score of $87$ points.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 4 - Interpret Y-Intercept"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The scatterplot and regression line below show the relationship between the percentage of American adults who smoke and years since $1945$.  The fitted line has a $y$-intercept of $41$.  **What is the best interpretation of this $y$-intercept?**",
+                                "images": [
+                                    {
+                                        "alt": "A graph plots Percent of adults who smoke, from 0 to 100, in increments of 5, versus Years since 1945, from 0 to 45, in increments of 5, on an x y plane.13 points fall diagonally in a narrow, nearly single-file, cluster between (0, 42) and (41, 21). A regression line falls diagonally through the center of the cluster from (0, 41) to (45, 18). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/6362e83d74e2b101d7e813b9f5ff2fd95bd9e11f.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$41 \\%$ of American adults smoke.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "In $1945$, approximately $0 \\%$ of American adults were smokers.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The model indicates that approximately $41 \\%$ of American adults smoked in $1985$.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The model indicates that $41 \\%$ of American adults smoked in $1945$.",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The $y$-intercept of the model describes the average $y$ value  when $x = 0$.   In this case, $x = 0$ refers to the year $1945$ since the $x$ variable is defined as years after $1945$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The model indicates that $41 \\%$ of American adults smoked in $1945$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 4 - Interpret Y-Intercept"
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,208 @@
+{
+    "standard_metadata": {
+        "standard_id": "8.EE.A.1",
+        "standard_description": "Know and apply the properties of integer exponents to generate equivalent numerical expressions.",
+        "standard_title": "Powers of products & quotients (structured practice)",
+        "standard_url": "https://www.khanacademy.org/math/algebra-basics/alg-basics-expressions-with-exponents/alg-basics-exponent-properties-intro/e/powers-of-products-and-quotients-sp"
+    },
+    "id": "xa5f5ed4577f4f9b8",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Select the equivalent expression.**  $(3\\cdot 5)^6=?$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$3^6\\cdot 5^6$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$3\\cdot 5^6$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$3^{11}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$3^3\\cdot 5^3$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$(3\\cdot 5)^6=3^6\\cdot 5^6$  This follows from the general rule $(x\\cdot y)^n=x^n\\cdot y^n$.  We can also see this is correct by expanding the powers.  $\\begin{align} (3\\cdot 5)^6&=\\underbrace{(3\\cdot 5)(3\\cdot 5)(3\\cdot 5)(3\\cdot 5)(3\\cdot 5)(3\\cdot 5)}_\\text{6 times} \\\\\\\\\\\\ &=\\underbrace{3\\cdot 3\\cdot 3\\cdot 3\\cdot 3\\cdot 3}_\\text{6 times}\\cdot\\underbrace{5\\cdot 5\\cdot 5\\cdot 5\\cdot 5\\cdot 5}_\\text{6 times} \\\\\\\\ &=3^6\\cdot 5^6 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "In conclusion, $(3\\cdot 5)^6=3^6\\cdot 5^6$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Simplify.**   *Rewrite the expression in the form $k\\cdot x^n$.*  $(4x)^2=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "16x^2",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Recall that $(x\\cdot y)^n=x^n\\cdot y^n$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} (4x)^2&=4^2\\cdot x^2 \\\\\\\\ &=16x^2 \\end{align}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Select the equivalent expression.**  $\\left(\\dfrac72\\right)^8=?$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$\\dfrac{7^8}{2^8}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{7^8}{2}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$28$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$(7-2)^8$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\left(\\dfrac72\\right)^8=\\dfrac{7^8}{2^8}$  This follows from the general rule $\\left(\\dfrac xy\\right)^n=\\dfrac{x^n}{y^n}$.  We can also see this is correct by expanding the powers.  $\\begin{align} \\left(\\dfrac72\\right)^8&=\\underbrace{\\left(\\dfrac72\\right)\\left(\\dfrac72\\right)\\left(\\dfrac72\\right)\\left(\\dfrac72\\right)\\left(\\dfrac72\\right)\\left(\\dfrac72\\right)\\left(\\dfrac72\\right)\\left(\\dfrac72\\right)}_\\text{8 times} \\\\\\\\\\\\ &=\\dfrac{\\overbrace{7\\cdot 7\\cdot 7\\cdot 7\\cdot 7\\cdot 7\\cdot 7\\cdot 7}^\\text{8 times}}{\\underbrace{2\\cdot 2\\cdot 2\\cdot 2\\cdot 2\\cdot 2\\cdot 2\\cdot 2}_\\text{8 times}} \\\\\\\\ &=\\dfrac{7^8}{2^8} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "In conclusion, $\\left(\\dfrac72\\right)^8=\\dfrac{7^8}{2^8}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Simplify.**   *Rewrite the expression in the form $\\dfrac{z^n}{k}$.*  $\\left(\\dfrac{z}{5}\\right)^2=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "\\frac{z^2}{25}",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Recall that $\\left(\\dfrac xy\\right)^n=\\dfrac{x^n}{y^n}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\left(\\dfrac{z}{5}\\right)^2&=\\dfrac{z^2}{5^2} \\\\\\\\ &=\\dfrac{z^2}{25} \\end{align}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Simplify.**   *Rewrite the expression in the form $k\\cdot y^n$.*  $\\left(2y^4\\right)^3=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "8y^{12}",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Recall that $(x\\cdot y)^n=x^n\\cdot y^n$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\left(2y^4\\right)^3&=2^3\\cdot \\left(y^4\\right)^3 \\\\\\\\ &=8\\cdot y^{4\\cdot 3} \\\\\\\\ &=8y^{12} \\end{align}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        }
+    ]
+}

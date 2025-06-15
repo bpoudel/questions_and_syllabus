@@ -1,0 +1,1091 @@
+{
+    "standard_metadata": {
+        "standard_id": "6.SP.B.5.d",
+        "standard_description": "Relating the choice of measures of center and variability to the shape of the data distribution and the context in which the data were gathered.",
+        "standard_title": "Effects of shifting, adding, & removing a data point",
+        "standard_url": "https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-data-statistics/cc-6th-mean-median-challenge/e/effects-of-shifting-adding-removing-data-point"
+    },
+    "id": "x941f8d83",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Liam works at a zoo. He was looking at some data showing the masses of their $5$ African elephants. The mean mass of the elephants was $3{,}800\\,{\\text{kg}}$, and the median mass was $3{,}600\\,{\\text{kg}}$. The smallest elephant, named Lola, weighed $2{,}700\\,{\\text{kg}}$.  Lola then got very sick and lost weight until her mass reached $1{,}800\\,{\\text{kg}}$.  **How will Lola's mass decreasing affect the mean and median?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Both the mean and median will decrease.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The mean will stay the same, and the median will decrease.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The mean will decrease, and the median will stay the same.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The mean will decrease, and the median will increase.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  The mean and median are two ways to describe the center of a data set.  When a data set is almost symmetrical, the mean and median are close together.  When a data set is not symmetrical, the mean is usually closer to the outliers or tail than the median is.  Let's reason conceptually about the measures of center since we do not know the exact values.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Reasoning about the median  There are $5$ elephants. When the masses are in order from least to greatest, the median is the $3^\\text{rd}$ mass.  Lola's mass was the least both before and after she lost weight. So Lola's mass is the $1^\\text{st}$ mass when we order them from least to greatest.  Changing the $1^\\text{st}$ mass does not change the $3^\\text{rd}$ mass, so the median stays the same.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Reasoning about the mean  Let's remember how to calculate the mean:  $\\text{mean}=\\dfrac{\\text{total mass}}{\\text{number of elephants}}$  Lola's mass decreasing from $2{,}700\\,{\\text{kg}}$ to $1{,}800\\,{\\text{kg}}$ decreases the total mass. However, it does not change the number of elephants. So the mean decreases.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Conclusion  The mean will decrease, and the median will stay the same.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1: Shift"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Mariah works at a zoo. She was looking at some data showing the masses of their $5$ African elephants. The mean mass of the elephants was $3{,}800\\,{\\text{kg}}$, and the median mass was $3{,}600\\,{\\text{kg}}$. The heaviest elephant, named Omar, was recorded as $6{,}000\\,{\\text{kg}}$.  Mariah found out that Omar's mass was recorded incorrectly, and that Omar actually weighed $7{,}000\\,{\\text{kg}}$.  **How will Omar's mass increasing affect the mean and median?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Both the mean and median will increase.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The mean will stay the same, and the median will increase.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The mean will increase, and the median will decrease.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The mean will increase, and the median will stay the same.",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  The mean and median are two ways to describe the center of a data set.  When a data set is almost symmetrical, the mean and median are close together.  When a data set is not symmetrical, the mean is usually closer to the outliers or tail than the median is.  Let's reason conceptually about the measures of center since we do not know the exact values.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Reasoning about the median  There are $5$ elephants. When the masses are in order from least to greatest, the median is the $3^\\text{rd}$ mass.  Omar's mass was the largest both before and after his mass was corrected. So Omar's mass is the $5^\\text{th}$ mass when we order them from least to greatest.  Changing the $5^\\text{th}$ mass does not change the $3^\\text{rd}$ mass, so the median stays the same.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Reasoning about the mean  Let's remember how to calculate the mean:  $\\text{mean}=\\dfrac{\\text{total mass}}{\\text{number of elephants}}$  Omar's mass increasing from $6{,}000\\,{\\text{kg}}$ to $7{,}000\\,{\\text{kg}}$ increases the total mass. However, it does not change the number of elephants. So the mean increases.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Conclusion  The mean will increase, and the median will stay the same.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1: Shift"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Lara is a wildlife researcher. They were analyzing the mean and median lengths of $7$ fish their team had observed. The fish all had different lengths between $15\\,\\text{cm}$ and $33\\,\\text{cm}$.  Lara found out that they were misreading the longest length. It was actually $88\\,\\text{cm}$, not $33\\,\\text{cm}$.  **How will this length increasing affect the mean and median?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Both the mean and median will increase.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The mean will increase, and the median will stay the same.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The mean will increase, and the median will decrease.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The mean will stay the same, and the median will increase.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  The mean and median are two ways to describe the center of a data set.  When a data set is almost symmetrical, the mean and median are close together.  When a data set is not symmetrical, the mean is usually closer to the outliers or tail than the median is.  Let's reason conceptually about the measures of center since we do not know the exact values.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Reasoning about the median  There are $7$ fish. When the lengths are in order from least to greatest, the median is the $4^\\text{th}$ length.  The fish that was $88\\,\\text{cm}$ long was the longest both before and after their length was corrected. So theirs is the $7^\\text{th}$ length when we order them from least to greatest.  Changing the $7^\\text{th}$ length does not change the $4^\\text{th}$ length, so the median stays the same.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Reasoning about the mean  Let's remember how to calculate the mean:  $\\text{mean}=\\dfrac{\\text{total length}}{\\text{number of fish}}$  The longest fish increasing from $33\\,{\\text{cm}}$ to $88\\,{\\text{cm}}$ increases the total length. However, it does not change the number of fish. So the mean increases.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Conclusion  The mean will increase, and the median will stay the same.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1: Shift"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Diego is a wildlife researcher. They were analyzing the mean and median lengths of $9$ whales their team had observed. The whales all had different lengths between $23\\,\\text{m}$ and $27\\,\\text{m}$.  Diego found out that they were misreading the shortest length. It was actually $20\\,\\text{m}$, not $23\\,\\text{m}$.  **How will this length decreasing affect the mean and median?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Both the mean and median will decrease.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The mean will decrease, and the median will increase.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The mean will decrease, and the median will stay the same.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The mean will stay the same, and the median will decrease.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  The mean and median are two ways to describe the center of a data set.  When a data set is almost symmetrical, the mean and median are close together.  When a data set is not symmetrical, the mean is usually closer to the outliers or tail than the median is.  Let's reason conceptually about the measures of center since we do not know the exact values.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Reasoning about the median  There are $9$ whales. When the lengths are in order from least to greatest, the median is the $5^\\text{th}$ length.  The whale that was $20\\,\\text{m}$ long was the shortest both before and after their length was corrected. So theirs is the $1^\\text{st}$ length when we order them from least to greatest.  Changing the $1^\\text{st}$ length does not change the $5^\\text{th}$ length, so the median stays the same.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Reasoning about the mean  Let's remember how to calculate the mean:  $\\text{mean}=\\dfrac{\\text{total length}}{\\text{number of whales}}$  The shortest whale decreasing from $23\\,{\\text{m}}$ to $20\\,{\\text{m}}$ decreases the total length. However, it does not change the number of whales. So the mean decreases.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Conclusion  The mean will decrease, and the median will stay the same.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1: Shift"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Anya plays one round of her favorite online game every day. One week, she played $7$ rounds and scored between $120$ and $300$ points each round. She calculated the mean and median of those scores.  Then, Anya found out that the day she scored $300$ points was a special \"double points\" day, so she actually earned $600$ points, not $300$.  **How will this amount increasing affect the mean and median?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Both the mean and median will increase.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The mean will stay the same, and the median will increase.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The mean will increase, and the median will decrease.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The mean will increase, and the median will stay the same.",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  The mean and median are two ways to describe the center of a data set.  When a data set is almost symmetrical, the mean and median are close together.  When a data set is not symmetrical, the mean is usually closer to the outliers or tail than the median is.  Let's reason conceptually about the measures of center since we do not know the exact values.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Reasoning about the median  There are $7$ scores. When the scores are in order from least to greatest, the median is the $4^\\text{th}$ score.  The day where Anya scored $300$ points was the largest score both before and after that score was increased. So that is the $7^\\text{th}$ score when we order them from least to greatest.  Changing the $7^\\text{th}$ score does not change the $4^\\text{th}$ score, so the median stays the same.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Reasoning about the mean  Let's remember how to calculate the mean:  $\\text{mean}=\\dfrac{\\text{total points}}{\\text{number of rounds}}$  The largest score increasing from $300$ to $600$ points increases the total number of points. However, it does not change the number of rounds. So the mean increases.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Conclusion  The mean will increase, and the median will stay the same.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1: Shift"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A small accounting firm has $4$ accountants who each earn a different salary between $52{,}000$ dollars and $58{,}000$ dollars. For extra help during tax season, they hire a $5^{\\text{th}}$ accountant who earns $10{,}000$ dollars.   **How will hiring the $5^{\\text{th}}$ accountant affect the mean and median?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Both the mean and median will decrease, but the median will decrease by more than the mean.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Both the mean and median will decrease, but the mean will decrease by more than the median.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The mean will decrease, and the median will increase.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The mean will increase, and the median will decrease.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  The mean and median are two ways to describe the center of a data set.  When a data set is almost symmetrical, the mean and median are close together.  When a data set is not symmetrical, the mean is usually closer to the outliers or tail than the median is.  We can either reason conceptually about the measures of center or calculate and compare the changes in each.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Reasoning about the centers  The part-year accountant earns a lot *less* than the typical salary of the rest of the employees. So adding that low salary makes both centers *decrease*.  Without the fifth accountant, the salaries were roughly symmetrical. So the mean and median were close together.  The fifth accountant's salary was a low outlier. So we would expect the new mean to be lower than the new median.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Change in the median  The new data point is lower than the median.  ####Before  [[☃ image 2]]  ####After  [[☃ image 1]]  The median shifts from between two data points to the lower of the two data points. So hiring the accountant will decrease the median a little bit.  [[☃ explanation 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A number line, labeled Salary (thousands of dollars), numbered from 10 to 60 in increments of 1.  Every 5 tick marks is labeled in increments of 5. 4 points are plotted on the right side of the number line between 50 and 60, and there is a highlighted point plotted at 10.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/fb8ebdf6439b897cbce4026c2baf20561ba5019d.svg"
+                                        },
+                                        {
+                                            "alt": "A number line, labeled Salary (thousands of dollars), numbered from 10 to 60 in increments of 1.  Every 5 tick marks is labeled in increments of 5. The median is labeled at 55. 4 points are plotted on the right side of the number line between 50 and 60.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/de89d44e87efad5efc73b468489f1c9fbceab0ce.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Change in the mean  The new data point is lower than the mean.  ####Before  [[☃ image 1]]  ####After  [[☃ image 2]]  The sum of everybody's salary will increase by only $10{,}000$ dollars. The number of people increases by $1$. So hiring the accountant will decrease the mean a lot. [[☃ explanation 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A number line, labeled Salary (thousands of dollars), numbered from 10 to 60 in increments of 1.  Every 5 tick marks is labeled in increments of 5. The mean is labeled at 55. 4 points are plotted on the right side of the number line between 50 and 60.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/3c7544118bf4497e50fe12a6eab0a3d7713fde2e.svg"
+                                        },
+                                        {
+                                            "alt": "A number line, labeled Salary (thousands of dollars), numbered from 10 to 60 in increments of 1.  Every 5 tick marks is labeled in increments of 5. The mean is labeled at 46. 4 points are plotted on the right side of the number line between 50 and 60, and there is a highlighted point plotted at 10.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/44a5753808b12cd73725a26f2c52a1b8b61e282d.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Conclusion  Both the mean and median will decrease, but the mean will decrease by more than the median.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2: Add"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Chucky grabbed $11$ items in the grocery store. Each item had a different price, and the mean was about $\\$4.44$. On his way to the register, he added a $12^\\text{th}$ item: a jug of olive oil for $\\$39.99$.   **How will adding the jug of olive oil affect the mean and median?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Both the mean and median will increase, but the median will increase by more than the mean.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Both the mean and median will increase, but the mean will increase by more than the median.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The mean will increase, and the median will decrease.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The median will increase, and the mean will decrease.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  The mean and median are two ways to describe the center of a data set.  When a data set is almost symmetrical, the mean and median are close together.  When a data set is not symmetrical, the mean is usually closer to the outliers or tail than the median is.  We can either reason conceptually about the measures of center or calculate and compare the changes in each.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Reasoning about the centers  The jug of olive oil costs a lot *more* than the typical price of the rest of the items. So adding that high price item makes both centers *increase*.  Without the jug of olive oil, the prices were roughly symmetrical. So the mean and median were close together.  The jug of olive oil is a high outlier. So we would expect the new mean to be higher than the new median.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Change in the median  The new data point is higher than the median.  ####Before  [[☃ image 1]]  ####After  [[☃ image 2]]  The median shifts from the middle price to halfway between that price and the next highest. So adding the olive oil will increase the median only a little.  [[☃ explanation 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A histogram with a vertical axis labeled Frequency and a horizontal axis labeled dollars. A cluster of bars ranges from 0 to 8. A vertical line labeled median is at 4 dollars and 79 cents.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/4b504a9ee13f6fb74e28ba4c5cb3e4d9bc34129f.svg"
+                                        },
+                                        {
+                                            "alt": "A histogram with a vertical axis labeled Frequency and a horizontal axis labeled dollars. A cluster of bars ranges from 0 to 8. Another bar is at 38 to 40. A vertical line labeled median is at 4 dollars and 99 cents.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/062a86803a4c590ad5e4bcb0370dd6b7d007a5ee.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Change in the mean  The new data point is higher than the mean.  ####Before  [[☃ image 1]]  ####After  [[☃ image 2]]  The sum of all of the prices will increase by $\\$39.99$. The number of items increases by $1$. So adding the olive oil will increase the mean a lot. [[☃ explanation 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A histogram with a vertical axis labeled Frequency and a horizontal axis labeled dollars. A cluster of bars ranges from 0 to 8. A vertical line labeled mean is around  4 dollars and 44 cents.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/52ba055afebdb8d5a590407f75b832297d589bce.svg"
+                                        },
+                                        {
+                                            "alt": "A histogram with a vertical axis labeled Frequency and a horizontal axis labeled dollars. A cluster of bars ranges from 0 to 8. Another bar is at 38 to 40. A vertical line labeled mean is at 7 dollars and 41 cents.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/175c4d9ae4c8b6a96ae2e6eba772f1c5bcc9b9e0.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Conclusion  Both the mean and median will increase, but the mean will increase by more than the median.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2: Add"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Brandon works at a petting zoo with $8$ animals. They were looking at some data showing the masses of the animals. Each animal had a different mass between $2$ and $160\\,\\text{kg}$.  The zoo then buys a horse that weighs $900\\,\\text{kg}$ as their $9^{\\text{th}}$ animal.   **How does buying the horse affect the mean and median?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Both the mean and median will increase, but the median will increase by more than the mean.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Both the mean and median will increase, but the mean will increase by more than the median.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Both the mean and median will decrease, but the median will decrease by more than the mean.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Both the mean and median will decrease, but the mean will decrease by more than the median.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  The mean and median are two ways to describe the center of a data set.  When a data set is almost symmetrical, the mean and median are close together.  When a data set is not symmetrical, the mean is usually closer to the outliers or tail than the median is.  We can either reason conceptually about the measures of center or calculate and compare the changes in each.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Reasoning about the centers  The horse weighs a lot *more* than the typical weight of the rest of the animals. So buying the horse makes both centers *increase*.  Without the horse, the weights were roughly symmetrical. So the mean and median were close together.  The horse is a high outlier. So we would expect the new mean to be higher than the new median.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Change in the median  The new data point is higher than the median.  ####Before  [[☃ image 1]]  ####After  [[☃ image 2]]  The median shifts from between two data points to the higher of the two data points. So buying the horse will increase the median a little bit.  [[☃ explanation 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A number line labeled weight in kilograms. 7 dots are between 0 and 100 with a dashed vertical line labeled median at 17. There is a dot at 160. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/34f832d63846d11058226639fcd962b4d28eb101.svg"
+                                        },
+                                        {
+                                            "alt": "A number line labeled weight in kilograms. 7 dots are between 0 and 100 with a vertical line labeled median at 27. There is a dot at 160 and a highlighted dot at 900.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/ffe48c1be929cb85243de598b78db501be1a7a28.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Change in the mean  The new data point is higher than the mean.  ####Before  [[☃ image 1]]  ####After  [[☃ image 2]]  The sum of all of the weights will increase by $900\\,\\text{kg}$. The number of animals increases by $1$. So buying the horse will increase the mean a lot. [[☃ explanation 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A number line labeled weight in kilograms. 7 dots are between 0 and 100 with a dashed vertical line labeled mean at 36. There is a dot at 160. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/79da6ab99cc58e28ceccc8fa2439ffccdd7c0026.svg"
+                                        },
+                                        {
+                                            "alt": "A number line labeled weight in kilograms. 7 dots are between 0 and 100 with a vertical line labeled mean at 132. There is a dot at 160 and a highlighted dot at 900.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/2a265c29a3aee2641622fd6536a0b0c558f761a6.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Conclusion  Both the mean and median will increase, but the mean will increase by more than the median.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2: Add"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A cat gave birth to $3$ kittens who each had a different weight between $147$ and $159\\,\\text{g}$.  Then, the cat gave birth to a $4^{\\text{th}}$ kitten that weighed $57\\,\\text{g}$.   **How will the birth of the $4^{\\text{th}}$ kitten affect the mean and median?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Both the mean and median will decrease, but the median will decrease by more than the mean.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Both the mean and median will decrease, but the mean will decrease by more than the median.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Both the mean and median will increase, but the median will increase by more than the mean.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Both the mean and median will increase, but the mean will increase by more than the median.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  The mean and median are two ways to describe the center of a data set.  When a data set is almost symmetrical, the mean and median are close together.  When a data set is not symmetrical, the mean is usually closer to the outliers or tail than the median is.  We can either reason conceptually about the measures of center or calculate and compare the changes in each.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Reasoning about the centers  The $4^{\\text{th}}$ kitten weighs a lot *less* than the typical weight of the rest of the kittens. So adding that low weight makes both centers *decrease*.  Without the $4^{\\text{th}}$ kitten, the weights were roughly symmetrical. So the mean and median were close together.  The $4^{\\text{th}}$ kitten was a low outlier. So we would expect the new mean to be lower than the new median.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Change in the median  The new data point is lower than the median.  ####Before  [[☃ image 1]]  ####After  [[☃ image 2]]  The median shifts from the middle kitten to between that kitten and the next smallest. So adding the $4^{\\text{th}}$ kitten will decrease the median a little bit.  [[☃ explanation 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A number line labeled weight in grams. 3 dots are between 145 and 160 with a dashed vertical line labeled median at 153. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/a75991a59bc9aee4ae55f95e2603c6be7be3f21c.svg"
+                                        },
+                                        {
+                                            "alt": "A number line labeled weight in grams. 3 dots are between 145 and 160 with a dashed vertical line labeled median at 150. There is a highlighted dot at 57.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/4e730b8fd60b02258c41bbf51f658f406620f7e3.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Change in the mean  The new data point is lower than the mean.  ####Before  [[☃ image 1]]  ####After  [[☃ image 2]]  The sum of the weights will increase by only $57\\,\\text{g}$. The number of kittens increases by $1$. So adding the $4^{\\text{th}}$ kitten will decrease the mean a lot. [[☃ explanation 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A number line labeled weight in grams. 3 dots are between 145 and 160 with a dashed vertical line labeled mean at 153. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d99a5b3c66f29e0059507fc7d96673108f307ed9.svg"
+                                        },
+                                        {
+                                            "alt": "A number line labeled weight in grams. 3 dots are between 145 and 160 with a dashed vertical line labeled mean at 129. There is a highlighted dot at 57.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/01b04dbbb1458e68b1efac0e70320c1c9d08ef50.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Conclusion  Both the mean and median will decrease, but the mean will decrease by more than the median.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2: Add"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Ana played $4$ rounds of golf. Her scores for those rounds had a mean and median of $97$.  Then, she played a round with a score of $80$.  Here's a dot plot showing these scores:    **How did the round where Ana scored $80$ change the mean and median?**",
+                                "images": [
+                                    {
+                                        "alt": "A dot plot has a horizontal axis labeled, Score, marked from 80 to 100, in increments of 1. 1 dot is plotted above each of the following values: 80, 94, 96, 98, 100. The dot above 80 is shaded gold. The dots above 94, 96, 98, and 100 are labeled first four rounds.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/cc3b3d560c84f1462326b7dec83613a503edce76.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "The median decreased, and the mean increased.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The mean decreased, and the median increased.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Both the median and mean decreased, but the mean decreased by more than the median.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Both the median and mean decreased, but the median decreased by more than the mean.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  The mean and median are two ways to describe the center of a data set.  When a data set is almost symmetrical, the mean and median are close together.  When a data set is not symmetrical, the mean is usually closer to the outliers or tail than the median is.  We can either reason conceptually about the measures of center or calculate and compare the changes in each.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Reasoning about the centers  The score of $80$ is a lot *less* than the typical score of the other rounds. So adding that low score makes both centers *decrease*.  Without the score of $80$, the scores were symmetrical. So the mean and median were equal.  The score of $80$ is a low outlier. So we would expect the new mean to be lower than the new median.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Change in the median  The new data point is lower than the median.  ####Before  [[☃ image 1]]  ####After  [[☃ image 2]]  The median shifts from between two data points to the lower of the two data points. So the new low score will decrease the median a little bit.  [[☃ explanation 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A number line labeled score with a dot distribution as follows: 94, 1; 96, 1; 98, 1; 100, 1. There is a vertical dashed line labeled median at 97.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/ac11bdbf4cd2630fb947bef3c82d99240f7a0101.svg"
+                                        },
+                                        {
+                                            "alt": "A number line labeled score with a dot distribution as follows: 94, 1; 96, 1; 98, 1; 100, 1. There is also a highlighted dot above 80. There is a vertical dashed line labeled median at 96.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/2866f4e27b25bae9128aafcfc269ef9413fc8d9f.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Change in the mean  The new data point is lower than the mean.  ####Before  [[☃ image 1]]  ####After  [[☃ image 2]]  The sum of all of the scores will increase by only $80$. The number of scores increases by $1$. So the round of $80$ will decrease the mean a lot. [[☃ explanation 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A number line labeled score with a dot distribution as follows: 94, 1; 96, 1; 98, 1; 100, 1. There is a vertical dashed line labeled mean at 97.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/b61bd24703e633f511918faa01febfbef4c02bcd.svg"
+                                        },
+                                        {
+                                            "alt": "A number line labeled score with a dot distribution as follows: 94, 1; 96, 1; 98, 1; 100, 1. There is also a highlighted dot above 80. There is a vertical dashed line labeled mean at 93 and 6 tenths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/2ae182f8fe57092e25523323db738104a471f967.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Conclusion  Both the median and mean will decrease, but the mean will decrease by more than the median.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2: Add"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Chucky grabbed $12$ items in the grocery store that each had a different price and had a mean cost of about $\\$7.41$. One of the items was an entire wheel of cheese that cost $\\$39.99$.   Chucky then decided to put the wheel of cheese back and only buy the other $11$ items.  **How will removing the wheel of cheese affect the mean and median?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Both the mean and median will decrease, but the median will decrease by more than the mean.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Both the mean and median will decrease, but the mean will decrease by more than the median.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Both the mean and median will increase, but the median will increase by more than the mean.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Both the mean and median will increase, but the mean will increase by more than the median.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  The mean and median are two ways to describe the center of a data set.  When a data set is almost symmetrical, the mean and median are close together.  When a data set is not symmetrical, the mean is usually closer to the outliers or tail than the median is.  We can either reason conceptually about the measures of center or calculate and compare the changes in each.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Reasoning about the centers  The cheese wheel cost a lot *more* than the typical cost of the rest of the groceries. So taking away that high price makes both centers *decrease*.  The cheese wheel's price was a high outlier. So we would expect the original mean to be higher than the median.  Without the cheese wheel, the set of prices is more symmetrical. The mean gets closer to the new median without the outlier, so the mean changes more than the median does.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Change in the median  The removed price was higher than the median.  ####Before  [[☃ image 2]]  ####After  [[☃ image 1]]  Removing the wheel of cheese means the median shifts from between two data points to the lower of the two data points. So the median will decrease only a little. [[☃ explanation 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A bar graph. The x axis is labeled Dollars and is numbered from 0 to 40 in increments of 2. The y axis is labeled Frequency and is numbered from 0 to 4 in increments of 1. The bar between 0 and 2 has a frequency of 2. The bar between 2 and 4 has as frequency of 3. The bar between 4 and 6 has a frequency of 4. The bar between 6 and 8 has a frequency of 2. The median is the bar between 4 and 6.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d2ba145adba74c16c336e6a328a52aba119e0aa4.svg"
+                                        },
+                                        {
+                                            "alt": "A bar graph. The x axis is labeled Dollars and is numbered from 0 to 40 in increments of 2. The y axis is labeled Frequency and is numbered from 0 to 4 in increments of 1. The bar between 0 and 2 has a frequency of 2. The bar between 2 and 4 has as frequency of 3. The bar between 4 and 6 has a frequency of 4. The bar between 6 and 8 has a frequency of 2. The bar between 38 and 40 has a frequency of 1. The median is the bar between 4 and 6.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/062a86803a4c590ad5e4bcb0370dd6b7d007a5ee.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Change in the mean  The removed price was higher than the mean.  ####Before  [[☃ image 2]]  ####After  [[☃ image 1]]  The total cost will decrease by $\\$39.99$. The number of items decreases by $1$. So removing the wheel of cheese will decrease the mean a lot. [[☃ explanation 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A bar graph. The x axis is labeled Dollars and is numbered from 0 to 40 in increments of 2. The y axis is labeled Frequency and is numbered from 0 to 4 in increments of 1. The bar between 0 and 2 has a frequency of 2. The bar between 2 and 4 has as frequency of 3. The bar between 4 and 6 has a frequency of 4. The bar between 6 and 8 has a frequency of 2. The mean is the bar between 4 and 6.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/6b9863a394465bf733eb522286fa1f28efea5a42.svg"
+                                        },
+                                        {
+                                            "alt": "A bar graph. The x axis is labeled Dollars and is numbered from 0 to 40 in increments of 2. The y axis is labeled Frequency and is numbered from 0 to 4 in increments of 1. The bar between 0 and 2 has a frequency of 2. The bar between 2 and 4 has as frequency of 3. The bar between 4 and 6 has a frequency of 4. The bar between 6 and 8 has a frequency of 2. The bar between 38 and 40 has a frequency of 1. The mean is the bar between 6 and 8.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/175c4d9ae4c8b6a96ae2e6eba772f1c5bcc9b9e0.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Conclusion  Both the mean and median will decrease, but the mean will decrease more than the median.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3: Remove"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A cat gave birth to $4$ kittens. Three of the kittens had different weights between $147\\,\\text{g}$ and $159\\,\\text{g}$, and one kitten weighed $57\\,\\text{g}$.   The kitten that weighed $57\\,\\text{g}$ was then adopted, so that kitten was removed from the data set.  **How will the removal of the kitten affect the mean and median?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Both the mean and median will increase, but the median will increase by more than the mean.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Both the mean and median will increase, but the mean will increase by more than the median.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The mean will increase, and the median will decrease.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The median will increase, and the mean will decrease.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  The mean and median are two ways to describe the center of a data set.  When a data set is almost symmetrical, the mean and median are close together.  When a data set is not symmetrical, the mean is usually closer to the outliers or tail than the median is.  We can either reason conceptually about the measures of center or calculate and compare the changes in each.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Reasoning about the centers  The $57\\,\\text{g}$ kitten weighs a lot *less* than the typical weight of the rest of the kittens. So taking away that low weight makes both centers *increase*.  The $57\\,\\text{g}$ kitten was a low outlier. So we would expect the original mean to be lower than the median.  Without this kitten, the set of weights is more symmetrical. The mean gets closer to the new median without the outlier, so the mean changes more than the median does.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Change in the median  The removed weight was lower than the median.  ####Before  [[☃ image 1]]  ####After  [[☃ image 2]]  Removing the $57\\,\\text{g}$ kitten means the median shifts from between two data points to the higher of the two data points. So the median will increase only a little. [[☃ explanation 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A number line, labeled Weight (grams), numbered from 40 to 160 in increments of 5.  Every 4 tick marks is labeled in increments of 20. The median is labeled at 150. 3 points are plotted on the right side of the number line between 140 and 160, and there is a highlighted point plotted between 55 and 60.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/4e730b8fd60b02258c41bbf51f658f406620f7e3.svg"
+                                        },
+                                        {
+                                            "alt": "A number line, labeled Weight (grams), numbered from 40 to 160 in increments of 5.  Every 4 tick marks is labeled in increments of 20. The median is labeled between 150 and 155. 3 points are plotted on the right side of the number line between 140 and 160.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/a75991a59bc9aee4ae55f95e2603c6be7be3f21c.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Change in the mean  The removed weight was lower than the mean.  ####Before  [[☃ image 1]]  ####After  [[☃ image 2]]  The sum of the weights will decrease by only $57\\,\\text{g}$. The number of kittens decreases by $1$. So removing the $57\\,\\text{g}$ kitten will increase the mean a lot. [[☃ explanation 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A number line, labeled Weight (grams), numbered from 40 to 160 in increments of 5.  Every 4 tick marks is labeled in increments of 20. The mean is labeled between 125 and 130. 3 points are plotted on the right side of the number line between 140 and 160, and there is a highlighted point plotted between 55 and 60.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/01b04dbbb1458e68b1efac0e70320c1c9d08ef50.svg"
+                                        },
+                                        {
+                                            "alt": "A number line, labeled Weight (grams), numbered from 40 to 160 in increments of 5.  Every 4 tick marks is labeled in increments of 20. The mean is labeled between 150 and 155. 3 points are plotted on the right side of the number line between 140 and 160.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d99a5b3c66f29e0059507fc7d96673108f307ed9.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Conclusion  Both the mean and median will increase, but the mean will increase by more than the median.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3: Remove"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "At track practice, Alexia ran $5$ attempts of the 100-meter dash. All of her times were different values between $11$ and $13$ seconds, except for an attempt when she tripped and finished in $24$ seconds.   Alexia's coach said they would remove the $24\\,\\text{s}$ result from the set of these practice times.  **How will removing this time affect the mean and median?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Both the mean and median will decrease, but the mean will decrease by more than the median.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Both the mean and median will decrease, but the median will decrease by more than the mean.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Both the mean and median will increase, but the mean will increase by more than the median.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Both the mean and median will increase, but the median will increase by more than the mean.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  The mean and median are two ways to describe the center of a data set.  When a data set is almost symmetrical, the mean and median are close together.  When a data set is not symmetrical, the mean is usually closer to the outliers or tail than the median is.  We can either reason conceptually about the measures of center or calculate and compare the changes in each.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Reasoning about the centers  The $24\\,\\text{s}$ result is a lot *more* than the other times. So taking away that high time makes both centers *decrease*.  The $24\\,\\text{s}$ result was a high outlier. So we would expect the original mean to be higher than the median.  Without this result, the set of times is more symmetrical. The mean gets closer to the new median without the outlier, so the mean changes more than the median does.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Change in the median  The removed time was higher than the median.  ####Before  [[☃ image 2]]  ####After  [[☃ image 1]]  Removing the $24\\,\\text{s}$ result makes the median shift from the middle time to between that time and the next lowest. So the median will decrease only a little. [[☃ explanation 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A number line, labeled Time (seconds), numbered from 10 to 24 in increments of 0.5.  Every 4 tick marks is labeled in increments of 2. The median is labeled at 12. 2 points are plotted on the number line between 10 and 12. 2 points are plotted on the number line between 12 and 14.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/bb9ab615b751a747bbcf350e7a69db0be1fa6a02.svg"
+                                        },
+                                        {
+                                            "alt": "A number line, labeled Time (seconds), numbered from 10 to 24 in increments of 0.5.  Every 4 tick marks is labeled in increments of 2. The median is labeled at 12.5. 2 points are plotted on the number line between 10 and 12. 2 points are plotted on the number line between 12 and 14,  and there is a highlighted point plotted at 24.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/e10ad26e4ed28397e549fd056a62e95d2fc3eb9c.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Change in the mean  The removed time was higher than the mean.  ####Before  [[☃ image 2]]  ####After  [[☃ image 1]]  The total time will decrease by $24\\,\\text{s}$. The number of attempts decreases by $1$. So removing the $24\\,\\text{s}$ result will decrease the mean a lot. [[☃ explanation 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A number line, labeled Time (seconds), numbered from 10 to 24 in increments of 0.5.  Every 4 tick marks is labeled in increments of 2. The mean is labeled at 12. 2 points are plotted on the number line between 10 and 12. 2 points are plotted on the number line between 12 and 14.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d6daf296bf79a7f9a91295b9725a108d9919d078.svg"
+                                        },
+                                        {
+                                            "alt": "A number line, labeled Time (seconds), numbered from 10 to 24 in increments of 0.5.  Every 4 tick marks is labeled in increments of 2. The mean is labeled between 12 and 12.5. 2 points are plotted on the number line between 10 and 12. 2 points are plotted on the number line between 12 and 14, and a highlighted point is plotted at 24.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/c6395c25ff8fa22eda165da798e0e78489dfface.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Conclusion  Both the mean and median will decrease, but the mean will decrease more than the median.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3: Remove"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A restaurant was hiring for $6$ positions, each with a different hourly wage. These wages were all between $\\$15$ and $\\$20$ per hour, except for one position whose wage was $\\$40$ per hour.   The manager at the restaurant looked at the mean and median of the wages. Then, she decided to remove the $\\$40$ per hour wage from the set and recalculate the mean and median.  **How will removing this wage affect the mean and median?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Both the mean and median will increase, but the mean will increase by more than the median.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Both the mean and median will increase, but the median will increase by more than the mean.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Both the mean and median will decrease, but the mean will decrease by more than the median.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Both the mean and median will decrease, but the median will decrease by more than the mean.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  The mean and median are two ways to describe the center of a data set.  When a data set is almost symmetrical, the mean and median are close together.  When a data set is not symmetrical, the mean is usually closer to the outliers or tail than the median is.  We can either reason conceptually about the measures of center or calculate and compare the changes in each.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Reasoning about the centers  The $\\$40$ wage is a lot *more* than the other wages. So taking away that high wage makes both centers *decrease*.  The $\\$40$ wage was a high outlier. So we would expect the original mean to be higher than the median.  Without this wage, the set of wages is more symmetrical. The mean gets closer to the new median without the outlier, so the mean changes more than the median does.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Change in the median  The removed wage was higher than the median.  ####Before  [[☃ image 2]]  ####After  [[☃ image 1]]  Removing the $\\$40$ wage makes the median shift from between two data points to the lower of the two data points. So the median will decrease only a little. [[☃ explanation 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A number line, labeled Wage (dollars per hour), numbered from 15 to 40 in increments of 1.  Every 5 tick marks is labeled in increments of 5. The median is labeled at 18. 1 point is plotted at 15. There are 3 points plotted between 15 and 20. 1 point is plotted at 20. A highlighted point is plotted at 40.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/ed8b1451edbff700514a7bd6f84587b05155eb4d.svg"
+                                        },
+                                        {
+                                            "alt": "A number line, labeled Wage (dollars per hour), numbered from 15 to 40 in increments of 1.  Every 5 tick marks is labeled in increments of 5. The median is labeled between 18 and 19. 1 point is plotted at 15. There are 3 points plotted between 15 and 20. 1 point is plotted at 20. A highlighted point is plotted at 40.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/014ad0ad72d39cb27aaf8900cb3394707c566b6a.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Change in the mean  The removed wage was higher than the mean.  ####Before  [[☃ image 2]]  ####After  [[☃ image 1]]  The total of the wages decreases by $\\$40$. The number of wages decreases by $1$. So removing the $\\$40$ wage will decrease the mean a lot. [[☃ explanation 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A number line, labeled Wage (dollars per hour), numbered from 15 to 40 in increments of 1.  Every 5 tick marks is labeled in increments of 5. The mean is labeled between 17 and 18. 1 point is plotted at 15. There are 3 points plotted between 15 and 20. 1 point is plotted at 20.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/c1c755727d05b112858111ff320e523252296d47.svg"
+                                        },
+                                        {
+                                            "alt": "A number line, labeled Wage (dollars per hour), numbered from 15 to 40 in increments of 1.  Every 5 tick marks is labeled in increments of 5. The mean is labeled between 21 and 22. 1 point is plotted at 15. There are 3 points plotted between 15 and 20. 1 point is plotted at 20. A highlighted point is plotted at 40.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/f1b292f0ece372678f4d13e7fea7fdb17abab234.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Conclusion  Both the mean and median will decrease, but the mean will decrease more than the median.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3: Remove"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Ariana was looking at rent costs for $5$ apartments. Each rent was a different amount between $\\$1{,}000$ and $\\$1{,}400$ per month, except for one apartment whose rent was $\\$4{,}800$ per month.   Ariana looked at the mean and median of the rents. Then, she decided to remove the $\\$4{,}800$ rent from the set and recalculate the mean and median.  **How will removing this rent affect the mean and median?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Both the mean and median will increase, but the median will increase by more than the mean.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Both the mean and median will increase, but the mean will increase by more than the median.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Both the mean and median will decrease, but the median will decrease by more than the mean.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Both the mean and median will decrease, but the mean will decrease by more than the median.",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  The mean and median are two ways to describe the center of a data set.  When a data set is almost symmetrical, the mean and median are close together.  When a data set is not symmetrical, the mean is usually closer to the outliers or tail than the median is.  We can either reason conceptually about the measures of center or calculate and compare the changes in each.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Reasoning about the centers  The $\\$4{,}800$ rent is a lot *more* than the other rents. So taking away that high rent makes both centers *decrease*.  The $\\$4{,}800$ rent was a high outlier. So we would expect the original mean to be higher than the median.  Without this rent, the set of rents is more symmetrical. The mean gets closer to the new median without the outlier, so the mean changes more than the median does.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Change in the median  The removed rent was higher than the median.  ####Before  [[☃ image 2]]  ####After  [[☃ image 1]]  Removing the $\\$4{,}800$ rent makes the median shift from the middle rent to between that rent and the next lowest. So the median will decrease only a little. [[☃ explanation 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A number line, labeled Rent (dollars per month), numbered from 1000 to 5000 in increments of 100.  Every 5 tick marks is labeled in increments of 1000. The median is labeled between 1100 and 1200. 1 point is plotted at 1000. There are 3 points plotted between 1000 and 1500. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/8fe1357e4fb51bf8ed9ad5b1754ad390833cbfd4.svg"
+                                        },
+                                        {
+                                            "alt": "A number line, labeled Rent (dollars per month), numbered from 1000 to 5000 in increments of 100.  Every 5 tick marks is labeled in increments of 1000. The median is labeled between 1100 and 1200. 1 point is plotted at 1000. There are 3 points plotted between 1000 and 1500. A highlighted point is plotted at 4800.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/b5f14af55b94d486fd29d367254e02f3b5dd0d22.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Change in the mean  The removed rent was higher than the mean.  ####Before  [[☃ image 2]]  ####After  [[☃ image 1]]  The total of the rents decreases by $\\$4{,}800$. The number of apartments decreases by $1$. So removing the $\\$4{,}800$ rent will decrease the mean a lot. [[☃ explanation 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A number line, labeled Rent (dollars per month), numbered from 1000 to 5000 in increments of 100.  Every 5 tick marks is labeled in increments of 1000. The mean is labeled between 1100 and 1200. 1 point is plotted at 1000. There are 3 points plotted between 1000 and 1500. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/b326ff3b72f6acf117d44fc78b16574a832fc4b7.svg"
+                                        },
+                                        {
+                                            "alt": "A number line, labeled Rent (dollars per month), numbered from 1000 to 5000 in increments of 100.  Every 5 tick marks is labeled in increments of 1000. The mean is labeled at 1900. 1 point is plotted at 1000. There are 3 points plotted between 1000 and 1500. A highlighted point is plotted at 4800.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/181e0887badca00b4764196fc63990ed21a72192.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Conclusion  Both the mean and median will decrease, but the mean will decrease more than the median.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3: Remove"
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,751 @@
+{
+    "standard_metadata": {
+        "standard_id": "6.G.A.1",
+        "standard_description": "Find the area of right triangles, other triangles, special quadrilaterals, and polygons by composing into rectangles or decomposing into triangles and other shapes; apply these techniques in the context of solving real-world and mathematical problems.",
+        "standard_title": "Decompose area with triangles",
+        "standard_url": "https://www.khanacademy.org/math/cc-sixth-grade-math/x0267d782:cc-6th-plane-figures/cc-6th-area/e/decompose-area-with-triangles"
+    },
+    "id": "xf6402ab587cd8bbc",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following figure is made of $2$ triangles.    **Find the area of each part of the figure and the whole figure.**  Figure | Area (square units) - | - Triangle A |  Triangle B |  Whole figure |",
+                                "images": [
+                                    {
+                                        "alt": "A quadrilateral with one pair of parallel sides.  The base lengths are 5 units and 10 units.  The height is 3 units. A dashed line from opposite vertices creates two triangles, labeled A and B. Triangle A has a base of 5 units and a height of 3 units. Triangle B has a base of 10 units and a height of 3 units.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/c0b8e61905be9fd56b4360a5476ec30d0a4b7d54.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "22.5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  We have a figure split into $2$ non-overlapping triangles.  We can add the areas of each part to get the area of the whole figure.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Area of triangle A  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{Triangle A} &= \\dfrac{1}{2}\\cdot \\text{base}\\cdot \\text{height}\\\\\\\\ &=\\dfrac{1}{2}\\cdot 5\\cdot 3\\\\\\\\ &=7.5 \\end{align}$  The area of triangle A is $\\redE{7.5}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with one pair of parallel sides.  The base length is 5 units.  The height is 3 units. A dashed line from opposite vertices creates two triangles. The bottom triangle is labeled A.  Triangle A has a base of 5 units and a height of 3 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/f749ca7568ba64f2dea82bcbb0bfabdeb09a9f1e.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of triangle B  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{Triangle B} &= \\dfrac{1}{2}\\cdot \\text{base}\\cdot \\text{height}\\\\\\\\ &=\\dfrac{1}{2}\\cdot 10\\cdot 3\\\\\\\\ &=15 \\end{align}$  The area of triangle B is $\\tealE{15}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with one pair of parallel sides.  The base length is 10 units.  The height is 3 units. A dashed line from opposite vertices creates two triangles. The top triangle is labeled B.  Triangle B has a base of 10 units and a height of 3 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/f3b9e375a027d79a6046aba54aaecf3d12ce3737.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of whole figure  Now we can add all of the partial areas to get the whole area.  $\\redE{7.5}+\\tealE{15}=\\purpleD{22.5}$  The area of the whole figure is $\\purpleD{22.5}$ square units.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Figure | Area (square units) - | - Triangle A | $\\redE{7.5}$ Triangle B | $\\tealE{15}$ Whole figure | $\\purpleD{22.5}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Trapezoids"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following figure is made of $2$ triangles.    **Find the area of each part of the figure and the whole figure.**  Figure | Area (square units) - | - Triangle A |  Triangle B |  Whole figure |",
+                                "images": [
+                                    {
+                                        "alt": "A quadrilateral with one pair of parallel sides.  The base lengths are 4 units and 7 units.  The height is 5 units. A dashed line from opposite vertices creates two triangles, labeled A and B. Triangle A has a base of 7 units and a height of 5 units. Triangle B has a base of 4 units and a height of 5 units.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/96ea076e56cf4c3cd02d9d63ffff90f6aa87dff1.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "27.5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  We have a figure split into $2$ non-overlapping triangles.  We can add the areas of each part to get the area of the whole figure.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Area of triangle A  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{Triangle A} &= \\dfrac{1}{2}\\cdot \\text{base}\\cdot \\text{height}\\\\\\\\ &=\\dfrac{1}{2}\\cdot 7\\cdot 5\\\\\\\\ &=17.5 \\end{align}$  The area of triangle A is $\\redE{17.5}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with one pair of parallel sides.  The base length is 7 units.  The height is 5 units. A dashed line from opposite vertices creates two triangles. The left most triangle is labeled A.  Triangle A has a base of 7 units and a height of 5 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/79b4092f13b92a5c6cc679dc6f578ada220449bc.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of triangle B  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{Triangle B} &= \\dfrac{1}{2}\\cdot \\text{base}\\cdot \\text{height}\\\\\\\\ &=\\dfrac{1}{2}\\cdot 4\\cdot 5\\\\\\\\ &=10 \\end{align}$  The area of triangle B is $\\tealE{10}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with one pair of parallel sides.  The base length is 4 units.  The height is 5 units. A dashed line from opposite vertices creates two triangles. The right most triangle is labeled B.  Triangle B has a base of 4 units and a height of 5 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/eb482d101bfb127a58e50f14bb6f303ae907ae32.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of whole figure  Now we can add all of the partial areas to get the whole area.  $\\redE{17.5}+\\tealE{10}=\\purpleD{27.5}$  The area of the whole figure is $\\purpleD{27.5}$ square units.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Figure | Area (square units) - | - Triangle A | $\\redE{17.5}$ Triangle B | $\\tealE{10}$ Whole figure | $\\purpleD{27.5}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Trapezoids"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following figure is made of $2$ triangles.    **Find the area of each part of the figure and the whole figure.**  Figure | Area (square units) - | - Triangle A |  Triangle B |  Whole figure |",
+                                "images": [
+                                    {
+                                        "alt": "A quadrilateral with one pair of parallel sides.  The base lengths are 7 units and 9 units.  The height is 3 units. A dashed line from opposite vertices creates two triangles, labeled A and B. Triangle A has a base of 9 units and a height of 3 units. Triangle B has a base of 7 units and a height of 3 units.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/64ff663c9e87ca1eecce85d4b34f931fc16a5b76.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "24",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  We have a figure split into $2$ non-overlapping triangles.  We can add the areas of each part to get the area of the whole figure.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Area of triangle A  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{Triangle A} &= \\dfrac{1}{2}\\cdot \\text{base}\\cdot \\text{height}\\\\\\\\ &=\\dfrac{1}{2}\\cdot 9\\cdot 3\\\\\\\\ &=13.5 \\end{align}$  The area of triangle A is $\\redE{13.5}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with one pair of parallel sides.  The base length is 9 units.  The height is 3 units. A dashed line from opposite vertices creates two triangles. The left most triangle is labeled A. Triangle A has a base of 9 units and a height of 3 units. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/27f1245796243c1cbb8aaed13f69368aae9d5670.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of triangle B  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{Triangle B} &= \\dfrac{1}{2}\\cdot \\text{base}\\cdot \\text{height}\\\\\\\\ &=\\dfrac{1}{2}\\cdot 7\\cdot 3\\\\\\\\ &=10.5 \\end{align}$  The area of triangle B is $\\tealE{10.5}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with one pair of parallel sides.  The base length is 7 units.  The height is 3 units. A dashed line from opposite vertices creates two triangles. The right most triangle is labeled B. Triangle B has a base of 7 units and a height of 3 units. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/5f13e2025523acfec3d6b0c1827a0bf7d7c34c52.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of whole figure  Now we can add all of the partial areas to get the whole area.  $\\redE{13.5}+\\tealE{10.5}=\\purpleD{24}$  The area of the whole figure is $\\purpleD{24}$ square units.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Figure | Area (square units) - | - Triangle A | $\\redE{13.5}$ Triangle B | $\\tealE{10.5}$ Whole figure | $\\purpleD{24}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Trapezoids"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following figure is made of $1$ triangle and $1$ rectangle.    **Find the area of each part of the figure and the whole figure.**  Figure | Area (square units) - | - Triangle A |  Rectangle B |  Whole figure |",
+                                "images": [
+                                    {
+                                        "alt": "A quadrilateral with one pair of parallel sides.  The base lengths are 5 units and 9 units.  The height is 6 units. A dashed line that is perpendicular to the base creates two triangles, labeled A and B. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/1cb419d989aa600364a07a7ee64448042af98145.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "42",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  We have a figure split into $2$ non-overlapping shapes:  $1$ triangle and $1$ rectangle.  We can add the areas of each part to get the area of the whole figure.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Area of triangle A  [[☃ image 1]]  The base of triangle A is $4$ units long because $9-5=4$.  $\\begin{align} \\text{Area}_\\text{Triangle A} &= \\dfrac{1}{2}\\cdot \\text{base}\\cdot \\text{height}\\\\\\\\ &=\\dfrac{1}{2}\\cdot 4\\cdot 6\\\\\\\\ &=12 \\end{align}$  The area of triangle A is $\\redE{12}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with one pair of parallel sides.  A dashed line that is perpendicular to the base creates two right triangles. The left most right triangle is labeled A. Triangle A has an arrow that shows the length of the base is labeled 4 units and a height of 6 units. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/6b3aa53586987a0dd9c483b6200354d5365af649.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of rectangle B  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{Rectangle B} &= \\text{base}\\cdot \\text{height}\\\\\\\\ &=5\\cdot 6\\\\\\\\ &=30 \\end{align}$  The area of rectangle B is $\\tealE{30}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with one pair of parallel sides. A dashed line that is perpendicular to the base creates two right triangles. The right most right triangle is labeled B. Triangle B has base of 5 units and a height of 6 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/65ff25ff8fe6bb1c91b4cf18cba306fe9dc12529.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of whole figure  Now we can add all of the partial areas to get the whole area.  $\\redE{12}+\\tealE{30}=\\purpleD{42}$  The area of the whole figure is $\\purpleD{42}$ square units.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Figure | Area (square units) - | - Triangle A | $\\redE{12}$ Rectangle B | $\\tealE{30}$ Whole figure | $\\purpleD{42}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Trapezoids"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following figure is made of $1$ triangle and $1$ rectangle.    **Find the area of each part of the figure and the whole figure.**  Figure | Area (square units) - | - Triangle A |  Rectangle B |  Whole figure |",
+                                "images": [
+                                    {
+                                        "alt": "A quadrilateral with one pair of parallel sides.  The base lengths are 3 units and 7 units.  The height is 10 units. A dashed line that is perpendicular to the base creates two triangles, labeled A and B. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/dd850c6236934d914b11f359a9a5c3ff5ecc3a50.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "50",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  We have a figure split into $2$ non-overlapping shapes:  $1$ triangle and $1$ rectangle.  We can add the areas of each part to get the area of the whole figure.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Area of triangle A  [[☃ image 1]]  The height of triangle A is $4$ units long because $7-3=4$.  $\\begin{align} \\text{Area}_\\text{Triangle A} &= \\dfrac{1}{2}\\cdot \\text{base}\\cdot \\text{height}\\\\\\\\ &=\\dfrac{1}{2}\\cdot 10\\cdot 4\\\\\\\\ &=20 \\end{align}$  The area of triangle A is $\\redE{20}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with one pair of parallel sides.  A dashed line that is perpendicular to the base creates two right triangles. The top right triangle is labeled A. Triangle A has an arrow that shows the length of the base is labeled 4 units and a height of 10 units. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/25f8df2ef1c6b6013c9413c76784112a25c70222.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of rectangle B  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{Rectangle B} &= \\text{base}\\cdot \\text{height}\\\\\\\\ &=10\\cdot 3\\\\\\\\ &=30 \\end{align}$  The area of rectangle B is $\\tealE{30}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with one pair of parallel sides.  A dashed line that is perpendicular to the base creates two right triangles. The bottom right triangle is labeled B. Triangle B has a base of 3 units and a height of 10 units. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/bd6050032b207ab4a19861f56e54e8efbedefc4d.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of whole figure  Now we can add all of the partial areas to get the whole area.  $\\redE{20}+\\tealE{30}=\\purpleD{50}$  The area of the whole figure is $\\purpleD{50}$ square units.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Figure | Area (square units) - | - Triangle A | $\\redE{20}$ Rectangle B | $\\tealE{30}$ Whole figure | $\\purpleD{50}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Trapezoids"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following figure is made of $1$ triangle and $1$ rectangle.    **Find the area of each part of the figure and the whole figure.**  Figure | Area (square units) - | - Rectangle A |  Triangle B |  Whole figure |",
+                                "images": [
+                                    {
+                                        "alt": "A quadrilateral with one pair of parallel sides.  The base lengths are 9 units and 13 units.  The height is 5 units. A dashed line that is perpendicular to the base creates two triangles, labeled A and B. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/4847f790ca53ab826f4c038a68bf7a10a1ca8899.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "55",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  We have a figure split into $2$ non-overlapping shapes:  $1$ triangle and $1$ rectangle.  We can add the areas of each part to get the area of the whole figure.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Area of rectangle A  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{Rectangle A} &= \\text{base}\\cdot \\text{height}\\\\\\\\ &=5\\cdot 9\\\\\\\\ &=45 \\end{align}$  The area of rectangle A is $\\redE{45}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with one pair of parallel sides.  A dashed line that is perpendicular to the base creates two right triangles. The top right triangle is labeled A. Triangle A has a base of 9 units and a height of 5 units. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/e20ddecba689db61887560257c28a2ce246a3497.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of triangle B  [[☃ image 1]]  The height of triangle A is $4$ units long because $13-9=4$.  $\\begin{align} \\text{Area}_\\text{Triangle B} &= \\dfrac{1}{2}\\cdot \\text{base}\\cdot \\text{height}\\\\\\\\ &=\\dfrac{1}{2}\\cdot 5\\cdot 4\\\\\\\\ &=10 \\end{align}$  The area of triangle B is $\\tealE{10}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with one pair of parallel sides.  A dashed line that is perpendicular to the base creates two right triangles. The bottom right triangle is labeled B. Triangle B has an arrow that shows the length of the base is labeled 4 units and a height of 5 units. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/3208453f991256a81444b7562bff05e054b3aba8.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of whole figure  Now we can add all of the partial areas to get the whole area.  $\\redE{45}+\\tealE{10}=\\purpleD{55}$  The area of the whole figure is $\\purpleD{55}$ square units.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Figure | Area (square units) - | - Rectangle A | $\\redE{45}$ Triangle B | $\\tealE{10}$ Whole figure | $\\purpleD{55}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Trapezoids"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following figure is made of $3$ triangles and $1$ rectangle.    **Find the area of each part of the figure and the whole figure.**  Figure | Area (square units) - | - Triangle A |  Triangle B | $2$ Rectangle C | $4$ Triangle D |  Whole figure |",
+                                "images": [
+                                    {
+                                        "alt": "A 5 sided figure split into 4 sections by dashed lines.  Section A is a right triangle with a base of 10 units and a height of 4 units. Section B is a right triangle with a base of 2 units and a height of 2 units. Section C is a square with side lengths of 2 units. Section D is a right triangle with a base of 6 units and a height of 2 units.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/c15c2378c05660fbaaa5c1c1c62572bca11b31fa.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "32",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  We have a figure split into $4$ non-overlapping shapes:  $3$ triangles and $1$ rectangle.  We can add the areas of each part to get the area of the whole figure.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Area of triangle A  [[☃ image 1]]  The base of triangle A is $10$ units long because $2+2+6=10$.  $\\begin{align} \\text{Area}_\\text{Triangle A} &= \\dfrac{1}{2}\\cdot \\text{base}\\cdot \\text{height}\\\\\\\\ &=\\dfrac{1}{2}\\cdot 10\\cdot 4\\\\\\\\ &=20 \\end{align}$  The area of triangle A is $\\redE{20}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A 5 sided figure split into 4 sections by dashed lines.  Section A is a right triangle with a base of 10 units and a height of 4 units. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/ce03dd9be9dba8f47f677e274324f70c3b0c4fed.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of triangle B  We're given that the area of triangle B is $\\goldE{2}$ square units.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Area of rectangle C  We're given that the area of rectangle C is $\\maroonE{4}$ square units.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Area of triangle D  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{Triangle D} &= \\dfrac{1}{2}\\cdot \\text{base}\\cdot \\text{height}\\\\\\\\ &=\\dfrac{1}{2}\\cdot 6\\cdot 2\\\\\\\\ &=6 \\end{align}$  The area of triangle D is $\\tealE{6}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A 5 sided figure split into 4 sections by dashed lines.  Section D is a right triangle with a base of 6 units and a height of 2 units. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/7d187ced46a127ccb3118f49106b3f28e1b9f543.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of whole figure  Now we can add all of the partial areas to get the whole area.  $\\redE{20}+\\goldE{2}+\\maroonE{4}+\\tealE{6}=\\purpleD{32}$  The area of the whole figure is $\\purpleD{32}$ square units.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Figure | Area (square units) - | - Triangle A | $\\redE{20}$ Triangle B | $2$ Rectangle C | $4$ Triangle D | $\\tealE{6}$ Whole figure | $\\purpleD{32}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Non-trapezoids"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following figure is made of $2$ triangles and $1$ rectangle.    **Find the area of each part of the figure and the whole figure.**  Figure | Area (square units) - | - Triangle A |  Rectangle B | $24$ Triangle C |  Whole figure |",
+                                "images": [
+                                    {
+                                        "alt": "A 5 sided figure split into 3 sections by dashed lines.  Section A is a right triangle with a base of 6 units and a height of 5 units. Section B is a rectangle with a base of 6 units and a height of 4 units. Section C is a right triangle with a longest side of 6 units.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/3dac8016b3fc37d19f96bc96ac84d62e73c0256d.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "48",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  We have a figure split into $3$ non-overlapping shapes:  $2$ triangles and $1$ rectangle.  We can add the areas of each part to get the area of the whole figure.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Area of triangle A  [[☃ image 1]]  The height of triangle A is $5$ units long because $9-4=5$.  $\\begin{align} \\text{Area}_\\text{Triangle A} &= \\dfrac{1}{2}\\cdot \\text{base}\\cdot \\text{height}\\\\\\\\ &=\\dfrac{1}{2}\\cdot 6\\cdot 5\\\\\\\\ &=15 \\end{align}$  The area of triangle A is $\\redE{15}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A 5 sided figure split into 3 sections by dashed lines.  Section A is a right triangle with a base of 6 units and a height of 5 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/14d3b81b1eabca6d27746387495c99d923932595.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of rectangle B  We're given that the area of rectangle B is $\\tealE{24}$ square units.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Area of triangle C  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{Triangle C} &= \\dfrac{1}{2}\\cdot \\text{base}\\cdot \\text{height}\\\\\\\\ &=\\dfrac{1}{2}\\cdot 6\\cdot 3\\\\\\\\ &=9 \\end{align}$  The area of triangle C is $\\maroonE{9}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A 5 sided figure split into 3 sections by dashed lines.  Section C is a right triangle with a longest side of 6 units and a height of 3 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/6e29c9fabbf9175e55b7a3e8938f58afb946f7fa.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of whole figure  Now we can add all of the partial areas to get the whole area.  $\\redE{15}+\\tealE{24}+\\maroonD{9}=\\purpleD{48}$  The area of the whole figure is $\\purpleD{48}$ square units.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Figure | Area (square units) - | - Triangle A | $\\redE{15}$ Rectangle B | $24$ Triangle C | $\\maroonE{9}$ Whole figure | $\\purpleD{48}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Non-trapezoids"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following figure is made of $2$ triangles.    **Find the area of each part of the figure and the whole figure.**  Figure | Area (square units) - | - Triangle A |  Triangle B |  Whole figure |",
+                                "images": [
+                                    {
+                                        "alt": "A quadrilateral sided figure split into 2 sections by a dashed line.  Section A is a triangle with a base of 7 units and a height of 9 units. Section B is a triangle with a base of 7 units and a height of 5 units. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/deea4404d6e7e518dd6d8c25c16d3e446af35b8e.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "49",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  We have a figure split into $2$ non-overlapping triangles.  We can add the areas of each part to get the area of the whole figure.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Area of triangle A  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{Triangle A} &= \\dfrac{1}{2}\\cdot \\text{base}\\cdot \\text{height}\\\\\\\\ &=\\dfrac{1}{2}\\cdot 7\\cdot 9\\\\\\\\ &=31.5 \\end{align}$  The area of triangle A is $\\redE{31.5}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral sided figure split into 2 sections by a dashed line.  Section A is a triangle with a base of 7 units and a height of 9 units. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/dc70e476cea90049b9f72c75822fccc39ba300b3.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of triangle B  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{Triangle B} &= \\dfrac{1}{2}\\cdot \\text{base}\\cdot \\text{height}\\\\\\\\ &=\\dfrac{1}{2}\\cdot 7\\cdot 5\\\\\\\\ &=17.5 \\end{align}$  The area of triangle B is $\\tealE{17.5}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral sided figure split into 2 sections by a dashed line. Section B is a triangle with a base of 7 units and a height of 5 units. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d2d66cf0b2feda027ace56366606a0d003700868.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of whole figure  Now we can add all of the partial areas to get the whole area.  $\\redE{31.5}+\\tealE{17.5}=\\purpleD{49}$  The area of the whole figure is $\\purpleD{49}$ square units.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Figure | Area (square units) - | - Triangle A | $\\redE{31.5}$ Triangle B | $\\tealE{17.5}$ Whole figure | $\\purpleD{49}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Non-trapezoids"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following figure is made of $1$ rectangle and $2$ triangles.    **Find the area of each part of the figure and the whole figure.**  Figure | Area (square units) - | - Rectangle A |  Triangle B |  Triangle C | $5$ Whole figure |",
+                                "images": [
+                                    {
+                                        "alt": "A 5 sided figure split into 3 sections by dashed lines.  Section A is a rectangle with a base of 8 units. Section B is a right triangle with a base of 6 units and a height of 5 units. Section C is a right triangle with a base of 2 units and a height of 5 units.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/802435612cfb4ae4f0d2cfde9a7cf4f5fff8ab86.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "60",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  We have a figure split into $3$ non-overlapping shapes:  $1$ rectangle and $2$ triangles.  We can add the areas of each part to get the area of the whole figure.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Area of rectangle A  [[☃ image 1]]  The height of rectangle A is $5$ because $10-5=5$.  $\\begin{align} \\text{Area}_\\text{Rectangle A} &=\\text{base}\\cdot \\text{height}\\\\\\\\ &=8\\cdot 5\\\\\\\\ &=40 \\end{align}$  The area of rectangle A is $\\redE{40}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A 5 sided figure split into 3 sections by dashed lines.  Section A is a rectangle with a base of 8 units and a height of 5 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/8a78ee3de7661325f48fa1f2e1b028efc22155fb.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of triangle B  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{Triangle B} &= \\dfrac{1}{2}\\cdot \\text{base}\\cdot \\text{height}\\\\\\\\ &=\\dfrac{1}{2}\\cdot 6\\cdot 5\\\\\\\\ &=15 \\end{align}$  The area of triangle B is $\\tealE{15}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A 5 sided figure made of a rectangle with a triangle removed from the bottom. A dashed line parallel to the base of the rectangle runs from the left side of the figure through the vertex of the missing triangle to the right side of the figure. The dashed line creates two right triangles. The left most right triangle, labeled B, has a base of 6 units and a height of 5 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/0733574dbe5881ad4e37c2a71a12a0ee459979af.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of triangle C  We're given that the area of triangle C is $\\maroonE{5}$ square units.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Area of whole figure  Now we can add all of the partial areas to get the whole area.  $\\redE{40}+\\tealE{15}+\\maroonE{5}=\\purpleD{60}$  The area of the whole figure is $\\purpleD{60}$ square units.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Figure | Area (square units) - | - Rectangle A | $\\redE{40}$ Triangle B | $\\tealE{15}$ Triangle C | $5$ Whole figure | $\\purpleD{60}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Non-trapezoids"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following figure is made of $1$ triangle and $2$ rectangles.    **Find the area of each part of the figure and the whole figure.**  Figure | Area (square units) - | - Rectangle A |  Triangle B |  Rectangle C | $21$ Whole figure |",
+                                "images": [
+                                    {
+                                        "alt": "A 5 sided figure made of a large rectangle with a small rectangle and small right triangle attached to the right side. A dashed line parallel to the height of the rectangle runs from the top, right vertex of the large rectangle to the bottom, right vertex of the large rectangle. This dashed line is the height of the right triangle and the height of the small rectangle that is attached to the right side of the large rectangle. The large rectangle, labeled A, has a base of 6 units and a height of 9 units. The right triangle is labeled B. The small rectangle, labeled C, has a height of 7 units. The base of the figure is 9 units.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/a0ff88bf3cf8297572cd0f63206035f0265a6adf.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "78",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  We have a figure split into $3$ non-overlapping shapes:  $1$ triangle and $2$ rectangles.  We can add the areas of each part to get the area of the whole figure.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Area of rectangle A  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{Rectangle A} &=\\text{base}\\cdot \\text{height}\\\\\\\\ &=6\\cdot 9\\\\\\\\ &=54 \\end{align}$  The area of rectangle A is $\\redE{54}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A 5 sided figure made of a large rectangle with a small rectangle and small right triangle attached to the right side. A dashed line parallel to the height of the rectangle runs from the top, right vertex of the large rectangle to the bottom, right vertex of the large rectangle. This dashed line is the height of the right triangle and the height of the small rectangle that is attached to the right side of the large rectangle. The large rectangle, labeled A, has a base of 6 units and a height of 9 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/64efcb3a63ddedb46adb01efbdef2ddd6f84bfbe.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of triangle B  [[☃ image 1]]  The base of triangle B is $3$ units long because $9-6=3$. The height of triangle B is $2$ units long because $9-7=2$.  $\\begin{align} \\text{Area}_\\text{Triangle B} &= \\dfrac{1}{2}\\cdot \\text{base}\\cdot \\text{height}\\\\\\\\ &=\\dfrac{1}{2}\\cdot 3\\cdot 2\\\\\\\\ &=3 \\end{align}$  The area of triangle B is $\\tealE{3}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A 5 sided figure made of a large rectangle with a small rectangle and small right triangle attached to the right side. A dashed line parallel to the height of the rectangle runs from the top, right vertex of the large rectangle to the bottom, right vertex of the large rectangle. This dashed line is the height of the right triangle and the height of the small rectangle that is attached to the right side of the large rectangle. The right triangle, labeled B, has a base of 3 units and a height of 2 units. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/efc7c3da2710e58e08a4537f7b0d53bc0e094591.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of rectangle C  We're given that the area of rectangle C is $\\maroonE{21}$ square units.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Area of whole figure  Now we can add all of the partial areas to get the whole area.  $\\redE{54}+\\tealE{3}+\\maroonE{21}=\\purpleD{78}$  The area of the whole figure is $\\purpleD{78}$ square units.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Figure | Area (square units) - | - Rectangle A | $\\redE{54}$ Triangle B | $\\tealE{3}$ Rectangle C | $21$ Whole figure | $\\purpleD{78}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Non-trapezoids"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following figure is made of $1$ triangle and $1$ rectangle.    **Find the area of each part of the figure and the whole figure.**  Figure | Area (square units) - | - Triangle A |  Rectangle B |  Whole figure |",
+                                "images": [
+                                    {
+                                        "alt": "A 5 sided figure made of a rectangle with a triangle attached to the left. A dashed line parallel to the height of the rectangle runs from the top, left vertex of the rectangle to the bottom, left vertex of the rectangle. The dashed line is the base of the triangle that is attached to the left side of the rectangle. The triangle, labeled A, has a height of 2 units. The rectangle, labeled B, has a base of 7 units and a height of 11 units.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/95d74e4067ef907f44a718b4f71e0fb9564b4f4f.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "88",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  We have a figure split into $2$ non-overlapping shapes:  $1$ triangle and $1$ rectangle.  We can add the areas of each part to get the area of the whole figure.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Area of triangle A  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{Triangle A} &= \\dfrac{1}{2}\\cdot \\text{base}\\cdot \\text{height}\\\\\\\\ &=\\dfrac{1}{2}\\cdot 11\\cdot 2\\\\\\\\ &=11 \\end{align}$  The area of triangle A is $\\redE{11}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A 5 sided figure made of a rectangle with a triangle attached to the left side. A dashed line parallel to the height of the rectangle runs from the top, left vertex of the rectangle to the bottom, left vertex of the rectangle. The dashed line is the base of the triangle that is attached to the left side of the rectangle. The triangle, labeled A, has a base of 11 units and a height of 2 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/f27e755b5e004d784233128ef60b246a78ac7eee.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of rectangle B  [[☃ image 1]]  $\\begin{align} \\text{Area}_\\text{Rectangle B} &=\\text{base}\\cdot \\text{height}\\\\\\\\ &=7\\cdot 11\\\\\\\\ &=77 \\end{align}$  The area of rectangle B is $\\tealE{77}$ square units.",
+                                    "images": [
+                                        {
+                                            "alt": "A 5 sided figure made of a rectangle with a triangle attached to the left side. A dashed line parallel to the height of the rectangle runs from the top, left vertex of the rectangle to the bottom, left vertex of the rectangle. The dashed line is the base of the triangle that is attached to the left side of the rectangle. The triangle, labeled B, has a base of 7 units and a height of 11 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/c9365d4cdc6b7e5fd1057c26f63afdd11ecf3e56.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of whole figure  Now we can add all of the partial areas to get the whole area.  $\\redE{11}+\\tealE{77}=\\purpleD{88}$  The area of the whole figure is $\\purpleD{88}$ square units.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Figure | Area (square units) - | - Triangle A | $\\redE{11}$ Rectangle B | $\\tealE{77}$ Whole figure | $\\purpleD{88}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Non-trapezoids"
+                    }
+                }
+            }
+        }
+    ]
+}

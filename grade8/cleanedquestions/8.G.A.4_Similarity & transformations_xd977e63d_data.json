@@ -1,0 +1,944 @@
+{
+    "standard_metadata": {
+        "standard_id": "8.G.A.4",
+        "standard_description": "Understand that a two-dimensional figure is similar to another if the second can be obtained from the first by a sequence of rotations, reflections, translations, and dilations; given two similar two-dimensional figures, describe a sequence that exhibits the similarity between them.",
+        "standard_title": "Similarity & transformations",
+        "standard_url": "https://www.khanacademy.org/math/geometry/hs-geo-similarity/hs-geo-similarity-definitions/e/exploring-angle-preserving-transformations-and-similarity"
+    },
+    "id": "xd977e63d",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Bastian was able to map quadrilateral $OPQR$ onto $ONML$ using a reflection and a dilation.      Bastian concluded:    \"I was able to map quadrilateral $OPQR$ onto quadrilateral $ONML$ using a sequence of rigid transformations and dilations, so the figures **are** similar.\"  **What error did Bastian make in his conclusion?**",
+                                "images": [
+                                    {
+                                        "alt": "Quadrilateral O N M L and quadrilateral O P Q R in the first quadrant of a coordinate plane. In quadrilateral O N M L, point O is at six. four, point N is at four, eight, point M is at zero, two, and point L is at two, zero. In quadrilateral O P Q R, point O is at six. four, point P is at seven, six, point Q is at nine, three, and point R is at eight, two. There is a dashed outline for quadrilateral O P Q R to show its image after a reflection over a vertical line that goes through point O. There are rays from the dashed outline for quadrilateral O P Q R to highlight that a dilation makes the new quadrilateral O P Q R coincide with quadrilateral O N M L.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/d15d337cbd20f42fe181a3cb39086c2eb5834137.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Bastian used a reflection, so the quadrilaterals *aren't* similar.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Bastian used a dilation, so the quadrilaterals *aren't* similar.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is no error. This is a correct conclusion.",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "If a sequence of [[☃ definition 1]] (translations, reflections, and rotations) and dilations can map quadrilateral $OPQR$ onto quadrilateral $ONML$, then the figures are **similar**.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Bastian successfully mapped $OPQR$ onto $ONML$. Most importantly, he did this using a reflection, which is a rigid transformation, and a dilation. So the figures are similar.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Quadrilateral O N M L and quadrilateral O P Q R in the first quadrant of a coordinate plane. In quadrilateral O N M L, point O is at six. four, point N is at four, eight, point M is at zero, two, and point L is at two, zero. In quadrilateral O P Q R, point O is at six. four, point P is at seven, six, point Q is at nine, three, and point R is at eight, two. There is a dashed outline for quadrilateral O P Q R to show its image after a reflection over a vertical line that goes through point O. There are rays from the dashed outline for quadrilateral O P Q R to highlight that a dilation makes the new quadrilateral O P Q R coincide with quadrilateral O N M L.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d15d337cbd20f42fe181a3cb39086c2eb5834137.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Bastian concluded:    \"I was able to map quadrilateral $OPQR$ onto quadrilateral $ONML$ using a sequence of rigid transformations and dilations, so the figures **are** similar.\"  **There is no error. This is a correct conclusion.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Similar"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Erin was able to map line segment $\\overline{AB}$ onto line segment $\\overline{CB}$ using a rotation and a dilation.      Erin concluded:    \"I was able to map line segment $\\overline{AB}$ onto line segment $\\overline{CB}$ using a sequence of rigid transformations and dilations, so the figures **are** similar.\"  **What error did Erin make in her conclusion?**",
+                                "images": [
+                                    {
+                                        "alt": "Quadrilateral O N M L and quadrilateral O P Q R in the first quadrant of a coordinate plane. In quadrilateral O N M L, point O is at seven, five, point N is at five, nine, point M is at one, three, and point L is at three, one. In quadrilateral O P Q R, point O is at seven. five, point P is at eight, seven, point Q is at ten, four, and point R is at nine, three. There is a dashed outline for quadrilateral O P Q R to show its image after a reflection over a vertical line that goes through point O. There are rays from the dashed outline for quadrilateral O P Q R to highlight that a dilation makes the new quadrilateral O P Q R coincide with quadrilateral O N M L.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/e6fee953c24f3c2b82832978941e5bbb31b2b00a.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Erin used a dilation, so the segments *aren't* similar.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The segments are *congruent*, not similar.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is no error. This is a correct conclusion.",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "If a sequence of [[☃ definition 1]] (translations, reflections, and rotations) and dilations can map line segment $\\overline{AB}$ onto line segment $\\overline{CB}$, then the figures are **similar**.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Erin successfully mapped line segment $\\overline{AB}$ onto line segment $\\overline{CB}$. Most importantly, she did this using a rotation, which is a rigid transformation, and a dilation. So the figures are similar.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Quadrilateral O N M L and quadrilateral O P Q R in the first quadrant of a coordinate plane. In quadrilateral O N M L, point O is at seven, five, point N is at five, nine, point M is at one, three, and point L is at three, one. In quadrilateral O P Q R, point O is at seven. five, point P is at eight, seven, point Q is at ten, four, and point R is at nine, three. There is a dashed outline for quadrilateral O P Q R to show its image after a reflection over a vertical line that goes through point O. There are rays from the dashed outline for quadrilateral O P Q R to highlight that a dilation makes the new quadrilateral O P Q R coincide with quadrilateral O N M L.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/e6fee953c24f3c2b82832978941e5bbb31b2b00a.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Erin concluded:    \"I was able to map line segment $\\overline{AB}$ onto line segment $\\overline{CB}$ using a sequence of rigid transformations and dilations, so the figures **are** similar.\"  **There is no error. This is a correct conclusion.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Similar"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Eleanor was curious if triangles $\\triangle DEF$ and $\\triangle GHI$ were similar, so she tried to map one figure onto the other using rigid transformations.      Eleanor concluded:    \"It's not possible to map $\\triangle DEF$ onto $\\triangle GHI$ using a sequence of rigid transformations, so the triangles are **not** similar.\"  **What error did Eleanor make in her conclusion?**",
+                                "images": [
+                                    {
+                                        "alt": "Triangle D E F and triangle G H I in the first quadrant of a coordinate plane. In triangle D E F, point D is at zero, zero, point E is at two, four, and point F is at six, zero. In triangle G H I, point G is at four, five, point H is are five, seven, and point I is at seven, five. There is also an image of triangle D E G after a translation which has a point at four, five, another point at six, nine, and another point at ten, five. There are arrows connecting the points from D E F to the points of the image after it's been translated. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/a97dd91e4906308c7c5eefadb39387b01f4ca17e.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "One more transformation — a rotation — would map $\\triangle DEF$ onto $\\triangle GHI$. So the triangles *are* similar.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "One more transformation — a dilation — would map $\\triangle DEF$ onto $\\triangle GHI$. So the triangles *are* similar.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is no error. This is a correct conclusion.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "If a sequence of [[☃ definition 1]] (translations, reflections, and rotations) and dilations can map $\\triangle DEF$ onto $\\triangle GHI$, then the figures are **similar**.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are many possible sequences of transformations that may map one figure onto another.  Eleanor translated point $D$ onto point $G$.    [[☃ image 1]]  Is there another transformation (rigid or dilation) we could now use to complete the mapping?",
+                                    "images": [
+                                        {
+                                            "alt": "Triangle D E F and triangle G H I in the first quadrant of a coordinate plane. In triangle D E F, point D is at zero, zero, point E is at two, four, and point F is at six, zero. In triangle G H I, point G is at four, five, point H is are five, seven, and point I is at seven, five. There is also an image of triangle D E G after a translation which has a point at four, five, another point at six, nine, and another point at ten, five. There are arrows connecting the points from D E F to the points of the image after it's been translated. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/a97dd91e4906308c7c5eefadb39387b01f4ca17e.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's try dilating by a factor of $\\dfrac12$ about point $G$.    [[☃ image 1]]  The pre-image $\\triangle DEF$ maps exactly onto $\\triangle GHI$.",
+                                    "images": [
+                                        {
+                                            "alt": "Triangle D E F and triangle G H I in the first quadrant of a coordinate plane. In triangle D E F, point D is at zero, zero, point E is at two, four, and point F is at six, zero. In triangle G H I, point G is at four, five, point H is are five, seven, and point I is at seven, five. There is also an image of triangle D E G after a translation which has a point at four, five, another point at six, nine, and another point at ten, five.  The translated triangle D E F also gets dilated so that it maps onto triangle G H I. Arrows show the paths of each point on triangle D E F after the dilation. Point D maps onto point G. Point E maps onto point H. Point F maps onto point I.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/18bdf01d0e66b3d3a92e4108f770ba495523975a.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Eleanor concluded:    \"It's not possible to map $\\triangle DEF$ onto $\\triangle GHI$ using a sequence of rigid transformations, so the triangles are **not** similar.\"  **One more transformation — a dilation — would map $\\triangle DEF$ onto $\\triangle GHI$. So the triangles *are* similar.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Similar"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Casey was able to map line segment $\\overline{UV}$ onto line segment $\\overline{ST}$ using a translation and a rotation.      Casey concluded:    \"I was able to map line segment $\\overline{UV}$ onto line segment $\\overline{ST}$ using a sequence of rigid transformations without a dilation, so the figures are congruent but they are **not** similar.\"  **What error did Casey make in her conclusion?**",
+                                "images": [
+                                    {
+                                        "alt": "Line segments U V and S T are in the first quadrant of a coordinate plane. In line segment U V, point U is at five, four. Point V is at seven, seven. In line segment S T, point S is at one, three and point T is at four, one. There is also an dashed image of segment U V after a translation which has a point at one, three and another point at three, six. There are arrows connecting the points from U and V to the points of the image after it's been translated. The image is them rotated to overlay segment S T.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/ae23a2d22d780c2f10272c0848078ae1d3bfdf1c.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "The correct conclusion is that the segments are congruent *and* similar.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The correct conclusion is that the segments are *neither* congruent, *nor* similar.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is no error. This is a correct conclusion.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "If a sequence of [[☃ definition 1]] (translations, reflections, and rotations) and dilations can map line segment $\\overline{UV}$ onto line segment $\\overline{ST}$, then the figures are **similar**.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Casey successfully mapped line segment $\\overline{UV}$ onto line segment $\\overline{ST}$. Most importantly, she did this using a translation and a rotation, which are rigid transformations. So the figures are similar. [[☃ explanation 1]]    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Line segments U V and S T are in the first quadrant of a coordinate plane. In line segment U V, point U is at five, four. Point V is at seven, seven. In line segment S T, point S is at one, three and point T is at four, one. There is also an dashed image of segment U V after a translation which has a point at one, three and another point at three, six. There are arrows connecting the points from U and V to the points of the image after it's been translated. The image is them rotated to overlay segment S T.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/ae23a2d22d780c2f10272c0848078ae1d3bfdf1c.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Casey concluded:    \"I was able to map line segment $\\overline{UV}$ onto line segment $\\overline{ST}$ using a sequence of rigid transformations without a dilation, so the figures are congruent but they are **not** similar.\"  **The correct conclusion is that the segments are congruent *and* similar.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Similar"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Hüseyin was able to map quadrilateral $EFGH$ onto $EJGK$ using a vertical stretch.      Hüseyin concluded:    \"I was able to map quadrilateral $EFGH$ onto quadrilateral $EJGK$ using a sequence of rigid transformations and dilations, so the figures **are** similar.\"  **What error did Hüseyin make in his conclusion?**",
+                                "images": [
+                                    {
+                                        "alt": "Quadrilateral E F G H and quadrilateral E J G K. In quadrilateral E F G H, point E is at zero, six, point F is at six, twelve, point G is at twelve, six, and point H is at six, zero. In quadrilateral E J G K, point E is at zero, six, point J is at six, eight, point G is at twelve, six, and point K is at six, four. There are arrows from point F to point J and from point H to point K to represent the movement of these points from the vertical stretch.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/1df6f2247fe1416ed67f7a7c39aabf2a0e3481d5.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Hüseyin used a vertical stretch, so the quadrilaterals *aren't* similar.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The quadrilaterals are mapped onto each other, so they are congruent, *not* similar.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is no error. This is a correct conclusion.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "If a sequence of [[☃ definition 1]] (translations, reflections, and rotations) and dilations can map quadrilateral $EFGH$ onto quadrilateral $EJGK$, then the figures are **similar**.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Hüseyin successfully mapped quadrilateral $EFGH$ onto quadrilateral $EJGK$, but he didn't use rigid transformations and dilations. He used a vertical stretch, which changes both distances and angle measures.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Quadrilateral E F G H and quadrilateral E J G K. In quadrilateral E F G H, point E is at zero, six, point F is at six, twelve, point G is at twelve, six, and point H is at six, zero. In quadrilateral E J G K, point E is at zero, six, point J is at six, eight, point G is at twelve, six, and point K is at six, four. There are arrows from point F to point J and from point H to point K to represent the movement of these points from the vertical stretch.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/1df6f2247fe1416ed67f7a7c39aabf2a0e3481d5.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Hüseyin concluded:  \"I was able to map quadrilateral $EFGH$ onto quadrilateral $EJGK$ using a sequence of rigid transformations and dilations, so the figures **are** similar.\"  **Hüseyin used a vertical stretch, so the quadrilaterals *aren't* similar. **",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Not similar"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Konnor was curious if quadrilaterals $STUV$ and $WXYZ$ were similar, so he considered their angles.      Konnor concluded:    \"The quadrilaterals have four pairs of congruent corresponding angles, so the figures **are** similar.\"  **What error did Konnor make in his conclusion?**",
+                                "images": [
+                                    {
+                                        "alt": "Quadrilateral S T U V and quadrilateral W X Y Z. In quadrilateral S T U V, point S is at two, seven, point T is at two, nine, point U is at five, nine, and point V is at seven, seven. In quadrilateral W X Y Z, point W is at two, two, point X is at two, four, point Y is at six, four, and point Z is at eight, two. Angles U and Y are one hundred thirty-five degrees. Angles V and Z are forty-five degrees.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/045189ea9c11e35740c96568bf18b1aa011a1e0a.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "The quadrilaterals are congruent, not similar.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "It's impossible to map $STUV$ onto $WXYZ$ using only rigid transformations and dilations, so the figures are *not* similar.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is no error. This is a correct conclusion.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "If a sequence of [[☃ definition 1]] (translations, reflections, and rotations) and dilations can map quadrilateral $STUV$ onto quadrilateral $WXYZ$, then the figures are **similar**.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Konnor did not try to map $STUV$ onto $WXYZ$ (or vice versa). Instead, he only looked at their angles measures.    [[☃ image 1]]  However, two quadrilaterals having the same angles doesn't guarantee they are similar (the converse is true, though: if they are similar, they have the same angles).  These two quadrilaterals aren't similar because you can't map them using rigid transformations and dilations. You must stretch $STUV$ horizontally so $\\overline{TU}$ and $\\overline{SV}$ are longer while $\\overline{TS}$ and $\\overline{UV}$ stay the same length. This cannot be done with rigid transformations or dilations.",
+                                    "images": [
+                                        {
+                                            "alt": "Quadrilateral S T U V and quadrilateral W X Y Z. In quadrilateral S T U V, point S is at two, seven, point T is at two, nine, point U is at five, nine, and point V is at seven, seven. In quadrilateral W X Y Z, point W is at two, two, point X is at two, four, point Y is at six, four, and point Z is at eight, two. Angles U and Y are one hundred thirty-five degrees. Angles V and Z are forty-five degrees.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/045189ea9c11e35740c96568bf18b1aa011a1e0a.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Konnor concluded:    \"The quadrilaterals have four pairs of congruent corresponding angles, so the figures **are** similar.\"  **It's impossible to map $STUV$ onto $WXYZ$ using only rigid transformations and dilations, so the figures are *not* similar.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Not similar"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Lennox was curious if triangles $\\triangle ABE$ and $\\triangle DCE$ were similar, so she tried to map one figure onto the other using a reflection and a dilation.      Lennox concluded:    \"It's not possible to map $\\triangle DCE$ onto $\\triangle ABE$ using a sequence of rigid transformations and dilations, so the triangles are **not** similar.\"  **What error did Lennox make in her conclusion?**",
+                                "images": [
+                                    {
+                                        "alt": "Triangle A B E and triangle D C E. In triangle A B E, point A is at one, four, point B is at six, four, and point E is at six, zero. In triangle D C E, point D is at nine, two, point C is at six, two, and point E is at six, zero. There is an image for triangle D C E after it's reflected over side C E. The only new point for the image is point D which moves to three, two. There is also arrows to show the dilation of triangle D C E. One arrow goes from point D on the image to the point zero, four. Another arrow goes from Point C on the image to six, four.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/32aa5768811ccf1c47a4d662b96b98dccceb98ff.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "One more transformation — a horizontal stretch — would map $\\triangle DCE$ onto $\\triangle ABE$. So the triangles *are* similar.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "One more transformation — a dilation — would map $\\triangle DCE$ onto $\\triangle ABE$. So the triangles *are* similar.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is no error. This is a correct conclusion.",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "If a sequence of [[☃ definition 1]] (translations, reflections, and rotations) and dilations can map $\\triangle DCE$ onto $\\triangle ABE$, then the figures are **similar**.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Notice that both triangles are right triangles (at vertices $B$ and $C$), with $\\overline{AB}$ and $\\overline{DC}$ being the longer legs.  Therefore, if the triangles are similar, we should be able to map each pair of corresponding points onto each other with rigid transformations and dilations:  - $D$ should be mapped onto $A$. - $C$ should be mapped onto $B$. - $E$ should be mapped onto itself.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Triangle A B E and triangle D C E. In triangle A B E, point A is at one, four, point B is at six, four, and point E is at six, zero. In triangle D C E, point D is at nine, two, point C is at six, two, and point E is at six, zero. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/13cbb16a40928bb009cef3d838ec4c99a6a58903.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Lennox used a reflection across line $\\overleftrightarrow{BE}$ and a dilation about $E$ to get $\\triangle DCE$ as close as possible to $\\triangle ABE$. But still, point $D$ did not map onto point $A$.    [[☃ image 1]]  So we can conclude that it's not possible to map $\\triangle DCE$ onto $\\triangle ABE$ using a sequence of rigid transformations and dilations.",
+                                    "images": [
+                                        {
+                                            "alt": "Triangle A B E and triangle D C E. In triangle A B E, point A is at one, four, point B is at six, four, and point E is at six, zero. In triangle D C E, point D is at nine, two, point C is at six, two, and point E is at six, zero. There is an image for triangle D C E after it's reflected over side C E. The only new point for the image is point D which moves to three, two. There is also arrows to show the dilation of triangle D C E. One arrow goes from point D on the image to the point zero, four. Another arrow goes from Point C on the image to six, four.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/32aa5768811ccf1c47a4d662b96b98dccceb98ff.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Lennox concluded:    \"It's not possible to map $\\triangle DCE$ onto $\\triangle ABE$ using a sequence of rigid transformations and dilations, so the triangles are **not** similar.\"  **There is no error. This is a correct conclusion.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Not similar"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Timo was curious if quadrilaterals $LMNR$ and $PQNO$ were similar, so he tried to map one figure onto the other using a rotation and a dilation.      Timo concluded:    \"It's not possible to map $LMNR$ onto $PQNO$ using a sequence of rigid transformations and dilations, so the quadrilaterals are **not** similar.\"  **What error did Timo make in his conclusion?**",
+                                "images": [
+                                    {
+                                        "alt": "Quadrilateral L M N R and quadrilateral P Q N O  in the first quadrant of a coordinate plane. In quadrilateral L M N R, point L is at two, five, point M is at four, six, point N is at six, five, and point R is at four, two. In quadrilateral P Q N O, point P is at fourteen. five, point Q is at ten, two, point N is at six, five and point O is at ten, eleven. There is a dashed outline for quadrilateral L M N R to show its image after a rotation of one hundred eighty degrees about point N and a dilation about point N where point N prime is at six, five, M prime is at ten, three, L prime is at fourteen, five, and R prime is at ten, eleven.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/3009e78e5c9a4d4a716f2f828ff2e1e9744b91e3.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "One more transformation — a vertical stretch — would map $LMNR$ onto $PQNO$. So the quadrilaterals *are* similar.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "One more transformation — a dilation — would map $LMNR$ onto $PQNO$. So the quadrilaterals *are* similar.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is no error. This is a correct conclusion.",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "If a sequence of [[☃ definition 1]] (translations, reflections, and rotations) and dilations can map $LMNR$ onto $PQNO$, then the figures are **similar**.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Notice that both quadrilaterals are kites, with $\\overline{MR}$ and $\\overline{QO}$ being the longer diagonals, $R$ and $O$ connecting the longer pair of sides, and $N$ is a shared vertex.  Therefore, if the quadrilaterals are similar, we should be able to map each pair of corresponding points onto each other with rigid transformations and dilations:  - $L$ should be mapped onto $P$. - $M$ should be mapped onto $Q$. - $N$ should be mapped onto itself. - $R$ should be mapped onto $O$.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Quadrilateral L M N R and quadrilateral P Q N O  in the first quadrant of a coordinate plane. In quadrilateral L M N R, point L is at two, five, point M is at four, six, point N is at six, five, and point R is at four, two. In quadrilateral P Q N O, point P is at fourteen. five, point Q is at ten, two, point N is at six, five and point O is at ten, eleven.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/b0fdb8adb79a8b7f9a71e1137ecacd805310b26b.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Timo used a $180\\degree$ rotation about $N$ and a dilation about $N$ to get $LMNR$ as close as possible to $PQNO$. But still, point $M$ did not map onto point $Q$.    [[☃ image 1]]  So we can conclude that it's not possible to map $LMNR$ onto $PQNO$ using a sequence of rigid transformations and dilations.",
+                                    "images": [
+                                        {
+                                            "alt": "Quadrilateral L M N R and quadrilateral P Q N O  in the first quadrant of a coordinate plane. In quadrilateral L M N R, point L is at two, five, point M is at four, six, point N is at six, five, and point R is at four, two. In quadrilateral P Q N O, point P is at fourteen. five, point Q is at ten, two, point N is at six, five and point O is at ten, eleven. There is a dashed outline for quadrilateral L M N R to show its image after a rotation of one hundred eighty degrees about point N and a dilation about point N where point N prime is at six, five, M prime is at ten, three, L prime is at fourteen, five, and R prime is at ten, eleven.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/3009e78e5c9a4d4a716f2f828ff2e1e9744b91e3.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Timo concluded:    \"It's not possible to map $LMNR$ onto $PQNO$ using a sequence of rigid transformations and dilations, so the quadrilaterals are **not** similar.\"  **There is no error. This is a correct conclusion.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Not similar"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Complete the similarity statement.**  A rectangle is  similar to another rectangle, because we can  map one onto the other using only dilations and rigid transformations.",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "sometimes",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "always",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "never",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "sometimes",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "always",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "never",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "A pair of figures is similar if we can map one onto the other using only rigid transformations and dilations.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Some rectangles are similar to each other. For example, you can map the smaller rectangle below onto the larger rectangle by dilating it by a factor of $2$ about point $P$.   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Two rectangles in the first quadrant of a coordinate plane. The first rectangle will have points at three, two, three, five, seven, two, and seven, four. There is a point P at the center at five, three. The second rectangle has points at one, one, one, five, nine, one,  and nine, five. All angles are ninety degrees.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/a7df67f284c57a91d5e978f86d3783c17ac96b58.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Some rectangles are not similar to each other. For example, you can't map rectangle $ABCD$ onto rectangle $ABEF$ using rigid transformations and dilations alone. In order to map $ABCD$ onto $ABEF$ you must increase its height without changing its width. A dilation can only change both dimensions.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Two rectangles A B C D and A B E F in the first quadrant of a coordinate plane. The first rectangle has point A at one, five, point B is at five, five, point C is at five, two, and point D is at one, two. The second rectangle has point A at one, five, point B is at five, five, point E is at five, one, and point F is at one, one.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/4b74b9cc6ffc9ab523c1d7b744d62d2cc59970ad.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "In conclusion, a rectangle is **sometimes** similar to another rectangle, because we can **sometimes** map one onto the other using only dilations and rigid transformations.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3. Sometimes always never"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Complete the similarity statement.**  An equilateral triangle is  similar to a scalene triangle, because we can  map one onto the other using only dilations and rigid transformations.",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "sometimes",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "always",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "never",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "sometimes",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "always",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "never",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "A pair of figures is similar if we can map one onto the other using only rigid transformations and dilations.  All rigid transformations and all dilations preserve angle measure.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "An equilateral triangle always has three congruent $60\\degree$ angles.  A scalene triangle always has three different angle measures because it has three different side lengths. So even if one of the angles in a scalene triangle is $60\\degree$, the other two aren't.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Rigid transformations and dilations preserve angle measure, so they can never map a $60\\degree$ angle onto an angle with a different measure.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "An equilateral triangle is **never** similar to a scalene triangle, because we can **never** map one onto the other using only dilations and rigid transformations.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3. Sometimes always never"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Complete the similarity statement.**  A line segment is  similar to another line segment, because we can  map one onto the other using only dilations and rigid transformations.",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "sometimes",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "always",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "never",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "sometimes",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "always",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "never",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "A pair of figures is similar if we can map one onto the other using only rigid transformations and dilations.  Consider line segments $\\overline{AB}$ and $\\overline{CD}$. Let's see if we can map $\\overline{AB}$ onto $\\overline{CD}$ using only rigid transformations and dilations.  If we succeed, we will think whether that's possible for *any* pair of segments.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Two line segments A B and C D in the first quadrant of a coordinate plane. The first line segment has point A at one, six and point B at five, nine. The second line segment has point C at nine, one and point D at nine, ten.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/1593b4c0cae2db4d7d324e0bc9bbc0b54e8a10d5.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "First, we use a *translation* so $B'$, the image of point $B$, is on point $D$.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Two line segments A B and C D in the first quadrant of a coordinate plane. The first line segment has point A at one, six and point B at five, nine. The second line segment has point C at nine, one and point D at nine, ten. The first line segment is translated up one and to the right four units where point B prime is at nine, ten and point A prime is at five, seven.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/1efd709d67670ce0ce4975bc0ea0b01b1dc3de11.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Then we use a *rotation* about point $D$ so $A''$, the image of point $A'$, is on the line $\\overleftrightarrow{CD}$.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Two line segments A prime B prime and C D in the first quadrant of a coordinate plane. The first line segment has point C at nine, one and point D at nine, ten. The second line segment has point B prime at nine, ten and point A prime at five, seven. It is then rotated about point B prime where B double prime is at nine, ten and A double prime is at nine, five.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/0779fd4796b632d00c008297513b91bd37863c60.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Finally, we use a *dilation* about point $D$. We choose our scale factor so that $A'''$, the image of point $A''$, is on point $C$.    [[☃ image 1]]  So we were successful at mapping $\\overline{AB}$ onto $\\overline{CD}$ using only rigid transformations and a dilation.  In fact, we can use a similar process to map any line segment to any line segment. [[☃ explanation 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Two line segments A double prime B double prime and C D in the first quadrant of a coordinate plane. The first line segment has point C at nine, one and point D at nine, ten. The second line segment has B double prime at nine, ten and A double prime at nine, five. The second line segment is dilated where point A triple prime is at nine, one and point B triple prime is at nine, ten.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/a2912dc35918daefdf02b4497ccb4e0021c0ad8c.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "A line segment is **always** similar to another line segment, because we can **always** map one onto the other using only dilations and rigid transformations.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3. Sometimes always never"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Sabrina was able to map circle $P$ onto circle $R$ (with $Q$ and $S$ being on each circle, respectively) using a translation and a dilation.      Sabrina concluded:    \"I was able to map circle $P$ onto circle $R$ using a sequence of rigid transformations and a dilation, so the figures **are** similar.\"  **What error did Sabrina make in her conclusion?**",
+                                "images": [
+                                    {
+                                        "alt": "Two circles. The first circle has a center P with a radius that goes to a point on the circle at point Q. The second circle has center R with a radius that goes to a point at point S. The second circle's radius is larger than the first circle's radius. The first circle's center P prime is mapped onto the second circle's center R before being dilated to map completely onto the second circle.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/d04dc0c4e08066b0d91eb208aa715648d5e9084d.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Sabrina used a translation, so the circles *aren't* similar.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Sabrina used a dilation, so the circles *aren't* similar.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is no error. This is a correct conclusion.",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "If a sequence of [[☃ definition 1]] (translations, reflections, and rotations) and dilations can map circle $P$ onto circle $R$, then the figures are **similar**.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Sabrina successfully mapped circle $P$ onto circle $R$. Most importantly, she did this using a translation, which is a rigid transformation, and a dilation. So the figures are similar.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Two circles. The first circle has a center P with a radius that goes to a point on the circle at point Q. The second circle has center R with a radius that goes to a point at point S. The second circle's radius is larger than the first circle's radius. The first circle's center P prime is mapped onto the second circle's center R before being dilated to map completely onto the second circle.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d04dc0c4e08066b0d91eb208aa715648d5e9084d.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Sabrina concluded:  \"I was able to map circle $P$ onto circle $R$ using a sequence of rigid transformations and a dilation, so the figures **are** similar.\"  **There is no error. This is a correct conclusion.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "4. Circles"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Pedro was curious if circles $A$ and $B$ (with $X$ and $Y$ being on each circle, respectively) were similar, so he tried to map one figure onto the other using rigid transformations.      Pedro concluded:    \"It's not possible to map circle $A$ onto circle $B$ using a sequence of rigid transformations, so the circles are **not** similar.\"  **What error did Pedro make in his conclusion?**",
+                                "images": [
+                                    {
+                                        "alt": "Two circles A and B in the first quadrant of a coordinate plane. The first circle has a center A at seven, three with a radius of two units and a point X on the circle at nine, three. The second circle has a center B at three, seven with a radius of one unit and a point Y on the circle at three, eight. The first circle is translated four units left and four units up to map center A prime onto center B. Point X prime is at five, seven. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/37377cc51b1bdff08662023617e807ec122f2cb5.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "One more transformation — a rotation — would map circle $A$ onto circle $B$. So the circles *are* similar.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "One more transformation — a dilation — would map circle $A$ onto circle $B$. So the circles *are* similar.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is no error. This is a correct conclusion.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "If a sequence of [[☃ definition 1]] (translations, reflections, and rotations) and dilations can map circle $A$ onto circle $B$, then the figures are **similar**.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are many possible sequences of transformations that may map one figure onto another.  Pedro performed a translation so point $A$ coincides with point $B$.    [[☃ image 1]]  Is there another transformation (rigid or dilation) we could now use to complete the mapping?",
+                                    "images": [
+                                        {
+                                            "alt": "Two circles A and B in the first quadrant of a coordinate plane. The first circle has a center A at seven, three with a radius of two units and a point X on the circle at nine, three. The second circle has a center B at three, seven with a radius of one unit and a point Y on the circle at three, eight. The first circle is translated four units left and four units up to map center A prime onto center B. Point X prime is at five, seven. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/37377cc51b1bdff08662023617e807ec122f2cb5.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's try dilating by a factor of $\\dfrac12$ about point $B$.    [[☃ image 1]]  The pre-image, circle $A$, maps exactly onto circle $B$.",
+                                    "images": [
+                                        {
+                                            "alt": "Two circles A and B in the first quadrant of a coordinate plane. The first circle has a center A at seven, three with a radius of two units and a point X on the circle at nine, three. The second circle has a center B at three, seven with a radius of one unit and a point Y on the circle at three, eight. The first circle is translated four units left and four units up to map center A prime onto center B. Point X prime is at five, seven. It is then dilated by one half to map directly onto the second circle.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/ae6f7f0f7314433e73c921fc8596d8afd1fda8fe.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Pedro concluded:    \"It's not possible to map circle $A$ onto circle $B$ using a sequence of rigid transformations, so the circles are **not** similar.\"  **One more transformation — a dilation — would map circle $A$ onto circle $B$. So the circles *are* similar.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "4. Circles"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Complete the similarity statement.**  A circle is  similar to another circle, because we can  map one onto the other using only dilations and rigid transformations.",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "sometimes",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "always",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "never",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "sometimes",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "always",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "never",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "A pair of figures is similar if we can map one onto the other using only rigid transformations and dilations.  Consider circles $A$ and $B$ ($P$ is a point on circle $A$). Let's see if we can map circle $A$ onto circle $B$ using only rigid transformations and dilations.  If we succeed, we will think whether that's possible for *any* pair of circles.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Two circles A and B in the first quadrant of a coordinate plane. The first circle has a center A at eight, two with a radius of one unit and a point P on the circle at nine, two. The second circle has a center B at four, seven with a radius of three units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/46d6723ded0f2a03242254c84bc13f126ada2bb3.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "First, we use a *translation* so $A'$, the image of point $A$, is on point $B$.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Two circles A and B in the first quadrant of a coordinate plane. The first circle has a center A at eight, two with a radius of one unit and a point P on the circle at nine, two. The second circle has a center B at four, seven with a radius of three units. The first circle is translated four units left and five units up to map center A prime onto center B. Point P prime is at five, seven. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/a935d1e9084bb6f70a071e49fbba590e42841712.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Then, we use a *dilation* about point $B$. We choose our scale factor so that $P''$, the image of point $P'$, is on circle $B$.    [[☃ image 1]]  So we were successful at mapping circle $A$ onto circle $B$ using only rigid transformations and a dilation.  In fact, we can use a similar process to map any circle to any other circle. [[☃ explanation 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Two circles A and B in the first quadrant of a coordinate plane. The first circle has a center A prime onto center B at four, seven. Point P prime is at five, seven. The second circle has a center B at four, seven with a radius of three units. The first circle is dilated where point a double prime is at four, seven. Point P double prime is at seven, seven.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/e0c0fecbef91231c531a6f62b86f0253f6dcaaca.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "A circle is **always** similar to another circle, because we can **always** map one onto the other using only dilations and rigid transformations.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "4. Circles"
+                    }
+                }
+            }
+        }
+    ]
+}

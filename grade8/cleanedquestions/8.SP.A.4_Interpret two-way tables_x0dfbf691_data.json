@@ -1,0 +1,986 @@
+{
+    "standard_metadata": {
+        "standard_id": "8.SP.A.4",
+        "standard_description": "Understand that patterns of association can also be seen in bivariate categorical data by displaying frequencies and relative frequencies in a two-way table. Construct and interpret a two-way table summarizing data on two categorical variables collected from the same subjects. Use relative frequencies calculated for rows or columns to describe possible association between the two variables.",
+        "standard_title": "Interpret two-way tables",
+        "standard_url": "https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-data/two-way-tables/e/frequencies-of-bivariate-data"
+    },
+    "id": "x0dfbf691",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Alvaro is interested in the relationship between weather conditions and whether the downtown train runs on time. For a year, he records whether each day is sunny, cloudy, rainy, or snowy, as well as whether this train arrives on time or is delayed. Here are his results:  Weather condition|On time|Delayed|Total - | - | - | - | - Sunny| $167$  | $3$ | $170$ Cloudy| $115$ | $5$ | $120$ Rainy| $40$ | $15$ | $55$ Snowy| $8$ | $12$ | $20$ Total| $330$ | $35$ | $365$  **Which of the following statements is true?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "When the weather was rainy, it was more likely for the train to be delayed than on time.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "When the weather was snowy, it was more likely for the train to be delayed than on time.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "More than half of the delays occurred on rainy days.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The most delays came on snowy days.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's look at each statement to consider whether it agrees with the data in the table.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement: When the weather was rainy, it was more likely for the train to be delayed than on time.  Weather condition|On time|Delayed|Total - | - | - | - | - Sunny| $167$  | $3$ | $170$ Cloudy| $115$ | $5$ | $120$ Rainy| $\\maroonD{40}$ | $\\purpleC{15}$ | $\\blueD{55}$ Snowy| $8$ | $12$ | $20$ Total| $330$ | $35$ | $365$  The train was delayed on $\\purpleC{15}$ of the $\\blueD{55}$ rainy days, but it was on time on $\\maroonD{40}$ of those days.  $\\dfrac{\\purpleC{15}}{\\blueD{55}}\\ngtr\\dfrac{\\maroonD{40}}{\\blueD{55}}$  This statement is false.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement: When the weather was snowy, it was more likely for the train to be delayed than on time.  Weather condition|On time|Delayed|Total - | - | - | - | - Sunny| $167$  | $3$ | $170$ Cloudy| $115$ | $5$ | $120$ Rainy| $40$ | $15$ | $55$ Snowy| $\\tealD{8}$ | $\\redD{12}$ | $\\goldE{20}$ Total| $330$ | $35$ | $365$  The train was delayed on $\\redD{12}$ of the $\\goldE{20}$ snowy days, and it was on time on $\\tealD{8}$ of those days.  $\\dfrac{\\redD{12}}{\\goldE{20}}>\\dfrac{\\tealD{8}}{\\goldE{20}}$  This statement is true.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement: More than half of the delays occurred on rainy days.  Weather condition|On time|Delayed|Total - | - | - | - | - Sunny| $167$  | $3$ | $170$ Cloudy| $115$ | $5$ | $120$ Rainy| $40$ | $\\purpleC{15}$ | $55$ Snowy| $8$ | $12$ | $20$ Total| $330$ | $\\greenD{35}$ | $365$  $\\purpleC{15}$ of the $\\greenD{35}$ delays occurred on rainy days, which is less than half.  $\\dfrac{\\purpleC{15}}{\\greenD{35}}\\ngtr\\dfrac{1}{2}$  This statement is false.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement: The most delays came on snowy days.  Weather condition|On time|Delayed|Total - | - | - | - | - Sunny| $167$  | $3$ | $170$ Cloudy| $115$ | $5$ | $120$ Rainy| $40$ | $\\purpleC{15}$ | $55$ Snowy| $8$ | $\\redD{12}$ | $20$ Total| $330$ | $35$ | $365$  $\\redD{12}$ delays occurred on snowy days, but $\\purpleC{15}$ delays occurred on rainy days.  $\\redD{12}\\ngtr\\purpleC{15}$  This statement is false.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The true statement is, \"When the weather was snowy, it was more likely for the train to be delayed than on time.\"",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Absolute counts"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The  two-way frequency table below shows data on playing a musical instrument and playing sports for the students in Jorge's class.   | Play sports | Do not play sports | Total - | :-: | :-: | :-: **Play a musical instrument**  | $6$| $7$ | $13$ **Do not play a musical instrument** | $8$ | $3$ | $11$ **Total** | $14$ | $10$ | $24$  **Which of the following statements about Jorge's class is true?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Students who do not play sports are more likely to play a musical instrument than students who do play sports.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The fewest students play both a sport and a musical instrument.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Students who play musical instruments are more likely to play sports than to not play sports.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "More students do not play sports than play sports.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's look at each statement to consider whether it agrees with the data in the table.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement 1: Students who do not play sports are more likely to play a musical instrument than students who do play sports.   | Play sports | Do not play sports | Total - | :-: | :-: | :-: **Play a musical instrument**  | $\\greenD{6}$| $\\blueD{7}$ | $13$ **Do not play a musical instrument** | $8$ | $3$ | $11$ **Total** | $\\purpleC{14}$ | $\\maroonD{10}$ | $24$  $\\blueD{7}$ out of $\\maroonD{10}$ students who do not play sports play a musical instrument, and only $\\greenD{6}$ out of $\\purpleC{14}$ students who play sports also play a musical instrument.  $\\dfrac{\\blueD{7}}{\\maroonD{10}} > \\dfrac{\\greenD{6}}{\\purpleC{14}}$  This statement is true.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement 2: The fewest students play both a sport and a musical instrument.   | Play sports | Do not play sports | Total - | :-: | :-: | :-: **Play a musical instrument**  | $\\greenD{6}$| $7$ | $13$ **Do not play a musical instrument** | $8$ | $\\redD{3}$ | $11$ **Total** | $14$ | $10$ | $24$  $\\greenD{6}$ of the students play a sport and play a musical instrument, but only $\\redD{3}$ students do not play a sport and do not play a musical instrument.  $\\greenD{6} \\nless \\redD{3}$  This statement is false.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement 3: Students who play musical instruments are more likely to play sports than to not play sports.   | Play sports | Do not play sports | Total - | :-: | :-: | :-: **Play a musical instrument**  | $\\greenD{6}$| $\\blueD{7}$ | $\\goldE{13}$ **Do not play a musical instrument** | $8$ | $3$ | $11$ **Total** | $14$ | $10$ | $24$  $\\greenD{6}$ out of the $\\goldE{13}$ students who play musical instruments also play sports, but $\\blueD{7}$ of the $\\goldE{13}$ students who play musical instruments do not play sports.  $\\dfrac{\\greenD{6}}{\\goldE{13}}\\ngtr\\dfrac{\\blueD{7}}{\\goldE{13}}$  This statement is false.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement 4: More students do not play sports than play sports.   | Play sports | Do not play sports | Total - | :-: | :-: | :-: **Play a musical instrument**  | $6$| $7$ | $13$ **Do not play a musical instrument** | $8$ | $3$ | $11$ **Total** | $\\purpleC{14}$ | $\\maroonD{10}$ | $24$  There are $\\maroonD{10}$ students who do not play sports but there are $\\purpleC{14}$ students who play sports.  $\\maroonD{10}\\ngtr\\purpleC{14}$  This statement is false.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The true statement is, \"Students who do not play sports are more likely to play a musical instrument than students who do play sports.\"",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Absolute counts"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The  two-way frequency table below shows data on grade level and method of traveling to school for the students at Central High School.    | Car | Bike | Other | Total :-: | :-: | :-: | :-: | :-:  $9^\\text{th}$ | $27$ | $20$ | $4$ | $51$ $10^\\text{th}$ | $24$ | $17$ | $5$ | $46$ $11^\\text{th}$ | $99$ | $27$ | $13$ | $139$ $12^\\text{th}$ | $37$ | $6$ | $1$ | $44$ **Total** | $187$ | $70$ | $23$ | $280$  **Which of the following statements about the students at Central High School is true?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "A $10^\\text{th}$ grade student is more likely to travel by bike than by car.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Less than $\\dfrac{1}{2}$ of the $11^\\text{th}$ grade students travel by car.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$11^\\text{th}$ grade students are more likely than $9^\\text{th}$ grade students to travel by bike.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There are more students in $11^\\text{th}$ grade than in any other single grade.",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's look at each statement to consider whether it agrees with the data in the table.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement 1: A $10^\\text{th}$ grade student is more likely to travel by bike than by car.    | Car | Bike | Other | Total :-: | :-: | :-: | :-: | :-:  $9^\\text{th}$ | $27$ | $20$ | $4$ | $51$ $10^\\text{th}$ | $\\redD{24}$ | $\\goldE{17}$ | $5$ | $\\gray{46}$ $11^\\text{th}$ | $99$ | $27$ | $13$ | $139$ $12^\\text{th}$ | $37$ | $6$ | $1$ | $44$ **Total** | $187$ | $70$ | $23$ | $280$  There are $\\goldE{17}$ of the $\\gray{46}$ $10^\\text{th}$ grade students who travel by bike, but there are $\\redD{24}$ $10^\\text{th}$ grade students who travel by car.  $\\dfrac{\\goldE{17}}{\\gray{46}}\\ngtr \\dfrac{\\redD{24}}{\\gray{46}}$  This statement is false.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement 2: Less than $\\dfrac{1}{2}$ of the $11^\\text{th}$ grade students travel by car.    | Car | Bike | Other | Total :-: | :-: | :-: | :-: | :-:  $9^\\text{th}$ | $27$ | $20$ | $4$ | $51$ $10^\\text{th}$ | $24$ | $17$ | $5$ | $46$ $11^\\text{th}$ | $\\tealD{99}$ | $27$ | $13$ | $\\purpleC{139}$ $12^\\text{th}$ | $37$ | $6$ | $1$ | $44$ **Total** | $187$ | $70$ | $23$ | $280$  $\\tealD{99}$ of the $\\purpleC{139}$ $11^\\text{th}$ grade students travel by car, which is more than half.  $\\dfrac{\\tealD{99}}{\\purpleC{139}}  \\nless\\dfrac{1}{2}$  This statement is false.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement 3: $11^\\text{th}$ grade students are more likely than $9^\\text{th}$ grade students to travel by bike.    | Car | Bike | Other | Total :-: | :-: | :-: | :-: | :-:  $9^\\text{th}$ | $27$ | $\\blueD{20}$ | $4$ | $\\maroonD{51}$ $10^\\text{th}$ | $24$ | $17$ | $5$ | $46$ $11^\\text{th}$ | $99$ | $\\greenD{27}$ | $13$ | $\\purpleC{139}$ $12^\\text{th}$ | $37$ | $6$ | $1$ | $44$ **Total** | $187$ | $70$ | $23$ | $280$  $\\greenD{27}$ of the $\\purpleC{139}$ $11^\\text{th}$ grade students travel by bike, but $\\blueD{20}$ of the $\\maroonD{51}$ $9^\\text{th}$ grade students travel by bike.  $\\dfrac{\\greenD{27}}{\\purpleC{139}}\\ngtr\\dfrac{\\blueD{20}}{\\maroonD{51}}$  This statement is false.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement 4: There are more students in $11^\\text{th}$ grade than in any other single grade.    | Car | Bike | Other | Total :-: | :-: | :-: | :-: | :-:  $9^\\text{th}$ | $27$ | $20$ | $4$ | $51$ $10^\\text{th}$ | $24$ | $17$ | $5$ | $46$ $11^\\text{th}$ | $99$ | $27$ | $13$ | $\\purpleC{139}$ $12^\\text{th}$ | $37$ | $6$ | $1$ | $44$ **Total** | $187$ | $70$ | $23$ | $280$  There are $139$ students in the $11^\\text{th}$ grade, and only $51$, $46$, and $44$ students in the $9^\\text{th}$, $10^\\text{th}$ and $12^\\text{th}$ grades respectively.  $\\purpleC{139}>51>46>44$  This statement is true.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The true statement is, \"There are more students in $11^\\text{th}$ grade than in any other single grade.\"",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Absolute counts"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A sociologist polled a random sample of people and asked them their age and annual income. The  two-way frequency table below shows the results.  || Annual income vs. age group ||  | Less than $\\$50{,}000$ | At least $\\$50{,}000$ | Total - | :-: | :-: | :-: **Ages $44$ and under**  | $148$| $68$ | $216$ **Ages $45$ and above** | $38$ | $94$ | $132$ **Total** | $186$ | $162$ | $348$  **Which of the following statements is true of those polled?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "A person with an annual income of less than $\\$50{,}000$ is more likely to be $45$ years old or above.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "A person in the $44$ and under age group is more likely to have an annual income of at least $\\$50{,}000$.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "A person with an annual income of at least $\\$50{,}000$ is more likely to be $45$ years old or above.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "A person in the $45$ and above age group is more likely to have an annual income of less than $\\$50{,}000$.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's look at each statement to consider whether it agrees with the data in the table.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement 1: A person with an annual income of less than $\\$50{,}000$ is more likely to be $45$ years old or above.   | Less than $\\$50{,}000$ | At least $\\$50{,}000$ | Total - | :-: | :-: | :-: **Ages $44$ and under**  | $\\blueD{148}$| ${68}$ | $216$ **Ages $45$ and above** | $\\maroonD{38}$ | ${94}$ | $132$ **Total** | $\\gray{186}$ | $162$ | $348$  There are $\\maroonD{38}$ of the $\\gray{186}$ people with an income of less than $\\$50{,}000$ who are at least $45$ years old, but there are $\\blueD{148}$  who are $44$ or under.  $\\dfrac{\\maroonD{38}}{\\gray{186}}\\ngtr \\dfrac{\\blueD{148}}{\\gray{186}}$  This statement is false.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement 2: A person in the $44$ and under age group is more likely to have an annual income of at least $\\$50{,}000$.   | Less than $\\$50{,}000$ | At least $\\$50{,}000$ | Total - | :-: | :-: | :-: **Ages $44$ and under**  | $\\blueD{148}$| $\\purpleC{68}$ | $\\redD{216}$ **Ages $45$ and above** | ${38}$ | ${94}$ | $132$ **Total** | $186$ | $162$ | $348$  There are $\\purpleC{68}$ of the $\\redD{216}$ people aged $44$ years and below with an income of at least $\\$50{,}000$, but there are $\\blueD{148}$ with an income less than $\\$50{,}000$.  $\\dfrac{\\purpleC{68}}{\\redD{216}}  \\ngtr \\dfrac{\\blueD{148}}{\\redD{216}}$  This statement is false.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement 3: A person with an annual income of at least $\\$50{,}000$ is more likely to be $45$ years old or above.   | Less than $\\$50{,}000$ | At least $\\$50{,}000$ | Total - | :-: | :-: | :-: **Ages $44$ and under**  | ${148}$| $\\purpleC{68}$ | $216$ **Ages $45$ and above** | ${38}$ | $\\goldE{94}$ | $132$ **Total** | $186$ | $\\greenD{162}$ | $348$  There are $\\goldE{94}$ of the $\\greenD{162}$ people with an income of at least $\\$50{,}000$ who are at least $45$ years old, while there are $\\purpleC{68}$ who are less than $45$ years old.  $\\dfrac{\\goldE{94}}{\\greenD{162}} >\\dfrac{\\purpleC{68}}{\\greenD{162}}$  This statement is true.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement 4: A person in the $45$ and above age group is more likely to have an annual income of less than $\\$50{,}000$.   | Less than $\\$50{,}000$ | At least $\\$50{,}000$ | Total - | :-: | :-: | :-: **Ages $44$ and under**  | ${148}$| ${68}$ | $216$ **Ages $45$ and above** | $\\maroonD{38}$ | $\\goldE{94}$ | $\\tealD{132}$ **Total** | $186$ | $162$ | $348$  There are $\\maroonD{38}$ of the $\\tealD{132}$ people aged $45$ years and above with an income of less than $\\$50{,}000$, but there are $\\goldE{94}$ with an income of at least $\\$50{,}000$.  $\\dfrac{\\maroonD{38}}{\\tealD{132}} \\ngtr \\dfrac{\\goldE{94}}{\\tealD{132}}$  This statement is false.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The true statement is, \"A person with an annual income of at least $\\$50{,}000$ is more likely to be $45$ years old or above.\"",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Absolute counts"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The  two-way frequency table below shows data on having a curfew on school nights and having assigned chores at home for the students in Alejandro's class.   | Have chores | Do not have chores | Total - | :-: | :-: | :-: **Have a curfew**  | $12$| $4$ | $16$ **Do not have a curfew** | $8$ | $10$ | $18$ **Total** | $20$ | $14$ | $34$  **Which of the following statements is true about Alejandro's class?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "The majority of the students have a curfew.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "If a student has a curfew, it is most likely that they have chores.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "More than half of the students do not have chores and do not have a curfew.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "If a student does not have chores, it is most likely that they have a curfew.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's look at each statement to consider whether it agrees with the data in the table.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement 1: The majority of the students have a curfew.   | Have chores | Do not have chores | Total - | :-: | :-: | :-: **Have a curfew**  | $12$| $4$ | $\\purpleC{16}$ **Do not have a curfew** | $8$ | $10$ | $\\redD{18}$ **Total** | $20$ | $14$ | $\\blueD{34}$  There are $\\purpleC{16}$ out of the total $\\blueD{34}$ students who have a curfew, but there are $\\redD{18}$ students who do not have a curfew.  $\\dfrac{\\purpleC{16}}{\\blueD{34}} \\ngtr \\dfrac{\\redD{18}}{\\blueD{34}}$  This statement is false.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement 2: If a student has a curfew, it is most likely that they have chores.   | Have chores | Do not have chores | Total - | :-: | :-: | :-: **Have a curfew**  | $\\greenD{12}$| $\\goldE{4}$ | $\\purpleC{16}$ **Do not have a curfew** | $8$ | $10$ | $18$ **Total** | $20$ | $14$ | $34$  There are $\\greenD{12}$ of the $\\purpleC{16}$ students with a curfew who have chores, while there are only $\\goldE{4}$ who do not have chores.  $\\dfrac{\\greenD{12}}{\\purpleC{16}}  > \\dfrac{\\goldE{4}}{\\purpleC{16}}$  This statement is true.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement 3: More than half of the students do not have chores and do not have a curfew.   | Have chores | Do not have chores | Total - | :-: | :-: | :-: **Have a curfew**  | $12$| $4$ | $16$ **Do not have a curfew** | $8$ | $\\maroonD{10}$ | $18$ **Total** | $20$ | $14$ | $\\blueD{34}$  There are $\\maroonD{10}$ students out of the $\\blueD{34}$ total students who do not have chores and do not have a curfew. That is less than half.  $\\dfrac{\\maroonD{10}}{\\blueD{34}} \\ngtr \\dfrac{{1}}{{2}}$  This statement is false.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement 4: If a student does have not chores, it is most likely that they have a curfew.   | Have chores | Do not have chores | Total - | :-: | :-: | :-: **Have a curfew**  | $12$| $\\goldE{4}$ | $16$ **Do not have a curfew** | $8$ | $\\maroonD{10}$ | $18$ **Total** | $20$ | $\\tealD{14}$ | $34$  There are $\\goldE{4}$ out of $\\tealD{14}$ of the students who do not have chores who do have a curfew, but there are $\\maroonD{10}$ who do not have a curfew.  $\\dfrac{\\goldE{4}}{\\tealD{14}} \\ngtr \\dfrac{\\maroonD{10}}{\\tealD{14}}$  This statement is false.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The true statement is, \"If a student has a curfew, it is most likely that they have chores.\"",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Absolute counts"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The  two-way frequency table below shows data from a random sample of $93$ students on their favorite season and whether or not the student has allergies.    | Has allergies | No allergies | Total :-: | :-: | :-: | :-: Winter | $5$ | $9$ | $14$ Spring | $6$ | $7$ | $13$ Summer | $13$ | $23$ | $36$ Fall | $14$ | $16$ | $30$ **Total** | $38$ | $55$ | $93$  **Which of the following statements is true about the students surveyed?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "A student with allergies is least likely to have spring as their favorite season.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "A student was most likely to have summer as their favorite season, whether or not they have allergies.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "A student with no allergies is more likely to have spring than fall as their favorite season.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "A student was more likely to have no allergies, no matter what their favorite season was.",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's look at each statement to consider whether it agrees with the data in the table.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement 1: A student with allergies is least likely to have spring as their favorite season.    | Has allergies | No allergies | Total :-: | :-: | :-: | :-: Winter | $\\maroonD{5}$ | $9$ | $14$ Spring | $\\blueD{6}$ | $7$ | $13$ Summer | $13$ | $23$ | $36$ Fall | $14$ | $16$ | $30$ **Total** | $38$ | $55$ | $93$  There are $\\blueD{6}$ out of $38$ students with allergies who have spring as there favorite season, but there are only $\\maroonD{5}$ who have winter as their favorite.  $\\dfrac{\\blueD{6}}{{38}} \\nless \\dfrac{\\maroonD{5}}{{38}}$  This statement is false.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement 2: A student was most likely to have summer as their favorite season, whether or not they have allergies.    | Has allergies | No allergies | Total :-: | :-: | :-: | :-: Winter | $5$ | $9$ | $14$ Spring | $6$ | $7$ | $13$ Summer | $\\greenD{13}$ | $23$ | $36$ Fall | $\\purpleC{14}$ | $16$ | $30$ **Total** | $38$ | $55$ | $93$  If a student had no allergies, they were most likely to have summer as their favorite season.  $23 > 16 > 9 > 7$  However, there are $\\greenD{13}$ out of the $38$ students who have allergies who have summer as their favorite season, but there are $\\purpleC{14}$ who have fall as their favorite season.  $\\dfrac{\\greenD{13}}{{38}} \\ngtr \\dfrac{\\purpleC{14}}{{38}}$  This statement is false.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement 3: A student with no allergies is more likely to have spring than fall as their favorite season.    | Has allergies | No allergies | Total :-: | :-: | :-: | :-: Winter | $5$ | $9$ | $14$ Spring | $6$ | $\\tealD{7}$ | $13$ Summer | $13$ | $23$ | $36$ Fall | $14$ | $\\goldE{16}$ | $30$ **Total** | $38$ | $55$ | $93$  There are $\\tealD{7}$ out of $55$ students with no allergies who have spring as there favorite season, but there are $\\goldE{16}$ who have fall as their favorite.  $\\dfrac{\\tealD{7}}{{55}} \\ngtr \\dfrac{\\goldE{16}}{{55}}$  This statement is false.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement 4: A student was more likely to have no allergies, no matter what their favorite season was.    | Has allergies $<$ No allergies | :-: | :-:  Winter | $5<9$  Spring | $6<7$  Summer | $13<23$  Fall | $14<16$   For each season, there are more students with no allergies than students with allergies.  This statement is true.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The true statement is, \"A student was more likely to have no allergies, no matter what their favorite season was.\"",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Absolute counts"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Isla was researching kiwi birds. She categorized each bird she observed by species and gender. The  two-way frequency table below shows data from observations of $200$ kiwis.  || Species vs gender ||  | Great spotted | Northland brown | Tokoeka | Total :- | :-: | :-: | :-: | :-: Female | $24$ | $42$ | $44$ | $110$ Male | $19$ | $39$ | $32$ | $90$ Total | $43$ | $81$ | $76$ | $200$  **Which of the following statements is true about the kiwis observed?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "There were the most observations of female tokoeka kiwis.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Great spotted kiwis were more likely to be male than female.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "More than half of the kiwis were Northland brown kiwis.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Northland brown kiwis were more likely to be female than tokoeka kiwis were.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's look at each statement to consider whether it agrees with the data in the table.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement 1: There were the most observations of female tokoeka kiwis.  || Species vs gender ||  | Great spotted | Northland brown | Tokoeka | Total :- | :-: | :-: | :-: | :-: Female | $24$ | $42$ | $\\blueD{44}$ | $110$ Male | $19$ | $39$ | $32$ | $90$ Total | $43$ | $81$ | $76$ | $\\redD{200}$  There were $\\blueD{44}$ observations of female Tokoeka kiwis out of of the $\\redD{200}$ total observations. This is greater than the number of observations of any other combination of species and gender.  $\\blueD{44}>42>39>32>24>19$  This statement is true.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement 2: Great spotted kiwis were more likely to be male than female.  || Species vs gender ||  | Great spotted | Northland brown | Tokoeka | Total :- | :-: | :-: | :-: | :-: Female | $\\tealD{24}$ | $42$ | $44$ | $110$ Male | $\\gray{19}$ | $39$ | $32$ | $90$ Total | $\\goldE{43}$ | $81$ | $76$ | $200$  There are $\\gray{19}$ out of the $\\goldE{43}$ great spotted kiwis that were male, but there are $\\tealD{24}$ that were female.  $\\dfrac{\\gray{19}}{\\goldE{43}} \\ngtr \\dfrac{\\tealD{24}}{\\goldE{43}}$  This statement is false.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement 3: More than half of the kiwis were Northland brown kiwis.  || Species vs gender ||  | Great spotted | Northland brown | Tokoeka | Total :- | :-: | :-: | :-: | :-: Female | $24$ | $42$ | $44$ | $110$ Male | $19$ | $39$ | $32$ | $90$ Total | $43$ | $\\purpleC{81}$ | $76$ | $\\redD{200}$  There are $\\purpleC{81}$ out of $\\redD{200}$ kiwis that were Northland brown kiwis, but that is less than half.  $\\dfrac{\\purpleC{81}}{\\redD{200}} \\ngtr \\dfrac{{1}}{{2}}$  This statement is false.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement 4: Northland brown kiwis were more likely to be female than tokoeka kiwis were.  || Species vs gender ||  | Great spotted | Northland brown | Tokoeka | Total :- | :-: | :-: | :-: | :-: Female | $24$ | $\\greenD{42}$ | $\\blueD{44}$ | $110$ Male | $19$ | $39$ | $32$ | $90$ Total | $43$ | $\\purpleC{81}$ | $\\maroonD{76}$ | $200$  There are $\\greenD{42}$ out of the $\\purpleC{81}$ Northland brown kiwis that were female, but there are $\\blueD{44}$ out of $\\maroonD{76}$ tokoeka kiwis that were female.  $\\dfrac{\\greenD{42}}{\\purpleC{81}}\\ngtr \\dfrac{\\blueD{44}}{\\maroonD{76}}$  [[☃ explanation 1]]  This statement is false.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The true statement is, \"There were the most observations of female tokoeka kiwis.\"",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Absolute counts"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The two-way table of *row* relative frequencies below shows data on nationality and eye color.     | Brown or hazel eyes | Blue or green eyes | Other | Row total - | :-: | :-:  **English**  | $0.48$| $0.50$ | $0.02$|$1.00$ **German** | $0.47$ | $0.52$ | $0.01$|$1.00$ **Italian** | $0.80$ | $0.18$ | $0.02$|$1.00$  **Based on the data, which of the following statements must be true?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "There are the same number of English people and Italian people with other eye colors.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Italians are more likely to have brown or hazel eyes than Germans are.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "A German person is more likely to have brown or hazel eyes than to have blue or green eyes.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "A person with brown or hazel eyes is least likely to be German.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's look at each statement to consider whether it agrees with the data in the table.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement: There are the same number of English people and Italian people with other eye colors.  We only know the relative frequencies, not the actual counts of people, so we cannot make this claim.    If there were an equal number of English people and Italian people, then the statement would be true. However, suppose this data came from a sample of $1000$ people, of whom $600$ were English and $400$ were Italian.  English: $0.02(600)=12$ would have other eye colors  Italian: $0.02(400)=8$ would have other eye colors  Without knowing the total number of people in each group we can't say this statement is true.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement: Italians are more likely to have brown or hazel eyes than Germans are.   | Brown or hazel eyes | Blue or green eyes | Other | Row total - | :-: | :-:  **English**  | $0.48$| $0.50$ | $0.02$|$1.00$ **German** | $\\maroonD{0.47}$ | $0.52$ | $0.01$|$1.00$ **Italian** | $\\blueD{0.80}$ | $0.18$ | $0.02$|$1.00$  $\\blueD{80\\%}$ of the Italians have brown or hazel eyes, while only $\\maroonD{47\\%}$ of the Germans have brown or hazel eyes.  This statement is true.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement: A German person is more likely to have brown or hazel eyes than to have blue or green eyes.   | Brown or hazel eyes | Blue or green eyes | Other | Row total - | :-: | :-:  **English**  | $0.48$| $0.50$ | $0.02$|$1.00$ **German** | $\\maroonD{0.47}$ | $\\greenD{0.52}$ | $0.01$|$1.00$ **Italian** | $0.80$ | $0.18$ | $0.02$|$1.00$  $\\maroonD{47\\%}$ of the Germans have brown or hazel eyes, but $\\greenD{52\\%}$ of the Germans have blue or green eyes.   This statement is false.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement: A person with brown or hazel eyes is least likely to be German.  We only know the *row* relative frequencies, not the *column* relative frequencies, so we cannot make this claim.    If there were equal numbers of people who were German, English, and Italian, then the statement would be true. However, suppose this data came from a sample of $1000$ people, of whom $400$ people were German and $300$ people each were English or Italian.  German: $0.47(400)=188$ would have brown or hazel eyes  English: $0.48(300)=144$ would have brown or hazel eyes  Italian: $0.80(300)=240$ would have brown or hazel eyes  Without knowing the total number of people in each group, or the column relative frequencies, we can't say this statement is true.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Based on this data, the statement which must be true is, \"Italians are more likely to have brown or hazel eyes than Germans are.\"",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Relative frequencies"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The two-way table of *column* relative frequencies below shows data on whether or not a person has internet access and their preferred method to communicate with friends.    || Internet access vs. preferred method to communicate with friends ||   | No internet access | Internet access :- | :-: | :-: In person | $0.31$ | $0.20$ Social networking | $0.15$ | $0.08$ Wired telephone | $0.08$ | $0.01$ Text messaging | $0.31$ | $0.54$ Other | $0.16$ | $0.16$ **Column total** | $1.00$ | $1.00$  **Based on the data, which of the following statements must be true?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "A person who prefers to communicate with friends in person is more likely to have no internet access than to have internet access.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "A person with internet access is more likely than a person without internet access to prefer the wired telephone to communicate with their friends.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "A person with internet access is more likely than a person without internet access to prefer text messaging to communicate with their friends.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "More people without internet access prefer using social networking than people with internet access.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's look at each statement to consider whether it agrees with the data in the table.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement 1: A person who prefers to communicate with friends in person is more likely to have no internet access than to have internet access.  We only know the *column* relative frequencies, not the *row* relative frequencies, so we cannot make this claim.    If there were an equal number of people with and without internet access, then the statement would be true. However, suppose this data came from a sample of $1000$ people, of whom $900$ people have internet access and $100$ people have no internet access.  No internet access: $0.31(100)=31$ would prefer in person communication  Internet access: $0.20(900)=180$ would prefer in person communication  Without knowing the total number of people in each group, or the row relative frequencies, we can't say this statement is true.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement 2: A person with internet access is more likely than a person without internet access to prefer the wired telephone to communicate with their friends.    | No internet access | Internet access :- | :-: | :-: In person | $0.31$ | $0.20$ Social networking | $0.15$ | $0.08$ Wired telephone | $\\blueD{0.08}$ | $\\maroonD{0.01}$ Text messaging | $0.31$ | $0.54$ Other | $0.16$ | $0.16$ **Column total** | $1.00$ | $1.00$  $\\maroonD{1\\%}$ of people with internet access prefer the wired telephone, but $\\blueD{8\\%}$ of people without internet access prefer the wired telephone.  This statement is false.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement 3: A person with internet access is more likely than a person without internet access to prefer text messaging to communicate with their friends.    | No internet access | Internet access :- | :-: | :-: In person | $0.31$ | $0.20$ Social networking | $0.15$ | $0.08$ Wired telephone | $0.08$ | $0.01$ Text messaging | $\\greenD{0.31}$ | $\\purpleC{0.54}$ Other | $0.16$ | $0.16$ **Column total** | $1.00$ | $1.00$  $\\purpleC{54\\%}$ of people with internet access prefer text messaging, while only $\\greenD{31\\%}$ of people without internet access prefer text messaging.  This statement is true.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement 4: More people without internet access prefer using social networking than people with internet access.  We only know the relative frequencies, not the actual counts of people, so we cannot make this claim.    If there were an equal number of people with and without internet access, then the statement would be true. However, suppose this data came from a sample of $1000$ people, of whom $900$ people have internet access and $100$ people have no internet access.  No internet access: $0.15(100)=15$ would prefer social networking  Internet access: $0.08(900)=72$ would prefer social networking  Without knowing the total number of people in each group we can't say this statement is true.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Based on this data, the statement which must be true is, \"A person with internet access is more likely than a person without internet access to prefer text messaging to communicate with their friends.\"",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Relative frequencies"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A survey asked participants whether or not they were vegetarian and how important they thought saving energy was. The two-way table of *row* relative frequencies below shows the data.  || Perceived importance of saving energy vs. vegetarianism ||   | Not important | Somewhat important | Very important | Row total :- | :-: | :-: | :-: | :-: Vegetarian | $0.33$ | $0.17$ | $0.50$ | $1.00$ Not vegetarian | $0.38$ | $0.36$ | $0.26$ | $1.00$  **Based on the data, which of the following statements must be true?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$33\\%$ of the people surveyed were vegetarian and thought saving energy was not important.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "If a person thought saving energy was very important, they were most likely to be a vegetarian.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "A person who was not a vegetarian was more likely to think saving energy was very important than not important.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "A person who was not a vegetarian was more likely than a vegetarian to think saving energy is somewhat important.",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's look at each statement to consider whether it agrees with the data in the table.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement 1: $33\\%$ of the people surveyed were vegetarian and thought saving energy was not important.  We only know the *row* relative frequencies, not the *table* relative frequencies. $33\\%$ of the vegetarians in the sample thought saving energy was not important, but this is fewer than $33\\%$ of all people surveyed.  This statement is false.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement 2: If a person thought saving energy was very important, they were most likely to be a vegetarian.  We only know the *row* relative frequencies, not the *column* relative frequencies, so we cannot make this claim.    If there were equal numbers of people who were vegetarian and not vegetarian, then the statement would be true. However, suppose this data came from a sample of $400$ people, of whom $100$ people were vegetarian and $300$ people who were not vegetarian.  Vegetarian: $0.50(100)=50$ would have thought saving energy was very important  Not vegetarian: $0.26(300)=78$ would have thought saving energy was very important  Without knowing the total number of people in each group, or the column relative frequencies, we can't say this statement is true.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement 3: A person who was not a vegetarian was more likely to think saving energy was very important than not important.    | Not important | Somewhat important | Very important | Row total :- | :-: | :-: | :-: | :-: Vegetarian | $0.33$ | $0.17$ | $0.50$ | $1.00$ Not vegetarian | $\\maroonD{0.38}$ | $0.36$ | $\\blueD{0.26}$ | $1.00$  $\\blueD{26\\%}$ of the people who were not vegetarian thought saving energy was very important, but $\\maroonD{38\\%}$ thought saving energy was not important.  This statement is false.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement 4: A person who was not a vegetarian was more likely than a vegetarian to think saving energy is somewhat important.    | Not important | Somewhat important | Very important | Row total :- | :-: | :-: | :-: | :-: Vegetarian | $0.33$ | $\\greenD{0.17}$ | $0.50$ | $1.00$ Not vegetarian | $0.38$ | $\\purpleC{0.36}$ | $0.26$ | $1.00$  $\\purpleC{36\\%}$ of the people who were not vegetarians said saving energy is somewhat important, while only $\\greenD{17\\%}$ of the vegetarians said so.  This statement is true.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Based on this data, the statement which must be true is, \"A person who was not a vegetarian was more likely than a vegetarian to think saving energy is somewhat important.\"",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Relative frequencies"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The two-way table of *column* relative frequencies below summarizes survey data on who a person's role model is and their highest level of education.    || Role model vs. level of education ||   | Family member | Friend or acquaintance | Stranger :- | :-: | :-: | :-: Less than high school | $0.09$ | $0.12$ | $0.19$ High school | $0.25$ | $0.32$ | $0.40$ Some college | $0.29$ | $0.25$ | $0.23$ Bachelor's degree | $0.23$ | $0.19$ | $0.14$ Advanced degree | $0.14$ | $0.12$ | $0.04$ **Column total** | $1.00$ | $1.00$ | $1.00$  **Based on the data, which of the following statements must be true of the people surveyed?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "A person whose role model is a family member is less likely to have an advanced degree than a person whose role model is a friend or acquaintance.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "A person whose role model is a stranger is more likely to have high school than some college as their highest level of education.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "A person whose highest level of education is a bachelor's degree is more likely to have a family member than a stranger as a role model.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "A person whose highest level of education is less than high school is more likely to have a stranger than a friend or acquaintance as a role model.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's look at each statement to consider whether it agrees with the data in the table.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement 1: A person whose role model is a family member is less likely to have an advanced degree than a person whose role model is a friend or acquaintance.  || Role model vs. level of education ||   | Family member | Friend or acquaintance | Stranger :- | :-: | :-: | :-: Less than high school | $0.09$ | $0.12$ | $0.19$ High school | $0.25$ | $0.32$ | $0.40$ Some college | $0.29$ | $0.25$ | $0.23$ Bachelor's degree | $0.23$ | $0.19$ | $0.14$ Advanced degree | $\\blueD{0.14}$ | $\\maroonD{0.12}$ | $0.04$ **Column total** | $1.00$ | $1.00$ | $1.00$  $\\blueD{14\\%}$ of the people whose role model is a family member have an advanced degree, but only $\\maroonD{12\\%}$ of people whose role model is a friend or acquaintance have an advanced degree.  This statement is false.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement 2: A person whose role model is a stranger is more likely to have high school than some college as their highest level of education.   || Role model vs. level of education ||   | Family member | Friend or acquaintance | Stranger :- | :-: | :-: | :-: Less than high school | $0.09$ | $0.12$ | $0.19$ High school | $0.25$ | $0.32$ | $\\greenD{0.40}$ Some college | $0.29$ | $0.25$ | $\\purpleC{0.23}$ Bachelor's degree | $0.23$ | $0.19$ | $0.14$ Advanced degree | $0.14$ | $0.12$ | $0.04$ **Column total** | $1.00$ | $1.00$ | $1.00$  $\\greenD{40\\%}$ of people who role model is a stranger have high school as their highest level of education, while only $\\purpleC{23\\%}$ have some college as their highest level.  This statement is true.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement 3: A person whose highest level of education is a bachelor's degree is more likely to have a family member than a stranger as a role model.  We only know the *column* relative frequencies, not the *row* relative frequencies, so we cannot make this claim.    If there were an equal number of people with family members and strangers as role models, then the statement would be true. However, suppose this data came from a sample where $100$ people have a family member as a role model and $400$ people have a stranger as a role model.  Family member: $0.23(100)=23$ would have a bachelor's degree as their highest level of education   Stranger: $0.14(400)=56$ would have a bachelor's degree as their highest level of education    Without knowing the total number of people in each group, or the row relative frequencies, we can't say this statement is true.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement 4: A person whose highest level of education is less than high school is more likely to have a stranger than a friend or acquaintance as a role model.  We only know the *column* relative frequencies, not the *row* relative frequencies, so we cannot make this claim.    If there were an equal number of people with friends or acquaintances and strangers as role models, then the statement would be true. However, suppose this data came from a sample where $400$ people have a friend or acquaintance as a role model and $200$ people have a stranger as a role model.  Friend or acquaintance: $0.12(400)=48$ would have finished less than high school   Stranger: $0.19(200)=38$ would have finished less than high school  Without knowing the total number of people in each group, or the row relative frequencies, we can't say this statement is true.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Based on this data, the statement which must be true is, \"A person whose role model is a stranger is more likely to have high school than some college as their highest level of education. \"",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Relative frequencies"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A survey asked students at Wilson Academy which status they would prefer—to be happy, healthy, or rich—and how much pressure they felt from their homework. The two-way table of *row* relative frequencies below shows the data.  || Preferred status vs. pressure from homework ||   | None | Very little | Some | A lot | Row total :- | :-: | :-: | :-: | :-: | :-: Happy | $0.02$ | $0.13$ | $0.39$ | $0.46$ | $1.00$ Healthy | $0.08$ | $0.15$ | $0.31$ | $0.46$ | $1.00$ Rich | $0.05$ | $0.05$ | $0.50$ | $0.40$ | $1.00$  **Based on the data, which of the following statements about students at Wilson Academy must be true?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "A student who prefers to be healthy is more likely to feel very little pressure from homework than a student who prefers to be rich.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "A student who prefers to be happy is more likely to feel very little pressure than a lot of pressure from homework.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "A person who feels some pressure from homework is most likely to prefer to be rich.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "An equal number of students who feel a lot of pressure from homework prefer to be happy as prefer to be healthy.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's look at each statement to consider whether it agrees with the data in the table.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement 1: A student who prefers to be healthy is more likely to feel very little pressure from homework than a student who prefers to be rich.  || Preferred status vs. pressure from homework ||   | None | Very little | Some | A lot | Row total :- | :-: | :-: | :-: | :-: | :-: Happy | $0.02$ | $0.13$ | $0.39$ | $0.46$ | $1.00$ Healthy | $0.08$ | $\\blueD{0.15}$ | $0.31$ | $0.46$ | $1.00$ Rich | $0.05$ | $\\maroonD{0.05}$ | $0.50$ | $0.40$ | $1.00$  $\\blueD{15\\%}$ of the students who prefer to be healthy feel very little pressure, while only $\\maroonD{5\\%}$ of students who prefer to be rich feel very little pressure.  This statement is true.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement 2: A student who prefers to be happy is more likely to feel very little pressure than a lot of pressure from homework.  || Preferred status vs. pressure from homework ||   | None | Very little | Some | A lot | Row total :- | :-: | :-: | :-: | :-: | :-: Happy | $0.02$ | $\\greenD{0.13}$ | $0.39$ | $\\purpleC{0.46}$ | $1.00$ Healthy | $0.08$ | $0.15$ | $0.31$ | $0.46$ | $1.00$ Rich | $0.05$ | $0.05$ | $0.50$ | $0.40$ | $1.00$  $\\greenD{13\\%}$ of the students who prefer to be happy feel very little pressure, but $\\purpleC{46\\%}$ feel a lot of pressure.  This statement is false.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement 3: A person who feels some pressure from homework is most likely to prefer to be rich.  We only know the *row* relative frequencies, not the *column* relative frequencies, so we cannot make this claim.    If there were equal numbers of people who preferred each status, then the statement would be true. However, suppose this data came from a sample of $1000$ people, of whom $400$ people each preferred to be happy or healthy and $200$ people preferred to be rich.  Happy: $0.39(400)=156$ would feel some pressure from homework  Healthy: $0.31(400)=124$ would feel some pressure from homework  Rich: $0.50(200)=100$ would feel some pressure from homework  Without knowing the total number of people in each group, or the column relative frequencies, we can't say this statement is true.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement 4: An equal number of students who feel a lot of pressure from homework prefer to be happy as prefer to be healthy.  We only know the relative frequencies, not the actual counts of students. If the numbers of students who prefer to be happy and who prefer to be healthy are different, then the counts are different, even though the percentages are the same.  We do not have enough information to determine whether this statement is true or false.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Based on this data, the statement which must be true is, \"A student who prefers to be healthy is more likely to feel very little pressure from homework than a student who prefers to be rich.\"",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Relative frequencies"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The two-way table of *column* relative frequencies below shows data on how often a teenager's parents monitor their screen time and whether or not the teenager has a time limit for their daily screen time for teenagers in West Lake County.  || Frequency of monitored screen time vs. time limit for screen time ||   | Time limit | No time limit :- | :-: | :-: Never | $0.18$ | $0.50$ Occasionally | $0.42$ | $0.31$ Usually | $0.29$ | $0.15$ Always | $0.11$ | $0.03$ **Column total** | $1.00$ | $1.00$  **Based on the data, which of the following statements must be true for teenagers in West Lake County?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "The parents of a teenager with a time limit are more likely to never monitor their screen time than the parents of a teenager with no time limit.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "A teenager whose parents occasionally monitor their screen time is more likely to have a time limit than not.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "A teenager whose parents always monitor their screen time is more likely to have a time limit than not.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The parents of a teenager with a time limit are more likely to usually monitor the screen time than to always monitor it.",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's look at each statement to consider whether it agrees with the data in the table.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement 1: The parents of a teenager with a time limit are more likely to never monitor their screen time than the parents of a teenager with no time limit.  || Frequency of monitored screen time vs. time limit for screen time ||   | Time limit | No time limit :- | :-: | :-: Never | $\\blueD{0.18}$ | $\\maroonD{0.50}$ Occasionally | $0.42$ | $0.31$ Usually | $0.29$ | $0.15$ Always | $0.11$ | $0.03$ **Column total** | $1.00$ | $1.00$  $\\blueD{18\\%}$ of the parents of teenagers with a time limit never monitor the screen time, but $\\maroonD{50\\%}$ of the parents of teenagers with no time limit  never monitor the screen time.  This statement is false.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement 2: A teenager whose parents occasionally monitor their screen time is more likely to have a time limit than not.  We only know the *column* relative frequencies, not the *row* relative frequencies, so we cannot make this claim.  If there were an equal number of teenagers with and without a time limit, then the statement would be true. However, suppose this data came from a sample of $500$ teenagers, of whom $100$ have a time limit and $400$ have no time limit.  Time limit: $0.42(100)=42$ whose parents would occasionally monitor screen time  No time limit: $0.31(400)=124$ whose parents would occasionally monitor screen time  Without knowing the total number of people in each group, or the row relative frequencies, we can't say this statement is true.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement 3: A teenager whose parents always monitor their screen time is more likely to have a time limit than not.  We only know the *column* relative frequencies, not the *row* relative frequencies, so we cannot make this claim.    If there were an equal number of teenagers with and without a time limit, then the statement would be true. However, suppose this data came from a sample of $500$ teenagers, of whom $100$ have a time limit and $400$ have no time limit.  Time limit: $0.11(100)=11$ whose parents would always monitor screen time  No time limit: $0.03(400)=12$ whose parents would always monitor screen time  Without knowing the total number of people in each group, or the row relative frequencies, we can't say this statement is true.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement 4: The parents of a teenager with a time limit are more likely to usually monitor the screen time than to always monitor it.  || Frequency of monitored screen time vs. time limit for screen time ||   | Time limit | No time limit :- | :-: | :-: Never | $0.18$ | $0.50$ Occasionally | $0.42$ | $0.31$ Usually | $\\greenD{0.29}$ | $0.15$ Always | $\\purpleC{0.11}$ | $0.03$ **Column total** | $1.00$ | $1.00$  $\\greenD{29\\%}$ of the parents of teenagers with a time limit usually monitor the screen time, while only $\\purpleC{11\\%}$ always monitor it.  This statement is true.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Based on this data, the statement which must be true is, \"The parents of a teenager with a time limit are more likely to usually monitor the screen time than to always monitor it.\"",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Relative frequencies"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A survey of a random sample of ninth-grade students from Alabama asked whether the students owned a cell phone and whether they had brought a personal electronic device to use for schoolwork that day. The two-way table of *row* relative frequencies below shows the data.  || Brought personal device vs. owns a cell phone || | Did not bring device | Brought device | Total :- | :-: | :-: | :-: Does not own cell phone | $0.57$ | $0.43$ | $1.00$ Owns cell phone | $0.20$ | $0.80$ | $1.00$  **Based on the data, which of the following statements must be true about the ninth-grade students from Alabama?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$57\\%$ of the students in the sample do not own a cell phone and did not bring a personal device.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "A student who owns a cell phone is less likely to have brought a personal device than a student who does not own a cell phone is.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "A student who owns a cell phone is more likely to have brought a personal device than not to have brought one.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "A student who did not bring a personal device is more likely to not have a cell phone than to have one.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's look at each statement to consider whether it agrees with the data in the table.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement 1: $57\\%$ of the students in the sample do not own a cell phone and did not bring a personal device.  We only know the *row* relative frequencies, not the *table* relative frequencies. $57\\%$ students who do not own a cell phone did not bring a device, but this is fewer than $57\\%$ of all students surveyed.  This statement is false.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement 2: A student who owns a cell phone is less likely to have brought a personal device than a student who does not own a cell phone is.  || Brought personal device vs. owns a cell phone || | Did not bring device | Brought device | Total :- | :-: | :-: | :-: Does not own cell phone | $0.57$ | $\\greenD{0.43}$ | $1.00$ Owns cell phone | $0.20$ | $\\purpleC{0.80}$ | $1.00$  $\\purpleC{80\\%}$ of the students who own a cell phone brought a personal device for their school work, but only $\\greenD{43\\%}$ of the students who do not own a cell phone brought a device.  This statement is false.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement 3: A student who owns a cell phone is more likely to have brought a personal device than not to have brought one.  || Brought personal device vs. owns a cell phone || | Did not bring device | Brought device | Total :- | :-: | :-: | :-: Does not own cell phone | $0.57$ | $0.43$ | $1.00$ Owns cell phone | $\\redD{0.20}$ | $\\purpleC{0.80}$ | $1.00$  $\\purpleC{80\\%}$ of the students who own a cell phone brought a personal device for their school work, while only $\\redD{20\\%}$ did not bring a device.  This statement is true.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement 4: A student who did not bring a personal device is more likely to not have a cell phone than to have one.  We only know the *row* relative frequencies, not the *column* relative frequencies, so we cannot make this claim.  If there were equal numbers of students who had and didn't have a cell phone, then the statement would be true. However, suppose this data came from a sample of $1000$ students, of whom $200$ students did not own a cell phone and $800$ students owned a cell phone.  No cell phone: $0.57(200)=114$ would not have brought a personal device  Cell phone: $0.20(800)=160$ would not have brought a personal device  Without knowing the total number of students in each group, or the column relative frequencies, we can't say this statement is true.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Based on this data, the statement which must be true is, \"A student who owns a cell phone is more likely to have brought a personal device than not to have brought one.\"",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Relative frequencies"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A school in New Zealand collected data about the employment status of the mother and father in two-parent families. The two-way table of *column* relative frequencies below shows the data.    | Father works full time | Father works part time | Father not working :- | :-: | :-: | :-: Mother works full time | $0.17$ | $0.14$ | $0.13$ Mother works part time | $0.23$ | $0.14$ | $0.07$ Mother not working | $0.60$ | $0.71$ | $0.80$ Column total | $1.00$ | $1.00$ | $1.00$  **Based on the data, which of the following statements must be true for the two-parent families at that school?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "A family where the father works part time is twice as likely as a family where the father is not working to have the mother work part time.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "It is most common for neither parent to be working.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Families where the father works full time are more likely to have the mother working full time than part time.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There are twice as many families where the mother works full time and the father works part time as families where the mother works part time and the father doesn't work.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's look at each statement to consider whether it agrees with the data in the table.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement 1: A family where the father works part time is twice as likely as a family where the father is not working to have the mother work part time.    | Father works full time | Father works part time | Father not working :- | :-: | :-: | :-: Mother works full time | $0.17$ | $0.14$ | $0.13$ Mother works part time | $0.23$ | $\\blueD{0.14}$ | $\\maroonD{0.07}$ Mother not working | $0.60$ | $0.71$ | $0.80$ Column total | $1.00$ | $1.00$ | $1.00$  $\\blueD{14\\%}$ of the mothers work part time in families where the father works part time, while $\\maroonD{7\\%}$ of the mothers work part time in families where the father is not working.  This statement is true.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement 2: It is most common for neither parent to be working.  We only know the *column* relative frequencies, not the *table* relative frequencies, so we cannot make this claim.    If there were an equal number of families with the father working full time, working part time, and not working, then the statement would be true. However, suppose this data came from a sample of $1000$ families, of whom $400$ fathers work full time, $400$ fathers work part time, and $200$ fathers are not working.  No matter how much the father works, the mothers of families in this sample are most likely to not be working. So let's just compare the numbers of families where the mother is not working.  Father working full time: $0.60(400)=240$ families with the mother not working  Father working part time: $0.71(400)=284$ families with the mother not working  Father not working: $0.80(200)=160$ families with the mother not working  Without knowing the total number of people in each group, or the table relative frequencies, we can't say this statement is true.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement 3: Families where the father works full time are more likely to have the mother working full time than part time.    | Father works full time | Father works part time | Father not working :- | :-: | :-: | :-: Mother works full time | $\\greenD{0.17}$ | $0.14$ | $0.13$ Mother works part time | $\\purpleC{0.23}$ | $0.14$ | $0.07$ Mother not working | $0.60$ | $0.71$ | $0.80$ Column total | $1.00$ | $1.00$ | $1.00$  $\\greenD{17\\%}$ of the mothers work full time in families where the father works full time, but $\\purpleC{23\\%}$ of the mothers work part time in families where the father works full time.  This statement is false.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "##Statement 4: There are twice as many families where the mother works full time and the father works part time as families where the mother works part time and the father doesn't work.  We only know the relative frequencies, not the actual counts of families. This comparison would only be true if the same number of families had father working part time as had the father not working.  We do not have enough information to determine whether this statement is true or false.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Based on this data, the statement which must be true is, \"A family where the father works part time is twice as likely as a family where the father is not working to have the mother work part time.\"",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Relative frequencies"
+                    }
+                }
+            }
+        }
+    ]
+}

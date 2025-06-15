@@ -1,0 +1,663 @@
+{
+    "standard_metadata": {
+        "standard_id": "6.NS.B.3",
+        "standard_description": "Fluently add, subtract, multiply, and divide multi-digit decimals using the standard algorithm for each operation.",
+        "standard_title": "Decimal multiplication place value",
+        "standard_url": "https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-arithmetic-operations/cc-6th-multiplying-decimals/e/multiplying_decimals_1"
+    },
+    "id": "x6f0c6901",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which of the following expressions is equivalent to $0.034 \\times 4.8$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$34\\times 48 \\times \\dfrac{1}{10}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$34\\times 48 \\times \\dfrac{1}{100}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$34\\times 48 \\times \\dfrac{1}{1{,}000}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$34\\times 48 \\times \\dfrac{1}{10{,}000}$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's rewrite the decimals in fraction form. Then we can use the properties of multiplication to write an equivalent expression.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\blueE{0.034} \\times \\maroonD{4.8} &= \\blueE{\\dfrac{34}{1{,}000}} \\times \\maroonD{\\dfrac{48}{10}}\\\\\\\\ &=\\left(\\blueE{34 \\times \\dfrac{1}{1{,}000}}\\right) \\times \\left(\\maroonD{48 \\times \\dfrac{1}{10}}\\right) \\end{align}$  We are multiplying, so we can use the commutative and associative properties. Let's rearrange and group the fractions.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\blueE{0.034} \\times \\maroonD{4.8} &= \\blueE{\\dfrac{34}{1{,}000}} \\times \\maroonD{\\dfrac{48}{10}}\\\\\\\\ &=\\left(\\blueE{34 \\times \\dfrac{1}{1{,}000}}\\right) \\times \\left(\\maroonD{48 \\times \\dfrac{1}{10}}\\right)\\\\\\\\ &=\\blueE{34}  \\times \\maroonD{48} \\times \\left(\\blueE{\\dfrac{1}{1{,}000}} \\times \\maroonD{\\dfrac{1}{10}}\\right)\\\\\\\\ &={34}  \\times {48} \\times {\\dfrac{1}{10{,}000}}  \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The expression $34\\times 48 \\times \\dfrac{1}{10{,}000}$ is equivalent to $0.034 \\times 4.8$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1: Fraction factor"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which of the following expressions is equivalent to $2.3 \\times 5.01$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$23\\times 501 \\times \\dfrac{1}{10}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$23\\times 501 \\times \\dfrac{1}{100}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$23\\times 501 \\times \\dfrac{1}{1{,}000}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$23\\times 501 \\times \\dfrac{1}{10{,}000}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's rewrite the decimals in fraction form. Then we can use the properties of multiplication to write an equivalent expression.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\blueE{2.3} \\times \\maroonD{5.01} &= \\blueE{\\dfrac{23}{10}} \\times \\maroonD{\\dfrac{501}{100}}\\\\\\\\ &=\\left(\\blueE{23 \\times \\dfrac{1}{10}}\\right) \\times \\left(\\maroonD{501 \\times \\dfrac{1}{100}}\\right) \\end{align}$  We are multiplying, so we can use the commutative and associative properties. Let's rearrange and group the fractions.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\blueE{2.3} \\times \\maroonD{5.01} &= \\blueE{\\dfrac{23}{10}} \\times \\maroonD{\\dfrac{501}{100}}\\\\\\\\ &=\\left(\\blueE{23 \\times \\dfrac{1}{10}}\\right) \\times \\left(\\maroonD{501 \\times \\dfrac{1}{100}}\\right)\\\\\\\\ &=\\blueE{23}  \\times \\maroonD{501} \\times \\left(\\blueE{\\dfrac{1}{10}} \\times \\maroonD{\\dfrac{1}{100}}\\right)\\\\\\\\ &={23}  \\times {501} \\times {\\dfrac{1}{1{,}000}}  \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The expression $23\\times 501 \\times \\dfrac{1}{1{,}000}$ is equivalent to $2.3 \\times 5.01$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1: Fraction factor"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which of the following expressions is equivalent to $5.9 \\times 8.7$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$59\\times 87 \\times \\dfrac{1}{100}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$59\\times 87 \\times \\dfrac{1}{1{,}000}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$59\\times 87 \\times \\dfrac{1}{10{,}000}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$59\\times 87 \\times \\dfrac{1}{100{,}000}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's rewrite the decimals in fraction form. Then we can use the properties of multiplication to write an equivalent expression.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\blueE{5.9} \\times \\maroonD{8.7} &= \\blueE{\\dfrac{59}{10}} \\times \\maroonD{\\dfrac{87}{10}}\\\\\\\\ &=\\left(\\blueE{59 \\times \\dfrac{1}{10}}\\right) \\times \\left(\\maroonD{87 \\times \\dfrac{1}{10}}\\right) \\end{align}$  We are multiplying, so we can use the commutative and associative properties. Let's rearrange and group the fractions.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\blueE{5.9} \\times \\maroonD{8.7} &= \\blueE{\\dfrac{59}{10}} \\times \\maroonD{\\dfrac{87}{10}}\\\\\\\\ &=\\left(\\blueE{59 \\times \\dfrac{1}{10}}\\right) \\times \\left(\\maroonD{87 \\times \\dfrac{1}{10}}\\right)\\\\\\\\ &=\\blueE{59}  \\times \\maroonD{87} \\times \\left(\\blueE{\\dfrac{1}{10}} \\times \\maroonD{\\dfrac{1}{10}}\\right)\\\\\\\\ &={59}  \\times {87} \\times {\\dfrac{1}{100}}  \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The expression $59\\times 87 \\times \\dfrac{1}{100}$ is equivalent to $5.9 \\times 8.7$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1: Fraction factor"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which of the following expressions is equivalent to $4.11 \\times 0.055$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$411\\times 55 \\times \\dfrac{1}{100}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$411\\times 55 \\times \\dfrac{1}{1{,}000}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$411\\times 55 \\times \\dfrac{1}{10{,}000}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$411\\times 55 \\times \\dfrac{1}{100{,}000}$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's rewrite the decimals in fraction form. Then we can use the properties of multiplication to write an equivalent expression.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\blueE{4.11} \\times \\maroonD{0.055} &= \\blueE{\\dfrac{411}{100}} \\times \\maroonD{\\dfrac{55}{1{,}000}}\\\\\\\\ &=\\left(\\blueE{411 \\times \\dfrac{1}{100}}\\right) \\times \\left(\\maroonD{55 \\times \\dfrac{1}{1{,}000}}\\right) \\end{align}$  We are multiplying, so we can use the commutative and associative properties. Let's rearrange and group the fractions.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\blueE{4.11} \\times \\maroonD{0.055} &= \\blueE{\\dfrac{411}{100}} \\times \\maroonD{\\dfrac{55}{1{,}000}}\\\\\\\\ &=\\left(\\blueE{411 \\times \\dfrac{1}{100}}\\right) \\times \\left(\\maroonD{55 \\times \\dfrac{1}{1{,}000}}\\right)\\\\\\\\ &=\\blueE{411}  \\times \\maroonD{55} \\times \\left(\\blueE{\\dfrac{1}{100}} \\times \\maroonD{\\dfrac{1}{1{,}000}}\\right)\\\\\\\\ &={411}  \\times {55} \\times {\\dfrac{1}{100{,}000}}  \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The expression $411\\times 55 \\times \\dfrac{1}{100{,}000}$ is equivalent to $4.11 \\times 0.055$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1: Fraction factor"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which of the following expressions is equivalent to $0.12 \\times 0.7$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$12\\times 7 \\div 10$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$12\\times 7 \\div 100$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$12\\times 7 \\div 1{,}000$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$12\\times 7 \\div 10{,}000$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's rewrite the decimals in fraction form. Then we can use the properties of multiplication to write an equivalent expression.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\blueE{0.12} \\times \\maroonD{0.7} &= \\blueE{\\dfrac{12}{100}} \\times \\maroonD{\\dfrac{7}{10}}\\\\\\\\ &=\\left(\\blueE{12 \\times \\dfrac{1}{100}}\\right) \\times \\left(\\maroonD{7 \\times \\dfrac{1}{10}}\\right) \\end{align}$  We are multiplying, so we can use the commutative and associative properties. Let's rearrange and group the fractions.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\blueE{0.12} \\times \\maroonD{0.7} &= \\blueE{\\dfrac{12}{100}} \\times \\maroonD{\\dfrac{7}{10}}\\\\\\\\ &=\\left(\\blueE{12 \\times \\dfrac{1}{100}}\\right) \\times \\left(\\maroonD{7 \\times \\dfrac{1}{10}}\\right)\\\\\\\\ &=\\blueE{12}  \\times \\maroonD{7} \\times \\left(\\blueE{\\dfrac{1}{100}} \\times \\maroonD{\\dfrac{1}{10}}\\right)\\\\\\\\ &={12}  \\times {7} \\times \\purpleD{\\dfrac{1}{1{,}000}}  \\end{align}$  The numbers $\\purpleD{\\dfrac{1}{1{,}000}}$ and $\\goldE{1{,}000}$ are reciprocals of each other. So *multiplying* by $\\purpleD{\\dfrac{1}{1{,}000}}$ is the same as *dividing* by $\\goldE{1{,}000}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\blueE{0.12} \\times \\maroonD{0.7} &= \\blueE{\\dfrac{12}{100}} \\times \\maroonD{\\dfrac{7}{10}}\\\\\\\\ &=\\left(\\blueE{12 \\times \\dfrac{1}{100}}\\right) \\times \\left(\\maroonD{7 \\times \\dfrac{1}{10}}\\right)\\\\\\\\ &=\\blueE{12}  \\times \\maroonD{7} \\times \\left(\\blueE{\\dfrac{1}{100}} \\times \\maroonD{\\dfrac{1}{10}}\\right)\\\\\\\\ &={12}  \\times {7} \\times \\purpleD{\\dfrac{1}{1{,}000}}  \\\\\\\\ &= 12\\times 7 \\div \\goldE{1{,}000} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The expression $12\\times 7 \\div \\goldE{1{,}000}$ is equivalent to $0.12 \\times 0.7$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2: Whole divisor"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which of the following expressions is equivalent to $106 \\times 3.7$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$106\\times 37 \\div 10$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$106\\times 37 \\div 100$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$106\\times 37 \\div 1{,}000$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$106\\times 37 \\div 10{,}000$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's rewrite the decimals in fraction form. Then we can use the properties of multiplication to write an equivalent expression.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\blueE{106} \\times \\maroonD{3.7} &= \\blueE{106} \\times \\maroonD{\\dfrac{37}{10}}\\\\\\\\ &=\\blueE{106} \\times \\left(\\maroonD{37 \\times \\dfrac{1}{10}}\\right) \\end{align}$  We are multiplying, so we can use the commutative and associative properties. Let's rearrange and group the fractions.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\blueE{106} \\times \\maroonD{3.7} &= \\blueE{106} \\times \\maroonD{\\dfrac{37}{10}}\\\\\\\\ &=\\blueE{106} \\times \\left(\\maroonD{37 \\times \\dfrac{1}{10}}\\right)\\\\\\\\ &={106} \\times {37} \\times \\purpleD{\\dfrac{1}{10}} \\end{align}$  The numbers $\\purpleD{\\dfrac{1}{10}}$ and $\\goldE{10}$ are reciprocals of each other. So *multiplying* by $\\purpleD{\\dfrac{1}{10}}$ is the same as *dividing* by $\\goldE{10}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\blueE{106} \\times \\maroonD{3.7} &= \\blueE{106} \\times \\maroonD{\\dfrac{37}{10}}\\\\\\\\ &=\\blueE{106} \\times \\left(\\maroonD{37 \\times \\dfrac{1}{10}}\\right)\\\\\\\\ &={106}  \\times {37} \\times \\purpleD{\\dfrac{1}{10}}\\\\\\\\ &= 106\\times 37 \\div \\goldE{10} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The expression $106\\times 37 \\div \\goldE{10}$ is equivalent to $106 \\times 3.7$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2: Whole divisor"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which of the following expressions is equivalent to $0.8 \\times 12.4$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$8\\times 124 \\div 100$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$8\\times 124 \\div 1{,}000$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$8\\times 124 \\div 10{,}000$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$8\\times 124 \\div 100{,}000$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's rewrite the decimals in fraction form. Then we can use the properties of multiplication to write an equivalent expression.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\blueE{0.8} \\times \\maroonD{12.4} &= \\blueE{\\dfrac{8}{10}} \\times \\maroonD{\\dfrac{124}{10}}\\\\\\\\ &=\\left(\\blueE{8 \\times \\dfrac{1}{10}}\\right) \\times \\left(\\maroonD{124 \\times \\dfrac{1}{10}}\\right) \\end{align}$  We are multiplying, so we can use the commutative and associative properties. Let's rearrange and group the fractions.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\blueE{0.8} \\times \\maroonD{12.4} &= \\blueE{\\dfrac{8}{10}} \\times \\maroonD{\\dfrac{124}{10}}\\\\\\\\ &=\\left(\\blueE{8 \\times \\dfrac{1}{10}}\\right) \\times \\left(\\maroonD{124 \\times \\dfrac{1}{10}}\\right)\\\\\\\\ &=\\blueE{8}  \\times \\maroonD{124} \\times \\left(\\blueE{\\dfrac{1}{10}} \\times \\maroonD{\\dfrac{1}{10}}\\right)\\\\\\\\ &={8}  \\times {124} \\times \\purpleD{\\dfrac{1}{100}}  \\end{align}$  The numbers $\\purpleD{\\dfrac{1}{100}}$ and $\\goldE{100}$ are reciprocals of each other. So *multiplying* by $\\purpleD{\\dfrac{1}{100}}$ is the same as *dividing* by $\\goldE{100}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\blueE{0.8} \\times \\maroonD{12.4} &= \\blueE{\\dfrac{8}{10}} \\times \\maroonD{\\dfrac{124}{10}}\\\\\\\\ &=\\left(\\blueE{8 \\times \\dfrac{1}{10}}\\right) \\times \\left(\\maroonD{124 \\times \\dfrac{1}{10}}\\right)\\\\\\\\ &=\\blueE{8}  \\times \\maroonD{124} \\times \\left(\\blueE{\\dfrac{1}{10}} \\times \\maroonD{\\dfrac{1}{10}}\\right)\\\\\\\\ &={8}  \\times {124} \\times \\purpleD{\\dfrac{1}{100}} \\\\\\\\ &= 8\\times 124 \\div \\goldE{100} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The expression $8\\times 124 \\div \\goldE{100}$ is equivalent to $0.8 \\times 12.4$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2: Whole divisor"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which of the following expressions is equivalent to $4.56 \\times 0.031$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$456\\times 31 \\div 100$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$456\\times 31 \\div 1{,}000$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$456\\times 31 \\div 10{,}000$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$456\\times 31 \\div 100{,}000$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's rewrite the decimals in fraction form. Then we can use the properties of multiplication to write an equivalent expression.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\blueE{4.56} \\times \\maroonD{0.031} &= \\blueE{\\dfrac{456}{100}} \\times \\maroonD{\\dfrac{31}{1{,}000}}\\\\\\\\ &=\\left(\\blueE{456 \\times \\dfrac{1}{100}}\\right) \\times \\left(\\maroonD{31 \\times \\dfrac{1}{1{,}000}}\\right) \\end{align}$  We are multiplying, so we can use the commutative and associative properties. Let's rearrange and group the fractions.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\blueE{4.56} \\times \\maroonD{0.031} &= \\blueE{\\dfrac{456}{100}} \\times \\maroonD{\\dfrac{31}{1{,}000}}\\\\\\\\ &=\\left(\\blueE{456 \\times \\dfrac{1}{100}}\\right) \\times \\left(\\maroonD{31 \\times \\dfrac{1}{1{,}000}}\\right)\\\\\\\\ &=\\blueE{456}  \\times \\maroonD{31} \\times \\left(\\blueE{\\dfrac{1}{100}} \\times \\maroonD{\\dfrac{1}{1{,}000}}\\right)\\\\\\\\ &={456}  \\times {31} \\times \\purpleD{\\dfrac{1}{100{,}000}} \\end{align}$  The numbers $\\purpleD{\\dfrac{1}{100{,}000}}$ and $\\goldE{100{,}000}$ are reciprocals of each other. So *multiplying* by $\\purpleD{\\dfrac{1}{100{,}000}}$ is the same as *dividing* by $\\goldE{100{,}000}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\blueE{4.56} \\times \\maroonD{0.031} &= \\blueE{\\dfrac{456}{100}} \\times \\maroonD{\\dfrac{31}{1{,}000}}\\\\\\\\ &=\\left(\\blueE{456 \\times \\dfrac{1}{100}}\\right) \\times \\left(\\maroonD{31 \\times \\dfrac{1}{1{,}000}}\\right)\\\\\\\\ &=\\blueE{456}  \\times \\maroonD{31} \\times \\left(\\blueE{\\dfrac{1}{100}} \\times \\maroonD{\\dfrac{1}{1{,}000}}\\right)\\\\\\\\ &={456}  \\times {31} \\times \\purpleD{\\dfrac{1}{100{,}000}} \\\\\\\\ &= 456\\times 31 \\div \\goldE{100{,}000} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The expression $456\\times 31 \\div \\goldE{100{,}000}$ is equivalent to $4.56 \\times 0.031$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2: Whole divisor"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The product $796 \\times 68$ equals $54{,}128$.  **Use the previous fact to evaluate as a decimal.**  $7.96 \\times 6.8 = $",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "54.128",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Instead of $796\\times 68$, the second product is $796\\,\\text{hundredths} \\times 68\\,\\text{tenths}$.  We can group the fraction factors to see how the second product relates to the first product.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\blueE{7.96} \\times \\maroonD{6.8} &=\\left(\\blueE{796 \\times \\dfrac{1}{100}}\\right) \\times \\left(\\maroonD{68 \\times \\dfrac{1}{10}}\\right)\\\\\\\\ &=\\blueE{796}  \\times \\maroonD{68} \\times \\left(\\blueE{\\dfrac{1}{100}} \\times \\maroonD{\\dfrac{1}{10}}\\right)\\\\\\\\ &=\\goldE{796 \\times 68} \\times {\\dfrac{1}{1{,}000}}  \\end{align}$  We already know the value of $\\goldE{796 \\times 68}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\blueE{7.96} \\times \\maroonD{6.8} &={\\dfrac{\\goldE{54{,}128}}{1{,}000}}  \\end{align}$  To divide $\\goldE{54{,}128}$ by $1{,}000$, we shift every digit $3$ places to the right.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "| $10{,}000\\text{s}$| | | | | | | |$\\dfrac{1}{1{,}000}\\text{s}$ :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: $\\goldE{54{,}128}$ | $5$ | $4$ | $1$ | $2$ | $8$ | $.$ | $0$ | $0$ | $0$ $\\dfrac{\\goldE{54{,}128}}{1{,}000}$ | $\\rightarrow$ | $\\rightarrow$ | $\\rightarrow$ | $5$ | $4$ | $.$ | $1$ | $2$ | $8$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$7.96 \\times 6.8 = 54.128$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3: Find product"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The product $97 \\times 8$ equals $776$.  **Use the previous fact to evaluate as a decimal.**  $9.7 \\times 0.08 = $",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.776",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Instead of $97\\times 8$, the second product is $97\\,\\text{tenths} \\times 8\\,\\text{hundredths}$.  We can group the fraction factors to see how the second product relates to the first product.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\blueE{9.7} \\times \\maroonD{0.08} &=\\left(\\blueE{97 \\times \\dfrac{1}{10}}\\right) \\times \\left(\\maroonD{8 \\times \\dfrac{1}{100}}\\right)\\\\\\\\ &=\\blueE{97}  \\times \\maroonD{8} \\times \\left(\\blueE{\\dfrac{1}{10}} \\times \\maroonD{\\dfrac{1}{100}}\\right)\\\\\\\\ &=\\goldE{97 \\times 8} \\times {\\dfrac{1}{1{,}000}}  \\end{align}$  We already know the value of $\\goldE{97 \\times 8}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\blueE{9.7} \\times \\maroonD{0.08} &={\\dfrac{\\goldE{776}}{1{,}000}}  \\end{align}$  To divide $\\goldE{776}$ by $1{,}000$, we shift every digit $3$ places to the right.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "| $100\\text{s}$| | | | | |$\\dfrac{1}{1{,}000}\\text{s}$ :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: $\\goldE{776}$ | $7$ | $7$ | $6$ | $.$ | $0$ | $0$ | $0$ $\\dfrac{\\goldE{776}}{1{,}000}$ | $\\rightarrow$ | $\\rightarrow$ | $\\rightarrow$ | $.$ | $7$ | $7$ | $6$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$9.7 \\times 0.08 = 0.776$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3: Find product"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The product $89 \\times 76$ equals $6{,}764$.  **Use the previous fact to evaluate as a decimal.**  $89 \\times 7.6 = $",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "676.4",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Instead of $89 \\times 76$, the second product is $89 \\times 76\\,\\text{tenths}$.  We can group the fraction factors to see how the second product relates to the first product.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\blueE{89} \\times \\maroonD{7.6} &=\\blueE{89} \\times \\left(\\maroonD{76 \\times \\dfrac{1}{10}}\\right)\\\\\\\\ &=\\goldE{89 \\times 76} \\times {\\dfrac{1}{10}}  \\end{align}$  We already know the value of $\\goldE{89 \\times 76}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\blueE{89} \\times \\maroonD{7.6} &={\\dfrac{\\goldE{6{,}764}}{10}}  \\end{align}$  To divide $\\goldE{6{,}764}$ by $10$, we shift every digit $1$ place to the right.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "| $1{,}000\\text{s}$| | | | |$\\dfrac{1}{10}\\text{s}$ :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: $\\goldE{6{,}764}$ | $6$ | $7$ | $6$ | $4$ | $.$ | $0$ $\\dfrac{\\goldE{6{,}764}}{10}$ | $\\rightarrow$ | $6$ | $7$ | $6$ | $.$ | $4$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$89 \\times 7.6 = 676.4$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3: Find product"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The product $178 \\times 86$ equals $15{,}308$.  **Use the previous fact to evaluate as a decimal.**  $17.8 \\times 8.6 = $",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "153.08",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Instead of $178\\times 86$, the second product is $178\\,\\text{tenths} \\times 86\\,\\text{tenths}$.  We can group the fraction factors to see how the second product relates to the first product.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\blueE{17.8} \\times \\maroonD{8.6} &=\\left(\\blueE{178 \\times \\dfrac{1}{10}}\\right) \\times \\left(\\maroonD{86 \\times \\dfrac{1}{10}}\\right)\\\\\\\\ &=\\blueE{178}  \\times \\maroonD{86} \\times \\left(\\blueE{\\dfrac{1}{10}} \\times \\maroonD{\\dfrac{1}{10}}\\right)\\\\\\\\ &=\\goldE{178 \\times 86} \\times {\\dfrac{1}{100}}  \\end{align}$  We already know the value of $\\goldE{178 \\times 86}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\blueE{17.8} \\times \\maroonD{8.6} &={\\dfrac{\\goldE{15{,}308}}{100}}  \\end{align}$  To divide $\\goldE{15{,}308}$ by $100$, we shift every digit $2$ places to the right.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "| $10{,}000\\text{s}$| | | | | | |$\\dfrac{1}{100}\\text{s}$ :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: $\\goldE{15{,}308}$ | $1$ | $5$ | $3$ | $0$ | $8$ | $.$ | $0$ | $0$ $\\dfrac{\\goldE{15{,}308}}{100}$ | $\\rightarrow$ | $\\rightarrow$ | $1$ | $5$ | $3$ | $.$ | $0$ | $8$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$17.8 \\times 8.6 = 153.08$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3: Find product"
+                    }
+                }
+            }
+        }
+    ]
+}

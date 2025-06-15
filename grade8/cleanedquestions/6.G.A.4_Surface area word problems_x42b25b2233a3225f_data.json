@@ -1,0 +1,944 @@
+{
+    "standard_metadata": {
+        "standard_id": "6.G.A.4",
+        "standard_description": "Represent three-dimensional figures using nets made up of rectangles and triangles, and use the nets to find the surface area of these figures. Apply these techniques in the context of solving real-world and mathematical problems.",
+        "standard_title": "Surface area word problems",
+        "standard_url": "https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-geometry-topic/cc-6th-surface-area/e/surface-area-word-problems"
+    },
+    "id": "x42b25b2233a3225f",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Ella and Jake love to skateboard. They created a frame for the ramp and then covered it with wood.     They created this net to represent the area they needed to cover.    **How much wood did it take to cover the ramp, including the bottom?**   *Give an exact answer (do not round).*   $\\text{m}^2$",
+                                "images": [
+                                    {
+                                        "alt": "A net on a coordinate grid.  The net consists of 3 rectangles and 2 triangles.  The rectangles are connected by the long side.  All 3 rectangles have the same height.  The first rectangle has the smallest base.  The second rectangle a larger base than the first rectangle. The third rectangle has the largest base. There is a right triangle connected to the top and bottom of the second rectangle. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/8325aaf2bd18c2158a1acef9fb2a1c37ea47d716.svg"
+                                    },
+                                    {
+                                        "alt": "A right triangular prism. The bottom face has side lengths of 1.2 meters and 3.5 meters. The side face has side lengths of 0.9 meters and 3.5 meters. The diagonal side face has side lengths of 1.5 meters and 3.5 meters. The triangular prism has a height of 0.9 meters.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/32222521fdc5da4186b906ed437d4f77fcea4a73.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "13.68",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We need to find the surface area of the ramp.  [[☃ explanation 1]]  To find the surface area, we need to add the areas of each of the faces of the triangular prism.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's label the measurements on the net of the triangular prism.  [[☃ image 1]]  Now, let's find the area of each face.",
+                                    "images": [
+                                        {
+                                            "alt": "A net that consists of 3 rectangles and 2 right triangles.  The rectangles are connected by the long side.  The first rectangle has a base of 0.9 units and a height of 3.5 units.  The second rectangle has a base of 1.2 units and a height of 3.5 units. The third rectangle has a base of 1.5 units and a height of 3.5 units.  There is a right triangle connected to the top and bottom of the second rectangle.  Each triangle triangle has a base of 1.2 units and a height of 0.9 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/36b245467dd79f77d9bf8fc99080122489efda00.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$\\blueE{\\text{Left rectangle}}$:  $\\begin{align} \\text{Area of a rectangle} &=  \\text{length} \\cdot \\text{width}\\\\\\\\ &= 3.5\\cdot 0.9\\\\\\\\ &= {\\blueE{3.15}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\purpleE{\\text{Middle rectangle}}$:  $\\begin{align} \\text{Area of a rectangle} &=  \\text{length} \\cdot \\text{width}\\\\\\\\ &= 3.5 \\cdot 1.2\\\\\\\\ &= {\\purpleE{4.2}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\goldE{\\text{Right rectangle}}$:  $\\begin{align} \\text{Area of a rectangle} &=  \\text{length} \\cdot \\text{width}\\\\\\\\ &= 3.5\\cdot 1.5\\\\\\\\ &= {\\goldE{5.25}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{\\text{Triangles}}$:  $2$ of the faces are triangles. Each triangle has the same base and height.  $\\begin{align} \\text{Area of a triangle} &=  \\dfrac12 \\cdot \\text{base} \\cdot \\text{height}\\\\\\\\ &= \\dfrac12 \\cdot 1.2 \\cdot 0.9\\\\\\\\ &= 0.54 \\end{align}$  The total area of these $2$ triangles is $2 \\cdot 0.54= \\maroonD{1.08}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's add the areas to find the surface area.  $\\begin{align} \\text{Surface area} &= \\blueE{3.15}+ \\purpleE{4.2} + \\goldE{5.25} + \\maroonD{1.08} \\\\\\\\ &= 13.68 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "It took $13.68\\text{ m}$$^2$ of wood to cover the ramp.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Triangular prism"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Dmitri's mom is making him a tent to use for backyard camp outs with his friends.    She created this net to represent the material she needed.    **How much material will Dmitri's mom need for the tent, including the floor?**   *Give an exact answer (do not round).*   meters$^2$",
+                                "images": [
+                                    {
+                                        "alt": "A net on a coordinate grid.  The net consists of 3 rectangles and 2 triangles.  The rectangles are connected by the long side.  All 3 rectangles have the same base and height.  There is a triangle connected to the top and bottom of the second rectangle. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/bcdc731f64d825775d197265171b96ed0c0626bd.svg"
+                                    },
+                                    {
+                                        "alt": "A triangular prism. A dashed line that is perpendicular to the base of the triangular face starts at the middle of the base and goes straight up to the top vertex to the triangle. This dashed line represents the height and is 1.7 meters. An arrow starts at the bottom, left vertex of the triangular face and ends at the dashed line. This length is 1 meter. An arrow starts at dashed line and ends at the bottom, right vertex of the triangular face. This length is 1 meter. The other 2 lengths of the triangular face are 2 meters. All 3 rectangular faces of the prism have side lengths of 2 meters and 3 meters. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/92cc63c95b9eb62518dd27231cf219d88d26b277.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "21.4",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We need to find the surface area of the tent.  [[☃ explanation 1]]   To find the surface area, we need to add the areas of each of the faces of the triangular prism.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's label the measurements on the net of the triangular prism.  [[☃ image 1]]  Now, let's find the area of each face.",
+                                    "images": [
+                                        {
+                                            "alt": "A net that consists of 3 rectangles and 2 triangles.  The rectangles are connected by the long side.  All 3 rectangles have a base of 2 units and a height of 3 units. There is a triangle connected to the top and bottom of the second rectangle.  Each triangle has a base of 2 units and a height of 1.7 units. The height of each triangle is represented by the dashed line that is perpendicular to the base.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/7a42b9d4a6ffba351419d65ebd08cb48f1b9fb71.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$\\maroonD{\\text{Rectangles:}}$    $3$ of the faces are $2$ by $3$ rectangles.   >$\\begin{align} \\text{Area of a rectangle} &=  \\text{length} \\cdot \\text{width}\\\\\\\\ &= 2 \\cdot 3\\\\\\\\ &= {6} \\\\\\\\ \\end{align}$  The total area of these $3$ rectangles  is $3 \\cdot 6 = \\maroonD{18}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\goldE{\\text{Triangles:}}$  $2$ of the faces are triangles. Each triangle has the same base and height.  $\\begin{align} \\text{Area of a triangle} &=  \\dfrac12 \\cdot \\text{base} \\cdot \\text{height}\\\\\\\\ &= \\dfrac12 \\cdot 2 \\cdot 1.7\\\\\\\\ &= 1.7 \\end{align}$  The total area of these $2$ triangles is $2 \\cdot 1.7 = \\goldE{3.4}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's add the areas to find the surface area.  $\\begin{align} \\text{Surface area} &= \\maroonD{18} + \\goldE{3.4} \\\\\\\\ &= 21.4 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "It will take $21.4 \\text{ m}^2$ of material to make the tent.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Triangular prism"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "An artist is building a pedestal out of wood that will be used to display a piece of sculpture. She plans to cover the pedestal with tile.      **How much tile will it take to cover the pedestal, including the bottom?**   $\\text{cm}^2$",
+                                "images": [
+                                    {
+                                        "alt": "A triangular prism. The bottom face has side lengths of 16 centimeters and 30 centimeters. The other 2 faces have side lengths of 10 centimeters and 30 centimeters. The triangular prism has a height of 6 centimeters.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/80506becd4b07a91b14526e9d974b16f1f5d80ed.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "1176",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We need to find the surface area of the pedestal.  [[☃ explanation 1]]  To find the surface area, we need to add the areas of each of the faces of the triangular prism.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can see all the faces by drawing a net of the triangular prism.   [[☃ image 1]]  Now, let's find the area of each face.",
+                                    "images": [
+                                        {
+                                            "alt": "A net that consists of 3 rectangles and 2 triangles.  The rectangles are connected by the long side. The first rectangle has a base of 10 units and a height of 30 units. The second rectangle has a base of 16 units and a height of 30 units. The third rectangle has a base of 10 units and a height of 30 units. There is a triangle connected to the top and bottom of the second rectangle.  Each triangle has a base of 16 units and a height of 6 units. The height of each triangle is represented by the dashed line that is perpendicular to the base.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/1cda1b48dd01194d3cd5092af74eddd144257087.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$\\maroonD{\\text{Outside rectangles}}$:  $2$ of the faces are $30$ by $10$ rectangles.   $\\begin{align} \\text{Area of a rectangle} &=  \\text{length} \\cdot \\text{width}\\\\\\\\ &= 30\\cdot 10\\\\\\\\ &= {300} \\end{align}$  The total area of these $2$ rectangles  is $2 \\cdot 300= \\maroonD{600}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\greenD{\\text{Middle rectangle}}$:  $1$ of the faces is a $30$ by $16$ rectangle.  $\\begin{align} \\text{Area of a rectangle} &=  \\text{length} \\cdot \\text{width}\\\\\\\\ &= 30\\cdot 16\\\\\\\\ &= {\\greenD{480}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\goldD{\\text{Triangles}}$:  $2$ of the faces are triangles. Each triangle has the same base and height.  $\\begin{align} \\text{Area of a triangle} &=  \\dfrac12 \\cdot \\text{base} \\cdot \\text{height}\\\\\\\\ &= \\dfrac12 \\cdot 16\\cdot 6\\\\\\\\ &= 48 \\end{align}$  The total area of these $2$ triangles is $2 \\cdot 48= \\goldD{96}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's add the areas to find the surface area.  $\\begin{align} \\text{Surface area} &= \\maroonD{600}+ \\greenD{480} + \\goldD{96} \\\\\\\\ &= 1176 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "It will take  $1176\\text{ cm}^2$ of tile to cover the pedestal.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Triangular prism"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A restaurant built a ramp to make their facility more accessible to people in wheelchairs. They covered the entire surface of the ramp with metal to make it more durable.      **How much metal did they use to cover the ramp, including the bottom?**   *Give an exact answer (do not round).*   m$^2$",
+                                "images": [
+                                    {
+                                        "alt": "A right triangular prism. The bottom face has side lengths of 0.8 meter and 1 meter. The side face has side lengths of 0.1 meter and 1 meter. The diagonal side face has side lengths of 0.81 meter and 1 meter. The triangular prism has a height of 0.1 meters.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/c912d9dbb11b97b1a675aa2581f149b5e0d9c7e0.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "1.79",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We need to find the surface area of the ramp.  [[☃ explanation 1]]  To find the surface area, we need to add the areas of each of the faces of the triangular prism.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can see all the faces by drawing a net of the triangular prism.   [[☃ image 1]]  Now, let's find the area of each face.",
+                                    "images": [
+                                        {
+                                            "alt": "A net that consists of 3 rectangles and 2 triangles.  The rectangles are connected by the long side. The first rectangle has a base of 0.8 unit and a height of 1 unit. The second rectangle has a base of 0.1 unit and a height of 1 unit. The third rectangle has a base of 0.81 units and a height of 1 unit. There is a triangle connected to the top and bottom of the second rectangle.  Each triangle has a base of 0.1 unit and a height of 1 unit. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/eebf403a77706e41c8d8bbd781910b37b0f53806.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$\\blueD{\\text{Left rectangle:}}$    >$\\begin{align} \\text{Area of a rectangle} &=  \\text{length} \\cdot \\text{width}\\\\\\\\ &= 1 \\cdot 0.8\\\\\\\\ &= {\\blueD{0.8}} \\\\\\\\ \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\greenD{\\text{Middle rectangle:}}$    >$\\begin{align} \\text{Area of a rectangle} &=  \\text{length} \\cdot \\text{width}\\\\\\\\ &= 1 \\cdot 0.1\\\\\\\\ &= {\\greenD{0.1}} \\\\\\\\ \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\goldD{\\text{Right rectangle:}}$     >$\\begin{align} \\text{Area of a rectangle} &=  \\text{length} \\cdot \\text{width}\\\\\\\\ &= 1 \\cdot 0.81\\\\\\\\ &= {\\goldD{0.81}} \\\\\\\\ \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{\\text{Triangles:}}$     >$\\begin{align} \\text{Area of a triangle} &=  \\dfrac12 \\cdot \\text{base} \\cdot \\text{height}\\\\\\\\ &= \\dfrac12 \\cdot 0.1 \\cdot 0.8\\\\\\\\ &= 0.04 \\\\\\\\ \\end{align}$   The total area of these $2$ triangles is $2 \\cdot 0.04 = \\maroonD{0.08}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's add the areas to find the surface area.  >$\\begin{align} \\text{Surface area} &= \\blueD{0.8}+ \\greenD{0.1} + \\goldD{0.81} + \\maroonD{0.08} \\\\\\\\ &= 1.79\\\\\\\\ \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "They used  $1.79$ meters$^2$ of metal to cover the ramp.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Triangular prism"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Shanti is taking a cube-shaped gift to a friend's birthday party. She wants to wrap it but she doesn't have very much paper, so she does not overlap any of the edges.    She created this net to represent the paper she needed.    **How much paper did it take to cover the gift?**   $\\text{cm}^2$",
+                                "images": [
+                                    {
+                                        "alt": "A cube. The height is 13 centimeters.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/1352ea72ed8cbf1777f0de770c3b285c7446cd38.svg"
+                                    },
+                                    {
+                                        "alt": "A net that has 6 squares. 4 squares are in a row. 1 square is attached to the top of the second square. 1 square is attached to the bottom of the second square.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/b76aae6c61ac9ac2a6bbf9208965f2de53d4f0a1.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "1014",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We need to find the surface area of the cube.  [[☃ explanation 1]]  To find the surface area, we need to add the areas of each of the faces of the cube.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's label the measurements on the net of the cube.  [[☃ image 1]]  Now, let's find the area of each face.",
+                                    "images": [
+                                        {
+                                            "alt": "A net that has 6 squares. 4 squares are in a row. 1 square is attached to the top of the second square. 1 square is attached to the bottom of the second square. The side lengths of the first square are 13 units. The side lengths of the square connected to the bottom side of the second square are 13 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/73703fb630e4a8c50780c24771ef2ac981f260cf.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$\\blueE{\\text{Squares}}$  All $6$ of the faces are squares. Each square has the same side length.  $\\begin{align} \\text{Area of a square} &= \\text{side}\\times\\text{side} \\\\\\\\ &=  13 \\cdot13 \\\\\\\\ &= 169\\end{align}$  The total area of these $6$ squares is $6 \\cdot 169= \\blueE{1{,}014}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "It takes $1{,}014\\text{ cm}$$^2$ of wrapping paper to cover the gift.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2 and 3. Rectangular prisms and cubes"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Miss McGrew is making stools for her first graders to use during story time. To make the stools, she covers wooden cubes with carpet.       **How much carpet does it take to cover each cube?**   cm$^2$",
+                                "images": [
+                                    {
+                                        "alt": "A cube. The height is 40 centimeters.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/b5ef4af5f98dcb74278ea753d603f8f72796dcf6.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "9600",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We need to find the surface area of the stool.  [[☃ explanation 1]]  To find the surface area, we need to add the areas of each of the faces of the cube.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can see all the faces by drawing a net of the cube.   [[☃ image 1]]  Now, let's find the area of each face.",
+                                    "images": [
+                                        {
+                                            "alt": "A net that has 6 squares. 4 squares are in a row. 1 square is attached to the top of the second square. 1 square is attached to the bottom of the second square. The side lengths of the first square are 40 units. The side lengths of the square connected to the bottom side of the second square are 40 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/1c6091a9fe7ccfd76d1bbafc4f9412b5d2e42d28.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$\\blueD{\\text{Squares:}}$    All $6$ of the faces are squares. Each square has the same side length.  $\\begin{align} \\text{Area of a square} &= \\text{side}\\times\\text{side}  \\\\\\\\  &=  40 \\cdot40 \\\\\\\\ &= 1600\\end{align}$  The total area of these $6$ squares is $6 \\cdot 1600 = \\blueD{9600}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "It takes $9600 \\text{ cm}$$^2$ of carpet to cover the surface of each cube.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2 and 3. Rectangular prisms and cubes"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The Outstanding O's cereal box has been redesigned with a new size and shape.    They created this net to represent the material they needed.    **How much material will it take to make the new box with no overlaps?**   cm$^2$",
+                                "images": [
+                                    {
+                                        "alt": "A rectangular prism. The length is 20 centimeters. The width is 8 centimeters. The height is 30 centimeters.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/265afdecbe4cbfbc88b671bf2bf1715666fa57f0.svg"
+                                    },
+                                    {
+                                        "alt": "A net consists of 6 rectangles. 4 of the rectangles are connected by the long side.  All 4 rectangles connect by the long side have the same height.  The first rectangle and the third rectangle have the smallest base.  The second rectangle and the fourth rectangle have a larger base. There is a rectangle connected to the top and bottom of the second rectangle. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/f100136819345a4e49fdb4df3cfa8772771834cd.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "2000",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We need to find the surface area of the box.  [[☃ explanation 1]]  To find the surface area, we need to add the areas of each of the faces of the rectangular prism.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's label the measurements on the net of the rectangular prism.  [[☃ image 1]]  Now, let's find the area of each face.",
+                                    "images": [
+                                        {
+                                            "alt": "A rectangular prism net that consists of 6 rectangles made up of unit squares.  4 of the rectangles are connected by the long side.  The first rectangle has a base of 8 units and a height of 30 units.  The second rectangle has a base of 20 units and a height of 30 units. There is a rectangle connected to the top and a rectangle connected to the bottom of the second rectangle, each with a base of 20 units and a height of 8 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/2a1196f17ea09af7696725dea1a08d007ed67f50.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$\\blueE{\\text{Side rectangles:}}$  $2$ of the faces are $8$ by $30$ rectangles.  $\\begin{align} \\text{Area of a rectangle} &=  \\text{length} \\cdot \\text{width}\\\\\\\\ &= 8 \\cdot 30\\\\\\\\ &= {\\blueE{240}} \\end{align}$  The total area of these $2$ rectangles is $2 \\cdot 240 = \\blueE{480}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\purpleE{\\text{Front and back rectangles:}}$  $2$ of the faces are  $20$ by $30$ rectangles.  $\\begin{align} \\text{Area of a rectangle} &=  \\text{length} \\cdot \\text{width}\\\\\\\\ &= 20 \\cdot 30\\\\\\\\ &= {\\purpleE{600}} \\end{align}$  The total area of these $2$ rectangles is $2 \\cdot 600 = \\purpleE{1200}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{\\text{Top and bottom rectangles:}}$   $2$ of the faces are $20$ by $8$ rectangles.  $\\begin{align} \\text{Area of a rectangle} &=  \\text{length} \\cdot \\text{width}\\\\\\\\ &= 20 \\cdot 8\\\\\\\\ &= {\\maroonD{160}} \\end{align}$  The total area of these $2$ rectangles is $2 \\cdot 160 = \\maroonD{320}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's add the areas to find the surface area.  $\\begin{align} \\text{Surface area} &= \\blueE{480}+ \\purpleE{1{,}200} +  \\maroonD{320} \\\\\\\\ &= 2{,}000 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "It will take $2{,}000 \\text{ cm}^2$ of material to make the new box.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2 and 3. Rectangular prisms and cubes"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Stephanie just redecorated her bedroom. She wants to paint her door green but needs to know the surface area of the door to see if she has enough paint.       **What is the surface area of the door?**   cm$^2$",
+                                "images": [
+                                    {
+                                        "alt": "A rectangular prism. The length is 80 centimeters. The width is 3 centimeters. The height is 200 centimeters.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/2596323881c0a98a8df92c12bb8790e62f94322c.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "33680",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We need to find the surface area of the door.  [[☃ explanation 1]]  To find the surface area, we need to add the areas of each of the faces of the rectangular prism.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can see all the faces by drawing a net of the rectangular prism.   [[☃ image 1]]  Now, let's find the area of each face.",
+                                    "images": [
+                                        {
+                                            "alt": "A rectangular prism net that consists of 6 rectangles made up of unit squares.  4 of the rectangles are connected by the long side.  The first rectangle has a base of 3 units and a height of 200 units.  The second rectangle has a base of 80 units and a height of 200 units. There is a rectangle connected to the top and a rectangle connected to the bottom of the second rectangle, each with a base of 80 units and a height of 3 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/0d832e20fe165a57244f698c6d91018495af675f.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$\\blueD{\\text{Side rectangles:}}$    $2$ of the faces are $3$ by $200$ rectangles.  >$\\begin{align} \\text{Area of a rectangle} &=  \\text{length} \\cdot \\text{width}\\\\\\\\ &= 3 \\cdot 200\\\\\\\\ &= {\\blueD{600}} \\\\\\\\ \\end{align}$  The total area of these $2$ rectangles is $2 \\cdot 600 = \\blueD{1200}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\greenD{\\text{Front and back rectangles:}}$   $2$ of the faces are  $80$ by $200$ rectangles.  >$\\begin{align} \\text{Area of a rectangle} &=  \\text{length} \\cdot \\text{width}\\\\\\\\ &= 80 \\cdot 200\\\\\\\\ &= {\\greenD{16{,}000}} \\\\\\\\ \\end{align}$  The total area of these $2$ rectangles is $2 \\cdot 16{,}000 = \\greenD{32{,}000}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{\\text{Top and bottom rectangles:}}$   $2$ of the faces are $80$ by $3$ rectangles.  >$\\begin{align} \\text{Area of a rectangle} &=  \\text{length} \\cdot \\text{width}\\\\\\\\ &= 80 \\cdot 3\\\\\\\\ &= {\\maroonD{240}} \\\\\\\\ \\end{align}$   The total area of these $2$ rectangles is $2 \\cdot 240 = \\maroonD{480}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's add the areas to find the surface area.  >$\\begin{align} \\text{Surface area} &= \\blueD{1200}+ \\greenD{32{,}000} +  \\maroonD{480} \\\\\\\\ &= 33{,}680\\\\\\\\ \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The surface area of the door is $33{,}680 \\text{ cm}$$^2$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2 and 3. Rectangular prisms and cubes"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Jordan built her cat Tuna a new scratching post. She needs to cover the post with carpet.    She created this net to represent the area she needs to cover.    **How much carpet does Jordan need to cover the surface of the post, including the bottom?**   cm$^2$",
+                                "images": [
+                                    {
+                                        "alt": "A rectangular prism. The length is 10 centimeters. The width is 10 centimeters. The height is 90 centimeters.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/ad5eb4d3b8b798707594cd1cb97ba1ee65bd36a1.svg"
+                                    },
+                                    {
+                                        "alt": "A net consists of 6 rectangles. 4 of the rectangles are connected by the long side.  All 4 rectangles connect by the long side have the same base and the same height. There is a rectangle connected to the top and bottom of the second rectangle. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/4adfddb4a11df36c8559d4eb1d1e9a50ee12844b.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "3800",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We need to find the surface area of the scratching post.  [[☃ explanation 1]]  To find the surface area, we need to add the areas of each of the faces of the rectangular prism.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's label the measurements on the net of the rectangular prism.  [[☃ image 1]]  Now, let's find the area of each face.",
+                                    "images": [
+                                        {
+                                            "alt": "A net consists of 6 rectangles. 4 of the rectangles are connected by the long side.  All 4 rectangles connect by the long side have the same base and the same height. The base of all 4 rectangles connected is 10 units and their height is 90 units. There is a rectangle connected to the top and bottom of the second rectangle. The base and height of the 2 rectangles connected to the top and bottom of the second rectangle are 10 units and 10 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/5113a1fb6d3ab6dbcce4ffa850c36d3d9ce10c2c.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$\\blueE{\\text{Side rectangles:}}$  $4$ of the faces are $10$ by $90$ rectangles.  $\\begin{align} \\text{Area of a rectangle} &=  \\text{length} \\cdot \\text{width}\\\\\\\\ &= 10 \\cdot 90\\\\\\\\ &= {\\blueE{900}} \\end{align}$  The total area of these $4$ rectangles is $4 \\cdot 900 = \\blueE{3{,}600}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{\\text{Top and bottom rectangles:}}$   $2$ of the faces are $10$ by $10$ rectangles.  $\\begin{align} \\text{Area of a rectangle} &=  \\text{length} \\cdot \\text{width}\\\\\\\\ &= 10 \\cdot 10\\\\\\\\ &= {\\maroonD{100}} \\end{align}$  The total area of these $2$ rectangles is $2 \\cdot 100 = \\maroonD{200}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's add the areas to find the surface area.  $\\begin{align} \\text{Surface area} &= \\blueE{3600}+   \\maroonD{200} \\\\\\\\ &= 3{,}800 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Jordan will need $3{,}800 \\text{ cm}^2$ of carpet to cover the post.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2 and 3. Rectangular prisms and cubes"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "At an ice carving competition, each carver starts with a block of ice with the dimensions shown.  The block is wrapped in a special reflective material to keep it from melting before the competition starts.     **How much reflective material is needed to cover the block completely, without any overlaps?**   *Give an exact answer (do not round).*   $\\text{m}^2$",
+                                "images": [
+                                    {
+                                        "alt": "A rectangular prism. The length is 1.3 meters. The width is 0.8 meter. The height is 1.1 meters.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/b88b8e30d23227b1cb5a2cade37eacb40699d17b.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "6.7",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We need to find the surface area of the block of ice.  [[☃ explanation 1]]  To find the surface area, we need to add the areas of each of the faces of the rectangular prism.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can see all the faces by drawing a net of the rectangular prism.   [[☃ image 1]]  Now, let's find the area of each face.",
+                                    "images": [
+                                        {
+                                            "alt": "A net consists of 6 rectangles. 4 of the rectangles are connected by the short side.    The first rectangle has a base of 1.1 units and a height of 0.8 unit.  The second rectangle has a base of 1.3 units and a height of 0.8 unit. There is a rectangle connected to the top and a rectangle connected to the bottom of the second rectangle, each with a base of 1.3 units and a height of 1.1 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/44796f3d19ad1ff4703fcc227aac9d0ff0193fe7.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$\\blueD{\\text{Side rectangles}}$  $2$ of the faces are $1.1$ by $0.8$ rectangles.  $\\begin{align} \\text{Area of a rectangle} &=  \\text{length} \\cdot \\text{width}\\\\\\\\ &= 1.1\\cdot 0.8\\\\\\\\ &= {\\blueD{0.88}} \\end{align}$  The total area of these $2$ rectangles is $2 \\cdot 0.88= \\blueD{1.76}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\greenD{\\text{Top and bottom rectangles}}$  $2$ of the faces are  $1.3$ by $0.8$ rectangles.  $\\begin{align} \\text{Area of a rectangle} &=  \\text{length} \\cdot \\text{width}\\\\\\\\ &= 1.3\\cdot 0.8\\\\\\\\ &= {\\greenD{1.04}} \\end{align}$  The total area of these $2$ rectangles is $2 \\cdot 1.04= \\greenD{2.08}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{\\text{Front and back rectangles}}$  $2$ of the faces are $1.3$ by $1.1$ rectangles.  $\\begin{align} \\text{Area of a rectangle} &=  \\text{length} \\cdot \\text{width}\\\\\\\\ &= 1.3\\cdot 1.1\\\\\\\\ &= {\\maroonD{1.43}} \\end{align}$  The total area of these $2$ rectangles is $2 \\cdot 1.43= \\maroonD{2.86}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's add the areas to find the surface area.  $\\begin{align} \\text{Surface area} &= \\blueD{1.76}+  \\greenD{2.08} + \\maroonD{2.86} \\\\\\\\ &= 6.7 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The surface area of the block of ice is $6.7\\text{ m}^2$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2 and 3. Rectangular prisms and cubes"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Alice is building a caterpillar habitat for some caterpillars she found in her back yard. She plans to cover all sides of the habitat with screen so the caterpillars get plenty of fresh air.     **What is the total amount of screen that Alice will need for her habitat?**   *Give an exact answer (do not round).*   $\\text{m}^2$",
+                                "images": [
+                                    {
+                                        "alt": "A rectangular prism. The length is 1 meter. The width is 0.4 meter. The height is 0.8 meter.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/6e35b5fc2c1121c9eeae254cae179ce5e8115498.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "3.04",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We need to find the surface area of the habitat.  [[☃ explanation 1]]  To find the surface area, we need to add the areas of each of the faces of the rectangular prism.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can see all the faces by drawing a net of the rectangular prism.   [[☃ image 1]]  Now, let's find the area of each face.",
+                                    "images": [
+                                        {
+                                            "alt": "A net consists of 6 rectangles. 4 of the rectangles are connected by the short side.    The first rectangle has a base of 0.8 unit and a height of 0.4 unit.  The second rectangle has a base of 1 unit and a height of 0.4 unit. There is a rectangle connected to the top and a rectangle connected to the bottom of the second rectangle, each with a base of 1 unit and a height of 0.8 unit.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/3d66988ab396e922b8ff03642e6bec7a94569aab.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$\\blueD{\\text{Side rectangles}}$:  $2$ of the faces are $0.8$ by $0.4$ rectangles.  $\\begin{align} \\text{Area of a rectangle} &=  \\text{length} \\cdot \\text{width}\\\\\\\\ &= 0.8\\cdot 0.4\\\\\\\\ &= {\\blueD{0.32}} \\end{align}$  The total area of these $2$ rectangles is $2 \\cdot 0.32= \\blueD{0.64}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\greenD{\\text{Top and bottom rectangles}}$:  $2$ of the faces are $1$ by $0.4$ rectangles.  $\\begin{align} \\text{Area of a rectangle} &=  \\text{length} \\cdot \\text{width}\\\\\\\\ &= 1 \\cdot 0.4\\\\\\\\ &= {\\greenD{0.4}} \\end{align}$  The total area of these $2$ rectangles is $2 \\cdot 0.4= \\greenD{0.8}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{\\text{Front and back rectangles}}$:  $2$ of the faces are $1$ by $0.8$ rectangles.  $\\begin{align} \\text{Area of a rectangle} &=  \\text{length} \\cdot \\text{width}\\\\\\\\ &= 1\\cdot 0.8\\\\\\\\ &= {\\maroonD{0.8}} \\end{align}$  The total area of these $2$ rectangles is $2 \\cdot 0.8= \\maroonD{1.6}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's add the areas to find the surface area.  $\\begin{align} \\text{Surface area} &= \\blueD{0.64}+  \\greenD{0.8} + \\maroonD{1.6} \\\\\\\\ &= 3.04 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Alice will need $3.04\\text{ m}^2$ of screen for her caterpillar habitat.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2 and 3. Rectangular prisms and cubes"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A group of students made trees out of paper for a scene in a school play.  The trees are shaped like hollow square pyramids.    They created this net to represent the paper they needed per tree.    **How much paper will it take to make each tree, including the bottom?**   $\\text{cm}^2$",
+                                "images": [
+                                    {
+                                        "alt": "A square pyramid.  The side of the pyramid's base is 70 centimeters long and the height of the triangular face measured from the center of the side of base to the apex is 140 centimeters.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/3d0f97880ac4dacc956dc2c8e498bc3ae3f98543.svg"
+                                    },
+                                    {
+                                        "alt": "A net that has 1 square and 4 triangles. Each triangle is attached to the 4 sides of the square. The height of each triangle is represented by the dashed line that is perpendicular to the base of the triangle to the opposite vertex.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/19460fe34a5e69651954fd8a2b6f6c5dad8af1c1.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "24500",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We need to find the surface area of the tree.  [[☃ explanation 1]]  To find the surface area, we need to add the areas of each of the faces of the square pyramid.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's label the measurements on the net of the square pyramid.  [[☃ image 1]]  Now, let's find the area of each face.",
+                                    "images": [
+                                        {
+                                            "alt": "A net that has 1 square and 4 triangles. Each triangle is attached to the 4 sides of the square. The side lengths of the square are 70 units. The base of each triangle is 70 units and the height is 140 units. The height of each triangle is represented by the dashed line that is perpendicular to the base of the triangle to the opposite vertex.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/acb2431747e8b0084cfe9a5ab287c2f356de44f7.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$\\blueE{\\text{Triangles}}$:  $4$ of the faces are triangles. Each triangle has the same base and height.  $\\begin{align} \\text{Area of a triangle} &=  \\dfrac12 \\cdot \\text{base} \\cdot \\text{height}\\\\\\\\ &= \\dfrac12 \\cdot 70\\cdot 140\\\\\\\\ &= 4{,}900 \\end{align}$  The total area of these $4$ triangles is $4 \\cdot 4{,}900 = \\blueE{19{,}600}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{\\text{Square}}$:  $1$ of the faces is a $70$ by $70$ square.  $\\begin{align} \\text{Area of a square} &=  \\text{side} \\cdot \\text{side}\\\\\\\\ &= 70\\cdot 70\\\\\\\\ &= {\\maroonD{4{,}900}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's add the areas to find the surface area.  $\\begin{align} \\text{Surface area} &= \\blueE{19{,}600}+ \\maroonD{4{,}900} \\\\\\\\ &= 24{,}500 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "It will take $24{,}500\\text{ cm}^2$ of paper to make each tree.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "4. Square pyramid"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Amir is building a birdhouse that looks like a castle. The diagram shows the roof of the birdhouse. He plans to paint the roof red, but needs to know the surface area to buy the right amount of paint.     **What is the surface area of the roof, including the bottom?**   *Give an exact answer (do not round).*   $\\text{m}^2$",
+                                "images": [
+                                    {
+                                        "alt": "A square pyramid.  The side of the pyramid's base is 0.4 meter long and the height of the triangular face measured from the center of the side of base to the apex is 0.6 meter.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/f971a327d214e5ce6e73b3a0a90be2f95a1e5e0e.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "0.64",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We need to find the surface area of the roof.  [[☃ explanation 1]]  To find the surface area, we need to add the areas of each of the faces of the square pyramid.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can see all the faces by drawing a net of the square pyramid.   [[☃ image 1]]  Now, let's find the area of each face.",
+                                    "images": [
+                                        {
+                                            "alt": "A net that has 1 square and 4 triangles. Each triangle is attached to the 4 sides of the square. The side lengths of the square are 0.4 unit. The base of each triangle is 0.4 unit and the height is 0.6 unit. The height of each triangle is represented by the dashed line that is perpendicular to the base of the triangle to the opposite vertex.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/cf458ca0d8c0bc9f742696454b2f077f21a95fb0.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$\\blueD{\\text{Triangles:}}$    $4$ of the faces are triangles. Each triangle has the same base and height.  >$\\begin{align} \\text{Area of a triangle} &=  \\dfrac12 \\cdot \\text{base} \\cdot \\text{height}\\\\\\\\ &= \\dfrac12 \\cdot 0.4 \\cdot 0.6\\\\\\\\ &= 0.12\\\\\\\\ \\end{align}$   The total area of these $4$ triangles is $4 \\cdot 0.12 = \\blueD{0.48}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{\\text{Square:}}$   $1$ of the faces is a $0.4$ by $0.4$ square.  >$\\begin{align} \\text{Area of a square} &=  \\text{side} \\cdot \\text{side}\\\\\\\\ &= 0.4 \\cdot 0.4\\\\\\\\ &= {\\maroonD{0.16}} \\\\\\\\ \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's add the areas to find the surface area.  >$\\begin{align} \\text{Surface area} &= \\blueD{0.48}+ \\maroonD{0.16} \\\\\\\\ &= 0.64\\\\\\\\ \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The surface area of the roof is $0.64\\text{ m}$$^2$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "4. Square pyramid"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "After reading a book about ancient Egypt, Cassie decided to build a hollow model of a pyramid out of cardboard.    She created this net to represent the cardboard she needed.    **How much cardboard does Cassie need to make the model, including the bottom?**   $\\text{cm}^2$",
+                                "images": [
+                                    {
+                                        "alt": "A square pyramid.  The side of the pyramid's base is 25 centimeters long and the height of the triangular face measured from the center of the side of base to the apex is 30 centimeters.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/54c4f30551a5f5d7c0679de869705059a35d3c63.svg"
+                                    },
+                                    {
+                                        "alt": "A net that has 1 square and 4 triangles. Each triangle is attached to the 4 sides of the square. The height of each triangle is represented by the dashed line that is perpendicular to the base of the triangle to the opposite vertex.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/df19b4e428b4d6acbd07d4b1117310510c0aab55.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "2125",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We need to find the surface area of the model pyramid.  [[☃ explanation 1]]  To find the surface area, we need to add the areas of each of the faces of the square pyramid.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's label the measurements on the net of the square pyramid.  [[☃ image 1]]  Now, let's find the area of each face.",
+                                    "images": [
+                                        {
+                                            "alt": "A net that has 1 square and 4 triangles. Each triangle is attached to the 4 sides of the square. The side lengths of the square are 25 units. The base of each triangle is 25 units and the height is 30 units. The height of each triangle is represented by the dashed line that is perpendicular to the base of the triangle to the opposite vertex.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/4c2051f2bb1904089114e00b508470136c72837c.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$\\blueE{\\text{Triangles}}$:  $4$ of the faces are triangles. Each triangle has the same base and height.  $\\begin{align} \\text{Area of a triangle} &=  \\dfrac12 \\cdot \\text{base} \\cdot \\text{height}\\\\\\\\ &= \\dfrac12 \\cdot 30\\cdot 25\\\\\\\\ &= 375 \\end{align}$  The total area of these $4$ triangles is $4 \\cdot 375= \\blueE{1{,}500}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{\\text{Square}}$:  $1$ of the faces is a $25$ by $25$ square.  $\\begin{align} \\text{Area of a square} &=  \\text{side} \\cdot \\text{side}\\\\\\\\ &= 25\\cdot 25\\\\\\\\ &= {\\maroonD{625}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's add the areas to find the surface area.  $\\begin{align} \\text{Surface area} &= \\blueE{1{,}500}+ \\maroonD{625} \\\\\\\\ &= 2{,}125 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Cassie needs $2{,}125\\text{ cm}^2$ of cardboard to make her model pyramid.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "4. Square pyramid"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Akira receives a prize at a science fair for having the most informative project. Her trophy is in the shape of a square pyramid and is covered in shiny gold foil.     **How much gold foil did it take to cover the trophy, including the bottom?**   $\\text{cm}^2$",
+                                "images": [
+                                    {
+                                        "alt": "A square pyramid.  The side of the pyramid's base is 6 centimeters long and the height of the triangular face measured from the center of the side of base to the apex is 15 centimeters.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/302242e09197f0ce00072a63f4824f15ef2b1acf.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "216",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We need to find the surface area of the trophy.  [[☃ explanation 1]]  To find the surface area, we need to add the areas of each of the faces of the square pyramid.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can see all the faces by drawing a net of the square pyramid.    [[☃ image 1]]  Now, let's find the area of each face.",
+                                    "images": [
+                                        {
+                                            "alt": "A net that has 1 square and 4 triangles. Each triangle is attached to the 4 sides of the square. The side lengths of the square are 6 units. The base of each triangle is 6 units and the height is 15 units. The height of each triangle is represented by the dashed line that is perpendicular to the base of the triangle to the opposite vertex.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/ff3c89afc15bbf4cf8e53190d64529138b1622fa.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$\\blueD{\\text{Triangles}}$:  $4$ of the faces are triangles. Each triangle has the same base and height.  $\\begin{align} \\text{Area of a triangle} &=  \\dfrac12 \\cdot \\text{base} \\cdot \\text{height}\\\\\\\\ &= \\dfrac12 \\cdot 6 \\cdot 15\\\\\\\\ &= 45 \\end{align}$  The total area of these $4$ triangles is $4 \\cdot 45= \\blueD{180}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\maroonD{\\text{Square}}$:  $1$ of the faces is a $6$ by $6$ square.  $\\begin{align} \\text{Area of a square} &=  \\text{side} \\cdot \\text{side}\\\\\\\\ &= 6\\cdot 6\\\\\\\\ &= {\\maroonD{36}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's add the areas to find the surface area.  $\\begin{align} \\text{Surface area} &= \\blueD{180}+ \\maroonD{36} \\\\\\\\ &= 216 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "It takes $216\\text{ cm}^2$ of gold foil to cover the surface of the trophy.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "4. Square pyramid"
+                    }
+                }
+            }
+        }
+    ]
+}

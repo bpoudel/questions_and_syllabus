@@ -1,0 +1,887 @@
+{
+    "standard_metadata": {
+        "standard_id": "6.EE.A.3",
+        "standard_description": "Apply the properties of operations to generate equivalent expressions.",
+        "standard_title": "Equivalent expressions",
+        "standard_url": "https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:foundation-algebra/x2f8bb11595b61c86:equivalent-expressions-intro/e/equivalent-forms-of-expressions-1"
+    },
+    "id": "xc85799e4",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which expressions are equivalent to $x+x+x + 2$ ?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$3x + 2$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$3 + 2x$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$3(x+2)$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$2(x+1)+x$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$5x$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can play around with the expressions in the answer choices to see if they are the same as $x+x+x + 2$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Expression: $\\blueD{3x+2}$  $ \\begin{align} \\blueD{3x + 2}  &\\stackrel{?}{=} x+x+x + 2 \\\\\\\\ \\blueD{3x + 2}   &\\stackrel{\\checkmark}{=} 3x +2   \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Expression: $\\purpleD{3 + 2x} $  $ \\begin{align} \\purpleD{3 + 2x}  &\\stackrel{?}{=} x+x+x + 2 \\\\\\\\ \\purpleD{3 + 2x}   &\\stackrel{?}{=}3x +2 \\\\\\\\ \\purpleD{2x+3}   &\\neq3x +2   \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Expression: $\\greenD{3(x+2)} $  $ \\begin{align} \\greenD{3(x+2)}  &\\stackrel{?}{=} x+x+x + 2 \\\\\\\\ \\greenD{3(x+2)}   &\\stackrel{?}{=}3x +2 \\\\\\\\ \\greenD{3(x+2)}   &\\neq3(x +\\dfrac23)   \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Expression: $\\goldD{2(x+1)+x} $  $ \\begin{align} \\goldD{2(x+1)+x}  &\\stackrel{?}{=} x+x+x + 2 \\\\\\\\ \\goldD{2(x+1)+x}    &\\stackrel{?}{=}(x+x+2) + x  \\\\\\\\ \\goldD{2(x+1)+x}   &\\stackrel{\\checkmark}{=}2(x+1)+x   \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Expression: $\\maroonD{5x} $  $ \\begin{align} \\maroonD{5x}   &\\stackrel{?}{=} x+x+x + 2 \\\\\\\\ \\maroonD{5x}   &\\neq3x +2   \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following expressions are equivalent to $x+x+x + 2$:  - $\\blueD{3x + 2} $   - $\\goldD{2(x+1)+x}   $",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "MS - 5 choices (# given)"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which expressions are equivalent to $\\dfrac{k}2$ ?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$k-2$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac2k$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac12 k$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$k\\div2$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$k+k$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The fraction bar in $\\dfrac{k}2$ can also represent division.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can write $\\dfrac{k}2$ and $k\\div2$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can also write $\\dfrac{k}2$ using multiplication:  $ \\begin{align} \\greenD{\\dfrac12k}  &\\stackrel{?}{=} \\dfrac{k}2 \\\\\\\\ \\greenD{\\dfrac12k}   &\\stackrel{?}{=}\\dfrac{1k}{2} \\\\\\\\ \\greenD{\\dfrac12k}   &\\stackrel{\\checkmark}{=}\\dfrac12k   \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following expressions are equivalent to $\\dfrac{k}2$:  - $k\\div2$   - $\\dfrac12k $",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "MS - 5 choices (# given)"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which expressions are equivalent to $4(4a+5)$ ?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$16a + 5$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$16a+20$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$12a+20+4a$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$2(8a+10)$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$16a+5+4$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can play around with the expressions in the answer choices to see if they are the same as $4(4a+5)$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Expression: $\\blueD{16a + 5}$  $ \\begin{align} \\blueD{16a + 5}  &\\stackrel{?}{=} 4(4a+5)   \\\\\\\\ \\blueD{16a + 5}  &\\stackrel{?}{=} (4)4a+(4)5   \\\\\\\\ \\blueD{16a + 5}   &\\ne 16a+20   \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Expression: $\\purpleD{16a+20}$  $ \\begin{align} \\purpleD{16a+20}  &\\stackrel{?}{=} 4(4a+5)   \\\\\\\\ \\purpleD{ 16a+20} &\\stackrel{?}{=} (4)4a+(4)5    \\\\\\\\ \\purpleD{16a+20}   &\\stackrel{\\checkmark}{=}16a+20    \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Expression: $\\greenD{12a+20+4a}$     $ \\begin{align} \\greenD{12a+20+4a} &\\stackrel{?}{=} 4(4a+5)   \\\\\\\\ \\greenD{12a+20+4a}&\\stackrel{?}{=}16a+20    \\\\\\\\ \\greenD{12a+20+4a}&\\stackrel{?}{=}12a+4a+20    \\\\\\\\ \\greenD{12a+20+4a} &\\stackrel{\\checkmark}{=}12a+20 +4a\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Expression: $\\goldD{2(8a+10)}$    $ \\begin{align} \\goldD{2(8a+10)} &\\stackrel{?}{=} 4(4a+5)   \\\\\\\\ \\goldD{2(8a+10)}&\\stackrel{?}{=} 16a+20    \\\\\\\\ \\goldD{2(8a+10)}  &\\stackrel{\\checkmark}{=}2(8a+10) \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Expression: $\\maroonD{16a+5+4}$     $ \\begin{align} \\maroonD{16a+5+4} &\\stackrel{?}{=} 4(4a+5)    \\\\\\\\ \\maroonD{16a+5+4} &\\stackrel{?}{=}16a+20    \\\\\\\\ \\maroonD{16a+5+4}  &\\neq16a+5+15 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following expressions are equivalent to $4(4a+5)$:   -  $\\purpleD{16a+20 }$ - $\\greenD{12a+20+4a}$   - $\\goldD{2(8a+10)}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "MS - 5 choices (# given)"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which expressions are equivalent to $2(4f+2g)$ ?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$8f+2g$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$2f(4 + 2g)$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$8f+4g$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$4(2f+g)$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$4f+4f+4g$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can play around with the expressions in the answer choices to see if they are the same as $2(4f+2g)$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Expression: $\\blueD{8f+2g}  $  $ \\begin{align} \\blueD{8f+2g}  &\\stackrel{?}{=}  2(4f+2g)  \\\\\\\\ \\blueD{8f+2g}  &\\stackrel{?}{=}  (2)4f+(2)2g  \\\\\\\\ \\blueD{8f+2g}   &\\neq 8f+4g    \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Expression: $\\purpleD{2f(4 + 2g)}$  $ \\begin{align} \\purpleD{2f(4 + 2g)}  &\\stackrel{?}{=}  2(4f+2g)  \\\\\\\\ \\purpleD{2f(4 + 2g)}  &\\stackrel{?}{=}  (2)4f+(2)2g  \\\\\\\\ \\purpleD{2f(4 + 2g)}  &\\stackrel{?}{=}  8f+4g  \\\\\\\\ \\purpleD{(2f)4 + (2f)2g}  &\\stackrel{?}{=}  8f+4g  \\\\\\\\ \\purpleD{8f+4fg}   &\\neq 8f+4g    \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Expression: $\\greenD{8f+4g} $  $ \\begin{align} \\greenD{8f+4g}  &\\stackrel{?}{=}  2(4f+2g)  \\\\\\\\ \\greenD{8f+4g}  &\\stackrel{?}{=}  (2)4f+(2)2g  \\\\\\\\ \\greenD{8f+4g}   &\\stackrel{\\checkmark}{=}  8f+4g   \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Expression: $\\goldD{4(2f+g)}  $  $ \\begin{align} \\goldD{4(2f+g)}  &\\stackrel{?}{=}  2(4f+2g)  \\\\\\\\ \\goldD{4(2f+g)}  &\\stackrel{?}{=}  (2)4f+(2)2g  \\\\\\\\ \\goldD{4(2f+g)}  &\\stackrel{?}{=}  8f+4g  \\\\\\\\ \\goldD{4(2f+g)}  &\\stackrel{\\checkmark}{=}  4(2f+g)   \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Expression: $\\maroonD{4f+4f+4g}$  $ \\begin{align} \\maroonD{4f+4f+4g} &\\stackrel{?}{=}  2(4f+2g)  \\\\\\\\ \\maroonD{4f+4f+4g}  &\\stackrel{?}{=}  (2)4f+(2)2g  \\\\\\\\ \\maroonD{4f+4f+4g} &\\stackrel{?}{=}  8f+4g  \\\\\\\\ \\maroonD{4f+4f+4g} &\\stackrel{\\checkmark}{=}  4f+4f+4g    \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following expressions are equivalent to $2(4f+2g)$:  - $\\greenD{8f+4g} $  - $\\goldD{4(2f+g)}  $ - $\\maroonD{4f+4f+4g}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "MS - 5 choices (# given)"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which expressions are equivalent to $z + (z + 6) $ ?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$(z+z) + (z+6)$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$(z+6) + 6$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$2(z+3)$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can play around with the expressions in the answer choices to see if they are the same as $z + (z + 6) $.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's see if the first expression is equivalent to $z + (z + 6) $.  $\\qquad \\begin{align} \\blue{(z+z) + (z+6)}  &\\stackrel{?}{=}  z + (z + 6)  \\\\\\\\ \\blue{3z+6}  &\\stackrel{?}{=}  z + (z + 6)  \\\\\\\\ \\blue{3z+6}   &\\neq  2z + 6 \\\\\\\\  \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's see if the second expression is equivalent to $z + (z + 6) $.  $\\qquad \\begin{align} \\purple{(z+6) + 6}  &\\stackrel{?}{=}  z + (z + 6)  \\\\\\\\ \\purple{z+12}  &\\stackrel{?}{=}  z + (z + 6)  \\\\\\\\ \\purple{z + 12}   &\\neq  2z + 6 \\\\\\\\  \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's see if the third expression is equivalent to $z + (z + 6) $.  $ \\begin{align} \\greenD{2(z+3)}  &\\stackrel{?}{=}  z + (z + 6)  \\\\\\\\ \\greenD{2z+6}  &\\stackrel{?}{=}  z + (z + 6)  \\\\\\\\ \\greenD{z+z+6}  &\\stackrel{?}{=}  z + (z + 6)  \\\\\\\\ \\greenD{z+(z+6)}  &\\stackrel{\\checkmark}{=}  z + (z + 6)   \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\greenD{2(z+3)}$ is equivalent to $z+(z+6)$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "MS - 3 choices"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which expressions are equivalent to $4b$ ?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$b+2(b+2b)$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$3b+b$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$2(2b)$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can play around with the expressions in the answer choices to see if they are the same as $4b$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's see if the first expression is equivalent to $4b$.  $\\qquad \\begin{align} \\blue{b+2(b+2b)}  &\\stackrel{?}{=}  4b  \\\\\\\\ \\blue{b+(2)b+(2)2b}   &\\stackrel{?}{=} 4b  \\\\\\\\ \\blue{b+2b+4b}   &\\stackrel{?}{=} 4b  \\\\\\\\ \\blue{7b}   &\\neq4b  \\\\\\\\  \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's see if the second expression is equivalent to $4b$.  $\\qquad \\begin{align} \\purple{3b+b}  &\\stackrel{?}{=}  4b  \\\\\\\\ \\purple{4b}   &= 4b  \\\\\\\\  \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's see if the third expression is equivalent to $4b$.  $ \\begin{align} \\greenD{2(2b)}  &\\stackrel{?}{=}  4b  \\\\\\\\ \\greenD{4b}   &= 4b   \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following expression is equivalent to $4b$:  - $\\purple{  3b+b  } $   - $\\greenD{2(2b)}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "MS - 3 choices"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which expressions are equivalent to $3x+3(x+y)$ ?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$6x+3y$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$3(x+x+y)$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$3xy$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can play around with the expressions in the answer choices to see if they are the same as $3x+3(x+y)$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's see if the first expression is equivalent to $3x+3(x+y)$.  $\\qquad \\begin{align} \\blue{6x+3y}  &\\stackrel{?}{=} 3x+3(x+y)   \\\\\\\\ \\blue{6x+3y}  &\\stackrel{?}{=} 3x+(3)x+(3)y   \\\\\\\\ \\blue{6x+3y}  &\\stackrel{?}{=} 3x+3x+3y   \\\\\\\\ \\blue{6x + 3y}   &= 6x + 3y  \\\\\\\\  \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's see if the second expression is equivalent to $3x+3(x+y)$.  $\\qquad \\begin{align} \\purple{3(x+x+y)}  &\\stackrel{?}{=} 3x+3(x+y)   \\\\\\\\ \\purple{3(x+x+y)}  &\\stackrel{?}{=} 3x+(3)x+(3)y   \\\\\\\\ \\purple{3(x+x+y)}  &\\stackrel{?}{=} 3x+3x+3y   \\\\\\\\ \\purple{3(x+x+y)}  &\\stackrel{?}{=} 6x + 3y   \\\\\\\\ \\purple{(3)x+(3)x+(3)y}  &\\stackrel{?}{=}6x + 3y  \\\\\\\\ \\purple{3x+3x+3y}  &\\stackrel{?}{=}6x + 3y  \\\\\\\\ \\purple{6x + 3y }   &= 6x + 3y   \\\\\\\\  \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's see if the third expression is equivalent to $3x+3(x+y)$.  $ \\begin{align} \\greenD{3xy}  &\\stackrel{?}{=} 3x+3(x+y)   \\\\\\\\ \\greenD{3\\times x\\times y}  &\\stackrel{?}{=} 3x+3(x+y)   \\\\\\\\ \\greenD{3\\times x\\times y}  &\\stackrel{?}{=} 3x+3x+3y   \\\\\\\\ \\greenD{3\\times x\\times y}    &\\neq3(x+x+y)   \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following expressions are equivalent to $3x+3(x+y)$:  - $\\blue{ 6x+3y  } $    -  $\\purple{3(x+x+y)}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "MS - 3 choices"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which expressions are equivalent to $2(b+3c)$ ?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$3(b+2c)$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$(b+3c)+(b+3c)$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$2(b)+2(3c)$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can play around with the expressions in the answer choices to see if they are the same as $2(b+3c)$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's see if the first expression is equivalent to $2(b+3c)$.  $\\qquad \\begin{align} \\blue{3(b+2c)}  &\\stackrel{?}{=} 2(b+3c)   \\\\\\\\ \\blue{3(b+2c)}  &\\stackrel{?}{=} (2)b+(2)3c   \\\\\\\\ \\blue{3(b+2c)}  &\\stackrel{?}{=} 2b+6c   \\\\\\\\ \\blue{(3)b+(3)2c}  &\\stackrel{?}{=} 2b+6c   \\\\\\\\ \\blue{3b + 6c}   &\\ne 2b + 6c  \\\\\\\\  \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's see if the second expression is equivalent to $2(b+3c)$.  $\\qquad \\begin{align} \\purple{(b+3c)+(b+3c)}  &\\stackrel{?}{=} 2(b+3c)   \\\\\\\\ \\purple{(b+3c)+(b+3c)}  &\\stackrel{?}{=}  (2)b+(2)3c    \\\\\\\\ \\purple{(b+3c)+(b+3c)}  &\\stackrel{?}{=} 2b+6c  \\\\\\\\ \\purple{b+3c+b+3c}  &\\stackrel{?}{=} 2b+6c \\\\\\\\ \\purple{2b + 6c}   &= 2b+6c  \\\\\\\\  \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's see if the third expression is equivalent to $2(b+3c)$.  $ \\begin{align} \\greenD{2(b)+2(3c)} &\\stackrel{?}{=} 2(b+3c)   \\\\\\\\ \\greenD{2(b)+2(3c)} &= 2(b)+2(3c)     \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following expressions are equivalent to $2(b+3c)$:   -  $\\purple{(b+3c)+(b+3c) }$ - $\\greenD{2(b)+2(3c)}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "MS - 3 choices"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which expressions are equivalent to $4d+6+2d$ ?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$2(3d+3)$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$6(d+6)$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$(3d+3)+(3d+3)$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can play around with the expressions in the answer choices to see if they are the same as $4d+6+2d$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's see if the first expression is equivalent to $4d+6+2d$.  $\\qquad \\begin{align} \\blue{2(3d+3)}  &\\stackrel{?}{=} 4d+6+2d   \\\\\\\\ \\blue{2(3d+3)}  &\\stackrel{?}{=} 6d+6   \\\\\\\\ \\blue{(2)3d+(2)3}  &\\stackrel{?}{=} 6d+6  \\\\\\\\ \\blue{6d+6}   &= 6d+6 \\\\\\\\  \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's see if the second expression is equivalent to $4d+6+2d$.  $\\qquad \\begin{align} \\purple{6(d+6)}  &\\stackrel{?}{=} 4d+6+2d   \\\\\\\\ \\purple{6(d+6)}  &\\stackrel{?}{=}6d+6  \\\\\\\\ \\purple{(6)d + (6)6}  &\\stackrel{?}{=} 6d+6  \\\\\\\\ \\purple{6d + 36}   &\\ne 6d+6  \\\\\\\\  \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's see if the third expression is equivalent to $4d+6+2d$.  $ \\begin{align} \\greenD{(3d+3)+(3d+3)}  &\\stackrel{?}{=} 4d+6+2d   \\\\\\\\ \\greenD{(3d+3)+(3d+3)}   &\\stackrel{?}{=} 6d+6   \\\\\\\\ \\greenD{(3d+3)+(3d+3)}   &\\stackrel{?}{=} 2(3d+3)  \\\\\\\\ \\greenD{(3d+3)+(3d+3)}   &= (3d+3) +(3d+3)   \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following expression is equivalent to $4d+6+2d$:  - $\\blue{ 2(3d+3)  } $   - $\\greenD{(3d+3)+(3d+3)} $",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "MS - 3 choices"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which expressions are equivalent to $x + 2y + x + 2$ ?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$2(x+y+1)$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$2x + 4y +4$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "None of the above",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can play around with the expressions in the answer choices to see if they are the same as $x + 2y + x + 2$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's see if the first expression is equivalent to $x + 2y + x + 2$.  $ \\begin{align} \\blue{2(x+y+1)}  &\\stackrel{?}{=}  x + 2y + x + 2  \\\\\\\\ \\blue{(2)x+(2)y+(2)1}   &\\stackrel{?}{=} x + 2y + x + 2  \\\\\\\\ \\blue{2x+2y+2}   &\\stackrel{?}{=} x + 2y + x + 2  \\\\\\\\ \\blue{2x+2y+2}   &= 2x + 2y  + 2    \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's see if the second expression is equivalent to $x + 2y + x + 2$.  $ \\begin{align} \\purple{2x + 4y +4}  &\\stackrel{?}{=}  x + 2y + x + 2  \\\\\\\\ \\purple{2x+4y+4}   &\\neq 2x + 2y + 2    \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following expression is equivalent to $x + 2y + x + 2$:  - $\\blue{ 2(x+y+1)   } $",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "none of the above"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which expressions are equivalent to $q+p+q+p+q$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$2p + 3q$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$2(p+q) + q$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "None of the above",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can play around with the expressions in the answer choices to see if they are the same as $q+p+q+p+q$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's see if the first expression is equivalent to $q+p+q+p+q$.  $\\qquad \\begin{align} \\\\\\\\ \\blue{2p + 3q}  &\\stackrel{?}{=} q+p+q+p+q   \\\\\\\\ \\blue{2p + 3q}   &= 2p + 3q  \\\\\\\\  \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's see if the second expression is equivalent to $q+p+q+p+q$.  $\\qquad \\begin{align} \\purple{2(p+q) + q}  &\\stackrel{?}{=} q+p+q+p+q   \\\\\\\\ \\purple{2(p+q) + q}  &\\stackrel{?}{=} 2p + 3q   \\\\\\\\ \\purple{(2)p+(2)q + q}  &\\stackrel{?}{=} 2p + 3q  \\\\\\\\ \\purple{2p+2q + q}  &\\stackrel{?}{=} 2p + 3q  \\\\\\\\ \\purple{2p + 3q}   &= 2p + 3q  \\\\\\\\  \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following expressions are equivalent to $q+p+q+p+q$:  - $\\blue{ 2p + 3q   } $    -  $\\purple{2(p+q) + q }$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "none of the above"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which expressions are equivalent to $2r + (t + r) $ ?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$2rt + 4r$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$r+t$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "None of the above",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can play around with the expressions in the answer choices to see if they are the same as $2r + (t + r) $.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's see if the first expression is equivalent to $2r + (t + r) $.  $\\qquad \\begin{align} \\blue{2rt + 4r}  &\\stackrel{?}{=} 2r + (t + r)   \\\\\\\\ \\blue{2rt + 4r}  &\\stackrel{?}{=} 2r + t + r   \\\\\\\\ \\blue{2rt + 4r}   &\\neq 3r + t   \\\\\\\\  \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's see if the second expression is equivalent to $2r + (t + r) $.  $\\qquad \\begin{align} \\purple{r+t}  &\\stackrel{?}{=} 2r + (t + r)   \\\\\\\\ \\purple{r+t}  &\\stackrel{?}{=} 2r + t + r   \\\\\\\\ \\purple{r+t}   &\\neq 3r + t   \\\\\\\\  \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "\"None of the above\" is the correct answer.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "none of the above"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which expressions are equivalent to $3(4h+2k)$ ?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$3(2k+4h)$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$3(4k+2h)$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "None of the above",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can play around with the expressions in the answer choices to see if they are the same as $3(4h+2k)$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's see if the first expression is equivalent to $3(4h+2k)$.  $\\qquad \\begin{align} \\\\\\\\ \\blue{3(2k+4h)}  &\\stackrel{?}{=} 3(4h+2k)   \\\\\\\\ \\blue{3(4h+2k)}   &=  3(4h+2k) \\\\\\\\  \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's see if the second expression is equivalent to $3(4h+2k)$.  $\\qquad \\begin{align} \\purple{3(4k+2h)}  &\\stackrel{?}{=} 3(4h+2k)   \\\\\\\\ \\purple{3(4k+2h)}  &\\stackrel{?}{=} (3)4h+(3)2k   \\\\\\\\ \\purple{3(4k+2h)}  &\\stackrel{?}{=} 12h+6k   \\\\\\\\ \\purple{(3)4k+(3)2h}  &\\stackrel{?}{=} 12h+6k   \\\\\\\\ \\purple{12k+6h}  &\\stackrel{?}{=} 12h+6k   \\\\\\\\ \\purple{6h+12k}   &\\neq  12h+6k \\\\\\\\  \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following expression is equivalent to $3(4h+2k)$:  - $\\blue{ 3(2k+4h)   } $",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "none of the above"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which expressions are equivalent to $j+j+2k$ ?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$2jk$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$2(j+j+k)$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "None of the above",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can play around with the expressions in the answer choices to see if they are the same as $j+j+2k$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's see if the first expression is equivalent to $j+j+2k$.  $\\qquad \\begin{align} \\blue{2jk}  &\\stackrel{?}{=} j+j+2k   \\\\\\\\ \\blue{2jk}   &\\ne 2j + 2k  \\\\\\\\  \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's see if the second expression is equivalent to $j+j+2k$.  $\\qquad \\begin{align} \\purple{2(j+j+k)}  &\\stackrel{?}{=} j+j+2k   \\\\\\\\ \\purple{2(j+j+k)}  &\\stackrel{?}{=}  2j+2k   \\\\\\\\ \\purple{(2)j+(2)j+(2)k}  &\\stackrel{?}{=} 2j+2k  \\\\\\\\ \\purple{2j+2j+2k}  &\\stackrel{?}{=} 2j+2k  \\\\\\\\ \\purple{4j+2k}   &\\ne 2j+2k  \\\\\\\\  \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "\"None of the above\" is the correct answer.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "none of the above"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which expressions are equivalent to $(5g+3h+4)\\cdot2$ ?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$(5g+3h)\\cdot8$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$(5g+3h)\\cdot6$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "None of the above",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can play around with the expressions in the answer choices to see if they are the same as $(5g+3h+4)\\cdot2$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's see if the first expression is equivalent to $(5g+3h+4)\\cdot2$.  $\\qquad \\begin{align} \\blue{(5g+3h)\\cdot8}  &\\stackrel{?}{=} (5g+3h+4)\\cdot2   \\\\\\\\ \\blue{(5g+3h)\\cdot8}  &\\stackrel{?}{=} (2)5g+(2)3h+(2)4   \\\\\\\\ \\blue{(5g+3h)\\cdot8}  &\\stackrel{?}{=} 10g+6h+8   \\\\\\\\ \\blue{(8)5g+(8)3h}  &\\stackrel{?}{=} 10g+6h+8   \\\\\\\\ \\blue{40g + 24h}   &\\ne 10g+6h+8   \\\\\\\\  \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's see if the second expression is equivalent to $(5g+3h+4)\\cdot2$.  $\\qquad \\begin{align} \\purple{(5g+3h)\\cdot6}  &\\stackrel{?}{=} (5g+3h+4)\\cdot2   \\\\\\\\ \\purple{(5g+3h)\\cdot6}  &\\stackrel{?}{=} (2)5g+(2)3h+(2)4   \\\\\\\\ \\purple{(5g+3h)\\cdot6}  &\\stackrel{?}{=} 10g+6h+8  \\\\\\\\ \\purple{(6)5g+(6)3h}  &\\stackrel{?}{=} 10g+6h+8  \\\\\\\\ \\purple{30g + 18h}   &\\ne 10g+6h+8  \\\\\\\\  \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "\"None of the above\" is the correct answer.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "none of the above"
+                    }
+                }
+            }
+        }
+    ]
+}

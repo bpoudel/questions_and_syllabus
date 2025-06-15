@@ -1,0 +1,1275 @@
+{
+    "standard_metadata": {
+        "standard_id": "8.SP.A.1",
+        "standard_description": "Construct and interpret scatter plots for bivariate measurement data to investigate patterns of association between two quantities. Describe patterns such as clustering, outliers, positive or negative association, linear association, and nonlinear association.",
+        "standard_title": "Constructing scatter plots",
+        "standard_url": "https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-data/cc-8th-scatter-plots/e/constructing-scatter-plots"
+    },
+    "id": "xd167ef1b",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Hector recorded the amount of coffee he drank (in milliliters) and the duration of his drive (in minutes) over five days this week.      **Plot the data in a scatter plot.**      |||||| :-- | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: **Coffee (mL)** | $100$ | $200$ | $150$ | $125$ | $225$ **Duration (min)** | $18$ | $14$ | $15$ | $20$ | $12$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    100,
+                                                    18
+                                                ],
+                                                [
+                                                    200,
+                                                    14
+                                                ],
+                                                [
+                                                    150,
+                                                    15
+                                                ],
+                                                [
+                                                    125,
+                                                    20
+                                                ],
+                                                [
+                                                    225,
+                                                    12
+                                                ]
+                                            ],
+                                            "numPoints": "unlimited",
+                                            "type": "point"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$$   Let's plot each point, with its $x$-coordinate coming from the amount of *coffee* and the $y$-coordinate coming from the corresponding *duration*.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The final graph looks like this:      [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A scatterplot plots Duration, from 0 to 22, in increments of 2, on the y-axis, versus Coffee, from 0 to 300, in increments of 50, on the x-axis. 5 points fall diagonally in a relatively narrow scatter of points from (100, 18 to (25, 2) and 1 point at (225, 12).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/872a685558ee0147af1d23e33b5cba2b9a6532b1.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Dependent var unordered"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The table below shows the relationship between quiz scores and study time (in hours) for each $20$-point quiz Dexter took this year.    **Plot the data in a scatter plot.**    ||||||| :-- | --: | --: | --: | --: | --: | --: | **Study time (hours)** | $0.75$ | $1$ | $0$ | $3.25$ | $0.25$ | $2$  **Score** | $15$ | $13$ | $7$ | $19$ | $12$ | $16$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    1,
+                                                    13
+                                                ],
+                                                [
+                                                    0,
+                                                    7
+                                                ],
+                                                [
+                                                    3.25,
+                                                    19
+                                                ],
+                                                [
+                                                    0.75,
+                                                    15
+                                                ],
+                                                [
+                                                    0.25,
+                                                    12
+                                                ],
+                                                [
+                                                    2,
+                                                    16
+                                                ]
+                                            ],
+                                            "numPoints": "unlimited",
+                                            "type": "point"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$$   Let's plot each point, with its $x$-coordinate coming from the *study time* and the $y$-coordinate coming from the corresponding *score*.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The final graph looks like this:      [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A scatterplot plots Score on the y-axis, versus Hours on the x-axis. The x axis scales by one half. The y axis scales by two. The points on the xy axis are as follows: (25 hundredths, 12), (75 hundredths, 15), (1, 13), (2, 16), (3 and 25 hundredths, 19), and (0, 7).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/3641faa21df0baf40b8f0bcd6d75b16498a61ca5.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Dependent var unordered"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The table below shows the relationship between quiz scores and study time (in hours) for each student in Lucas's class.    **Plot the data in a scatter plot.**    ||||||| :-- | --: | --: | --: | --: | --: | --: | **Study time (hours)** | $1.75$ | $1.5$ | $0.5$ | $3$ | $3.25$ | $2$  **Score** | $17$ | $15$ | $7$ | $19$ | $20$ | $16$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    1.75,
+                                                    17
+                                                ],
+                                                [
+                                                    1.5,
+                                                    15
+                                                ],
+                                                [
+                                                    0.5,
+                                                    7
+                                                ],
+                                                [
+                                                    3,
+                                                    19
+                                                ],
+                                                [
+                                                    3.25,
+                                                    20
+                                                ],
+                                                [
+                                                    2,
+                                                    16
+                                                ]
+                                            ],
+                                            "numPoints": "unlimited",
+                                            "type": "point"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$$   Let's plot each point, with its $x$-coordinate coming from the *study time* and the $y$-coordinate coming from the corresponding *score*.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The final graph looks like this:      [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A scatterplot plots Score, from 0 to 20, in increments of 2, on the y-axis, versus Hours, from 0 to 4, in increments of 1 half, on the x-axis. 6 points rise diagonally in a narrow cluster of points between (1 half, 7) and (3 and 25 hundredths, 20).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d8ef4109d5a719430b62957b047a93ee0842911d.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Dependent var unordered"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Ruben measured how many minutes he meditated each night and the number of hours he slept.    **Plot the data in a scatter plot.**    | | | | | | |  :--|--:|--:|--:|--:|--:|--:|--:|--:|--:|--: **Meditation (minutes)** | $4$ | $8$ | $10$ | $4$ | $18$ | $4$ **Sleep (hours)** | $4.5$ | $9.5$ | $8.5$ | $6$ | $10$ | $7$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    4,
+                                                    4.5
+                                                ],
+                                                [
+                                                    8,
+                                                    9.5
+                                                ],
+                                                [
+                                                    10,
+                                                    8.5
+                                                ],
+                                                [
+                                                    4,
+                                                    6
+                                                ],
+                                                [
+                                                    4,
+                                                    7
+                                                ],
+                                                [
+                                                    18,
+                                                    10
+                                                ]
+                                            ],
+                                            "numPoints": "unlimited",
+                                            "type": "point"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$$   Let's plot each point, with its $x$-coordinate coming from the number of minutes of *meditation* and the $y$-coordinate coming from the corresponding number of hours of *sleep*.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The final graph looks like this:      [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A scatterplot plots Sleep, from 0 to 11, in increments of 1, on the y-axis, versus Meditation, from 0 to 24, in increments of 2, on the x-axis. 5 points rise diagonally in a weak scatter of points between (4, 4 and 1 half) and (18, 10).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/abb68692c2cc1ab142e9b142bf3e6e1bf846eb98.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Dependent var unordered"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Jose recorded the number of sick days he took and the number of T-shirts he owned over several years.  **Plot the data in a scatter plot.**      ||||||| :-- | --: | --: | --: | --: | --: | --: | --: | --: | --: | --:| --: **Sick days** | $6$ | $7.5$ | $0.5$ | $3$ | $4$ | $9.5$ **T-shirts** | $6$ | $7$ | $7$ | $7$ | $5$ | $6$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    6,
+                                                    6
+                                                ],
+                                                [
+                                                    7.5,
+                                                    7
+                                                ],
+                                                [
+                                                    0.5,
+                                                    7
+                                                ],
+                                                [
+                                                    3,
+                                                    7
+                                                ],
+                                                [
+                                                    4,
+                                                    5
+                                                ],
+                                                [
+                                                    9.5,
+                                                    6
+                                                ]
+                                            ],
+                                            "numPoints": "unlimited",
+                                            "type": "point"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$$   Let's plot each point, with its $x$-coordinate coming from the number of *sick days* and the $y$-coordinate coming from the corresponding number of *T-shirts*.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The final graph looks like this:      [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A scatterplot plots T Shirts, from 0 to 11, in increments of 1, on the y-axis, versus Sick Days, from 0 to 11, in increments of 1, on the x-axis. 6 points remain constantly horizontal in a relatively weak scatter of points between (1 half, 7) and (9 and 1 half, 6).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d41720fed15f800bbd4195657012b6cf34626436.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Dependent var unordered"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Aubree collected data about exams in each of her classes from the previous year.      **Plot the data in a scatter plot.**     | | | | | | | :-- | :--: | :--: | :--: | :--: | :--: | :--: **Class** | English | Math | History | Computer science | Arts | Biology **Period** | $1$ | $6$ | $2$ | $4$ | $3$ | $5$ **Average score** | $95$ | $85$ | $70$ | $65$ | $90$ | $70$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    1,
+                                                    95
+                                                ],
+                                                [
+                                                    2,
+                                                    70
+                                                ],
+                                                [
+                                                    3,
+                                                    90
+                                                ],
+                                                [
+                                                    4,
+                                                    65
+                                                ],
+                                                [
+                                                    5,
+                                                    70
+                                                ],
+                                                [
+                                                    6,
+                                                    85
+                                                ]
+                                            ],
+                                            "numPoints": "unlimited",
+                                            "type": "point"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$$   Let's plot each point, with its $x$-coordinate coming from the *period* and the $y$-coordinate coming from the corresponding *average score*.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The final graph looks like this:      [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A scatterplot plots Average score, from 0 to 100, in increments of 10, on the y-axis, versus Period, from 0 to 8, in increments of 1, on the x-axis. 6 points fall diagonally in a weak scatter of points between (1, 95) and (6, 85).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/413699f88a4d4b1fa0ba9fc5659bf1b6ce3a9cce.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Dependent var unordered"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Garret collected data about exams in each of his classes from the previous year.      **Plot the data in a scatter plot.**     | | | | | | | :-- | :--: | :--: | :--: | :--: | :--: | :--: **Class** | History | Arts | English | Computer science | Math | Biology **Period** | $1$ | $6$ | $2$ | $7$ | $3$ | $4$ **Average score** | $60$ | $90$ | $55$ | $95$ | $60$ | $80$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    3,
+                                                    60
+                                                ],
+                                                [
+                                                    6,
+                                                    90
+                                                ],
+                                                [
+                                                    2,
+                                                    55
+                                                ],
+                                                [
+                                                    4,
+                                                    80
+                                                ],
+                                                [
+                                                    7,
+                                                    95
+                                                ],
+                                                [
+                                                    1,
+                                                    60
+                                                ]
+                                            ],
+                                            "numPoints": "unlimited",
+                                            "type": "point"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$$   Let's plot each point, with its $x$-coordinate coming from the *period* and the $y$-coordinate coming from the corresponding *average score*.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The final graph looks like this:      [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A scatterplot plots Average Score on the y-axis, versus Period on the x-axis. The x axis scales by one. The y axis scales by ten. The points on the xy axis are as follows: (1, 60), (2, 55), (3, 60), (4, 80), (6, 90), and (7, 95).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d9b63879007ccc8e39b5be2dc2e8f53cf4977be9.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Dependent var unordered"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Sean measured the height and petal length (in centimeters) of all the flowers in his garden.    **Plot the data in a scatter plot.**      ||||||| :-- | --: | --: | --: | --: | --: | --:  **Height $(\\text{cm})$** | $32.5$ | $20$ | $15$ | $35$ | $10$ | $37.5$  **Petal length $(\\text{cm})$**| $5$ | $4$ | $2$ | $8$ | $1.5$ | $8.5$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    32.5,
+                                                    5
+                                                ],
+                                                [
+                                                    20,
+                                                    4
+                                                ],
+                                                [
+                                                    15,
+                                                    2
+                                                ],
+                                                [
+                                                    35,
+                                                    8
+                                                ],
+                                                [
+                                                    10,
+                                                    1.5
+                                                ],
+                                                [
+                                                    37.5,
+                                                    8.5
+                                                ]
+                                            ],
+                                            "numPoints": "unlimited",
+                                            "type": "point"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$$   Let's plot each point, with its $x$-coordinate coming from the *height* and the $y$-coordinate coming from the corresponding *petal length*.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The final graph looks like this:      [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A scatterplot plots Pedal length on the y-axis, versus Height on the x-axis. The x axis scales by fives. The y axis scales by one. The points on the xy axis are as follows: (10, 1 and 1 half), (15, 2), (20, 4), (35, 8), (32 and 1 half, 5), and (37 and 1 half, 8 and 1 half).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/6c9826f80e17ab93a91ec43a0d6f12ae812f4f4b.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Dependent var unordered"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Krista measured the height and petal length (in centimeters) of all the flowers in her garden.    **Plot the data in a scatter plot.**      ||||||| :-- | --: | --: | --: | --: | --: | --:  **Height $(\\text{cm})$** | $32.5$ | $15$ | $7.5$ | $27.5$ | $15$ | $32.5$  **Petal length $(\\text{cm})$**| $6.5$ | $4.5$ | $7$ | $9$ | $5.5$ | $3$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    15,
+                                                    4.5
+                                                ],
+                                                [
+                                                    15,
+                                                    5.5
+                                                ],
+                                                [
+                                                    7.5,
+                                                    7
+                                                ],
+                                                [
+                                                    32.5,
+                                                    6.5
+                                                ],
+                                                [
+                                                    27.5,
+                                                    9
+                                                ],
+                                                [
+                                                    32.5,
+                                                    3
+                                                ]
+                                            ],
+                                            "numPoints": "unlimited",
+                                            "type": "point"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$$   Let's plot each point, with its $x$-coordinate coming from the *height* and the $y$-coordinate coming from the corresponding *petal length*.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The final graph looks like this:      [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A scatterplot plots Petal length, from 0 to 11, in increments of 1, on the y-axis, versus Height, from 0 to 40, in increments of 5, on the x-axis. The points on the xy axis are as follows: (seven and one half, 7) (fifteen, four and one half), (fifteen, five and one half), (twenty seven and one half, nine), (thirty two and one half, three), and (thirty two and one half, six and one half).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/bc8b4c12ea475abf4aab6e36d3a5a5adc61999ab.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Dependent var unordered"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A doctor collected data on how many hours children of different ages slept in a day. Data for $5$ participants are shown below.    **Plot the data in a scatter plot.**      |||||| :-- | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: **Age (years)** | $1$ | $2$ | $3$ | $5$ | $8$ **Sleep (hours)** | $13$ | $11$ | $10$ | $9$ | $8$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    1,
+                                                    13
+                                                ],
+                                                [
+                                                    2,
+                                                    11
+                                                ],
+                                                [
+                                                    3,
+                                                    10
+                                                ],
+                                                [
+                                                    5,
+                                                    9
+                                                ],
+                                                [
+                                                    8,
+                                                    8
+                                                ]
+                                            ],
+                                            "numPoints": "unlimited",
+                                            "type": "point"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$$   Let's plot each point, with its $x$-coordinate coming from the *age* and the $y$-coordinate coming from the corresponding amount of *sleep*.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The final graph looks like this:     [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A scatterplot plots Sleep, from 0 to 15, in increments of 1, on the y-axis, versus Age, from 0 to 11, in increments of 1, on the x-axis. 5 points decrease diagonally in a narrow cluster between (1, 13) and (8, 8).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/e98fc9268cab7b4032fa1f2dbc73061581fef729.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Dependent var ordered"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Part-time employees at a small business get paid hourly wages based on how many years  they have worked at the business.    **Plot the data in a scatter plot.**      |||||| :-- | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: **Years worked** | $0$ | $1$ | $2$ | $3$ | $4$ **Hourly wage** | $\\$5.50$ | $\\$6.50$ | $\\$7.00$ | $\\$7.50$ | $\\$7.50$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    1,
+                                                    6.5
+                                                ],
+                                                [
+                                                    0,
+                                                    5.5
+                                                ],
+                                                [
+                                                    2,
+                                                    7
+                                                ],
+                                                [
+                                                    3,
+                                                    7.5
+                                                ],
+                                                [
+                                                    4,
+                                                    7.5
+                                                ]
+                                            ],
+                                            "numPoints": "unlimited",
+                                            "type": "point"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$$   Let's plot each point, with its $x$-coordinate coming from the *years worked* and the $y$-coordinate coming from the corresponding *hourly wage*.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The final graph looks like this:      [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A scatterplot plots Wage, from 0 to 8, in increments of 1, on the y-axis, versus Years, from 0 to 5, in increments of 1, on the x-axis. 5 points rise diagonally in a narrow scatter of points between (0, 5 and 1 half) and (4, 7 and 1 half).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d65e4f6bbc2f73d19c558c44d894b316c96285df.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Dependent var ordered"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A doctor studying nutrition collected data on the weights (in kilograms) of infants in North Africa. The table below shows the mean weights for infants of different ages in the study.    **Plot the data in a scatter plot.**      ||||||| :-- | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: **Age (months)** | $1$ | $2$ | $3$ | $4$ | $5$ | $6$ **Weight (kg)** | $4.25$ | $5.0$ | $5.75$ | $6.25$ | $6.75$ |$7.0$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    1,
+                                                    4.25
+                                                ],
+                                                [
+                                                    2,
+                                                    5
+                                                ],
+                                                [
+                                                    3,
+                                                    5.75
+                                                ],
+                                                [
+                                                    4,
+                                                    6.25
+                                                ],
+                                                [
+                                                    5,
+                                                    6.75
+                                                ],
+                                                [
+                                                    6,
+                                                    7
+                                                ]
+                                            ],
+                                            "numPoints": "unlimited",
+                                            "type": "point"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$$   Let's plot each point, with its $x$-coordinate coming from the *age* and the $y$-coordinate coming from the corresponding *weight*.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The final graph looks like this:      [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A scatterplot plots Weight , from 0 to 8, in increments of 1, on the y-axis, versus Age, from 0 to 7, in increments of 1, on the x-axis. 6 points rise diagonally in a narrow cluster of points between (1, 4 and 25 hundredths) and (6, 7).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d1688fd98d0f45c6c7b0d8ef6390c990b03a7b53.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Dependent var ordered"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "An engineer studying fuel usage collected data on the speed a car traveled (in kilometers per hour) and how much fuel it used (in liters per $100$ kilometers).     **Plot the data in a scatter plot.**      ||||||| :-- | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: **Speed (km/h)** | $10$ | $30$ | $50$ | $70$ | $90$ | $110$ **Fuel used $($liters per $100\\,\\text{km})$** | $21$ | $10$ | $7$ | $6$ | $8$ |$9$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    10,
+                                                    21
+                                                ],
+                                                [
+                                                    30,
+                                                    10
+                                                ],
+                                                [
+                                                    50,
+                                                    7
+                                                ],
+                                                [
+                                                    70,
+                                                    6
+                                                ],
+                                                [
+                                                    90,
+                                                    8
+                                                ],
+                                                [
+                                                    110,
+                                                    9
+                                                ]
+                                            ],
+                                            "numPoints": "unlimited",
+                                            "type": "point"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$$   Let's plot each point, with its $x$-coordinate coming from the  *speed* and the $y$-coordinate coming from the corresponding amount of *fuel used*.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The final graph looks like this:    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A scatterplot plots Fuel used, from 0 to 22, in increments of 2, on the y-axis, versus Speed, from 0 to 120, in increments of 10, on the x-axis. 6 points fall in a narrow curved pattern with decreasing steepness between (10, 21) and (70, 6) and increasing from (70, 6) to (110, 9).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/4de98bcc06093836c50dedf53a342b7cb7ce03f4.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Dependent var ordered"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Every year, a meteorologist studying tropical storms predicts how many hurricanes will occur. The table below shows how many hurricanes were predicted and how many hurricanes actually occurred  for the years $2000$ to $2005$.    **Plot the data in a scatter plot to see the relationship between the predicted and actual hurricane counts.**      ||||||| :-- | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: **Year**|$2000$|$2001$|$2002$|$2003$|$2004$|$2005$ **Predicted** | $11$ | $13$ | $12$ | $17$ | $15$ | $17$ **Actual** | $14$ | $15$ | $12$ | $16$ | $14$ |$27$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    11,
+                                                    14
+                                                ],
+                                                [
+                                                    13,
+                                                    15
+                                                ],
+                                                [
+                                                    12,
+                                                    12
+                                                ],
+                                                [
+                                                    17,
+                                                    16
+                                                ],
+                                                [
+                                                    15,
+                                                    14
+                                                ],
+                                                [
+                                                    17,
+                                                    27
+                                                ]
+                                            ],
+                                            "numPoints": "unlimited",
+                                            "type": "point"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$$   Let's plot each point, with its $x$-coordinate coming from the number of *predicted* hurricanes and the $y$-coordinate coming from the corresponding number of *actual* hurricanes.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The final graph looks like this:      [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A scatterplot plots Actual on the y-axis, versus Predicted on the x-axis. The x axis scales by two. The y axis scales by two. The points on the xy axis are as follows: (11, 14), (13, 15), (12, 12), (17, 16), (15, 14), and (17, 27).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/fb35aa1ed9759eb12caef6b869fd37197429a829.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Dependent var ordered"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A doctor studying nutrition collected data on the heights (in meters) of children in America. The table below shows the mean heights for children of different ages in the study.    **Plot the data in a scatter plot.**      |||||| :-- | --: | --: | --: | --: | --: | --: | --: | --: | --: | --:  **Age (years)** | $5$ | $6$ | $8$ | $10$ | $12$  **Height (meters)** | $1.1$ | $1.2$ | $1.3$ | $1.4$ | $1.5$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    5,
+                                                    1.1
+                                                ],
+                                                [
+                                                    6,
+                                                    1.2000000000000002
+                                                ],
+                                                [
+                                                    8,
+                                                    1.3
+                                                ],
+                                                [
+                                                    10,
+                                                    1.4000000000000001
+                                                ],
+                                                [
+                                                    12,
+                                                    1.5
+                                                ]
+                                            ],
+                                            "numPoints": "unlimited",
+                                            "type": "point"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$$   Let's plot each point, with its $x$-coordinate coming from the *age* and the $y$-coordinate coming from the corresponding *height*.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The final graph looks like this:      [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A scatterplot plots Height, from 0 to 2, in increments of 1 half, on the y-axis, versus Age, from 0 to 13, in increments of 1, on the x-axis. 5 points rise diagonally in a narrow scatter of points between (5, 1 and 1 tenth) and (12, 1 and 1 half).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/bff7cd2832c1aa8957d3df23ce58bb3f8a0def17.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Dependent var ordered"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A professional soccer player can score a goal using his right or left foot. The table below shows how many goals the top scoring players in Europe scored with each foot in the $2014\\,\\text{-}\\,2015$ season (according to www.whoscored.com).    **Plot the data in a scatter plot.**      Goals from...| Ronaldo | Messi | Lacazette | Agüero | Griezmann | :-- | --: | --: | --: | --: | --: | --: | --: | --: | --: | --:  **Right foot** | $29$ | $12$ | $24$ | $18$ | $1$  **Left foot** | $6$ | $26$ | $1$ | $7$ | $16$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    29,
+                                                    6
+                                                ],
+                                                [
+                                                    12,
+                                                    26
+                                                ],
+                                                [
+                                                    24,
+                                                    1
+                                                ],
+                                                [
+                                                    18,
+                                                    7
+                                                ],
+                                                [
+                                                    1,
+                                                    16
+                                                ]
+                                            ],
+                                            "numPoints": "unlimited",
+                                            "type": "point"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$$   Let's plot each point, with its $x$-coordinate coming from the number goals from the *right foot* and the $y$-coordinate coming from the corresponding number of goals from the *left foot*.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The final graph looks like this:      [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A scatterplot plots Left, from 0 to 32, in increments of 2, on the y-axis, versus Right, from 0 to 32, in increments of 2, on the x-axis. 5 points fall diagonally in a weak cluster of points between (1, 16) and (29, 6).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d032cec89a5fb86f73746773342647068ab230d4.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Dependent var ordered"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A professional soccer player can score a goal using his feet or his head. The table below shows how many goals a sample of players scored with different parts of their bodies in the $2014\\,\\text{-}\\,2015$ season (according to www.whoscored.com).    **Plot the data in a scatter plot.**      Goals from...| Ronaldo | Neymar | Lacazette | Agüero | Meier | :-- | --: | --: | --: | --: | --: | --: | --: | --: | --: | --:  **Feet** | $35$ | $20$ | $25$ | $25$ | $15$  **Head** | $12$ | $2$ | $2$ | $1$ | $4$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    35,
+                                                    12
+                                                ],
+                                                [
+                                                    20,
+                                                    2
+                                                ],
+                                                [
+                                                    25,
+                                                    2
+                                                ],
+                                                [
+                                                    25,
+                                                    1
+                                                ],
+                                                [
+                                                    15,
+                                                    4
+                                                ]
+                                            ],
+                                            "numPoints": "unlimited",
+                                            "type": "point"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$$   Let's plot each point, with its $x$-coordinate coming from the number goals from the *feet* and the $y$-coordinate coming from the corresponding number of goals from the *head*.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The final graph looks like this:      [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A scatterplot plots Head, from 0 to 13, in increments of 1, on the y-axis, versus Feet, from 0 to 40, in increments of 5, on the x-axis. 5 points rise diagonally in a weak cluster of points from (14, 4) to (25, 2) and 1 point at (35, 12).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/10eff89dc1a8c25680294d683977e024e5860adc.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Dependent var ordered"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Swimmers competed for medals in different events at the $2012$ Summer Olympics in London. The table below shows how many gold and silver medals were won by a sample of nations.     **Plot the data in a scatter plot.**      | USA | China | France | Netherlands | Australia :-- | --: | --: | --: | --: | --: | --: | --: | --: | --: | --:  **Gold** | $16$ | $5$ | $4$ | $2$ | $1$ **Silver** | $9$ | $2$ | $2$ | $1$ | $6$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    1,
+                                                    6
+                                                ],
+                                                [
+                                                    4,
+                                                    2
+                                                ],
+                                                [
+                                                    5,
+                                                    2
+                                                ],
+                                                [
+                                                    16,
+                                                    9
+                                                ],
+                                                [
+                                                    2,
+                                                    1
+                                                ]
+                                            ],
+                                            "numPoints": "unlimited",
+                                            "type": "point"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$$   Let's plot each point, with its $x$-coordinate coming from the number of *gold* medals and the $y$-coordinate coming from the corresponding number of *silver* medals.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The final graph looks like this:     [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A scatterplot plots Silver, from 0 to 20, in increments of 2, on the y-axis, versus Gold, from 0 to 20, in increments of 2, on the x-axis. 5 points rise diagonally in a weak cluster of 4 points between (1, 6) and (5, 2) and a point at (16, 9).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/1b1b82ac363aff1d1668d2624fd8a66dfb3846cc.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Dependent var ordered"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Athletes competed for medals in different track and field events at the $2012$ Summer Olympics in London. The table below shows how many gold and silver medals were won by a sample of nations.     **Plot the data in a scatter plot.**      | USA | Russia | Jamaica | Great Britain | Ethiopia | Kenya :-- | --: | --: | --: | --: | --: | --: | --: | --: | --: | --:  **Gold** | $9$ | $8$ | $4$ | $4$ | $3$ | $2$ **Silver** | $13$ | $4$ | $4$ | $1$ | $1$ | $4$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    9,
+                                                    13
+                                                ],
+                                                [
+                                                    8,
+                                                    4
+                                                ],
+                                                [
+                                                    4,
+                                                    4
+                                                ],
+                                                [
+                                                    4,
+                                                    1
+                                                ],
+                                                [
+                                                    3,
+                                                    1
+                                                ],
+                                                [
+                                                    2,
+                                                    4
+                                                ]
+                                            ],
+                                            "numPoints": "unlimited",
+                                            "type": "point"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$$   Let's plot each point, with its $x$-coordinate coming from the number of *gold* medals and the $y$-coordinate coming from the corresponding number of *silver* medals.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The final graph looks like this:      [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A scatterplot plots Silver on the y-axis, versus Gold on the x-axis. The x axis scales by one. The y axis scales by one. The points on the xy axis are as follows: (2, 4), (3, 1), (4, 1), (4, 4), (8, 4), and (9, 13).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/579fe4b1fc166b1f2a7f1de6d7fac46938393199.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Dependent var ordered"
+                    }
+                }
+            }
+        }
+    ]
+}

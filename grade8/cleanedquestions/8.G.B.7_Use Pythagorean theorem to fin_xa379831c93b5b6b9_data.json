@@ -1,0 +1,899 @@
+{
+    "standard_metadata": {
+        "standard_id": "8.G.B.7",
+        "standard_description": "Apply the Pythagorean Theorem to determine unknown side lengths in right triangles in real-world and mathematical problems in two and three dimensions.",
+        "standard_title": "Use Pythagorean theorem to find perimeter",
+        "standard_url": "https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-geometry/pythagorean-theorem-application/e/use-pythagorean-theorem-to-find-area-and-perimeter"
+    },
+    "id": "xa379831c93b5b6b9",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the perimeter of the parallelogram?**       units",
+                                "images": [
+                                    {
+                                        "alt": "A parallelogram plotted on a coordinate plane. The base is 4 units and the height is 4 units.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/fe08e1200738c31bce7e3c7694fac55de1776773.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "18",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Perimeter is the distance around a figure.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Each diagonal line is the $\\purpleD{\\text{hypotenuse}}$ of a $\\maroonD{\\text{right triangle}}$.     [[☃ image 1]]  We  can use the Pythagorean Theorem  to find the length of each diagonal line.  The equation for the Pythagorean Theorem is   >$a^2 + b^2  = c^2$  where $a$ and $b$ are the lengths of the two legs of the triangle, and $c$ is the length of the hypotenuse. [[☃ explanation 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A parallelogram plotted on a coordinate plane. The base is 4 units and the height is 4 units. Two dotted lines create a right triangle above and below the parallelogram.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/4ee79fc53da9cac7ce15b7d1e5cbbc515456720f.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's label the drawing with $a$, $b$, and $c$:    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A parallelogram plotted on a coordinate plane. The base is 4 units and the height is 4 units. Two dotted lines create a right triangle above and below the parallelogram. The base of the bottom right triangle is labeled a. The height of the bottom right triangle is labeled b. The longest side of the bottom right triangle is labeled c.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/71fa290a93630c2d6bef048108958bcd323fcb1d.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We can count the squares to find the lengths of $a$ and $b$ and then plug those values into the Pythagorean Theorem.   [[☃ image 1]]  $\\begin{align}  a^2 +  b^2 &= \\purpleD c^2 ~~~~~~~~\\small\\gray{\\text{The Pythagorean Theorem}}\\\\\\\\ 4^2 + 3^2 &= \\purpleD{c}^2 ~~~~~~~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ 16+9 &= \\purpleD{c}^2 ~~~~~~~~\\small\\gray{\\text{Evaluate } 4^2 \\text{ and }  3^2}\\\\\\\\ 25 &= c^2~~~~~~~~\\small\\gray{\\text{Add 16and 9}}\\\\\\\\ 5 &= c~~~~~~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": [
+                                        {
+                                            "alt": "A parallelogram plotted on a coordinate plane. The base is 4 units and the height is 4 units. Two dotted lines create a right triangle above and below the parallelogram. The base of the bottom right triangle is labeled 4. The height of the bottom right triangle is labeled 3. The longest side of the bottom right triangle is labeled c.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d9b4c29881aa4a76a494554eb159d9953a0cf112.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now that we know the lengths of both diagonal lines, we can find the length of the two remaining sides to find the perimeter.      Since the remaining sides are vertical lines, we can count the squares to find their lengths.    [[☃ image 1]]  $5 + 5 + 4+4 = 18$",
+                                    "images": [
+                                        {
+                                            "alt": "A parallelogram plotted on a coordinate plane. The base is 4 units and the other side length is 5 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/967cf04bd4c03a233648cec1688a57b51450f692.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The perimeter of the parallelogram is $18$ units.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Perimeter-graph"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the perimeter of the parallelogram?**          units",
+                                "images": [
+                                    {
+                                        "alt": "A parallelogram plotted on a coordinate plane. The base is 8 units and the height is 8 units.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/5932ff456c42ee51c983a42426e095b1850d3419.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "36",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Perimeter is the distance around a figure.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Each diagonal line is the $\\purpleD{\\text{hypotenuse}}$ of a $\\maroonD{\\text{right triangle}}$.     [[☃ image 1]]  We  can use the Pythagorean Theorem  to find the length of each diagonal line.  The equation for the Pythagorean Theorem is   >$a^2 + b^2  = c^2$  where $a$ and $b$ are the lengths of the two legs of the triangle, and $c$ is the length of the hypotenuse. [[☃ explanation 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A parallelogram plotted on a coordinate plane. The base is 8 units and the height is 8 units. Two dotted lines create a right triangle to the left and right of the parallelogram.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/509f52f999b2a83e8376db491c98a96fc07810fa.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's label the drawing with $a$, $b$, and $c$:   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A parallelogram plotted on a coordinate plane. The base is 8 units and the height is 8 units. Two dotted lines create a right triangle to the left and right of the parallelogram. The base of the left right triangle is labeled a. The height of the left right triangle is labeled b. The longest side of the left right triangle is labeled c.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/6847b76536d211e7d8f7c66364e46ee5b50de4ff.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We can count the squares to find the lengths of $a$ and $b$ and then plug those values into the Pythagorean Theorem.   [[☃ image 1]]  $\\begin{align}  a^2 +  b^2 &= \\purpleD c^2 ~~~~~~~~\\small\\gray{\\text{The Pythagorean Theorem}}\\\\\\\\ 6^2 + 8^2 &= \\purpleD{c}^2 ~~~~~~~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ 36 + 64 &= \\purpleD{c}^2 ~~~~~~~~\\small\\gray{\\text{Evaluate } 6^2 \\text{ and }  8^2}\\\\\\\\ 100 &= c^2~~~~~~~\\small\\gray{\\text{Add 36 and 64}}\\\\\\\\ 10 &= c~~~~~~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": [
+                                        {
+                                            "alt": "A parallelogram plotted on a coordinate plane. The base is 8 units and the height is 8 units. Two dotted lines create a right triangle to the left and right of the parallelogram. The base of the left right triangle is labeled 6. The height of the left right triangle is labeled 8. The longest side of the left right triangle is labeled c.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/fe93dd6998564581a12b5392ab309b5f2e83509c.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now that we know the lengths of both diagonal lines, we can find the length of the two remaining sides to find the perimeter.      Since the remaining sides are horizontal lines, we can count the squares to find their lengths.   [[☃ image 1]]  $10 + 10 + 8+8 = 36$",
+                                    "images": [
+                                        {
+                                            "alt": "A parallelogram plotted on a coordinate plane. The base is 8 units and the other side length is 10 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/9c8d6bbf03bf93f608592f89183e76e5d0462c6c.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The perimeter of the parallelogram is $36$ units.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Perimeter-graph"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the perimeter of the parallelogram?**          units",
+                                "images": [
+                                    {
+                                        "alt": "A parallelogram plotted on a coordinate plane. The base is 5 units and the height is 12 units.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/00ce41ecae46c7f29d859319ba7642bf53a1e9be.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "36",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Perimeter is the distance around a figure.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Each diagonal line is the $\\purpleC{\\text{hypotenuse}}$ of a $\\maroonD{\\text{right triangle}}$.    [[☃ image 1]]  We  can use the Pythagorean Theorem  to find the length of each diagonal line.  The equation for the Pythagorean Theorem is   >$a^2 + b^2  = c^2$  where $a$ and $b$ are the lengths of the two legs of the triangle, and $c$ is the length of the hypotenuse. [[☃ explanation 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A parallelogram plotted on a coordinate plane. The base is 5 units and the height is 12 units. Two dotted lines create a right triangle to the left and right of the parallelogram.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/14da4f26e2c4f7dda01b7fd7243ce76b6de410e4.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's label the drawing with $a$, $b$, and $c$:    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A parallelogram plotted on a coordinate plane. The base is 5 units and the height is 12 units. Two dotted lines create a right triangle to the left and right of the parallelogram. The base of the right most right triangle is labeled a. The height of the right most right triangle is labeled b. The longest side of the left right triangle is labeled c.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/754780a7b04eb743b113d000e3309bffac771b46.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We can count the squares to find the lengths of $a$ and $b$ and then plug those values into the Pythagorean Theorem.   [[☃ image 1]]  $\\begin{align}  a^2 +  b^2 &= \\purpleC c^2 ~~~~~~~~\\small\\gray{\\text{The Pythagorean Theorem}}\\\\\\\\ 5^2 + 12^2 &= \\purpleC{c}^2 ~~~~~~~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ 25 + 144 &= \\purpleC{c}^2 ~~~~~~~~\\small\\gray{\\text{Evaluate } 5^2 \\text{ and }  12^2}\\\\\\\\ 169 &= c^2~~~~~~~\\small\\gray{\\text{Add 25 and 144}}\\\\\\\\ 13 &= c~~~~~~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": [
+                                        {
+                                            "alt": "A parallelogram plotted on a coordinate plane. The base is 5 units and the height is 12 units. Two dotted lines create a right triangle to the left and right of the parallelogram. The base of the right most right triangle is labeled 5. The height of the right most right triangle is labeled 12. The longest side of the left right triangle is labeled c.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/59ac554ac98647a042a6a805d59105ec5bfcd386.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now that we know the lengths of both diagonal lines, we can find the length of the two remaining sides to find the perimeter.      Since the remaining sides are horizontal lines, we can count the squares to find their lengths.    [[☃ image 1]]  $13 + 13 + 5+5 = 36$",
+                                    "images": [
+                                        {
+                                            "alt": "A parallelogram plotted on a coordinate plane. The base is 5 units and the other side length is 13 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/f6cdef252ffffcc6145ad695054502faa257a9be.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The perimeter of the parallelogram is $36$ units.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Perimeter-graph"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the perimeter of the trapezoid?**          units",
+                                "images": [
+                                    {
+                                        "alt": "A quadrilateral with 1 pair of parallel sides  plotted on a coordinate plane. The lower base is 14 units and the top base is 8 units.  The height of the quadrilateral is 8 units.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/d4651cc8ca60e6f057d8a16eac10b7632517449a.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "40",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Perimeter is the distance around a figure.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The diagonal line is the $\\purpleD{\\text{hypotenuse}}$ of a $\\maroonD{\\text{right triangle}}$.    [[☃ image 1]]  We  can use the Pythagorean Theorem  to find the length of the diagonal line.  The equation for the Pythagorean Theorem is   >$a^2 + b^2  = c^2$  where $a$ and $b$ are the lengths of the two legs of the triangle, and $c$ is the length of the hypotenuse. [[☃ explanation 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides  plotted on a coordinate plane. The lower base is 14 units and the top base is 8 units.  The height of the quadrilateral is 8 units. Two dotted lines create a right triangle to the right of the quadrilateral.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/15c0c7c30c4e433daed237cb3dd6ce5cc5d4526e.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's label the drawing with $a$, $b$, and $c$:   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides  plotted on a coordinate plane. The lower base is 14 units and the top base is 8 units.  The height of the quadrilateral is 8 units. Two dotted lines create a right triangle to the right of the quadrilateral. The base of the right triangle is labeled a. The height of the right triangle is labeled b. The longest side of the right triangle is labeled c.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/24debd66b7d3d68a7724a37fac1ab93cae78fd73.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We can count the squares to find the lengths of $a$ and $b$ and then plug those values into the Pythagorean Theorem.    [[☃ image 1]]  $\\begin{align}  a^2 +  b^2 &= \\purpleD c^2 ~~~~~~~~\\small\\gray{\\text{The Pythagorean Theorem}}\\\\\\\\ 6^2 + 8^2 &= \\purpleD{c}^2 ~~~~~~~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ 36 + 64 &= \\purpleD{c}^2 ~~~~~~~~\\small\\gray{\\text{Evaluate } 6^2 \\text{ and }  8^2}\\\\\\\\ 100 &= c^2~~~~~~~\\small\\gray{\\text{Add 36 and 64}}\\\\\\\\ 10 &= c~~~~~~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides  plotted on a coordinate plane. The lower base is 14 units and the top base is 8 units.  The height of the quadrilateral is 8 units. Two dotted lines create a right triangle to the right of the quadrilateral. The base of the right triangle is labeled 6. The height of the right triangle is labeled 8. The longest side of the right triangle is labeled c.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/2067266cfa7638d260894a0d152fdc872a448ded.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now that we know the length of the diagonal line, we can find the length of the remaining sides to find the perimeter.      Since the remaining sides are vertical or horizontal  lines, we can count the squares to find their lengths.    [[☃ image 1]]  $10 + 8+8+14= 40$",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides  plotted on a coordinate plane. The lower base is 14 units and the top base is 8 units.  The height of the quadrilateral is 8 units. The length of the diagonal side is 10 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d6861a01be2dce8d0ba063d5f51a7ee1c1f198a9.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The perimeter of the trapezoid is $40$ units.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Perimeter-graph"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the perimeter of the trapezoid?**         units",
+                                "images": [
+                                    {
+                                        "alt": "A quadrilateral with 1 pair of parallel sides  plotted on a coordinate plane. The left most base is 7 units and the right most base is 4 units.  The height of the quadrilateral is 4 units. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/416c779e8cbdd5392b148d45965ba06e697ed7d9.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "20",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Perimeter is the distance around a figure.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The diagonal line is the $\\purpleD{\\text{hypotenuse}}$ of a $\\maroonD{\\text{right triangle}}$.    [[☃ image 1]]  We  can use the Pythagorean Theorem  to find the length of the diagonal line.  The equation for the Pythagorean Theorem is   >$a^2 + b^2  = c^2$  where $a$ and $b$ are the lengths of the two legs of the triangle, and $c$ is the length of the hypotenuse. [[☃ explanation 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides  plotted on a coordinate plane. The left most base is 7 units and the right most base is 4 units.  The height of the quadrilateral is 4 units. Two dotted lines create a right triangle below the quadrilateral.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/815959aa4b03720193c589ae3322828fd3691218.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's label the drawing with $a$, $b$, and $c$:    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides  plotted on a coordinate plane. The left most base is 7 units and the right most base is 4 units.  The height of the quadrilateral is 4 units. Two dotted lines create a right triangle below the quadrilateral. The base of the right triangle is labeled a. The height of the right triangle is labeled b. The longest side of the right triangle is labeled c.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/95ea847501e70c7fbe54b5ec76bc58c7329d2d8d.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We can count the squares to find the lengths of $a$ and $b$ and then plug those values into the Pythagorean Theorem.    [[☃ image 1]]  $\\begin{align}  a^2 +  b^2 &= \\purpleD c^2 ~~~~~~~~\\small\\gray{\\text{The Pythagorean Theorem}}\\\\\\\\ 4^2 + 3^2 &= \\purpleD{c}^2 ~~~~~~~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ 16 + 9&= \\purpleD{c}^2 ~~~~~~~~\\small\\gray{\\text{Evaluate } 4^2 \\text{ and }  3^2}\\\\\\\\ 25 &= c^2~~~~~~~~\\small\\gray{\\text{Add 16 and 9}}\\\\\\\\ 5 &= c~~~~~~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides plotted on a coordinate plane. The left most base is 7 units and the right most base is 4 units.  The height of the quadrilateral is 4 units. Two dotted lines create a right triangle below the quadrilateral. The base of the right triangle is labeled 4. The height of the right triangle is labeled 3. The longest side of the right triangle is labeled c.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/35acd8d97a092877170b40ba8cc2daa3fe672d3d.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now that we know the length of the diagonal line, we can find the length of the remaining sides to find the perimeter.      Since the remaining sides are vertical or horizontal  lines, we can count the squares to find their lengths.    [[☃ image 1]]  $5+7+4+4= 20$",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides  plotted on a coordinate plane. The left most base is 7 units and the right most base is 4 units.  The height of the quadrilateral is 4 units. The length of the diagonal side is 5 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/ff3cdc436cef6ee92787265da0d3f3649a42b8f8.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The perimeter of the trapezoid is $20$ units.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Perimeter-graph"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the perimeter of the trapezoid?**          units",
+                                "images": [
+                                    {
+                                        "alt": "A quadrilateral with 1 pair of parallel sides  plotted on a coordinate plane. The bottom base is 9 units and the top base is 1 unit.  The height of the quadrilateral is 3 units.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/f545f7d98aa034db2e8f5b1ed6d31f7e0db3f284.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "20",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Perimeter is the distance around a figure.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Each diagonal line is the $\\purpleC{\\text{hypotenuse}}$ of a $\\maroonD{\\text{right triangle}}$.    [[☃ image 1]]  We  can use the Pythagorean Theorem  to find the length of each diagonal line.  The equation for the Pythagorean Theorem is   >$a^2 + b^2  = c^2$  where $a$ and $b$ are the lengths of the two legs of the triangle, and $c$ is the length of the hypotenuse. [[☃ explanation 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides  plotted on a coordinate plane. The bottom base is 9 units and the top base is 1 unit.  The height of the quadrilateral is 3 units. Two dotted lines create right triangles to the left and right of the quadrilateral.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/0f848c711802ac3a35c17717776ea47465ca6a72.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's label the drawing with $a$, $b$, and $c$:    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides  plotted on a coordinate plane. The bottom base is 9 units and the top base is 1 unit.  The height of the quadrilateral is 3 units. Two dotted lines create right triangles to the left and right of the quadrilateral. The base of the left most right triangle is labeled b. The height of the left most right triangle is labeled a. The length of the longest side of the left most right triangle is labeled c.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/8bd879c747f8d1de45d885080db1bdf1af2573c1.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We can count the squares to find the lengths of $a$ and $b$ and then plug those values into the Pythagorean Theorem.    [[☃ image 1]]  $\\begin{align}  a^2 +  b^2 &= \\purpleC c^2 ~~~~~~~~\\small\\gray{\\text{The Pythagorean Theorem}}\\\\\\\\ 3^2 + 4^2 &= \\purpleC{c}^2 ~~~~~~~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ 9 + 16&= \\purpleC{c}^2 ~~~~~~~~\\small\\gray{\\text{Evaluate } 3^2 \\text{ and }  4^2}\\\\\\\\ 25 &= c^2~~~~~~~~\\small\\gray{\\text{Add 9 and 16}}\\\\\\\\ 5 &= c~~~~~~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$  The length of the other diagonal line is also $5$.",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides  plotted on a coordinate plane. The bottom base is 9 units and the top base is 1 unit.  The height of the quadrilateral is 3 units. Two dotted lines create right triangles to the left and right of the quadrilateral The base of the left most right triangle is labeled 4. The height of the left most right triangle is labeled 3. The length of the longest side of the left most right triangle is labeled c.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/60e6fa1cf4065c7a2a8e257fb70659c5c666443f.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now that we know the length of each diagonal line, we can find the length of the remaining sides to find the perimeter.      Since the remaining sides are horizontal  lines, we can count the squares to find their lengths.    [[☃ image 1]]  $9+5+1+5= 20$",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides plotted on a coordinate plane. The bottom base is 9 units and the top base is 1 unit.  The height of the quadrilateral is 3 units. The length of the two diagonal sides is 5 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/c0480fed1f619bd06e3dc0326ae85975821ad4ef.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The perimeter of the trapezoid is $20$ units.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Perimeter-graph"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the perimeter of the triangle?**          units",
+                                "images": [
+                                    {
+                                        "alt": "A right triangle plotted on a coordinate plane. The base is 12 units and the height is 9 units.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/a1f124d23b24967733577a40fe75abfa83381c73.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "36",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Perimeter is the distance around a figure.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The diagonal line is the $\\purpleD{\\text{hypotenuse}}$ of a $\\blueD{\\text{right triangle}}$.     [[☃ image 1]]  We  can use the Pythagorean Theorem  to find the length of the diagonal line.  The equation for the Pythagorean Theorem is   >$a^2 + b^2  = c^2$  where $a$ and $b$ are the lengths of the two legs of the triangle, and $c$ is the length of the hypotenuse. [[☃ explanation 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A right triangle plotted on a coordinate plane. The base is 12 units and the height is 9 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/7a7ca486b8dda682f289ea3efee141b138bbdf79.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's label the drawing with $a$, $b$, and $c$:   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A right triangle plotted on a coordinate plane. The base is 12 units and the height is 9 units. The base is labeled b. The height is labeled a. The longest side is labeled c.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/c128b252f6ea26ffc146f445ed983976b3096a95.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We can count the squares to find the lengths of $a$ and $b$ and then plug those values into the Pythagorean Theorem.   [[☃ image 1]]  $\\begin{align}  a^2 +  b^2 &= \\purpleD c^2 ~~~~~~~~\\small\\gray{\\text{The Pythagorean Theorem}}\\\\\\\\ 9^2 + 12^2 &= \\purpleD{c}^2 ~~~~~~~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ 81 + 144&= \\purpleD{c}^2 ~~~~~~~~\\small\\gray{\\text{Evaluate } 9^2 \\text{ and }  12^2}\\\\\\\\ 225 &= c^2~~~~~~~~\\small\\gray{\\text{Add 81 and 144}}\\\\\\\\ 15 &= c~~~~~~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": [
+                                        {
+                                            "alt": "A right triangle plotted on a coordinate plane. The base is 12 units and the height is 9 units. The base is labeled 12. The height is labeled 9. The longest side is labeled c.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d003fc75dcc8dfb5c22a69d614c19c0eb36c9b6f.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now that we know the length of the diagonal line, we can find the length of the remaining sides to find the perimeter.      Since the remaining sides are vertical or horizontal  lines, we can count the squares to find their lengths.    [[☃ image 1]]  $15+12 +9= 36$",
+                                    "images": [
+                                        {
+                                            "alt": "A right triangle plotted on a coordinate plane. The base is 12 units and the height is 9 units. The base is labeled 12. The height is labeled 9. The longest side is labeled 15.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/620eb09b65cb2d40a62e225b4ff6248ff1ee4ce4.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The perimeter of the triangle is $36$ units.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Perimeter-graph"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the perimeter of the triangle?**         units",
+                                "images": [
+                                    {
+                                        "alt": "A right triangle plotted on a coordinate plane. The base is 12 units and the height is 5 units.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/3a12b283fa27dfb736680cba3b37825cb714988c.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "30",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Perimeter is the distance around a figure.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The diagonal line is the $\\purpleD{\\text{hypotenuse}}$ of a $\\blueD{\\text{right triangle}}$.     [[☃ image 1]]  We  can use the Pythagorean Theorem  to find the length of the diagonal line.  The equation for the Pythagorean Theorem is   >$a^2 + b^2  = c^2$  where $a$ and $b$ are the lengths of the two legs of the triangle, and $c$ is the length of the hypotenuse. [[☃ explanation 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A right triangle plotted on a coordinate plane. The base is 12 units and the height is 5 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/4998372057dbcb0a4aede8291c1645e5fe99e708.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's label the drawing with $a$, $b$, and $c$:   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A right triangle plotted on a coordinate plane. The base is 12 units and the height is 5 units. The base is labeled b. The height is labeled a. The longest side is labeled c.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/a691bd0fd506d69d4602cc3e8a37cc60a174dfce.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We can count the squares to find the lengths of $a$ and $b$ and then plug those values into the Pythagorean Theorem.    [[☃ image 1]]  $\\begin{align}  a^2 +  b^2 &= \\purpleD c^2 ~~~~~~~~\\small\\gray{\\text{The Pythagorean Theorem}}\\\\\\\\ 5^2 + 12^2 &= \\purpleD{c}^2 ~~~~~~~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ 25 + 144&= \\purpleD{c}^2 ~~~~~~~~\\small\\gray{\\text{Evaluate } 5^2 \\text{ and }  12^2}\\\\\\\\ 169&= c^2~~~~~~~~\\small\\gray{\\text{Add 25 and 144}}\\\\\\\\ 13 &= c~~~~~~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": [
+                                        {
+                                            "alt": "A right triangle plotted on a coordinate plane. The base is 12 units and the height is 5 units. The base is labeled 12. The height is labeled 5. The longest side is labeled c.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/8f26cd2fe010a2c35cbed73b8618fee395dd1db8.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now that we know the length of the diagonal line, we can find the length of the remaining sides to find the perimeter.      Since the remaining sides are vertical or horizontal  lines, we can count the squares to find their lengths.    [[☃ image 1]]  $13+12+5= 30$",
+                                    "images": [
+                                        {
+                                            "alt": "A right triangle plotted on a coordinate plane. The base is 12 units and the height is 5 units. The base is labeled 12. The height is labeled 5. The longest side is labeled 13.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/2257eb78e14054e3743ba44ec4b4af8a9e9908b8.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The perimeter of the triangle is $30$ units.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Perimeter-graph"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the perimeter of the triangle?**          units",
+                                "images": [
+                                    {
+                                        "alt": "A right triangle plotted on a coordinate plane. The base is 8 units and the height is 15 units.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/f38088fa6ce6e94cab61295c623d557bfbc6608a.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "40",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Perimeter is the distance around a figure.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The diagonal line is the $\\purpleC{\\text{hypotenuse}}$ of a $\\blueD{\\text{right triangle}}$.    [[☃ image 1]]  We  can use the Pythagorean Theorem  to find the length of the diagonal line.  The equation for the Pythagorean Theorem is   >$a^2 + b^2  = c^2$  where $a$ and $b$ are the lengths of the two legs of the triangle, and $c$ is the length of the hypotenuse. [[☃ explanation 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A right triangle plotted on a coordinate plane. The base is 8 units and the height is 15 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/c0805932db3b30d9fc321b383b7e5f416288695a.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's label the drawing with $a$, $b$, and $c$:    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A right triangle plotted on a coordinate plane. The base is 8 units and the height is 15 units. The base is labeled b. The height is labeled a. The longest side is labeled c.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/ea140be27b64d19aeaca72e9a7c96af65dcbb968.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We can count the squares to find the lengths of $a$ and $b$ and then plug those values into the Pythagorean Theorem.   [[☃ image 1]]  $\\begin{align}  a^2 +  b^2 &= \\purpleC c^2 ~~~~~~~~\\small\\gray{\\text{The Pythagorean Theorem}}\\\\\\\\ 15^2 + 8^2 &= \\purpleC{c}^2 ~~~~~~~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ 225 + 64&= \\purpleC{c}^2 ~~~~~~~~\\small\\gray{\\text{Evaluate } 15^2 \\text{ and }  8^2}\\\\\\\\ 289&= c^2~~~~~~~~\\small\\gray{\\text{Add 225 and 64}}\\\\\\\\ 17 &= c~~~~~~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": [
+                                        {
+                                            "alt": "A right triangle plotted on a coordinate plane. The base is 8 units and the height is 15 units. The base is labeled 8. The height is labeled 15. The longest side is labeled c.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/1f85f6dbba3eb9a807da9f1f3c0ef9e1c204f97e.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now that we know the length of the diagonal line, we can find the length of the remaining sides to find the perimeter.      Since the remaining sides are vertical or horizontal  lines, we can count the squares to find their lengths.    [[☃ image 1]]  $15+8+17= 40$",
+                                    "images": [
+                                        {
+                                            "alt": "A right triangle plotted on a coordinate plane. The base is 8 units and the height is 15 units. The base is labeled 8. The height is labeled 15. The longest side is labeled 17.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/82e12684f8c530c8380d80f5589483808d7cb276.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The perimeter of the triangle is $40$ units.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Perimeter-graph"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the perimeter of the triangle?**         units",
+                                "images": [
+                                    {
+                                        "alt": "A triangle plotted on a coordinate plane. The base is 18 units and the height is 12 units. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/34a1026a3c6104e0c51c80e604183293bad1ba20.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "48",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Perimeter is the distance around a figure.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Each diagonal line is the $\\purpleD{\\text{hypotenuse}}$ of a $\\maroonD{\\text{right triangle}}$.     [[☃ image 1]]  We  can use the Pythagorean Theorem  to find the length of the diagonal line.  The equation for the Pythagorean Theorem is   >$a^2 + b^2  = c^2$  where $a$ and $b$ are the lengths of the two legs of the triangle, and $c$ is the length of the hypotenuse. [[☃ explanation 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle plotted on a coordinate plane. The base is 18 units and the height is 12 units. Two dotted lines create right triangles to the left and right of the triangle. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/dc0f4022c81bbd844ad11a38d601032ef17fc41d.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's label the drawing with $a$, $b$, and $c$:   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle plotted on a coordinate plane. The base is 18 units and the height is 12 units. Two dotted lines create right triangles to the left and right of the triangle. The base of the left most right triangle is labeled b. The height of the left most right triangle is labeled a. The length of the longest side of the left most right triangle is labeled c.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/ab8788810802ff2b3b8e41c7a365c8aa1379358f.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We can count the squares to find the lengths of $a$ and $b$ and then plug those values into the Pythagorean Theorem.   [[☃ image 1]]  $\\begin{align}  a^2 +  b^2 &= \\purpleD c^2 ~~~~~~~~\\small\\gray{\\text{The Pythagorean Theorem}}\\\\\\\\ 12^2 + 9^2 &= \\purpleD{c}^2 ~~~~~~~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ 144 + 81&= \\purpleD{c}^2 ~~~~~~~~\\small\\gray{\\text{Evaluate } 12^2 \\text{ and }  9^2}\\\\\\\\ 225&= c^2~~~~~~~~\\small\\gray{\\text{Add 144 and 81}}\\\\\\\\ 15 &= c~~~~~~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle plotted on a coordinate plane. The base is 18 units and the height is 12 units. Two dotted lines create right triangles to the left and right of the triangle. The base of the left most right triangle is labeled 9. The height of the left most right triangle is labeled 12. The length of the longest side of the left most right triangle is labeled c.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/e763d930bbcb14b78441c84069120b33d10d8913.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now that we know the length of the diagonal lines, we can find the length of the remaining side to find the perimeter.      Since the remaining side is a horizontal  line, we can count the squares to find the length.    [[☃ image 1]]  $15+15+18= 48$",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle plotted on a coordinate plane. The base is 18 units and the height is 12 units. The other 2 side lengths are 15 units each.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/ed8b34c1870f132ae3b31a7f7ab46eadbbb01398.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The perimeter of the triangle is $48$ units.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Perimeter-graph"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the perimeter of the triangle?**          units",
+                                "images": [
+                                    {
+                                        "alt": "A triangle plotted on a coordinate plane. The base is 10 units and the height is 12 units. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/980016e3627b3f206299044081ed94f92b97e5f7.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "36",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Perimeter is the distance around a figure.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Each diagonal line is the $\\purpleD{\\text{hypotenuse}}$ of a $\\maroonD{\\text{right triangle}}$.    [[☃ image 1]]  We  can use the Pythagorean Theorem  to find the length of the diagonal line.  The equation for the Pythagorean Theorem is   >$a^2 + b^2  = c^2$  where $a$ and $b$ are the lengths of the two legs of the triangle, and $c$ is the length of the hypotenuse. [[☃ explanation 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle plotted on a coordinate plane. The base is 10 units and the height is 12 units. Two dotted lines create right triangles to the left and right of the triangle. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/49535fb2c68f1c4972ee306ee8f4da2558bc96bf.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's label the drawing with $a$, $b$, and $c$:   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle plotted on a coordinate plane. The base is 10 units and the height is 12 units. Two dotted lines create right triangles to the left and right of the triangle. The base of the left most right triangle is labeled a. The height of the left most right triangle is labeled b. The length of the longest side of the left most right triangle is labeled c.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/304885f96b1f5eb21517b949dde6c6f989b71b6a.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We can count the squares to find the lengths of $a$ and $b$ and then plug those values into the Pythagorean Theorem.   [[☃ image 1]]  $\\begin{align}  a^2 +  b^2 &= \\purpleD c^2 ~~~~~~~~\\small\\gray{\\text{The Pythagorean Theorem}}\\\\\\\\ 5^2 + 12^2 &= \\purpleD{c}^2 ~~~~~~~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ 25 + 144&= \\purpleD{c}^2 ~~~~~~~~\\small\\gray{\\text{Evaluate } 5^2 \\text{ and }  12^2}\\\\\\\\ 169&= c^2~~~~~~~~\\small\\gray{\\text{Add 25 and 144}}\\\\\\\\ 13 &= c~~~~~~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": [
+                                        {
+                                            "alt": "A  triangle plotted on a coordinate plane. The base is 10 units and the height is 12 units. Two dotted lines create right triangles to the left and right of the triangle. The base of the left most right triangle is labeled 5. The height of the left most right triangle is labeled 12. The length of the longest side of the left most right triangle is labeled c.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/de130416fa366b1c4688051384bbea2a317b5508.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now that we know the length of the diagonal lines, we can find the length of the remaining side to find the perimeter.      Since the remaining side is a horizontal  line, we can count the squares to find the length.    [[☃ image 1]]  $13+13+10= 36$",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle plotted on a coordinate plane. The base is 10 units and the height is 12 units. The other 2 side lengths are 13 units each.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/f645da761d66e5895d2bd79b4678729a1df82a98.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The perimeter of the triangle is $36$ units.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Perimeter-graph"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the perimeter of the triangle?**        units",
+                                "images": [
+                                    {
+                                        "alt": "A triangle plotted on a coordinate plane. The base is 16 units and the height is 6 units. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/ab58c257137961e6d8f1fc361a9ffa489d56b6f7.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "36",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Perimeter is the distance around a figure.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Each diagonal line is the $\\purpleC{\\text{hypotenuse}}$ of a $\\maroonD{\\text{right triangle}}$.     [[☃ image 1]]  We  can use the Pythagorean Theorem  to find the length of the diagonal line.  The equation for the Pythagorean Theorem is   >$a^2 + b^2  = c^2$  where $a$ and $b$ are the lengths of the two legs of the triangle, and $c$ is the length of the hypotenuse. [[☃ explanation 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle plotted on a coordinate plane. The base is 16 units and the height is 6 units. Two dotted lines create right triangles to the above and below the triangle. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/b32315b407ade5df9e846879142004b4330b4b60.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's label the drawing with $a$, $b$, and $c$:    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle plotted on a coordinate plane. The base is 16 units and the height is 6 units. Two dotted lines create right triangles to the above and below the triangle. The base of the top right triangle is labeled a. The height of the top right triangle is labeled b. The length of the longest side of the top right triangle is labeled c.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/7c11d12578c1a9cd68fcfc26103020c2586018df.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We can count the squares to find the lengths of $a$ and $b$ and then plug those values into the Pythagorean Theorem.    [[☃ image 1]]  $\\begin{align}  a^2 +  b^2 &= \\purpleC c^2 ~~~~~~~~\\small\\gray{\\text{The Pythagorean Theorem}}\\\\\\\\ 6^2 + 8^2 &= \\purpleC{c}^2 ~~~~~~~~\\small\\gray{\\text{Plug in the side lengths}}\\\\\\\\ 36 + 64&= \\purpleC{c}^2 ~~~~~~~~\\small\\gray{\\text{Evaluate } 6^2 \\text{ and }  8^2}\\\\\\\\ 100&= c^2~~~~~~~~\\small\\gray{\\text{Add 36 and 64}}\\\\\\\\ 10 &= c~~~~~~~~\\small\\gray{\\text{Take the square root of each side}}\\\\\\\\ \\\\\\end{align}$",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle plotted on a coordinate plane. The base is 16 units and the height is 6 units. Two dotted lines create right triangles to the above and below the triangle. The base of the top right triangle is labeled 6. The height of the top right triangle is labeled 8. The length of the longest side of the top right triangle is labeled c.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/cef13196f211c5c1a3f03ee3cb7ab47ac8a184e8.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now that we know the length of the diagonal lines, we can find the length of the remaining side to find the perimeter.      Since the remaining side is a vertical  line, we can count the squares to find the length.   [[☃ image 1]]  $16+10+10= 36$",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle plotted on a coordinate plane. The base is 16 units and the height is 6 units. The other 2 side lengths are 10 units each.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/24fbf9ac585f4ddbc3c3feb5e6e0c3ebc1538397.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The perimeter of the triangle is $36$ units.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Perimeter-graph"
+                    }
+                }
+            }
+        }
+    ]
+}

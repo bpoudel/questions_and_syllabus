@@ -1,0 +1,830 @@
+{
+    "standard_metadata": {
+        "standard_id": "5.OA.B.3",
+        "standard_description": "Generate two numerical patterns using two given rules. Identify apparent relationships between corresponding terms. Form ordered pairs consisting of corresponding terms from the two patterns, and graph the ordered pairs on a coordinate plane.",
+        "standard_title": "Relationships between 2 patterns",
+        "standard_url": "https://www.khanacademy.org/math/cc-fifth-grade-math/imp-algebraic-thinking/imp-number-patterns/e/visualizing-and-interpreting-relationships-between-patterns"
+    },
+    "id": "xa734b67f",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The table uses the following two patterns.  Pattern $x$: Starting number: $10$, Rule: add $5$  Pattern $y$: Starting number: $2$, Rule: add $1$   $x$ | $y$  :-: | :-:  $10$ | $2$ $15$ | $3$ $20$ | $4$    **The terms in pattern $y$ are  times the terms in pattern $x$.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "4",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Plan  We need to find a pattern that relates $x$ to $y$.  The terms in pattern $y$ are $\\redE{?}$ times the terms in pattern $x$.  $y = {\\redE{?}} \\times x$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Describe the relationship  Let's try each pair of $x$- and $y$ values in the relationship.  $\\begin{align} y &= \\redE{{?}} \\times x\\\\\\\\ \\blueE{2} &= \\redE{{?}} \\times \\blueE{10}\\\\\\\\ \\maroonE{3} &= \\redE{{?}} \\times \\maroonE{15}\\\\\\\\ \\purpleD{4} &= \\redE{{?}} \\times \\purpleD{20} \\end{align}$  We see that $y$ is less than $x$, so we must be multiplying by a value less than $1$.  What value for $\\redE{?}$ makes all the equations true?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\blueE{2} &= \\redE{\\dfrac{1}{5}} \\times \\blueE{10}\\\\\\\\ \\maroonE{3} &= \\redE{\\dfrac{1}{5}} \\times \\maroonE{15}\\\\\\\\ \\purpleD{4} &= \\redE{\\dfrac{1}{5}} \\times \\purpleD{20}\\\\\\\\ y &= \\redE{\\dfrac{1}{5}} \\times x \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Answer  So the terms in pattern $y$ are $\\redE{\\dfrac{1}{5}}$ times the terms in pattern $x$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Multiplicative relationships with fraction multiplier"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The table uses the following two patterns.  Pattern $x$: Starting number: $6$, Rule: add $6$  Pattern $y$: Starting number: $1$, Rule: add $1$  $x$ | $y$  :-: | :-:  $6$ | $1$ $12$ | $2$  $18$  |  $3$  **Describe the relationship between $x$ and $y$.**  **The terms in pattern $y$ are  times the terms in pattern $x$.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "3",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Plan  We need to find a pattern that relates $x$ to $y$.  The terms in pattern $y$ are $\\redE{?}$ times the terms in pattern $x$.  $y = {\\redE{?}} \\times x$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Describe the relationship  Let's try each pair of $x$- and $y$ values in the relationship.  $\\begin{align} y &= \\redE{{?}} \\times x\\\\\\\\ \\blueE{1} &= \\redE{{?}} \\times \\blueE{6}\\\\\\\\ \\maroonE{2} &= \\redE{{?}} \\times \\maroonE{12}\\\\\\\\ \\purpleD{3} &= \\redE{{?}} \\times \\purpleD{18} \\end{align}$  We see that $y$ is less than $x$, so we must be multiplying by a value less than $1$.  What value for $\\redE{?}$ makes all the equations true?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\blueE{1} &= \\redE{\\dfrac{1}{6}} \\times \\blueE{6}\\\\\\\\ \\maroonE{2} &= \\redE{\\dfrac{1}{6}} \\times \\maroonE{12}\\\\\\\\ \\purpleD{3} &= \\redE{\\dfrac{1}{6}} \\times \\purpleD{18}\\\\\\\\ y &= \\redE{\\dfrac{1}{6}} \\times x \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Answer  So the terms in pattern $y$ are $\\redE{\\dfrac{1}{6}}$ times the terms in pattern $x$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Multiplicative relationships with fraction multiplier"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The table uses the following two patterns.  Pattern $x$: Starting number: $5$, Rule: add $5$  Pattern $y$: Starting number: $1$, Rule: add $1$  $x$ | $y$  :-: | :-:  $5$ | $1$ $10$ | $2$ $15$ | $3$  **The terms in pattern $y$ are  times the terms in pattern $x$.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "3",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Plan  We need to find a pattern that relates $x$ to $y$.  The terms in pattern $y$ are $\\redE{?}$ times the terms in pattern $x$.  $y = {\\redE{?}} \\times x$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Describe the relationship  Let's try each pair of $x$- and $y$ values in the relationship.  $\\begin{align} y &= \\redE{{?}} \\times x\\\\\\\\ \\blueE{1} &= \\redE{{?}} \\times \\blueE{5}\\\\\\\\ \\maroonE{2} &= \\redE{{?}} \\times \\maroonE{10}\\\\\\\\ \\purpleD{3} &= \\redE{{?}} \\times \\purpleD{15} \\end{align}$  We see that $y$ is less than $x$, so we must be multiplying by a value less than $1$.  What value for $\\redE{?}$ makes all the equations true?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\blueE{1} &= \\redE{\\dfrac{1}{5}} \\times \\blueE{5}\\\\\\\\ \\maroonE{2} &= \\redE{\\dfrac{1}{5}} \\times \\maroonE{10}\\\\\\\\ \\purpleD{3} &= \\redE{\\dfrac{1}{5}} \\times \\purpleD{15}\\\\\\\\ y &= \\redE{\\dfrac{1}{5}} \\times x \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Answer  So the terms in pattern $y$ are $\\redE{\\dfrac{1}{5}}$ times the terms in pattern $x$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Multiplicative relationships with fraction multiplier"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The table uses the following two patterns.  Pattern $x$: Starting number: $8$, Rule: add $4$  Pattern $y$: Starting number: $4$, Rule: add $2$   $x$ | $y$  :-: | :-:  $8$ | $4$ $12$ | $6$ $16$ | $8$   **The terms in pattern $y$ are  times the terms in pattern $x$.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "8",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Plan  We need to find a pattern that relates $x$ to $y$.  The terms in pattern $y$ are $\\redE{?}$ times the terms in pattern $x$.  $y = {\\redE{?}} \\times x$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Describe the relationship  Let's try each pair of $x$- and $y$ values in the relationship.  $\\begin{align} y &= \\redE{{?}} \\times x\\\\\\\\ \\blueE{4} &= \\redE{{?}} \\times \\blueE{8}\\\\\\\\ \\maroonE{6} &= \\redE{{?}} \\times \\maroonE{12}\\\\\\\\ \\purpleD{8} &= \\redE{{?}} \\times \\purpleD{16} \\end{align}$  We see that $y$ is less than $x$, so we must be multiplying by a value less than $1$.  What value for $\\redE{?}$ makes all the equations true?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\blueE{4} &= \\redE{\\dfrac{1}{2}} \\times \\blueE{8}\\\\\\\\ \\maroonE{6} &= \\redE{\\dfrac{1}{2}} \\times \\maroonE{12}\\\\\\\\ \\purpleD{8} &= \\redE{\\dfrac{1}{2}} \\times \\purpleD{16}\\\\\\\\ y &= \\redE{\\dfrac{1}{2}} \\times x \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Answer  So the terms in pattern $y$ are $\\redE{\\dfrac{1}{2}}$ times the terms in pattern $x$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Multiplicative relationships with fraction multiplier"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The table uses the following two patterns.  Pattern $x$: Starting number: $8$, Rule: add $4$  Pattern $y$: Starting number: $2$, Rule: add $1$   $x$ | $y$  :-: | :-: $8$ | $2$  $12$ | $3$  $16$ | $4$   **The terms in pattern $y$ are  times the terms in pattern $x$.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "4",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Plan  We need to find a pattern that relates $x$ to $y$.  The terms in pattern $y$ are $\\redE{?}$ times the terms in pattern $x$.  $y = {\\redE{?}} \\times x$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Describe the relationship  Let's try each pair of $x$- and $y$ values in the relationship.  $\\begin{align} y &= \\redE{{?}} \\times x\\\\\\\\ \\blueE{2} &= \\redE{{?}} \\times \\blueE{8}\\\\\\\\ \\maroonE{3} &= \\redE{{?}} \\times \\maroonE{12}\\\\\\\\ \\purpleD{4} &= \\redE{{?}} \\times \\purpleD{16} \\end{align}$  We see that $y$ is less than $x$, so we must be multiplying by a value less than $1$.  What value for $\\redE{?}$ makes all the equations true?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\blueE{2} &= \\redE{\\dfrac{1}{4}} \\times \\blueE{8}\\\\\\\\ \\maroonE{3} &= \\redE{\\dfrac{1}{4}} \\times \\maroonE{12}\\\\\\\\ \\purpleD{4} &= \\redE{\\dfrac{1}{4}} \\times \\purpleD{16}\\\\\\\\ y &= \\redE{\\dfrac{1}{4}} \\times x \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Answer  So the terms in pattern $y$ are $\\redE{\\dfrac{1}{4}}$ times the terms in pattern $x$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Multiplicative relationships with fraction multiplier"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The table uses the following two patterns.  Pattern $x$: Starting number: $3$, Rule: add $6$  Pattern $y$: Starting number: $1$, Rule: add $2$  $x$ | $y$  :-: | :-:  $3$ | $1$  $9$ | $3$  $15$ | $5$   **The terms in pattern $y$ are  times the terms in pattern $x$.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Plan  We need to find a pattern that relates $x$ to $y$.  The terms in pattern $y$ are $\\redE{?}$ times the terms in pattern $x$.  $y = {\\redE{?}} \\times x$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Describe the relationship  Let's try each pair of $x$- and $y$ values in the relationship.  $\\begin{align} y &= \\redE{{?}} \\times x\\\\\\\\ \\blueE{1} &= \\redE{{?}} \\times \\blueE{3}\\\\\\\\ \\maroonE{3} &= \\redE{{?}} \\times \\maroonE{9}\\\\\\\\ \\purpleD{5} &= \\redE{{?}} \\times \\purpleD{15} \\end{align}$  We see that $y$ is less than $x$, so we must be multiplying by a value less than $1$.  What value for $\\redE{?}$ makes all the equations true?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\blueE{1} &= \\redE{\\dfrac{1}{3}} \\times \\blueE{3}\\\\\\\\ \\maroonE{3} &= \\redE{\\dfrac{1}{3}} \\times \\maroonE{9}\\\\\\\\ \\purpleD{5} &= \\redE{\\dfrac{1}{3}} \\times \\purpleD{15}\\\\\\\\ y &= \\redE{\\dfrac{1}{3}} \\times x \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Answer  So the terms in pattern $y$ are $\\redE{\\dfrac{1}{3}}$ times the terms in pattern $x$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Multiplicative relationships with fraction multiplier"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The table uses the following two patterns.  Pattern $x$: Starting number: $7$, Rule: add $1$  Pattern $y$: Starting number: $14$, Rule: add $2$  $x$ | $y$  :-: | :-:  $7$ | $14$  $8$ | $16$  $9$ | $18$   **The terms in pattern $y$ are  times the terms in pattern $x$.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "18",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Plan  We need to find a pattern that relates $x$ to $y$.  The terms in pattern $y$ are $\\redE{?}$ times the terms in pattern $x$.  $y = {\\redE{?}} \\times x$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Describe the relationship  Let's try each pair of $x$- and $y$ values in the relationship.  $\\begin{align} y &= \\redE{{?}} \\times x\\\\\\\\ \\blueE{14} &= \\redE{{?}} \\times \\blueE{7}\\\\\\\\ \\maroonE{16} &= \\redE{{?}} \\times \\maroonE{8}\\\\\\\\ \\purpleD{18} &= \\redE{{?}} \\times \\purpleD{9} \\end{align}$  We see that $y$ is more than $x$, so we must be multiplying by a value greater than $1$.  What value for $\\redE{?}$ makes all the equations true?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\blueE{14} &= \\redE{2} \\times \\blueE{7}\\\\\\\\ \\maroonE{16} &=\\redE{2}\\times \\maroonE{8}\\\\\\\\ \\purpleD{18} &= \\redE{2} \\times \\purpleD{9}\\\\\\\\ y &= \\redE{2} \\times x \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Answer  So the terms in pattern $y$ are $\\redE{2}$ times the terms in pattern $x$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Multiplicative relationships with whole number multiplier"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The table uses the following two patterns.  Pattern $x$: Starting number: $3$, Rule: add $3$  Pattern $y$: Starting number: $6$, Rule: add $6$  $x$ | $y$  :-: | :-:  $3$ | $6$  $6$ | $12$  $9$ | $18$   **The terms in pattern $y$ are  times the terms in pattern $x$.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "18",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Plan  We need to find a pattern that relates $x$ to $y$.  The terms in pattern $y$ are $\\redE{?}$ times the terms in pattern $x$.  $y = {\\redE{?}} \\times x$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Describe the relationship  Let's try each pair of $x$- and $y$ values in the relationship.  $\\begin{align} y &= \\redE{{?}} \\times x\\\\\\\\ \\blueE{6} &= \\redE{{?}} \\times \\blueE{3}\\\\\\\\ \\maroonE{12} &= \\redE{{?}} \\times \\maroonE{6}\\\\\\\\ \\purpleD{18} &= \\redE{{?}} \\times \\purpleD{9} \\end{align}$  We see that $y$ is more than $x$, so we must be multiplying by a value greater than $1$.  What value for $\\redE{?}$ makes all the equations true?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\blueE{6} &= \\redE{2} \\times \\blueE{3}\\\\\\\\ \\maroonE{12} &=\\redE{2}\\times \\maroonE{6}\\\\\\\\ \\purpleD{18} &= \\redE{2} \\times \\purpleD{9}\\\\\\\\ y &= \\redE{2} \\times x \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Answer  So the terms in pattern $y$ are $\\redE{2}$ times the terms in pattern $x$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Multiplicative relationships with whole number multiplier"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The table uses the following two patterns.    Pattern $x$: Starting number: $1$, Rule: add $1$  Pattern $y$: Starting number: $5$, Rule: add $5$  $x$ | $y$  :-: | :-:  $1$ | $5$  $2$ | $10$  $3$ | $15$   **The terms in pattern $y$ are  times the terms in pattern $x$.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "15",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Plan  We need to find a pattern that relates $x$ to $y$.  The terms in pattern $y$ are $\\redE{?}$ times the terms in pattern $x$.  $y = {\\redE{?}} \\times x$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Describe the relationship  Let's try each pair of $x$- and $y$ values in the relationship.  $\\begin{align} y &= \\redE{{?}} \\times x\\\\\\\\ \\blueE{5} &= \\redE{{?}} \\times \\blueE{1}\\\\\\\\ \\maroonE{10} &= \\redE{{?}} \\times \\maroonE{2}\\\\\\\\ \\purpleD{15} &= \\redE{{?}} \\times \\purpleD{3} \\end{align}$  We see that $y$ is more than $x$, so we must be multiplying by a value greater than $1$.  What value for $\\redE{?}$ makes all the equations true?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\blueE{5} &= \\redE{5} \\times \\blueE{1}\\\\\\\\ \\maroonE{10} &=\\redE{5}\\times \\maroonE{2}\\\\\\\\ \\purpleD{15} &= \\redE{5} \\times \\purpleD{3}\\\\\\\\ y &= \\redE{5} \\times x \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Answer  So the terms in pattern $y$ are $\\redE{5}$ times the terms in pattern $x$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Multiplicative relationships with whole number multiplier"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The table uses the following two patterns.  Pattern $x$: Starting number: $5$, Rule: add $1$  Pattern $y$: Starting number: $10$, Rule: add $2$  $x$ | $y$  :-: | :-:  $5$ | $10$  $6$ | $12$  $7$ | $14$   **The terms in pattern $y$ are  times the terms in pattern $x$.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "14",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Plan  We need to find a pattern that relates $x$ to $y$.  The terms in pattern $y$ are $\\redE{?}$ times the terms in pattern $x$.  $y = {\\redE{?}} \\times x$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Describe the relationship  Let's try each pair of $x$- and $y$ values in the relationship.  $\\begin{align} y &= \\redE{{?}} \\times x\\\\\\\\ \\blueE{10} &= \\redE{{?}} \\times \\blueE{5}\\\\\\\\ \\maroonE{12} &= \\redE{{?}} \\times \\maroonE{6}\\\\\\\\ \\purpleD{14} &= \\redE{{?}} \\times \\purpleD{7} \\end{align}$  We see that $y$ is more than $x$, so we must be multiplying by a value greater than $1$.  What value for $\\redE{?}$ makes all the equations true?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\blueE{10} &= \\redE{2} \\times \\blueE{5}\\\\\\\\ \\maroonE{12} &=\\redE{2}\\times \\maroonE{6}\\\\\\\\ \\purpleD{14} &= \\redE{2} \\times \\purpleD{7}\\\\\\\\ y &= \\redE{2} \\times x \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Answer  So the terms in pattern $y$ are $\\redE{2}$ times the terms in pattern $x$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Multiplicative relationships with whole number multiplier"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The table uses the following two patterns.  Pattern $x$: Starting number: $10$, Rule: add $6$  Pattern $y$: Starting number: $2$, Rule: add $6$  $x$ | $y$  :-: | :-:  $10$ | $2$ $16$ | $8$  $22$ | $14$  **Describe the relationship between $x$ and $y$.**  **The terms in pattern $y$ are  than the terms in pattern $x$.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "14",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Plan  We need to find a pattern that relates $x$ to $y$.  The terms in sequence $y$ are $\\redE{?}$ more or $\\redE{?}$ less than the terms in sequence $x$.  $y = x +{\\redE{?}}$  or  $y = x - {\\redE{?}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We see that $y$ is *less* than $x$ in every row, so we subtract to get $y$.  $x$ | $y$ | Difference :-: | :-: | :-: $10$ | $2$ |$10\\redE{-{?}}=2$ $16$ |$8$ | $16\\redE{-{?}}=8$ $22$ | $14$ | $22\\redE{-{?}}=14$  What value for $\\redE{?}$ makes all the equations true?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$x$ | $y$ | Difference :-: | :-: | :-: $10$ | $2$ |$10\\redE{-8}=2$ $16$ |$8$ | $16\\redE{-8}=8$ $22$ | $14$ | $22\\redE{-8}=14$  The terms in pattern $y$ are $\\redE{8}$ *less* than the terms in pattern $x$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Answer  The terms in pattern $y$ are $8$ less than the terms in pattern $x$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Additive relationships"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The table uses the following two patterns.  Pattern $x$: Starting number: $25$, Rule: subtract $3$  Pattern $y$: Starting number: $20$, Rule: subtract $3$    $x$ | $y$  :-: | :-:  $25$ | $20$  $22$ | $17$  $19$ | $14$  **The terms in pattern $y$ are  than the terms in pattern $x$.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "22",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Plan  We need to find a pattern that relates $x$ to $y$.  The terms in sequence $y$ are $\\redE{?}$ more or $\\redE{?}$ less than the terms in sequence $x$.  $y = x +{\\redE{?}}$  or  $y = x - {\\redE{?}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We see that $y$ is *less* than $x$ in every row, so we subtract to get $y$.  $x$ | $y$ | Difference :-: | :-: | :-: $25$ | $20$  |$25\\redE{-{?}}=20$ $22$ | $17$  |$22\\redE{-{?}}=17$ $19$ | $14$ |$19\\redE{-{?}}=14$  What value for $\\redE{?}$ makes all the equations true?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$x$ | $y$ | Difference :-: | :-: | :-: $25$ | $20$  |$25\\redE{-5}=20$ $22$ | $17$  |$22\\redE{-5}=17$ $19$ | $14$ |$19\\redE{-5}=14$  The terms in pattern $y$ are $\\redE{5}$ *less* than the terms in pattern $x$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Answer  The terms in pattern $y$ are $5$ less than the terms in pattern $x$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Additive relationships"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The table uses the following two patterns.  Pattern $x$: Starting number: $3$, Rule: add $4$  Pattern $y$: Starting number: $9$, Rule: add $4$    $x$ | $y$  :-: | :-:  $3$ | $9$  $7$ | $13$  $11$ | $17$  **The terms in pattern $y$ are  than the terms in pattern $x$.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "7",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Plan  We need to find a pattern that relates $x$ to $y$.  The terms in sequence $y$ are $\\redE{?}$ more or $\\redE{?}$ less than the terms in sequence $x$.  $y = x +{\\redE{?}}$  or  $y = x - {\\redE{?}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We see that $y$ is *more* than $x$ in every row, so we add to get $y$.  $x$ | $y$ | Sum :-: | :-: | :-: $3$ | $9$ |$3 \\redE{+{?}} =9$ $7$ | $13$  | $7 \\redE{+{?}} =13$ $11$ | $17$| $11\\redE{+{?}} =17$  What value for $\\redE{?}$ makes all the equations true?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$x$ | $y$ | Difference :-: | :-: | :-: $3$ | $9$ |$3 \\redE{+6} =9$ $7$ | $13$  | $7\\redE{+6} =13$ $11$ | $17$| $11\\redE{+6} =17$  The terms in pattern $y$ are $\\redE{6}$ *more* than the terms in pattern $x$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Answer  The terms in pattern $y$ are $6$ more than the terms in pattern $x$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Additive relationships"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The table uses the following two patterns.  Pattern $x$: Starting number: $32$, Rule: subtract $7$  Pattern $y$: Starting number: $34$, Rule: subtract $7$    $x$ | $y$  :-: | :-:  $32$ | $34$  $25$ | $27$  $18$ | $20$  **The terms in pattern $y$ are  than the terms in pattern $x$.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "25",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Plan  We need to find a pattern that relates $x$ to $y$.  The terms in sequence $y$ are $\\redE{?}$ more or $\\redE{?}$ less than the terms in sequence $x$.  $y = x +{\\redE{?}}$  or  $y = x - {\\redE{?}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We see that $y$ is *less* than $x$ in every row, so we subtract to get $y$.  $x$ | $y$ | Sum :-: | :-: | :-: $32$ | $34$ |$32 \\redE{+{?}} =34$ $25$ | $27$ |$25 \\redE{+{?}} =27$ $18$ | $20$|$18 \\redE{+{?}} =20$  What value for $\\redE{?}$ makes all the equations true?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$x$ | $y$ | Difference :-: | :-: | :-: $32$ | $34$ |$32 \\redE{+2} =34$ $25$ | $27$ |$25 \\redE{+2} =27$ $18$ | $20$|$18 \\redE{+2} =20$  The terms in pattern $y$ are $\\redE{2}$ *more* than the terms in pattern $x$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Answer  The terms in pattern $y$ are $2$ more than the terms in pattern $x$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Additive relationships"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The table uses the following two patterns.  Pattern $x$: Starting number: $8$, Rule: add $4$  Pattern $y$: Starting number: $4$, Rule: add $2$  **Complete the table for the given patterns.**     $x$ | $y$  :-: | :-:  $8$ | $4$ $12$ | $6$    | $8$  **Plot the ordered pairs $(x,y)$ from the table on the following graph.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "16",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Plan  First we need to finish the $x$ pattern by adding $4$ to the row before the missing value.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Finish pattern $x$  Pattern $x$: Add $\\goldE{4}$  $\\begin{align}\\text{Starting term}&: \\blueE8\\\\\\\\ \\text{Term 2}&:\\blueE8+\\goldE{4}=\\maroonE{12}\\\\\\\\ \\text{Term 3}&:\\maroonE{12}+\\goldE{4}=\\purpleE{16}\\end{align}$  The missing $x$-value is $\\purpleE{16}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Plot the $(x,y)$ ordered pairs  The  ordered pairs we want to plot are $(\\blueE8,\\blueE4), (\\maroonE{12},\\maroonE{6}), (\\purpleE{16},\\purpleE{8})$.  To graph $(\\blueE{8}, \\blueE{4})$, we start at the origin. Then we move $\\blueE{8}$ units to the right and $\\blueE{4}$ units up.  We plot the other points in a similar way.",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate grid with plotted points at (8,4), (12,6), and (16,8).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/e328dbc646fccaa87014183282ea49b6a133e134.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Our table of values should look like this:  $x$ | $y$  :-: | :-:  $8$ | $4$  $12$ | $6$  $16$ | $8$  Our graph should look like this:  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate grid with plotted points at (8,4), (12,6), and (16,8).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/4173d9346c50dbc3f4527cae521080b2bafceca9.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "table + graph"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A table is made using the following two patterns.  Pattern $x$: Starting number: $9$, Rule: add $3$  Pattern $y$: Starting number: $3$, Rule: add $1$  **Complete the table for the given patterns.**       $x$ | $y$  :-: | :-:  $9$ | $3$  $12$ | $4$   | $5$  **Plot the ordered pairs $(x,y)$ from the table on the following graph.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Plan  First we need to finish the $x$ pattern by adding $3$ to the row before the missing value.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Finish pattern $x$  Pattern $x$: Add $\\goldE{3}$  $\\begin{align}\\text{Starting term}&: \\blueE9\\\\\\\\ \\text{Term 2}&:\\blueE9+\\goldE{3}=\\maroonE{12}\\\\\\\\ \\text{Term 3}&:\\maroonE{12}+\\goldE{3}=\\purpleE{15}\\end{align}$  The missing $x$-value is $\\purpleE{15}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Plot the $(x,y)$ ordered pairs  The  ordered pairs we want to plot are $(\\blueE9,\\blueE3), (\\maroonE{12},\\maroonE{4}), (\\purpleE{15},\\purpleE{5})$.  To graph $(\\blueE{9}, \\blueE{3})$, we start at the origin. Then we move $\\blueE{9}$ units to the right and $\\blueE{3}$ units up.  We plot the other points in a similar way.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Our table of values should look like this:  $x$ | $y$   :-:| :-: $9$ | $3$  $12$ | $4$  $15$ | $5$   Our graph should look like this:  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate grid with plotted points at (9,3), (12,4), and (15,5).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/0e37b250b4fd1598fbcfb7fa9b2f47657c5e3b03.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "table + graph"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The table uses the following two patterns.  Pattern $x$: Starting number: $8$, Rule: add $2$  Pattern $y$: Starting number: $4$, Rule: add $1$  **Complete the table for the given patterns.**     $x$ | $y$  :-: | :-:  $8$ | $4$   | $5$  $12$ | $6$  **Plot the ordered pairs $(x,y)$ from the table on the following graph.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "6",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Plan  First we need to finish the $x$ pattern by adding $2$ to the row before the missing value.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Finish pattern $x$  Pattern $x$: Add $\\goldE{2}$  $\\begin{align}\\text{Starting term}&: \\blueE8\\\\\\\\ \\text{Term 2}&:\\blueE8+\\goldE{2}=\\maroonE{10}\\\\\\\\ \\text{Term 3}&:\\maroonE{10}+\\goldE{2}=\\purpleE{12}\\end{align}$  The missing $x$-value is $\\maroonE{10}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Plot the $(x,y)$ ordered pairs  The  ordered pairs we want to plot are $(\\blueE8,\\blueE4), (\\maroonE{10},\\maroonE{5}), (\\purpleE{12},\\purpleE{6})$.  To graph $(\\blueE{8}, \\blueE{4})$, we start at the origin. Then we move $\\blueE{8}$ units to the right and $\\blueE{4}$ units up.  We plot the other points in a similar way.",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate grid with plotted points at (8,4), (10,5), and (12,6).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/53c9ad8df69afef3da1e1645527002f99373ecbc.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Our table of values should look like this:  $x$ | $y$  :-: | :-: | - $8$ | $4$  $10$ | $5$  $12$ | $6$  Our graph should look like this:  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate grid with plotted points at (8,4), (12,6), and (16,8).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/74e5d1e5b9b9fba32bbc9ed8a8f9000775da0fe3.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "table + graph"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The table uses the following two patterns.  Pattern $x$: Starting number: $3$, Rule: add $3$  Pattern $y$: Starting number: $6$, Rule: add $6$  **Complete the table for the given patterns.**     $x$ | $y$  :-: | :-:  $3$ | $6$  $6$ | $12$  $9$ |   **Plot the ordered pairs $(x,y)$ from the table on the following graph.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "18",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Plan  First we need to finish the $y$ pattern by adding $6$ to the row before the missing value.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Finish pattern $y$  Pattern $y$: Add $\\goldE{6}$  $\\begin{align}\\text{Starting term}&: \\blueE6\\\\\\\\ \\text{Term 2}&:\\blueE6+\\goldE{6}=\\maroonE{12}\\\\\\\\ \\text{Term 3}&:\\maroonE{12}+\\goldE{6}=\\purpleE{18}\\end{align}$  The missing $y$-value is $\\purpleE{18}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Plot the $(x,y)$ ordered pairs  The  ordered pairs we want to plot are $(\\blueE3,\\blueE6), (\\maroonE{6},\\maroonE{12}), (\\purpleE{9},\\purpleE{18})$.  To graph $(\\blueE{3}, \\blueE{6})$, we start at the origin. Then we move $\\blueE{3}$ units to the right and $\\blueE{6}$ units up.  We plot the other points in a similar way.",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate grid with plotted points at (3,6), (6,12), and (9,18).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/dfad1382554b98587ef6dd52a63718fb23c44e13.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Our table of values should look like this:  $x$ | $y$  :-: | :-:  $3$ | $6$  $6$ | $12$  $9$ | $18$  Our graph should look like this:  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate grid with plotted points at (3,6), (6,12), and (9, 18).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/8e4b815734ad1a09389b305ff186465775d2c07b.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "table + graph"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The table uses the following two patterns.  Pattern $x$: Starting number: $2$, Rule: add $3$  Pattern $y$: Starting number: $2$, Rule: add $3$  **Complete the table for the given patterns.**     $x$ | $y$  :-: | :-:  $2$ | $2$ $5$|  $8$ | $8$  **Plot the ordered pairs $(x,y)$ from the table on the following graph.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "8",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Plan  First we need to finish the $y$ pattern by adding $3$ to the row before the missing value.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Finish pattern $y$  Pattern $y$: Add $\\goldE{3}$  $\\begin{align}\\text{Starting term}&: \\blueE2\\\\\\\\ \\text{Term 2}&:\\blueE2+\\goldE{3}=\\maroonE{5}\\\\\\\\ \\text{Term 3}&:\\maroonE{5}+\\goldE{3}=\\purpleE{8}\\end{align}$  The missing $y$-value is $\\maroonE{5}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Plot the $(x,y)$ ordered pairs  The  ordered pairs we want to plot are $(\\blueE2,\\blueE2), (\\maroonE{5},\\maroonE{5}), (\\purpleE{8},\\purpleE{8})$.  To graph $(\\blueE{2}, \\blueE{2})$, we start at the origin. Then we move $\\blueE{2}$ units to the right and $\\blueE{2}$ units up.  We plot the other points in a similar way.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Our table of values should look like this:  $x$ | $y$  :-: | :-: $2$ | $2$  $5$ | $5$  $8$ | $8$  Our graph should look like this:  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate grid with plotted points at (2,2), (5,5), and (8,8).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/a1786503f79066f024ae0a8e431b2e3b6c8b85f4.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "table + graph"
+                    }
+                }
+            }
+        }
+    ]
+}

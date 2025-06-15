@@ -1,0 +1,1004 @@
+{
+    "standard_metadata": {
+        "standard_id": "6.SP.B.5.c",
+        "standard_description": "Giving quantitative measures of center (median and/or mean) and variability (interquartile range and/or mean absolute deviation), as well as describing any overall pattern and any striking deviations from the overall pattern with reference to the context in which the data were gathered.",
+        "standard_title": "Calculating the median: data displays",
+        "standard_url": "https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-data-statistics/mean-and-median/e/calculating-the-median-from-data-displays"
+    },
+    "id": "x75ffb905",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following histogram shows the scores on the pre-test for the students in Mrs. Baker's class.    **In which interval is the median pre-test score?**",
+                                "images": [
+                                    {
+                                        "alt": "A histogram plots Number of students, versus Score out of 14 points, from 0 to 14, in increments of 2. Bar heights are approximately as follows. From 0 to 2, 2. From 4 to 6, 1. From 6 to 8, 1. From 8 to 10, 5. From 10 to 12, 3.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/487ae716679170a663ac6dcb25d1fda5880dc885.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$4$ to $6$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$6$ to $8$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$8$ to $10$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$10$ to $12$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **median** is the middle data point when the data is sorted from least to greatest.  In a histogram, each column represents several data points. For example, the first column shows that there are $2$ students who scored between $0$ and $2$ points.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's sort the data points from least to greatest. We have repeats when a column represents more than $1$ student. There are $12$ total students, so we have $12$ scores.  $0$ to $2$, $0$ to $2$, $4$ to $6$, $6$ to $8$, $8$ to $10$, $8$ to $10$, $8$ to $10$, $8$ to $10$, $8$ to $10$, $10$ to $12$, $10$ to $12$, $10$ to $12$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There is no middle value, so the median is in the same interval as the $2$ middle values.   *(If the middle values were in different intervals, we would not know which interval holds the median.)*  $0$ to $2$, $0$ to $2$, $4$ to $6$, $6$ to $8$, $8$ to $10$, $\\underbrace{8\\text{ to }10\\text{, }8\\text{ to }10}_\\text{interval of median}$, $8$ to $10$, $8$ to $10$, $10$ to $12$, $10$ to $12$, $10$ to $12$  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The median pre-test score falls within the interval of  $8$ to $10$ points.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Histogram and frequency table, even"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following histogram shows how many hours each cashier worked at a store last week.    **In which interval is the median number of hours?**",
+                                "images": [
+                                    {
+                                        "alt": "A histogram plots Number of cashiers, versus Number of hours, from 0 to 50, in increments of 10. Bar heights are approximately as follows. From 0 to 10, 4. From 10 to 20, 2. From 20 to 30, 1. From 30 to 40, 1. From 40 to 50, 2.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/2ca23ff5647d90996dcca563402a8ed6a6d3389e.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$0$ to $10$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$10$ to $20$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$20$ to $30$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$30$ to $40$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **median** is the middle data point when the data is sorted from least to greatest.  In a histogram, each column represents several data points. For example, the first column shows that there are $4$ cashiers who worked between $0$ and $10$ hours.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's sort the data points from least to greatest. We have repeats when a column represents more than $1$ cashier. There are $10$ total cashiers, so we have $10$ data points.  $0$ to $10$, $0$ to $10$, $0$ to $10$, $0$ to $10$, $10$ to $20$, $10$ to $20$, $20$ to $30$, $30$ to $40$, $40$ to $50$, $40$ to $50$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There is no middle value, so the median is in the same interval as the $2$ middle values.   *(If the middle values were in different intervals, we would not know which interval holds the median.)*  $0$ to $10$, $0$ to $10$, $0$ to $10$, $0$ to $10$, $\\underbrace{10\\text{ to }20\\text{, }10\\text{ to }20}_\\text{interval of median}$, $20$ to $30$, $30$ to $40$, $40$ to $50$, $40$ to $50$  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The median number of hours falls within the interval of  $10$ to $20$ hours.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Histogram and frequency table, even"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following frequency table shows the number of laps each person walked for a charity event.  Number of laps | Number of people :-: | :-: $12$ | $1$  $13$ | $1$ $14$|$1$ $15$|$1$ $16$| $2$  **Find the median number of laps.**     laps",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "14.5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **median** is the middle data point when the data is sorted from least to greatest.  In a frequency table, each row can represent several data points. For example, the bottom row shows that there are $2$ people who each walked $16$ laps.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's sort the data points from least to greatest. We have repeats when a row represents more than $1$ person. There are $6$ total people, so we have $6$ numbers of laps.  $12$, $13$, $14$, $15$, $16$, $16$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$12$, $13$, $\\purpleD{\\boxed{14}}$, $\\purpleD{\\boxed{15}}$, $16$, $16$  There is an even number of data points. So the median is the mean of the two middle numbers.  $\\dfrac{\\purpleD{14} + \\purpleD{15}}{2} = 14.5 \\text{ laps}$  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The median is $14.5$ laps.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Histogram and frequency table, even"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following frequency table shows the number of trees each person planted at a volunteer event.  Number of trees | Number of people :-: | :-: $2$ | $1$  $3$ | $3$ $4$|$2$ $5$|$1$ $6$| $1$  **Find the median number of trees planted.**     trees",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "3.5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **median** is the middle data point when the data is sorted from least to greatest.  In a frequency table, each row can represent several data points. For example, the middle row shows that there are $2$ people who each planted $4$ trees.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's sort the data points from least to greatest. We have repeats when a row represents more than $1$ person. There are $8$ total people, so we have $8$ numbers of trees.  $2$, $3$, $3$, $3$, $4$, $4$, $5$, $6$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$2$, $3$, $3$, $\\purpleD{\\boxed{3}}$, $\\purpleD{\\boxed{4}}$, $4$, $5$, $6$  There is an even number of data points. So the median is the mean of the two middle numbers.  $\\dfrac{\\purpleD{3} + \\purpleD{4}}{2} = 3.5 \\text{ trees}$  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The median is $3.5$ trees.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Histogram and frequency table, even"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following frequency table shows the number of children that each member of Parents' Club has.  Number of children | Number of members :-: | :-: $1$ | $3$  $2$ | $2$ $3$|$1$ $4$|$0$ $5$| $1$  **Find the median number of children.**     children",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "2",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **median** is the middle data point when the data is sorted from least to greatest.  In a frequency table, each row can represent several data points. For example, the top row shows that there are $3$ members of the club who have $1$ child each.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's sort the data points from least to greatest. We have repeats when a row represents more than $1$ member. There are $7$ total members, so we have $7$ numbers of children.  $1$, $1$, $1$, $2$, $2$, $3$, $5$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The median is in the middle.  $1$, $1$, $1$, $\\underbrace{2}_\\text{median}$, $2$, $3$, $5$  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The median is $2$ children.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Histogram and frequency table, odd"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following frequency table shows the number of bags each exchange student from Bridgewater University packed.   Number of bags | Number of exchange students :-: | :-: $1$ | $1$ $2$ | $2$  $3$ |  $1$ $4$ | $0$ $5$ | $1$  **Find the median number of bags.**    bags",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "2",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **median** is the middle data point when the data is sorted from least to greatest.  In a frequency table, each row can represent several data points. For example, the top row shows that there is $1$ student who packed $1$ bag. The next row shows that there are $2$ students who packed $2$ bags each.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's sort the data points from least to greatest. We have repeats when a row represents more than $1$ student. There are $5$ total students, so we have $5$ numbers of bags.  $1$, $2$, $2$, $3$, $5$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The median is in the middle.  $1$, $2$, $\\underbrace{2}_\\text{median}$, $3$, $5$  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The median is $2$ bags.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Histogram and frequency table, odd"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following histogram shows the distance run by each member of a running club.    **In which interval is the median distance?**",
+                                "images": [
+                                    {
+                                        "alt": "A histogram plots Number of runners, versus Number of kilometers, from 0 to 20, in increments of 5. Bar heights are approximately as follows. From 0 to 5, 2. From 5 to 10, 3. From 10 to 15, 3. From 15 to 20, 5.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/988d0ea7f5d030cfbfe9ab9f48cc15438ca65b0e.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$0$ to $5$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$5$ to $10$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$10$ to $15$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$15$ to $20$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **median** is the middle data point when the data is sorted from least to greatest.  In a histogram, each column represents several data points. For example, the first column shows that there are $2$ members who ran between $0$ and $5$ kilometers.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's sort the data points from least to greatest. We have repeats when a column represents more than $1$ member. There are $13$ total members, so we have $13$ distances.  $0$ to $5$, $0$ to $5$, $5$ to $10$, $5$ to $10$, $5$ to $10$, $10$ to $15$, $10$ to $15$, $10$ to $15$, $15$ to $20$, $15$ to $20$, $15$ to $20$, $15$ to $20$, $15$ to $20$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The median is in the middle.  $0$ to $5$, $0$ to $5$, $5$ to $10$, $5$ to $10$, $5$ to $10$, $10$ to $15$, $\\underbrace{10 \\text{ to } 15}_\\text{interval of median}$, $10$ to $15$, $15$ to $20$, $15$ to $20$, $15$ to $20$, $15$ to $20$, $15$ to $20$  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The median falls within the interval of  $10$ to $15$ $\\text{km}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Histogram and frequency table, odd"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following histogram shows the age of each person on a hiking trail.    **In which interval is the median age?**",
+                                "images": [
+                                    {
+                                        "alt": "A histogram plots Number of hikers, versus Number of years, from 0 to 25, in increments of 5. Bar heights are approximately as follows. From 0 to 5, 4. From 5 to 10, 2. From 10 to 15, 2. From to 15 to 20, 1. From 20 to 25, 2.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/906064414d448a4aaceb246c0b338e3d168ed2ea.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$0$ to $5$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$5$ to $10$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$10$ to $15$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$15$ to $20$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **median** is the middle data point when the data is sorted from least to greatest.  In a histogram, each column represents several data points. For example, the first column shows that there are $4$ people with ages between $0$ and $5$ years.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's sort the data points from least to greatest. We have repeats when a column represents more than $1$ person. There are $11$ total people, so we have $11$ ages.  $0$ to $5$, $0$ to $5$, $0$ to $5$, $0$ to $5$, $5$ to $10$, $5$ to $10$, $10$ to $15$, $10$ to $15$, $15$ to $20$, $20$ to $25$, $20$ to $25$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The median is in the middle.  $0$ to $5$, $0$ to $5$, $0$ to $5$, $0$ to $5$, $5$ to $10$, $\\underbrace{5 \\text{ to } 10}_\\text{interval of median}$, $10$ to $15$, $10$ to $15$, $15$ to $20$, $20$ to $25$, $20$ to $25$  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The median falls within the interval of $5$ to $10$ years.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Histogram and frequency table, odd"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following bar chart shows the distances run by Jay's family in a race.    **Find the median distance.**    $\\text{ km}$",
+                                "images": [
+                                    {
+                                        "alt": "A bar graph with the vertical axis labeled Distances in Kilometers. The horizontal axis is labeled Family Member. The vertical axis is labeled from the bottom of the axis to the top of the axis as follows: 1, 2, 4, 6, 8, 10, and 12. The bar line for person shows the following: Mama bar line extends to 4, Mom bar line extends to 11, Jay bar line extends to 5, and Sue bar line extends to 8.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/8a6da5c18ec92123916d72631aa6303596d65eb3.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "6.5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **median** is the middle data point when the data is sorted from least to greatest.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's sort the data points from least to greatest.  $4$, $5$, $8$, $11$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$4$, $\\purpleD{\\boxed{5}}$, $\\purpleD{\\boxed{8}}$, $11$  There is an even number of data points. So the median is the mean of the two middle numbers.  $\\dfrac{\\purpleD{5} + \\purpleD{8}}{2} = 6.5 \\text{ km}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The median is $6.5\\,\\text{km}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3. Other representations, even"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following dot plot shows the height of each toddler at Ms. Cabrera's daycare:    **Find the median height.**   centimeters",
+                                "images": [
+                                    {
+                                        "alt": "A number line labeled height of each toddler at Ms. Cabrera's Daycare is labeled from left to right 80 through 86 scaling by ones. The number line is labeled Height in centimeters. The dot distribution is as follows: 81, 1; 82, 1; 83, 2; 84, 2; 85, 2.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/026324b6511b2028507b392a2533c8930a3a33bf.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "83.5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **median** is the middle data point when the data is sorted from least to greatest.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's sort the data points from least to greatest.  $81$, $82$, $83$, $83$, $84$, $84$, $85$, $85$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$81$, $82$, $83$, $\\purpleD{\\boxed{83}}$, $\\purpleD{\\boxed{84}}$, $84$, $85$, $85$  There is an even number of data points. So the median is the mean of the two middle numbers.  $\\dfrac{\\purpleD{83} + \\purpleD{84}}{2} = 83.5 \\text{ cm}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The median is $83.5\\,\\text{cm}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3. Other representations, even"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following table shows the final scores for a group of minigolfers at Adventureland.  Minigolfer | Strokes - | :-: | Frank | $25$ Anna | $26$ Daniela | $31$  Luiza |  $39$  Vera | $33$ Ernie | $57$  **Find the median number of strokes.**   strokes",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "32",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **median** is the middle data point when the data is sorted from least to greatest.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's sort the data points from least to greatest.  $25$, $26$, $31$, $33$, $39$, $57$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$25$, $26$, $\\purpleD{\\boxed{31}}$, $\\purpleD{\\boxed{33}}$, $39$, $57$  There is an even number of data points. So the median is the mean of the two middle numbers.  $\\dfrac{\\purpleD{31} + \\purpleD{33}}{2} = 32$ strokes",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The median is $32$ strokes.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3. Other representations, even"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Lupe's dogs love to hide bones. Bubba hid $5$ bones, Barry hid $4$ bones, Larry hid $13$ bones, and Goby hid $10$ bones.  **Find the median number of bones.**    bones",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "7.5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **median** is the middle data point when the data is sorted from least to greatest.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's sort the data points from least to greatest.  $4$, $5$, $10$, $13$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$4$, $\\purpleD{\\boxed{5}}$, $\\purpleD{\\boxed{10}}$, $13$  There is an even number of data points. So the median is the mean of the two middle numbers.  $\\dfrac{\\purpleD{5} + \\purpleD{10}}{2} = 7.5$ bones",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The median is $7.5$ bones.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3. Other representations, even"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following table shows the number of fire hydrants in each neighborhood overseen by Fire District $9$.  Neighborhood | Number of fire hydrants - | :-: Clearwater Estates | $17$ Babbling Brooke | $8$  Hidden Village | $21$ Shamrock Oak |  $15$ Tower Terrace | $12$  **Find the median number of fire hydrants.**   fire hydrants",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "15",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **median** is the middle data point when the data is sorted from least to greatest.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's sort the data points from least to greatest.  $8$, $12$, $15$, $17$, $21$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The median is in the middle.  $8$, $12$, $\\purpleD{\\boxed{15}}$, $17$, $21$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The median is $15$ fire hydrants.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "4. Other representations, odd"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following bar chart shows how many lawns each volunteer mowed during a service project.    **Find the median number of lawns.**   lawns",
+                                "images": [
+                                    {
+                                        "alt": "A bar graph with the vertical axis labeled Number of lawns. The horizontal axis is labeled Volunteer. The bar line for person shows the following: Julia bar line extends to 5, Devon bar line extends to 6, Ravi bar line extends to 5, Yutaka bar line extends to 6, and Camila bar line extends to 9.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/2592c77645bad1e0b8c26cdd35b53ee27e7735d5.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "6",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **median** is the middle data point when the data is sorted from least to greatest.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's sort the data points from least to greatest.  $5$, $5$, $6$, $6$, $9$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The median is in the middle.  $5$, $5$, $\\purpleD{\\boxed{6}}$, $6$, $9$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The median is $6$ lawns.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "4. Other representations, odd"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following dot plot shows how far Peter ran in each of his tennis matches this year.    **Find the median distance.**    $\\text{ km}$",
+                                "images": [
+                                    {
+                                        "alt": "A number line labeled Distance ran in each match is labeled from left to right 1 through 7 scaling by ones. The number line is labeled Distance in kilometers. The dot distribution is as follows: 3, 1; 4, 2; 5, 4; 7, 2.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/271f45e55650bf03de15a3ae4376304c7b7d3c6c.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **median** is the middle data point when the data is sorted from least to greatest.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's sort the data points from least to greatest.  $3$, $4$, $4$, $5$, $5$, $5$, $5$, $7$, $7$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The median is in the middle.  $3$, $4$, $4$, $5$, $\\purpleD{\\boxed{5}}$, $5$, $5$, $7$, $7$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The median is $5 \\text{ km}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "4. Other representations, odd"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Allie did push-ups every weekday this week. She did $8$ push-ups on Monday, $14$ push-ups on Tuesday, $18$ push-ups on Wednesday, $6$ push-ups on Thursday, and $8$ push-ups on Friday.  **Find the median number of push-ups.**    push-ups",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "8",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **median** is the middle data point when the data is sorted from least to greatest.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's sort the data points from least to greatest.  $6$, $8$, $8$, $14$, $18$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The median is in the middle.  $6$, $8$, $\\purpleD{\\boxed{8}}$, $14$, $18$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The median is $8$ push-ups.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "4. Other representations, odd"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Santino tried to find the median from the following table, which shows the number of internet users in $2012$ for the highest using countries. However, he made a mistake.  Country |China |United States|Japan | India |Brazil - | :-: | :-:| :-:| :-: **Number of internet users (in millions)**| $568$| $254$| $101$ | $152$| $100$  Here is Santino's work:  \"The numbers are $568$, $254$, $101$, $152$, and $100$.  There are $5$ values, so the middle value is the $3^\\text{rd}$ value, $101$. The median is $101$ million internet users.\"  **What mistake did Santino make?**     [//]: # (http://en.wikipedia.org/wiki/List_of_countries_by_number_of_Internet_users)",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Santino calculated the mean instead of the median.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Santino should have ordered the numbers from least to greatest before picking the middle number.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Santino should have averaged the middle $2$ values instead of using just $1$ value.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Santino should have repeated some of the values in his list.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **median** is the middle data point when the data is sorted from least to greatest.  Let's see how Santino's thinking differed.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's sort the data points from least to greatest.  $100$, $101$, $152$, $254$, $568$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The median is in the middle.  $100$, $101$, $\\boxed{152}$, $254$, $568$  Santino got a different middle number because he did not sort the data points first.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Santino should have ordered the numbers from least to greatest before picking the middle number.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "5. Find the error"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Marta tried to find the median age from the following frequency table, which shows the ages of their younger cousins. However, they made a mistake.  Age (years) | Number of cousins :-: | :-: $1$ | $1$ $2$ | $0$  $3$ |  $1$ $4$ | $2$ $5$ | $3$  Here is Marta's work:  \"The ages are $1$, $2$, $3$, $4$, and $5$.  There are $5$ ages, so the middle age is the $3^\\text{rd}$ value, $3$. The median age is $3$ years old.\"  **What mistake did Marta make?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Marta calculated the mean instead of the median.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Marta should have ordered the numbers from least to greatest before picking the middle number.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Marta should have averaged the middle $2$ values instead of using just $1$ value.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Marta should have repeated some of the values in their list.",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **median** is the middle data point when the data is sorted from least to greatest.  In a frequency table, each row can represent several data points. For example, the bottom row shows that there are $3$ cousins who are each $5$ years old.  Let's see how Marta's thinking differed.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's sort the data points from least to greatest. We have repeats when a row represents more than $1$ cousin. There are $7$ total cousins, so we have $7$ ages.  $1$, $3$, $4$, $4$, $5$, $5$, $5$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The median is in the middle.  $1$, $3$, $4$, $\\boxed{4}$, $5$, $5$, $5$  Marta got a different middle number because they did not repeat any of the ages in the list.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Marta should have repeated some of the values in their list.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "5. Find the error"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Sanjay tried to find the median from the following dot plot, which shows how far he went on his recent walks. However, he made a mistake.    Here is Sanjay's work:  \"The numbers are $5$, $6$, $6$, $7$, $8$, $8$, $9$, and $9$.  There are $8$ values, so the middle value is the $4^\\text{th}$ value, $7$. The median is $7$ kilometers.\"  **What mistake did Sanjay make?**",
+                                "images": [
+                                    {
+                                        "alt": "\"A dot plot titled Distance traveled on each walk. The number line, labeled Distance (kilometers), is numbered 5 to 9. \nPoint 5 has 1 dot.\nPoint 6 has 2 dots.\nPoint 7 has 1 dot.\nPoint 8 has 2 dots.\nPoint 9 has 2 dots.\"",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/99874d18bd49c5d3150a66f2c7047b416485b4ac.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Sanjay calculated the mean instead of the median.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Sanjay should have ordered the numbers from least to greatest before picking the middle number.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Sanjay should have averaged the middle $2$ values instead of using just $1$ value.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Sanjay shouldn't have repeated any of the values in his list.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **median** is the middle data point when the data is sorted from least to greatest.  Let's see how Sanjay's thinking differed.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's sort the data points from least to greatest.  $5$, $6$, $6$, $7$, $8$, $8$, $9$, $9$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$5$, $6$, $6$, $\\purpleD{\\boxed{7}}$, $\\purpleD{\\boxed{8}}$, $8$, $9$, $9$  There is an even number of data points. So the median is the mean of the two middle numbers.  $\\dfrac{\\purpleD{7} + \\purpleD{8}}{2} = 7.5 \\text{ km}$  Sanjay got a different middle number because he thought the $4^\\text{th}$ data point, $7\\,\\text{km}$, was the middle number.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Sanjay should have averaged the middle $2$ values instead of using just $1$ value.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "5. Find the error"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Kayla tried to find the median from the following table, which shows the number of chin-ups she did last week. However, she made a mistake.  Day | Mon | Tue | Wed | Thu | Fri - | :-: | :-:| :-:| :-: **Number of chin-ups** | $5$| $7$| $9$ | $4$| $5$  Here is Kayla's work:  >$\\begin{align} &\\phantom{=} \\dfrac{5+7+9+4+5}{5} \\\\\\\\ &= \\dfrac{30}{5} \\\\\\\\ &= 6 \\end{align}$  \"The median is $6$ chin-ups per day.\"  **What mistake did Kayla make?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Kayla calculated the mean instead of the median.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Kayla should have ordered the numbers from least to greatest before adding them.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Kayla should have averaged the middle $2$ values instead of using all $5$ values.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Kayla should have repeated some of the values in the list.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The **median** is the middle data point when the data is sorted from least to greatest.  Let's see how Kayla's thinking differed.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's sort the data points from least to greatest.  $4$, $5$, $5$, $7$, $9$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The median is in the middle.  $4$, $5$, $\\boxed{5}$, $7$, $9$  Kayla got something different because she calculated the *mean* — she added the data points and divided by the number of data points.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Kayla calculated the mean instead of the median.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "5. Find the error"
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,566 @@
+{
+    "standard_metadata": {
+        "standard_id": "8.F.B.4",
+        "standard_description": "Construct a function to model a linear relationship between two quantities. Determine the rate of change&nbsp; and initial value of the function from a description of a relationship or from two (<i>x, y</i>) values, including reading these from a table or from a graph. Interpret the rate of change and initial value of a linear function in terms of the situation it models, and in terms of its graph or a table of values.",
+        "standard_title": "Writing linear functions word problems",
+        "standard_url": "https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-linear-equations-functions/constructing-linear-models-real-world/e/writing-linear-functions-word-problems"
+    },
+    "id": "x02f2f17df6f565c9",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Jabari is power washing houses for a summer job. For every job, he charges an initial fee plus $\\$30$ for each hour of work. His total fee for a $4$-hour job, for instance, is $\\$170$.  Jabari's total fee, $f$, for a single job is a function of the number, $t$, of hours it takes him to complete the job.  **Write the function's formula.**  $f=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "30t+50",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Jabari's hourly fee is *constant*, so we are dealing with a linear relationship.  We could write the desired formula in slope-intercept form:  $f=\\greenD mt+\\maroonD b$. In this form, $\\greenD m$ gives us the slope of the graph of the function and $\\maroonD b$ gives us the $y$-intercept. Our goal is to find the values of $\\greenD m$ and $\\maroonD b$ and substitute them into this formula.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We know that Jabari's fee increases at a rate of $\\$30$ per hour, so the slope $\\greenD m$ is $\\greenD{30}$, and our function looks like $f=\\greenD{30}t+\\maroonD b$.  We also know that Jabari's fee for a $4$-hour job is $\\$170$, which means that when $t=4$, $f=170$. We can substitute this into the formula of the function to find $\\maroonD b$:  $\\begin{align}\\greenD{30}\\cdot4+\\maroonD b&=170\\\\\\\\ 120+\\maroonD b&=170\\\\\\\\ \\maroonD b&=\\maroonD{50}\\end{align}$  This means that Jabari's initial fee is $\\$50$ for each job.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since $\\greenD m = \\greenD{30}$ and $\\maroonD b = \\maroonD{50}$, the desired formula is:  $f=\\greenD{30}t+\\maroonD{50}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "8th grade"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Colin is painting figurines. He spends 20 minutes painting each figurine. After painting for 60 minutes, he still has 9 more figurines left to paint.  The number $f$ of figurines left to paint is a function of $t$, the amount of time in minutes Colin spends painting.  **Write the function's formula.**  $f=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "12-\\frac{1}{20}t",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The rate at which Colin paints is *constant*, so we're dealing with a linear relationship.   We could write the desired formula in slope-intercept form:  $f=\\greenD mt+\\maroonD b$. In this form, $\\greenD m$ gives us the slope of the graph of the function and $\\maroonD b$ gives us the $y$-intercept. Our goal is to find the values of $\\greenD m$ and $\\maroonD b$ and substitute them into this formula.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We know that the number of figurines left for Colin to paint decreases by $1$ every $20$ minutes, so the slope $\\greenD m$ is $\\greenD{-\\dfrac{1}{20}}$, and our function looks like $f=\\greenD{-\\dfrac{1}{20}}t+\\maroonD b$.  We also know that Colin has $9$ figurines left to paint after painting for $60$ minutes, which means that when $t=60$, $f=9$. We can substitute this into the formula of the function to find $\\maroonD b$:  $\\begin{align}\\greenD{-\\dfrac{1}{20}}\\cdot60+\\maroonD b&=9\\\\\\\\ -3+\\maroonD b&=9\\\\\\\\ \\maroonD b&=\\maroonD{12}\\end{align}$  This means Colin initially had $12$ figurines to paint.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since $\\greenD m = \\greenD{-\\dfrac{1}{20}}$ and $\\maroonD b = \\maroonD{12}$, the desired formula is:  $f=\\greenD{-\\dfrac{1}{20}}t+\\maroonD{12}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "8th grade"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Camille is attending a fundraiser. She pays for her admission and buys raffle tickets for $\\$5$ each. If she buys $10$ raffle tickets, then she would spend a total of $\\$135$ at the fundraiser.  The number $S$ of dollars Camille spends at the fundraiser is a function of $r$, the number of raffle tickets she buys.  **Write the function's formula.**  $S=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "85+5r",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The price of each raffle ticket is *constant*, so we're dealing with a linear relationship.  We could write the desired formula in slope-intercept form:  $S=\\greenD mr+\\maroonD b$. In this form, $\\greenD m$ gives us the slope of the graph of the function and $\\maroonD b$ gives us the $y$-intercept. Our goal is to find the values of $\\greenD m$ and $\\maroonD b$ and substitute them into this formula.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We know that the amount of money Camille spends increases by $\\$5$ for each raffle ticket she buys, so the slope $\\greenD m$ is $\\greenD{5}$, and our function looks like $S=\\greenD{5}r+\\maroonD b$.  We also know that if Camille buys $10$ raffle tickets, then she would spend a total of $\\$135$ at the fundraiser, which means that when $r=10$, $S=135$. We can substitute this into the formula of the function to find $\\maroonD b$:  $\\begin{align}\\greenD{5}\\cdot10+\\maroonD b&=135\\\\\\\\ 50+\\maroonD b&=135\\\\\\\\ \\maroonD b&=\\maroonD{85}\\end{align}$  This means admission to the fundraiser costs $\\$85$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since $\\greenD m = \\greenD{5}$ and $\\maroonD b = \\maroonD{85}$, the desired formula is:  $S=\\greenD{5}r+\\maroonD{85}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "8th grade"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Rei stacks boxes of books on a table. Each box weighs $30$ kilograms, and the table with $8$ boxes on top weighs a total of $310$ kilograms.  The total weight $W$ of the table and boxes in kilograms is a function of $x$, the number of boxes Rei stacks on the table.  **Write the function's formula.**  $W=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "70+30x",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The weight of each box is *constant*, so we're dealing with a linear relationship.  We could write the desired formula in slope-intercept form:  $W=\\greenD mx+\\maroonD b$. In this form, $\\greenD m$ gives us the slope of the graph of the function and $\\maroonD b$ gives us the $y$-intercept. Our goal is to find the values of $\\greenD m$ and $\\maroonD b$ and substitute them into this formula.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We know that each box increases the weight of the table and boxes by $30$ kilograms, so the slope $\\greenD m$ is $\\greenD{30}$, and our function looks like $W=\\greenD{30}x+\\maroonD b$.  We also know that with $8$ boxes on the table, the total weight of the table and boxes is $310$ kilograms, which means that when $x=8$, $W=310$. We can substitute this into the formula of the function to find $\\maroonD b$:  $\\begin{align}\\greenD{30}\\cdot8+\\maroonD b&=310\\\\\\\\ 240+\\maroonD b&=310\\\\\\\\ \\maroonD b&=\\maroonD{70}\\end{align}$  This means the weight of the table is $70$ kilograms.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since $\\greenD m = \\greenD{30}$ and $\\maroonD b = \\maroonD{70}$, the desired formula is:  $W=\\greenD{30}x+\\maroonD{70}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "8th grade"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Tyrone likes to snack on his big bag of candy. He takes $8$ pieces of candy from the bag each time he snacks. After he has snacked $18$ times, there are only $6$ pieces of candy remaining in the bag.  The number $c$ of pieces of candy remaining in the bag is a function of $s$, the number of snacks Tyrone eats.  **Write the function's formula.**  $c=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "150-8s",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Tyrone takes the same number of candy pieces each time, so we're dealing with a linear relationship.  We could write the desired formula in slope-intercept form:  $c=\\greenD ms+\\maroonD b$. In this form, $\\greenD m$ gives us the slope of the graph of the function and $\\maroonD b$ gives us the $y$-intercept. Our goal is to find the values of $\\greenD m$ and $\\maroonD b$ and substitute them into this formula.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We know that each snack Tyrone eats decreases the number of candy pieces remaining by $8$, so the slope $\\greenD m$ is $\\greenD{-8}$, and our function looks like $c=\\greenD{-8}s+\\maroonD b$.  We also know that $6$ pieces of candy remain after $18$ snacks, which means that when $s=18$, $c=6$. We can substitute this into the formula of the function to find $\\maroonD b$:  $\\begin{align}\\greenD{-8}\\cdot18+\\maroonD b&=6\\\\\\\\ -144+\\maroonD b&=6\\\\\\\\ \\maroonD b&=\\maroonD{150}\\end{align}$  This means the bag of candy initially contained $150$ pieces of candy.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since $\\greenD m = \\greenD{-8}$ and $\\maroonD b = \\maroonD{150}$, the desired formula is:  $c=\\greenD{-8}s+\\maroonD{150}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "8th grade"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The temperature of a chemical solution is originally $21^\\circ\\text{C}$. A chemist heats the solution at a constant rate, and the temperature of the solution is $75^\\circ\\text{C}$ after $12$ minutes of heating.  The temperature, $T$, of the solution in $^\\circ\\text{C}$ is a function of $x$, the heating time in minutes.  **Write the function's formula.**  $T=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "21+4.5x",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The chemist heats the solution at a *constant* rate, so we're dealing with a linear relationship.  We could write the desired formula in slope-intercept form:  $T=\\greenD mx+\\maroonD b$. In this form, $\\greenD m$ gives us the slope of the graph of the function and $\\maroonD b$ gives us the $y$-intercept. Our goal is to find the values of $\\greenD m$ and $\\maroonD b$ and substitute them into this formula.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We know that the initial temperature of the solution is $21^\\circ\\text{C}$, so the $y$-intercept $\\maroonD{b}$ is $\\maroonD{21}$, and our function looks like $T=\\greenD{m}x+\\maroonD{21}$.  We also know that after $12$ minutes of heating, the temperature is $75^\\circ\\text{C}$, which means when $x=12$, $T=75$. We can use this and the $y$-intercept to find $\\greenD{m}$:  $\\begin{align} \\greenD{m}&=\\dfrac{T_2-T_1}{x_2-x_1} \\\\\\\\ &=\\dfrac{75-21}{12-0} \\\\\\\\ &=\\dfrac{54}{12} \\\\\\\\ &=\\dfrac{9\\cdot\\cancel{6}}{2\\cdot\\cancel{6}} \\\\\\\\ &=\\greenD{4.5} \\end{align}$  This means the temperature of the solution increases by $4.5^\\circ\\text{C}$ per minute.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since $\\greenD{m}=\\greenD{4.5}$ and $\\maroonD{b}=\\maroonD{21}$, the desired formula is:  $T=\\greenD{4.5} x + \\maroonD{21}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "8th grade"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The pressure at sea level is $1$ atmosphere and increases at a constant rate as depth increases. When Sydney dives to a depth of $23$ meters, the pressure around her is $3.3$ atmospheres.  The pressure $p$  in atmospheres is a function of $x$, the depth in meters.  **Write the function's formula.**  $p=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "1+0.1x",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The pressure increases at a *constant* rate as depth increases, so we're dealing with a linear relationship.  We could write the desired formula in slope-intercept form:  $p=\\greenD mx+\\maroonD b$. In this form, $\\greenD m$ gives us the slope of the graph of the function and $\\maroonD b$ gives us the $y$-intercept. Our goal is to find the values of $\\greenD m$ and $\\maroonD b$ and substitute them into this formula.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We know that the pressure at sea level is $1$ atmosphere, so the $y$-intercept $\\maroonD{b}$ is $\\maroonD{1}$, and our function looks like $p=\\greenD{m}x+\\maroonD{1}$.  We also know that at a depth of $23$ meters, the pressure is $3.3$ atmospheres, which means when $x=23$, $p=3.3$. We can use this and the $y$-intercept to find $\\greenD{m}$:  $\\begin{align} \\greenD{m}&=\\dfrac{p_2-p_1}{x_2-x_1} \\\\\\\\ &=\\dfrac{3.3-1}{23-0} \\\\\\\\ &=\\dfrac{2.3}{23} \\\\\\\\ &=\\greenD{0.1} \\end{align}$  This means pressure increases at a rate of $0.1$ atmospheres per meter.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since $\\greenD{m}=\\greenD{0.1}$ and $\\maroonD{b}=\\maroonD{1}$, the desired formula is:  $p=\\greenD{0.1} x + \\maroonD{1}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "8th grade"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Blue's Berry Farm charges Percy a total of $\\$24.75$ for entrance and $2.5$ kilograms of strawberries. The entrance fee is $\\$6$, and the price for each kilogram of strawberries is constant.   The total cost $C$ for picking strawberries is a function of $x$, the kilograms of strawberries picked.  **Write the function's formula.**  $C=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "6+7.5x",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The farm charges a *constant* rate for each kilogram of strawberries, so we're dealing with a linear relationship.  We could write the desired formula in slope-intercept form:  $C=\\greenD mx+\\maroonD b$. In this form, $\\greenD m$ gives us the slope of the graph of the function and $\\maroonD b$ gives us the $y$-intercept. Our goal is to find the values of $\\greenD m$ and $\\maroonD b$ and substitute them into this formula.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We know that the entrance fee is $\\$6$, so the $y$-intercept $\\maroonD{b}$ is $\\maroonD{6}$, and our function looks like $C=\\greenD{m}x+\\maroonD{6}$.  We also know that the farm charges Percy $\\$24.75$ for $2.5$ kilograms of strawberries, which means when $x=2.5$, $C=24.75$. We can use this and the $y$-intercept to find $\\greenD{m}$:  $\\begin{align} \\greenD{m}&=\\dfrac{C_2-C_1}{x_2-x_1} \\\\\\\\ &=\\dfrac{24.75-6}{2.5-0} \\\\\\\\ &=\\dfrac{18.75}{2.5} \\\\\\\\ &=\\greenD{7.5} \\end{align}$  This means the farm charges $\\$7.50$ for each kilogram of strawberries.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since $\\greenD{m}=\\greenD{7.5}$ and $\\maroonD{b}=\\maroonD{6}$, the desired formula is:  $C=\\greenD{7.5} x + \\maroonD{6}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "8th grade"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "James is playing his favorite game at the arcade. After playing the game $3$ times, he has $8$ tokens remaining. He initially had $20$ tokens, and the game costs the same number of tokens each time.  The number $t$ of tokens James has is a function of $g$, the number of games he plays.  **Write the function's formula.**  $t=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "20-4g",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Each game costs a *constant* number of tokens, so we're dealing with a linear relationship.  We could write the desired formula in slope-intercept form:  $t=\\greenD mg+\\maroonD b$. In this form, $\\greenD m$ gives us the slope of the graph of the function and $\\maroonD b$ gives us the $y$-intercept. Our goal is to find the values of $\\greenD m$ and $\\maroonD b$ and substitute them into this formula.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We know that James initially has $20$ tokens, so the $y$-intercept $\\maroonD{b}$ is $\\maroonD{20}$, and our function looks like $t=\\greenD{m}g+\\maroonD{20}$.  We also know that after playing $3$ games, James has $8$ tokens remaining, which means when $g=3$, $t=8$. We can use this and the $y$-intercept to find $\\greenD{m}$:  $\\begin{align} \\greenD{m}&=\\dfrac{t_2-t_1}{g_2-g_1} \\\\\\\\ &=\\dfrac{8-20}{3-0} \\\\\\\\ &=\\dfrac{-12}{3} \\\\\\\\ &=\\greenD{-4} \\end{align}$  This means each game James plays costs him $4$ tokens.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since $\\greenD{m}=\\greenD{-4}$ and $\\maroonD{b}=\\maroonD{20}$, the desired formula is:  $t=\\greenD{-4} g + \\maroonD{20}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "8th grade"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A glass bottle filled with oil weighs $590$ grams. After Sophia uses $200$ milliliters of oil, the bottle of oil weighs $400$ grams.  The weight $M$ of the bottle of oil, in grams, is a function of $V$, the volume, in milliliters, of oil Sophia has used.  **Write the function's formula.**  $M=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "590-0.95V",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The density of oil is *constant*, so we're dealing with a linear relationship.  We could write the desired formula in slope-intercept form:  $M=\\greenD mV+\\maroonD b$. In this form, $\\greenD m$ gives us the slope of the graph of the function and $\\maroonD b$ gives us the $y$-intercept. Our goal is to find the values of $\\greenD m$ and $\\maroonD b$ and substitute them into this formula.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We know that the bottle of oil initially weighs $590$ grams, so the $y$-intercept $\\maroonD{b}$ is $\\maroonD{590}$, and our function looks like $M=\\greenD{m}V+\\maroonD{590}$.  We also know that after Sophia uses $200$ milliliters of oil, the bottle of oil weighs $400$ grams, which means when $V=200$, $M=400$. We can use this and the $y$-intercept to find $\\greenD{m}$:  $\\begin{align} \\greenD{m}&=\\dfrac{M_2-M_1}{V_2-V_1} \\\\\\\\ &=\\dfrac{400-590}{200-0} \\\\\\\\ &=\\dfrac{-190}{200} \\\\\\\\ &=-\\dfrac{19\\cdot\\cancel{10}}{20\\cdot\\cancel{10}} \\\\\\\\ &=\\greenD{-0.95} \\end{align}$  This means for each milliliter of oil Sophia uses, the weight of the bottle of oil decreases by $0.95$ grams.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since $\\greenD{m}=\\greenD{-0.95}$ and $\\maroonD{b}=\\maroonD{590}$, the desired formula is:  $M=\\greenD{-0.95} V + \\maroonD{590}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "8th grade"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Hillel is juggling flaming torches to raise money for charity. His initial appearance raises $\\$500$, and he raises $\\$15$ for each minute of juggling performance.  The amount $R$ of money Hillel raises is a function of $t$, the length of his performance in minutes.   **Write the function's formula.**  $R=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "500+15t",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The amount of money Hillel raises for each minute of performance is *constant*, so we're dealing with a linear relationship.  We could write the desired formula in slope-intercept form:  $R=\\greenD mt+\\maroonD b$. In this form, $\\greenD m$ gives us the slope of the graph of the function and $\\maroonD b$ gives us the $y$-intercept. Our goal is to find the values of $\\greenD m$ and $\\maroonD b$ and substitute them into this formula.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We know that each minute of Hillel's performance raises $\\$15$,  so the slope $\\greenD m$ is $\\greenD{15}$, and our function looks like $R=\\greenD{15}t+\\maroonD b$.  We also know that Hillel's initial appearance raises $\\$500$,  so the $y$-intercept $\\maroonD{b}$ is $\\maroonD{500}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since $\\greenD{m}=\\greenD{15}$ and $\\maroonD{b}=\\maroonD{500}$, the desired formula is:  $R=\\greenD{15}t+\\maroonD{500}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "8th grade"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "When Joseph first starts working at a grocery store, his hourly rate is $\\$10$. For each year he works at the grocery store, his hourly rate increases by $\\$0.50$.  Joseph's hourly rate $R$, in dollars, is a function of $t$, the number of years he works at the grocery store.   **Write the function's formula.**  $R=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "10+0.50t",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The yearly increase to Joseph's hourly rate is *constant*, so we're dealing with a linear relationship.  We could write the desired formula in slope-intercept form:  $R=\\greenD mt+\\maroonD b$. In this form, $\\greenD m$ gives us the slope of the graph of the function and $\\maroonD b$ gives us the $y$-intercept. Our goal is to find the values of $\\greenD m$ and $\\maroonD b$ and substitute them into this formula.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We know that for each year Joseph works at the grocery store, his hourly rate increases by $\\$0.50$,  so the slope $\\greenD m$ is $\\greenD{0.5}$, and our function looks like $R=\\greenD{0.5}t+\\maroonD b$.  We also know that his starting hourly rate is $\\$10$,  so the $y$-intercept $\\maroonD{b}$ is $\\maroonD{10}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since $\\greenD{m}=\\greenD{0.5}$ and $\\maroonD{b}=\\maroonD{10}$, the desired formula is:  $R=\\greenD{0.5}t+\\maroonD{10}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "8th grade"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Bob the Wizard makes magical brooms. He charges $125$ gold pieces for each magical broom he makes for his customers. He also charges a one-time fee of $50$ gold pieces for his initial consultation.  The total number $G$ of gold pieces Bob charges is a function of $x$, the number of magical brooms he makes.  **Write the function's formula.**  $G=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "50+125x",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The number of gold pieces Bob charges for each magical broom is *constant*, so we're dealing with a linear relationship.  We could write the desired formula in slope-intercept form:  $G=\\greenD mx+\\maroonD b$. In this form, $\\greenD m$ gives us the slope of the graph of the function and $\\maroonD b$ gives us the $y$-intercept. Our goal is to find the values of $\\greenD m$ and $\\maroonD b$ and substitute them into this formula.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We know that Bob charges $125$ gold pieces for each magical broom he makes,  so the slope $\\greenD m$ is $\\greenD{125}$, and our function looks like $G=\\greenD{125}x+\\maroonD b$.  We also know that Bob's initial fee is $50$ gold pieces,  so the $y$-intercept $\\maroonD{b}$ is $\\maroonD{50}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since $\\greenD{m}=\\greenD{125}$ and $\\maroonD{b}=\\maroonD{50}$, the desired formula is:  $G=\\greenD{125}x+\\maroonD{50}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "8th grade"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Nala is escaping from the dragon's lair! She is running toward the entrance of the lair at a speed of $9.2$ meters per second. The entrance is $180$ meters away.  The distance $d$ between Nala and the entrance of the lair is a function of $t$, the time in seconds since Nala began running.  **Write the function's formula.**  $d=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "180-9.2t",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Nala's speed is *constant*, so we're dealing with a linear relationship.  We could write the desired formula in slope-intercept form:  $d=\\greenD mt+\\maroonD b$. In this form, $\\greenD m$ gives us the slope of the graph of the function and $\\maroonD b$ gives us the $y$-intercept. Our goal is to find the values of $\\greenD m$ and $\\maroonD b$ and substitute them into this formula.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We know that for each second Nala runs, the distance between her and the entrance decreases by $9.2$ meters,  so the slope $\\greenD m$ is $\\greenD{-9.2}$, and our function looks like $d=\\greenD{-9.2}t+\\maroonD b$.  We also know that Nala is $180$ meters away from the entrance initially,  so the $y$-intercept $\\maroonD{b}$ is $\\maroonD{180}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since $\\greenD{m}=\\greenD{-9.2}$ and $\\maroonD{b}=\\maroonD{180}$, the desired formula is:  $d=\\greenD{-9.2}t+\\maroonD{180}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "8th grade"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Dominik uses $20$ grams of filling for each dumpling he makes. He has $1500$ grams of dumpling filling.  The grams $F$ of filling remaining is a function of $d$, the number of dumplings Dominik makes.  **Write the function's formula.**  $F=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "1500-20d",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The amount of filling used to make each dumpling is *constant*, so we're dealing with a linear relationship.  We could write the desired formula in slope-intercept form:  $F=\\greenD md+\\maroonD b$. In this form, $\\greenD m$ gives us the slope of the graph of the function and $\\maroonD b$ gives us the $y$-intercept. Our goal is to find the values of $\\greenD m$ and $\\maroonD b$ and substitute them into this formula.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We know that each dumpling Dominik makes decreases the filling remaining by $20$ grams,  so the slope $\\greenD m$ is $\\greenD{-20}$, and our function looks like $F=\\greenD{-20}d+\\maroonD b$.  We also know that Dominik has $1500$ grams of filling initially,  so the $y$-intercept $\\maroonD{b}$ is $\\maroonD{1500}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since $\\greenD{m}=\\greenD{-20}$ and $\\maroonD{b}=\\maroonD{1500}$, the desired formula is:  $F=\\greenD{-20}d+\\maroonD{1500}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "8th grade"
+                    }
+                }
+            }
+        }
+    ]
+}

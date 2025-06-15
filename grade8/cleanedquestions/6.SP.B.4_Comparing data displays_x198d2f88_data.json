@@ -1,0 +1,913 @@
+{
+    "standard_metadata": {
+        "standard_id": "6.SP.B.4",
+        "standard_description": "Display numerical data in plots on a number line, including dot plots, histograms, and box plots.",
+        "standard_title": "Comparing data displays",
+        "standard_url": "https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-data-statistics/cc-7th-compare-data-displays/e/comparing-data-displays"
+    },
+    "id": "x198d2f88",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Sal counted the number of songs on each album in his collection. He created both a dot plot and a box plot to display the same data:      1. **Which display makes it clear that none of the albums had $15$ songs?**    2. **Which display makes it easier to find that the interquartile range is $4$ songs?**",
+                                "images": [
+                                    {
+                                        "alt": "A dot plot has a horizontal axis labeled, Number of songs, marked from 7 to 16 in increments of 1. The number of dots above each value is as follows. 7, 1; 8, 2; 9, 2; 10, 4; 11, 1; 12, 2; 13, 2; 14, 1; 15, 0; 16, 2.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/0fa1fed9738c88e24104a46aa45026713243c285.svg"
+                                    },
+                                    {
+                                        "alt": "A horizontal box plot is labeled, Number of songs, and marked from 7 to 16 in increments of 1. A left whisker extends from 7 to 9. The box extends from 9 to 13 and is divided into 2 parts by a vertical line segment at 10. The right whisker extends from 13 to 16. All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/ce37fefeb8d71833485b94b77f3f8d1ace72ba1a.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "The dot plot",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The box plot",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The dot plot",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The box plot",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  Different types of data displays make different things easier to see:   | Shows every data point? | Shows summary statistics? - | :-: | :-: **Dot plot** | Yes | No **Box plot** | No | Yes  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The dot plot shows us that there were no albums with $15$ songs, but we cannot see this in the box plot.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A dot plot has a horizontal axis labeled, Number of songs, marked from 7 to 16 in increments of 1. The number of dots above each value is as follows. 7, 1; 8, 2; 9, 2; 10, 4; 11, 1; 12, 2; 13, 2; 14, 1; 15, 0; 16, 2. The space above 15 is circled.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/788196d0bb1eaad543ad0e06efc09bd9bcfe58af.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "To find the interquartile range, we need to find the first and third quartiles. The quartiles are easy to see in the box plot, but they are not immediately visible in the dot plot.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A horizontal box plot is labeled, Number of songs, and marked from 7 to 16 in increments of 1. A left whisker extends from 7 to 9. The box extends from 9 to 13 and is divided into 2 parts by a vertical line segment at 10. The right whisker extends from 13 to 16. All values estimated. The distance from 9 to 13 is labeled I Q R equals 13 minus 9.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/27bf7c522067b00fa6709573af0550aa973974f8.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Answers  The dot plot makes it clear that none of the albums had $15$ songs.  The box plot makes it easier to find that the interquartile range is $4$ songs.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Sal counted the number of songs on each album in his collection. He created both a dot plot and a box plot to display the same data:      1. **Which display makes it easier to see that the median is $10$ songs?**    2. **Which display allows us to see that the mode is $10$ songs?**",
+                                "images": [
+                                    {
+                                        "alt": "A dot plot has a horizontal axis labeled, Number of songs, marked from 7 to 16 in increments of 1. The number of dots above each value is as follows. 7, 1; 8, 2; 9, 2; 10, 4; 11, 1; 12, 2; 13, 2; 14, 1; 15, 0; 16, 2. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/0fa1fed9738c88e24104a46aa45026713243c285.svg"
+                                    },
+                                    {
+                                        "alt": "A horizontal box plot is labeled, Number of songs, and marked from 7 to 16 in increments of 1. A left whisker extends from 7 to 9. The box extends from 9 to 13 and is divided into 2 parts by a vertical line segment at 10. The right whisker extends from 13 to 16. All values estimated. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/ce37fefeb8d71833485b94b77f3f8d1ace72ba1a.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "The dot plot",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The box plot",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The dot plot",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The box plot",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  Different types of data displays make different things easier to see:   | Shows every data point? | Shows summary statistics? - | :-: | :-: **Dot plot** | Yes | No **Box plot** | No | Yes  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The median is easy to see in the box plot, but it is not immediately visible in the dot plot.   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A horizontal box plot is labeled, Number of songs, and marked from 7 to 16 in increments of 1. A left whisker extends from 7 to 9. The box extends from 9 to 13 and is divided into 2 parts by a vertical line segment at 10. The right whisker extends from 13 to 16. All values estimated. The vertical line segment at 10 is circled.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/c7c79d5e554a5400b81e2ff0944fb6a9dc7ba1bc.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The dot plot shows us that $10$ was the most common number of songs, but we cannot see this in the box plot.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A dot plot has a horizontal axis labeled, Number of songs, marked from 7 to 16 in increments of 1. The number of dots above each value is as follows. 7, 1; 8, 2; 9, 2; 10, 4; 11, 1; 12, 2; 13, 2; 14, 1; 15, 0; 16, 2. The dots above 10 are circled.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/211f1c4e1320e6c53c0ba5fb3e519e4cfa965870.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Answers  The box plot makes it easier to see that the median is $10$ songs.  The dot plot allows us to see that mode is $10$ songs.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Tia measured the daily high temperature in Kats, Colorado for each of the $30$ days in April. She then created both a dot plot and a box plot to display the same data:      1. **Which display can be used to find how many days had a high temperature above $15^{\\circ}\\text{C}$?**    2. **Which display makes it easier to see that the first quartile is $9^{\\circ}\\text{C}$?**",
+                                "images": [
+                                    {
+                                        "alt": "A dot plot has a horizontal axis labeled, Temperature in degrees Celsius, marked from 0 to 20 in increments of 1. The number of dots above each value is as follows. 6, 1; 7, 2; 8, 2; 9, 3; 10, 5; 11, 3; 12, 4; 13, 1; 14, 2; 16, 2; 17, 2; 18, 2; 19, 1. The values not mentioned do not have dots above them.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/69f6e363302aea4506c69c5714c8f68e18919d46.svg"
+                                    },
+                                    {
+                                        "alt": "A horizontal box plot is labeled, Temperature in degrees Celsius, and marked from 0 to 20 in increments of 1. A left whisker extends from 6 to 9. The box extends from 9 to 14 and is divided into 2 parts by a vertical line segment at 11. The right whisker extends from 14 to 19. All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/b8dfa588983216bd43e6d2a200cc7624dabbd5da.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "The dot plot",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The box plot",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The dot plot",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The box plot",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  Different types of data displays make different things easier to see:   | Shows every data point? | Shows summary statistics? - | :-: | :-: **Dot plot** | Yes | No **Box plot** | No | Yes  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The dot plot can be used to find that there were $7$ days with a high temperature above $15^{\\circ}\\text{C}$, but we cannot find this using the box plot.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A dot plot has a horizontal axis labeled, Temperature in degrees Celsius, marked from 0 to 20 in increments of 1. The number of dots above each value is as follows. 6, 1; 7, 2; 8, 2; 9, 3; 10, 5; 11, 3; 12, 4; 13, 1; 14, 2; 16, 2; 17, 2; 18, 2; 19, 1. The values not mentioned do not have dots above them. The dots above 16 through 20 are circled.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/5045bd889037e721191031dfeeb2b54c2fa7aed2.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The first quartile is easy to see in the box plot, but it is not immediately visible in the dot plot.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A horizontal box plot is labeled, Temperature in degrees Celsius, and marked from 0 to 20 in increments of 1. A left whisker extends from 6 to 9. The box extends from 9 to 14 and is divided into 2 parts by a vertical line segment at 11. The right whisker extends from 14 to 19. All values estimated. The first part of the box above 9 is circled.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/c2b509a3509331fb8ecfa9f30c73f38bdebf642a.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Answers  The dot plot can be used to find how many days had a high temperature above $15^{\\circ}\\text{C}$.  The box plot makes it easier to see that the first quartile is $9^{\\circ}\\text{C}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Tia measured the daily high temperature in Kats, Colorado for each of the $30$ days in April. She then created both a dot plot and a box plot to display the same data:      1. **Which display makes it easier to see that the third quartile is $14^{\\circ}\\text{C}$?**    2. **Which display can be used to find how many days had a high temperature below $8^{\\circ}\\text{C}$?**",
+                                "images": [
+                                    {
+                                        "alt": "\"A dot plot.  The number line, labeled Temperature, in degrees Celsius, is numbered 0 to 20. \nPoint 6 has 1 dot.\nPoint 7 has 2 dots.\nPoint 8 has 2 dots.\nPoint 9 has 3 dots.\nPoint 10 has 5 dots.\nPoint 11 has 3 dots. \nPoint 12 has 4 dots.\nPoint 13 has 1 dot.\nPoint 14 has 2 dots.\nPoint 16 has 2 dots.\nPoint 17 has 2 dots.\nPoint 18 has 2 dots. \nPoint 19 has 1 dot.\"",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/69f6e363302aea4506c69c5714c8f68e18919d46.svg"
+                                    },
+                                    {
+                                        "alt": "A horizontal box plot is labeled, Temperature, in degrees Celsius, and marked from 0 to 20 in increments of 1. A left whisker extends from 6 to 9. The box extends from 9 to 14 and is divided into 2 parts by a vertical line segment at 11. The right whisker extends from 14 to 19. All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/b8dfa588983216bd43e6d2a200cc7624dabbd5da.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "The dot plot",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The box plot",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The dot plot",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The box plot",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  Different types of data displays make different things easier to see:   | Shows every data point? | Shows summary statistics? - | :-: | :-: **Dot plot** | Yes | No **Box plot** | No | Yes  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The third quartile is easy to see in the box plot, but it is not immediately visible in the dot plot.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A horizontal box plot is labeled, Temperature in degrees Celsius, and marked from 0 to 20 in increments of 1. A left whisker extends from 6 to 9. The box extends from 9 to 14 and is divided into 2 parts by a vertical line segment at 11. The right whisker extends from 14 to 19. All values estimated. The last part of the box above 14 is circled.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/de71431abd126d91a0c7f5bcc6e106f8281a6c58.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The dot plot can be used to find that there were $3$ days with a high temperature below $8^{\\circ}\\text{C}$, but we cannot find this using the box plot.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A dot plot has a horizontal axis labeled, Temperature in degrees Celsius, marked from 0 to 20 in increments of 1. The number of dots above each value is as follows. 6, 1; 7, 2; 8, 2; 9, 3; 10, 5; 11, 3; 12, 4; 13, 1; 14, 2; 16, 2; 17, 2; 18, 2; 19, 1. The values not mentioned do not have dots above them. The dots above 6 and 7 are circled.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/13e36ee4ff9f828b315d3030f76232dc42d3df38.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Answers  The box plot makes it easier to see that the third quartile is $14^{\\circ}\\text{C}$.  The dot plot can be used to find how many days had a high temperature below $8^{\\circ}\\text{C}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Leonard measured the mass of each pumpkin in his patch in kilograms. He created both a histogram and a box plot to display the same data:      1. **Which display can be used to find the maximum mass?**    2. **Which display can be used to find that there were $25$ pumpkins in Leonard's patch?**",
+                                "images": [
+                                    {
+                                        "alt": "A histogram plots Number of pumpkins, versus Mass in kilograms, from 0 to 15, in increments of 3. Bar heights are approximately as follows. From 0 to 3, 4. From 3 to 6, 5. From 6 to 9, 8. From 9 to 12, 6. From 12 to 15, 2.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/47a5efc0185b11f06b312f91d1c8f10bf6982f16.svg"
+                                    },
+                                    {
+                                        "alt": "A horizontal box plot is labeled, Mass in kilograms, and marked from 0 to 15 in increments of 1. A left whisker extends from 1 to 4. The box extends from 4 to 9 and is divided into 2 parts by a vertical line segment at 8. The right whisker extends from 9 to 14. All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/f521e47808fc7ef97521b08f52b80664868c9f02.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "The histogram",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The box plot",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The histogram",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The box plot",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  Different types of data displays make different things easier to see:   | Shows number of data points? | Shows summary statistics? - | :-: | :-: **Histogram** | Yes | No **Box plot** | No | Yes  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The box plot shows us that the maximum mass was $14$. The histogram only shows us that the maximum mass is somewhere between $12.0$ and $14.9$ kilograms.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A horizontal box plot is labeled, Mass in kilograms, and marked from 0 to 15 in increments of 1. A left whisker extends from 1 to 4. The box extends from 4 to 9 and is divided into 2 parts by a vertical line segment at 8. The right whisker extends from 9 to 14. The maximum part of the box plot above 14 is circled. All values estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/121bb69ff9c6a7cf34d5657765fa74d7bd841ebb.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "To see how many pumpkins were in Leonard's patch, we can count the height of each bar in the histogram.  $4+5+8+6+2=25\\text{ pumpkins}$  We cannot see this information in the boxplot.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Answers  The box plot can be used to find the maximum mass.  The histogram can be used to find that there were $25$ pumpkins in Leonard's patch.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Leonard measured the mass of each pumpkin in his patch in kilograms. He created both a histogram and a box plot to display the same data:      1. **Which display can be used to find how many pumpkins had masses below $6.0$ kilograms?**    2. **Which display can be used to find that the median mass was $8$ kilograms?**",
+                                "images": [
+                                    {
+                                        "alt": "A histogram plots Number of pumpkins, versus Mass in kilograms, from 0 to 15, in increments of 3. Bar heights are approximately as follows. From 0 to 3, 4. From 3 to 6, 5. From 6 to 9, 8. From 9 to 12, 6. From 12 to 15, 2. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/47a5efc0185b11f06b312f91d1c8f10bf6982f16.svg"
+                                    },
+                                    {
+                                        "alt": "A horizontal box plot is labeled, Mass in kilograms, and marked from 0 to 15 in increments of 1. A left whisker extends from 1 to 4. The box extends from 4 to 9 and is divided into 2 parts by a vertical line segment at 8. The right whisker extends from 9 to 14. All values estimated. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/f521e47808fc7ef97521b08f52b80664868c9f02.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "The histogram",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The box plot",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The histogram",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The box plot",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  Different types of data displays make different things easier to see:   | Shows number of data points? | Shows summary statistics? - | :-: | :-: **Histogram** | Yes | No **Box plot** | No | Yes  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can see in the histogram that there were $\\maroonE4+\\maroonE5=9$ pumpkins that had masses below $6.0$ kilograms. We cannot see this information in the box plot.   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A histogram plots Number of pumpkins, versus Mass in kilograms, from 0 to 15, in increments of 3. Bar heights are approximately as follows. From 0 to 3, 4. From 3 to 6, 5. From 6 to 9, 8. From 9 to 12, 6. From 12 to 15, 2. Bars above 0 to 3 and 3 to 6 are highlighted.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/f28e043d7ee7156fa166aa2bd775cb3486994ab9.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The box plot shows us that the median mass was $8$ kilograms. From the histogram, we only know that median is between $6.0$ and $8.9$ kilograms.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A horizontal box plot is labeled, Mass in kilograms, and marked from 0 to 15 in increments of 1. A left whisker extends from 1 to 4. The box extends from 4 to 9 and is divided into 2 parts by a vertical line segment at 8. The right whisker extends from 9 to 14. All values estimated. The vertical line above 8 is circled.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/9f5cfff7a7b3481b27dc0446ff1e8184f59ff333.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Answers  The histogram allows us to find how many pumpkins had masses below $6$ kilograms.  The box plot allows us to know that the median mass was $8$ kilograms.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Nam owns a used car lot. He checked the odometers of the cars and recorded how far they had driven. He then created both a histogram and a box plot to display the same data:      1. **Which display is more useful for approximating the minimum distance?**    2. **Which display can be used to find that there were $23$ vehicles at Nam's Used Car Lot?**",
+                                "images": [
+                                    {
+                                        "alt": "A histogram. The vertical axis is labeled Number of vehicles and goes from 0 to 8, in increments of 2. The horizontal axis is labeled Distance (thousands of kilometers) and goes from 0 to 300, in increments of 50.  The bar that goes from 0 to 50 on the horizontal axis and goes up to 3 on the vertical axis. The bar that goes from 50 to 100 on the horizontal axis and goes up to 4 on the vertical axis.  The bar that goes from 100 to 150 on the horizontal axis and goes up to 5 on the vertical axis. The bar that goes from 150 to 200 on the horizontal axis and goes up to 6 on the vertical axis. The bar that goes from 200 to 250 on the horizontal axis and goes up to 3 on the vertical axis. The bar that goes from 250 to 300 on the horizontal axis and goes up to 2 on the vertical axis. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/3383767c2a4530cef9f7a4ea1f3ab5f09d2f1f85.svg"
+                                    },
+                                    {
+                                        "alt": "A horizontal box plot is labeled, Temperature, in degrees Celsius, and marked from 0 to 300 in increments of 10. A left whisker extends from 10 to 65. The box extends from 65 to 175 and is divided into 2 parts by a vertical line segment at 140. The right whisker extends from 175 to 385. All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/66f1f48fc3c860c2f8960580ca532beb1b758e7c.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "The histogram",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The box plot",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The histogram",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The box plot",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  Different types of data displays make different things easier to see:   | Shows number of data points? | Shows summary statistics? - | :-: | :-: **Histogram** | Yes | No **Box plot** | No | Yes  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The box plot shows us that the minimum distance was approximately $10{,}000\\,\\text{km}$. The histogram only shows us that the minimum distance is somewhere between $0$ and $50{,}000\\,\\text{km}$.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A horizontal box plot is labeled, Distance in thousands of kilometers, and marked from 0 to 300 in increments of 50. A left whisker extends from 10 to 60. The box extends from 62 to 175 and is divided into 2 parts by a vertical line segment at 140. The right whisker extends from 175 to 285. All values estimated. The minimum part of the box and whisker plot above 10 is circled.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/677aad0078ecea957fbd0224cfb8dd2e0768f501.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "To see how many cars were in Nam's lot, we can count the height of each bar in the histogram.  $3+4+5+6+3+2=23\\text{ cars}$  We cannot see this information in the boxplot.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Answers  The box plot is more useful for approximating the minimum distance.  The histogram can be used to find that there were $23$ vehicles at Nam's Used Car Lot.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Nam owns a used car lot. He checked the odometers of the cars and recorded how far they had driven. He then created both a histogram and a box plot to display the same data:      1. **Which display can be used to find how many vehicles had driven more than $200{,}000\\,\\text{km}$ (kilometers)?**    2. **Which display can be used to find that the median distance was approximately $140{,}000\\,\\text{km}$?**",
+                                "images": [
+                                    {
+                                        "alt": "A histogram plots Number of vehicles, versus Distance in thousands of kilometers, from 0 to 300, in increments of 50. Bar heights are approximately as follows. From 0 to 50, 3. From 50 to 100, 4. From 100 to 150, 5. From 150 to 200, 6. From 200 to 250, 3 From 250 to 300, 2.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/3383767c2a4530cef9f7a4ea1f3ab5f09d2f1f85.svg"
+                                    },
+                                    {
+                                        "alt": "A horizontal box plot is labeled, Distance in thousands of kilometers, and marked from 0 to 300 in increments of 50. A left whisker extends from 10 to 60. The box extends from 62 to 175 and is divided into 2 parts by a vertical line segment at 140. The right whisker extends from 175 to 285. All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/66f1f48fc3c860c2f8960580ca532beb1b758e7c.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "The histogram",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The box plot",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The histogram",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The box plot",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  Different types of data displays make different things easier to see:   | Shows number of data points? | Shows summary statistics? - | :-: | :-: **Histogram** | Yes | No **Box plot** | No | Yes  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can use the histogram to find that there were $\\maroonE3+\\maroonE2=5$ vehicles that had distances over $200{,}000\\,\\text{km}$. We cannot see this information in the box plot.   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A histogram plots Number of vehicles, versus Distance in thousands of kilometers, from 0 to 300, in increments of 50. Bar heights are approximately as follows. From 0 to 50, 3. From 50 to 100, 4. From 100 to 150, 5. From 150 to 200, 6. From 200 to 250, 3 From 250 to 300, 2. The bars above 200 through 300 are highlighted.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/648e057578f400a27fa64d602a3ecf65e0f2e595.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The box plot shows us that the median distance was approximately $140{,}000\\,\\text{km}$. From the histogram, we only know that median is between $100{,}000$ and $150{,}000\\,\\text{km}$.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A horizontal box plot is labeled, Distance in thousands of kilometers, and marked from 0 to 300 in increments of 50. A left whisker extends from 10 to 60. The box extends from 62 to 175 and is divided into 2 parts by a vertical line segment at 140. The vertical line is circled. The right whisker extends from 175 to 285. All values estimated. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/33ab69d2bb9702d882cac9781957679ce88f2eca.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Answers  The histogram can be used to find how many vehicles had driven more than $200{,}000\\,\\text{km}$ (kilometers).  The box plot can be used to find that the median distance was approximately $140{,}000\\,\\text{km}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Leo owns a hostel and counted the number of guests staying in each room.  He then created both a histogram and a dot plot to display the same data:      1. **Which display can be used to find that there were $2$ rooms without guests?**    2. **Which display makes it easier to see clusters and gaps in the data?**",
+                                "images": [
+                                    {
+                                        "alt": "A histogram plots Number of rooms, versus Number of guests, from 0 to 24, in increments of 4. Bar heights are approximately as follows. From 0 to 4, 3. From 4 to 8, 5. From 8 to 12, 8. From 12 to 16, 6. From 16 to 20, 2. From 20 to 24, 1.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/8a7ad081f69545a87580675685443440f338ce1e.svg"
+                                    },
+                                    {
+                                        "alt": "A dot plot has a horizontal axis labeled, Number of guests in each room, marked from 0 to 24 in increments of 1. The number of dots above each value is as follows. 0, 2; 3, 1; 7, 5; 8, 5; 9, 2; 10, 1; 12, 5; 15, 1; 16, 2; 22, 1. There are no dots above the the values not mentioned.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/dc95b734bd735407e55aa588ab0d695fb212207f.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "The histogram",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The dot plot",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The histogram",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The dot plot",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  Different types of data displays make different things easier to see:   | Shows number of data points? | Shows every data point? - | :-: | :-: **Histogram** | Yes | No **Dot plot** | Yes | Yes",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can see in the dot plot that there were $2$ rooms without guests. We cannot see this information in the histogram.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A dot plot has a horizontal axis labeled, Number of guests in each room, marked from 0 to 24 in increments of 1. The number of dots above each value is as follows. 0, 2; 3, 1; 7, 5; 8, 5; 9, 2; 10, 1; 12, 5; 15, 1; 16, 2; 22, 1. There are no dots above the the values not mentioned. The dots above 0 are circled.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/b98545c13fb54c2f7aa11aa06097c6cd9e49ba30.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We can see clusters and gaps such as those shown in the dot plot below. We cannot see clusters and gaps like these in the histogram.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A dot plot has a horizontal axis labeled, Number of guests in each room, marked from 0 to 24 in increments of 1. The number of dots above each value is as follows. 0, 2; 3, 1; 7, 5; 8, 5; 9, 2; 10, 1; 12, 5; 15, 1; 16, 2; 22, 1. There are no dots above the the values not mentioned. The dots above 7 and 8 are circled. The dots above 12 are circled. Both of the circles are labeled cluster. The space between 17 and 21 is labeled gap.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/fd45ff616a70de5414e90a555b91bdb246252cc3.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Answers  The dot plot can be used to find that there were $2$ rooms without guests.  The dot plot makes it easier to see clusters and gaps in the data.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Leo owns a hostel and counted the number of guests staying in each room.  He then created both a histogram and a dot plot to display the same data:      1. **Which display can be used to find the maximum number of guests in a room?**    2. **Which display makes it clear that there were no rooms with $1$ guest?**",
+                                "images": [
+                                    {
+                                        "alt": "A histogram. The vertical axis is labeled Number of rooms and goes from 0 to 10, in increments of 2. The horizontal axis is labeled Number of guests and goes from 0 to 24, in increments of 4.  The bar that goes from 0 to 4 on the horizontal axis and goes up to 3 on the vertical axis. The bar that goes from 4 to 8 on the horizontal axis and goes up to 5 on the vertical axis.  The bar that goes from 8 to 12 on the horizontal axis and goes up to 8 on the vertical axis. The bar that goes from 12 to 16 on the horizontal axis and goes up to 6 on the vertical axis. The bar that goes from 16 to 20 on the horizontal axis and goes up to 2 on the vertical axis. The bar that goes from 20 to 24 on the horizontal axis and goes up to 1 on the vertical axis. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/8a7ad081f69545a87580675685443440f338ce1e.svg"
+                                    },
+                                    {
+                                        "alt": "A dot plot has a horizontal axis labeled, Number of guests in each room, marked from 0 to 24 in increments of 1. The number of dots above each value is as follows. Point 0 has 2 points. Point 3 has 1 point. Point 7 has 5 points. Point 8 has 5 points. Point 9 has 2 points. Point 10 has 1 points. Point 12 has 5 points.Point 15 has 1 point. Point 16 has 2 points. Point 22 has 2 points.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/dc95b734bd735407e55aa588ab0d695fb212207f.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "The histogram",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The dot plot",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The histogram",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The dot plot",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  Different types of data displays make different things easier to see:   | Shows number of data points? | Shows every data point? - | :-: | :-: **Histogram** | Yes | No **Dot plot** | Yes | Yes",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can use the dot plot to find that the maximum number of guests in a room was $22$. We cannot see this information in the histogram.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A dot plot has a horizontal axis labeled, Number of guests in each room, marked from 0 to 24 in increments of 1. The number of dots above each value is as follows. 0, 2; 3, 1; 7, 5; 8, 5; 9, 2; 10, 1; 12, 5; 15, 1; 16, 2; 22, 1. There are no dots above the the values not mentioned. The dot above 22 is circled.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/31b7c3577ca6f2bf6f9f3302991a60fa0e106944.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We can use the dot plot to see that there were no rooms with $1$ guest. We cannot see this information in the histogram.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A dot plot has a horizontal axis labeled, Number of guests in each room, marked from 0 to 24 in increments of 1. The number of dots above each value is as follows. 0, 2; 3, 1; 7, 5; 8, 5; 9, 2; 10, 1; 12, 5; 15, 1; 16, 2; 22, 1. There are no dots above the the values not mentioned. The space above 1 is circled.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/ddd0adcdd75573094019767c5d3362023c2ec199.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Answers  The dot plot can be used to find the maximum number of guests in a room.  The dot plot makes it clear that there were no rooms with $1$ guest.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Regina recorded the area of each house on Prince Street. She then made two histograms with different bucket sizes using the same data:  **Histogram A**    **Histogram B**    **Which histogram can be used to find how many houses had areas less than $150$ square meters?**",
+                                "images": [
+                                    {
+                                        "alt": "A histogram. The vertical axis is labeled Number of houses and goes from 0 to 10, in increments of 2. The horizontal axis is labeled Area (square meters) and goes from 0 to 300, in increments of 50.  The bar that goes from 50 to 100 on the horizontal axis and goes up to 4 on the vertical axis.  The bar that goes from 100 to 150 on the horizontal axis and goes up to 7 on the vertical axis. The bar that goes from 150 to 200 on the horizontal axis and goes up to 9 on the vertical axis. The bar that goes from 200 to 250 on the horizontal axis and goes up to 4 on the vertical axis. The bar that goes from 250 to 300 on the horizontal axis and goes up to 1 on the vertical axis. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/e28492b44d839a040d1d71839601b8f59dcf5ae7.svg"
+                                    },
+                                    {
+                                        "alt": "A histogram. The vertical axis is labeled Number of houses and goes from 0 to 20, in increments of 2. The horizontal axis is labeled Area (square meters) and goes from 0 to 300, in increments of 100.  The bar that goes from 0 to 100 on the horizontal axis and goes up to 4 on the vertical axis.  The bar that goes from 100 to 200 on the horizontal axis and goes up to 16 on the vertical axis. The bar that goes from 200 to 300 on the horizontal axis and goes up to 5 on the vertical axis. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/930aa3514cdde2197c50281f2e8004fb7310ecad.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Histogram A only",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Histogram B only",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Both histograms A and B",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Neither histogram shows this information",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  A histogram shows us how many data points are in each bucket. Each bucket represents a range of values.  Do the buckets in histogram A or B show us how many houses had areas less than $150$ square meters?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Histogram A can be used to find that there are $\\maroonE{4}+\\maroonE{7}=11$ houses with areas less than $150$ square meters.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A histogram plots Number of houses, versus Area in square meters, from 0 to 300, in increments of 50. Bar heights are approximately as follows. From 0 to 50, 0. From 50 to 100, 4. From 100 to 150, 7. From 150 to 200, 9. From 200 to 250, 4. From 250 to 300, 1. The bars above 50 through 150 are highlighted.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/0a2f40aca9ebec961ffa63d7f4d73a202c78e171.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Histogram B can be used to find that there are $\\purpleD{4}$ houses with areas less than $100$ square meters and $\\purpleD{4}+\\goldE{16}=20$ houses with areas less than $200$ square meters.  It cannot be used to find how many houses have areas less than $150$ square meters.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A histogram plots Number of houses, versus Area in square meters, from 0 to 300, in increments of 100. Bar heights are approximately as follows. From 0 to 100, 4. From 100 to 200, 16. From 200 to 300, 5. Each bar is a different color.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/4347fe98ebb3367ec402a5598c2fb094cec4450e.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Answer  Only histogram A can be used to find how many houses have areas less than $150$ square meters.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Regina recorded the area of each house on Prince Street. She then made two histograms with different bucket sizes using the same data:  **Histogram A**    **Histogram B**    **Which histogram can be used to find how many houses had areas greater than $200$ square meters?**",
+                                "images": [
+                                    {
+                                        "alt": "A histogram plots Number of houses, versus Area in square meters, from 0 to 300, in increments of 50. Bar heights are approximately as follows. From 0 to 50, 0. From 50 to 100, 4. From 100 to 150, 7. From 150 to 200, 9. From 200 to 250, 4. From 250 to 300, 1.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/e28492b44d839a040d1d71839601b8f59dcf5ae7.svg"
+                                    },
+                                    {
+                                        "alt": "A histogram plots Number of houses, versus Area in square meters, from 0 to 300, in increments of 100. Bar heights are approximately as follows. From 0 to 100, 4. From 100 to 200, 16. From 200 to 300, 5.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/930aa3514cdde2197c50281f2e8004fb7310ecad.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Histogram A only",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Histogram B only",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Both histograms A and B",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Neither histogram shows this information",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  A histogram shows us how many data points are in each bucket. Each bucket represents a range of values.  Do the buckets in histogram A or B show us how many houses had areas greater than $200$ square meters?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Histogram A can be used to find that there are $\\maroonE{4}+\\maroonE{1}=5$ houses with areas greater than $200$ square meters.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A histogram plots Number of houses, versus Area in square meters, from 0 to 300, in increments of 50. Bar heights are approximately as follows. From 0 to 50, 0. From 50 to 100, 4. From 100 to 150, 7. From 150 to 200, 9. From 200 to 250, 4. From 250 to 300, 1. The bars above 200 through 300 are highlighted.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/227ffc7b24574d655c2a81d731d84267fb74a6b7.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Histogram B can be used to find that there are $\\maroonE5$ houses with areas greater than $200$ square meters.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A histogram plots Number of houses, versus Area in square meters, from 0 to 300, in increments of 100. Bar heights are approximately as follows. From 0 to 100, 4. From 100 to 200, 16. From 200 to 300, 5. The bar above 200 through 300 is highlighted.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/49400396d23027b943ebd5799e2d6ed675c62c13.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Answer  Both histogram A and B can be used to find how many houses had areas greater than $200$ square meters.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3"
+                    }
+                }
+            }
+        }
+    ]
+}

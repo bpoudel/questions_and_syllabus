@@ -1,0 +1,580 @@
+{
+    "standard_metadata": {
+        "standard_id": "7.G.B.4",
+        "standard_description": "Know the formulas for the area and circumference of a circle and use them to solve problems; give an informal derivation of the relationship between the circumference and area of a circle.",
+        "standard_title": "Circumference and rotations",
+        "standard_url": "https://www.khanacademy.org/math/cc-seventh-grade-math/cc-7th-geometry/cc-7th-area-circ-challenge/e/circumference-and-rotations"
+    },
+    "id": "xe8f0009e9e295613",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A wet bicycle tire leaves a trace of water on the floor. The tire has a radius of $30 \\text{ cm}$, and the bicycle wheel makes $3$ full rotations before stopping.   **How long is the trace of water left on the floor?**   *Round your answer to the nearest $\\text{cm}$.*   $\\text{cm}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "565",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The length of the trace of water depends on the circumference of the tire. Each time the tire rolls forward through one rotation, it leaves a mark with length equal to its circumference.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can use the formula $\\blueD{C}=2\\pi\\maroonD{r}$ to calculate the circumference of the tire.  $\\begin{align} \\blueD{C}&=2\\pi \\maroonD{r}\\\\\\\\ &=2\\pi (\\maroonD{30}) \\\\\\\\ &= \\blueD{60\\pi} \\end{align}$  The circumference of the tire is $\\blueD{60\\pi} \\text{ cm}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since the bicycle tire makes $\\greenD{3}$ full rotations before stopping, the total length of the water trace is $\\greenD{3}$ times the circumference of the tire:    $ \\greenD{3}\\times \\blueD{60\\pi} = 180\\pi $",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} 180\\pi &\\approx 180\\times3.14 \\\\\\\\ &\\approx{565.2} \\\\\\\\ &\\approx{565} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The trace of water left on the floor is $565 \\text{ cm}$ long.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. radius, # rotations -> distance"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Allison is rolling her hula hoop on the playground. The radius of her hula hoop is $35 \\text{ cm}$.  **What is the distance the hula hoop rolls in $4$ full rotations?**   *Round your answer to the nearest $\\text{cm}$.*   $\\text{cm}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "879",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "For every full rotation the hula hoop makes, it rolls a distance equal to its circumference.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can use the formula $\\blueD{C}=2\\pi\\purpleC{r}$ to find the circumference of the hula hoop.  $\\begin{align} \\blueD{C}&=2\\pi\\purpleC{r} \\\\\\\\ \\blueD{C}&=2\\pi(\\purpleC{35}) \\\\\\\\ \\blueD{C}&=\\blueD{70\\pi} \\end{align}$  The circumference of the hula hoop is $\\blueD{70\\pi} \\text{ cm}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "But we're not done yet! The question asks for the distance the hula hoop rolls in $4$ full rotations, so we need to multiply the circumference by $4$.  $4\\times\\blueD{70\\pi}=280\\pi$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} 280\\pi &\\approx 280\\times3.14\\\\\\\\ &\\approx 879.2 \\\\\\\\ &\\approx879 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The hula hoop rolls $879 \\text{ cm}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. radius, # rotations -> distance"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Bilal's fishing line was on a spool with a radius of $4 \\text{ cm}$.  Suddenly, a fish pulled on the line, and the spool  spun $16$ times before Bilal began to reel in the fish.  **What is the distance the fish pulled the fishing line?**    *Round your answer to the nearest $\\text{cm}$.*   $\\text{cm}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "402",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Each time the spool spun, the fish pulled a length of fishing line equal to the circumference of the spool.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can use the formula $\\blueD{C}=2\\pi\\purpleC{r}$ to find the circumference of the spool.  $\\begin{align} \\blueD{C}&=2\\pi\\purpleC{r} \\\\\\\\ \\blueD{C}&=2\\pi(\\purpleC{4}) \\\\\\\\ \\blueD{C}&=\\blueD{8\\pi} \\end{align}$  The circumference of the spool is $\\blueD{8\\pi} \\text{ cm}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since the spool spun $16$ times, we can multiply the circumference by $16$ to find the total distance the fish pulled the fishing line.  $16\\times\\blueD{8\\pi}=128\\pi$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} 128\\pi &\\approx 128\\times3.14 \\\\\\\\ &\\approx 401.9 \\\\\\\\ &\\approx402 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The fish pulled the fishing line for approximately $402 \\text{ cm}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. radius, # rotations -> distance"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The second hand on a clock is $8 \\text{ cm}$ long.  **What is the distance the tip of the second hand travels in $10$ minutes?**   *Round your answer to the nearest $\\text{cm}$.*   $\\text{cm}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "502",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The tip of the second hand travels along the circumference of a circle with radius equal to the length of the second hand.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can use the formula $\\blueD{C}=2\\pi\\purpleC{r}$ to find the circumference of the circle traced by the tip of the second hand.  $\\begin{align} \\blueD{C}&=2\\pi\\purpleC{8} \\\\ \\blueD{C}&=2\\pi(\\purpleC{8}) \\\\ \\blueD{C}&=\\blueD{16\\pi} \\end{align}$  The circumference  is $\\blueD{16\\pi} \\text{ cm}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can think about the relationship between distance and circumference like this:  $\\greenD{\\text{distance}}=\\blueD{\\text{circumference}}\\times\\purpleC{\\text{number of revolutions}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The second hand of a clock makes a full revolution every minute, so we know that the second hand revolves $\\purpleC{10}$ times in $10$ minutes.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\blueD{16\\pi}\\times\\purpleC{10}&=\\greenD{160\\pi} \\\\\\\\ &\\approx \\greenD{160\\times3.14} \\\\\\\\ &\\approx \\greenD{502.4} \\\\\\\\ &\\approx \\greenD{502} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The tip of the second hand travels $\\greenD{502} \\text{ cm}$ in $10$ minutes.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. radius, # rotations -> distance"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "You are going on a field trip in a school bus. A special detector placed on one of the bus's tires counts the number of rotations completed by the tire during the journey. The tire's diameter is $1$ meter, and it made $8000$ rotations during the trip.  **How far did the bus travel?**   *Round your answer to the nearest meter.*    meters",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "25120",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Each time the bus tire rolls forward through one rotation, the bus moves forward a distance equal to the circumference of the tire.  The distance the bus travels depends on the number of rotations and the circumference of the tire.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can use the formula  $\\blueD{C}=\\pi \\greenD{d}$ to find the circumference of the tire.  $\\begin{align} \\blueD{C} &=\\pi \\greenD{d} \\\\ &=\\pi( \\greenD{1}) \\\\ &=\\blueD{\\pi} \\end{align}$  The circumference of the tire is $\\blueD{\\pi} \\text{ m}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since the bus tire made $\\purpleD{8000}$ rotations during the trip, the total distance traveled is $\\purpleD{8000}$ times the circumference of the tire:  $\\purpleD{8000}\\times \\blueD{\\pi} = 8000\\pi$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} 8000\\pi &\\approx 8000\\times3.14 \\\\\\\\ &\\approx25{,}120 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The total distance traveled during the trip is $25{,}120$ meters.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. diameter, # rotations -> distance"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Avi's pet hamster Chubby loves to run in his hamster wheel. During one \"race\", Avi counts $100$ rotations of the wheel. She wants to know how far Chubby ran, so she measures the diameter of the wheel and finds that it is $20 \\text{ cm}$.   **How far did Chubby run?**   *Round your answer to the nearest $\\text{cm}$.*    $\\text{cm}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "6280",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Each time the hamster wheel rotates, the distance Chubby runs is equal to the circumference of the wheel.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can use the formula  $\\blueD{C}=\\pi \\greenD{d}$ to find the circumference of the wheel.  $\\begin{align} \\blueD{C} &=\\pi \\greenD{d} \\\\ &=\\pi( \\greenD{20}) \\\\ &=\\blueD{20\\pi}  \\end{align}$  The circumference of Chubby's wheel is $\\blueD{20\\pi} \\text{ cm}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since the wheel rotated $\\purpleC{100}$ times, the total distance Chubby ran is $\\purpleC{100}$ times the circumference of the wheel:  $\\purpleC{100}\\times\\blueD{20\\pi} =2000\\pi$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} 2000\\pi &\\approx 2000\\times3.14 \\\\\\\\&\\approx 6280  \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Chubby ran a total distance of  $6280 \\text{ cm}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. diameter, # rotations -> distance"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A bicycle tire has a diameter of $62 \\text{ cm}$.  **What is the distance the bicycle tire travels in $10$ revolutions?**   *Round your answer to the nearest $\\text{cm}$.*   $\\text{cm}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "1947",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "For every revolution the bicycle tire makes, the bicycle travels a distance equal to the circumference of its tires.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can use the formula $\\blueD{C}=\\pi\\purpleC{d}$ to find the circumference of the tires.  $\\begin{align} \\blueD{C}&=\\pi\\purpleC{d} \\\\ \\blueD{C}&=\\pi(\\purpleC{62}) \\\\ \\blueD{C}&=\\blueD{62\\pi} \\end{align}$  The circumference of the bicycle tire is $\\blueD{62\\pi} \\text{ cm}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "But we're not done yet! The question asks for the distance the bicycle travels in $10$ revolutions, so we need to multiply the circumference by $10$.  $10\\times\\blueD{62\\pi}=620\\pi$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} 620\\pi &\\approx 620\\times3.14 \\\\\\\\ &\\approx1946.8\\\\\\\\ &\\approx1947 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The bicycle tire travels a distance of $1947 \\text{ cm}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. diameter, # rotations -> distance"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Aliaa is skating down a ramp. The wheels on her skateboard have diameters of $60 \\text{ mm}$.  **What is the distance Aliaa travels when her skateboard wheels make $20$ revolutions?**   *Round your answer to the nearest $\\text{mm}$.*   $\\text{mm}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "3768",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "For every revolution the skateboard wheels make, the skateboard travels a distance equal to the circumferences of its wheels.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can use the formula $\\blueD{C}=\\pi\\purpleC{d}$ to find the circumference of the skateboard wheels.  $\\begin{align} \\blueD{C}&=\\pi\\purpleC{d} \\\\\\\\ \\blueD{C}&=\\pi(\\purpleC{60}) \\\\\\\\ \\blueD{C}&=\\blueD{60\\pi} \\end{align}$  The circumference of the skateboard wheels is $\\blueD{60\\pi} \\text{ mm}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The question asks for the distance the skateboard travels in $20$ revolutions, so we need to multiply the circumference by $20$.  $20\\times\\blueD{60\\pi}=1200\\pi$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} 1200\\pi &\\approx 1200\\times3.14 \\\\\\\\ &\\approx 3768 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Aliaa travels a distance of $3768 \\text{ mm}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. diameter, # rotations -> distance"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The tires of a go-kart are $1 \\text{ m}$ in circumference. The tires revolve $15$ times per second.  **What is the distance the go-kart travels in $40$ seconds?**      $\\text{m}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "600",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "For every revolution the go-kart tires make, the go-kart travels a distance equal to the circumference of its tires.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can think about the relationship between distance and circumference like this:  $\\greenD{\\text{distance}}=\\blueD{\\text{circumference}}\\times\\purpleC{\\text{number of revolutions}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The tires revolve $15$ times per second for $40$ seconds.  $15\\times40 =\\purpleC{600}$  Each tire revolves $\\purpleC{600}$ times.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The circumference of the tires is $\\blueD{1} \\text{ m}$, and the number of revolutions is $\\purpleC{600}$.  $\\blueD{1}\\times\\purpleC{600}=\\greenD{600}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The go-kart travels $\\greenD{600} \\text{ m}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3. Circumference, rate, time -> distance"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Benjamin is riding a unicycle. The tire of his unicycle has a circumference of  $2.8 \\text{ m}$, and the tire revolves $1.5$ times per second.  **What is the distance Benjamin travels in $100$ seconds?**      $\\text{m}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "420",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "For every revolution the unicycle tire makes, the unicycle travels a distance equal to the circumference of the tire.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can think about the relationship between distance and circumference like this:  $\\greenD{\\text{distance}}=\\blueD{\\text{circumference}}\\times\\purpleC{\\text{number of revolutions}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The tire revolves $1.5$ times per second for $100$ seconds.  $1.5\\times100 =\\purpleC{150}$  The tire revolves $\\purpleC{150}$ times.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The circumference of the tire is $\\blueD{2.8} \\text{ m}$, and the number of revolutions is $\\purpleC{150}$.  $\\blueD{2.8}\\times\\purpleC{150}=\\greenD{420}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Benjamin travels $\\greenD{420} \\text{ m}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3. Circumference, rate, time -> distance"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Stan drove $3300 \\text{ m}$ to the grocery store. The tires on his truck are $2.2 \\text{ m}$ in circumference.    **How many rotations did each tire make on Stan's drive?**      rotations",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "1500",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can think about the problem this way:  $\\greenD{\\text{number of rotations}}=\\dfrac{\\blueD{\\text{distance}}}{\\purpleC{\\text{circumference}}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\dfrac{\\blueD{3300}}{\\purpleC{2.2}}=\\greenD{1500}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Each tire  made $\\greenD{1500}$ rotations on Stan's drive.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "4. Distance, circumference -> # of rotations"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Shawn is coasting down a $500 \\text{ cm}$ long ramp on his inline skates. The wheels on his inline skates are $32\\text{ cm}$ in circumference.    **How many rotations does each wheel make while Shawn is coasting down the ramp?**   *Round your answer to the nearest rotation.*   rotations",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "16",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "15.625",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can think about the problem this way:  $\\greenD{\\text{number of rotations}}=\\dfrac{\\blueD{\\text{length of ramp}}}{\\purpleC{\\text{circumference}}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\dfrac{\\blueD{500}}{\\purpleC{32}}&=\\greenD{15.625} \\\\\\\\ &\\approx \\greenD{16} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Each wheel makes $\\greenD{16}$ rotations while Shawn is coasting down the ramp.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "4. Distance, circumference -> # of rotations"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Alex needs $80 \\text{ cm}$ of thread for a sewing project. The thread is on a spool with a circumference of $10 \\text{ cm}$.  **How many times must Alex unwind the spool to get the length of thread he needs?**     times",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "8",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can think about the problem this way:  $\\greenD{\\text{number of times}}=\\dfrac{\\blueD{\\text{length of thread}}}{\\purpleC{\\text{circumference}}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\dfrac{\\blueD{80}}{\\purpleC{10}}=\\greenD{8}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Alex needs to unwind the spool $\\greenD{8}$ times.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "4. Distance, circumference -> # of rotations"
+                    }
+                }
+            }
+        }
+    ]
+}

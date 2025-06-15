@@ -1,0 +1,812 @@
+{
+    "standard_metadata": {
+        "standard_id": "7.EE.B.4",
+        "standard_description": "Use variables to represent quantities in a real-world or mathematical problem, and construct simple equations and inequalities to solve problems by reasoning about the quantities.",
+        "standard_title": "Two-step inequality word problems",
+        "standard_url": "https://www.khanacademy.org/math/cc-seventh-grade-math/cc-7th-variables-expressions/cc-7th-two-step-inequalities/e/interpretting-solving-linear-inequalities"
+    },
+    "id": "x8fd64f51",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "You downloaded a video game to your computer.  You have a $60$-minute free trial of the game. It takes $5\\dfrac{1}{6}$ minutes to set up the game and $7\\dfrac{1}{3}$ minutes to play each level.  You want to find out how many levels you can play for free.  **Which inequality describes the number of levels, $\\ell$, you can play in  $60$ minutes?**      **Can you play $6$ levels during your free trial?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Yes",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$5\\dfrac{1}{6}+\\left(7\\dfrac{1}{3}\\right)\\ell\\ge 60$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$5\\dfrac{1}{6}+\\left(7\\dfrac{1}{3}\\right)\\ell\\le 60$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\left(7\\dfrac{1}{3}\\right)\\ell-5\\dfrac{1}{6}\\ge 60$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\left(7\\dfrac{1}{3}\\right)\\ell-5\\dfrac{1}{6}\\le 60$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "You have a $60$-minute free trial of the game.  Can your total time be. . . | Response -|- Less than $60$ minutes? | **Yes** Exactly $60$ minutes? | **Yes** More than $60$ minutes? | No Conclusion| Total time $\\maroonD{\\leq} 60$ minutes  You will spend $\\blueD{5 \\dfrac{1}{6}}$ minutes setting up the game, then $7 \\dfrac{1}{3}$ minutes for each level you play, so you will spend $\\greenD {\\left(7 \\dfrac{1}{3}\\right)\\ell}$ minutes playing $\\ell$ levels.  Together, you will spend $\\blueD{5 \\dfrac{1}{6}}+\\greenD{\\left(7 \\dfrac{1}{3}\\right)\\ell}$ minutes.  This must be *less than or equal to* $\\purpleC{60}$, so the inequality is:  $\\blueD{5 \\dfrac{1}{6}}+\\greenD{\\left(7 \\dfrac{1}{3}\\right)\\ell}\\maroonD{\\leq}\\purpleC{60}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's substitute in $\\goldE{\\ell}=\\goldE{6}$ to test whether the inequality is true if you play $6$ levels.  $\\begin{align} 5 \\dfrac{1}{6}+\\left(7 \\dfrac{1}{3}\\right)\\goldE{\\ell}&\\leq 60 \\\\\\\\ 5 \\dfrac{1}{6}+\\left(7 \\dfrac{1}{3}\\right)\\goldE{6}&\\stackrel{?}{\\leq} 60 \\\\\\\\ 5 \\dfrac{1}{6}+44&\\stackrel{?}{\\leq} 60 \\\\\\\\ 49 \\dfrac{1}{6}  &\\stackrel{\\checkmark}{\\leq} 60 \\end{align}$  Substituting in $\\goldE{\\ell}=\\goldE{6}$ makes the inequality true, so you can play $6$ levels during your free trial.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The inequality is:  $5\\dfrac{1}{6}+\\left(7\\dfrac{1}{3}\\right)\\ell\\le 60$  Yes, you can play $6$ levels during your free trial.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1 - Real world problems: write inequality and find minimun/maximum value"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Tatiana wants to give friendship bracelets to her $32$ classmates.  She already has $5$ bracelets, and she can buy more bracelets in packages of $4$.   **Write an inequality to determine the number of packages, $p$, Tatiana could buy to have enough bracelets.**      **Will Tatiana have enough bracelets if she buys $5$ packages?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "4p+5\\ge32",
+                                        "correct": false
+                                    },
+                                    {
+                                        "content": "4p+5>31",
+                                        "correct": false
+                                    },
+                                    {
+                                        "content": "Yes",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Tatiana wants to give friendship bracelets to her $32$ classmates.  Can Tatiana give each classmate a bracelet if she has. . . | Response -|- Less than $32$ bracelets? | No Exactly $32$ bracelets? | **Yes** More than $32$ bracelets? | **Yes** Conclusion| Total bracelets $\\maroonD{\\geq} 32$  Tatiana already has $\\blueD{5}$ bracelets, and gets $p$ packages with $\\greenD{4}$ bracelets per package, so there will be $\\greenD {4}p$ bracelets in the packages.  Therefore, she has a total of $\\blueD5+\\greenD{4}p$ bracelets.  This must be *greater than or equal to* $\\purpleC{32}$, so the inequality is:  $\\blueD{5}+\\greenD{4}p\\maroonD{\\geq}\\purpleC{32}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's substitute in $\\goldE{p}=\\goldE{5}$ to test whether the inequality is true if Tatiana buys $5$ packages.  $\\begin{align} 5+4\\goldE{p} &\\geq 32 \\\\\\\\ 5+4\\goldE{(5)} &\\stackrel{?}\\geq32 \\\\\\\\ 5+20 &\\stackrel{?}\\geq32 \\\\\\\\ 25 &\\ngeq32 \\end{align}$  Substituting in $\\goldE{p}=\\goldE{5}$ makes the inequality false, so Tatiana will not have enough bracelets if she buys $5$ packages.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The inequality is:  $5+4p\\geq 32$  No, Tatiana will not have enough bracelets if she buys $5$ packages.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1 - Real world problems: write inequality and find minimun/maximum value"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Renna pushes the elevator button, but the elevator does not move.  The mass limit for the elevator is $450$ kilograms ($\\text{kg}$), but Renna and her load of identical packages mass a total of $620\\,\\text{kg}$.  Each package has a mass of $37.4\\,\\text{kg}$.  **Write an inequality to determine the number of packages, $p$,  Renna could remove from the elevator to meet the mass requirement.**      **What is the minimum whole number of packages Renna needs to remove from the elevator to meet the mass requirement?**     packages",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "5",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "4.545454545454545",
+                                        "correct": false
+                                    },
+                                    {
+                                        "content": "4",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The mass limit for the elevator is $450\\,\\text{kg}$.  Will Renna meet the mass limit if the total mass is. . . | Response -|- Less than $450\\,\\text{kg}$? | **Yes** Exactly $450\\,\\text{kg}$? | **Yes** More than $450\\,\\text{kg}$? | No Conclusion| Total mass $\\maroonD{\\leq} 450\\,\\text{kg}$  Renna and her load of identical packages weigh a total of $\\blueD{620}\\,\\text{kg}$. Each of the packages masses $\\greenD{37.4}\\,\\text{kg}$, so the mass of $p$ packages is $\\greenD{37.4}p\\,\\text{kg}$.  Therefore, after Renna removes $p$ packages from the elevator, the total mass of Renna and the remaining packages will be:  $\\blueD{620}-\\greenD{37.4}p$  This must be *less than or equal to* $\\purpleC{450}$, so the inequality is:  $\\blueD{620}-\\greenD{37.4}p\\maroonD{\\leq}\\purpleC{450}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's start by subtracting $\\blueD{620}$ from both sides of the inequality.  Remember that  when we divide an inequality by a negative number, the inequality sign *reverses*.  $\\begin{align} 620 - 37.4p &\\leq 450 \\\\\\\\ 620 -\\blueD{620} - 37.4p &\\leq 450 -\\blueD{620}\\\\\\\\ -37.4p &\\leq -170 \\\\\\\\ \\dfrac{-37.4p}{\\green{-37.4}} &\\redD{\\geq} \\dfrac{-170}{\\green{-37.4}} \\\\\\\\ p &\\redD{\\geq} \\dfrac{-170}{-37.4} \\\\\\\\ p &\\redD{\\geq} 4\\dfrac{6}{11} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Because Renna cannot remove $\\dfrac{6}{11}$ of a package from the elevator, this means that she needs to remove $5$ or more packages to meet the mass requirement.  So Renna needs to remove a minimum of $5$ packages.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The inequality is:  $620-37.4p\\le 450$  Renna needs to remove a minimum of $5$ packages from the elevator to meet the mass requirement.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1 - Real world problems: write inequality and find minimun/maximum value"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Kim's softball team was playing in the championship game.  When there were $4$ innings left, the team was losing by a score of $17$ to $6$ runs.  In the last $4$ innings, her team scored the same number of runs per inning, and the other team did not score  any more runs. Kim's team won with the most runs.  **Write an  inequality to determine the number of runs per inning, $p$, Kim's team could have scored.**    **Find the minimum whole number of runs per inning Kim's team could have scored.**   runs per inning",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "3",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Kim's team needed more than $17$ runs to win.  Would Kim's team win with . . | Response -|- Less than $17$ runs? | No Exactly $17$ runs? | No More than $17$ runs? | **Yes** Conclusion| Total runs $\\maroonD{>} 17$  Kim's team already had $\\blueD{6}$ runs.    Since they scored $p$ runs per inning for $\\greenD{4}$ innings, they scored an additional $\\green{4}p$ runs, so Kim's team had a total of $\\blueD6+\\greenD{4}p$ runs.  This must be *greater than* $\\purpleC{17}$, so the inequality is:  $\\blue6+\\greenD{4}p\\maroonD>\\purpleC{17}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can start by subtracting $\\blueD{6}$ from both sides of the inequality:  $\\begin{align} 6 + 4p &> 17 \\\\\\\\ 6- \\blueD{6}+ 4p &> 17- \\blueD{6}\\\\\\\\ 4p &> 11 \\\\\\\\ \\dfrac{4p}{\\greenD{4}} &> \\dfrac{11}{\\greenD{4}}\\\\ \\\\ p &> 2\\dfrac34 \\end{align}$  Kim's team must score *more* than $2\\dfrac34$ runs per inning to win the game. So Kim's team must have scored a minimum of $3$ runs per inning.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The inequality is:  $6+4p>17$  Kim's team scored a minimum of $3$ runs per inning.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1 - Real world problems: write inequality and find minimun/maximum value"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "You have $\\$20$ to spend on taxi fare.  The ride costs $\\$5$ plus $\\$2.50$ per kilometer.    **Write an inequality to determine the distance in kilometers, $d$, you can ride for $\\$20$.**       **What is the maximum distance, in kilometers, you can ride for $\\$20?$**     kilometers",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "6",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "You have $\\$20$ to spend on taxi fare.  Can you afford to spend . . | Response -|- Less than $\\$20$? | **Yes** Exactly $\\$20$? | **Yes** More than $\\$20$? | No Conclusion| Total dollars $\\maroonD{\\leq} 20$  The total cost of the taxi is $\\blueD{\\$5}$ plus the amount it costs to go $d$ kilometers at $\\greenD{\\$2.50}$ per kilometer, which is $\\greenD{2.5}d$.  The total cost of riding the taxi $d$ kilometers is $\\blueD5+\\greenD{2.5}d$ dollars.  This amount must be *less than or equal to* $\\purpleC{20}$, so the inequality is:  $\\blueD5+\\greenD{2.5}d\\maroonD{\\leq}\\purpleC{20}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "To solve, let's start by subtracting $\\blueD{5}$ from both sides of the inequality:  $\\begin{align} 5+2.5d&\\leq20\\\\\\\\ 5+2.5d -\\blueD{5} &\\leq20- \\blueD{5} \\\\\\\\ 2.5d &\\leq 15\\\\ \\\\ \\dfrac{2.5d}{\\greenD{2.5}} &\\leq \\dfrac{15}{\\greenD{2.5}}\\\\\\\\ d &\\leq6 \\end{align}$  You can ride a maximum of $6$ kilometers.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The inequality is:  $5 + 2.5d  \\leq 20$   You can ride a maximum of $6$ kilometers for $\\$20$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1 - Real world problems: write inequality and find minimun/maximum value"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Mrs. Morton has a special reward system for her class.  When all her students behave well, she rewards them by putting $3$ marbles into a marble jar.  When the jar has  $100$ or more marbles, the students have a party. Right now, the jar has $24$ marbles.    **Write an inequality to determine the number of additional times, $r$, Mrs. Morton could reward the class in order for the students to have a party.**      **Will the students have a party if Mrs. Morton rewards them $31$ additional times?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "24+3r\\ge100",
+                                        "correct": false
+                                    },
+                                    {
+                                        "content": "24+3r>99",
+                                        "correct": false
+                                    },
+                                    {
+                                        "content": "Yes",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "When the jar has  $100$ or more marbles, the students have a party.  Will the students have a party if the jar has. . . | Response -|- Less than $100$ marbles? | No Exactly $100$ marbles? | **Yes** More than $100$ marbles? | **Yes** Conclusion| Total marbles $\\maroonD{\\geq} 100$  The jar in Mrs. Morton's class has $\\blueD{24}$ marbles, plus the number of marbles for $r$ rewards at $3$ marbles per reward, so the number of marbles added for $r$ rewards is $\\green{3}r$.  After the students earn $r$ rewards, the jar has a total of $\\blueD{24}+\\greenD{3}r$ marbles.  The number of marbles must be *greater than or equal to* $\\purpleC{100}$, so the inequality is:  $\\blueD{24}+\\greenD{3}r\\maroonD{\\geq}\\purpleC{100}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's substitute in $\\goldE{r}=\\goldE{31}$ to test whether the inequality is true if Mrs. Morton rewards the students $31$ additional times.  $\\begin{align} 24+3\\goldE{r}&\\geq100 \\\\\\\\ 24+3\\cdot\\goldE{31}&\\stackrel{?}\\geq100 \\\\\\\\ 24+93&\\stackrel{?}\\geq100 \\\\\\\\ 117&\\stackrel{\\checkmark}\\geq100 \\\\\\\\ \\end{align}$  Substituting in $\\goldE{r}=\\goldE{31}$ makes the inequality true, so Mrs. Morton could reward the class $31$ additional times.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The inequality is:  $24 + 3r \\geq 100$  Yes, the students will have a party if Mrs. Morton rewards them $31$ additional times.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1 - Real world problems: write inequality and find minimun/maximum value"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Joey Chestnut is trying to break his own record for eating the most whole hot dogs in $10$ minutes.  He needs to eat more than $72$ hot dogs to break his record. After $1$ minute, Joey has eaten $11 \\dfrac{1}{4}$ hot dogs.  Let $d$ represent the number of hot dogs Joey eats per minute for the next $9$ minutes.  **Which inequality represents the number of hot dogs per minute Joey could eat for the last $9$ minutes to break his record?**       **Will Joey break his record if he eats $6$ hot dogs per minute for the next $9$ minutes?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Yes",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$11\\dfrac{1}{4}+9d>72$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$11\\dfrac{1}{4}+9d=72$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$11\\dfrac{1}{4}d+9>72$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$11\\dfrac{1}{4}d+9=72$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Joey needs to eat more than $72$ hot dogs to break his record.  Will Joey break his record if he eats . . | Response -|- Less than $72$ hot dogs? | No Exactly $72$ hot dogs? | No More than $72$ hot dogs? | **Yes** Conclusion| Total hot dogs $\\maroonD{>} 72$  Joey  has already eaten $\\blueD{11\\dfrac{1}{4}}$ hot dogs. If he eats $d$ hot dogs per minute for $\\greenD{9}$ minutes, he will have eaten  $\\greenD{9}d$ additional hot dogs.  The total number of hot dogs is then:  $\\blueD{11\\dfrac{1}{4}}+\\greenD{9}d$  This must be *greater than* $\\purpleC{72}$, so the inequality is:  $\\blueD{11\\dfrac{1}{4}}+\\greenD{9}d\\maroonD{>}\\purpleC{72}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's substitute in $\\goldE{d}=\\goldE{6}$ to test whether the inequality is true if Joey eats $6$ hot dogs per minute.  $\\begin{align} 11\\dfrac{1}{4}+9\\goldD{d}&>72\\\\\\\\ 11\\dfrac{1}{4}+9 \\cdot \\goldD{6}&\\stackrel{?}{>}72\\\\\\\\ 11\\dfrac{1}{4}+54&\\stackrel{?}{>}72\\\\\\\\ 65\\dfrac{1}{4}&\\ngtr72 \\end{align}$  Substituting in $\\goldE{d}=\\goldE{6}$ makes the inequality false, so Joey will not break his record if he eats $6$ hot dogs per minute.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The inequality is:   $11\\dfrac{1}{4}+9d>72$  No, Joey will not break his record if he eats $6$ hot dogs per minute for the next $9$ minutes.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1 - Real world problems: write inequality and find minimun/maximum value"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Janie has $\\$3$.  She earns $\\$1.20$ for each chore she does and can do fractions of chores.  She wants to earn enough money to buy a CD for $\\$13.50$.  **Write an inequality to determine the number of chores, $c$, Janie could do to have enough money to buy the CD.**    **Graph the solution set to this inequality.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "1.2c+3\\ge13.5",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Janey wants to earn enough money to buy a CD for $\\$13.50$.  Can Janey buy the CD if she has. . . | Response -|- Less than $\\$13.50$? | No Exactly $\\$13.50$? | **Yes** More than $\\$13.50$? | **Yes** Conclusion| Total dollars $\\maroonD{\\geq} 13.50$  If Janie does $c$ chores, she will earn $\\greenD{1.2}c$ dollars for doing chores, plus $\\blueD{3}$ dollars she already has.  The amount she has is :  $\\blueD{3}+\\greenD{1.2}c$  This amount must be *greater than or equal to* $\\purpleC{13.50}$, so the inequality is:  $\\blueD{3}+\\greenD{1.2c}\\maroonD{\\geq}\\purpleC{13.50}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "To solve the inequality, let's start by subtracting $\\blueD{3}$ from both sides of the inequality:  $\\begin{align} 3+1.2c &≥ 13.5\\\\\\\\ 3+1.2c -\\blueD{3} &≥ 13.5- \\blueD{ 3}\\\\\\\\ 1.2c &≥ 10.5 \\\\\\\\ \\dfrac{1.2c}{\\greenD{1.2}} &≥ \\dfrac{10.5}{\\greenD{1.2}}\\\\ \\\\ c &≥ 8.75 \\end{align}$  Janie must do $8.75$ or more chores to have enough money to purchase the CD.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "To graph the inequality $c\\geq 8.75$, we first draw a circle at $8.75$.  This circle divides the number line into two sections: one that contains solutions to the inequality and one that does not.    The solution  includes the point $c=8.75$, so we *fill in* the circle at $8.75$.  Because the solution to the inequality says that $c\\geq 8.75$, this means that solutions are numbers to the *right* of $8.75$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The inequality is:  $3+1.2c\\geq 13.50$  The graph of the solution of the inequality, $c ≥ 8.75$, looks like this:  [[☃ number-line 3]]",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2 - Real world problems: write inequality and graph solution"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Katie wants to collect over $100$ seashells. She already has $34$ seashells in her collection. Each day, she finds $12$ more seashells on the beach.  Katie can use fractions of days to find seashells.  **Write an inequality to determine the number of days, $d$, it will take  Katie to collect over $100$ seashells.**    **Graph the solution set to this inequality.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "34+12d>100",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Katie wants to collect over $100$ seashells.  Does Katie want to collect. . . | Response -|- Less than $100$ seashells? |No Exactly $100$ seashells? | No More than $100$ seashells? | **Yes** Conclusion| Total shells $\\maroonD{>} 100$  Katie already has $\\blueD{34}$ seashells. If she collects $\\greenD{12}$ seashells per day for $d$ more days, she will have $\\greenD{12}d$ additional seashells.  After $d$ days, Katie will have a total of $\\blueD{34}+\\greenD{12}d$ seashells in her collection.  This amount must be *greater than* $\\purpleC{100}$, so the inequality is:  $\\blueD{34}+\\greenD{12}d\\maroonD{>}\\purpleC{100}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "To solve the inequality, let’s start by subtracting $\\blueD{34}$ from both sides:  $\\begin{align} 34 + 12d &> 100\\\\\\\\ 34- \\blueD{34} + 12d &> 100- \\blueD{34}\\\\\\\\ 12d &> 66\\\\\\\\ \\dfrac{12d}{\\greenD{12}} &> \\dfrac{66}{\\greenD{12}}\\\\ \\\\ d &> 5\\dfrac{1}{2} \\end{align}$  Katie must collect seashells for more than $5\\dfrac{1}{2}$ days.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "To graph the inequality $d>5\\dfrac{1}{2}$, we first **draw a circle at  $5\\dfrac{1}{2}$**.  This circle divides the number line into two sections: one that contains solutions to the inequality and one that does not.    The solution does not include the point $d=5\\dfrac{1}{2}$, so the circle at $5\\dfrac{1}{2}$ is **not filled in**.  Because the solution to the inequality says that $d>5\\dfrac{1}{2}$, this means that solutions are numbers to the **right** of $5\\dfrac{1}{2}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The inequality is:  $34+12d>100$  The graph that represents the solution of the inequality,  $d > 5\\dfrac{1}{2}$,  looks like this:  [[☃ number-line 1]]",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2 - Real world problems: write inequality and graph solution"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The latest online craze is a new game, Khan on Seven.  You get $100$ points for playing the game. In addition, you get $50$ points for each seven-letter word you make with the ten letters you receive. Sal wants to break the record, and he needs  $18{,}000$ or more points to do so.  **Write an inequality to determine the number of seven-letter words, $w$, Sal could make to break the record.**    **Graph the solution set to this inequality.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "100+50w>=18000",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Sal wants to break the record, and he needs  $18{,}000$ points or more to do so.  Will Sal break the record if he earns . . . | Response -|- Less than $18{,}000$ points? | No Exactly $18{,}000$ points? | **Yes** More than $18{,}000$ points? | **Yes** Conclusion| Total points $\\maroonD{\\geq} 18{,}000$  Sal  gets $\\blueD{100}$ points for playing the game, plus $\\greenD{50}$ points per word for  $w$ seven-letter words, or $\\greenD{50}w$ points. If he makes $w$ seven-letter words, Sal will have a total of $\\blueD{100}+\\greenD{50}w$ points.    This must be *greater than or equal to* $\\purpleC{18{,}000}$, so the inequality is:  $\\blueD{100}+\\greenD{50}w\\maroonD{\\geq}\\purpleC{18{,}000}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "To solve the inequality, let’s start by subtracting $\\blueD{100}$ from both sides:  $\\begin{align} 100+50w &\\geq 18{,}000\\\\\\\\ 100+50w- \\blueD{100} &\\geq18{,}000- \\blueD{100}\\\\\\\\   50w&\\geq 17{,}900\\\\\\\\ \\dfrac{50w}{\\greenD{50}} &\\geq \\dfrac{17{,}900}{\\greenD{50}}\\\\\\\\ w &\\geq 358 \\end{align}$  Sal must make at least $358$ seven-letter words to break the record!",
+                                    "images": []
+                                },
+                                {
+                                    "content": "To graph the inequality $w\\geq358$, we first **draw a circle at  $358$**.  This circle divides the number line into two sections: one that contains solutions to the inequality and one that does not.    The solution  includes the point $w=358$, so the **circle at $358$ is filled in**.  Because the solution to the inequality says that $w\\geq358$, this means that solutions are numbers to the **right** of $358$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The inequality is:  $100+50w\\geq18{,}000$  The graph that represents the solution of the inequality,  $w\\geq358$,  looks like this:   [[☃ number-line 1]]",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2 - Real world problems: write inequality and graph solution"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Darcie wants to crochet a minimum of $3$ blankets to donate to a homeless shelter. Darcie crochets at a rate of $\\dfrac{1}{15}$ of a blanket per day. She has $60$ days until when she wants to donate the blankets, but she also wants to skip crocheting some days so she can volunteer in other ways.  **Write an inequality to determine the number of days, $s$, Darcie can skip crocheting and still meet her goal.**    **Graph the solution set to this inequality.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "\\frac{1}{15}(60-s)\\ge3",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Darcie wants to donate a minimum of $3$ blankets.  Will Darcie meet her goal if she crochets . . | Response -|- Less than $3$ blankets? | No Exactly $3$ blankets? | **Yes** More than $3$ blankets? | **Yes** Conclusion| Total blankets $\\maroonD{\\geq} 3$  If Darcie skips $s$ days, then she will crochet for $\\goldE{60-s}$ days. Darcie crochets at a rate of $\\greenD{\\dfrac{1}{15}}$ of a blanket per day, so she can crochet a total of $\\greenD{\\dfrac{1}{15}}(\\goldE{60-s})$ blankets.    This amount must be *greater than or equal to* $\\purpleC{3}$ blankets, so the inequality is:  $\\greenD{\\dfrac{1}{15}}(\\goldE{60-s})\\maroonD{\\geq}\\purpleC{3}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "To solve the inequality, let's start by multiplying both sides by $\\blueD{15}$.   Remember that  when we multiply an inequality by a negative number, the inequality sign *reverses*.  $\\begin{align} \\dfrac{1}{15}(60-s)&\\geq 3 \\\\\\\\ \\blueD{15}\\cdot \\dfrac{1}{15}(60-s)&\\geq \\blueD{15} \\cdot 3 \\\\\\\\ 60-s &\\geq 45 \\\\\\\\ 60-s \\gray{-60} &\\geq 45\\gray{-60} \\\\\\\\ -s &\\geq -15 \\\\\\\\ -s\\tealD{\\cdot -1} &\\redD{\\leq} -15\\tealD{\\cdot -1}  \\\\\\\\ s &\\redD{\\leq} 15 \\end{align}$  Darcie can skip no more than $15$ days of crocheting to meet her goal.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "To graph the inequality $s \\leq 15$, we first **draw a circle at $15$**.  This circle divides the number line into two sections: one that contains solutions to the inequality and one that does not.    The solution includes the point $s=15$, so the circle at  $15$ is **filled in**.  Because the solution to the inequality says that $s\\leq 15$, this means that solutions are numbers to the **left** of $15$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The inequality is:  $\\dfrac{1}{15}(60-s)\\geq 3$  The graph of the solution of the inequality, $s \\leq 15$, looks like this:   [[☃ number-line 2]]",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2 - Real world problems: write inequality and graph solution"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Noor brought $21$ sheets of stickers. She gave $\\dfrac{1}{3}$ of a sheet to each of the $45$ students at recess. She wants to give teachers $1\\dfrac{1}{2}$ sheets each.   **Which inequality describes the number of teachers, $t$, Noor could give sheets of stickers to?**      **What is the solution set of the inequality?**    $t$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "4",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "$15+\\dfrac{3}{2}t>21$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$15+\\dfrac{3}{2}t\\geq 21$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$15+\\dfrac{3}{2}t<21$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$15+\\dfrac{3}{2}t\\leq 21$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Noor brought $21$ sheets of stickers.  Can Noor give away. . . | Response -|- Less than $21$ sheets? | **Yes** Exactly $21$ sheets? | **Yes** More than $21$ sheets? | No Conclusion| Total sheets $\\maroonD{\\leq} 21$  Noor gave $\\dfrac{1}{3}$ of a sheet to each of the $45$ students, so she gave $\\blueD{15}$ sheets to students because $\\dfrac{1}{3}\\cdot 45=15$. She wants to give each teacher $\\greenD{1\\dfrac{1}{2}}$ sheets of stickers. She wants to give a total of  $\\greenD{\\dfrac{3}{2}}t$ sheets to the $t$ teachers because $\\greenD{1\\dfrac{1}{2}}\\cdot t=\\greenD{\\dfrac{3}{2}}t$.   Noor will give away a total of $\\blueD{15}+\\greenD{\\dfrac{3}{2}}t$ sheets of stickers.  This must be *less than or equal to* $\\purpleC{21}$ sheets, so the inequality is:  $\\blueD{15}+\\greenD{\\dfrac{3}{2}}t \\maroonD{\\leq} \\purpleC{21}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's start by subtracting $\\blueD{15}$ from both sides of the inequality.   $\\begin{align} 15+\\dfrac{3}{2}t &\\leq 21 \\\\\\\\ 15+\\dfrac{3}{2}t - \\blueD{15} &\\leq 21 - \\blueD{15}\\\\\\\\ \\dfrac{3}{2}t &\\leq 6 \\\\\\\\ \\goldE{\\dfrac{2}{3}}\\cdot\\dfrac{3}{2}t &\\leq \\goldE{\\dfrac{2}{3}}\\cdot 6\\\\\\\\ t &\\leq 4 \\end{align}$  Noor can give sheets of stickers to up to $4$ teachers.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The inequality is:   $15+\\dfrac{3}{2}t\\le 21$  The solution set is $t\\leq 4$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3 - Math problem - write inequality and solve"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The bottom of Ignacio's desktop is $74.5\\,\\text{cm}$ from the floor. Ignacio sits in his adjustable chair, and the tops of his legs are $49.3\\,\\text{cm}$ from the floor. Each clockwise rotation of the knob on the chair raises Ignacio's legs by $4.8\\,\\text{cm}$.  **Write an inequality to determine the number of clockwise rotations, $r$, Ignacio could make with the knob without his legs touching the desk.**      **What is the solution set of the inequality?**    $r$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "5.25",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The bottom of Ignacio's desktop is $74.5\\,\\text{cm}$ from the floor. He does not want his legs to touch the bottom of the desk, so he wants the tops of  his legs to be *lower* than the bottom of the desk.  Will Ignacio's legs be lower than the desk at a height of. . . | Response -|- Less than $74.5\\,\\text{cm}$? | **Yes** Exactly $74.5\\,\\text{cm}$? | No More than $74.5\\,\\text{cm}$? | No Conclusion| Leg height $\\maroonD{<} 74.5$  Ignacio's legs are already $\\blueD{49.3}\\,\\text{cm}$ above the floor. Each rotation raises them by $\\greenD{4.8}\\,\\text{cm}$ more, so $r$ rotations raises them by $\\greenD{4.8}r\\,\\text{cm}$.  After $r$ rotations, Ignatio's legs will be $\\blueD{49.3}+\\greenD{4.8}r\\,\\text{cm}$ above the floor.  This must be *less than* $\\purpleC{74.5}\\,\\text{cm}$, so the inequality is:  $\\blueD{49.3}+\\greenD{4.8}r \\maroonD{<} \\purpleC{74.5}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's start by subtracting $\\blueD{49.3}$ from both sides of the inequality.   $\\begin{align} 49.3+4.8r &<74.5 \\\\\\\\ 49.3+4.8r \\blueD{-49.3}&<74.5 \\blueD{-49.3} \\\\\\\\ 4.8r&<25.2 \\\\\\\\ \\dfrac{4.8r}{\\greenD{4.8}} &<\\dfrac{25.2}{\\greenD{4.8}} \\\\\\\\ r &< \\dfrac{21}{4} \\\\\\\\ r &< 5.25 \\end{align}$  Ignacio can make less than $5.25$ rotations without his legs touching the desk.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The inequality is:  $49.3+4.8r <74.5$  The solution set is $r < 5.25$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3 - Math problem - write inequality and solve"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Mustafa, Heloise, and Gia have written more than a combined total of $22$ articles for the school newspaper. Heloise has written $\\dfrac{1}{4}$ as many articles as Mustafa has. Gia has written $\\dfrac{3}{2}$ as many articles as Mustafa has.  **Write an inequality to determine the number of articles, $m$, Mustafa could have written for the school newspaper.**      **What is the solution set of the inequality?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "m+\\frac{1}{4}m+\\frac{3}{2}m>22",
+                                        "correct": false
+                                    },
+                                    {
+                                        "content": "m\\ge9",
+                                        "correct": false
+                                    },
+                                    {
+                                        "content": "$m>\\dfrac{1}{2}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$m \\geq \\dfrac{1}{2}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$m>8$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$m\\geq 8$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Mustafa, Heloise, and Gia have written more than a combined total of $22$ articles for the school newspaper.  Is the total number of articles. . . | Response -|- Less than $22$ articles? | No Exactly $22$ articles? | No More than $22$ articles? | **Yes** Conclusion| Total articles $\\maroonD{>} 22$  Mustafa has written $m$ articles. Heloise has written $\\dfrac{1}{4}m$ articles. Gia has written $\\dfrac{3}{2}m$ articles.  They have written a combined total of $\\blueD{m+\\dfrac{1}{4}m+\\dfrac{3}{2}m}$ articles.  This must be *more than* $\\purpleC{22}$ articles, so the inequality is:  $\\blueD{m+\\dfrac{1}{4}m+\\dfrac{3}{2}m} \\maroonD{>}\\purpleC{22}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's start by combining like terms.  $\\begin{align} m+\\dfrac{1}{4}m+\\dfrac{3}{2}m&>22 \\\\\\\\ \\dfrac{4}{4}m+\\dfrac{1}{4}m+\\dfrac{6}{4}m&>22 \\\\\\\\ \\dfrac{11}{4}m&>22 \\\\\\\\ \\goldD{\\dfrac{4}{11}}\\cdot\\dfrac{11}{4}m&>\\goldD{\\dfrac{4}{11}}\\cdot 22 \\\\\\\\ m &> 8 \\end{align}$  Mustafa has written more than $8$ articles.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The inequality is:  $m+\\dfrac{1}{4}m+\\dfrac{3}{2}m>22$  The solution set is $m>8$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3 - Math problem - write inequality and solve"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The swimming pool is open when the high temperature is higher than $20^\\circ\\text{C}$. Lainey tried to swim on Monday and Thursday (which was $3$ days later). The pool was open on Monday, but it was closed on Thursday. The high temperature was $30^\\circ\\text{C}$ on Monday, but decreased at a constant rate in the next $3$ days.  **Write an inequality to determine the rate, $d$, of temperature decrease in degrees Celsius per day from Monday to Thursday.**      **What is the solution set of the inequality?**    $d$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "3.3333333333333335",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The swimming pool is open when the high temperature is more than $20^\\circ\\text{C}$. We want to know about temperatures when the pool is *closed*.  Is the pool *closed* when the temperature is. . . | Response -|- Less than $20^\\circ\\text{C}$? | **Yes** Exactly $20^\\circ\\text{C}$? | **Yes** More than $20^\\circ\\text{C}$? | No Conclusion| Temperature $\\maroonD{\\leq} 20$  The high temperature was $\\blueD{30^\\circ\\text{C}}$ on Monday. The temperature was $d^\\circ\\text{C}$ cooler each day, so $\\greenD{3}$ days later, it was $\\greenD{3}d^\\circ\\text{C}$ cooler than it was on Monday.  Three days after Monday, it was $\\blueD{30}-\\greenD{3}d^\\circ\\text{C}$.  This must be *less than or equal to* $\\purpleC{20}^\\circ\\text{C}$, so the inequality is:  $\\blueD{30}-\\greenD{3d}\\maroonD{\\leq}\\purpleC{20}$  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's start by subtracting $\\blueD{30}$ from both sides of the inequality.   Remember that  when we divide an inequality by a negative number, the inequality sign *reverses*.  $\\begin{align} 30-3d&\\leq20 \\\\\\\\ 30-3d-\\blueD{30}&\\leq20 -\\blueD{30}\\\\\\\\ -3d&\\leq -10\\\\\\\\ \\dfrac{-3d}{\\goldD{-3}}&\\redD{\\geq} \\dfrac{-10}{\\goldD{-3}}\\\\\\\\ d&\\redD{\\geq} \\dfrac{10}{3} \\end{align}$  The high temperature decreased by at least $\\dfrac{10}{3}$ degrees Celsius per day from Monday to Thursday.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The inequality is:  $30-3d\\leq20$  The solution set is $d\\geq \\dfrac{10}{3}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3 - Math problem - write inequality and solve"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Shane and Abha earned a team badge that required their team to collect no less than $2000$ cans for recycling. Abha collected $178$ more cans than Shane did.  **Write an inequality to determine the number of cans, $S$, that Shane could have collected.**      **What is the solution set of the inequality?**    $S$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "911",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The badge required the team to collect no less than $2000$ cans for recycling.  Can the team earn the badge for collecting. . . | Response -|- Less than $2000$ cans? | No Exactly $2000$ cans? | **Yes** More than $2000$ cans? | **Yes** Conclusion| Total cans $\\maroonD{\\geq} 2000$  Shane collected $\\blueD{S}$ cans. Abha collected $178$ more cans, so she collected $\\greenD{S+178}$ cans.  The team collected a total of $\\blueD{S}+\\greenD{S+178}$ cans.  This must be *greater than or equal to* $\\purpleC{2000}$ cans, so the inequality is:  $\\blueD{S}+\\greenD{S+178}\\maroonD{\\geq}\\purpleC{2000}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's start by combining like terms.  $\\begin{align} S+S+178 &\\geq 2000 \\\\\\\\ 2S+178 &\\geq 2000 \\\\\\\\ 2S+178\\goldE{-178} &\\geq 2000\\goldE{-178} \\\\\\\\ 2S &\\geq 1822 \\\\\\\\ \\dfrac{2S}{\\redD{2}} &\\geq \\dfrac{1822}{\\redD{2}} \\\\\\\\ S &\\geq 911 \\end{align}$  Shane collected at least $911$ cans for recycling.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The inequality is:  $S+S+178 \\geq 2000$  The solution set is $S \\geq 911$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3 - Math problem - write inequality and solve"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The dance committee of Pine Bluff Middle School earns $\\$72$ from a bake sale and will earn $\\$4$ for each ticket they sell to the Spring Fling dance. The dance will cost $\\$400$.  **Write an inequality to determine the number, $t$, of tickets the committee could sell to have money left over after they pay for this year's dance.**      **What is the solution set of the inequality?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "72+4t>400",
+                                        "correct": false
+                                    },
+                                    {
+                                        "content": "$t < 82$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$t \\leq 82$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$t > 82$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$t \\geq 82$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The Spring Fling dance will cost $\\$400$.  Will there be leftover money if the committee earns . . . | Response -|- Less than $\\$400$? | No Exactly $\\$400$? | No More than $\\$400$? | **Yes** Conclusion| Total dollars $\\maroonD{>} 400$  The committee has $\\blueD{72}$ dollars plus the amount they will earn by selling $t$ tickets at $\\greenD{\\$4}$ per ticket, which is $\\greenD{4}t$ dollars.  The committee will earn a total of $\\blueD{72}+\\greenD{4}t$ dollars.  This amount  must be *greater than* $\\purpleC{400}$, so the inequality is:  $\\blueD{72}+\\greenD{4}t\\maroonD{>}\\purpleC{400}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "To solve, let's start by subtracting $\\blueD{72}$ from both sides of the inequality:  $\\begin{align} 72+4t&>400 \\\\\\\\ 72+4t -\\blueD{72} &> 400- \\blueD{72} \\\\\\\\ 4t &> 328\\\\\\\\ \\dfrac{4t}{\\green{4}} &> \\dfrac{328}{\\green{4}}\\\\ \\\\ t &> 82 \\end{align}$  The  committee must sell more than $82$ tickets to have money left over after paying for the dance.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The inequality is:  ${72} + 4t > 400$  The solution set is $t> 82$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3 - Math problem - write inequality and solve"
+                    }
+                }
+            }
+        }
+    ]
+}

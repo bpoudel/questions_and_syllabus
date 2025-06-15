@@ -1,0 +1,802 @@
+{
+    "standard_metadata": {
+        "standard_id": "8.EE.A.1",
+        "standard_description": "Know and apply the properties of integer exponents to generate equivalent numerical expressions.",
+        "standard_title": "Multiply powers",
+        "standard_url": "https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-numbers-operations/cc-8th-exponent-properties/e/multiply-powers"
+    },
+    "id": "xd3b2faaec8361e5f",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Simplify.**   *Rewrite the expression in the form $5^n$.*  $5^2\\cdot 5^5=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "5^{7}",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\begin{align} 5^2\\cdot 5^5&=5^{2+5} \\\\\\\\ &=5^7 \\end{align}$  This follows from the general rule $x^m\\cdot x^n=x^{m+n}$. Note that the powers have the same base.  We can also see this is correct by expanding the powers.  $\\begin{align} 5^2\\cdot 5^5&=\\underbrace{5\\cdot 5}_\\text{2 times}\\cdot\\underbrace{5\\cdot 5\\cdot 5\\cdot 5\\cdot 5}_\\text{5 times} \\\\\\\\\\\\ &=\\underbrace{5\\cdot 5\\cdot 5\\cdot 5\\cdot 5\\cdot 5\\cdot 5}_\\text{7 times} \\\\\\\\ &=5^7 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "In conclusion, $5^2\\cdot 5^5=5^7$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Numerical"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Simplify.**   *Rewrite the expression in the form $8^n$.*  $8^6\\cdot 8^4=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "8^{10}",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\begin{align} 8^6\\cdot 8^4&=8^{6+4} \\\\\\\\ &=8^{10} \\end{align}$  This follows from the general rule $x^m\\cdot x^n=x^{m+n}$. Note that the powers have the same base.  We can also see this is correct by expanding the powers.  $\\begin{align} 8^6\\cdot 8^4&=\\underbrace{8\\cdot 8\\cdot 8\\cdot 8\\cdot 8\\cdot 8}_\\text{6 times}\\cdot\\underbrace{8\\cdot 8\\cdot 8\\cdot 8}_\\text{4 times} \\\\\\\\\\\\ &=\\underbrace{8\\cdot 8\\cdot 8\\cdot 8\\cdot 8\\cdot 8\\cdot 8\\cdot 8\\cdot 8\\cdot 8}_\\text{10 times} \\\\\\\\ &=8^{10} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "In conclusion, $8^6\\cdot 8^4=8^{10}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Numerical"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Simplify.**   *Rewrite the expression in the form $9^n$.*  $9\\cdot 9^2=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "9^3",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\begin{align} 9\\cdot 9^2&=9^1\\cdot 9^2 \\\\\\\\ &=9^{1+2} \\\\\\\\ &=9^{3} \\end{align}$  This follows from the general rule $x^m\\cdot x^n=x^{m+n}$. Note that the powers have the same base.  We can also see this is correct by expanding the powers.  $\\begin{align} 9\\cdot 9^2&=\\underbrace{9}_\\text{1 time}\\cdot\\underbrace{9\\cdot 9}_\\text{2 times} \\\\\\\\\\\\ &=\\underbrace{9\\cdot 9\\cdot 9}_\\text{3 times} \\\\\\\\ &=9^{3} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "In conclusion, $9\\cdot 9^2=9^{3}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Numerical"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Simplify.**   *Rewrite the expression in the form $10^n$.*  $10^5\\cdot 10=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "10^6",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\begin{align} 10^5\\cdot 10&=10^5\\cdot 10^1 \\\\\\\\ &=10^{5+1} \\\\\\\\ &=10^{6} \\end{align}$  This follows from the general rule $x^m\\cdot x^n=x^{m+n}$. Note that the powers have the same base.  We can also see this is correct by expanding the powers.  $\\begin{align} 10^5\\cdot 10&=\\underbrace{10\\cdot 10\\cdot 10\\cdot 10\\cdot 10}_\\text{5 times}\\cdot\\underbrace{10}_\\text{1 time} \\\\\\\\\\\\ &=\\underbrace{10\\cdot 10\\cdot 10\\cdot 10\\cdot 10\\cdot 10}_\\text{6 times} \\\\\\\\ &=10^{6} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "In conclusion, $10^5\\cdot 10=10^{6}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Numerical"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Simplify.**   *Rewrite the expression in the form $4^n$.*  $4^4\\cdot 4^3=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "4^7",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\begin{align} 4^4\\cdot 4^3&=4^{4+3} \\\\\\\\ &=4^{7} \\end{align}$  This follows from the general rule $x^m\\cdot x^n=x^{m+n}$. Note that the powers have the same base.  We can also see this is correct by expanding the powers.  $\\begin{align} 4^4\\cdot 4^3&=\\underbrace{4\\cdot 4\\cdot 4\\cdot 4}_\\text{4 times}\\cdot\\underbrace{4\\cdot 4\\cdot 4}_\\text{3 times} \\\\\\\\\\\\ &=\\underbrace{4\\cdot 4\\cdot 4\\cdot 4\\cdot 4\\cdot 4\\cdot 4}_\\text{7 times} \\\\\\\\ &=4^{7} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "In conclusion, $4^4\\cdot 4^3=4^{7}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Numerical"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Simplify.**   *Rewrite the expression in the form $2^n$.*  $2^3\\cdot 2^7=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "2^{10}",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\begin{align} 2^3\\cdot 2^7&=2^{3+7} \\\\\\\\ &=2^{10} \\end{align}$  This follows from the general rule $x^m\\cdot x^n=x^{m+n}$. Note that the powers have the same base.  We can also see this is correct by expanding the powers.  $\\begin{align} 2^3\\cdot 2^7&=\\underbrace{2\\cdot 2\\cdot 2}_\\text{3 times}\\cdot\\underbrace{2\\cdot 2\\cdot 2\\cdot 2\\cdot 2\\cdot 2\\cdot 2}_\\text{7 times} \\\\\\\\\\\\ &=\\underbrace{2\\cdot 2\\cdot 2\\cdot 2\\cdot 2\\cdot 2\\cdot 2\\cdot 2\\cdot 2\\cdot 2}_\\text{10 times} \\\\\\\\ &=2^{10} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "In conclusion, $2^3\\cdot 2^7=2^{10}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Numerical"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Simplify.**   *Rewrite the expression in the form $7^n$.*  $7^2\\cdot 7^6=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "7^8",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\begin{align} 7^2\\cdot 7^6&=7^{2+6} \\\\\\\\ &=7^{8} \\end{align}$  This follows from the general rule $x^m\\cdot x^n=x^{m+n}$. Note that the powers have the same base.  We can also see this is correct by expanding the powers.  $\\begin{align} 7^2\\cdot 7^6&=\\underbrace{7\\cdot 7}_\\text{2 times}\\cdot\\underbrace{7\\cdot 7\\cdot 7\\cdot 7\\cdot 7\\cdot 7}_\\text{6 times} \\\\\\\\\\\\ &=\\underbrace{7\\cdot 7\\cdot 7\\cdot 7\\cdot 7\\cdot 7\\cdot 7\\cdot 7}_\\text{8 times} \\\\\\\\ &=7^{8} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "In conclusion, $7^2\\cdot 7^6=7^{8}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Numerical"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Simplify.**   *Rewrite the expression in the form $3^n$.*  $3^4\\cdot 3^2=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "3^6",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\begin{align} 3^4\\cdot 3^2&=3^{4+2} \\\\\\\\ &=3^{6} \\end{align}$  This follows from the general rule $x^m\\cdot x^n=x^{m+n}$. Note that the powers have the same base.  We can also see this is correct by expanding the powers.  $\\begin{align} 3^4\\cdot 3^2&=\\underbrace{3\\cdot 3\\cdot 3\\cdot 3}_\\text{4 times}\\cdot\\underbrace{3\\cdot 3}_\\text{2 times} \\\\\\\\\\\\ &=\\underbrace{3\\cdot 3\\cdot 3\\cdot 3\\cdot 3\\cdot 3}_\\text{6 times} \\\\\\\\ &=3^{6} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "In conclusion, $3^4\\cdot 3^2=3^{6}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Numerical"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Simplify.**   *Rewrite the expression in the form $x^n$.*  $x^3\\cdot x^4=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "x^{7}",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\begin{align} x^3\\cdot x^4&=x^{3+4} \\\\\\\\ &=x ^7 \\end{align}$  This follows from the general rule $x^m\\cdot x^n=x^{m+n}$. Note that the powers have the same base.  We can also see this is correct by expanding the powers.  $\\begin{align} x^3\\cdot x^4&=\\underbrace{x\\cdot x\\cdot x}_\\text{3 times}\\cdot\\underbrace{x\\cdot x\\cdot x\\cdot x}_\\text{4 times} \\\\\\\\\\\\ &=\\underbrace{x\\cdot x\\cdot x\\cdot x\\cdot x\\cdot x\\cdot x}_\\text{7 times} \\\\\\\\ &=x^7 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "In conclusion, $x^3\\cdot x^4=x^7$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Variable"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Simplify.**   *Rewrite the expression in the form $a^n$.*  $a^0\\cdot a^6=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "a^{6}",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\begin{align} a^0\\cdot a^6&=a^{0+6} \\\\\\\\ &=a^{6} \\end{align}$  This follows from the general rule $x^m\\cdot x^n=x^{m+n}$. Note that the powers have the same base.  We can also see this is correct by expanding the powers.  $\\begin{align} a^0\\cdot a^6&=\\underbrace{1}_{a^0}\\cdot\\underbrace{a\\cdot a\\cdot a\\cdot a\\cdot a\\cdot a}_\\text{6 times} \\\\\\\\\\\\ &=\\underbrace{a\\cdot a\\cdot a\\cdot a\\cdot a\\cdot a}_\\text{6 times} \\\\\\\\ &=a^{6} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "In conclusion, $a^0\\cdot a^6=a^{6}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Variable"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Simplify.**   *Rewrite the expression in the form $z^n$.*  $z^5\\cdot z^6=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "z^{11}",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\begin{align} z^5\\cdot z^6&=z^{5+6} \\\\\\\\ &=z^{11} \\end{align}$  This follows from the general rule $x^m\\cdot x^n=x^{m+n}$. Note that the powers have the same base.  We can also see this is correct by expanding the powers.  $\\begin{align} z^5\\cdot z^6&=\\underbrace{z\\cdot z\\cdot z\\cdot z\\cdot z}_\\text{5 times}\\cdot\\underbrace{z\\cdot z\\cdot z\\cdot z\\cdot z\\cdot z}_\\text{6 times} \\\\\\\\\\\\ &=\\underbrace{z\\cdot z\\cdot z\\cdot z\\cdot z\\cdot z\\cdot z\\cdot z\\cdot z\\cdot z \\cdot z}_\\text{11 times} \\\\\\\\ &=z^{11} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "In conclusion, $z^5\\cdot z^6=z^{11}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Variable"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Simplify.**   *Rewrite the expression in the form $y^n$.*  $y^6\\cdot y^3=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "y^{9}",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\begin{align} y^6\\cdot y^3&=y^{6+3} \\\\\\\\ &=y^{9} \\end{align}$  This follows from the general rule $x^m\\cdot x^n=x^{m+n}$. Note that the powers have the same base.  We can also see this is correct by expanding the powers.  $\\begin{align} y^6\\cdot y^3&=\\underbrace{y\\cdot y\\cdot y\\cdot y\\cdot y\\cdot y}_\\text{6 times}\\cdot\\underbrace{y\\cdot y\\cdot y}_\\text{3 times} \\\\\\\\\\\\ &=\\underbrace{y\\cdot y\\cdot y\\cdot y\\cdot y\\cdot y\\cdot y\\cdot y\\cdot y}_\\text{9 times} \\\\\\\\ &=y^{9} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "In conclusion, $y^6\\cdot y^3=y^{9}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Variable"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Simplify.**   *Rewrite the expression in the form $a^n$.*  $a\\cdot a^7=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "a^{8}",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\begin{align} a\\cdot a^7&=a^1\\cdot a^7 \\\\\\\\ &=a^{1+7} \\\\\\\\ &=a^{8} \\end{align}$  This follows from the general rule $x^m\\cdot x^n=x^{m+n}$. Note that the powers have the same base.  We can also see this is correct by expanding the powers.  $\\begin{align} a\\cdot a^7&=\\underbrace{a}_\\text{1 time}\\cdot\\underbrace{a\\cdot a\\cdot a\\cdot a\\cdot a\\cdot a \\cdot a}_\\text{7 times} \\\\\\\\\\\\ &=\\underbrace{a\\cdot a\\cdot a\\cdot a\\cdot a\\cdot a\\cdot a\\cdot a}_\\text{8 times} \\\\\\\\ &=a^{8} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "In conclusion, $a\\cdot a^7=a^{8}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Variable"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Simplify.**   *Rewrite the expression in the form $b^n$.*  $b^4\\cdot b=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "b^5",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\begin{align} b^4\\cdot b&=b^4\\cdot b^1 \\\\\\\\ &=b^{4+1} \\\\\\\\ &=b^{5} \\end{align}$  This follows from the general rule $x^m\\cdot x^n=x^{m+n}$. Note that the powers have the same base.  We can also see this is correct by expanding the powers.  $\\begin{align} b^4\\cdot b&=\\underbrace{b\\cdot b\\cdot b\\cdot b}_\\text{4 times}\\cdot\\underbrace{b}_\\text{1 time} \\\\\\\\\\\\ &=\\underbrace{b\\cdot b\\cdot b\\cdot b\\cdot b}_\\text{5 times} \\\\\\\\ &=b^{5} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "In conclusion, $b^4\\cdot b=b^{5}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Variable"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Simplify.**   *Rewrite the expression in the form $x^n$.*  $x^3\\cdot x^5=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "x^8",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\begin{align} x^3\\cdot x^5&=x^{3+5} \\\\\\\\ &=x^{8} \\end{align}$  This follows from the general rule $x^m\\cdot x^n=x^{m+n}$. Note that the powers have the same base.  We can also see this is correct by expanding the powers.  $\\begin{align} x^3\\cdot x^5&=\\underbrace{x\\cdot x\\cdot x}_\\text{3 times}\\cdot\\underbrace{x\\cdot x\\cdot x\\cdot x\\cdot x}_\\text{5 times} \\\\\\\\\\\\ &=\\underbrace{x\\cdot x\\cdot x\\cdot x\\cdot x\\cdot x\\cdot x\\cdot x}_\\text{8 times} \\\\\\\\ &=x^{8} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "In conclusion, $x^3\\cdot x^5=x^{8}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Variable"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Solve for $x$.**  $5^x=5^3\\cdot5^8$  $x=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "11",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "When powers have the same base, $x^m\\cdot x^n=x^{m+n}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's expand the powers for $\\greenD{5^x}=\\blueD{5^3}\\cdot\\purpleD{5^8}$.  $\\begin{align} &=\\blueD{\\underbrace{5\\cdot5\\cdot5}_\\text{3 times}}\\cdot\\purpleD{\\underbrace{5\\cdot 5\\cdot 5\\cdot 5\\cdot 5\\cdot 5 \\cdot 5\\cdot5}_\\text{8 times}} \\\\\\\\\\\\ &=\\greenD{\\underbrace{5\\cdot 5\\cdot 5\\cdot 5\\cdot 5\\cdot 5\\cdot 5\\cdot 5\\cdot5\\cdot5\\cdot5}_{x\\text{ times}}} \\\\\\\\ \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$x=11$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Complete equation"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Solve for $x$.**  $11^x=11^4\\cdot11^5$  $x=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "9",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "When powers have the same base, $x^m\\cdot x^n=x^{m+n}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's expand the powers for $\\greenD{11^x}=\\blueD{11^4}\\cdot\\purpleD{11^5}$.  $\\begin{align} &=\\blueD{\\underbrace{11\\cdot11\\cdot11\\cdot11}_\\text{4 times}}\\cdot\\purpleD{\\underbrace{11\\cdot11\\cdot 11\\cdot 11\\cdot 11}_\\text{5 times}} \\\\\\\\\\\\ &=\\greenD{\\underbrace{11\\cdot 11\\cdot 11\\cdot 11\\cdot 11\\cdot 11\\cdot 11\\cdot 11\\cdot11}_{x\\text{ times}}} \\\\\\\\ \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$x=9$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Complete equation"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Solve for $x$.**  $8^7=8^3\\cdot8^x$  $x=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "4",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "When powers have the same base, $x^m\\cdot x^n=x^{m+n}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's expand the powers for $\\greenD{8^7}=\\blueD{8^3}\\cdot\\purpleD{8^x}$.  $\\begin{align} &=\\blueD{\\underbrace{8\\cdot8\\cdot8}_\\text{3 times}}\\cdot\\purpleD{\\underbrace{    }_{x\\text{ times}}} \\\\\\\\\\\\ &=\\greenD{\\underbrace{8\\cdot 8\\cdot 8\\cdot 8\\cdot 8\\cdot 8\\cdot 8}_\\text{7 times}} \\\\\\\\ \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$x=4$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Complete equation"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Solve for $x$.**  $7^{8}=7^{8}\\cdot7^x$  $x=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "When powers have the same base, $x^m\\cdot x^n=x^{m+n}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's expand the powers for $\\greenD{7^{8}}=\\blueD{7^{8}}\\cdot\\purpleD{7^x}$.  $\\begin{align} &=\\blueD{\\underbrace{7\\cdot7\\cdot7\\cdot7\\cdot7\\cdot7\\cdot7\\cdot7}_\\text{8 times}}\\cdot\\purpleD{\\underbrace{    }_{x\\text{ times}}} \\\\\\\\\\\\ &=\\greenD{\\underbrace{7\\cdot 7\\cdot 7\\cdot 7\\cdot 7 \\cdot 7 \\cdot7 \\cdot7}_\\text{8 times}} \\\\\\\\ \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$x=0$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Complete equation"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Solve for $x$.**  $6^5=6^x\\cdot6^4$  $x=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "1",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "When powers have the same base, $x^m\\cdot x^n=x^{m+n}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's expand the powers for $\\greenD{6^5}=\\blueD{6^x}\\cdot\\purpleD{6^4}$.  $\\begin{align} &=\\blueD{\\underbrace{}_{x\\text{ times}}}\\cdot\\purpleD{\\underbrace{6\\cdot6\\cdot6\\cdot6    }_\\text{4 times}} \\\\\\\\\\\\ &=\\greenD{\\underbrace{6\\cdot 6\\cdot 6\\cdot 6\\cdot 6}_\\text{5 times}} \\\\\\\\ \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$x=1$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Complete equation"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Solve for $x$.**  $x^9=12^2\\cdot12^7$  $x=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "12",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "When powers have the same base, $x^m\\cdot x^n=x^{m+n}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's expand the powers for $\\greenD{x^9}=\\blueD{12^2}\\cdot\\purpleD{12^7}$.  $\\begin{align} &=\\blueD{\\underbrace{12\\cdot12}_\\text{2 times}}\\cdot\\purpleD{\\underbrace{12\\cdot12\\cdot12\\cdot12\\cdot12\\cdot12\\cdot12    }_\\text{7 times}} \\\\\\\\\\\\ &=\\greenD{\\underbrace{x\\cdot x\\cdot x\\cdot x\\cdot  x\\cdot  x\\cdot x\\cdot x \\cdot x}_\\text{9 times}} \\\\\\\\ \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$x=12$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Complete equation"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Solve for $x$.**  $3^{10}=3^7\\cdot x^3$  $x=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "3",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "When powers have the same base, $x^m\\cdot x^n=x^{m+n}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's expand the powers for $\\greenD{3^{10}}=\\blueD{3^7}\\cdot\\purpleD{x^3}$.  $\\begin{align} &=\\blueD{\\underbrace{3\\cdot3\\cdot3\\cdot3\\cdot3\\cdot3\\cdot3}_\\text{7 times}}\\cdot\\purpleD{\\underbrace{x\\cdot x\\cdot x   }_\\text{3 times}} \\\\\\\\\\\\ &=\\greenD{\\underbrace{3\\cdot 3\\cdot 3\\cdot 3\\cdot  3\\cdot  3\\cdot 3\\cdot 3\\cdot 3\\cdot 3}_\\text{10 times}} \\\\\\\\ \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$x=3$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Complete equation"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Solve for $x$.**  $9^6=x^3\\cdot9^3$  $x=$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "9",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "When powers have the same base, $x^m\\cdot x^n=x^{m+n}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's expand the powers for $\\greenD{9^6}=\\blueD{x^3}\\cdot\\purpleD{9^3}$.  $\\begin{align} &=\\blueD{\\underbrace{x\\cdot x\\cdot x}_\\text{3 times}}\\cdot\\purpleD{\\underbrace{9\\cdot9\\cdot9}_\\text{3 times}} \\\\\\\\\\\\ &=\\greenD{\\underbrace{9\\cdot 9\\cdot 9\\cdot 9\\cdot 9\\cdot 9}_\\text{6 times}} \\\\\\\\ \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$x=9$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Complete equation"
+                    }
+                }
+            }
+        }
+    ]
+}

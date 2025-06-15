@@ -1,0 +1,1256 @@
+{
+    "standard_metadata": {
+        "standard_id": "7.SP.C.6",
+        "standard_description": "Approximate the probability of a chance event by collecting data on the chance process that produces it and observing its long-run relative frequency, and predict the approximate relative frequency given the probability.",
+        "standard_title": "Making predictions with probability",
+        "standard_url": "https://www.khanacademy.org/math/cc-seventh-grade-math/cc-7th-probability-statistics/cc-7th-theoretical-and-experimental-probability/e/using-probability-to-make-predictions"
+    },
+    "id": "xda27739f",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Cam is going to roll a fair $6$-sided die $2400$ times.  **What is the best prediction for the number of times that Cam will roll the number $4$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "*Exactly* $400$ times",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Close to* $400$ times but probably not exactly $400$ times",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Exactly* $600$ times",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Close to* $600$ times but probably not exactly $600$ times",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The best prediction comes from multiplying the total number of trials by the probability of an individual roll landing on the number $4$.  ${\\text{Best prediction}} = {\\text{ Number of trials}} \\times {\\text{P(roll a 4)}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\text{Number of trials} = \\blue{2400}$  $\\text{P(roll a 4)} = \\pink{\\dfrac{1}{6}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\text{Best prediction} = \\blue{2400}\\times\\pink{\\dfrac{1}{6}}=400$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We should not predict *exactly* how many times Cam will roll the number $4$ because rolling a die is random. It is impossible to make exact predictions for outcomes of random events.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The best prediction is that Cam will roll the number $4$ *close to* $400$ times but probably not exactly $400$ times.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Kavitha is going to spin the following spinner $200$ times. The spinner is divided into equal sections.     **What is the best prediction for the number of times the spinner will land on the elephant?**",
+                                "images": [
+                                    {
+                                        "alt": "A circle has five equal sections. There is a monkey in two sections, a mouse in two sections, and an elephant in one section. The arrow of the spinner points at the elephant section.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/378a4521535a52c746cfabcf770022e1ea08a486.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "*Exactly* $80$ times",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Close to* $80$ times but probably not exactly $80$ times",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Exactly* $40$ times",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Close to* $40$ times but probably not exactly $40$ times",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The best prediction comes from multiplying the total number of spins by the probability of an individual spin landing on the elephant.  $\\text{Best prediction} =$ $ {\\text{ Number of spins}} \\times$ $\\text{P(land on the elephant)}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\text{Number of spins} = \\blue{200}$  $\\text{P(land on the elephant)}= \\pink{\\dfrac{1}{5}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\text{Best prediction} =\\blue{200} \\times\\pink{\\dfrac{1}{5}}=40$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We should not predict *exactly* how many times the spinner will land on the elephant because spinning a spinner is random. It is impossible to make exact predictions for outcomes of random events.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The best prediction is that the spinner will land on the elephant *close to* $40$ times but probably not exactly $40$ times.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Ramkin is going to flip a fair coin $1200$ times.  **What is the best prediction for the number of times that the coin will land heads up?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "*Exactly* $50$ times",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Close to* $50$ times but probably not exactly $50$ times",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Exactly* $600$ times",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Close to* $600$ times but probably not exactly $600$ times",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The best prediction comes from multiplying the total number of trials by the probability of an individual flip landing heads up.  $\\text{Best prediction} = {\\text{ Number of trials}} \\times {\\text{P(land heads up)}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\text{Number of trials} = \\blue{1200}$  $\\text{P(land heads up)} = \\pink{\\dfrac{1}{2}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\text{Best prediction} = \\blue{1200}\\times\\pink{\\dfrac{1}{2}}=600$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We should not predict *exactly* how many times the coin will land heads up because flipping a coin is random. It is impossible to make exact predictions for outcomes of random events.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The best prediction is that the coin will land heads up *close to* $600$ times but probably not exactly $600$ times.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Ellen has a bag with $3$ red marbles and $2$ blue marbles in it.    She is going to randomly draw a marble from the bag $300$ times, putting the marble back in the bag after each draw.    **What is the best prediction for the number of times that Ellen will draw a blue marble?**",
+                                "images": [
+                                    {
+                                        "alt": "3 red marbles and 2 blue marbles",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/ac05b15a801c915f037f0d7e37dd705acdb74fba.png"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "*Exactly* $120$ times",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Close to* $120$ times but probably not exactly $120$ times",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Exactly* $150$ times",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Close to* $150$ times but probably not exactly $150$ times",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The best prediction comes from multiplying the total number of trials by the probability of Ellen getting a blue marble on an individual draw.  $\\text{Best prediction} = {\\text{ Number of trials}} \\times {\\text{P(blue marble)}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\text{Number of trials} = \\blue{300}$  $\\text{P(blue marble)} = \\pink{\\dfrac{2}{5}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\text{Best prediction} = \\blue{300}\\times \\pink{\\dfrac25}=120$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We should not predict *exactly* how many times Ellen will draw a blue marble because drawing a marble is random. It is impossible to make exact predictions for outcomes of random events.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The best prediction is that Ellen will draw a blue marble *close to* $120$ times but probably not exactly $120$ times.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Amit is going to guess on all $20$ questions of his multiple-choice test.  Each question on the test has $4$ answer options, and only one is correct.  **What is the best prediction for the number of questions that Amit will answer correctly?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "*Exactly* $5$ questions",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Close to* $5$ questions but probably not exactly $5$ questions",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Exactly* $80$ questions",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Close to* $80$ questions but probably not exactly $80$ questions",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The best prediction comes from multiplying the total number of questions by the probability of Amit getting an individual question correct.  $\\text{Best prediction} = {\\text{ Number of questions}}\\times {\\text{P(correct answer)}} $",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\text{Number of questions} = \\blue{20}$  $\\text{P(correct answer)} = \\pink{\\dfrac{1}{4}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\text{Best prediction} = \\blue{20}\\times\\pink{\\dfrac{1}{4}}=5$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We should not predict *exactly* how many questions Amit will answer correctly because guessing on a test is random. It is impossible to make exact predictions for outcomes of random events.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The best prediction is that Amit will answer *close to* $5$ questions but probably not exactly $5$ questions correctly.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Margo is going to spin the following spinner $210$ times. The spinner is divided into equal sections.    **What is the best prediction for the number of times the spinner will *not* land on an elephant?**",
+                                "images": [
+                                    {
+                                        "alt": "A circle has seven equal sections. There is a monkey in one section, a mouse in two sections, and an elephant in four sections. The arrow of the spinner points at a mouse section.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/65acc5dcd7f31ab2b4c240bfea5dac27506ccedd.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "*Exactly* $90$ times",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Close to* $90$ times but probably not exactly $90$ times",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Exactly* $120$ times",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Close to* $120$ times but probably not exactly $120$ times",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The best prediction comes from multiplying the total number of trials by the probability of an individual spin not landing on an elephant.  $\\text{Best prediction} =\\text{ Number of trials}\\times\\text{P(not land on an elephant)}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\text{Number of trials} = \\blue{210}$  $\\text{P(not land on an elephant)}= \\pink{\\dfrac{3}{7}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\text{Best prediction} = \\blue{210}\\times\\pink{\\dfrac{3}{7}}=90$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We should not predict *exactly* how many times the spinner will *not* land on an elephant because spinning a spinner is random. It is impossible to make exact predictions for outcomes of random events.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The best prediction is that the spinner will *not* land on an elephant *close to* $90$ times but probably not exactly $90$ times.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Leo is going to use a random number generator $400$ times. Each time he uses it, he will get a $1, 2, 3,4,$ or $5$.  **What is the best prediction for the number of times that Leo will get an odd number?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "*Exactly* $133$ times",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Close to* $133$ times but probably not exactly $133$ times",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Exactly* $240$ times",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Close to* $240$ times but probably not exactly $240$ times",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The best prediction comes from multiplying the total number of trials by the probability of Leo getting an odd number on an individual number generation.  $\\text{Best prediction} = \\text{ Number of trials} \\times  {\\text{P(odd number)}} $",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\text{Number of trials} = \\blue{400}$  $\\text{P(odd number)} = \\pink{\\dfrac{3}{5}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\text{Best prediction} = \\blue{400}\\times\\pink{\\dfrac{3}{5}}=240$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We should not predict *exactly* how many times Leo will get an odd number because using a random number generator is random. It is impossible to make exact predictions for outcomes of random events.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The best prediction is that Leo will get an odd number *close to* $240$ times but probably not exactly $240$ times.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Chen has an MP3 player called the Jumble. The Jumble randomly selects a song for the user to listen to. Chen's Jumble has $4$ classical songs, $3$ rock songs, and $2$ rap songs on it. Chen is going to listen to $360$ songs.  **What is the best prediction for the number of times Chen will listen to a classical song?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "*Exactly* $90$ times",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Close to* $90$ times but probably not exactly $90$ times",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Exactly* $160$ times",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Close to* $160$ times but probably not exactly $160$ times",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The best prediction comes from multiplying the total number of songs by the probability of an individual song being a classical song.   $\\text{Best prediction} = \\text{ Number of songs} \\times \\text{P(classical song)}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\text{Number of songs} = \\blue{360}$  >$\\text{P(classical song)} = \\pink{\\dfrac{4}{9}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\text{Best prediction} = \\blue{360}\\times\\pink{\\dfrac{4}{9}}=160$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We should not predict *exactly* how many times Chen will listen to a classical song because the Jumble selects a song randomly. It is impossible to make exact predictions for outcomes of random events.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The best prediction is that Chen will listen to a classical song *close to* $160$ times but probably not exactly $160$ times.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Jeremy is going to roll a fair $6$-sided die $180$ times.  **What is the best prediction for the number of times that Jeremy  will roll a number greater than  $4$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "*Exactly* $30$ times",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Close to* $30$ times but probably not exactly $30$ times",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Exactly* $60$ times",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Close to* $60$ times but probably not exactly $60$ times",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The best prediction comes from multiplying the total number of trials by the probability of an individual roll landing on a number greater than $4$.  ${\\text{Best prediction}} = {\\text{ Number of trials}} \\times {\\text{P(greater than  4)}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\text{Number of trials} = \\blue{180}$  $\\text{P(greater than 4)} = \\dfrac{2}{6} = \\pink{\\dfrac{1}{3}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\text{Best prediction} = \\blue{180}\\times\\pink{\\dfrac{1}{3}}=60$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We should not predict *exactly* how many times Jeremy  will roll a number greater than  $4$ because rolling a die is random. It is impossible to make exact predictions for outcomes of random events.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The best prediction is that Jeremy  will roll a number greater than  $4$ *close to* $60$ times but probably not exactly $60$ times.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Elizabeth is going to flip a fair coin $100$ times.  **What is the best prediction for the number of times that the coin will land tails up?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "*Exactly* $200$ times",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Close to* $200$ times but probably not exactly $200$ times",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Exactly* $50$ times",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Close to* $50$ times but probably not exactly $50$ times",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The best prediction comes from multiplying the total number of trials by the probability of an individual flip landing tails up.   $\\text{Best prediction} = {\\text{ Number of trials}} \\times {\\text{P(land tails up)}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\text{Number of trials} = \\blue{100}$  $\\text{P(land tails up)} = \\pink{\\dfrac{1}{2}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\text{Best prediction} = \\blue{100}\\times\\pink{\\dfrac{1}{2}}=50$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We should not predict *exactly* how many times the coin will land tails up because flipping a coin is random. It is impossible to make exact predictions for outcomes of random events.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The best prediction is that the coin will land tails up *close to* $50$ times but probably not exactly $50$ times.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Jose is going to use a random number generator $500$ times. Each time he uses it, he will get a $1, 2, 3,$ or $4$.  **Complete the following statement with the *best* prediction.     Jose will get something other than a $2$...**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "*Exactly* $250$ times",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Close to* $250$ times but probably not exactly $250$ times",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Exactly* $375$ times",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Close to* $375$ times but probably not exactly $375$ times",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The best prediction comes from multiplying the total number of trials by the probability of Jose getting something other than a $2$ on an individual number generation.   $\\text{Best prediction} =   {\\text{ Number of trials}}\\times \\text{P(not get a 2)} $",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\text{Number of trials} = \\blue{500}$  $\\text{P(not get a 2)} = \\pink{\\dfrac{3}{4}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\text{Best prediction} = \\blue{500}\\times\\pink{\\dfrac{3}{4}}=375$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We should not predict *exactly* how many times Jose will get something other than a $2$ because using a random number generator is random. It is impossible to make exact predictions for outcomes of random events.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The best prediction is that Jose will get something other than a $2$ *close to* $375$ times but probably not exactly $375$ times.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Elizabeth is going to roll a fair $6$-sided die $600$ times.  **Complete the following statement with the *best* prediction.      Elizabeth will roll an even number...**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "*Exactly* $100$ times",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Close to* $100$ times but probably not exactly $100$ times",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Exactly* $300$ times",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Close to* $300$ times but probably not exactly $300$ times",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The best prediction comes from multiplying the total number of trials by the probability of an individual roll landing on an even number.   $\\text{Best prediction} =   {\\text{ Number of trials}}\\times\\text{P(roll even number)} $",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\text{Number of trials} = \\blue{600}$  $\\text{P(roll even number)} = \\dfrac{3}{6}=\\pink{\\dfrac12}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\text{Best prediction} = \\blue{600}\\times\\pink{\\dfrac{1}{2}}=300$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We should not predict *exactly* how many times she will roll an even number because rolling a die is random. It is impossible to make exact predictions for outcomes of random events.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The best prediction is that Elizabeth will roll an even number *close to* $300$ times but probably not exactly $300$ times.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Pepe is going to spin the following spinner $800$ times. The spinner is divided into equal sections.     **Complete the following statement with the *best* prediction.     The spinner will land in the shaded region...**",
+                                "images": [
+                                    {
+                                        "alt": "a spinner with 5 equal sections, 4 of which are shaded and 1 of which is not shaded",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/8c7770bacffa91e386567d42b6fcc116863d1d72.png"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "*Exactly* $160$ times",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Close to* $160$ times but probably not exactly $160$ times",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Exactly* $640$ times",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Close to* $640$ times but probably not exactly $640$ times",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The best prediction comes from multiplying the total number of trials by the probability of an individual spin landing in the shaded region.   $\\text{Best prediction} =  {\\text{ Number of trials}}\\times\\text{P(shaded region)}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\text{Number of trials} = \\blue{800}$  $\\text{P(shaded region)} = \\pink{\\dfrac{4}{5}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\text{Best prediction} = \\blue{800}\\times\\pink{\\dfrac{4}{5}}=640$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We should not predict *exactly* how many times the spinner will land in the shaded region because using a spinner is random. It is impossible to make exact predictions for outcomes of random events.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The best prediction is that the spinner will land in the shaded region *close to* $640$ times but probably not exactly $640$ times.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Shun is going to flip a fair coin $450$ times.  **Complete the following statement with the *best* prediction.     The coin will land tails up...**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "*Exactly* $175$ times",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Close to* $175$ times but probably not exactly $175$ times",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Exactly* $225$ times",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Close to* $225$ times but probably not exactly $225$ times",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The best prediction comes from multiplying the total number of trials by the probability of an individual flip landing tails up.   $\\text{Best prediction} =  {\\text{ Number of trials}}\\times\\text{P(land tails up)} $",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\text{Number of trials} = \\blue{450}$  $\\text{P(land tails up)} = \\pink{\\dfrac{1}{2}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\text{Best prediction} = \\blue{450}\\times\\pink{\\dfrac{1}{2}}=225$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We should not predict *exactly* how many times the coin will land tails up because flipping a coin is random. It is impossible to make exact predictions for outcomes of random events.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The best prediction is that the coin will land tails up *close to* $225$ times but probably not exactly $225$ times.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Sophia has a bag with $3$ purple marbles and $4$ blue marbles in it.    She is going to randomly draw a marble from the bag $280$ times, putting the marble back in the bag after each draw.   **Complete the following statement with the *best* prediction.    Sophia will draw a purple marble...**",
+                                "images": [
+                                    {
+                                        "alt": "3 purple marbles and 4 blue marbles",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/294ec21cb58d3b9024bafdd78bcd02deeb86d782.png"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "*Exactly* $120$ times",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Close to* $120$ times but probably not exactly $120$ times",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Exactly* $160$ times",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Close to* $160$ times but probably not exactly $160$ times",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The best prediction comes from multiplying the total number of trials by the probability of Sophia getting a purple marble on an individual draw.  $\\text{Best prediction} =  {\\text{ Number of trials}}\\times\\text{P(purple marble)}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": ">$\\text{Number of trials} = \\blue{280}$  >$\\text{P(purple marble)} = \\pink{\\dfrac{3}{7}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\text{Best prediction} = \\blue{280}\\times\\pink{\\dfrac{3}{7}}=120$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We should not predict *exactly* how many times Sophia will draw a purple marble because drawing a marble is random. It is impossible to make exact predictions for outcomes of random events.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The best prediction is that Sophia will draw a purple marble *close to* $120$ times but probably not exactly $120$ times.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Vitor is going to guess on all $40$ questions of his multiple-choice test.  Each question on the test has $5$ answer options.  **Complete the following statement with the *best* prediction.      Vitor will correctly answer...**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "*Exactly* $8$ questions",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Close to* $8$ questions but probably not exactly $8$ questions",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Exactly* $20$ questions",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Close to* $20$ questions but probably not exactly $20$ questions",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The best prediction comes from multiplying the total number of questions by the probability of Vitor getting an individual question correct.   $\\text{Best prediction} =  {\\text{ Number of questions}}\\times\\text{P(correct answer)}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\text{Number of questions} = \\blue{40}$  $\\text{P(correct answer)} = \\pink{\\dfrac{1}{5}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\text{Best prediction} = \\blue{40}\\times\\pink{\\dfrac{1}{5}}=8$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We should not predict *exactly* how many questions Vitor will answer correctly because guessing on a test is random. It is impossible to make exact predictions for outcomes of random events.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The *best* prediction is that Vitor will correctly answer *close to* $8$ questions but probably not exactly $8$ questions.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Ming has a standard $52$-card deck.  A standard $52$-card deck has $4$ suits $(♠$, $♣ ,\\red♦$, and $\\red♥$$)$ and an equal number of cards of each suit.  She is going to randomly draw a card from the deck $300$ times, putting the card back in the deck after each draw.  **Complete the following statement with the *best* prediction.    Ming will draw something other than a $\\Large\\red♥$…**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "*Exactly* $150$ times",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Close to* $150$ times but probably not exactly $150$ times",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Exactly* $225$ times",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Close to* $225$ times but probably not exactly $225$ times",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The best prediction comes from multiplying the total number of trials by the probability of Ming not drawing a $\\red♥$ on an individual draw.   $\\text{Best prediction} =   {\\text{ Number of trials}}\\times\\text{P(draw card other than a }\\red{\\text{♥}})$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\text{Number of trials} = \\blue{300}$   $\\text{P(draw card other than a }\\red{\\text{♥}}\\text{)}= \\pink{\\dfrac{3}{4}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\text{Best prediction} = \\blue{300}\\times\\pink{\\dfrac34}=225$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We should not predict *exactly* how many times Ming will draw something other than a $\\red♥$ because drawing a card is random. It is impossible to make exact predictions for outcomes of random events.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The *best* prediction is that she will draw something other than a $\\red♥$ *close to* $225$ times but probably not exactly $225$ times.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Mekala has an MP3 player called the Jumble. The Jumble randomly selects a song for the user to listen to. Mekala's Jumble has $4$ techno songs, $2$ country songs, and $3$ jazz songs on it. Mekala plans to listen to $270$ songs.  **Complete the following statement with the *best* prediction.     Mekala will listen to...**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "*Exactly* $60$ country songs",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Close to* $60$ country songs but probably not exactly $60$ country songs",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Exactly* $210$ country songs",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "*Close to* $210$ country songs but probably not exactly $210$ country songs",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The best prediction comes from multiplying the total number of songs by the probability of an individual song being a country song.   $\\text{Best prediction} =  {\\text{ Number of songs}}\\times\\text{P(country song)} $",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\text{Number of songs} = \\blue{270}$  $\\text{P(country song)} = \\pink{\\dfrac{2}{9}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\text{Best prediction} = \\blue{270}\\times\\pink{\\dfrac{2}{9}}=60$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We should not predict *exactly* how many country songs she will listen to because  the Jumble selects a song randomly. It is impossible to make exact predictions for outcomes of random events.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The best prediction is that Mekala will listen to *close to* $60$ country songs but probably not exactly $60$ country songs.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Electronics Unlimited sells TVs. There are $110$ TVs on display in the showroom, and each TV is turned on to a random channel from a set of $11$ channels: $7$ sports channels, $3$ news channels, and $1$ movie channel.  **Which statement best predicts how many TVs will *not* be showing a sports channel?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "There will be *exactly* $40$ TVs not showing a sports channel.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There will be *close to* $40$ TVs but probably not exactly $40$ TVs not showing a sports channel.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There will be *exactly* $70$ TVs not showing a sports channel.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There will be *close to* $70$ TVs but probably not exactly $70$ TVs not showing a sports channel.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The best prediction comes from multiplying the total number of TVs by the probability of an individual TV not showing a sports channel.   $\\text{Best prediction} = {\\text{ Number of TVs}}\\times\\text{P(not sports)}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\text{Number of TVs} = \\blue{110}$  $\\text{P(not sports)} = \\pink{\\dfrac{4}{11}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\text{Best prediction} = \\blue{110}\\times\\pink{\\dfrac{4}{11}}=40$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We should not predict *exactly* how many TVs will not be showing a sports channel because each TV is turned to a random channel. It is impossible to make exact predictions for outcomes of random events.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The *best* prediction is that there will be *close to* $40$ TVs but probably not exactly $40$ TVs not showing a sports channel.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The Hendricksons are in charge of bringing treats for $50$ football players.  They brought $3$ coolers of popsicles and $2$ coolers of ice cream sandwiches.  Each player is going to randomly select a cooler from which to get their treat.   **Which statement best predicts how many football players will get a popsicle?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "There will be *exactly* $20$ football players who get a popsicle.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There will be *close to* $20$ football players but probably not exactly $20$ football players who get a popsicle.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There will be *exactly* $30$ football players who get a popsicle.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There will be *close to* $30$ football players but probably not exactly $30$ football players who get a popsicle.",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The best prediction comes from multiplying the total number of football players by the probability of an individual football player getting a popsicle.    $\\text{Best prediction} =  \\text{Number of football players} \\times\\text{P(popsicle)}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\text{Number of football players} = \\blue{50}$  $\\text{P(popsicle)} = \\pink{\\dfrac{3}{5}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\text{Best prediction} = \\blue{50}\\times\\pink{\\dfrac{3}{5}}=30$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We should not predict *exactly* how many players will get a popsicle because each player randomly selects a cooler. It is impossible to make exact predictions for outcomes of random events.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The best prediction is that there will be *close to* $30$ football players but probably not exactly $30$ football players who get a popsicle.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        }
+    ]
+}

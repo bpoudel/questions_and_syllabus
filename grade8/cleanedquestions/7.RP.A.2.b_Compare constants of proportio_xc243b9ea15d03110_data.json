@@ -1,0 +1,1290 @@
+{
+    "standard_metadata": {
+        "standard_id": "7.RP.A.2.b",
+        "standard_description": "Identify the constant of proportionality (unit rate) in tables, graphs, equations, diagrams, and verbal descriptions of proportional relationships.",
+        "standard_title": "Compare constants of proportionality",
+        "standard_url": "https://www.khanacademy.org/math/cc-seventh-grade-math/cc-7th-ratio-proportion/constant-of-proportionality/e/compare-constants-of-proportionality"
+    },
+    "id": "xc243b9ea15d03110",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which relationships have the same constant of proportionality between $y$ and $x$ as the equation $y=\\dfrac{1}{2}x$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$6y=3x$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": true,
+                                        "images": [
+                                            {
+                                                "alt": "A graph on a Cartesian coordinate system with x and y-axes. The axes are marked with evenly spaced ticks in increments of 2, ranging from 2 to 8. The graph displays a single slant line starting from (0,0) with an arrowhead at its end. The line is closer the x-axis.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/f506d8e9bd426787ac5a6ad8ecfd2422a4670613.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A graph on a Cartesian coordinate system with x and y-axes. The axes are marked with evenly spaced ticks in increments of 2, ranging from 2 to 8. The graph displays a single slant line starting from (0,0) with an arrowhead at its end. The line is closer the y-axis.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/b16732e4061ab7ce457202a4fd65505144a3ff64.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "$x$ | $y$ \n:-: | :-: \n$2$ | $1$ \n$3$ | $2.5$\n$4$ | $3$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x$ | $y$ \n:-: | :-: \n$4$ | $2$ \n$5$ | $2.5$\n$10$ | $5$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The equation $y=\\dfrac{1}{2}x$ has a **constant of proportionality** equal to $\\dfrac{1}{2}$.  This  means that all $y$-values in this relationship are $\\dfrac12$ of the $x$-value.  Which other relationships have the same constant of proportionality?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's pick an $\\greenD{x}$-value and the $\\maroonD{y}$-value that works with the equation.  Suppose we picked the value $\\greenD{x}=\\greenD{4}$. That means that $\\maroonD{y}=\\dfrac{1}{2}\\cdot \\greenD{4}=\\maroonD{2}$.  Let's see whether that's true for the equation $6\\maroonD{y}=3\\greenD{x}$.  $6\\cdot \\maroonD{2}\\stackrel{\\checkmark}{=}3\\cdot \\greenD{4}$  The equation has the same constant of proportionality.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "[[☃ image 1]]  Let's pick a point on the line to figure out the constant of proportionality. For the point $(\\greenD{4},\\maroonD{2})$, the $\\maroonD{y}$-value is $\\dfrac{1}{2}$ of the $\\greenD{x}$-value. The other points have the same relationship.  This graph has a constant of proportionality of $\\dfrac{1}{2}$.",
+                                    "images": [
+                                        {
+                                            "alt": "A graph on a Cartesian coordinate system with x and y-axes. The axes are marked with evenly spaced ticks in increments of 2, ranging from 2 to 8. The graph displays a single slant line starting from (0,0) with an arrowhead at its end. The line passes through a point marked with a filled dot at (4,2). The point is labeled as parenthesis open 4 comma 2 parenthesis closed.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/03cde07bae5ab34759c23815216db0ee3c7d7aeb.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "[[☃ image 1]]  Let's pick a point from this graph, too. For the point $(\\greenD{4},\\maroonD{8})$, the $\\maroonD{y}$-value is $2$ times the $\\greenD{x}$-value.  This graph has a constant of proportionality of $2$, not of $\\dfrac{1}{2}$.",
+                                    "images": [
+                                        {
+                                            "alt": "A graph on a Cartesian coordinate system with x and y-axes. The axes are marked with evenly spaced ticks in increments of 2, ranging from 2 to 8. The graph displays a single slant line starting from (0,0) with an arrowhead at its end. The line passes through a point marked with a filled dot at (4,8). The point is labeled as parenthesis open 4 comma 8 parenthesis closed.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/0bbfa0406175b376c049bbe19c64cda7dedaa318.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$x$ | $y$ :-: | :-:  $2$ | $1$  $3$ | $2.5$  $4$ | $3$  In this table, $\\maroonD{1}$ is $\\dfrac{1}{2}$ of $\\greenD{2}$, but $\\maroonD{3}$ is *not* $\\dfrac{1}{2}$ of $\\greenD{4}$.  This relationship is not proportional, so there is no constant of proportionality.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$x$ | $y$  :-: | :-:  $4$ | $2$  $5$ | $2.5$ $10$ | $5$  In this table, every $\\maroonD{y}$-value is $\\dfrac{1}{2}$ of its corresponding $\\greenD{x}$-value.  The constant of proportionality for this table is $\\dfrac{1}{2}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "These are the relationships that have the same constant of proportionality between $y$ and $x$ as the equation $y=\\dfrac{1}{2}x$:  $6y=3x$  [[☃ image 1]]   $x$ | $y$  :-: | :-:  $4$ | $2$  $5$ | $2.5$ $10$ | $5$",
+                                    "images": [
+                                        {
+                                            "alt": "A graph on a Cartesian coordinate system with x and y-axes. The axes are marked with evenly spaced ticks in increments of 2, ranging from 2 to 8. The graph displays a single slant line starting from (0,0) with an arrowhead at its end. The line is closer the x-axis.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/f506d8e9bd426787ac5a6ad8ecfd2422a4670613.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "c of p language"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which relationships have the same constant of proportionality between $y$ and $x$ as the following table?**  $x$ | $y$  :-: | :-:  $2$ | $7$ $7$ | $24.5$ $9$ | $31.5$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$4y=14x$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$3.5y=x$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A graph on a Cartesian coordinate system with x and y-axes. The x-axis is marked with evenly spaced ticks in increments of 2, ranging from 2 to 4. The y-axis is marked with evenly spaced ticks in increments of 4, ranging from 4 to 20. The graph displays a single slant line starting from (0,0) with an arrowhead at its end. The line passes through a point marked with a filled dot at (1,4).",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/e81d9c0dbd949971736493e702c43878b723f2f7.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": true,
+                                        "images": [
+                                            {
+                                                "alt": "A graph on a Cartesian coordinate system with x and y-axes. The x-axis is marked with evenly spaced ticks in increments of 1, ranging from 1 to 2. The y-axis is marked with evenly spaced ticks in increments of 2, ranging from 2 to 10. The graph displays a single slant line starting from (0,0) with an arrowhead at its end. The line passes through a point marked with a filled dot at (2,7).",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/743b6c537fee24f2e0f1ef513826afcda0979784.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": true,
+                                        "images": [
+                                            {
+                                                "alt": "A graph on a Cartesian coordinate system with x and y-axes. The x-axis is marked with evenly spaced ticks in increments of 2, ranging from 2 to 4. The y-axis is marked with evenly spaced ticks in increments of 4, ranging from 4 to 20. The graph displays a single slant line starting from (0,0) with an arrowhead at its end. The line passes through a point marked with a filled dot at (4, 14).",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/78ac3c786793d7581011d36dbca31f916e1d4e27.svg"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The given table has a **constant of proportionality** equal to $3.5$.  This  means that all $y$-values in this relationship are $3.5$ of the $x$-value.  Which other relationships have the same constant of proportionality?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's pick a pair of corresponding $\\greenD{x}$- and $\\maroonD{y}$-values from the table. We can use $\\greenD{x}=\\greenD{2}$ and $\\maroonD{y}=\\maroonD{7}$.  Let's see whether that pair makes the equation $4\\maroonD{y}=14\\greenD{x}$ true.  $4\\cdot \\maroonD{7}\\stackrel{\\checkmark}{=}14\\cdot \\greenD{2}$  The equation has the same constant of proportionality.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's try the pair $\\greenD{x}=\\greenD{2}$ and $\\maroonD{y}=\\maroonD{7}$ in the equation $3.5\\maroonD{y}=\\greenD{x}$, too. Does that pair of values make the equation true?  $3.5\\cdot \\maroonD{7}\\neq\\greenD{2}$  The equation $3.5\\maroonD{y}=\\greenD{x}$ *does not* have the same constant of proportionality as the table.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "[[☃ image 1]]  Let's pick a point on the line to figure out the constant of proportionality. For the point $(\\greenD{1},\\maroonD{4})$, the $\\maroonD{y}$-value is $4$ times the $\\greenD{x}$-value. The other points have the same relationship.  This relationship shows a constant of proportionality of $4$ instead of $3.5$.",
+                                    "images": [
+                                        {
+                                            "alt": "A graph on a Cartesian coordinate system with x and y-axes. The x-axis is marked with evenly spaced ticks in increments of 2, ranging from 2 to 4. The y-axis is marked with evenly spaced ticks in increments of 4, ranging from 4 to 20. The graph displays a single slant line starting from (0,0) with an arrowhead at its end. The line passes through a point marked with a filled dot at (1,4). ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/edbef478779e55cac13406caa1f5309399d22739.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "[[☃ image 1]]  Let's pick a point from this graph, too. For the point $(\\greenD{2},\\maroonD{7})$, the $\\maroonD{y}$-value is $3.5$ times the $\\greenD{x}$-value. The other points have the same relationship.  This graph has a constant of proportionality of $3.5$.",
+                                    "images": [
+                                        {
+                                            "alt": "A graph on a Cartesian coordinate system with x and y-axes. The x-axis is marked with evenly spaced ticks in increments of 1, ranging from 1 to 2. The y-axis is marked with evenly spaced ticks in increments of 2, ranging from 2 to 10. The graph displays a single slant line starting from (0,0) with an arrowhead at its end. The line passes through a point marked with a filled dot at (2,7). ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/7acb360f6620f051ecfbffc6d69e0a9ee50c4c36.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "[[☃ image 1]]  Let's pick a point from this graph, too. For the point $(\\greenD{4},\\maroonD{14})$, the $\\maroonD{y}$-value is $3.5$ times the $\\greenD{x}$-value. The other points have the same relationship.  This graph has a constant of proportionality of $3.5$, too.",
+                                    "images": [
+                                        {
+                                            "alt": "A graph on a Cartesian coordinate system with x and y-axes. The x-axis is marked with evenly spaced ticks in increments of 2, ranging from 2 to 4. The y-axis is marked with evenly spaced ticks in increments of 4, ranging from 4 to 20. The graph displays a single slant line starting from (0,0) with an arrowhead at its end. The line passes through a point marked with a filled dot at (4, 14). The point is labeled as parenthesis open 4 comma 14 parenthesis closed.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/8eeaa3e96532b03c3938ce16c61461e046cffb4d.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "These are the relationships that have the same constant of proportionality between $y$ and $x$ as the given table:  $4y=14x$  [[☃ image 1]]  [[☃ image 2]]",
+                                    "images": [
+                                        {
+                                            "alt": "A graph on a Cartesian coordinate system with x and y-axes. The x-axis is marked with evenly spaced ticks in increments of 1, ranging from 1 to 2. The y-axis is marked with evenly spaced ticks in increments of 2, ranging from 2 to 10. The graph displays a single slant line starting from (0,0) with an arrowhead at its end. The line passes through a point marked with a filled dot at (2,7). ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/743b6c537fee24f2e0f1ef513826afcda0979784.svg"
+                                        },
+                                        {
+                                            "alt": "A graph on a Cartesian coordinate system with x and y-axes. The x-axis is marked with evenly spaced ticks in increments of 1, ranging from 1 to 2. The y-axis is marked with evenly spaced ticks in increments of 2, ranging from 2 to 10. The graph displays a single slant line starting from (0,0) with an arrowhead at its end. The line passes through a point marked with a filled dot at (2,7).\n",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/78ac3c786793d7581011d36dbca31f916e1d4e27.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "c of p language"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which relationships have the same constant of proportionality between $y$ and $x$ as the following graph?**",
+                                "images": [
+                                    {
+                                        "alt": "A graph on a Cartesian coordinate system with x and y-axes. The axes are marked with evenly spaced ticks in increments of 2, ranging from 2 to 8. The graph displays a single slant line starting from (0,0) with an arrowhead at its end. The line passes through a point marked with a filled dot at (8,6).",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/b30d26efd00c8f09f7d711bbf613d588542409b4.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$6y=8x$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$y=\\dfrac{3}{4}x$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A graph on a Cartesian coordinate system with x and y-axes. The axes are marked with evenly spaced ticks in increments of 2, ranging from 2 to 8. The graph displays a single slant line starting from (0,0) with an arrowhead at its end. The line passes through a point marked with a filled dot at (2,1).",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/39ee98b747d8be480e2bda4a85c42f2ad8dc5bfe.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "$x$ | $y$ \n:-: | :-: \n$3$ | $4$ \n$12$ | $16$\n$15$ | $20$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x$ | $y$ \n:-: | :-: \n$4$ | $3$ \n$12$ | $9$\n$14$ | $10.5$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The given graph has a **constant of proportionality** equal to $\\dfrac{3}{4}$.  This  means that all $y$-values in this relationship are $\\dfrac{3}{4}$ of the $x$-value.  Which other relationships have the same constant of proportionality?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's pick a point from the given graph and get its $\\greenD{x}$- and $\\maroonD{y}$-values. We can use the point $(\\greenD{8},\\maroonD{6})$.  Let's see whether that pair makes the equation $6\\maroonD{y}=8\\greenD{x}$ true.  $6\\cdot \\maroonD{6}\\neq8\\cdot \\greenD{8}$  The equation *does not* have the same constant of proportionality.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's try the point $(\\greenD{8},\\maroonD{6})$ in the equation $\\maroonD{y}=\\dfrac{3}{4}\\greenD{x}$, too. Does that pair of values make the equation true?  $\\maroonD{6}\\stackrel{\\checkmark}{=}\\dfrac{3}{4}\\cdot \\greenD{8}$  The equation $\\maroonD{y}=\\dfrac{3}{4}\\greenD{x}$ has the same constant of proportionality as the graph.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "[[☃ image 1]]  Let's pick a point on the line to figure out the constant of proportionality. For the point $(\\greenD{2},\\maroonD{1})$, the $\\maroonD{y}$-value is $\\dfrac12$ times the $\\greenD{x}$-value, not $\\dfrac34$.   This relationship has a constant of proportionality of $\\dfrac12$, not $\\dfrac34$.",
+                                    "images": [
+                                        {
+                                            "alt": "A graph on a Cartesian coordinate system with x and y-axes. The axes are marked with evenly spaced ticks in increments of 2, ranging from 2 to 8. The graph displays a single slant line starting from (0,0) with an arrowhead at its end. The line passes through a point marked with a filled dot at (2,1). ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/e063e66f5cdc2112afa63ade9d795ae03adf9776.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$x$ | $y$  :-: | :-:  $3$ | $4$  $12$ | $16$ $15$ | $20$  In this table, all the $\\maroonD{y}$-values are $\\dfrac{4}{3}$ of the $\\greenD{x}$-values.  The constant of proportionality for this table is $\\dfrac{4}{3}$ instead of $\\dfrac{3}{4}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$x$ | $y$  :-: | :-:  $4$ | $3$  $12$ | $9$ $14$ | $10.5$  In this table, every $\\maroonD{y}$-value is $\\dfrac{3}{4}$ of its corresponding $\\greenD{x}$-value.  The constant of proportionality for this table is $\\dfrac{3}{4}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "These are the relationships that have the same constant of proportionality between $y$ and $x$ as the given graph:  $y=\\dfrac{3}{4}x$  $x$ | $y$  :-: | :-:  $4$ | $3$  $12$ | $9$ $14$ | $10.5$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "c of p language"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which relationships have the same constant of proportionality between $y$ and $x$ as the equation $3y=27x$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$y=9x$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$2y=18x$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": true,
+                                        "images": [
+                                            {
+                                                "alt": "A graph on a Cartesian coordinate system with x and y-axes. The x-axis is marked with evenly spaced ticks in increments of 1, ranging from 1 to 3. The y-axis is marked with evenly spaced ticks in increments of 3, ranging from 3 to 9. The graph displays a single slant line starting from (0,0). The line passes through a point marked with a filled dot at (1,9).",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/998710681a045bf35017b29ef6a74b1f0830872e.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "$x$ | $y$ \n:-: | :-: \n$3$|$\\dfrac{1}{3}$\n$6$|$\\dfrac{2}{3}$\n$9$|$1$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x$ | $y$ \n:-: | :-: \n$2$| $18$\n$4$| $27$\n$6$|$36$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The equation $3y=27x$ describes a proportional relationship where $y=9$ when $x=1$. So the equation $3y=27x$ has a **constant of proportionality** equal to $9$.  This  means that all $y$-values in this relationship are $9$ times the $x$-value.  Which other relationships have the same constant of proportionality?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "It is clear that in the equation $\\maroonD{y}=9\\greenD{x}$ that all $\\maroonD{y}$-values are also $9$ times the $\\greenD{x}$-value.  This equation has the same constant of proportionality as the original equation.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's pick an $\\greenD{x}$-value and the $\\maroonD{y}$-value that works with the original equation.  Suppose we picked the value $\\greenD{x}=\\greenD{1}$. That means that:  $\\begin{align} 3\\maroonD{y}&=27\\cdot \\greenD{1}\\\\\\\\ 3\\maroonD{y}&=27\\\\\\\\ \\dfrac{\\cancel 3\\maroonD{y}}{\\cancel 3}&=\\dfrac{27}{3}\\\\\\\\ \\maroonD{y}&=9 \\end{align}$  In the original equation, when $\\greenD{x}=\\greenD{1}$, we know that $\\maroonD{y}=\\maroonD{9}$.  Let's see whether that's true for the equation $2\\maroonD{y}=18\\greenD{x}$.  $2\\cdot\\maroonD{9}\\stackrel{\\checkmark}{=}18\\cdot\\greenD{1}$  The equation has the same constant of proportionality as the original equation.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "[[☃ image 1]]  Let's pick a point on the line to figure out the constant of proportionality. For the point $(\\greenD{1},\\maroonD{9})$, the $\\maroonD{y}$-value is $9$ times the $\\greenD{x}$-value. The other points have the same relationship.  This graph has a constant of proportionality of $9$.",
+                                    "images": [
+                                        {
+                                            "alt": "A graph on a Cartesian coordinate system with x and y-axes. The x-axis is marked with evenly spaced ticks in increments of 1, ranging from 1 to 3. The y-axis is marked with evenly spaced ticks in increments of 3, ranging from 3 to 9. The graph displays a single slant line starting from (0,0). The line passes through a point marked with a filled dot at (1,9). The point is labeled as parenthesis open 1 comma 9 parenthesis closed.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d2fd105a34966c5ad00800ef2188e02f40d17c34.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$x$ | $y$  :-: | :-:  $3$|$\\dfrac{1}{3}$ $6$|$\\dfrac{2}{3}$ $9$|$1$  In this table, every $\\maroonD{y}$-value is $\\dfrac{1}{9}$ of its corresponding $\\greenD{x}$-value.  The constant of proportionality for this table is $\\dfrac{1}{9}$, not $9$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$x$ | $y$  :-: | :-:  $2$| $18$ $4$| $27$ $6$|$36$   In this table, $\\maroonD{18}$ is $9$ times $\\greenD{2}$, but $\\maroonD{27}$ is *not* $9$ times $\\greenD{4}$.  This relationship is not proportional, so there is no constant of proportionality.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "[[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A graph on a Cartesian coordinate system with x and y-axes. The x-axis is marked with evenly spaced ticks in increments of 1, ranging from 1 to 3. The y-axis is marked with evenly spaced ticks in increments of 3, ranging from 3 to 9. The graph displays a single slant line starting from (0,0). The line passes through a point marked with a filled dot at (1,9).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/998710681a045bf35017b29ef6a74b1f0830872e.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "c of p language"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which relationships have the same constant of proportionality between $y$ and $x$ as the following graph?**",
+                                "images": [
+                                    {
+                                        "alt": "A graph on a Cartesian coordinate system with x and y-axes. The axes are marked with evenly spaced ticks in increments of 2, ranging from 2 to 6. The graph displays a single slant line starting from (0,0). The line passes through a point marked with a filled dot at (2,6).",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/5b4a84f551fbe9e1360b6debfe31ac4fb8c6cefb.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$6y=2x$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$y=\\dfrac{1}{3}x$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A graph on a Cartesian coordinate system with x and y-axes. The axes are marked with evenly spaced ticks in increments of 2, ranging from 2 to 6. The graph displays a single slant line starting from (0,0). The line passes through a point marked with a filled dot at (2,6).",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/8f2a9e8648dee145cad89939d639f4d92cef2ff2.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "$x$ | $y$ \n:-: | :-: \n$3$ | $9$\n$6$ | $18$\n$9$ | $27$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x$ | $y$ \n:-: | :-: \n$5$ | $15$\n$7$ | $21$\n$11$ | $33$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The given graph has a **constant of proportionality** equal to $3$.  This  means that all $y$-values in this relationship are $3$ times the $x$-value.  Which other relationships have the same constant of proportionality?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's pick a point from the given graph and get its $\\greenD{x}$- and $\\maroonD{y}$-values. We can use the point $(\\greenD{2},\\maroonD{6})$.  Let's see whether that pair makes the equation $6\\maroonD{y}=2\\greenD{x}$ true.  $6\\cdot \\maroonD{6}\\neq2\\cdot \\greenD{2}$  The equation *does not* have the same constant of proportionality.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's try the point $(\\greenD{2},\\maroonD{6})$ in the equation $\\maroonD{y}=\\dfrac{1}{3}\\greenD{x}$, too. Does that pair of values make the equation true?  $\\maroonD{6}\\neq\\dfrac{1}{3}\\cdot \\greenD{2}$   The equation *does not* have the same constant of proportionality.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "[[☃ image 1]]  Let's pick a point on the line to figure out the constant of proportionality. For the point $(\\greenD{1},\\maroonD{6})$, the $\\maroonD{y}$-value is $6$ times the $\\greenD{x}$-value, not $3$.  The graph *does not* have the same constant of proportionality.",
+                                    "images": [
+                                        {
+                                            "alt": "A graph on a Cartesian coordinate system with x and y-axes. The axes are marked with evenly spaced ticks in increments of 2, ranging from 2 to 6. The graph displays a single slant line starting from (0,0). The line passes through a point marked with a filled dot at (2,6). The point is labeled as parenthesis open 2 comma 6 parenthesis closed.\n",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/f7629d5ba587936482f578c57e80cf1869c11264.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$x$ | $y$  :-: | :-:  $3$ | $9$ $6$ | $18$ $9$ | $27$  In this table, all the $\\maroonD{y}$-values are $3$ times the $\\greenD{x}$-values.  The constant of proportionality for this table is $3$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$x$ | $y$  :-: | :-:  $5$ | $15$ $7$ | $21$ $11$ | $33$  In this table, all the $\\maroonD{y}$-values are $3$ times the $\\greenD{x}$-values.  The constant of proportionality for this table is $3$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "These are the relationships that have the same constant of proportionality between $y$ and $x$ as the given graph:  $x$ | $y$  :-: | :-:  $3$ | $9$ $6$ | $18$ $9$ | $27$  $x$ | $y$  :-: | :-:  $5$ | $15$ $7$ | $21$ $11$ | $33$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "c of p language"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which relationships have the same constant of proportionality between $y$ and $x$ as the following table?**  $x$ | $y$  :-: | :-:  $4$ | $32$ $7$ | $56$ $8$ | $64$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$3y=24x$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A graph on a Cartesian coordinate system with x and y-axes. The axes are marked with evenly spaced ticks in increments of 2, ranging from 2 to 6. The graph displays a single slant line starting from (0,0) with an arrowhead at its end. The line passes through a point marked with a filled dot at (5,3).",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/a8f1e66610b12b95de1e1f4c79f207341ad90005.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": true,
+                                        "images": [
+                                            {
+                                                "alt": "A graph on a Cartesian coordinate system with x and y-axes. The x-axis is marked with evenly spaced ticks in increments of 2, ranging from 2 to 4. The y-axis is marked with evenly spaced ticks in increments of 2, ranging from 2 to 8. The graph displays a single slant line starting from (0,0). The line passes through a point marked with a filled dot at (1,8).",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/797f20ddb3c41b5bf12993eb2181338db9d4ee96.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "$x$ | $y$ \n:-: | :-: \n$2$ | $16$\n$3$ | $24$\n$6$ | $48$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x$ | $y$ \n:-: | :-: \n$5$ | $30$\n$9$ | $72$\n$10$ | $8$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The given table has a **constant of proportionality** equal to $8$.  This  means that all $y$-values in this relationship are $8$ times the $x$-value.  Which other relationships have the same constant of proportionality?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's pick a pair of corresponding $\\greenD{x}$- and $\\maroonD{y}$-values from the table. We can use $\\greenD{x}=\\greenD{4}$ and $\\maroonD{y}=\\maroonD{32}$.  Let's see whether that pair makes the equation $3\\maroonD{y}=24\\greenD{x}$ true.  $3\\cdot \\maroonD{32}=24\\cdot\\greenD{4}$  This equation has a constant of proportionality of $8$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "[[☃ image 1]]  Let's pick a point on the line to figure out the constant of proportionality. For the point $(\\greenD{5},\\maroonD{3})$, the $\\maroonD{y}$-value is $0.6$ times the $\\greenD{x}$-value. The other points have the same relationship.  This relationship shows a constant of proportionality of $0.6$ instead of $8$.",
+                                    "images": [
+                                        {
+                                            "alt": "A graph on a Cartesian coordinate system with x and y-axes. The axes are marked with evenly spaced ticks in increments of 2, ranging from 2 to 6. The graph displays a single slant line starting from (0,0) with an arrowhead at its end. The line passes through a point marked with a filled dot at (5,3). ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d3020f247ca43daf42f6effeae5b46a489a8ffac.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "[[☃ image 1]]  Let's pick a point from this graph, too. For the point $(\\greenD{1},\\maroonD{8})$, the $\\maroonD{y}$-value is $8$ times the $\\greenD{x}$-value. The other points have the same relationship.  This graph has a constant of proportionality of $8$.",
+                                    "images": [
+                                        {
+                                            "alt": "A graph on a Cartesian coordinate system with x and y-axes. The x-axis is marked with evenly spaced ticks in increments of 2, ranging from 2 to 4. The y-axis is marked with evenly spaced ticks in increments of 2, ranging from 2 to 8. The graph displays a single slant line starting from (0,0). The line passes through a point marked with a filled dot at (1,8). The point is labeled as parenthesis open 1 comma 8 parenthesis closed.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d71d84e5e57a1c5ecffbb46921a07bb857f87611.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$x$ | $y$  :-: | :-:  $2$ | $16$ $3$ | $24$ $6$ | $48$  In this table, every $\\maroonD{y}$-value is $8$ times its corresponding $\\greenD{x}$-value.  The constant of proportionality for this table is $8$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$x$ | $y$  :-: | :-:  $5$ | $30$ $9$ | $72$ $10$ | $8$  In this table, $\\maroonD{72}$ is $8$ times $\\greenD{9}$, but $\\maroonD{30}$ is *not* $8$ times $\\greenD{5}$.  This relationship is not proportional, so there is no constant of proportionality.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "These are the relationships that have the same constant of proportionality between $y$ and $x$ as the given table:  $3y=24x$  [[☃ image 1]]  $x$ | $y$  :-: | :-:  $2$ | $16$ $3$ | $24$ $6$ | $48$",
+                                    "images": [
+                                        {
+                                            "alt": "A graph on a Cartesian coordinate system with x and y-axes. The x-axis is marked with evenly spaced ticks in increments of 2, ranging from 2 to 4. The y-axis is marked with evenly spaced ticks in increments of 2, ranging from 2 to 8. The graph displays a single slant line starting from (0,0). The line passes through a point marked with a filled dot at (1,8).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/797f20ddb3c41b5bf12993eb2181338db9d4ee96.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "c of p language"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which relationships have the same constant of proportionality between $y$ and $x$ as the equation $y=\\dfrac{5}{2}x$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$5y=2x$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$8y=20x$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": true,
+                                        "images": [
+                                            {
+                                                "alt": "A graph on a Cartesian coordinate system with x and y-axes. The axes are marked with evenly spaced ticks in increments of 2, ranging from 2 to 6. The graph displays a single slant line starting from (0,0). The line passes through a point marked with a filled dot at (2,5).",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/f868b9e5fb1c96c6830749d704a22eb1ad42dacc.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "![A graph on a Cartesian coordinate system with x and y-axes. The axes are marked with evenly spaced ticks in increments of 2, ranging from 2 to 6. The graph displays a single slant line starting from (0,0). The line passes through a point marked with a filled dot at (2,5).\n](web+graphie://cdn.kastatic.org/ka-perseus-graphie/aa8a577b13ca5b0db2bbe9a838ef6e8d7e891fdb)",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x$ | $y$ \n:-: | :-: \n$1$ | $2\\dfrac{1}{2}$\n$4$ | $10$\n$7$ | $17\\dfrac{1}{2}$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The equation $y=\\dfrac{5}{2}x$ has a **constant of proportionality** equal to $\\dfrac{5}{2}$.  This  means that all $y$-values in this relationship are $\\dfrac{5}{2}$ of the $x$-value.  Which other relationships have the same constant of proportionality?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's pick an $\\greenD{x}$-value and the $\\maroonD{y}$-value that works with the equation.  Suppose we picked the value $\\greenD{x}=\\greenD{4}$. That means that $\\maroonD{y}=\\dfrac{5}{2}\\cdot \\greenD{4}=\\maroonD{10}$.  Let's see whether that's true for the equation $5\\maroonD{y}=2\\greenD{x}$.  $5\\cdot \\maroonD{10}\\neq2\\cdot \\greenD{4}$  The equation *does not* have the same constant of proportionality.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's try the pair $\\greenD{x}=\\greenD{4}$ and $\\maroonD{y}=\\maroonD{10}$ in the equation $8\\maroonD{y}=20\\greenD{x}$, too. Does that pair of values make the equation true?  $8\\cdot \\maroonD{10}\\stackrel{\\checkmark}{=}20\\cdot \\greenD{4}$  The equation $8\\maroonD{y}=20\\greenD{x}$ has the same constant of proportionality as the original equation.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "[[☃ image 1]]  Let's pick a point on the line to figure out the constant of proportionality. For the point $(\\greenD{2},\\maroonD{5})$, the $\\maroonD{y}$-value is $\\dfrac{5}{2}$ of the $\\greenD{x}$-value. The other points have the same relationship.  This graph has a constant of proportionality of $\\dfrac{5}{2}$.",
+                                    "images": [
+                                        {
+                                            "alt": "A graph on a Cartesian coordinate system with x and y-axes. The axes are marked with evenly spaced ticks in increments of 2, ranging from 2 to 6. The graph displays a single slant line starting from (0,0). The line passes through a point marked with a filled dot at (2,5). ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/8c0d6cf5e577fa77b9ae8b85856af6fba6f1f4e2.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "[[☃ image 1]]  Let's pick a point from this graph, too. For the point $(\\greenD{5},\\maroonD{2})$, the $\\maroonD{y}$-value is $\\dfrac25$ times the $\\greenD{x}$-value, not $\\dfrac52$.   The graph *does not* have the same constant of proportionality.",
+                                    "images": [
+                                        {
+                                            "alt": "A graph on a Cartesian coordinate system with x and y-axes. The axes are marked with evenly spaced ticks in increments of 2, ranging from 2 to 6. The graph displays a single slant line starting from (0,0) with an arrowhead at its end. The line passes through a point marked with a filled dot at (5,2). The point is labeled as parenthesis open 5 comma 2 parenthesis closed.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/ffef87c70bdff7c0be1971dea731a8db0225eab5.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$x$ | $y$  :-: | :-:  $1$ | $2\\dfrac{1}{2}$ $4$ | $10$ $7$ | $17\\dfrac{1}{2}$  In this table, every $\\maroonD{y}$-value is $2\\dfrac{1}{2}$ times its corresponding $\\greenD{x}$-value.   Since $2\\dfrac{1}{2}=\\dfrac{5}{2}$, the constant of proportionality for this table is also $\\dfrac{5}{2}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "These are the relationships that have the same constant of proportionality between $y$ and $x$ as the equation $y=\\dfrac{5}{2}x$:  $8y=20x$  [[☃ image 1]]  $x$ | $y$  :-: | :-:  $1$ | $2\\dfrac{1}{2}$ $4$ | $10$ $7$ | $17\\dfrac{1}{2}$",
+                                    "images": [
+                                        {
+                                            "alt": "A graph on a Cartesian coordinate system with x and y-axes. The axes are marked with evenly spaced ticks in increments of 2, ranging from 2 to 6. The graph displays a single slant line starting from (0,0) with an arrowhead at its end. The line passes through a point marked with a filled dot at (5,2).\n\n",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/f868b9e5fb1c96c6830749d704a22eb1ad42dacc.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "c of p language"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which relationships have the same constant of proportionality between $y$ and $x$ as the following graph?**",
+                                "images": [
+                                    {
+                                        "alt": "A graph on a Cartesian coordinate system with x and y-axes. The axes are marked with evenly spaced ticks in increments of 2, ranging from 2 to 8. The graph displays a single slant line starting from (0,0) with an arrowhead at its end. The line passes through a point marked with a filled dot at (8,2).",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/ccdb0dc3dbca1e3412f7f69fa377d16e449dd5fc.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$y=0.25x$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$y=8.2x$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": true,
+                                        "images": [
+                                            {
+                                                "alt": "A graph on a Cartesian coordinate system with x and y-axes. The axes are marked with evenly spaced ticks in increments of 2, ranging from 2 to 6. The graph displays a single slant line starting from (0,0) with an arrowhead at its end. The line passes through a point marked with a filled dot at (4,1).",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/031ed927c32b441e4fb53abe65ef47feb3c8b5df.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "$x$ | $y$ \n:-: | :-: \n$3$ | $12$\n$4$ | $16$\n$5$ | $20$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$x$ | $y$ \n:-: | :-: \n$6$ | $1.5$\n$7$ | $1.75$\n$8$ | $2$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The given graph has a **constant of proportionality** equal to $0.25$.  This  means that all $y$-values in this relationship are $0.25$ times the $x$-value.  Which other relationships have the same constant of proportionality?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's pick a point from the given graph and get its $\\greenD{x}$- and $\\maroonD{y}$-values. We can use the point $(\\greenD{8},\\maroonD{2})$.  Let's see whether that pair makes the equation $\\maroonD{y}=0.25\\greenD{x}$ true.  $\\maroonD{2}\\stackrel{\\checkmark}{=}0.25\\cdot \\greenD{8}$  The equation has the same constant of proportionality as the given graph.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's try the point $(\\greenD{8},\\maroonD{2})$ in the equation $\\maroonD{y}=8.2\\greenD{x}$, too. Does that pair of values make the equation true?  $\\maroonD{2}\\neq8.2\\cdot \\greenD{8}$  The equation $\\maroonD{y}=8.2\\greenD{x}$ *does not* have the same constant of proportionality as the graph.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "[[☃ image 1]]  Let's pick a point on the line to figure out the constant of proportionality. For the point $(\\greenD{4},\\maroonD{1})$, the $\\maroonD{y}$-value is $0.25$ times the $\\greenD{x}$-value. The other points follow this pattern, too.  This graph has a constant of proportionality of $0.25$.",
+                                    "images": [
+                                        {
+                                            "alt": "A graph on a Cartesian coordinate system with x and y-axes. The axes are marked with evenly spaced ticks in increments of 2, ranging from 2 to 8. The graph displays a single slant line starting from (0,0) with an arrowhead at its end. The line passes through a point marked with a filled dot at (8,2). The point is labeled as parenthesis open 8 comma 2 parenthesis closed.\n",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/e500061008c6b938805c361fd6b614dec83d463e.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$x$ | $y$  :-: | :-:  $3$ | $12$ $4$ | $16$ $5$ | $20$  In this table, all the $\\maroonD{y}$-values are $4$ times the $\\greenD{x}$-values.  The constant of proportionality for this table is $4$ instead of $0.25$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$x$ | $y$  :-: | :-:  $6$ | $1.5$ $7$ | $1.75$ $8$ | $2$  In this table, every $\\maroonD{y}$-value is $0.25$ times its corresponding $\\greenD{x}$-value.  The constant of proportionality for this table is $0.25$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "These are the relationships that have the same constant of proportionality between $y$ and $x$ as the given graph:  $y=0.25x$  [[☃ image 1]]  $x$ | $y$  :-: | :-:  $6$ | $1.5$ $7$ | $1.75$ $8$ | $2$",
+                                    "images": [
+                                        {
+                                            "alt": "A graph on a Cartesian coordinate system with x and y-axes. The axes are marked with evenly spaced ticks in increments of 2, ranging from 2 to 6. The graph displays a single slant line starting from (0,0) with an arrowhead at its end. The line passes through a point marked with a filled dot at (4,1).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/031ed927c32b441e4fb53abe65ef47feb3c8b5df.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "c of p language"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Select the store with the least expensive ice cream per scoop.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Store A calculates the total price $D$ in dollars of ice cream with $S$ scoops using the equation $D=0.75S$.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "|| **Store B** ||\nScoops, $S$ | Dollars, $D$ \n:-: | :-: \n$3$ | $3$ \n$8$ | $8$\n$12$ | $12$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A graph on a Cartesian coordinate system with x and y-axes. The graph is labeled as Store C. The axes are marked with evenly spaced ticks in increments of 2, ranging from 2 to 8. The x-axis is labeled as Scoops and the y-axis is labeled as $. The graph displays a single slant line starting from (0,0) with an arrowhead at its end. The line is in the middle of the graph closer to the y-axis.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/fd2ad49e39815868974a484f774ce18a6646c677.svg"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's compare the **constants of proportionality** (also called the **unit rates**) for each option to see which has the lowest price for $1$ scoop of ice cream.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Store A calculates the total price $D$ in dollars of ice cream with $S$ scoops using the equation $D=0.75S$.  The price is $\\purpleD{0.75}$ times the number of scoops. The unit rate at store A is $\\purpleD{0.75}$ dollars per scoop.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "|| **Store B** || Scoops, $S$ | Dollars, $D$  :-: | :-:  $3$ | $3$  $8$ | $8$ $12$ | $12$  The price is $\\blueD{1}$ times the number of scoops. The unit rate at store B is $\\blueD{1}$ dollar per scoop.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "[[☃ image 1]]  We can select a point on the graph to help us find the unit rate. It costs $\\$6$ for $4$ scoops of ice cream at store C.  The price is $\\greenD{1.5}$ times the number of scoops. The unit rate at store C is $\\greenD{1.50}$ dollars per scoop.",
+                                    "images": [
+                                        {
+                                            "alt": "A graph on a Cartesian coordinate system with x and y-axes. The graph is labeled as Store C. The axes are marked with evenly spaced ticks in increments of 2, ranging from 2 to 8. The x-axis is labeled as Scoops and the y-axis is labeled as $. The graph displays a single slant line starting from (0,0) with an arrowhead at its end. The line passes through a point marked with a filled dot at (4,6). The point is labeled as parenthesis open 4 comma 6 parenthesis closed.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/fa5ad6651a89051c1f88dea4f13c66e181962ea3.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Store A has the lowest unit rate per scoop, so store A has the least expensive ice cream per scoop.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "context"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Select the student who reads the fastest (greatest number of words per minute).**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Tamar reads $600$ words in $5$  minutes.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "|| **Levi** ||\nMinutes | Words read\n:-:| :-:\n$2$ | $280$ \n$4$ | $560$ \n$6$| $840$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": true,
+                                        "images": [
+                                            {
+                                                "alt": "A first quadrant coordinate plane labeled Ariel. The horizontal axis is from zero to 6 with a scale of 1 and is titled Minutes. The vertical axis is from zero to 8 hundred with a scale of 50 and is titled words. A graph of a line intersects the points (0, 0) and (4, 600).",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/9d38473f8f751b886836062d5394bbf610a71114.svg"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's compare the **constants of proportionality** (also called the **unit rates**) for each option to see which student reads the most words in $1$ minute.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Tamar reads $600$ words in $5$  minutes.  The number of words is $\\purpleD{120}$ times the number of minutes. The unit rate for Tamar is $\\purpleD{120}$ words per minute.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "|| **Levi** || Minutes | Words read :-:| :-: $2$ | $280$  $4$ | $560$  $6$| $840$  The number of words read is $\\blueD{140}$ times the number of minutes. The unit rate for Levi is $\\blueD{140}$ words per minute.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "[[☃ image 1]]  We can select a point on the graph to help us find the unit rate. Ariel reads $300$ words in $2$ minutes.  The number of words is $\\greenD{150}$ times the number of minutes. The unit rate for Ariel is $\\greenD{150}$ words per minute.",
+                                    "images": [
+                                        {
+                                            "alt": "A first quadrant coordinate plane labeled Ariel. The horizontal axis is from zero to 6 with a scale of 1 and is titled Minutes. The vertical axis is from zero to 8 hundred with a scale of 50 and is titled words. A graph of a line intersects the points (0, 0) and (4, 600). A point on the line is labeled (2, 300).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/bc3a16f93b6e53ecce96bc4f6ab5de7d4e131f0b.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Ariel has the greatest unit rate per minute, so Ariel reads the fastest.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "context"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Cars A, B, and C are travelling at constant speeds.  **Select the car that travels the fastest.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A traffic sign labeled Car A says 50 kilometers per hour.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/09b6b2295abf1b0b051b2b6033e7cb8898009d77.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "Car B travels a distance of $d$ kilometers in $h$ hours, based on the equation $55h=d$.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Car C travels $135$ kilometers in $3$ hours.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's compare the **constants of proportionality** (also called the **unit rates**) for each option to see which car travels the most kilometers in $1$ hour.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "[[☃ image 1]]  The unit rate for car A is $\\purpleD{50}$ kilometers per hour.",
+                                    "images": [
+                                        {
+                                            "alt": "A traffic sign labeled Car A says 50 kilometers per hour.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/09b6b2295abf1b0b051b2b6033e7cb8898009d77.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Car B travels a distance of $d$ kilometers in $h$ hours, based on the equation $55h=d$.  The number of kilometers is $\\blueD{55}$ times the number of hours. The unit rate for car B is $\\blueD{55}$ kilometers per hour.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Car C travels $135$ kilometers in $3$ hours.  The number of kilometers is $\\greenD{45}$ times the number of hours. The unit rate for car C is $\\greenD{45}$ kilometers per hour.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Car B travels the most kilometers per hour, so car B is the traveling the fastest.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "context"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Select the car that has the best fuel efficiency (greatest number of kilometers per liter of gasoline).**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A graph on a Cartesian coordinate system with x and y-axes. The graph is labeled as Car A. The x-axis is labeled as L and marked with evenly spaced ticks in increments of 2, ranging from 2 to 4. The y-axis is labeled as km and marked with evenly spaced ticks in increments of 20, ranging from 20 to 60. The graph displays a single slant line starting from (0,0) with an arrowhead at its end. The line is in the middle of the graph towards the x-axis but away from it.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/61887a1b9696c0742220fe04c09eedf21f1e950a.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "Car B uses $10$ liters to travel $110$ kilometers.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "|| **Car C** ||\nKilometers | Liters\n:-: | :-: \n$48$|$4$\n$60$|$5$\n$72$|$6$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's compare the **constants of proportionality** (also called the **unit rates**) for each option to see which car travels the most kilometers using $1$ liter of gasoline.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "[[☃ image 1]]  We can select a point on the graph to help us find the unit rate. It takes car A $4$ liters of gasoline to drive $40$ kilometers.  The number of kilometers is $\\purpleD{10}$ times the number of liters. The unit rate for car A is $\\purpleD{10}$ kilometers per liter.",
+                                    "images": [
+                                        {
+                                            "alt": "A graph on a Cartesian coordinate system with x and y-axes. The graph is labeled as Car A. The x-axis is labeled as L and marked with evenly spaced ticks in increments of 2, ranging from 2 to 4. The y-axis is labeled km and marked with evenly spaced ticks in increments of 20, ranging from 20 to 60. The graph displays a single slant line starting from (0,0) with an arrowhead at its end. The line passes through a point marked with a filled dot at (4,40). The point is labeled as parenthesis open 4 comma 40 parenthesis closed.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/f5151e72f8c70d16e5b0f04daf28663acd9f4dc7.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Car B uses $10$ liters to travel $110$ kilometers.  The number of kilometers is $\\blueD{11}$ times the number of liters. The unit rate for car B is $\\blueD{11}$ kilometers per liter.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "|| **Car C** || Kilometers | Liters :-: | :-:  $48$|$4$ $60$|$5$ $72$|$6$  The number of kilometers is $\\greenD{12}$ times the number of liters. The unit rate for car C is $\\greenD{12}$ kilometers per liters.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Car C travels the most kilometers per liter, so car C has the best fuel efficiency.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "context"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Select the brand with the least expensive corn per ounce.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "|| **Brand A** ||\nOunces | Price\n:-: | :-:\n$18$ | $\\$1.50$\n$36$ | $\\$3.00$\n$54$ | $\\$4.50$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": true,
+                                        "images": [
+                                            {
+                                                "alt": "A can of corn labeled, Brand B, that costs 0 dollars and 75 cents for 15 ounces.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/e416d45a864727dfea6fa7887148d0c5344564c6.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "Maia buys an $11$ ounce can of brand C corn for $\\$2.20$.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's compare the **constants of proportionality** (also called the **unit rates**) for each option to see which brand costs the least for $1$ ounce of corn.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "|| **Brand A** || Ounces | Price :-: | :-: $18$ | $\\$1.50$ $36$ | $\\$3.00$ $54$ | $\\$4.50$  The price is $\\purpleD{0.08\\overline{3}}$ times the number of ounces. The unit rate for brand A is $\\purpleD{0.08\\overline{3}}$ dollars per ounce.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "[[☃ image 1]]  The price is $\\blueD{0.05}$ times the number of ounces. The unit rate for brand B is $\\blueD{0.05}$ dollars per ounce.",
+                                    "images": [
+                                        {
+                                            "alt": "A can of corn labeled, Brand B, that costs 0 dollars and 75 cents for 15 ounces.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/e416d45a864727dfea6fa7887148d0c5344564c6.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Maia buys an $11$ ounce can of brand C corn for $\\$2.20$.  The price is $\\greenD{0.20}$ times the number of ounces. The unit rate for brand C is $\\greenD{0.20}$ dollars per ounce.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Brand B has the lowest price per ounce of corn, so brand B has the least expensive corn per ounce.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "context"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Ernest compares three recipes for pizza dough.  **Select the recipe with the greatest amount of flour per serving.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "|| **Recipe A (14 servings)** ||\nIngredient | Amount\n:-: | :-:\nYeast | $2 \\dfrac{1}{4}$ teaspoons\nFlour | $28$ ounces\nWater | $2 \\dfrac{1}{4}$ cups\n$\\ldots$ | $\\ldots$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Recipe B uses $9$ ounces of flour to make $12$ servings of dough.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Recipe C gives the amount $f$ of flour, in ounces, to make $s$ servings according to the equation $f=1.3s$.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's compare the **constants of proportionality** (also called the **unit rates**) for each option to see which recipe uses the most flour for $1$ serving.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "|| **Recipe A (14 servings)** || Ingredient | Amount :-: | :-: Yeast | $2 \\dfrac{1}{4}$ teaspoons Flour | $28$ ounces Water | $2 \\dfrac{1}{4}$ cups $\\ldots$ | $\\ldots$  The number of ounces of flour is $\\purpleD{2}$ times the number of servings. The unit rate for recipe A is $\\purpleD{2}$ ounces per serving.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Recipe B uses $9$ ounces of flour to make $12$ servings of dough.  The number of ounces of flour is $\\blueD{0.75}$ times the number of servings. The unit rate for recipe B is $\\blueD{0.75}$ ounces per serving.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Recipe C gives the amount $f$ of flour, in ounces, to make $s$ servings according to the equation $f=1.3s$.  The number of ounces of flour is $\\greenD{1.3}$ times the number of servings. The unit rate for recipe C is $\\greenD{1.3}$ ounces per serving.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Recipe A uses the most flour per serving.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "context"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Select the employee who earns the most per hour.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Ares calculates the total amount $E$, in dollars, that he earns for working $h$ hours using the equation $E=8.75h$.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "![A graph on a Cartesian coordinate system with x and y-axes. The graph is labeled as Giorgio. The x-axis is labeled as hours and marked with evenly spaced ticks in increments of 2, ranging from 2 to 4. The y-axis is labeled as dollars and marked with evenly spaced ticks in increments of 16, ranging from 16 to 64. The graph displays a single slant line starting from (0,0) with an arrowhead at its end. The line passes through a point marked with a filled dot at (4,48).\n](web+graphie://cdn.kastatic.org/ka-perseus-graphie/83565b2a2c4cb362aa59b57b3d0e79668a875223)",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "|| **Reyna** ||\nHours | Total earned\n:-:| :-:\n$3$ | $\\$28.50$ \n$8$ | $\\$76$ \n$40$| $\\$380$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's compare the **constants of proportionality** (also called the **unit rates**) for each option to see which employee earns the most for working $1$ hour.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Ares calculates the total amount $E$, in dollars, that he earns for working $h$ hours using the equation $E=8.75h$.  The total amount earned is $\\purpleD{8.75}$ times the number of hours. The unit rate for Ares is $\\purpleD{8.75}$ dollars per hour.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "[[☃ image 1]]  We can select a point on the graph to help us find the unit rate. Giorgio earns a total of $\\$48$ for working $4$ hours.  The total amount earned is $\\blueD{12}$ times the number of hours. The unit rate for Giorgio is $\\blueD{12}$ dollars per hour.",
+                                    "images": [
+                                        {
+                                            "alt": "A graph on a Cartesian coordinate system with x and y-axes. The graph is labeled as Giorgio. The x-axis is labeled as hours and marked with evenly spaced ticks in increments of 2, ranging from 2 to 4. The y-axis is labeled as dollars and marked with evenly spaced ticks in increments of 16, ranging from 16 to 64. The graph displays a single slant line starting from (0,0) with an arrowhead at its end. The line passes through a point marked with a filled dot at (4,48). ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/fd84cee4fedc99d57b6187ebe9fb59faf22479bb.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "|| **Reyna** || Hours | Total earned :-:| :-: $3$ | $\\$28.50$  $8$ | $\\$76$  $40$| $\\$380$  The total amount earned is $\\greenD{9.5}$ times the number of hours. The unit rate for Reyna is $\\greenD{9.50}$ dollars per hour.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Giorgio has the highest unit rate per hour, so Giorgio earns the most per hour.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "context"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Evelyn, Neil, and Leilani swim laps at constant rates.  **Select the swimmer who swims the fastest.**   *Remember, the fastest swimmer swims laps in the shortest amount of time.*",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Evelyn swims $4$ laps in $216$ seconds.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Neil calculates the number $L$ of laps he swims in $S$ seconds using the equation $126L=3S$.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": true,
+                                        "images": [
+                                            {
+                                                "alt": "A stopwatch shows that lap 1 took 0 minutes and 32 seconds. The stopwatch is labeled, Leilani.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/a0e7d2417cef50c10f0a853c3a6324a41af01483.svg"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's compare the **constants of proportionality** (also called the **unit rates**) for each option to see which swimmer uses the fewest seconds to swim $1$ lap.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Evelyn swims $4$ laps in $216$ seconds.  The number of seconds is $\\purpleD{54}$ times the number of laps. The unit rate for Evelyn is $\\purpleD{54}$ seconds per lap.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Neil calculates the number $L$ of laps he swims in $S$ seconds using the equation $126L=3S$.  Since we are interested in the number of seconds it takes Neil to swim $1$ lap, let's substitute in $L=1$ and solve for $S$.  $\\begin{align} 126\\cdot 1&=3S\\\\\\\\ 126&=3S\\\\\\\\ \\dfrac{126}{3}&=\\dfrac{\\cancel{3}S}{\\cancel{3}}\\\\\\\\ 42&=S \\end{align}$  It takes Neil $42$ seconds to swim $1$ lap. The unit rate for Neil is $\\blueD{42}$ seconds per lap.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The unit rate for Leilani is $\\greenD{32}$ seconds per lap.",
+                                    "images": [
+                                        {
+                                            "alt": "A stopwatch shows that lap 1 took 0 minutes and 32 seconds. The stopwatch is labeled, Leilani.",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/a0e7d2417cef50c10f0a853c3a6324a41af01483.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Leilani has the lowest unit rate per lap, so Leilani swims the fastest.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "context"
+                    }
+                }
+            }
+        }
+    ]
+}

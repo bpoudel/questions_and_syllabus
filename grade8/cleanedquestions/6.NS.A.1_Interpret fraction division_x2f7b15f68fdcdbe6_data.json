@@ -1,0 +1,680 @@
+{
+    "standard_metadata": {
+        "standard_id": "6.NS.A.1",
+        "standard_description": "Interpret and compute quotients of fractions, and solve word problems involving division of fractions by fractions, e.g., by using visual fraction models and equations to represent the problem.",
+        "standard_title": "Interpret fraction division",
+        "standard_url": "https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-arithmetic-operations/cc-6th-dividing-fractions/e/interpret-fraction-division"
+    },
+    "id": "x2f7b15f68fdcdbe6",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Iekika is $\\dfrac{3}{2}\\,\\text{m}$ tall, which is $\\dfrac{4}{5}$ as tall as Shanika.  **What does $\\dfrac{3}{2} \\div \\dfrac{4}{5}$ represent in this situation?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$\\dfrac{4}{5}$ of Iekika's height",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{3}{2}$ of Shanika's height",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Shanika's height",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Iekika's height",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Meanings of multiplication and division  There are three common meanings of multiplication.  $\\begin{align} \\text{(number of groups)} \\times \\text{(size of group)} &= \\text{total}\\\\\\\\ \\text{(original value)} \\times \\text{(comparison factor)} &= \\text{(new value)}\\\\\\\\ \\text{base} \\times \\text{height} &= \\text{(rectangular area)} \\end{align}$  Which of these meanings makes sense for our context? Which value fills each role?  Once we have a multiplication equation that represents the situation, we can rewrite it as an equivalent division equation. Then we'll know the meaning of the quotient.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Multiplication equation  Iekika is $\\maroonD{\\dfrac{4}{5}}$ as tall as Shanika, so $\\maroonD{\\dfrac{4}{5}}$ is a comparison factor.  We are comparing to Shanika, so Shanika's height is the original measurement. Iekika's height, $\\purpleD{\\dfrac{3}{2}\\,\\text{m}}$, is the new measurement.  $\\begin{align} \\blueE{\\text{(original value)}} \\times \\maroonD{\\text{(comparison factor)}} &= \\purpleD{\\text{(new value)}}\\\\\\\\ \\blueE{\\text{(Shanika's height)}} \\times \\maroonD{\\text{(comparison factor)}} &= \\purpleD{\\text{(Iekika's height)}}\\\\\\\\ \\blueE{\\text{(Shanika's height)}} \\times \\maroonD{\\dfrac{4}{5}} &= \\purpleD{\\dfrac{3}{2}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Division equation  Let's rewrite the multiplication equation as an equivalent division equation.  $\\blueE{\\text{(Shanika's height)}} = \\purpleD{\\dfrac{3}{2}} \\div \\maroonD{\\dfrac{4}{5}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Conclusion  So the expression $\\purpleD{\\dfrac{3}{2}} \\div \\maroonD{\\dfrac{4}{5}}$ represents Shanika's height.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Ask 1 meaning"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Kakalina's class painted a  to honor their ancestors. The mural covers a $12\\dfrac{1}{8}\\,\\text{m}$ long, rectangular wall. It has an area of $36\\dfrac{3}{8}\\,\\text{m}^2$.  **What does $36\\dfrac{3}{8} \\div 12\\dfrac{1}{8}$ represent in this situation?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "The height of the mural",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The fraction of the wall covered by the mural",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The length of the mural",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The volume of paint per square meter of the mural",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Meanings of multiplication and division  There are three common meanings of multiplication.  $\\begin{align} \\text{(number of groups)} \\times \\text{(size of group)} &= \\text{total}\\\\\\\\ \\text{(original value)} \\times \\text{(comparison factor)} &= \\text{(new value)}\\\\\\\\ \\text{base} \\times \\text{height} &= \\text{(rectangular area)} \\end{align}$  Which of these meanings makes sense for our context? Which value fills each role?  Once we have a multiplication equation that represents the situation, we can rewrite it as an equivalent division equation. Then we'll know the meaning of the quotient.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Multiplication equation  The mural has an area of $\\purpleD{36\\dfrac{3}{8}\\,\\text{m}^2}$. The base of the mural is $\\blueE{12\\dfrac{1}{8}\\,\\text{m}}$ long, like the wall it covers. The height, in meters, of the mural is unknown.  $\\begin{align} \\blueE{\\text{base}} \\times \\maroonD{\\text{height}} &= \\purpleD{\\text{(rectangular area)}}\\\\\\\\ \\blueE{\\text{(mural length)}} \\times \\maroonD{\\text{(mural height)}} &= \\purpleD{\\text{(mural area)}}\\\\\\\\ \\blueE{12\\dfrac{1}{8}} \\times \\maroonD{\\text{(mural height)}} &= \\purpleD{36\\dfrac{3}{8}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Division equation  Let's rewrite the multiplication equation as an equivalent division equation.  $\\maroonD{\\text{(mural height)}} = \\purpleD{36\\dfrac{3}{8}} \\div \\blueE{12\\dfrac{1}{8}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Conclusion  So the expression $\\purpleD{36\\dfrac{3}{8}} \\div \\blueE{12\\dfrac{1}{8}}$ represents the height of the mural.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Ask 1 meaning"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Jamaar helped in the community garden for $\\dfrac{21}{10}$ hours this week. That was $2\\dfrac{4}{5}$ equal-length shifts, because Jamaar stopped early one day when it started to rain.  **What does $\\dfrac{21}{10} \\div 2\\dfrac{4}{5}$ represent in this situation?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "The length of each shift",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The fraction of a shift Jamaar helped on the day it rained",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The number of shifts per hour",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The fraction of the week that Jamaar spent in the garden",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Meanings of multiplication and division  There are three common meanings of multiplication.  $\\begin{align} \\text{(number of groups)} \\times \\text{(size of group)} &= \\text{total}\\\\\\\\ \\text{(original value)} \\times \\text{(comparison factor)} &= \\text{(new value)}\\\\\\\\ \\text{base} \\times \\text{height} &= \\text{(rectangular area)} \\end{align}$  Which of these meanings makes sense for our context? Which value fills each role?  Once we have a multiplication equation that represents the situation, we can rewrite it as an equivalent division equation. Then we'll know the meaning of the quotient.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Multiplication equation  Jamaar helped for a total of $\\purpleD{\\dfrac{21}{10}}$ hours. Jamaar helped for $\\blueE{2\\dfrac{3}{4}}$ shifts, and each shift is a group of hours. The group size, the number of hours per shift, is unknown.  $\\begin{align} \\blueE{\\text{(number of groups)}} \\times \\maroonD{\\text{(size of group)}} &= \\purpleD{\\text{total}}\\\\\\\\ \\blueE{\\text{(number of shifts)}} \\times \\maroonD{\\text{(hours per shift)}} &= \\purpleD{\\text{total hours}}\\\\\\\\ \\blueE{2\\dfrac{3}{4}} \\times \\maroonD{\\text{(hours per shift)}} &= \\purpleD{\\dfrac{21}{10}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Division equation  Let's rewrite the multiplication equation as an equivalent division equation.  $\\maroonD{\\text{(hours per shift)}} = \\purpleD{\\dfrac{21}{10}} \\div \\blueE{2\\dfrac{3}{4}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Conclusion  So the expression $\\purpleD{\\dfrac{21}{10}} \\div \\blueE{2\\dfrac{3}{4}}$ represents the length of each shift.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Ask 1 meaning"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A restaurant has $5\\dfrac{3}{8}$ pitchers of .  Jada said $5\\dfrac{3}{8} \\div 1\\dfrac{1}{8}$ could represent the number of total servings if there are $1\\dfrac{1}{8}$ servings per pitcher.  Latanya said $5\\dfrac{3}{8} \\div 1\\dfrac{1}{8}$ could represent the average number of pitchers the restaurant serves per day if it takes $1\\dfrac{1}{8}$ days to serve all of the horchata.  **Whose interpretation makes sense in this context?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Jada's only",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Latanya's only",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Both Jada's and Latanya's",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Meanings of multiplication and division  There are three common meanings of multiplication.  $\\begin{align} \\text{(number of groups)} \\times \\text{(size of group)} &= \\text{total}\\\\\\\\ \\text{(original value)} \\times \\text{(comparison factor)} &= \\text{(new value)}\\\\\\\\ \\text{base} \\times \\text{height} &= \\text{(rectangular area)} \\end{align}$  Let's decide which meaning each person used. Then we can rewrite the equation in division form. Finally, we can fill in the known numbers to see whether each expression makes sense.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Jada's interpretation  Jada says the group size is $\\maroonD{1\\dfrac{1}{8}}$ servings per pitcher. Each pitcher is a group of servings, so there are $\\blueE{5\\dfrac{3}{8}}$ groups. There is an unknown total.  $\\begin{align} \\blueE{\\text{(number of groups)}} \\times \\maroonD{\\text{(size of group)}} &= \\purpleD{\\text{total}}\\\\\\\\ \\blueE{\\text{(number of pitchers)}} \\times \\maroonD{\\text{(servings per pitcher)}} &= \\purpleD{\\text{total servings}}\\\\\\\\ \\blueE{5\\dfrac{3}{8}} \\times \\maroonD{1\\dfrac{1}{8}} &= \\purpleD{\\text{total servings}} \\end{align}$  Jada should have said that $\\blueE{5\\dfrac{3}{8}} \\times \\maroonD{1\\dfrac{1}{8}}$ could represent the number of total servings, but she used division instead.  No, Jada's interpretation *does not* make sense in this context.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Latanya's interpretation  Latanya says the restaurant uses a total of $\\purpleD{5\\dfrac{3}{8}}$ pitchers. Each day the restaurant uses a group of pitchers, so there are $\\blueE{1\\dfrac{1}{8}}$ groups. There is an unknown group size (the number of pitchers per day).  $\\begin{align} \\blueE{\\text{(number of groups)}} \\times \\maroonD{\\text{(size of group)}} &= \\purpleD{\\text{total}}\\\\\\\\ \\blueE{\\text{(number of days)}} \\times \\maroonD{\\text{(pitchers per day)}} &= \\purpleD{\\text{total pitchers}}\\\\\\\\ \\blueE{1\\dfrac{1}{8}} \\times \\maroonD{\\text{(pitchers per day)}} &= \\purpleD{5\\dfrac{3}{8}} \\end{align}$  We can rewrite as an equivalent division equation.  $\\purpleD{5\\dfrac{3}{8}} \\div \\blueE{1\\dfrac{1}{8}} = \\maroonD{\\text{(pitchers per day)}}$  Yes, Latanya's interpretation *does* make sense in this context.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Conclusion  Only Latanya's interpretation makes sense in this context.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Ask 2 meanings"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "An electrician plans to install solar panels on a rectangular section of roof with an area of $69\\,\\text{m}^2$.  Tyriq said $69 \\div 7\\dfrac{1}{10}$ could represent the length of the section if the section is $7\\dfrac{1}{10}\\,\\text{m}$ across.  Corbin said $69 \\div 7\\dfrac{1}{10}$ could represent the number of solar panels that would fit if each panel was $7\\dfrac{1}{10}\\,\\text{m}$ long.  **Whose interpretation makes sense in this context?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Tyriq's only",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Corbin's only",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Both Tyriq's and Corbin's",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Meanings of multiplication and division  There are three common meanings of multiplication.  $\\begin{align} \\text{(number of groups)} \\times \\text{(size of group)} &= \\text{total}\\\\\\\\ \\text{(original value)} \\times \\text{(comparison factor)} &= \\text{(new value)}\\\\\\\\ \\text{base} \\times \\text{height} &= \\text{(rectangular area)} \\end{align}$  Let's decide which meaning each person used. Then we can rewrite the equation in division form. Finally, we can fill in the known numbers to see whether each expression makes sense.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Tyriq's interpretation  The section of roof has an area of $\\purpleD{69\\,\\text{m}^2}$. Tyriq says that the section is $\\blueE{7\\dfrac{1}{10}\\,\\text{m}}$ across. There is an unknown second side length, in meters.  $\\begin{align} \\blueE{\\text{base}} \\times \\maroonD{\\text{height}} &= \\purpleD{\\text{(rectangular area)}}\\\\\\\\ \\blueE{\\text{(distance across section)}} \\times \\maroonD{\\text{(length of section)}} &= \\purpleD{\\text{section area}}\\\\\\\\ \\blueE{7\\dfrac{1}{10}} \\times \\maroonD{\\text{(length of section)}} &= \\purpleD{69} \\end{align}$  We can rewrite as an equivalent division equation.  $\\purpleD{69} \\div \\blueE{7\\dfrac{1}{10}} = \\maroonD{\\text{(length of section)}}$  Yes, Tyriq's interpretation *does* make sense in this context.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Corbin's interpretation  Corbin is trying to find an unknown number of groups, the number of solar panels. Each solar panel is a group of lengths, $\\blueE{7\\dfrac{1}{10}\\,\\text{m}}$. However, Corbin uses the area $\\purpleD{69\\,\\text{m}^2}$ instead of the length of the section as the total.  Corbin should either have compared the *area* of each panel to the total area, or compared the *length* of each panel to the total length of the section.   Then the group numbers would be the maximum number of solar panels that *might* fit, because a fraction of a solar panel doesn't make sense in this context.  No, Corbin's interpretation *does not* make sense in this context.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Conclusion  Only Tyriq's interpretation makes sense in this context.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Ask 2 meanings"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A class collected $2{,}650\\,\\text{L}$ of materials to recycle.  Reginald said that $2{,}650 \\div 49\\dfrac{1}{10}$ could represent the volume of each bag if the class filled $49\\dfrac{1}{10}$ bags with material to recycle.  Peni said that $2{,}650 \\div 49\\dfrac{1}{10}$ could represent the number of containers the class filled if each container holds $49\\dfrac{1}{10}\\,\\text{L}$ of material.  **Whose interpretation makes sense in this context?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Reginald's only",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Peni's only",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Both Reginald's and Peni's",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Meanings of multiplication and division  There are three common meanings of multiplication.  $\\begin{align} \\text{(number of groups)} \\times \\text{(size of group)} &= \\text{total}\\\\\\\\ \\text{(original value)} \\times \\text{(comparison factor)} &= \\text{(new value)}\\\\\\\\ \\text{base} \\times \\text{height} &= \\text{(rectangular area)} \\end{align}$  Let's decide which meaning each person used. Then we can rewrite the equation in division form. Finally, we can fill in the known numbers to see whether each expression makes sense.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Reginald's interpretation  Reginald says the class collected a total of $\\purpleD{2{,}650\\,\\text{L}}$ of material. Each bag holds a group of liters, so there are $\\blueE{49\\dfrac{1}{10}}$ groups. There is an unknown group size (the number of liters per bag).  $\\begin{align} \\blueE{\\text{(number of groups)}} \\times \\maroonD{\\text{(size of group)}} &= \\purpleD{\\text{total}}\\\\\\\\ \\blueE{\\text{(number of bags)}} \\times \\maroonD{\\text{(liters per bag)}} &= \\purpleD{\\text{(total liters)}}\\\\\\\\ \\blueE{49\\dfrac{1}{10}} \\times \\maroonD{\\text{(liters per bag)}} &= \\purpleD{2{,}650} \\end{align}$  We can rewrite as an equivalent division equation.  $\\purpleD{2{,}650} \\div \\blueE{49\\dfrac{1}{10}} = \\maroonD{\\text{(liters per bag)}}$  Yes, Reginald's interpretation *does* make sense in this context.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Peni's interpretation  Peni says the class collected a total of $\\purpleD{2{,}650\\,\\text{L}}$ of material. Each container holds a group of liters, so the group size is $\\maroonD{49\\dfrac{1}{10}}$ liters per container. There is an unknown number of groups (the number of containers).  $\\begin{align} \\blueE{\\text{(number of groups)}} \\times \\maroonD{\\text{(size of group)}} &= \\purpleD{\\text{total}}\\\\\\\\ \\blueE{\\text{(number of containers)}} \\times \\maroonD{\\text{(liters per container)}} &= \\purpleD{\\text{(total liters)}}\\\\\\\\ \\blueE{\\text{(number of containers)}} \\times \\maroonD{49\\dfrac{1}{10}} &= \\purpleD{2{,}650} \\end{align}$  We can rewrite as an equivalent division equation.  $\\purpleD{2{,}650} \\div \\maroonD{49\\dfrac{1}{10}} = \\blueE{\\text{(number of containers)}}$  Yes, Peni's interpretation *does* make sense in this context.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Conclusion  Both Reginald's and Peni's interpretations make sense in this context.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Ask 2 meanings"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Kalani had a length of $3\\dfrac{1}{3}\\,\\text{m}$ of cloth and cut $2\\dfrac{5}{12}$ strips the full width of the cloth. Let $\\ell$ represent the length, in meters, of each whole strip.  **Select $1$ multiplication and $1$ division equation to represent the relationship.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$2\\dfrac{5}{12}\\times \\ell = 3\\dfrac{1}{3}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$3\\dfrac{1}{3}\\times \\ell = 2\\dfrac{5}{12}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$3\\dfrac{1}{3} \\div 2\\dfrac{5}{12} = \\ell$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$2\\dfrac{5}{12} \\div 3\\dfrac{1}{3} = \\ell$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Meanings of multiplication and division  There are three common meanings of multiplication.  $\\begin{align} \\text{(number of groups)} \\times \\text{(size of group)} &= \\text{total}\\\\\\\\ \\text{(original value)} \\times \\text{(comparison factor)} &= \\text{(new value)}\\\\\\\\ \\text{base} \\times \\text{height} &= \\text{(rectangular area)} \\end{align}$  Which of these meanings makes sense for our context? Which value or variable fills each role?  Once we have a multiplication equation that represents the situation, we can rewrite it as an equivalent division equation.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Multiplication equation  Kalani has a total length of $\\purpleD{3\\dfrac{1}{3}\\,\\text{m}}$ of cloth. Each strip is a group of meters, so there are $\\blueE{2\\dfrac{5}{12}}$ groups. There is an unknown group size of $\\maroonD{\\ell}$ meters per strip.  $\\begin{align} \\blueE{\\text{(number of groups)}} \\times \\maroonD{\\text{(size of group)}} &= \\purpleD{\\text{total}}\\\\\\\\ \\blueE{\\text{(number of strips)}} \\times \\maroonD{\\text{(length per strip)}} &= \\purpleD{\\text{(total length)}}\\\\\\\\ \\blueE{2\\dfrac{5}{12}} \\times \\maroonD{\\ell} &= \\purpleD{3\\dfrac{1}{3}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Division equations  We can rewrite the multiplication equation as two equivalent division equations.  $\\begin{align} \\purpleD{3\\dfrac{1}{3}} \\div \\blueE{2\\dfrac{5}{12}} &=\\maroonD{\\ell} \\\\\\\\ \\purpleD{3\\dfrac{1}{3}} \\div \\maroonD{\\ell} &= \\blueE{2\\dfrac{5}{12}} \\end{align}$  Only one of these equations was an option.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Conclusion  Of the given equations, the following two represent the relationship.  - $\\blueE{2\\dfrac{5}{12}} \\times \\maroonD{\\ell} = \\purpleD{3\\dfrac{1}{3}}$  * $\\purpleD{3\\dfrac{1}{3}} \\div \\blueE{2\\dfrac{5}{12}} =\\maroonD{\\ell}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3. Ask 2 equations"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Anastacio distributed $4\\dfrac{4}{5}\\,\\text{kg}$ of seed among several bird feeders. He put $\\dfrac{3}{5}\\,\\text{kg}$ of seed in each feeder. Let $f$ represent the number of bird feeders that Anastacio filled.  **Select $1$ multiplication and $1$ division equation to represent the relationship.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$f \\times \\dfrac{3}{5} = 4\\dfrac{4}{5}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$f \\times 4\\dfrac{4}{5} = \\dfrac{3}{5}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{3}{5} \\div 4\\dfrac{4}{5} = f$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$4\\dfrac{4}{5} \\div \\dfrac{3}{5} = f$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Meanings of multiplication and division  There are three common meanings of multiplication.  $\\begin{align} \\text{(number of groups)} \\times \\text{(size of group)} &= \\text{total}\\\\\\\\ \\text{(original value)} \\times \\text{(comparison factor)} &= \\text{(new value)}\\\\\\\\ \\text{base} \\times \\text{height} &= \\text{(rectangular area)} \\end{align}$  Which of these meanings makes sense for our context? Which value or variable fills each role?  Once we have a multiplication equation that represents the situation, we can rewrite it as an equivalent division equation.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Multiplication equation  Anastacio has a total mass of $\\purpleD{4\\dfrac{4}{5}\\,\\text{kg}}$ of seed. He spread the seed among $\\blueE{f}$ bird feeders. There is a group size of $\\maroonD{\\dfrac{3}{5}\\,\\text{kg}}$ of seed per feeder.  $\\begin{align} \\blueE{\\text{(number of groups)}} \\times \\maroonD{\\text{(size of group)}} &= \\purpleD{\\text{total}}\\\\\\\\ \\blueE{\\text{(number of feeders)}} \\times \\maroonD{\\text{(seed mass per feeder)}} &= \\purpleD{\\text{(total seed mass)}}\\\\\\\\ \\blueE{f} \\times \\maroonD{\\dfrac{3}{5}} &= \\purpleD{4\\dfrac{4}{5}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Division equations  We can rewrite the multiplication equation as two equivalent division equations.  $\\begin{align} \\purpleD{4\\dfrac{4}{5}} \\div \\blueE{f} &=\\maroonD{\\dfrac{3}{5}}\\\\\\\\ \\purpleD{4\\dfrac{4}{5}} \\div \\maroonD{\\dfrac{3}{5}} &= \\blueE{f} \\end{align}$  Only one of these equations was an option.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Conclusion  Of the given equations, the following two represent the relationship.  - $\\blueE{f} \\times \\maroonD{\\dfrac{3}{5}} = \\purpleD{4\\dfrac{4}{5}}$  * $\\purpleD{4\\dfrac{4}{5}} \\div \\maroonD{\\dfrac{3}{5}} = \\blueE{f}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3. Ask 2 equations"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "To make marbled paper, Shannon filled a rectangular $\\dfrac{279}{10}\\,\\text{cm}$ by $\\dfrac{178}{10}\\,\\text{cm}$ dish with water. Then they gently swirled paint on top of the water. Let $a$ represent the area of the dish.  **Select $1$ multiplication and $1$ division equation to represent the relationship.**",
+                                "images": [
+                                    {
+                                        "alt": "Person holding a marbled sheet of paper with a rose painted on it.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-images/315f7f0d6215143e097ca8a89fa58daa92a5efe8.jpg.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$\\dfrac{178}{10} \\times a = \\dfrac{279}{10}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{178}{10} \\times \\dfrac{279}{10} = a$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{279}{10} \\div \\dfrac{178}{10} = a$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$a \\div \\dfrac{178}{10} = \\dfrac{279}{10}$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Meanings of multiplication and division  There are three common meanings of multiplication.  $\\begin{align} \\text{(number of groups)} \\times \\text{(size of group)} &= \\text{total}\\\\\\\\ \\text{(original value)} \\times \\text{(comparison factor)} &= \\text{(new value)}\\\\\\\\ \\text{base} \\times \\text{height} &= \\text{(rectangular area)} \\end{align}$  Which of these meanings makes sense for our context? Which value or variable fills each role?  Once we have a multiplication equation that represents the situation, we can rewrite it as an equivalent division equation.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Multiplication equation  The rectangular dish has two known measurements: $\\maroonD{\\dfrac{279}{10}\\,\\text{cm}}$ and $\\blueE{\\dfrac{178}{10}\\,\\text{cm}}$.  (We don't know the depth of the dish.) Since we could turn the dish in different directions, either could be the base or the height. The unknown area of the dish is $\\purpleD{a}$.  $\\begin{align} \\blueE{\\text{base}} \\times \\maroonD{\\text{height}} &= \\purpleD{\\text{(rectangular area)}}\\\\\\\\ \\blueE{\\text{(side length 1)}} \\times \\maroonD{\\text{(side length 2)}} &= \\purpleD{\\text{(dish area)}}\\\\\\\\ \\blueE{\\dfrac{178}{10}} \\times \\maroonD{\\dfrac{279}{10}} &= \\purpleD{a} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Division equations  We can rewrite the multiplication equation as two equivalent division equations.  $\\begin{align} \\purpleD{a} \\div \\blueE{\\dfrac{178}{10}}  &=\\maroonD{\\dfrac{279}{10}} \\\\\\\\ \\purpleD{a} \\div \\maroonD{\\dfrac{279}{10}}  &= \\blueE{\\dfrac{178}{10}} \\end{align}$  Only one of these equations was an option.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Conclusion  Of the given equations, the following two represent the relationship.  - $\\blueE{\\dfrac{178}{10}} \\times \\maroonD{\\dfrac{279}{10}} = \\purpleD{a}$  * $\\purpleD{a} \\div \\blueE{\\dfrac{178}{10}}  =\\maroonD{\\dfrac{279}{10}} $",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3. Ask 2 equations"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A cress seed took $\\dfrac{8}{7}$ of a week to . An artichoke seed took $\\dfrac{17}{7}$ weeks to sprout.  **What question does $\\dfrac{8}{7} \\div \\dfrac{17}{7}$ help us answer in this situation?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "How many times as long did the cress seed take to sprout as the artichoke seed?",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "How many times as long did the artichoke seed take to sprout as the cress seed?",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "How much longer did the cress seed take to germinate than the artichoke seed?",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "How much longer did the artichoke seed take to germinate than the cress seed?",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Meanings of multiplication and division  There are three common meanings of multiplication.  $\\begin{align} \\text{(number of groups)} \\times \\text{(size of group)} &= \\text{total}\\\\\\\\ \\text{(original value)} \\times \\text{(comparison factor)} &= \\text{(new value)}\\\\\\\\ \\text{base} \\times \\text{height} &= \\text{(rectangular area)} \\end{align}$  Which of these meanings makes sense for our context? Which value fills each role?  Once we have a multiplication equation that represents the situation, we can rewrite it as an equivalent division equation. Then we'll know the meaning of the quotient.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Multiplication equation  We have two values that we're comparing, the sprouting times for the cress seed and the artichoke seed.  $\\begin{align} \\blueE{\\text{(original value)}} \\times \\maroonD{\\text{(comparison factor)}} &= \\purpleD{\\text{(new value)}}\\\\\\\\ \\blueE{\\text{(sprouting time 1)}} \\times \\maroonD{\\text{(comparison factor)}} &= \\purpleD{\\text{(sprouting time 2)}} \\end{align}$  Our unknown is the comparison factor. Let's rewrite the multiplication equation as an equivalent division equation. Then we can fill in the values we know.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Division equation  The cress took $\\purpleD{\\dfrac{8}{7}}$ weeks to sprout, and the artichoke took $\\blueE{\\dfrac{17}{7}}$ weeks.  $\\begin{align} \\maroonD{\\text{(comparison factor)}} &= \\purpleD{\\text{(sprouting time 2)}} \\div \\blueE{\\text{(sprouting time 1)}} \\\\\\\\ \\maroonD{\\text{(comparison factor)}} &= \\purpleD{\\dfrac{8}{7}} \\div \\blueE{\\dfrac{17}{7}}\\\\\\\\ \\maroonD{\\text{(comparison factor)}} &= \\purpleD{\\text{(cress sprouting time)}} \\div \\blueE{\\text{(artichoke sprouting time)}} \\end{align}$  The new value was the cress sprouting time, and we were comparing to the artichoke sprouting time.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Conclusion  So the expression $\\purpleD{\\dfrac{8}{7}} \\div \\blueE{\\dfrac{17}{7}}$ answers the question, \"How many times as long did the *cress seed* take to sprout as the *artichoke seed*?\"",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "4. Mult/div as comparison"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A regular hippo and a pygmy hippo were recently born. The regular hippo had a mass of $25\\dfrac{1}{2}\\,\\text{kg}$ at birth.  Kaipo said that $25\\dfrac{1}{2} \\div 5\\dfrac{3}{10}$ could represent the mass of the pygmy hippo if the regular hippo massed $5\\dfrac{3}{10}$ times as much as the pygmy hippo at birth.  Normani said that if the pygmy hippo massed $5\\dfrac{3}{10}\\,\\text{kg}$ at birth, then the regular hippo massed $25\\dfrac{1}{2} \\div 5\\dfrac{3}{10}$ times as much as the pygmy hippo.  **Whose interpretation makes sense in this context?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Kaipo's only",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Normani's only",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Both Kaipo's and Normani's",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Meanings of multiplication and division  There are three common meanings of multiplication.  $\\begin{align} \\text{(number of groups)} \\times \\text{(size of group)} &= \\text{total}\\\\\\\\ \\text{(original value)} \\times \\text{(comparison factor)} &= \\text{(new value)}\\\\\\\\ \\text{base} \\times \\text{height} &= \\text{(rectangular area)} \\end{align}$  Let's decide which meaning each person used. Then we can rewrite the equation in division form. Finally, we can fill in the known numbers to see whether each expression makes sense.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Kaipo's interpretation  Kaipo is comparing to the pygmy hippo's mass, so there is an unknown original mass. Kaipo says there is a comparison factor of $\\maroonD{5\\dfrac{3}{10}}$. The regular hippo's mass at birth, $\\purpleD{25\\dfrac{1}{2}\\,\\text{kg}}$, is the new mass.  $\\begin{align} \\blueE{\\text{(original value)}} \\times \\maroonD{\\text{(comparison factor)}} &= \\purpleD{\\text{(new value)}}\\\\\\\\ \\blueE{\\text{(pygmy hippo's mass)}} \\times \\maroonD{\\text{(comparison factor)}} &= \\purpleD{\\text{(regular hippo's mass)}}\\\\\\\\ \\blueE{\\text{(pygmy hippo's mass)}} \\times \\maroonD{5\\dfrac{3}{10}} &= \\purpleD{25\\dfrac{1}{2}} \\end{align}$  We can rewrite as an equivalent division equation.  $\\purpleD{25\\dfrac{1}{2}} \\div \\maroonD{5\\dfrac{3}{10}} = \\blueE{\\text{(pygmy hippo's mass)}}$  Yes, Kaipo's interpretation *does* make sense in this context.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Normani's interpretation  Normani is comparing to the pygmy hippo's mass, so the original mass is $\\blueE{5\\dfrac{3}{10}\\,\\text{kg}}$. The regular hippo's mass at birth, $\\purpleD{25\\dfrac{1}{2}\\,\\text{kg}}$, is the new mass. There is an unknown comparison factor.  $\\begin{align} \\blueE{\\text{(original value)}} \\times \\maroonD{\\text{(comparison factor)}} &= \\purpleD{\\text{(new value)}}\\\\\\\\ \\blueE{\\text{(pygmy hippo's mass)}} \\times \\maroonD{\\text{(comparison factor)}} &= \\purpleD{\\text{(regular hippo's mass)}}\\\\\\\\ \\blueE{\\blueE{5\\dfrac{3}{10}}} \\times \\maroonD{\\text{(comparison factor)}} &= \\purpleD{25\\dfrac{1}{2}} \\end{align}$  We can rewrite as an equivalent division equation.  $\\purpleD{25\\dfrac{1}{2}} \\div \\blueE{\\blueE{5\\dfrac{3}{10}}} = \\maroonD{\\text{(comparison factor)}}$  Yes, Normani's interpretation *does* make sense in this context.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Conclusion  Both Kaipo's and Normani's interpretations make sense in this context.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "4. Mult/div as comparison"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "In a garden, $\\dfrac{5}{6}$ of the area is filled with native plants. The native plants take up $\\dfrac{107}{4}\\,\\text{m}^2$. Let $g$ represent the total area of the garden.  **Select $1$ multiplication and $1$ division equation to represent the relationship.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$g \\times \\dfrac{107}{4} = \\dfrac{5}{6}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$g \\times \\dfrac{5}{6} = \\dfrac{107}{4}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{107}{4} \\div \\dfrac{5}{6} = g$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{5}{6} \\div \\dfrac{107}{4} = g$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Meanings of multiplication and division  There are three common meanings of multiplication.  $\\begin{align} \\text{(number of groups)} \\times \\text{(size of group)} &= \\text{total}\\\\\\\\ \\text{(original value)} \\times \\text{(comparison factor)} &= \\text{(new value)}\\\\\\\\ \\text{base} \\times \\text{height} &= \\text{(rectangular area)} \\end{align}$  Which of these meanings makes sense for our context? Which value or variable fills each role?  Once we have a multiplication equation that represents the situation, we can rewrite it as an equivalent division equation.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Multiplication equation  The native plants fill $\\maroonD{\\dfrac{5}{6}}$ of the area of the garden, so $\\maroonD{\\dfrac{5}{6}}$ is a comparison factor.  We are comparing to the area of the garden, so the area of the garden, $\\blueE{g}$, is the original measurement. The area filled with native plants, $\\purpleD{\\dfrac{107}{4}\\,\\text{m}^2}$, is the new measurement.  $\\begin{align} \\blueE{\\text{(original value)}} \\times \\maroonD{\\text{(comparison factor)}} &= \\purpleD{\\text{(new value)}}\\\\\\\\ \\blueE{\\text{(area of garden)}} \\times \\maroonD{\\text{(comparison factor)}} &= \\purpleD{\\text{(area of native plants)}}\\\\\\\\ \\blueE{g} \\times \\maroonD{\\dfrac{5}{6}} &= \\purpleD{\\dfrac{107}{4}} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Division equations  We can rewrite the multiplication equation as two equivalent division equations.  $\\begin{align} \\purpleD{\\dfrac{107}{4}} \\div \\blueE{g} &=\\maroonD{\\dfrac{5}{6}}\\\\\\\\ \\purpleD{\\dfrac{107}{4}} \\div \\maroonD{\\dfrac{5}{6}} &= \\blueE{g} \\end{align}$  Only one of these equations was an option.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Conclusion  Of the given equations, the following two represent the relationship.  - $\\blueE{g} \\times \\maroonD{\\dfrac{5}{6}} = \\purpleD{\\dfrac{107}{4}}$  * $\\purpleD{\\dfrac{107}{4}} \\div \\maroonD{\\dfrac{5}{6}} = \\blueE{g}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "4. Mult/div as comparison"
+                    }
+                }
+            }
+        }
+    ]
+}

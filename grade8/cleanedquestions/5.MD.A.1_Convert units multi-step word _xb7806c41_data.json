@@ -1,0 +1,835 @@
+{
+    "standard_metadata": {
+        "standard_id": "5.MD.A.1",
+        "standard_description": "Convert among different-sized standard measurement units within a given measurement system (e.g., convert 5 cm to 0.05 m), and use these conversions in solving multi-step, real world problems.",
+        "standard_title": "Convert units multi-step word problems (US customary)",
+        "standard_url": "https://www.khanacademy.org/math/cc-fifth-grade-math/imp-measurement-and-data-3/converting-us-customary-units-word-problems/e/converting-units-word-problems--us-customary-"
+    },
+    "id": "xb7806c41",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Gloria traveled a total of $8$ miles to get from school to her apartment.  Gloria took the bus from school and then walked the remaining $880$ yards home.    **How  many *miles* did Gloria travel on the bus?**     miles",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "7.5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "First, we need to convert $\\blueE{880} \\text{ yd}$ to miles.  $1\\text{ yd} = \\dfrac{1}{\\maroonD{1760}} \\text { mile}$   $\\blueE{880}\\text{ yd} = \\dfrac{\\blueE{880}}{\\maroonD{1760}} =\\tealE{\\dfrac12}\\text{ mile}$  Gloria walked $\\tealE{\\dfrac12}$ mile.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Now, we subtract the distance Gloria walked $\\left(\\tealE{\\dfrac12} \\text{ mile}\\right)$ from the total distance she traveled $(\\purpleD{8}\\text{ miles})$.         [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A tape diagram with 2 tapes of equal lengths, a first\ntape labeled 8 and a second tape with 2 unequal\nparts. The first part is shaded green and labeled one-half. The second part is shaded pink and labeled with a question mark.   A curved bracket across the first tape is labeled total distance home in miles. A curved bracket across the green part of the second tape is labeled length walked home. A curved bracket across the pink part of the second tape is labeled length of bus ride.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/0f7447a3f7f4db7f54ab53c286d947a39623be96.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$\\begin{align} &\\quad\\quad\\purpleD{8} - \\tealE{\\dfrac12}\\\\\\\\ &=\\purpleD{7\\dfrac22}-\\tealE{\\dfrac12}\\\\\\\\ &=7\\dfrac12 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Gloria traveled $7\\dfrac12$ miles on the bus.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Distance"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A kangaroo hopped $\\dfrac13$ of the distance to the lake with her baby in her pouch.  She hopped the remaining $7{,}040$ yards without her baby in her pouch.   **How  many *miles* did the kangaroo hop to the lake?**     miles",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "6",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The kangaroo traveled $\\maroonD{\\dfrac13}$ of the total distance with her baby in her pouch.  So, she traveled $\\blueE{\\dfrac23}$ of the distance without her baby.       [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Two rectangles of equal length. The top rectangle is labeled question mark. Across the rectangle is a curved bracket labeled Total distance. The bottom rectangle is divided into 3 equal parts. The first part is shaded pink. The next 2 parts are shaded blue.  A curved bracket across the blue parts is labeled 7040 yards.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/e33644efc9bfe579ca0cd01b1391ef21b9296761.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "To find how far each $\\maroonD{\\dfrac13}$ is, we divide $7{,}040 \\text{ yd}$ by $2$.    $7{,}040 \\div2= 3{,}520$    [[☃ image 1]]  Each third of the distance is $3{,}520 \\text { yd}$.   How far is the entire distance?",
+                                    "images": [
+                                        {
+                                            "alt": "Two rectangles of equal length. The top rectangle is labeled question mark. Across the rectangle is a curved bracket labeled Total distance. The bottom rectangle is divided into 3 equal parts, each labeled 3,520 yards. The first part is shaded pink. The next 2 parts are shaded blue.  A curved bracket across the pink part is labeled With baby. A curved bracket across the blue parts is labeled Without baby.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d5c1032cd86fbe3c7fae5142a2dd8cfe890a6d7f.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$3{,}520 \\text{ yd}  \\times 3 = \\purpleD{10{,}560} \\text{ yd}$      [[☃ image 1]]         The total distance to the lake was $\\purpleD{10{,}560}$  yards.",
+                                    "images": [
+                                        {
+                                            "alt": "Two rectangles of equal length. The top rectangle is labeled 10,560. Across the rectangle is a curved bracket labeled Total distance. The bottom rectangle is divided into 3 equal parts, each labeled 3,520 yards. The first part is shaded pink. The next 2 parts are shaded blue.  A curved bracket across the pink part is labeled With baby. A curved bracket across the blue parts is labeled Without baby.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/e0848a3c5d5c2e656c0b00b98173777734732d89.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$1 \\text { yd} = \\dfrac{1}{\\tealE{1{,}760}}\\text{ mile}$  $\\begin{align} \\quad&\\purpleD{10{,}560}\\text { yd} \\\\\\\\ &=  \\dfrac{\\purpleD{10{,}560}}{\\tealE{1{,}760}}\\\\\\\\ &=\\purpleD{10{,}560}\\div\\tealE{1{,}760}\\\\\\\\ &=6\\text { miles} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The kangaroo hopped $6$ miles to the lake.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Distance"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A golfer took three shots on one hole. The distance of each shot are shown below:  * $167$ yards * $49$ feet * $7$ inches  **How many total *inches* did the ball travel?**     inches",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "6607",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "First, let's convert $\\blueE{167} \\text{ yds}$ to inches.  $1\\text{ yard} = 36 \\text{ inches}$   $\\begin{align} &~\\quad\\blueE{167}\\text{ yd}\\\\\\\\ & = \\blueE{167}\\times 36\\text{ in}\\\\\\\\ &=\\blueE{6{,}012}\\text{ in}\\\\\\\\ \\end{align}$  On the golfer's $\\blueE{\\text{first shot}}$, the ball went $\\blueE{6{,}012}$ inches.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Now let's convert feet to inches:  $1\\text{ foot} = 12 \\text{ inches}$  $\\begin{align} &\\quad\\maroonD{49}\\text{ ft} \\\\\\\\ &= \\maroonD{49}\\times 12\\\\\\\\ &=\\maroonD{588}\\text{ in} \\end{align}$  On the golfer's $\\maroonD{\\text{second shot}}$, the ball went $\\maroonD{588}$ inches.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "To find the total distance the ball traveled, we add the distances.  $\\blueE{6{,}012} +\\maroonD{588} + \\tealE7=6{,}607$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The ball traveled $6{,}607$ inches.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Distance"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A plumber had a pipe that was $2 \\text { yards}$ long.  He cut $18 \\text{ inches}$ off the end of the pipe.  **How  many *feet* long was the pipe after the plumber cut it?**     feet",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "4.5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "First, we need to convert $\\blueE2 \\text{ yd}$ to feet.  $1\\text{ yard} = \\tealE3 \\text { feet}$   $\\begin{align} &\\quad\\blueE2\\text{ yd} \\\\\\\\ &= \\blueE2 \\times \\tealE{3}\\\\\\\\ &=\\blueE6\\text{ ft} \\end{align}$  The pipe was $\\blueE6$ feet before the plumber cut it.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$1 \\text { inch} = \\dfrac{1}{\\purpleD{12}}\\text{ foot}$  $\\begin{align} &\\quad\\maroonD{18}\\text { in}\\\\\\\\ & =\\dfrac{\\maroonD{18}}{\\purpleD{12}}\\\\\\\\ &=\\dfrac32=\\maroonD{1\\dfrac12}\\text { ft} \\end{align}$  The plumber cut $\\maroonD{1\\dfrac12}$ feet off the of the pipe.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can subtract to find the new length of the pipe.  $\\begin{align} &\\quad\\quad\\blueE6-\\maroonD{1\\dfrac12}\\\\\\\\ &=\\blueE{5\\dfrac22}-\\maroonD{1\\dfrac12}\\\\\\\\ &=4\\dfrac12 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The pipe was $4\\dfrac12 \\text{ feet}$ long after the plumber cut it.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Distance"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Libby built a fence that was $56 \\text { feet}$ long over $4$ days.  She built the same length of fence each day.    **How  many *inches* of fence did Libby build each day?**     inches",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "168",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Libby divided $\\purpleD{56} \\text{ ft}$ evenly over $\\tealE4$ days.   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A tape diagram with 2 tapes of equal lengths, a first\ntape labeled 56 and a second tape with 4 equal\nparts each labeled with a question mark. A curved bracket across the second tape is labeled 4 equal groups.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/c8c651749755f459c58850580fbdfe2195b3865f.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$\\purpleD{56}\\text{ ft} \\div \\tealE4 = \\maroonD{14} \\text{ ft}$  Libby built $\\maroonD{14} \\text{ ft}$ each day.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We need to convert $\\maroonD{14} \\text{ ft}$ to inches.  $1\\text{ foot} = \\blueE{12} \\text { inches}$   $\\begin{align} &\\quad~\\maroonD{14}\\text{ ft} \\\\\\\\ &= \\maroonD{14}\\text{ ft} \\times \\blueE{12}\\text{ in}\\\\\\\\ &=168\\text{ in} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Libby built $168 \\text{ inches}$ each day.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Distance"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "For his craft project, James bought $10$ pieces of ribbon that were each $2.1\\text{ feet}$ long.      **How many total *yards* of ribbon did James buy?**     yards",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "7",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To find the total amount of feet James bought, we multiply.    [[☃ image 1]]    $\\maroonD{2.1}\\text{ ft} \\times \\tealE{10} = \\purpleD{21} \\text{ ft}$  James bought $\\purpleD{21} \\text{ ft}$ of ribbon.",
+                                    "images": [
+                                        {
+                                            "alt": "Two rectangles of equal length. The top rectangle is labeled question mark.  The bottom rectangle is divided into 10 equal parts, each labeled 2.1. A curved bracket across the bottom rectangle is labeled 10 equal groups.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/bf39df931b20c86077af364cfc95e2b6e57e71d5.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We need to convert $\\purpleD{21} \\text{ ft}$ to yards.  $1\\text{ foot} = \\dfrac{1}{\\blueE3} \\text { yard}$   $\\begin{align} &\\quad\\purpleD{21}\\text{ ft} \\\\\\\\ &= \\dfrac{\\purpleD{21}}{\\blueE3}\\\\\\\\ &=\\purpleD{21}\\div\\blueE3\\\\\\\\ &=\\goldE7\\text{ yd} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "James bought $\\goldE7 \\text{ yards}$ of ribbon.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Distance"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Randy made $10 \\text{ quarts}$ of lemonade. He divided the lemonade equally between $8$ pitchers.    **How  many *cups* of  lemonade did Randy put in each pitcher?**     cups",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "First, we need to convert $\\maroonD{10}\\text{ qt}$ to cups.  $1 \\text{ quart} = \\tealE4\\text{ cups}$  $\\begin{align} &~\\quad\\maroonD{10}\\text{ qt}\\\\\\\\ &=\\maroonD{10}\\text{ qt}\\times \\tealE{4}\\text{ c} \\\\\\\\ &= \\blueE{40} \\text{ c} \\end{align}$  Randy made $ \\blueE{40}$ cups of lemonade.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Randy divided $ \\blueE{40} \\text{ c}$ into $\\goldE8$ equal parts.   [[☃ image 1]]  $ \\blueE{40}\\text{ c } \\div \\goldE8 = \\purpleD5 \\text{ c}$",
+                                    "images": [
+                                        {
+                                            "alt": "A tape diagram with 2 tapes of equal lengths, a first\ntape labeled 40 and a second tape with 8 equal\nparts each labeled with a question mark. A curved bracket across the second tape is labeled 8 equal groups.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/c8b4f124453e5b15ad26f15f5ba6a73cc43ec489.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Randy put $5 \\text{ cups}$ of lemonade in each pitcher.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Volume"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The Garcia family started the day with $2$ gallons of milk.  They drank $1$ quart of milk for breakfast and $3$ pints for lunch.    **How  many *pints* of milk did the Garcia family have left after lunch?**     pints",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "11",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "First, we let's convert $\\tealE2\\text{ gal}$ to pints.    $1 \\text{ gallon}=8\\text{ pints}$  $\\begin{align} &\\quad\\tealE2\\text{ gal}\\\\\\\\ &=2\\times 8\\\\\\\\ &=\\tealE{16}\\text{ pt}\\\\\\\\ \\end{align}$  The Garcia family started with $\\tealE{16}$ pints of milk.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Now, we can convert $\\maroonD1$ quart of milk to pints.  $\\maroonD1 \\text{ quart}=\\maroonD2\\text{ pints}$  The Garcia family drank $\\maroonD2$ pints of milk for breakfast.  They drank $\\blueE3$ pints for lunch.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Now, we subtract.  $\\tealE{16}\\text{ pints}-\\maroonD2\\text{ pints}-\\blueE3\\text{ pints}=11\\text{ pints}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The Garcia family had $11$ pints of milk left after lunch.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Volume"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Ghalib loves making a special soda drink.  He fills $\\dfrac13$ of the container with orange soda.  He fills the remaining space with $4$ cups of lemon-lime soda.  **How many *pints* of his special soda drink did Ghalib make?**     pints",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "3",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "After using up one third of the space in the container for orange soda, Ghalib filled  the remaining $\\dfrac{2}{3}$ with $\\tealE4$ cups of lemon-lime soda.     [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A rectangle divided into three equal parts. A curved bracket across all parts is labeled with a question mark. A bracket around two parts is labeled 4 cups.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d16d0a3eb5b5e83f570f90e73e3fe9220f3050b0.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We can split $\\tealE4$ cups into $2$ groups of $2\\text{ c}$.  So each third of Ghalib's drink contains $2\\text{ c}$ of soda.  [[☃ image 1]]  How many cups was the whole drink?",
+                                    "images": [
+                                        {
+                                            "alt": "A rectangle divided into three equal parts. A curved bracket across all parts is labeled with a question mark. The right two parts are each labeled 2 cups.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/81952ecfc0ea7a33ed7c4598160849beded44279.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The whole drink was $2 \\times 3 = \\tealE6\\text{ c}$.    [[☃ image 1]]  We need to convert $\\tealE6$ cups to pints.",
+                                    "images": [
+                                        {
+                                            "alt": "A rectangle divided into three equal parts. A curved bracket across all parts is labeled 6 cups.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/155bde8452682d8c68005e91145b53c2ffcbc717.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$1 \\text{ cup}=\\dfrac{1}{\\blueE2}\\text{ pints}$  $\\begin{align} &\\quad\\tealE6 \\text{ c}\\\\\\\\ &=\\dfrac{\\tealE6}{\\blueE2}\\\\\\\\ &=\\tealE6\\div\\blueE2\\\\\\\\ &=3\\text{ pt} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Ghalib made $3$ pints of his special soda drink.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Volume"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Jahlil made $14 \\text{ pints}$ of ice cream.  He gave $1 \\text{ quart}$ to his neighbor and then made milkshakes with half of the remaining ice cream.  **How  many *quarts* of ice cream did Jahlil use to make milkshakes?**     quarts",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "3",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "First, we need to convert $\\blueE{14}\\text { pt}$ to quarts.    $1 \\text{ pint}=\\dfrac{1}{\\maroonD2}\\text{ quarts}$  $\\begin{align} &\\quad\\blueE{14} \\text{ pt}\\\\\\\\ &=\\dfrac{\\blueE{14}}{\\maroonD2}\\\\\\\\ &=\\blueE{14}\\div\\maroonD2\\\\\\\\ &=\\blueE7\\text{ qt} \\end{align}$  Jahlil started with $\\blueE7$ quarts of ice cream.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Now let's subtract the $\\maroonE1$ quart he gave his neighbor.   $\\blueE7-\\maroonE1=\\purpleD6$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Jahlil had $\\purpleD6$ quarts left and used half to make milkshakes.  What is half of $\\purpleD6?$   [[☃ image 1]]  $\\purpleD6\\div\\tealE2=\\goldE3$",
+                                    "images": [
+                                        {
+                                            "alt": "A tape diagram with 2 tapes of equal lengths, a first\ntape labeled 6 and a second tape with 2 equal\nparts each labeled with a question mark. A curved bracket across the second tape is labeled 2 equal groups.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/3768fac01286b8eb28577ddf756d239a03f003b6.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Jahlil used $3$ quarts of ice cream to make milkshakes.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Volume"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "To make a sports drink for the football team, Jaylen filled $\\dfrac9{10}$ of a large cooler with water.  Then, he filled the remaining space with $6$ cups of sports drink concentrate.  **How many *gallons* of sports drink did Jaylen make?**     gallons",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "3.75",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The sports drink concentrate fills the remaining $\\dfrac1{10}$ of space.     [[☃ image 1]]    Each tenth of the cooler contains $6$ cups.",
+                                    "images": [
+                                        {
+                                            "alt": "A tape diagram divided into 10 equal parts. A curved bracket across the tape diagram is labeled with a question mark. The first 9 parts are shaded blue and the remaining 1 part is shaded yellow.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/92376cded925c6a0d7a6eccfacff8c94ade25377.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "So, the entire cooler contains $6 \\times 10 = \\goldE{60} \\text{ c}$.   [[☃ image 1]]  $\\goldE{60} \\text{ cups} = {?} \\text { gallons}$",
+                                    "images": [
+                                        {
+                                            "alt": "A tape diagram divided into 10 equal parts. A curved bracket across the tape diagram is labeled 60 cups. The first 9 parts are shaded blue and the remaining 1 part is shaded yellow.\n",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/caed23be44e3a1ff13812f92d0f83ac24f273898.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$1 \\text{ cup}=\\dfrac{1}{\\blueE{16}}\\text { gallon}$  $\\begin{align} &\\quad\\tealE{60} \\text{ c}\\\\\\\\ &=\\dfrac{\\tealE{60}}{\\blueE{16}}\\\\\\\\ &=\\dfrac{15}{4}\\\\\\\\ &= 3\\dfrac34\\text { gal} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Jaylen made $3\\dfrac34$ gallons of sports drink.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Volume"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "D'Naisa mixed her favorite shade of orange paint.  She had $1$ gallon of orange paint and added $2$ quarts of yellow paint and $3$ pints of red paint.  **How many *quarts* of paint did D'Naisa mix?**     quarts",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "7.5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "First, we need to convert $\\tealE1\\text{ gal}$ to quarts.    $\\tealE1 \\text{ gal}=\\tealE4\\text{ qt}$  D'Naisa started with $\\tealE{4}$ quarts of orange paint.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$1 \\text{ pt}=\\dfrac12\\text{ qt}$  $\\begin{align} &\\quad\\maroonD3 \\text{ pt}\\\\\\\\ &=\\dfrac{\\maroonD3}{2}\\\\\\\\ &=\\maroonD{1\\dfrac12}\\text{ qt} \\end{align}$  D'Naisa added $\\maroonD{1\\dfrac12}$ quarts of red paint.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "She also added $\\goldE2$ quarts of yellow paint.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Now, let's combine the amounts of orange, red, and yellow paint.  $\\goldE4+\\maroonD{1\\dfrac12}+\\goldE2=7\\dfrac12$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "D'Naisa mixed $7\\dfrac12$ quarts of paint.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Volume"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Andrea picked $21$ pounds of peaches in her orchard.  She divided the peaches evenly between $4$ large baskets.   **How  many *ounces* of  peaches did Andrea put in each basket?**     ounces",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "84",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "First, we need to convert $\\tealE{21}\\text { lb}$ to ounces.    $1 \\text{ pound}=\\maroonD{16}\\text{ ounces}$  $\\begin{align} &\\quad\\tealE{21}\\text { lb}\\\\\\\\ &=\\tealE{21}\\times\\maroonD{16}\\\\\\\\ &=\\blueE{336}\\text{ oz} \\end{align}$  Andrea picked $\\blueE{336}\\text{ oz}$ of peaches.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Andrea divided $\\blueE{336} \\text{ oz}$ into $\\purpleD4$ equal parts.   [[☃ image 1]]  $\\blueE{336}\\div \\ \\purpleD4= \\goldE{84}\\text{ oz}$",
+                                    "images": [
+                                        {
+                                            "alt": "A tape diagram with 2 tapes of equal lengths, a first tape labeled question mark and a second tape with 4 equal parts each labeled 84. A curved bracket across the second tape is labeled 4 equal groups.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/6c258aa43a7f21ec0862dbe39813c28d837f6b82.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Andrea put $84 \\text{ ounces}$ of peaches in each basket.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Mass"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Jack bought $5 \\text{ pounds}$ of Halloween candy.  He gave out $3\\text{ pounds}$ of the candy to trick or treaters and ate $10\\text{ ounces}$ of the candy.     **How  many *ounces* of  Halloween candy does Jack have left?**     ounces",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "22",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Jack bought $5$ pounds and gave out $3$ pounds.  $5-3=\\maroonD2$  Jack had $\\maroonD2$ pounds left and ate $\\goldE{10}$ ounces.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "To find out how much candy he now has, we need to convert the $\\maroonD2\\text { lb}$ to ounces.    $1 \\text{ pound}=\\blueE{16}\\text{ ounces}$  $\\begin{align} &\\quad\\maroonD2 \\text{ lb}\\\\\\\\ &=\\maroonD2\\times\\blueE{16}\\\\\\\\ &=\\maroonD{32}\\text{ oz} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Jack had $\\maroonD{32}\\text{ oz}$ and ate $\\goldE{10}\\text{ oz}$.  $\\maroonD{32}-\\goldE{10}=22\\text{ oz}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Jack has ${22}\\text{ ounces}$ of Halloween candy left.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Mass"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Twins Isaac and Isaiah were just born.  Isaac weighs $6$ pounds $2$ ounces and Isaiah weighs $5$ pounds $4$ ounces.    **How  many *ounces* do Isaac and Isaiah weigh together?**     ounces",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "182",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "First, we can convert Isaac's weight, $\\blueE6\\text { lb } \\blueE2 \\text { oz}$ to ounces.    $1 \\text{ pound}=\\purpleD{16}\\text{ ounces}$  $\\begin{align} &~\\quad\\blueE6 \\text{ lb}\\\\\\\\ &=\\blueE6\\times\\purpleD{16}\\\\\\\\ &=96\\text{ oz} \\end{align}$  Now, we add the $\\maroonD2$ ounces:  $96 + \\maroonD2 = 98$  Isaac weighs $98$ ounces.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Next, let's convert Isaiah's weight, $\\tealE5\\text { lb } \\tealE4 \\text { oz}$ to ounces.    $1 \\text{ pound}=\\purpleD{16}\\text{ ounces}$  $\\begin{align} &\\quad\\tealE5 \\text{ lb}\\\\\\\\ &=\\tealE5\\times\\purpleD{16}\\\\\\\\ &=80\\text{ oz} \\end{align}$  Now, we add the $\\tealE4$ ounces:  $80 + \\tealE4 = 84$  Isaiah weighs $84$ ounces.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Last, let's add their weights.  $98 + 84 = 182$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Isaac and Isaiah weigh $182$ ounces.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Mass"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Scientists have put together bones to make a T-Rex skull that has a mass of $600$ pounds.  They just found a new tooth fossil to add to the skull that has a mass of $40$ ounces.     **How many *pounds* is the T-Rex skull with the new tooth?**     pounds",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "602.5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We need to convert $\\tealE{40}\\text { oz}$ to pounds.    $1 \\text{ ounce}=\\dfrac{1}{\\maroonD{16}}\\text{ pound}$  $\\begin{align} &=\\tealE{40}\\text{ oz}\\\\\\\\ &=\\dfrac{\\tealE{40}}{\\maroonD{16}}\\\\\\\\ &=\\dfrac{5}{2}\\\\\\\\ &=\\blueE{2\\dfrac12}\\text{ lb} \\end{align}$  The tooth fossil has a mass of  $\\blueE{2\\dfrac12}\\text{ lb}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We need to add the mass of the tooth to the mass of the existing skull.  $600 + \\blueE{2\\dfrac12}= 602\\dfrac12$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The skull has a mass of $602\\dfrac12$ pounds.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Mass"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "On Thursday, Movietown Theater made $\\dfrac45$ of their popcorn with butter.  The remaining $35.2$ ounces were made without butter.     **How many *pounds* of popcorn did Movietown Theater make on Thursday?**     pounds",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "11",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The popcorn without butter makes up $\\dfrac{1}{5}$ of the popcorn.     [[☃ image 1]]  Each fifth is $35.2$ ounces.",
+                                    "images": [
+                                        {
+                                            "alt": "A tape diagram divided into 5 equal parts. A curved bracket above the tape diagram is labeled with a question mark. The first 4 parts are shaded yellow and the remaining one part is shaded grey.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/15b5ed6d4e45fe527498f0fa3f02eb421e20b435.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "So, Movietown made a total of $35.2 \\times 5 = \\purpleD{176}$ ounces of popcorn on Thursday.     [[☃ image 1]]  We need to convert $\\purpleD{176}\\text{ oz}$ to pounds.",
+                                    "images": [
+                                        {
+                                            "alt": "A tape diagram divided into 5 equal parts. A curved bracket across all the parts is labeled 176 ounces. The first 4 parts are shaded yellow and the remaining one part is shaded gray. Each part is labeled 35.2 ounces.\n",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/22cbc28b07b9fe4fd40bf222b79de2bd88ee8bdf.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$1 \\text{ ounce}=\\dfrac{1}{\\tealE{16}}\\text{ pound}$  $\\begin{align} &\\quad\\purpleD{176} \\text{ oz}\\\\\\\\ &=\\dfrac{\\purpleD{176}}{\\tealE{16}}\\\\\\\\ &=11\\text{ lb} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Movietown Theater made $11$ pounds of popcorn on Thursday.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Mass"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Mama Mia restaurant used $\\dfrac12$ of their mozzarella cheese making pizza and the remaining $64$ ounces making pasta.    **How many *pounds* of mozzarella cheese did Mama Mia start with?**     pounds",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "8",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "If $\\dfrac12$ of the cheese was used on pizza, then the remaining portion of cheese used on pasta makes up the other half.   [[☃ image 1]]  Each half is $64$ ounces.",
+                                    "images": [
+                                        {
+                                            "alt": "Two equal rectangles side by side. The first is pink and the second is blue. A bracket across both rectangles is labeled with a question mark. A bracket across the blue rectangle is labeled 64 ounces.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/e1c60348a0c06709977cff459fea183ed946bd57.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "So, Mama Mia started with  $64\\times 2 = \\purpleD{128}$ ounces of cheese.     [[☃ image 1]]  We need to convert $\\purpleD{128}\\text{ oz}$ to pounds.",
+                                    "images": [
+                                        {
+                                            "alt": "Two equal rectangles side by side. The first is pink and the second is blue. A bracket across both rectangles is labeled 128 ounces.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/8431e5a7064312656a0148320eb0543806a12d3c.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$1 \\text{ ounce}=\\dfrac{1}{\\tealE{16}}\\text{ pound}$  $\\begin{align} &\\quad\\purpleD{128} \\text{ oz}\\\\\\\\ &=\\dfrac{\\purpleD{128}}{\\tealE{16}}\\\\\\\\ &=8\\text{ lb} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Mama Mia restaurant started with $8$ pounds of mozzarella cheese.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Mass"
+                    }
+                }
+            }
+        }
+    ]
+}

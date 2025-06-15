@@ -1,0 +1,1735 @@
+{
+    "standard_metadata": {
+        "standard_id": "4.NF.B.3.b",
+        "standard_description": "Decompose a fraction into a sum of fractions with the same denominator in more than one way, recording each decomposition by an equation. Justify decompositions, e.g., by using a visual fraction model.",
+        "standard_title": "Decompose fractions",
+        "standard_url": "https://www.khanacademy.org/math/cc-fourth-grade-math/imp-fractions-2/imp-decomposing-fractions/e/decomposing-fractions"
+    },
+    "id": "x8d34d703",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which of these sums equal $\\dfrac{6}{3}$ ?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$\\dfrac{2}{3} + \\dfrac{2}{3} + \\dfrac{2}{3}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{5}{3} + \\dfrac{1}{3} + \\dfrac{2}{3} + \\dfrac{1}{3}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac42 + \\dfrac21$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "First, let's visualize $\\dfrac{6}{3}$.  [[☃ image 1]]  Now, let's compare each answer choice to $\\dfrac{6}{3}$.",
+                                    "images": [
+                                        {
+                                            "alt": "Two equal-sized fraction bars side-by-side. Each fraction bar is divided into 3 equal parts, each part labeled one-third. A curved bracket below both fraction bars is labeled six-thirds.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/253c24034bc9ed4819695583db9323dd08893c97.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "[[☃ image 1]]  [[☃ image 2]]  $\\greenD{\\dfrac{4}{2}} + \\purpleD{\\dfrac{2}{1}}  \\neq {\\dfrac{6}{3}}$",
+                                    "images": [
+                                        {
+                                            "alt": "Two sets of equal-sized fraction bars side-by-side. The first set has two fraction bars that are each divided into 2 equal parts and each part is labeled one-half. A curved bracket above the first set of fraction bars is labeled four-halves. The second set has two fraction bars that are whole and labeled 1 over 1. A curved bracket above the second set of fraction bars is labeled 2 over 1. Together the curved brackets above the fraction bars are labeled four-halves plus 2 over 1. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/0b91eec043f22fa668088663d3405d9682446ab0.svg"
+                                        },
+                                        {
+                                            "alt": "Two equal-sized fraction bars side-by-side. Each fraction bar is divided into 3 equal parts, each part labeled one-third. A curved bracket below both fraction bars is labeled six-thirds.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/253c24034bc9ed4819695583db9323dd08893c97.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "[[☃ image 1]]  [[☃ image 2]]  $\\blueD{\\dfrac{5}{3}} + \\greenD{\\dfrac{1}{3}} + \\purpleD{\\dfrac{2}{3}} + \\red{\\dfrac{1}{3}}  \\neq {\\dfrac{6}{3}}$",
+                                    "images": [
+                                        {
+                                            "alt": "Three equal-sized fraction bars side-by-side. Each fraction bar is divided into 3 equal parts, each part labeled one-third. A curved bracket above the first bar and two parts of the second bar is labeled five-thirds. A curved bracket above the remaining part of the second bar is labeled one-third. A curved bracket above two parts of the third bar is labeled two-thirds. A curved bracket above the remaining part of the third bar is labeled one-third. Together the curved brackets above the fraction bars are labeled five-thirds plus one-third plus two-thirds plus one-third.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/c4d01f4459e85ba5c9e78ab4cc7f49150a299249.svg"
+                                        },
+                                        {
+                                            "alt": "Two equal-sized fraction bars side-by-side. Each fraction bar is divided into 3 equal parts, each part labeled one-third. A curved bracket below both fraction bars is labeled six-thirds.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/253c24034bc9ed4819695583db9323dd08893c97.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "[[☃ image 1]]  [[☃ image 2]]  $\\blueD{\\dfrac{2}{3}} + \\greenD{\\dfrac{2}{3}} + \\purpleD{\\dfrac{2}{3}} \\overset{\\checkmark}=  {\\dfrac{6}{3}}$",
+                                    "images": [
+                                        {
+                                            "alt": "Two equal-sized fraction bars side-by-side. Each fraction bar is divided into 3 equal parts, each part labeled one-third. A curved bracket above the first 2 parts of the first bar is labeled two-thirds. A curved bracket above the remaining part of the first bar and the first part of the second bar is labeled two-thirds. A curved bracket above the remaining 2 parts of the second bar is labeled two-thirds. Together the curved brackets above the fraction bars are labeled two-thirds plus two-thirds plus two-thirds.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/c03e40c81df0b9f00026bcf1542ca4c74c547516.svg"
+                                        },
+                                        {
+                                            "alt": "Two equal-sized fraction bars side-by-side. Each fraction bar is divided into 3 equal parts, each part labeled one-third. A curved bracket below both fraction bars is labeled six-thirds.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/253c24034bc9ed4819695583db9323dd08893c97.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The following sum equals ${\\dfrac{6}{3}}$:  * $\\dfrac{2}{3} + \\dfrac{2}{3} + \\dfrac{2}{3}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which of these sums equal $\\dfrac{20}{5}$ ?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$\\dfrac{8}{5} + \\dfrac{5}{5} + \\dfrac{7}{5}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{2}{5} + \\dfrac{4}{5} + \\dfrac{6}{5} + \\dfrac{10}{5}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{15}{3} + \\dfrac{5}{2}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "First, let's visualize $\\dfrac{20}{5}$.    [[☃ image 1]]  Now, let's compare each answer choice to $\\dfrac{20}{5}$.",
+                                    "images": [
+                                        {
+                                            "alt": "Four equal-sized fraction bars set in a row. Each fraction bar is divided into 5 equal parts, each part labeled one-fifth. A curved bracket below all of the fraction bars is labeled twenty-fifths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/1a8d05f66a62cf339fa2901ac7b043a37c839262.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "[[☃ image 1]]    [[☃ image 2]]  $\\blueD{\\dfrac{2}{5}} + \\greenD{\\dfrac{4}{5}} + \\purpleD{\\dfrac{6}{5}}+\\redD{\\dfrac{10}{5}}  \\neq {\\dfrac{20}{5}}$",
+                                    "images": [
+                                        {
+                                            "alt": "Five equal-sized fraction bars set in a row. Each fraction bar is divided into 5 equal parts, each part labeled one-fifth. In the first fraction bar, a curved bracket above the first two parts is labeled two-fifths. A curved bracket above the last three parts in the first bar and the first part of the second bar is labeled four-fifths. A curved bracket above the last four parts of the second bar and the first two parts of the third bar is labeled six-fifths. A curved bracket over the last three parts of the third bar, the entire fourth bar, and the first two parts of the fifth bar is labeled ten-fifths. Together the curved brackets above the fraction bars are labeled two-fifths plus four-fifths plus six-fifths plus ten-fifths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/0182edede955203e17d9041a6c9d5df2109d7681.svg"
+                                        },
+                                        {
+                                            "alt": "Four equal-sized fraction bars set in a row. Each fraction bar is divided into 5 equal parts, each part labeled one-fifth. A curved bracket below all of the fraction bars is labeled twenty-fifths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/7defb9158b4ca2b10dedccccdbbe1d158f38617b.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "[[☃ image 1]]   [[☃ image 2]]  $\\greenD{\\dfrac{15}{3}}+\\purpleD{\\dfrac{5}{2}} \\neq \\dfrac{20}{5}$",
+                                    "images": [
+                                        {
+                                            "alt": "Two sets of equal-sized fraction bars set side-by-side. The first set has five fraction bars that are each divided into 3 equal parts and each part is labeled one-third. A curved bracket above the first set of fraction bars is labeled fifteen-thirds. The second set has three fraction bars that are each divided into 2 equal parts and each part is labeled one-half. A curved bracket above the first and second bars and the first part of the third bar is labeled five-halves. Together the curved brackets above the fraction bars are labeled fifteen-thirds plus five-halves.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/3c2e4b3fe263e896567796be9d643ebcc833fef4.svg"
+                                        },
+                                        {
+                                            "alt": "Four equal-sized fraction bars set in a row. Each fraction bar is divided into 5 equal parts, each part labeled one-fifth. A curved bracket below all of the fraction bars is labeled twenty-fifths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/b82f29f4e8ccc92161ac35959757addc95a525e6.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "[[☃ image 1]]       [[☃ image 2]]  $\\blueD{\\dfrac{8}{5}} + \\greenD{\\dfrac{5}{5}} + \\purpleD{\\dfrac{7}{5}} \\overset{\\checkmark}= {\\dfrac{20}{5}}$",
+                                    "images": [
+                                        {
+                                            "alt": "Four equal-sized fraction bars set in a row. Each fraction bar is divided into 5 equal parts, each part labeled one-fifth. A curved bracket above the first bar and the first three parts of the second bar is labeled eight-fifths. A curved bracket above the last two parts of the second bar and the first three parts of the third bar is labeled five-fifths. A curved bracket above the last two parts of the third bar and the entire fourth bar is labeled seven-fifths. Together the curved brackets above the bar are labeled eight-fifths plus five-fifths plus seven-fifths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/3a0e72291241354b4b757c86a5841ff591011b4d.svg"
+                                        },
+                                        {
+                                            "alt": "Four equal-sized fraction bars set in a row. Each fraction bar is divided into 5 equal parts, each part labeled one-fifth. A curved bracket below all of the fraction bars is labeled twenty-fifths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/1a8d05f66a62cf339fa2901ac7b043a37c839262.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The following sum equals ${\\dfrac{20}{5}}$:  * $\\dfrac{8}{5} + \\dfrac{5}{5} + \\dfrac{7}{5}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which of these sums equal $\\dfrac{16}{8}$ ?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$\\dfrac{12}{6} + \\dfrac{4}{2}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{2}{8} + \\dfrac{10}{8} + \\dfrac{3}{8} + \\dfrac{2}{8}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{5}{8} + \\dfrac{5}{8} + \\dfrac{5}{8} + \\dfrac{1}{8}$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "First, let's visualize $\\dfrac{16}{8}$.    [[☃ image 1]]  Now, let's compare each answer choice to $\\dfrac{16}{8}$.",
+                                    "images": [
+                                        {
+                                            "alt": "Two-equal-sized fraction bars side-by-side. Each fraction bar is divided into 8 equal parts, each part labeled one-eighth. A curved bracket below both fraction bars is labeled sixteen-eighths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/9a2223ddaa3143ec2d22a553490d5de1daa68dab.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "[[☃ image 1]]    [[☃ image 2]]  $\\blueD{\\dfrac{2}{8}} + \\greenD{\\dfrac{10}{8}} + \\purpleD{\\dfrac{3}{8}}+\\redD{\\dfrac{2}{8}}  \\neq {\\dfrac{16}{8}}$",
+                                    "images": [
+                                        {
+                                            "alt": "Three equal-sized fraction bars set in a row. Each fraction bar is divided into 8 equal parts, each part labeled one-eighth. A curved bracket above the first two parts of the first bar is labeled two-eighths. A curved bracket above the remaining parts of the first bar and the first four parts of the second bar is labeled ten-eighths. A curved bracket above the next three parts of the second bar is labeled three-eighths. A curved bracket above the last part of the second bar and the first part of the third bar is labeled two-eighths. Together, the curved brackets are labeled two-eighths plus ten-eighths plus three-eighths plus two eighths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/f44bdcd7a21a9e8db146b06587005ed20342648c.svg"
+                                        },
+                                        {
+                                            "alt": "Two-equal-sized fraction bars side-by-side. Each fraction bar is divided into 8 equal parts, each part labeled one-eighth. A curved bracket below both fraction bars is labeled sixteen-eighths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/bd64666e750c3e882258dc8f22e15f51c28b9982.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "[[☃ image 1]]    [[☃ image 2]]  $\\greenD{\\dfrac{12}{6}} + \\purpleD{\\dfrac{4}{2}} \\neq {\\dfrac{16}{8}}$",
+                                    "images": [
+                                        {
+                                            "alt": "Two sets of equal-sized fraction bars side-by-side. The first set has two fraction bars that are each divided into 6 equal parts and each part is labeled one-sixth. A curved bracket above the first set of fraction bars is labeled twelve-sixths. The second set has two fraction bars that are each divided into 2 equal parts and each part is labeled one-half. A curved bracket above the second set of fraction bars is labeled four-halves. Together the curved brackets are labeled twelve-sixths plus four-halves.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/3f9c090951af1a0239609400b92be9eb1c4ad34a.svg"
+                                        },
+                                        {
+                                            "alt": "Two-equal-sized fraction bars side-by-side. Each fraction bar is divided into 8 equal parts, each part labeled one-eighth. A curved bracket below both fraction bars is labeled sixteen-eighths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/828e8dac6b34f4654cd28f88f661c35320389a1e.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "[[☃ image 1]]   [[☃ image 2]]  $\\blueD{\\dfrac{5}{8}} + \\greenD{\\dfrac{5}{8}} + \\purpleD{\\dfrac{5}{8}}+\\redD{\\dfrac{1}{8}}  \\overset{\\checkmark}= {\\dfrac{16}{8}}$",
+                                    "images": [
+                                        {
+                                            "alt": "Two equal-sized fraction bars side-by-side. Each fraction bar is divided into 8 equal parts, each part labeled one-eighth. A curved bracket above the first five parts of the first bar is labeled five-eighths. A curved bracket over the remaining parts of the first bar and the first two parts of the second bar is labeled five-eighths. A curved bracket over the next five parts of the second bar is labeled five-eighths. A curved bracket over the last part of the second bar is labeled one-eighth. Together the curved brackets are labeled five-eights plus five-eighths plus five-eighths plus one-eighth.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/e1556cbd6e48d235bca85986cfb44a2a4ce3d946.svg"
+                                        },
+                                        {
+                                            "alt": "Two-equal-sized fraction bars side-by-side. Each fraction bar is divided into 8 equal parts, each part labeled one-eighth. A curved bracket below both fraction bars is labeled sixteen-eighths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/9a2223ddaa3143ec2d22a553490d5de1daa68dab.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The following sum equals ${\\dfrac{16}{8}}$:  * $\\dfrac{5}{8} + \\dfrac{5}{8} + \\dfrac{5}{8} + \\dfrac{1}{8}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which of these sums equal $\\dfrac{14}{4}$ ?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$\\dfrac{5}{4} + \\dfrac{5}{4} + \\dfrac{4}{4}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{1}{4} + \\dfrac{1}{4} + \\dfrac{2}{4} + \\dfrac{10}{4}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{3}{4} + \\dfrac{8}{4} + \\dfrac{5}{4}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "First, let's visualize $\\dfrac{14}{4}$.   [[☃ image 1]]  Now, let's compare each answer choice to $\\dfrac{14}{4}$.",
+                                    "images": [
+                                        {
+                                            "alt": "Four equal-size fraction bars set in a row. Each fraction bar is divided into 4 equal parts, each part labeled one-fourth. A curved bracket below the first three fraction bars and the first two parts of the fourth fraction bar is labeled fourteen-fourths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/fe2a8cef142a68d1a9a82092bcac8a732fa41529.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "[[☃ image 1]]    [[☃ image 2]]  $\\blueD{\\dfrac{3}{4}} + \\greenD{\\dfrac{8}{4}} + \\purpleD{\\dfrac{5}{4}} \\neq {\\dfrac{14}{4}}$",
+                                    "images": [
+                                        {
+                                            "alt": "Four equal-size fraction bars set in a row. Each fraction bar is divided into 4 parts, each part labeled one-fourth. A curved bracket above the first three parts of the first fraction bar is labeled three-fourths. A curved bracket above the last part of the first fraction bar, all parts of the second fraction bar, and the first three parts of the third fraction bar is labeled eight-fourths. A curved bracket over the last part of the third fraction bar and all of the parts of the fourth fraction bar is labeled five-fourths. Together the curved brackets are labeled three-fourths plus eight-fourths plus five-fourths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/09cf8a8877f01930cd2f010a8099a2ec1a3e986e.svg"
+                                        },
+                                        {
+                                            "alt": "Four equal-size fraction bars set in a row. Each fraction bar is divided into 4 equal parts, each part labeled one-fourth. A curved bracket below the first three fraction bars and the first two parts of the fourth fraction bar is labeled fourteen-fourths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/fe2a8cef142a68d1a9a82092bcac8a732fa41529.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "[[☃ image 1]]   [[☃ image 2]]  $\\blueD{\\dfrac{5}{4}} + \\greenD{\\dfrac{5}{4}} + \\purpleD{\\dfrac{4}{4}} \\overset{\\checkmark}= {\\dfrac{14}{4}}$",
+                                    "images": [
+                                        {
+                                            "alt": "Four equal-sized fraction bars side-by-side. Each fraction bar is divided into 4 equal parts, each labeled one-fourth. A curved bracket above the first fraction bar and the first part of the second fraction bar is labeled five-fourths. A curved bracket above the last three parts of the second fraction bar and the first two parts of the third fraction bar is labeled five-fourths. A curved bracket above the last two parts of the third bar and the first two parts of the fourth bar is labeled four-fourths. Together the curved brackets are labeled five-fourths plus five-fourths plus four-fourths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/75257a4aa048dd72af2bf1258d168db176473d13.svg"
+                                        },
+                                        {
+                                            "alt": "Four equal-size fraction bars set in a row. Each fraction bar is divided into 4 equal parts, each part labeled one-fourth. A curved bracket below the first three fraction bars and the first two parts of the fourth fraction bar is labeled fourteen-fourths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/fe2a8cef142a68d1a9a82092bcac8a732fa41529.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "[[☃ image 1]]     [[☃ image 2]]  $\\blueD{\\dfrac{1}{4}} + \\greenD{\\dfrac{1}{4}} + \\purpleD{\\dfrac{2}{4}}+ \\redD{\\dfrac{10}{4}} \\overset{\\checkmark}= {\\dfrac{14}{4}}$",
+                                    "images": [
+                                        {
+                                            "alt": "Four equal-sized fraction bars set in a row. Each fraction bar is divided into 4 equal parts, each part labeled one-fourth. A curved bracket above the first part of the first fraction bar is labeled one-fourth. A curved bracket above the next part of the first fraction bar is labeled one-fourth. A curved bracket over the last two parts of the first fraction bar is labeled two-fourths. A curved bracket over all of the parts of the second and third fraction bars, and the first two parts of the fourth fraction bar is labeled ten-fourths. Together the curved brackets are labeled one-fourth plus one-fourth plus two-fourths plus ten-fourths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/f52142774ea58cfa359ecdd753e2aad76f0e20b1.svg"
+                                        },
+                                        {
+                                            "alt": "Four equal-size fraction bars set in a row. Each fraction bar is divided into 4 equal parts, each part labeled one-fourth. A curved bracket below the first three fraction bars and the first two parts of the fourth fraction bar is labeled fourteen-fourths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/fe2a8cef142a68d1a9a82092bcac8a732fa41529.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The following sums equal ${\\dfrac{14}{4}}$:  * $\\dfrac{5}{4} + \\dfrac{5}{4} + \\dfrac{4}{4}$ * $\\dfrac{1}{4} + \\dfrac{1}{4} + \\dfrac{2}{4} + \\dfrac{10}{4}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which of these sums equal $\\dfrac{5}{6}$ ?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$\\dfrac{3}{6} + \\dfrac{1}{6} + \\dfrac{2}{6}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{2}{6} + \\dfrac{1}{6} + \\dfrac{1}{6} + \\dfrac{1}{6}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{4}{6} + \\dfrac{1}{6}$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "First, let's visualize $\\dfrac{5}{6}$.    [[☃ image 1]]  Now, let's compare each answer choice to $\\dfrac{5}{6}$.",
+                                    "images": [
+                                        {
+                                            "alt": "A fraction bar divided into 6 equal parts, each part labeled one-sixth. A curved bracket below the first five parts is labeled five-sixths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/714b604a84ec3b49ba88fa7108c23ba277f4c993.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "[[☃ image 1]]    [[☃ image 2]]  $\\blueD{\\dfrac{3}{6}} + \\greenD{\\dfrac{1}{6}} + \\purpleD{\\dfrac{2}{6}} \\neq {\\dfrac{5}{6}}$",
+                                    "images": [
+                                        {
+                                            "alt": "A fraction bar divided into 6 equal parts, each part labeled one-sixth. A curved bracket above the first three parts is labeled three-sixths. A curved bracket over the fourth part is labeled one-sixth. A curved bracket over the remaining parts is labeled two-sixths. Together the curved brackets are labeled three-sixths plus one-sixth plus two-sixths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/7b041278332db8cef7fe9db7db0963b7933e19d3.svg"
+                                        },
+                                        {
+                                            "alt": "A fraction bar divided into 6 equal parts, each part labeled one-sixth. A curved bracket below the first five parts is labeled five-sixths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/714b604a84ec3b49ba88fa7108c23ba277f4c993.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "[[☃ image 1]]    [[☃ image 2]]  $\\blueD{\\dfrac{4}{6}} + \\greenD{\\dfrac{1}{6}}  \\overset{\\checkmark}= {\\dfrac{5}{6}}$",
+                                    "images": [
+                                        {
+                                            "alt": "A fraction bar divided into 6 equal parts, each part labeled one-sixth. A curved bracket above the first four parts is labeled four-sixths. A curved bracket above the fifth part is labeled one-sixth. Together the curved brackets are labeled four-sixths plus one-sixth.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/19b3d329deda18f94c937b94a0d5b41201d4990e.svg"
+                                        },
+                                        {
+                                            "alt": "A fraction bar divided into 6 equal parts, each part labeled one-sixth. A curved bracket below the first five parts is labeled five-sixths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/714b604a84ec3b49ba88fa7108c23ba277f4c993.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "[[☃ image 1]]    [[☃ image 2]]  $\\blueD{\\dfrac{2}{6}} + \\greenD{\\dfrac{1}{6}} + \\purpleD{\\dfrac{1}{6}} + \\redD{\\dfrac{1}{6}}  \\overset{\\checkmark}= {\\dfrac{5}{6}}$",
+                                    "images": [
+                                        {
+                                            "alt": "A fraction bar divided into 6 equal parts, each part labeled one-sixth. A curved bracket above the first two parts is labeled two-sixths. A curved bracket above the third part is labeled one-sixth. A curved bracket above the fourth part is labeled one-sixth. A curved bracket above the fifth part is labeled one-sixth. Together the curved brackets are labeled two-sixths plus one-sixth plus one-sixth plus one-sixth.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/e9ca4d4f5d910ed594efe83746a5c8e3e78e129b.svg"
+                                        },
+                                        {
+                                            "alt": "A fraction bar divided into 6 equal parts, each part labeled one-sixth. A curved bracket below the first five parts is labeled five-sixths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/714b604a84ec3b49ba88fa7108c23ba277f4c993.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The following sums equal ${\\dfrac{5}{6}}$:  * $\\dfrac{2}{6} + \\dfrac{1}{6} + \\dfrac{1}{6} + \\dfrac{1}{6}$ * $\\dfrac{4}{6} + \\dfrac{1}{6}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which fractions add together to make $\\dfrac{13}{2}$ ?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$\\dfrac{1}{2}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{2}{2}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{4}{2}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{8}{2}$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "All of the fractions have the same denominator, $2$, so the parts have the same size. We are ready to add.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The numerators tell us how many parts we are counting. We want $13$ equal parts.  $\\blueD{1}+\\greenD{4}+\\purpleD{8}=13$    [[☃ image 1]]  $\\blueD{\\dfrac{1}{2}}+\\greenD{\\dfrac{4}{2}} +\\purpleD{\\dfrac{8}{2}} =\\dfrac{13}{2}$",
+                                    "images": [
+                                        {
+                                            "alt": "Seven fraction bars set in a row. Each fraction bar is divided into 2 equal parts and each part is labeled one-half. A curved bracket above the first part of the first fraction bar is labeled one-half. A curved bracket over the remaining part of the first fraction bar, all the parts of the second fraction bar, and the first part of the third fraction bar is labeled four-halves. A curved bracket over the remaining part of the third fraction bar, all of the parts of the fourth, fifth, and sixth fraction bars, and the first part of the seventh fraction bar is labeled eight-halves. Together the curved brackets are labeled one-half plus four-halves plus eight-halves. A curved bracket below the first six fraction bars and the first part of the seventh fraction bar is labeled thirteen-halves.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/cb1b0d523d1cf1865cb635ccde18f030754c08e7.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We would add $\\blueD{\\dfrac{1}{2}}$ , $\\greenD{\\dfrac{4}{2}}$, and $\\purpleD{\\dfrac{8}{2}}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which fractions add together to make $\\dfrac{10}{4}$ ?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$\\dfrac{1}{4}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{2}{4}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{4}{4}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{8}{4}$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "All of the fractions have the same denominator, $4$, so the parts have the same size. We are ready to add.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The numerators tell us how many parts we are counting. We want $10$ equal parts.  $\\blueD{8}+\\greenD{2}=10$   [[☃ image 1]]  $\\blueD{\\dfrac{8}{4}}+\\greenD{\\dfrac{2}{4}}  =\\dfrac{10}{4}$",
+                                    "images": [
+                                        {
+                                            "alt": "Three equal-sized fraction bars set in a row. Each fraction bar is divided into 4 equal parts, and each part is labeled one-fourth. A curved bracket above all parts in the first and second fraction bars is labeled eight-fourths. A curved bracket above the first two parts of the third fraction bar is labeled two-fourths. Together the curved brackets above the fraction bars are labeled eight-fourths plus two-fourths. A curved bracket below the first two fraction bars and the first two parts of the third fraction bar is labeled ten-fourths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/6b9f65e37df092277a2d3581857874bcabf57184.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We would add $\\blueD{\\dfrac{8}{4}}$ and $\\greenD{\\dfrac{2}{4}}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which fractions add together to make $\\dfrac{11}{5}$ ?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$\\dfrac{1}{5}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{2}{5}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{4}{5}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{8}{5}$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "All of the fractions have the same denominator, $5$, so the parts have the same size. We are ready to add.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The numerators tell us how many parts we are counting. We want $11$ equal parts.  $\\blueD{1}+\\greenD{8} + \\purpleD2=11$   [[☃ image 1]]  $\\blueD{\\dfrac{1}{5}}+\\greenD{\\dfrac{8}{5}}  + \\purpleD{\\dfrac{2}{5}}=\\dfrac{11}{5}$",
+                                    "images": [
+                                        {
+                                            "alt": "Three equal-sized fraction bars set in a row. Each fraction bar is divided into 5 equal parts, and each part is labeled one-fifth. A curved bracket above the first part of the first fraction bar is labeled one-fifth. A curved bracket over the last four parts of the first fraction bar and the first four parts of the second fraction bar is labeled eight-fifths. A curved bracket above the last part of the second fraction bar and the first part of the third fraction bar is labeled two-fifths. Together, the curved brackets above the fraction bar are labeled one-fifth plus eight-fifths plus two-fifths. A curved bracket below the first and second fraction bars and the first part of the third fraction bar is labeled eleven-fifths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/ca264230917d6c18acbc0cc7cfa76d4b72818d18.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We would add $\\blueD{\\dfrac{1}{5}}$ , $\\greenD{\\dfrac{8}{5}}$, and $\\purpleD{\\dfrac{2}{5}}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which fractions add together to make $\\dfrac{7}{3}$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$\\dfrac{1}{3}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{2}{3}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{4}{3}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{8}{3}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "All of the fractions have the same denominator, $3$, so the parts have the same size. We are ready to add.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The numerators tell us how many parts we are counting. We want $7$ equal parts.  $\\blueD{1}+\\greenD{4} + \\purpleD2=7$    [[☃ image 1]]  $\\blueD{\\dfrac{1}{3}}+\\greenD{\\dfrac{4}{3}}  + \\purpleD{\\dfrac{2}{3}}=\\dfrac{7}{3}$",
+                                    "images": [
+                                        {
+                                            "alt": "Three equal-sized fraction bars set in a row. Each fraction bar is divided into three equal parts, and each part is labeled one-third. A curved bracket above the first part of the first fraction bar is labeled one-third. A curved bracket above the remaining parts of the first fraction bar and the first two parts of the second fraction bar is labeled four-thirds. A curved bracket above the last part of the second fraction bar and the first part of the third fraction bar is labeled two-thirds. Together the curved brackets above the fraction bars are labeled one-third plus four-thirds plus two-thirds. A curved bracket below the first and second fraction bars and the first part of the third fraction bars is labeled seven-thirds.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/dbe49a342de87e48792f44d1b5c4c305a476b631.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We would add $\\blueD{\\dfrac{1}{3}}$ , $\\greenD{\\dfrac{4}{3}}$, and $\\purpleD{\\dfrac{2}{3}}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which fractions add together to make $\\dfrac{3}{6}$ ?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$\\dfrac{1}{6}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{2}{6}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{4}{6}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{8}{6}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "All of the fractions have the same denominator, $6$, so the parts have the same size. We are ready to add.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The numerators tell us how many parts we are counting. We want $3$ equal parts.  $\\blueD{1}+\\greenD{2}=3$    [[☃ image 1]]  $\\blueD{\\dfrac{1}{6}}+\\greenD{\\dfrac{2}{6}}  =\\dfrac{3}{6}$",
+                                    "images": [
+                                        {
+                                            "alt": "A fraction bar divided into 6 equal parts, and each part is labeled one-sixth. A curved bracket above the first part is labeled one-sixth. A curved bracket above the next two parts is labeled two-sixths. Together the curved brackets above the fraction bar are labeled one-sixth plus two-sixths. A curved bracket below the first three parts of the fraction bar is labeled three-sixths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/6f048f8dfa639dc2bb46bc47d98cf3df613044ba.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We would add $\\blueD{\\dfrac{1}{6}}$ and $\\greenD{\\dfrac{2}{6}}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which fractions add together to make $\\dfrac{5}{8}$ ?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$\\dfrac{1}{8}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{2}{8}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{4}{8}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{8}{8}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "All of the fractions have the same denominator, $8$, so the parts have the same size. We are ready to add.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The numerators tell us how many parts we are counting. We want $5$ equal parts.  $\\blueD{4}+\\greenD{1}=5$    [[☃ image 1]]  $\\blueD{\\dfrac{4}{8}}+\\greenD{\\dfrac{1}{8}}  =\\dfrac{5}{8}$",
+                                    "images": [
+                                        {
+                                            "alt": "A fraction bar divided into 8 equal parts, and each part is labeled one-eighth. A curved bracket above the first four parts of the fraction bar is labeled four-eighths. A curved bracket above the next part is labeled one-eighth. Together the curved brackets above the fraction bar are labeled four-eighths plus one-eighth. A curved bracket below the first five parts of the fraction bar is labeled five-eighths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/70c1283fa5c3fac04f6e436c2a8b4f9ddf025f5b.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We would add $\\blueD{\\dfrac{4}{8}}$ and $\\greenD{\\dfrac{1}{8}}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Complete this equation.**  $\\dfrac{2}{8}+ \\dfrac{3}{8}+\\dfrac{1}{8}+$  $= \\dfrac{10}{8}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "All of the fractions have the same denominator, $8$, so the parts have the same size. We are ready to add.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "[[☃ image 1]]  We already have $6$ eighths.    [[☃ image 2]]  How many more eighths do we need to make $10$ eighths?",
+                                    "images": [
+                                        {
+                                            "alt": "Two equal-sized fraction bars side-by-side. Each fraction bar is divided into 8 equal parts, and each part is labeled one-eighth. A curved bracket above the first two parts of the first fraction bar is labeled two-eighths. A curved bracket above the next three parts is labeled three-eighths. A curved bracket above the next part is labeled one-eighth. A curved bracket over the remaining parts of the first fraction bar and the first two parts of the second fraction bar is labeled question mark. Together the curved brackets above the fraction bars are labeled two-eighths plus three-eighths plus one-eighth plus question mark. A curved bracket below all the parts of the first fraction bar and the first two parts of the second fraction bar is labeled ten-eighths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/1cd83402f60295be9943a8e71d3f7b0002f4b9f8.svg"
+                                        },
+                                        {
+                                            "alt": "Two equal-sized fraction bars side-by-side. Each fraction bar is divided into 8 equal parts, and each part is labeled one-eighth. A curved bracket above the first six parts of the first fraction bar is labeled six-eighths. A curved bracket over the remaining parts of the first fraction bar and the first two parts of the second fraction bar is labeled question mark. Together the curved brackets above the fraction bars are labeled six-eighths plus question mark. A curved bracket below all the parts of the first fraction bar and the first two parts of the second fraction bar is labeled ten-eighths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/75dd45d933c67ac98e343bc9e113787034ba9226.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The missing addend is $\\redD{\\dfrac{4}{8}}$.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Two equal-sized fraction bars side-by-side. Each fraction bar is divided into 8 equal parts, and each part is labeled one-eighth. A curved bracket above the first two parts of the first fraction bar is labeled two-eighths. A curved bracket above the next three parts is labeled three-eighths. A curved bracket above the next part is labeled one-eighth. A curved bracket over the remaining parts of the first fraction bar and the first two parts of the second fraction bar is labeled four-eighths. Together the curved brackets above the fraction bars are labeled two-eighths plus three-eighths plus one-eighth plus four-eighths. A curved bracket below all the parts of the first fraction bar and the first two parts of the second fraction bar is labeled ten-eighths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/192faeeaf34888cdb59f0b5b939528de1dab803a.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "This is the complete equation.  $\\blueD{\\dfrac{2}{8}}+ \\greenD{\\dfrac{3}{8}}+ \\purpleD{\\dfrac{1}{8}}+ \\redD{\\dfrac{4}{8}} = \\dfrac{10}{8}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Complete this equation.**  $\\dfrac{4}{6}+ \\dfrac{9}{6}+\\dfrac{5}{6}+$  $= \\dfrac{21}{6}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "All of the fractions have the same denominator, $6$, so the parts have the same size. We are ready to add.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "[[☃ image 1]]  We already have $18$ sixths.   [[☃ image 2]]  How many more sixths do we need to make $21$ sixths?",
+                                    "images": [
+                                        {
+                                            "alt": "Four equal-sized fraction bars set in a row. Each fraction bar is divided into 6 equal parts, and each part is labeled one-sixth. A curved bracket above the first four parts of the first fraction bar is labeled four-sixths. A curved bracket above the remaining parts of the first fraction bar, all the parts of the second fraction bar, and the first part of the third fraction bar is labeled nine-sixths. A curved bracket above the remaining parts of the third fraction bar is labeled five-sixths. A curved bracket above the first three parts of the fourth fraction bar is labeled question mark. Together the curved brackets are labeled four-sixths plus nine-sixths plus five-sixths plus question mark. A curved line below all the parts in the first, second, and third fraction bars and the first three parts of the fourth fraction bar is labeled twenty-one sixths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/8284c8d07a2fcd85a1899e077f307dc1a366e422.svg"
+                                        },
+                                        {
+                                            "alt": "Four equal-sized fraction bars set in a row. Each fraction bar is divided into 6 equal parts, and each part is labeled one-sixth. A curved bracket above all the parts in the first, second, and third fraction bars is labeled eighteen-sixths. A curved bracket above the first three parts of the fourth fraction bar is labeled question mark. Together the curved brackets above the fraction bar are labeled eighteen-sixths plus question mark. A curved line below all the parts in the first, second, and third fraction bars and the first three parts of the fourth fraction bar is labeled twenty-one sixths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/7faaefd8140919f7ac14786b6ffd61e57a147373.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The missing addend is $\\redD{\\dfrac{3}{6}}$.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Four equal-sized fraction bars set in a row. Each fraction bar is divided into 6 equal parts, and each part is labeled one-sixth. A curved bracket above the first four parts of the first fraction bar is labeled four-sixths. A curved bracket above the remaining parts of the first fraction bar, all the parts of the second fraction bar, and the first part of the third fraction bar is labeled nine-sixths. A curved bracket above the remaining parts of the third fraction bar is labeled five-sixths. A curved bracket above the first three parts of the fourth fraction bar is labeled three-sixths. Together the curved brackets are labeled four-sixths plus nine-sixths plus five-sixths plus three-sixths. A curved line below all the parts in the first, second, and third fraction bars and the first three parts of the fourth fraction bar is labeled twenty-one sixths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/5d99019b96cea92a645a52376f6aa8c8ebf35625.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "This is the complete equation.  $\\blueD{\\dfrac{4}{6}}+ \\greenD{\\dfrac{9}{6}}+ \\purpleD{\\dfrac{5}{6}}+ \\redD{\\dfrac{3}{6}} = \\dfrac{21}{6}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Complete this equation.**  $\\dfrac{2}{5}+ \\dfrac{3}{5}+\\dfrac{1}{5}+$  $= \\dfrac{9}{5}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.6",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "All of the fractions have the same denominator, $5$, so the parts have the same size. We are ready to add.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "[[☃ image 1]]  We already have $6$ fifths.    [[☃ image 2]]  How many more fifths do we need to make $9$ fifths?",
+                                    "images": [
+                                        {
+                                            "alt": "Two equal-sized fraction bars side-by-side. Each fraction bar is divided into 5 equal parts, and each part is labeled one-fifth. A curved bracket above the first two parts of the first fraction bar is labeled two-fifths. A curved bracket above the remaining parts of the first fraction bar is labeled three-fifths. A curved bracket above the first part of the second fraction bar is labeled one-fifth. A curved bracket above the next three parts of the second fraction bar is labeled question mark. Together, the curved brackets above the fraction bars are labeled two-fifths plus three-fifths plus one-fifth plus question mark. A curved bracket below all the parts in the first fraction bar and the first four parts of the second fraction bar is labeled nine-fifths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/bd80ca680b24fead7dbcee699ad3bbe79657ea08.svg"
+                                        },
+                                        {
+                                            "alt": "Two equal-sized fraction bars side-by-side. Each fraction bar is divided into 5 equal parts, and each part is labeled one-fifth. A curved bracket above all the parts in the first fraction bar and the first part of the second fraction bar is labeled six-fifths. A curved bracket over the next three parts of the second fraction bar is labeled question mark. Together the curved brackets above the fraction bar are labeled six-fifths plus question mark. A curved bracket below all the parts in the first fraction bar and the first four parts of the second fraction bar is labeled nine-fifths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/4e1bb5baafafced59519c3721b080421d12b5439.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The missing addend is $\\redD{\\dfrac{3}{5}}$.   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Two equal-sized fraction bars side-by-side. Each fraction bar is divided into 5 equal parts, and each part is labeled one-fifth. A curved bracket above the first two parts of the first fraction bar is labeled two-fifths. A curved bracket above the remaining parts of the first fraction bar is labeled three-fifths. A curved bracket above the first part of the second fraction bar is labeled one-fifth. A curved bracket above the next three parts of the second fraction bar is labeled three-fifths. Together, the curved brackets above the fraction bars are labeled two-fifths plus three-fifths plus one-fifth plus three-fifths. A curved bracket below all the parts in the first fraction bar and the first four parts of the second fraction bar is labeled nine-fifths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/16b8584302451e3889617d1f1f81eab2918071c4.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "This is the complete equation.  $\\blueD{\\dfrac{2}{5}}+ \\greenD{\\dfrac{3}{5}}+ \\purpleD{\\dfrac{1}{5}}+ \\redD{\\dfrac{3}{5}} = \\dfrac{9}{5}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Complete this equation.**  $\\dfrac{4}{8}+ \\dfrac{3}{8}+\\dfrac{1}{8}+$  $= \\dfrac{14}{8}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.75",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "All of the fractions have the same denominator, $8$, so the parts have the same size. We are ready to add.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "[[☃ image 1]]  We already have $8$ eighths.    [[☃ image 2]]  How many more eighths do we need to make $14$ eighths?",
+                                    "images": [
+                                        {
+                                            "alt": "Two equal-sized fraction bars side-by-side. Each fraction bar is divided into 8 equal parts, and each part is labeled one-eighth. A curved bracket above the first four parts of the first bar is labeled four-eighths. A curved bracket above the next three parts of the first fraction bar is labeled three-eighths. A curved bracket over the remaining part of the first fraction bar is labeled one-eighth. A curved bracket over the first six parts of the second fraction bar is labeled question mark. Together the curved brackets above the fraction bars are labeled four-eighths plus three-eighths plus one-eighth plus question mark. A curved bracket below all the parts in the first fraction bar and the first six parts of the second fraction bar is labeled fourteen-eighths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/903fa5d751f41191dfd97bf000d7b7dd7afd1879.svg"
+                                        },
+                                        {
+                                            "alt": "Two equal-sized fraction bars side-by-side. Each fraction bar is divided into 8 equal parts, and each part is labeled one-eighth. A curved bracket above all the parts of the first fraction bar is labeled eight-eighths.  A curved bracket over the first six parts of the second fraction bar is labeled question mark. Together, the curved brackets above the fractions bars are labeled eight-eighths plus question mark. A curved bracket below all the parts in the first fraction bar and the first six parts of the second fraction bar is labeled fourteen-eighths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/e17b66faf57654142871526e14f9e3408894256c.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The missing addend is $\\redD{\\dfrac{6}{8}}$.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Two equal-sized fraction bars side-by-side. Each fraction bar is divided into 8 equal parts, and each part is labeled one-eighth. A curved bracket above the first four parts of the first bar is labeled four-eighths. A curved bracket above the next three parts of the first fraction bar is labeled three-eighths. A curved bracket over the remaining part of the first fraction bar is labeled one-eighth. A curved bracket over the first six parts of the second fraction bar is labeled six-eighths. Together the curved brackets above the fraction bars are labeled four-eighths plus three-eighths plus one-eighth plus six-eighths. A curved bracket below all the parts in the first fraction bar and the first six parts of the second fraction bar is labeled fourteen-eighths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/040babbd36a338ef438b6bd4175aa254c269a47b.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "This is the complete equation.  $\\blueD{\\dfrac{4}{8}}+ \\greenD{\\dfrac{3}{8}}+ \\purpleD{\\dfrac{1}{8}}+ \\redD{\\dfrac{6 }{8}} = \\dfrac{14}{8}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Complete this equation.**  $\\dfrac{1}{2}+ \\dfrac{6}{2}+$  $= \\dfrac{12}{2}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "2.5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "All of the fractions have the same denominator, $2$, so the parts have the same size. We are ready to add.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "[[☃ image 1]]  We already have $7$ halves.  [[☃ image 2]]  How many more halves do we need to make $12$ halves?",
+                                    "images": [
+                                        {
+                                            "alt": "Six equal-sized fraction bars set in a row. Each fraction bar is divided into 2 equal parts, and each part is labeled one-half. A curved bracket above the first part of the first fraction bar is labeled one-half. A curved bracket above the remaining part of the first fraction bar, all of the parts of the second and third fraction bars, and the first part of the fourth fraction bar is labeled six-halves. A curved bracket above the remaining part of the fourth fraction bar and all of the parts of the fifth and sixth fraction bars is labeled question mark. Together the curved brackets above the fraction bars are labeled one-half plus six-halves plus question mark. A curved bracket below all the parts of all the fraction bars is labeled twelve-halves.\n",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/9d3af2b165966b8124f7a7911657c0e8dba917a1.svg"
+                                        },
+                                        {
+                                            "alt": "Six equal-sized fraction bars set in a row. Each fraction bar is divided into 2 equal parts, and each part is labeled one-half. A curved bracket above all the parts of the first, second, and third fraction bars and the first part of the fourth fraction bar is labeled seven-halves. A curved bracket above the remaining part of the fourth fraction bar and all of the parts of the fifth and sixth fraction bars is labeled question mark. Together the curved brackets above the fraction bars are labeled seven-halves plus question mark. A curved bracket below all the parts of all the fraction bars is labeled twelve-halves.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/e8f059ed68197ecdd16384d28c94d4e647d6cc40.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The missing addend is $\\purpleD{\\dfrac{5}{2}}$.   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Six equal-sized fraction bars set in a row. Each fraction bar is divided into 2 equal parts, and each part is labeled one-half. A curved bracket above the first part of the first fraction bar is labeled one-half. A curved bracket above the remaining part of the first fraction bar, all of the parts of the second and third fraction bars, and the first part of the fourth fraction bar is labeled six-halves. A curved bracket above the remaining part of the fourth fraction bar and all of the parts of the fifth and sixth fraction bars is labeled five-halves. Together the curved brackets above the fraction bars are labeled one-half plus six-halves plus five-halves. A curved bracket below all the parts of all the fraction bars is labeled twelve-halves.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/62a20e90a58928c1adaa8bf2d35b8cf0a0a930ca.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "This is the complete equation.  $\\blueD{\\dfrac{1}{2}}+ \\greenD{\\dfrac{6}{2}}+ \\purpleD{\\dfrac{5}{2}}= \\dfrac{12}{2}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Complete this equation.**  $\\dfrac{1}{3}+ \\dfrac{3}{3}+\\dfrac{1}{3}+$  $= \\dfrac{7}{3}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.6666666666666666",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "All of the fractions have the same denominator, $3$, so the parts have the same size. We are ready to add.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "[[☃ image 1]]  We already have $5$ thirds.   [[☃ image 2]]  How many more thirds do we need to make $7$ thirds?",
+                                    "images": [
+                                        {
+                                            "alt": "Three equal-sized fraction bars set in a row. Each fraction bar is divided into 3 equal parts, and each part is labeled one-third. A curved bracket above the first part of the first fraction bar is labeled one-third. A curved bracket above the remaining parts of the first fraction bar and the first part of the second fraction bar is labeled three-thirds. A curved bracket above the next part of the second fraction bar is labeled one-third. A curved bracket above the remaining part of the second fraction bar and the first part of the third fraction bar is labeled question mark. Together the curved brackets above the fraction bars is labeled one-third plus three-thirds plus one-third plus question mark. A curved line below all the parts of the first and second fraction bars and the first part of the third fraction bar is labeled seven-thirds.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/1d18aacea17149a19626f27341ae2b68989b99eb.svg"
+                                        },
+                                        {
+                                            "alt": "Three equal-sized fraction bars set in a row. Each fraction bar is divided into 3 equal parts, and each part is labeled one-third. A curved bracket above all the parts in the first fraction bar and the first two parts of the second fraction bar is labeled five-thirds. A curved bracket above the remaining part of the second fraction bar and the first part of the third fraction bar is labeled question mark. Together the curved brackets above the fractions bars are labeled five-thirds plus question mark. A curved line below all the parts of the first and second fraction bars and the first part of the third fraction bar is labeled seven-thirds.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/0e72e0ee2b8a6ca5c3fcb98e2e45a4a665d628a3.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The missing addend is $\\redD{\\dfrac{2}{3}}$.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Three equal-sized fraction bars set in a row. Each fraction bar is divided into 3 equal parts, and each part is labeled one-third. A curved bracket above the first part of the first fraction bar is labeled one-third. A curved bracket above the remaining parts of the first fraction bar and the first part of the second fraction bar is labeled three-thirds. A curved bracket above the next part of the second fraction bar is labeled one-third. A curved bracket above the remaining part of the second fraction bar and the first part of the third fraction bar is labeled two-thirds. Together the curved brackets above the fraction bars is labeled one-third plus three-thirds plus one-third plus two-thirds. A curved line below all the parts of the first and second fraction bars and the first part of the third fraction bar is labeled seven-thirds.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/f898761f2c2378a6c541cc9857a44023e1696e56.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "This is the complete equation.  $\\blueD{\\dfrac{1}{3}}+ \\greenD{\\dfrac{3}{3}}+ \\purpleD{\\dfrac{1}{3}} + \\redD{\\dfrac{2}{3}} = \\dfrac{7}{3}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Is each expression less than, equal to, or greater than $\\dfrac{7}{10}?$**   | |  - | - | - $\\dfrac{3}{10} + \\dfrac{4}{10}$ |  | $\\dfrac{7}{10}$ $\\dfrac{2}{10} + \\dfrac{1}{10} + \\dfrac{3}{10}$ |  | $\\dfrac{7}{10}$ $\\dfrac{2}{10} + \\dfrac{3}{10} + \\dfrac{1}{10} + \\dfrac{1}{10}$ |  | $\\dfrac{7}{10}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "<",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "=",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": ">",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "<",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "=",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": ">",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "<",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "=",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": ">",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "All of the fractions have the same denominator, $10$, so the parts have the same size. We are ready to add.  Let's look at each expression.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "### Expression: $\\dfrac{3}{10} + \\dfrac{4}{10} $  $\\dfrac{3}{10} + \\dfrac{4}{10}  =  \\dfrac{(3+4)}{10} = \\dfrac{7}{10}$   [[☃ image 1]]    $\\dfrac{3}{10} + \\dfrac{4}{10}=\\dfrac{7}{10} $",
+                                    "images": [
+                                        {
+                                            "alt": "A fraction bar divided into 10 equal parts, and each part is labeled one-tenth. A curved bracket above the first three parts is labeled three-tenths. A curved bracket above the next four parts is labeled four-tenths. Together the curved brackets above the fraction bar are labeled three-tenths pus four-tenths. A curved bracket below the first seven parts of the fraction bar is labeled seven-tenths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/b2a0e34fd92152e01a2f51d22745a5c4ec8493c5.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "### Expression: $\\dfrac{2}{10} + \\dfrac{1}{10} + \\dfrac{3}{10}$  $\\dfrac{2}{10} + \\dfrac{1}{10} + \\dfrac{3}{10}  =  \\dfrac{(2+1+3)}{10} = \\dfrac{6}{10}$    [[☃ image 1]]  $\\dfrac{2}{10} + \\dfrac{1}{10} + \\dfrac{3}{10}<\\dfrac{7}{10}$",
+                                    "images": [
+                                        {
+                                            "alt": "A fraction bar divided into 10 equal parts, and each part is labeled one-tenth. A curved bracket above the first two parts is labeled two-tenths. A curved bracket above the next part is labeled one-tenth. A curved bracket above the next three parts is labeled three-tenths. Together the curved brackets above the fraction bar are labeled two-tenths plus one-tenth plus three-tenths. A curved bracket below the first six parts of the fraction bar is labeled six-tenths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/14073f626aab1a6b9e09997788b902e456b63716.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "### Expression: $\\dfrac{2}{10} + \\dfrac{3}{10} + \\dfrac{1}{10} + \\dfrac{1}{10}$  $\\dfrac{2}{10} + \\dfrac{3}{10} + \\dfrac{1}{10} + \\dfrac{1}{10}  =  \\dfrac{(2+3+1+1)}{10} = \\dfrac{7}{10}$   [[☃ image 1]]  $\\dfrac{2}{10} + \\dfrac{3}{10} + \\dfrac{1}{10} + \\dfrac{1}{10}=\\dfrac{7}{10}$",
+                                    "images": [
+                                        {
+                                            "alt": "A fraction bar divided into 10 equal parts, and each part is labeled one-tenth. A curved bracket above the first two parts is labeled two-tenths. A curved bracket above the next three parts is labeled three-tenths. A curved bracket above the next part is labeled one-tenth. A curved bracket above the next part is labeled one-tenth. Together the curved brackets above the fraction bar is labeled two-tenths plus three-tenths plus one-tenth plus one-tenth. A curved bracket below the first seven parts of the fraction bar is labeled seven-tenths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/e3ca70b2bae01098117933c5c7e83eb6691f025b.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "| |  - | - | - $\\dfrac{3}{10} + \\dfrac{4}{10}$ | $=$| $\\dfrac{7}{10}$ $\\dfrac{2}{10} + \\dfrac{1}{10} + \\dfrac{3}{10}$ | $<$ | $\\dfrac{7}{10}$ $\\dfrac{2}{10} + \\dfrac{3}{10} + \\dfrac{1}{10} + \\dfrac{1}{10}$ | $=$| $\\dfrac{7}{10}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 4"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Is each expression less than, equal to, or greater than $\\dfrac{12}{8}?$**   | |  - | - | - $\\dfrac{8}{8} + \\dfrac{6}{8}$ |  | $\\dfrac{12}{8}$ $\\dfrac{2}{8} + \\dfrac{3}{8} + \\dfrac{4}{8}$ |  | $\\dfrac{12}{8}$ $\\dfrac{3}{8} + \\dfrac{3}{8} + \\dfrac{1}{8} + \\dfrac{5}{8}$ |  | $\\dfrac{12}{8}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "<",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "=",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": ">",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "<",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "=",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": ">",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "<",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "=",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": ">",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "All of the fractions have the same denominator, $8$, so the parts have the same size. We are ready to add.  Let's look at each expression.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "### Expression: $\\dfrac{8}{8} + \\dfrac{6}{8} $  $\\dfrac{8}{8} + \\dfrac{6}{8}  =  \\dfrac{(8+6)}{8} = \\dfrac{14}{8}$  [[☃ image 1]]  $\\dfrac{8}{8} + \\dfrac{6}{8}>\\dfrac{12}{8} $",
+                                    "images": [
+                                        {
+                                            "alt": "Two equal-sized fraction bars side-by-side. Each fraction bar is divided into eight equal parts, each part labeled one-eighth. A curved bracket above the first fraction bar is labeled eight-eighths. A curved bracket above six parts of the second fraction bar is labeled six-eighths. Together the curved brackets above the fraction bars are labeled eight-eighths plus six-eighths. A curved bracket below the eight parts of the first fraction bar and six parts of the second fraction bar is labeled fourteen-eighths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/b6e48d63abdafdeb6e54fece928ce4766c7667fe.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "### Expression: $\\dfrac{2}{8} + \\dfrac{3}{8} + \\dfrac{4}{8}$  $\\dfrac{2}{8} + \\dfrac{3}{8} + \\dfrac{4}{8}  =  \\dfrac{(2+3+4)}{8} = \\dfrac{9}{8}$  [[☃ image 1]]  $\\dfrac{2}{8} + \\dfrac{3}{8} + \\dfrac{4}{8}<\\dfrac{12}{8}$",
+                                    "images": [
+                                        {
+                                            "alt": "Two equal-sized fraction bars side-by-side. Each fraction bar is divided into 8 equal parts, each part labeled one-eighth. In the first fraction bar, moving right, the first 2 parts have a curved bracket above labeled two-eighths and the next 3 parts have a curved bracket above labeled three-eighths. A curved bracket above the last 3 parts of the first fraction bar and the first part of the second fraction bar is labeled four-eighths. Together the curved brackets above the fraction bars are labeled two-eighths plus three-eighths plus four-eighths. A curved bracket below all the parts in the first fraction bar and first part of the second fraction bar is labeled nine-eighths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/ae10b138f8c0c3727c84d12f1d706bb48e374b96.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "### Expression: $\\dfrac{3}{8} + \\dfrac{3}{8} + \\dfrac{1}{8} + \\dfrac{5}{8}$  $\\dfrac{3}{8} + \\dfrac{3}{8} + \\dfrac{1}{8} + \\dfrac{5}{8}  =  \\dfrac{(3+3+1+5)}{8} = \\dfrac{12}{8}$  [[☃ image 1]]  $\\dfrac{3}{8} + \\dfrac{3}{8} + \\dfrac{1}{8} + \\dfrac{5}{8}=\\dfrac{12}{8}$",
+                                    "images": [
+                                        {
+                                            "alt": "Two equal-sized fraction bars side-by-side. Each fraction bar is divided into 8 equal parts, each part labeled one-eighth. In the first fraction bar, moving right, the first 3 parts have a curved bracket above labeled three-eighths, the next 3 parts have a curved bracket above labeled three-eighths, and the next part has a curved bracket above labeled one-eighth. A curved bracket above the last part of the first fraction bar and the first 4 parts of the second fraction bar is labeled five-eighths. Together the curved brackets above the fraction bars are labeled three-eighths plus three-eighths plus one-eighth plus five-eighths. A curved bracket below all the parts in the first fraction bar and four parts in the second fraction bar is labeled twelve-eighths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/167cd55838578523200d2496215ba73f35d9ded9.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "| |  - | - | - $\\dfrac{8}{8} + \\dfrac{6}{8}$| $>$| $\\dfrac{12}{8}$ $\\dfrac{2}{8} + \\dfrac{3}{8} + \\dfrac{4}{8}$ | $<$ | $\\dfrac{12}{8}$ $\\dfrac{3}{8} + \\dfrac{3}{8} + \\dfrac{1}{8} + \\dfrac{5}{8}$ |$=$ | $\\dfrac{12}{8}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 4"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Is each expression less than, equal to, or greater than $\\dfrac{6}{12}?$**   | |  - | - | - $\\dfrac{2}{12} + \\dfrac{3}{12}$ |  | $\\dfrac{6}{12}$ $\\dfrac{4}{12} + \\dfrac{3}{12} + \\dfrac{2}{12}$ |  | $\\dfrac{6}{12}$ $\\dfrac{3}{12} + \\dfrac{1}{12} + \\dfrac{1}{12} + \\dfrac{4}{12}$ |  | $\\dfrac{6}{12}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "<",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "=",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": ">",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "<",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "=",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": ">",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "<",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "=",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": ">",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "All of the fractions have the same denominator, $12$, so the parts have the same size. We are ready to add.  Let's look at each expression.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "### Expression: $\\dfrac{2}{12} + \\dfrac{3}{12} $  $\\dfrac{2}{12} + \\dfrac{3}{12}  =  \\dfrac{(2+3)}{12} = \\dfrac{5}{12}$  [[☃ image 1]]  $\\dfrac{2}{12} + \\dfrac{3}{12} <\\dfrac{6}{12}$",
+                                    "images": [
+                                        {
+                                            "alt": "A fraction bar divided into 12 equal parts, and each part is labeled one-twelfth. A curved bracket above the first two parts of the fraction bar is labeled two-twelfths. A curved bracket above the next three parts is labeled three-twelfths. Together the curved brackets above the fraction bar are labeled two-twelfths plus three-twelfths. A curved bracket below the first five parts of the fraction bar is labeled five-twelfths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/65c5987f090d5602ad84da8f58fd896e0327783a.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "### Expression: $\\dfrac{4}{12} + \\dfrac{3}{12} + \\dfrac{2}{12}$  $\\dfrac{2}{12} + \\dfrac{3}{12} + \\dfrac{2}{12}  =  \\dfrac{(2+3+2)}{12} = \\dfrac{7}{12}$    [[☃ image 1]]  $\\dfrac{4}{12} + \\dfrac{3}{12} + \\dfrac{2}{12}>\\dfrac{6}{12}$",
+                                    "images": [
+                                        {
+                                            "alt": "A fraction bar divided into 12 equal parts and each part is labeled one-twelfth. A curved bracket above the first four parts of the fraction bar is labeled four-twelfths. A curved bracket above the next three parts is labeled three-twelfths. A curved bracket above the next two parts is labeled two-twelfths. Together the curved brackets above the fraction bar are labeled four-twelfths plus three-twelfths plus two-twelfths. A curved bracket below the first nine parts of the fraction bar is labeled nine-twelfths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/61984462651472d9028a2ce93904785795a6faba.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "### Expression: $\\dfrac{3}{12} + \\dfrac{1}{12} + \\dfrac{1}{12} + \\dfrac{4}{12}$  $\\dfrac{3}{12} + \\dfrac{1}{12} + \\dfrac{1}{12} + \\dfrac{4}{12}  =  \\dfrac{(3+1+1+4)}{12} = \\dfrac{9}{12}$    [[☃ image 1]]  $\\dfrac{3}{12} + \\dfrac{1}{12} + \\dfrac{1}{12} + \\dfrac{4}{12}>\\dfrac{6}{12}$",
+                                    "images": [
+                                        {
+                                            "alt": "A fraction bar divided into 12 equal parts, and each part is labeled one-twelfth. A curved bracket above the first three parts of the fraction bar is labeled three-twelfths. A curved bracket above the next part is labeled one-twelfth. A curved bracket above the next part is labeled one-twelfth. A curved bracket over the next four parts is labeled four-twelfths. Together the curved brackets above the fraction bar are labeled three-twelfths plus one-twelfth plus one-twelfth plus four-twelfths. A curved bracket below the first nine parts of the fraction bar is labeled nine-twelfths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/7c13f73d7f45b9a515a760ae4344c8dd312dd93c.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "| |  - | - | - $\\dfrac{2}{12} + \\dfrac{3}{12}$ |$<$ | $\\dfrac{6}{12}$ $\\dfrac{4}{12} + \\dfrac{3}{12} + \\dfrac{2}{12}$ | $>$ | $\\dfrac{6}{12}$ $\\dfrac{3}{12} + \\dfrac{1}{12} + \\dfrac{1}{12} + \\dfrac{4}{12}$ | $>$ | $\\dfrac{6}{12}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 4"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Is each expression less than, equal to, or greater than $\\dfrac{6}{4}?$**   | |  - | - | - $\\dfrac{5}{4} + \\dfrac{4}{4}$ |  | $\\dfrac{6}{4}$ $\\dfrac{4}{4} + \\dfrac{2}{4} $ |  | $\\dfrac{6}{4}$ $\\dfrac{2}{4} + \\dfrac{1}{4} + \\dfrac{1}{4} + \\dfrac{2}{4}$ |  | $\\dfrac{6}{4}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "<",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "=",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": ">",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "<",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "=",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": ">",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "<",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "=",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": ">",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "All of the fractions have the same denominator, $4$, so the parts have the same size. We are ready to add.  Let's look at each expression.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "### Expression: $\\dfrac{5}{4} + \\dfrac{4}{4} $  $\\dfrac{5}{4} + \\dfrac{4}{4}  =  \\dfrac{(5+4)}{4} = \\dfrac{9}{4}$    [[☃ image 1]]  $\\dfrac{5}{4} + \\dfrac{4}{4} >\\dfrac{6}{4}$",
+                                    "images": [
+                                        {
+                                            "alt": "Three equal-sized fraction bars set in a row. Each fraction bar is divided into 4 equal parts, and each part is labeled one-fourth. A curved bracket above all of the parts of the first fraction bar and the first part of the second fraction bar is labeled five-fourths. A curved bracket above the remaining parts of the second fraction bar and the first part of the third fraction bar is labeled four-fourths. Together the curved brackets above the fraction bars are labeled five-fourths plus four-fourths. A curved bracket below all of the parts of the first and second fraction bars and the first part of the third fraction bar is labeled nine-fourths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/3478ef991dd1d56d3ce258426d14297297bba219.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "### Expression: $\\dfrac{4}{4} + \\dfrac{2}{4} $  $\\dfrac{4}{4} + \\dfrac{2}{4}  =  \\dfrac{(4+2)}{4} = \\dfrac{6}{4}$    [[☃ image 1]]  $\\dfrac{4}{4} + \\dfrac{2}{4} =\\dfrac{6}{4}$",
+                                    "images": [
+                                        {
+                                            "alt": "Two equal-sized fraction bars side-by-side. Each fraction bar is divided into four equal parts, and each part is labeled one-fourth. A curved bracket above all the parts of the first fraction bar is labeled four-fourths. A curved bracket above the first two parts of the second fraction bar is labeled two-fourths. Together the curved brackets above the fraction bars are labeled four-fourths plus two-fourths. A curved bracket below all of the parts of the first fraction bar and the first two parts of the second fraction bar is labeled six-fourths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/f43ebbe4b4e9543e33777d6b6328bdfc4a2f6afe.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "### Expression: $\\dfrac{2}{4} + \\dfrac{1}{4} + \\dfrac{1}{4} + \\dfrac{2}{4} $  $\\dfrac{2}{4} + \\dfrac{1}{4} + \\dfrac{1}{4} + \\dfrac{2}{4}  =  \\dfrac{(2+1+1+2)}{4} = \\dfrac{6}{4}$    [[☃ image 1]]  $\\dfrac{2}{4} + \\dfrac{1}{4} + \\dfrac{1}{4} + \\dfrac{2}{4} =\\dfrac{6}{4}$",
+                                    "images": [
+                                        {
+                                            "alt": "Two equal-sized fraction bars side-by-side. Each fraction bar is divided into four equal parts, and each part is labeled one-fourth. A curved bracket above the first two parts of the first fraction bar is labeled two-fourths. A curved bracket above the next part of the first fraction bar is labeled one fourth. A curved bracket above the remaining part of the first fraction bar is labeled one-fourth. A curved bracket above the first two parts of the second fraction bar is labeled two-fourths. Together the curved brackets above the fraction bar are labeled two-fourths plus one-fourth plus one-fourth plus two-fourths. A curved bracket below all of the parts of the first fraction bar and the first two parts of the second fraction bar is labeled six-fourths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/6abbecd471c8b02c9616a05dee54803fd6195702.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "| |  - | - | - $\\dfrac{5}{4} + \\dfrac{4}{4}$ | $>$ | $\\dfrac{6}{4}$ $\\dfrac{4}{4} + \\dfrac{2}{4} $ |$=$| $\\dfrac{6}{4}$ $\\dfrac{2}{4} + \\dfrac{1}{4} + \\dfrac{1}{4} + \\dfrac{2}{4}$ |$=$ | $\\dfrac{6}{4}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 4"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Determine whether each expression is less than, equal to, or greater than $\\dfrac{5}{6}$.**     | |  - | - | - $\\dfrac{2}{6} + \\dfrac{3}{6} + \\dfrac{1}{6} + \\dfrac{2}{6}$  |  | $\\dfrac{5}{6}$ $\\dfrac{1}{6} + \\dfrac{4}{6} $ |  | $\\dfrac{5}{6}$ $\\dfrac{2}{6} + \\dfrac{1}{6} + \\dfrac{1}{6}$ |  | $\\dfrac{5}{6}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "<",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "=",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": ">",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "<",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "=",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": ">",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "<",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "=",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": ">",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "All of the fractions have the same denominator, $6$, so the parts have the same size. We are ready to add.  Let's look at each expression.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "### Expression: $\\dfrac{2}{6} + \\dfrac{3}{6} + \\dfrac{1}{6} + \\dfrac{2}{6} $  $\\dfrac{2}{6} + \\dfrac{3}{6} + \\dfrac{1}{6} + \\dfrac{2}{6}  =  \\dfrac{(2+3+1+2)}{6} = \\dfrac{8}{6}$    [[☃ image 1]]  $\\dfrac{2}{6} + \\dfrac{3}{6} + \\dfrac{1}{6} + \\dfrac{2}{6} >\\dfrac{5}{6}$",
+                                    "images": [
+                                        {
+                                            "alt": "Two equal-sized fraction bars side-by-side. Each fraction bar is divided into six equal parts, each part labeled one-sixth. In the first fraction bar, moving right, the first two parts have a curved bracket above them labeled two-sixths, the next three parts have a curved bracket above them labeled three-sixths, and the last part has a curved bracket above it labeled one-sixth. In the second fraction bar, the first two parts have a curved bracket above them labeled two-sixths. Together the curved brackets above the fraction bars are labeled two-sixths plus three-sixths plus one-sixth plus two-sixths. A curved bracket below all the parts in the first fraction bar and the first two parts of the second fraction bar is labeled eight-sixths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/e7800efc97e896801b4a32ffd9cf9d1f8e2e1e33.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "### Expression: $\\dfrac{1}{6} + \\dfrac{4}{6} $  $ \\dfrac{1}{6} + \\dfrac{4}{6} =  \\dfrac{(1+4)}{6} = \\dfrac{5}{6}$   [[☃ image 1]]  $\\dfrac{1}{6} + \\dfrac{4}{6} =\\dfrac{5}{6}$",
+                                    "images": [
+                                        {
+                                            "alt": "A fraction bar divided into 6 equal parts, each part labeled one-sixth. The first part has a curved bracket above it labeled one-sixth. The next four parts have a curved bracket above them labeled four-sixths. Together the curved brackets above the fraction bar are labeled one-sixth plus four-sixths. A curved bracket below the first 5 parts of the fraction bar is labeled five-sixths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/64ba125627682a07cc127463da2491b02b8470e1.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "### Expression: $\\dfrac{2}{6} + \\dfrac{1}{6} + \\dfrac{1}{6} $  $\\dfrac{2}{6} + \\dfrac{1}{6} + \\dfrac{1}{6} =  \\dfrac{(2+1+1)}{6} = \\dfrac{4}{6}$   [[☃ image 1]]   $\\dfrac{2}{6} + \\dfrac{1}{6} + \\dfrac{1}{6} <\\dfrac{5}{6}$",
+                                    "images": [
+                                        {
+                                            "alt": "A fraction bar divided into 6 equal parts, each part labeled one-sixth. The first part has a curved bracket above is labeled two-sixths. The next part has a curved bracket above it labeled one-sixth. The next part has a curved bracket above it labeled one-sixth. Together, the curved bracket above the fraction bar are labeled two-sixths plus one-sixth plus one-sixth. A curved bracket below the first 4 parts of the fraction bar is labeled four-sixths.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/12bd7f33075e49ad02346d3501ac45be2997316f.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "| |  - | - | - $\\dfrac{2}{6} + \\dfrac{3}{6} + \\dfrac{1}{6} + \\dfrac{2}{6}$  | $>$ | $\\dfrac{5}{6}$ $\\dfrac{1}{6} + \\dfrac{4}{6} $ | $=$| $\\dfrac{5}{6}$ $\\dfrac{2}{6} + \\dfrac{1}{6} + \\dfrac{1}{6}$ | $<$ | $\\dfrac{5}{6}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 4"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Is each expression less than, equal to, or greater than $\\dfrac{8}{3}?$**   | |  - | - | - $\\dfrac{3}{3} + \\dfrac{4}{3} + \\dfrac{2}{3}$  |  | $\\dfrac{8}{3}$ $\\dfrac{5}{3} + \\dfrac{3}{3} $ |  | $\\dfrac{8}{3}$ $\\dfrac{2}{3} + \\dfrac{1}{3} + \\dfrac{3}{3} + \\dfrac{2}{3} $ |  | $\\dfrac{8}{3}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "<",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "=",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": ">",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "<",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "=",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": ">",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "<",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "=",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": ">",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "All of the fractions have the same denominator, $3$, so the parts have the same size. We are ready to add.  Let's look at each expression.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "### Expression: $\\dfrac{3}{3} + \\dfrac{4}{3} + \\dfrac{2}{3} $  $\\dfrac{3}{3} + \\dfrac{4}{3} + \\dfrac{2}{3} =  \\dfrac{(3+4+2)}{3} = \\dfrac{9}{3}$    [[☃ image 1]]  $\\dfrac{3}{3} + \\dfrac{4}{3} + \\dfrac{2}{3} >\\dfrac{8}{3}$",
+                                    "images": [
+                                        {
+                                            "alt": "Three equal-sized fraction bars set in a row. Each fraction bar is divided into 3 equal parts, and each part is labeled one-third. A curved bracket above all the parts of the first fraction bar is labeled three-thirds. A curved bracket above all the parts of the second fraction bar and the first part of the third fraction bar is labeled four-thirds. A curved bracket above the remaining parts of the third fraction bar is labeled two-thirds. Together the curved brackets above the fraction bars are labeled three-thirds plus four-thirds plus two-thirds. A curved bracket below all the parts of all the fraction bars is labeled nine-thirds.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/44c75cb9de10a23177726f764b4bd02d518f9a92.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "### Expression: $\\dfrac{5}{3} + \\dfrac{3}{3}$  $\\dfrac{5}{3} + \\dfrac{3}{3}  =  \\dfrac{(5+3)}{3} = \\dfrac{8}{3}$    [[☃ image 1]]  $\\dfrac{5}{3} + \\dfrac{3}{3}=\\dfrac{8}{3}$",
+                                    "images": [
+                                        {
+                                            "alt": "Three equal-sized fraction bars set in a row. Each fraction bar is divided into 3 equal parts, and each part is labeled one-third. A curved bracket above all the parts of the first fraction bar and the first two parts of the second fraction bar is labeled five-thirds. A curved bracket above the remaining part of the second fraction bar and the first two parts of the third fraction bar is labeled three-thirds. Together the curved brackets above the fraction bars are labeled five-thirds plus three-thirds. A curved bracket below all of the parts of the first and second fraction bars and the first two parts of the third fraction bar is labeled eight-thirds.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/cef4ebc14bde3bebf334b25bfcc0b36735883b46.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "### Expression: $\\dfrac{2}{3} + \\dfrac{1}{3} + \\dfrac{3}{3} + \\dfrac{2}{3}$  $\\dfrac{2}{3} + \\dfrac{1}{3} + \\dfrac{3}{3} +\\dfrac23=  \\dfrac{(2+1+3+2)}{3} = \\dfrac{8}{3}$    [[☃ image 1]]  $\\dfrac{2}{3} + \\dfrac{1}{3} + \\dfrac{3}{3} + \\dfrac{2}{3}=\\dfrac{8}{3}$",
+                                    "images": [
+                                        {
+                                            "alt": "Three equal-sized fraction bars set in a row. Each fraction bar is divided into 3 equal parts, and each part is labeled one-third. A curved bracket above the first two parts of the first fraction bar is labeled two-thirds. A curved bracket above the remaining part of the first fraction bar is labeled one-third. A curved bracket above all the parts of the second fraction bar is labeled three-thirds. A curved bracket above the first two parts of the third fraction bar is labeled two-thirds. Together the curved brackets above the fraction bars are labeled two-thirds plus one-third plus three-thirds plus two-thirds. A curved bracket below all of the parts of the first and second fraction bars and the first two parts of the third fraction bar is labeled eight-thirds.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/faf66703cc7da26ae9e6f611b9e5cb7d27f8a710.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "| |  - | - | - $\\dfrac{3}{3} + \\dfrac{4}{3} + \\dfrac{2}{3}$ | $>$ | $\\dfrac{8}{3}$ $\\dfrac{5}{3} + \\dfrac{3}{3} $ |$=$ | $\\dfrac{8}{3}$ $\\dfrac{2}{3} + \\dfrac{1}{3} + \\dfrac{3}{3} + \\dfrac{2}{3} $ | $=$ | $\\dfrac{8}{3}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 4"
+                    }
+                }
+            }
+        }
+    ]
+}

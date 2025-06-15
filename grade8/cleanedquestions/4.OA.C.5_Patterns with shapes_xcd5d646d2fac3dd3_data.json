@@ -1,0 +1,915 @@
+{
+    "standard_metadata": {
+        "standard_id": "4.OA.C.5",
+        "standard_description": "Generate a number or shape pattern that follows a given rule. Identify apparent features of the pattern that were not explicit in the rule itself.",
+        "standard_title": "Patterns with shapes",
+        "standard_url": "https://www.khanacademy.org/math/cc-fourth-grade-math/imp-factors-multiples-and-patterns/imp-math-patterns/e/patterns-with-shapes"
+    },
+    "id": "xcd5d646d2fac3dd3",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Look at the following shapes.     **What is the pattern shown?**",
+                                "images": [
+                                    {
+                                        "alt": "A series of shapes from left to right: triangle, rectangle, square, triangle, triangle, rectangle, square, triangle. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/5616dc7d0f9d3ee1c76e43b82abe11f42a076cc2.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "triangle, rectangle, square, triangle",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "triangle, rectangle, square, square",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "triangle, square, rectangle, triangle",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's find the pattern in the shapes we can see.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The shapes follow the pattern **triangle**, **triangle**, **rectangle**, **square** before it starts repeating again.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A series of shapes from left to right: triangle, triangle, rectangle, square. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/4b4a02ae990165c3891b47d68c2fca7750892bd7.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The pattern for the shapes is *triangle, rectangle, square, triangle*.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Identify the pattern"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Look at the shapes below.    **What is the pattern shown?**",
+                                "images": [
+                                    {
+                                        "alt": "sequence of shapes: rectangle, rectangle, circle, rectangle, rectangle, circle",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/6223d800ae512e42d7caede41b1b82656861cb4b.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "circle, rectangle, circle",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "rectangle, rectangle, circle",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "rectangle, circle, square",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's find the pattern in the shapes we can see.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The shapes follow the pattern **rectangle**, **rectangle**, **circle** before it starts repeating again.",
+                                    "images": [
+                                        {
+                                            "alt": "sequence of shapes: rectangle, rectangle, circle",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/46232322c267670b9e17c391c5c02edeeb5aa8c6.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The pattern for the shapes is *rectangle, rectangle, circle*.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Identify the pattern"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Look at the pattern below.       **How does the pattern grow at each step?**",
+                                "images": [
+                                    {
+                                        "alt": "step 1 with 1 square",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/f26865d28d1f463bb4ff7a7add809b7bc8c4a879.svg"
+                                    },
+                                    {
+                                        "alt": "step 2 with 3 squares",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/4b6e5feb486d00e6f3022109280e92a51d0cf4f9.svg"
+                                    },
+                                    {
+                                        "alt": "step 3 with 6 squares",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/923ca636023ec04b89cc835f515dc7dfaa2355d7.svg"
+                                    },
+                                    {
+                                        "alt": "step 4 with 10 squares",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/d2f2da8f5d279e4349f536914f301ab5c8d7c217.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "It grows by 2 squares each step.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "It grows by 3 squares each step.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "It grows by 2 squares, then 3 squares, then 4 squares.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "It grows by 2 squares, then 4 squares, then 8 squares.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "First, let's find the pattern in the squares we can see.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Step $1$ has $1$ square.     Step $2$ has $3$ squares.    Step $3$ has $6$ squares.     Step $4$ has $10$ squares.",
+                                    "images": [
+                                        {
+                                            "alt": "step 1 with 1 square",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/f26865d28d1f463bb4ff7a7add809b7bc8c4a879.svg"
+                                        },
+                                        {
+                                            "alt": "step 2 with 3 squares",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/4b6e5feb486d00e6f3022109280e92a51d0cf4f9.svg"
+                                        },
+                                        {
+                                            "alt": "step 3 with 6 squares",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/923ca636023ec04b89cc835f515dc7dfaa2355d7.svg"
+                                        },
+                                        {
+                                            "alt": "step 4 with 10 squares",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/d2f2da8f5d279e4349f536914f301ab5c8d7c217.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's identify the pattern between each step.  $1 \\overset{\\blueD{?}}\\rightarrow 3  \\overset{\\blueD{?}}\\rightarrow 6  \\overset{\\blueD{?}}\\rightarrow 10$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$1 \\overset{\\blueD{+ 2}}\\rightarrow 3  \\overset{\\blueD{+ 3}}\\rightarrow 6  \\overset{\\blueD{+4}}\\rightarrow 10$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The pattern grows by 2 squares, then 3 squares, then 4 squares.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Identify the pattern"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Look at the pattern below.       **How many squares will be in the pattern at the $8^{\\text{th}}$ step?**",
+                                "images": [
+                                    {
+                                        "alt": "step 1 with 1 square",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/f26865d28d1f463bb4ff7a7add809b7bc8c4a879.svg"
+                                    },
+                                    {
+                                        "alt": "step 2 with 3 squares",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/4b6e5feb486d00e6f3022109280e92a51d0cf4f9.svg"
+                                    },
+                                    {
+                                        "alt": "step 3 with 6 squares",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/923ca636023ec04b89cc835f515dc7dfaa2355d7.svg"
+                                    },
+                                    {
+                                        "alt": "step 4 with 10 squares",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/d2f2da8f5d279e4349f536914f301ab5c8d7c217.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$8$ squares",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$12$ squares",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$32$ squares",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$36$ squares",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "First, let's find the pattern in the squares we can see.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Step $1$ has $1$ square.     Step $2$ has $3$ squares.    Step $3$ has $6$ squares.     Step $4$ has $10$ squares.",
+                                    "images": [
+                                        {
+                                            "alt": "step 1 with 1 square",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/f26865d28d1f463bb4ff7a7add809b7bc8c4a879.svg"
+                                        },
+                                        {
+                                            "alt": "step 2 with 3 squares",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/4b6e5feb486d00e6f3022109280e92a51d0cf4f9.svg"
+                                        },
+                                        {
+                                            "alt": "step 3 with 6 squares",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/923ca636023ec04b89cc835f515dc7dfaa2355d7.svg"
+                                        },
+                                        {
+                                            "alt": "step 4 with 10 squares",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/d2f2da8f5d279e4349f536914f301ab5c8d7c217.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's identify the pattern between each step.  $1 \\overset{\\blueD{?}}\\rightarrow 3  \\overset{\\blueD{?}}\\rightarrow 6  \\overset{\\blueD{?}}\\rightarrow 10$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$1 \\overset{\\blueD{+ 2}}\\rightarrow 3  \\overset{\\blueD{+ 3}}\\rightarrow 6  \\overset{\\blueD{+4}}\\rightarrow 10$  The pattern grows by 2 squares, then 3 squares, then 4 squares.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Now, let's extend the pattern to the $8^{\\text{th}}$ step.  $\\underset{1}1 \\overset{\\blueD{+ 2}}\\rightarrow \\underset{2}3  \\overset{\\blueD{+ 3}}\\rightarrow \\underset{3}6  \\overset{\\blueD{+4}}\\rightarrow \\underset{4}{10} \\overset{\\blueD{+5}}\\rightarrow \\underset{5}{15} \\overset{\\blueD{+6}}\\rightarrow \\underset{6}{21} \\overset{\\blueD{+7}}\\rightarrow \\underset{7}{28} \\overset{\\blueD{+8}}\\rightarrow \\underset{8}{36}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There will be $36$ squares in the $8^{\\text{th}}$ step.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Extend the pattern"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Look at the pattern below.       **How many squares will be in the pattern at the $6^{\\text{th}}$ step?**",
+                                "images": [
+                                    {
+                                        "alt": "step 1 with 1 square",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/f26865d28d1f463bb4ff7a7add809b7bc8c4a879.svg"
+                                    },
+                                    {
+                                        "alt": "step 2 with 3 squares",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/4b6e5feb486d00e6f3022109280e92a51d0cf4f9.svg"
+                                    },
+                                    {
+                                        "alt": "step 3 with 6 squares",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/923ca636023ec04b89cc835f515dc7dfaa2355d7.svg"
+                                    },
+                                    {
+                                        "alt": "step 4 with 10 squares",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/d2f2da8f5d279e4349f536914f301ab5c8d7c217.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$10$ squares",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$15$ squares",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$21$ squares",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$28$ squares",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "First, let's find the pattern in the squares we can see.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Step $1$ has $1$ square.     Step $2$ has $3$ squares.    Step $3$ has $6$ squares.     Step $4$ has $10$ squares.",
+                                    "images": [
+                                        {
+                                            "alt": "step 1 with 1 square",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/f26865d28d1f463bb4ff7a7add809b7bc8c4a879.svg"
+                                        },
+                                        {
+                                            "alt": "step 2 with 3 squares",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/4b6e5feb486d00e6f3022109280e92a51d0cf4f9.svg"
+                                        },
+                                        {
+                                            "alt": "step 3 with 6 squares",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/923ca636023ec04b89cc835f515dc7dfaa2355d7.svg"
+                                        },
+                                        {
+                                            "alt": "step 4 with 10 squares",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/d2f2da8f5d279e4349f536914f301ab5c8d7c217.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's identify the pattern between each step.  $1 \\overset{\\blueD{?}}\\rightarrow 3  \\overset{\\blueD{?}}\\rightarrow 6  \\overset{\\blueD{?}}\\rightarrow 10$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$1 \\overset{\\blueD{+ 2}}\\rightarrow 3  \\overset{\\blueD{+ 3}}\\rightarrow 6  \\overset{\\blueD{+4}}\\rightarrow 10$  The pattern grows by 2 squares, then 3 squares, then 4 squares.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Now, let's extend the pattern to the $6^{\\text{th}}$ step.  $\\underset{1}1 \\overset{\\blueD{+ 2}}\\rightarrow \\underset{2}3  \\overset{\\blueD{+ 3}}\\rightarrow \\underset{3}6  \\overset{\\blueD{+4}}\\rightarrow \\underset{4}{10} \\overset{\\blueD{+5}}\\rightarrow \\underset{5}{15} \\overset{\\blueD{+6}}\\rightarrow \\underset{6}{21}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There will be $21$ squares in the $6^{\\text{th}}$ step.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Extend the pattern"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What will the $7^{\\text{th}}$ shape in the pattern be?**",
+                                "images": [
+                                    {
+                                        "alt": "sequence of 6 shapes: circle, cross, triangle, circle, cross, triangle",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/9116c0015b1312c690006e45ee0adf454ee84d29.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "",
+                                        "correct": true,
+                                        "images": [
+                                            {
+                                                "alt": "circle",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/1d0877db85fdbde7dc3eed3a482bd61cc8a0e46f.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "cross",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/aff93139f4a420296b9a9915b4387ec43917a9e8.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "triangle",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/0da06ca9b118285109da2420b682d7368f715c57.svg"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "First, let's find the pattern in the shapes we can see.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The shapes follow the pattern **circle**, **cross**, **triangle** before it starts repeating again.",
+                                    "images": [
+                                        {
+                                            "alt": "sequence of 3 shapes: circle, cross, triangle",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/50d7dd42686aa343f23e3753679de5b249355cd0.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now, let's extend the pattern to the $7^{\\text{th}}$ shape.",
+                                    "images": [
+                                        {
+                                            "alt": "numbered sequence of shapes: 1. circle 2. cross 3. triangle 4. circle 5. cross 6. triangle 7. circle",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/6db6801384b8e41dbf2edd3cc3becab3a14af2f7.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The $7^{\\text{th}}$ shape will be a circle.",
+                                    "images": [
+                                        {
+                                            "alt": "circle",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/1d0877db85fdbde7dc3eed3a482bd61cc8a0e46f.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Extend the pattern"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "In the following pattern, every second shape is filled in, and every fourth shape is a square.   $\\ldots$  **Which two of the following statements are true?**",
+                                "images": [
+                                    {
+                                        "alt": "Sequence of 9 numbered shapes\n1. hollow cross\n2. filled-in cross\n3. hollow cross\n4. filled-in square\n5. hollow cross\n6. filled-in cross\n7. hollow cross\n8. filled-in square\n9. hollow cross",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/b537e71e34f2d410ceb73309521013a9b668f078.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Every even numbered shape is filled in.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Every square is filled in.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Shape $11$ is a filled-in square.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Every second shape is $\\goldE{\\text{filled in}}$:    Every even number is a $\\goldE{\\text{filled-in}}$ shape.   The odd numbers are not filled in. Because $11$ is an odd number, shape $11$ is a not $\\goldE{\\text{filled in}}$.",
+                                    "images": [
+                                        {
+                                            "alt": "same sequence with the filled-in shapes, shapes 2, 4, 6, and 8, emphasized",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/0329e8dac0a8aa2352f61f2172c29c8848e10ab7.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Every fourth shape is a $\\greenE{\\text{square}}$:    $\\greenE{\\text{Squares}}$ are always on even numbers.  So, every $\\greenE{\\text{square}}$  is $\\goldE{\\text{filled in}}$.",
+                                    "images": [
+                                        {
+                                            "alt": "same sequence with the squares, shapes 4 and 8, emphasized",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/201e94bb88f3c30991e3fa37d86795033ab4c49b.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The true statements are:  - Every even number is a filled-in shape.    - Every square is filled in.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Pick true statements"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "In the following pattern, every second shape is a quadrilateral, and every third shape is filled in.  $\\ldots$  **Which of the following statements are true?**",
+                                "images": [
+                                    {
+                                        "alt": "Sequence of 9 shapes: 1. hollow circle 2. hollow quadrilateral 3. filled-in triangle 4. hollow quadrilateral 5. hollow circle 6. filled-in quadrilateral 7. hollow triangle 8. hollow quadrilateral 9 filled-in circle",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/bfc3f86bec01709dbfa7b11f202d6886dc0d1ea2.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Every multiple of $3$ is a filled-in shape.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Every odd-numbered shape is a quadrilateral.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Shape $12$ is a filled-in quadrilateral.",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's see which shapes are $\\greenE{\\text{filled in}}$:    Every multiple of $3$ is a filled-in shape.  Because $12$ is a multiple of $3$, shape $12$ is $\\greenE{\\text{filled in}}$.",
+                                    "images": [
+                                        {
+                                            "alt": "same sequence with the filled-in shapes, shapes 3, 6, and 9, emphasized",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/3688778e8b6507e2661b7bbe93d0d7e6a1fc4889.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's see which shapes are $\\redE{\\text{quadrilaterals}}$:    Every even-numbered shape is a quadrilateral.    Because $12$ is an even number, shape $12$ is a $\\redE{\\text{quadrilateral}}$.",
+                                    "images": [
+                                        {
+                                            "alt": "same sequence with the quadrilaterals, shapes 2, 4, 6, and 8, emphasized",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/325e842d92540bf496b06c49c0c0343776a005ce.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The true statements are:  - Every multiple of $3$ is a filled-in shape.   - Shape $12$ is a filled-in quadrilateral.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Pick true statements"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "In the following pattern, every group of rectangles has one more rectangle than the group before it, and there is a rhombus before every group.   $\\ldots$  **Which of the following statements are true?**",
+                                "images": [
+                                    {
+                                        "alt": "Sequence of 9 shapes: 1. rhombus 2. rectangle 3. rhombus 4. rectangle 5. rectangle 6. rhombus 7. rectangle 8. rectangle 9. rectangle 10. rhombus",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/24ab839fa3c238ba7e1dc6edf6a59d27d1d34aa2.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Shape $15$ is a rectangle.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Every rhombus is an odd-numbered shape.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The next group will have $4$ rectangles.",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's see which shapes are $\\redE{\\text{rhombuses}}$:    Every even-numbered shape is a quadrilateral.    At least $1\\,\\redE{\\text{rhombus}}$ is an even-numbered shape.",
+                                    "images": [
+                                        {
+                                            "alt": "same sequence with the rhombuses, shapes 1,3, 6, and 10, emphasized",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/7fa466a97c9880342ba6453424ba80f9fd06ad3b.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's see how many $\\maroonD{\\text{rectangles}}$ are in each group.    There is $1$ rectangle in the first group, $2$ rectangles in the second group, and $3$ rectangles in the third group.  The next group will have $1$ more rectangle than the last group. So the next group will have $4$ rectangles.",
+                                    "images": [
+                                        {
+                                            "alt": "same sequence with the rectangles, shapes 2, 4, 5, 7, 8, and 9, emphasized",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/0ff7c380324710997bc6e1d87bbbc499e8027af8.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now, let's extend the pattern to the $15^{\\text{th}}$ shape. We need a rhombus before every group of rectangles.  $\\ldots$$\\ldots$  The $15^{\\text{th}}$ shape is a rhombus.",
+                                    "images": [
+                                        {
+                                            "alt": "Extension of the sequence of numbered shapes: 10. rhombus 11. rectangle 12. rectangle 13. rectangle 14. rectangle 15. rhombus",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/432a273f1fbfdd775af9ce8918913f9642645723.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The true statement is:  - The next group will have $4$ rectangles.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Pick true statements"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Max is a professional table organizer. For today's event, he brought square tables. A single square table can seat $4$ people, one at each side, as in the first picture below (each circle is a person). If Max joins $2$ tables along a side, as in the second picture below, he can seat $6$ people.    **How many people can Max seat with even more tables? Extend the pattern and fill in the blanks in the chart below.**              Tables | People :-: | :-: $1$ | $4$ $2$ | $6$ $3$ |  $4$ |  $5$ |",
+                                "images": [
+                                    {
+                                        "alt": "diagram of 1 table with 4 total people around it",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-images/02c3df3604179073940dd319e1a34914c2e9f262.png"
+                                    },
+                                    {
+                                        "alt": "diagram of 2 tables with 6 total people around them",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-images/ff03e855cab5196ed4da9716a7f7c81eb2154421.png"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "12",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's draw the tables and the people sitting at the tables. We will follow the pattern, adding each time another table.      We already know that $2$ square tables can seat $6$ people. Let's draw $3$ tables and see how many people they can seat.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "This is the seating arrangement for $3$ tables:       The number of people they seat is $8$.    Let's draw $4$ tables and see how many people they can seat.",
+                                    "images": [
+                                        {
+                                            "alt": "diagram of 3 tables with 8 total people around them",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-images/3d1c4c9c07faf954a1739806124621aae446dc47.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "This is the seating arrangement for $4$ tables:       The number of people they seat is $10$.    Let's draw $5$ tables and see how many people they can seat.",
+                                    "images": [
+                                        {
+                                            "alt": "diagram of 4 tables with 10 total people around them",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-images/6db4870ccf383633fd0ec233492ad88653c255fd.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "This is the seating arrangement for $5$ tables:       The number of people they seat is $12$.      Note that for each table we add, there are seats for $2$ more people.",
+                                    "images": [
+                                        {
+                                            "alt": "diagram of 5 tables with 12 total people around them",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-images/478aeb0c941ca6c2deff4383cc7dab9be51e5ceb.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The complete table is:      Tables | People :-: | :-: $1$ | $4$ $2$ | $6$ $3$ | $8$ $4$ | $10$ $5$ | $12$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Complete the table"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Students in Ashkii's class borrow their books for school. At the end of the year, they stack the books for next year's students.  There were $5$ unused books this year. Each student puts a book on each of the $3$ stacks.        **How many books will there be when more students give back their books? Extend the pattern and fill in the blanks in the chart below.**    Students giving back books | Stacked books  :-: | :-: $0$ | $5$ $1$ | $8$ $2$ | $11$ $3$ |  $4$ |",
+                                "images": [
+                                    {
+                                        "alt": "3 stacks of books, with a total of 5 books, labeled, \n\"After 0 students return their books.\" The first stack has 1 book. The second stack has 2 books. The third stack has 2 books.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/ff74520129aac739a8fd2855c9a1eb74e12434d9.svg"
+                                    },
+                                    {
+                                        "alt": "3 stacks of books, with a total of 8 books, labeled, \n\"After 1 student returns their books.\" The first stack has 2 books. The second stack has 3 books. The third stack has 3 books.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/837093fa9afcd1f6445f48d3200fd5497a260459.svg"
+                                    },
+                                    {
+                                        "alt": "3 stacks of books, with a total of 11 books, labeled, \n\"After 2 students return their books.\" The first stack has 3 books. The second stack has 4 books. The third stack has 4 books.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/734f20a072053c3c27787f96564dd9fa5018cc11.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "17",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's draw the stacks of books. We will follow the pattern, adding a book to each stack for each student.      We already know that there are $11$ stacked books once $2$ students have returned their books. Let's draw the stacks after $3$ students have returned their books.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "These are the stacks after $3$ student return their books:    [[☃ image 1]]  There are $14$ books in the stacks.  Let's draw the stacks after $4$ students have returned their books.",
+                                    "images": [
+                                        {
+                                            "alt": "3 stacks of books, with a total of 14 books, labeled, \n\"After 3 students return their books.\" The first stack has 4 books. The second stack has 5 books. The third stack has 5 books.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/2694c2333d8989ae61df6d4167b35207e72ce25a.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "These are the stacks after $7$ student return their books:    [[☃ image 1]]  There are $17$ books in the stacks.    *Note that for each students who returns their books, there are $3$ more books.*",
+                                    "images": [
+                                        {
+                                            "alt": "3 stacks of books, with a total of 17 books, labeled, \n\"After 4 students return their books.\" The first stack has 5 books. The second stack has 6 books. The third stack has 6 books.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/003dfd6d488ad9d56e3b172b5f8de56372e8ce45.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The complete table is:      Students giving back books | Stacked books  :-: | :-: $0$ | $5$ $1$ | $8$ $2$ | $11$ $3$ | $14$ $4$ | $17$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Complete the table"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Latisha is making her own owl mask based on one from Burkina Faso.    The outside ring of Latisha's mask has $32$ dark triangles. The second ring has $26$ dark triangles. Each ring shrinks by the same number of triangles.      **How many dark triangles are in the other rings of Latisha's mask? Extend the pattern and fill in the blanks in the chart below.**      Ring number | Number of dark triangles :-: | :-: $1$ | $32$ $2$ | $26$ $3$ |  $4$ |  $5$ |",
+                                "images": [
+                                    {
+                                        "alt": "Owl mask with a design of rings of triangles.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-images/b689e50aa1a842856bd1cdc795b9e0e8422c6553.jpg.svg"
+                                    },
+                                    {
+                                        "alt": "A circle of 32 triangles, labeled, Ring 1.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/054a860bcc8e25d168be38720309cda1e7fc4f4f.svg"
+                                    },
+                                    {
+                                        "alt": "A circle of 26 triangles, labeled, Ring 2.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/970c066f2f2988e1ccd43aa20d9dc3687bc45d76.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "8",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's draw the rings. We will follow the pattern, adding each time with fewer triangles.      Let's find out how many fewer triangles are in each ring.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Ring 1 had $32$ triangles and ring 2 has $26$ triangles.  $32-26=6$  Each ring shrinks by $6$ triangles.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "This is ring 3:  [[☃ image 1]]  $26-6=20$  It has $20$ dark triangles.  Let's draw ring 4.",
+                                    "images": [
+                                        {
+                                            "alt": "A circle of 20 triangles, labeled, Ring 3.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/fe74ebe2789e0002c97e309c97ccf38297c8b0f6.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "This is ring 4:  [[☃ image 1]]  $20-6=14$  It has $14$ dark triangles.  Let's draw ring 5.",
+                                    "images": [
+                                        {
+                                            "alt": "A circle of 14 triangles, labeled, Ring 4.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/854a53019c506a1c2b47ea3e6c324d220d2e6dc7.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "This is ring 5:  [[☃ image 1]]  $14-6=8$  It has $8$ dark triangles.",
+                                    "images": [
+                                        {
+                                            "alt": "A circle of 8 triangles, labeled, Ring 5.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/0e273344b31276330d2e9df4422a3d0ee8290cee.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The complete table is:      Ring number | Number of dark triangles :-: | :-: $1$ | $32$ $2$ | $26$ $3$ | $20$ $4$ | $14$ $5$ | $8$  [[☃ explanation 1]]",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Complete the table"
+                    }
+                }
+            }
+        }
+    ]
+}

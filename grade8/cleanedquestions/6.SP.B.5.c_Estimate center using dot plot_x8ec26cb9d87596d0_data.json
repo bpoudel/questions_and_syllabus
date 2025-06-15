@@ -1,0 +1,857 @@
+{
+    "standard_metadata": {
+        "standard_id": "6.SP.B.5.c",
+        "standard_description": "Giving quantitative measures of center (median and/or mean) and variability (interquartile range and/or mean absolute deviation), as well as describing any overall pattern and any striking deviations from the overall pattern with reference to the context in which the data were gathered.",
+        "standard_title": "Estimate center using dot plots",
+        "standard_url": "https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-data-statistics/dot-plot/e/estimate-center-using-dot-plots"
+    },
+    "id": "x8ec26cb9d87596d0",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following dot plot shows the number of chocolate chips in each cookie that Shawn has. Each dot represents  a different cookie.    **Which of the following is a typical amount of chocolate chips in one of Shawn's cookies?**",
+                                "images": [
+                                    {
+                                        "alt": "\"A dot plot. The number line, labeled Number of chocolate chips, is numbered 0 to 10.\nPoint 2 has 2 dots.\nPoint 3 has 2 dots. \nPoint 4 has 5 dots.\nPoint 5 has 4 dots. \nPoint 6 has 3 dots.\nPoint 7 has 2 dots.\"",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/23cda1e9f3dd7591eaaebedd497721ab0d8015f8.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$2$ chocolate chips",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$5$ chocolate chips",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$10$ chocolate chips",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$18$ chocolate chips",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "There are lots of ways we can think about the **typical** number of chocolate chips.  - What was the most common number of chocolate chips? - If we split the chocolate chips evenly among all the cookies, how many chips would each cookie have? - What would be the balance point of the data? - What is the middlemost number of chocolate chips?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The most cookies had $4$ chips.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "If we split the chocolate chips evenly, each cookie would have $4$ or $5$ chips.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "If we put our dot plot on a balance scale, it would balance when the pivot was between $4$ and $5$ chocolate chips.    [[☃ image 1]]  The scale would tip if, for example, we put the pivot at $2$ chocolate chips.    [[☃ image 2]]",
+                                    "images": [
+                                        {
+                                            "alt": "\"A dot plot.  The number line, labeled Number of chocolate chips, is numbered 0 to 10. There is a pivot between 4 and 5 and the number line is balanced. \nPoint 2 has 2 dots.\nPoint 3 has 2 dots. \nPoint 4 has 5 dots.\nPoint 5 has 4 dots. \nPoint 6 has 3 dots.\nPoint 7 has 2 dots.\"",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/9dc32a86d46ff26c4113070f6707c25b1a43458b.svg"
+                                        },
+                                        {
+                                            "alt": "\"A dot plot.  The number line, labeled Number of chocolate chips, is numbered 0 to 10. There is a pivot at 2 and the number line tilts to the right.\nPoint 2 has 2 dots.\nPoint 3 has 2 dots. \nPoint 4 has 5 dots.\nPoint 6 has 4 dots. \nPoint 7 has 3 dots.\nPoint 8 has 2 dots.\"",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/08818fcfbb9c4817eb5deaf797110aaae949b072.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "About half of the cookies have $4$ or fewer chocolate chips and about half have $5$ or more chocolate chips.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Of the choices, it is reasonable to say there are typically about $5$ chocolate chips in one of Shawn's cookies.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Estimate center"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following dot plot shows the number of wildcards in each of Sampson's decks of cards. Each dot represents  a different deck.    **Which of the following is a typical number of wildcards in one of Sampson's decks?**",
+                                "images": [
+                                    {
+                                        "alt": "\"A dot plot.  The number line, labeled Number of wildcards, is numbered 0 to 4. \nPoint 0 has 3 dots.\nPoint 1 has 1 dot. \nPoint 2 has 5 dots.\nPoint 3 has 2 dots. \nPoint 4 has 1 dot.\"",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/d7ba8d1d5745f6a12f70d0006a184fed279c2ac0.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$0$ wildcards",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$2$ wildcards",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$3$ wildcards",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$5$ wildcards",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "There are lots of ways we can think about the **typical** number of wildcards.  - What was the most common number of wildcards? - If we split the wildcards evenly among all the decks, how many wildcards would each deck have? - What would be the balance point of the data? - What is the middlemost number of wildcards?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The most decks had $2$ wildcards.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "If we split the wildcards evenly, each deck would have $1$ or $2$ wildcards.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "If we put our dot plot on a balance scale, it would balance when the pivot was between $1$ and $2$ wildcards.    [[☃ image 1]]  The scale would tip if, for example, we put the pivot at $3$ wildcards.    [[☃ image 2]]",
+                                    "images": [
+                                        {
+                                            "alt": "\"A dot plot.  The number line, labeled Number of wildcards, is numbered 0 to 4. There is a pivot between 1 and 2 and the number line is balanced. \nPoint 0 has 3 dots.\nPoint 1 has 1 dot. \nPoint 2 has 5 dots.\nPoint 3 has 2 dots. \nPoint 4 has 1 dot.\"",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/59726b4ec0e72f2def4c6aa0da17c6cfdbd17e8b.svg"
+                                        },
+                                        {
+                                            "alt": "\"A dot plot.  The number line, labeled Number of wildcards, is numbered 0 to 4. There is a pivot at 3 and the number line tilts to the left.\nPoint 0 has 3 dots.\nPoint 1 has 1 dot. \nPoint 2 has 5 dots.\nPoint 3 has 2 dots. \nPoint 4 has 1 dot.\"",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/da448e685452624ed90a15e873033adb526e647a.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "There are $5$ decks  with $2$ wildcards each.  About half of the rest of the decks have fewer than $2$ wildcards and about half have more than $2$ wildcards.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Of the choices, it is reasonable to say there are typically about $2$ wildcards in one of Sampson's decks.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Estimate center"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following dot plot shows the number of books each student checked out from the library last month. Each dot represents  a different student.    **Which of the following is a typical number of books one student checked out?**",
+                                "images": [
+                                    {
+                                        "alt": "\"A dot plot.  The number line, labeled Number of books, is numbered 0 to 12. \nPoint 0 has 1 dot.\nPoint 1 has 2 dots. \nPoint 2 has 3 dots.\nPoint 3 has 2 dots. \nPoint 4 has 8 dots.\nPoint 5 has 2 dots. \nPoint 6 has 4 dots.\nPoint 7 has 7 dots.\nPoint 8 has 12 dots.\nPoint 9 has 3 dots.\nPoint 11 has 1 dot.\nPoint 12 has 2 dots.\"",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/4091b9125f0bf28c6b62d342f024c516d813830c.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$1$ book",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$4$ books",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$7$ books",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$12$ books",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "There are lots of ways we can think about the **typical** number of books.  - What was the most common number of books? - If we split the books evenly among all the students, how many books would each student have? - What would be the balance point of the data? - What is the middlemost number of books?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The most students had $8$ books, but the second most had $4$ books.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "If we split the books evenly, each student would have $6$ or $7$ books.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "If we put our dot plot on a balance scale, it would balance when the pivot was close to $6$ books.    [[☃ image 1]]  The scale would tip if, for example, we put the pivot at $12$ books.   [[☃ image 2]]",
+                                    "images": [
+                                        {
+                                            "alt": "\"A dot plot.  The number line, labeled Number of books, is numbered 0 to 12.There is a pivot between 6 and 7 and the number line is balanced. \nPoint 0 has 1 dot.\nPoint 1 has 2 dots. \nPoint 2 has 3 dots.\nPoint 3 has 2 dots. \nPoint 4 has 8 dots.\nPoint 5 has 2 dots. \nPoint 6 has 4 dots.\nPoint 7 has 7 dots.\nPoint 8 has 12 dots.\nPoint 9 has 3 dots.\nPoint 11 has 1 dot.\nPoint 12 has 2 dots.\"",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/9ba940694b6621eb0fac4229e9ea9eab120f8bb0.svg"
+                                        },
+                                        {
+                                            "alt": "\"A dot plot.  The number line, labeled Number of books, is numbered 0 to 12. There is a pivot at 12 and the number line tilts to the left.\nPoint 0 has 1 dot.\nPoint 1 has 2 dots. \nPoint 2 has 3 dots.\nPoint 3 has 2 dots. \nPoint 4 has 8 dots.\nPoint 5 has 2 dots. \nPoint 6 has 4 dots.\nPoint 7 has 7 dots.\nPoint 8 has 12 dots.\nPoint 9 has 3 dots.\nPoint 11 has 1 dot.\nPoint 12 has 2 dots.\"",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/4b2af8d1041893b75875619c0901845179db0c1e.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "About half of the students checked out $6$ or fewer books and about half checked out $7$ or more books.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Of the choices, it is reasonable to say that a student typically checked out about $7$ books.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Estimate center"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following dot plot shows the number of cavities each of Dr. Vance's $63$ patients had last month. Each dot represents  a different patient.    **Which of the following is a typical number of cavities one patient had?**",
+                                "images": [
+                                    {
+                                        "alt": "\"A dot plot.  The number line, labeled Number of cavities, is numbered 0 to 10. \nPoint 0 has 15 dots.\nPoint 1 has 12 dots. \nPoint 2 has 8 dots.\nPoint 3 has 9 dots. \nPoint 4 has 4 dots.\nPoint 5 has 8 dots. \nPoint 7 has 7 dots.\"",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/1a889b3e1239aafe82a6e58db0ded296ca417c91.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$2$ cavities",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$5$ cavities",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$7$ cavities",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$15$ cavities",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "There are lots of ways we can think about the **typical** number of cavities.  - What was the most common number of cavities? - If we split the cavities evenly among all the patients, how many cavities would each patient have? - What would be the balance point of the data? - What is the middlemost number of cavities?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The most patients had $0$ cavities.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "If we split the cavities evenly, each patient would have $2$ or $3$ cavities.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "If we put our dot plot on a balance scale, it would balance when the pivot was between $2$ and $3$ cavities.    [[☃ image 1]]  The scale would tip if, for example, we put the pivot at $5$ cavities.   [[☃ image 2]]",
+                                    "images": [
+                                        {
+                                            "alt": "\"A dot plot.  The number line, labeled Number of cavities, is numbered 0 to 10. There is a pivot between 2 and 3 and the number line is balanced. \nPoint 0 has 1 dot.\nPoint 1 has 2 dots. \nPoint 2 has 3 dots.\nPoint 3 has 2 dots. \nPoint 4 has 8 dots.\nPoint 5 has 2 dots. \nPoint 6 has 4 dots.\nPoint 7 has 7 dots.\nPoint 8 has 12 dots.\nPoint 9 has 3 dots.\nPoint 11 has 1 dot.\nPoint 12 has 2 dots.\"",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/054c238b5a884d4254794b101b85145ea81359ef.svg"
+                                        },
+                                        {
+                                            "alt": "\"A dot plot.  The number line, labeled Number of cavities, is numbered 0 to 10. There is a pivot at 5 and the number line tilts to the left.\nPoint 0 has 1 dot.\nPoint 1 has 2 dots. \nPoint 2 has 3 dots.\nPoint 3 has 2 dots. \nPoint 4 has 8 dots.\nPoint 5 has 2 dots. \nPoint 6 has 4 dots.\nPoint 7 has 7 dots.\nPoint 8 has 12 dots.\nPoint 9 has 3 dots.\nPoint 11 has 1 dot.\nPoint 12 has 2 dots.\"",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d40801d68d8903e90fd9e546b32c9653ca228dc0.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "There are $8$ patients  with $2$ cavities each.  About half of the rest of the patients have fewer than $2$ cavities and about half have more than $2$ cavities.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Of the choices, it is reasonable to say that a patient typically had about $2$ cavities.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Estimate center"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following dot plot shows the number of weekly challenge questions each of the $30$ members the Math Bowl team answered correctly last season. Each dot represents  a different member.    **Which of the following is a typical number of challenge questions one member answered correctly?**",
+                                "images": [
+                                    {
+                                        "alt": "\"A dot plot.  The number line, labeled Number of correct challenge questions, is numbered 0 to 12. \nPoint 0 has 1 dot.\nPoint 4 has 1 dot. \nPoint 6 has 2 dots.\nPoint 8 has 3 dots. \nPoint 9 has 5 dots.\nPoint 10 has 6 dots. \nPoint 11 has 7 dots.\nPoint 12 has 5 dots.\"",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/a6cb2caab00c4e293bb17871341d6a3c3da7bc99.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$0$ questions",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$3$ questions",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$6$ questions",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$10$ questions",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "There are lots of ways we can think about the **typical** number of questions.  - What was the most common number of questions? - If we split the correct questions evenly among all the members, how many correct questions would each member have? - What would be the balance point of the data? - What is the middlemost number of questions?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The most members answered $11$ questions correctly.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "If we split the correct questions evenly, each member would have answered $9$ or $10$ questions correctly.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "If we put our dot plot on a balance scale, it would balance when the pivot was between $9$ and $10$ questions.   [[☃ image 1]]  The scale would tip if, for example, we put the pivot at $6$ questions.    [[☃ image 2]]",
+                                    "images": [
+                                        {
+                                            "alt": "\"A dot plot.  The number line, labeled Number of correct challenge questions, is numbered 0 to 12. There is a pivot between 9 and 10 and the number line is balanced. \nPoint 0 has 1 dot.\nPoint 4 has 1 dot. \nPoint 6 has 2 dots.\nPoint 8 has 3 dots. \nPoint 9 has 5 dots.\nPoint 10 has 6 dots. \nPoint 11 has 7 dots.\nPoint 12 has 5 dots.\"",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/26ffaa863adb090de882a29bb8f71edef2283c89.svg"
+                                        },
+                                        {
+                                            "alt": "\"A dot plot.  The number line, labeled Number of correct challenge questions, is numbered 0 to 12. There is a pivot at 6 and the number line tilts to the right.\nPoint 0 has 1 dot.\nPoint 4 has 1 dot. \nPoint 6 has 2 dots.\nPoint 8 has 3 dots. \nPoint 9 has 5 dots.\nPoint 10 has 6 dots. \nPoint 11 has 7 dots.\nPoint 12 has 5 dots.\"",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/50cbd20a9ae916df44c08477f0ffbafa59fbe87a.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "There are $6$ members who each answered $10$ questions correctly.  About half of the rest of the members answered fewer than $10$ questions correctly and about half answered more than $10$ questions correctly.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Of the choices, it is reasonable to say that a member typically answered about $10$ challenge questions correctly.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Estimate center"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following dot plot shows the mass, in kilograms, of each of the $46$ kittens adopted from an animal shelter last month. Each dot represents  a different kitten.    **Which of the following is a typical mass of one kitten?**",
+                                "images": [
+                                    {
+                                        "alt": "\"A dot plot.  The number line, labeled Mass (kilograms), is numbered 0.6 to 3.8. \nPoint 0.8 has 1 dot.\nPoint 1 has 3 dots. \nPoint 1.2 has 4 dots.\nPoint 1.4 has 6 dots. \nPoint 1.6 has 8 dots.\nPoint 1.8 has 8 dots. \nPoint 2 has 7 dots.\nPoint 2.2 has 5 dots.\nPoint 2.4 has 2 dots.\nPoint 2.6 has 1 dot.\nPoint 3.8 has 1 dot.\"",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/c814980d9ed47c257cef7294391949fafadbfda0.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$1.8$ kilograms",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$2.2$ kilograms",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$3.8$ kilograms",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$4.6$ kilograms",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "There are lots of ways we can think about the **typical** mass.  - What was the most common mass? - If we split the mass evenly among all the kittens, how many kilograms of mass would each kitten have? - What would be the balance point of the data? - What is the middlemost mass?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The most kittens had a mass of $1.6$ or $1.8$ kilograms.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "If we split the kilograms evenly, each kitten would have a mass between $1.6$ and $1.8$ kilograms.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "If we put our dot plot on a balance scale, it would balance when the pivot was between $1.6$ and $1.8$ kilograms.   [[☃ image 1]]  The scale would tip if, for example, we put the pivot at $2.2$ kilograms.    [[☃ image 2]]",
+                                    "images": [
+                                        {
+                                            "alt": "\"A dot plot.  The number line, labeled Mass (kilograms), is numbered 0.6 to 3.8. \nPoint 0.8 has 1 dot. There is a pivot between 1.6 and 1.8 and the number line is balanced. \nPoint 1 has 3 dots. \nPoint 1.2 has 4 dots.\nPoint 1.4 has 6 dots. \nPoint 1.6 has 8 dots.\nPoint 1.8 has 8 dots. \nPoint 2 has 7 dots.\nPoint 2.2 has 5 dots.\nPoint 2.4 has 2 dots.\nPoint 2.6 has 1 dot.\nPoint 3.8 has 1 dot.\"",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/8af6dbdbd77e3ec3ffe4477197d69dcbcebb4a7c.svg"
+                                        },
+                                        {
+                                            "alt": "\"A dot plot.  The number line, labeled Mass (kilograms), is numbered 0.6 to 3.8. There is a pivot at 6 and the number line tilts to the left.  \nPoint 0.8 has 1 dot. \nPoint 1 has 3 dots. \nPoint 1.2 has 4 dots.\nPoint 1.4 has 6 dots. \nPoint 1.6 has 8 dots.\nPoint 1.8 has 8 dots. \nPoint 2 has 7 dots.\nPoint 2.2 has 5 dots.\nPoint 2.4 has 2 dots.\nPoint 2.6 has 1 dot.\nPoint 3.8 has 1 dot.\"",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/3a19bca6fb20b1802b0f42f6c1f9371fcbbbfbae.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "About half of the kittens had a mass of $1.6$ or fewer kilograms and about half had a mass of $1.8$ or more kilograms.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Of the choices, it is reasonable to say that a kitten typically had a mass of about $1.8$ kilograms.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Estimate center"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following dot plots show the number of hours of sleep employees got before a major sale at two stores. Each dot represents a different employee.      **Complete the comparison of the typical hours of sleep.**    In general, the employees at  got more sleep, with  of sleep per employee.",
+                                "images": [
+                                    {
+                                        "alt": "\"A dot plot.  The number line, labeled Hours of sleep for Better Buy Employees, is numbered 3 to 9. \nPoint 3 has 1 dot.\nPoint 5 has 4 dots. \nPoint 6 has 2 dots.\nPoint 7 has 1 dot. \nPoint 8 has 1 dot.\"",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/38e4130973ab639e4e6462d6108d983f76d2a1a1.svg"
+                                    },
+                                    {
+                                        "alt": "\"A dot plot.  The number line, labeled Hours of sleep for Peaceful Purchases Employees, is numbered 3 to 9. \nPoint 3 has 1 dot.\nPoint 4 has 1 dot.\nPoint 6 has 3 dots.\nPoint 7 has 4 dots. \nPoint 8 has 3 dots.\"",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/f81e9764da803a5bb1a8f7d2c4b8ae6dd3cbc6eb.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Better Buy",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Peaceful Purchases",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "about 5 to 6 hours",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "a little less than 7 hours",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "One way to think about the **typical** number of hours of sleep is to find the approximate center of the data.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "For Better Buy, the majority of the employees got $5$ or $6$ hours of sleep.  For Peaceful Purchases, the number of hours of sleep seems to center around $7$ hours except for $2$ employees. One employee got $3$ hours and another got $4$ hours of sleep.  So a typical number of hours of sleep is probably a little less than $7$ hours per employee.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "In general, the employees at Peaceful Purchases got more sleep, with a little less than $7$ hours of sleep per employee.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Comparison"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following dot plots show the numbers of injuries per game for two teams. Each dot represents a different game.      **Compare the typical number of injuries per game.**    In general, the players on the  had fewer injuries, with  per game.",
+                                "images": [
+                                    {
+                                        "alt": "\"A dot plot.  The number line, labeled Number of injured Bulldogs players, is numbered 0 to 5. \nPoint 0 has 4 dots.\nPoint 1 has 2 dots.\nPoint 2 has 5 dots.\nPoint 5 has 1 dot. \"",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/25f10cd0ce2b0854ec24bfb8cceb3584909978c8.svg"
+                                    },
+                                    {
+                                        "alt": "\"A dot plot.  The number line, labeled Number of injured Tornado players, is numbered 0 to 5. \nPoint 1 has 1 dot.\nPoint 2 has 2 dots.\nPoint 3 has 6 dots.\nPoint 4 has 2 dots. \"",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/2533cb8d8e8199b27b296c6b0cee8c6d1bc9e817.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Bulldogs team",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Tornado team",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "a little more than 1 injury",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "about 3 injuries",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "One way to think about the **typical** number of injuries per game is to find the approximate center of the data.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "For the Bulldogs, the number of injuries seems to center around $1$ player. However, in one game, $5$ players got injured.  In general, the Bulldogs have a little more than $1$ injury per game.  The Tornadoes had $3$ players injured in the majority of their games.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "In general, the players on the Bulldogs team had fewer injuries, with a little more than $1$ injury per game.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Comparison"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following dot plots show the number of strokes golf players required at each hole. Each dot represents a different player.      **Complete the comparison of the typical number of strokes.**    In general, the players needed fewer strokes at , with  at the hole.",
+                                "images": [
+                                    {
+                                        "alt": "\"A dot plot.  The number line, labeled Number of strokes on hole 5, is numbered 1 to 8. \nPoint 3 has 2 dots.\nPoint 4 has 4 dots.\nPoint 5 has 10 dots.\nPoint 6 has 12 dots.\nPoint 7 has 4 dots.\nPoint 8 has 2 dots. \"",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/d38ad336ff207b5ef861255e9546dc3cbba355da.svg"
+                                    },
+                                    {
+                                        "alt": "\"A dot plot.  The number line, labeled Number of strokes on hole 7, is numbered 1 to 8. \nPoint 1 has 1 dot.\nPoint 2 has 4 dots.\nPoint 3 has 3 dots.\nPoint 4 has 8 dots.\nPoint 5 has 7 dots.\nPoint 6 has 3 dots. \nPoint 7 has 6 dots.\nPoint 8 has 2 dots.\"",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/755dc24172edaee4b146b1a87672a43b213bde42.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "hole 5",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "hole 7",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "about 3 to 4 strokes",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "about 4 to 5 strokes",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "One way to think about the **typical** number of strokes is to find the approximate center of the data.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "For hole 5, the majority of the players required $5$ or $6$ strokes.  For hole 7, the number of strokers per player seems to center between $4$ and $5$ strokes.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "In general, the players needed fewer strokes at hole 7, with about $4$ to $5$ strokes per hole.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Comparison"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Ms. Munoz had students in two class periods write essays for a diagnostic test. The following dot plots show the scores from each class. Each dot represents a different student's score.      **Complete the comparison of the typical essay scores.**    In general, the students in  had higher scores, with  on the essay.",
+                                "images": [
+                                    {
+                                        "alt": "\"A dot plot.  The number line, labeled First period essay scores, is numbered 1 to 5. \nPoint 1 has 2 dots.\nPoint 2 has 7 dots.\nPoint 3 has 9 dots.\nPoint 4 has 2 dots.\"",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/267755f4595afb916cb681bb351efdf68a508ea2.svg"
+                                    },
+                                    {
+                                        "alt": "A dot plot.  The number line, labeled Second period essay scores, is numbered 1 to 5. \nPoint 1 has 0 dots.\nPoint 2 has 3 dots.\nPoint 3 has 9 dots.\nPoint 4 has 6 dots.\nPoint 5 has 4 dots.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/38da816226cdfdb077838302be8fcd2cf58730ca.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "first period",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "second period",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "scores between 3 and 4",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "scores between 4 and 5",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "One way to think about the **typical** score is to find the approximate center of the data.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "For first period, the scores seems to center between $2$ and $3$.  For second period, the scores seems to center between $3$ and $4$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "In general, the students in second period had higher scores, with scores between $3$ and $4$ on the essay.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Comparison"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Isabella grows two types of pepper plants. The following dot plots show the numbers of peppers, rounded to the nearest $5$, per plant for each type. Each dot represents a different plant.      **Compare the typical number of peppers per plant.**  In general, the  had more peppers, with  per plant.",
+                                "images": [
+                                    {
+                                        "alt": "\"A dot plot.  The number line, labeled Peppers per Anaheim peppers plant, is numbered 15 to 60. \nPoint 25 has 1 dot.\nPoint 30 has 3 dots.\nPoint 35 has 3 dots.\nPoint 40 has 5 dots.\nPoint 45 has 4 dots.\nPoint 50 has 1 dot.\nPoint 55 has 2 dots.\"",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/2fcb582babc372aa25ec6add9a313f90c8cf7d3a.svg"
+                                    },
+                                    {
+                                        "alt": "\"A dot plot.  The number line, labeled Peppers per banana peppers plant, is numbered 15 to 60. \nPoint 15 has 3 dots.\nPoint 20 has 7 dots.\nPoint 25 has 3 dots.\nPoint 30 has 6 dots.\nPoint 35 has 1 dot.\nPoint 40 has 2 dots.\"",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/c058097b54a8f7020d68bfbf197101a0fc1aafc8.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Anaheim pepper plants",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "banana pepper plants",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "around 25 peppers",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "around 40 peppers",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "One way to think about the **typical** number of peppers per plant is to find the approximate center of the data.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The number of Anaheim peppers seems to center around $40$ peppers.  The number of banana peppers seems to center around $25$ peppers.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "In general, the Anaheim pepper plants had more peppers, with around $40$ peppers per plant.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Comparison"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following dot plots show the numbers of people per table at a bingo hall on two nights. Each dot represents one of the $20$ tables.      **Compare the typical number of people per table.**  In general, there were more people per table on , with  per table.",
+                                "images": [
+                                    {
+                                        "alt": "\"A dot plot.  The number line, labeled People per table Tuesday, is numbered 0 to 9. \nPoint 4 has 1 dot.\nPoint 5 has 1 dot.\nPoint 6 has 2 dots.\nPoint 7 has 6 dots.\nPoint 8 has 9 dots.\nPoint 9 has 1 dot.\"",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/e14d03f3b510ade63526381e86a65ba432fa1669.svg"
+                                    },
+                                    {
+                                        "alt": "\"A dot plot.  The number line, labeled People per table Wednesday, is numbered 0 to 9. \nPoint 0 has 5 dots.\nPoint 4 has 3 dots.\nPoint 5 has 3 dots.\nPoint 6 has 5 dots.\nPoint 7 has 2 dots.\nPoint 8 has 1 dot.\nPoint 9 has 1 dot.\"",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/20bd52d52824649ecf6dd1beb967fc69c626d103.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Tuesday",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Wednesday",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "7 or 8 people",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "8 or 9 people",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "One way to think about the **typical** number of people per table is to find the approximate center of the data.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "On Tuesday, the majority of the tables had $7$ or $8$ people.  On Wednesday, several tables are empty. The rest of the tables center around $6$ people. So in all, there are fewer than $6$ people per table on Wednesday.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "In general, there were more people per table on Tuesday, with $7$ or $8$ people per table.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Comparison"
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,653 @@
+{
+    "standard_metadata": {
+        "standard_id": "8.G.B.7",
+        "standard_description": "Apply the Pythagorean Theorem to determine unknown side lengths in right triangles in real-world and mathematical problems in two and three dimensions.",
+        "standard_title": "Use Pythagorean theorem to find area",
+        "standard_url": "https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-geometry/pythagorean-theorem-application/e/use-pythagorean-theorem-to-find-area"
+    },
+    "id": "x94f43e867f14c6d4",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the area of the triangle shown below?**        units$^2$",
+                                "images": [
+                                    {
+                                        "alt": "A triangle. The base is 10 units and the other 2 side lengths are 13 units each. The bottom left angle and bottom right angle are congruent.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/6c60fa6e91095f953edbf7f1cc8362ebbb7faa06.png"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "60",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To find the area of the triangle we will need to know the base and the height. Let's call the height $x$.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle. The base is 10 units and the height is x units. The other 2 side lengths are 13 units each. The bottom left angle and bottom right angle are congruent. A dashed line goes from the center of the base straight up to the top vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/46305838a6f3dcf10a2fc525928a093272a49b51.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "These two right triangles are congruent because they are reflections of each other about the dotted line.    The base of each right triangle is half the base of the isosceles triangle.   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle. The base is 10 units and the height is x units. The other 2 side lengths are 13 units each. The bottom left angle and bottom right angle are congruent. A dashed line goes from the center of the base straight up to the top vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles. The base of each right triangle is 5 units, the height of each right triangle is x units, and the longest side of each right triangle is 13 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/c17cf9bbbed3fda30ee4aaa3af3d3bf7a6ba4be2.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "When we have a right triangle, we can use the Pythagorean Theorem to find the height.  The equation for the Pythagorean Theorem is   >$a^2 + b^2  = c^2$  In this case $a = 5, b=x$, and $c =13$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "So,  $ \\begin{align} 5^2+x^2 &= 13^2\\\\ 25+x^2 &= 169\\\\ x^2 &= 144\\\\ x &=12\\\\ \\end{align} $   The height of the triangle is $12$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the triangle is $\\dfrac{1}{2}\\cdot 10 \\cdot 12 = 60$ units$^2$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Area"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the area of the triangle shown below?**        units$^2$",
+                                "images": [
+                                    {
+                                        "alt": "A triangle. The base is 12 units and the other 2 side lengths are 10 units each. The bottom left angle and bottom right angle are congruent.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/ea4cf75b98f0552f44290e6bcb469ff6a3e9680b.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "48",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To find the area of the triangle we will need to know the base and the height. Let's call the height $x$.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle. The base is 12 units and the height is x units. The other 2 side lengths are 10 units each. The bottom left angle and bottom right angle are congruent. A dashed line goes from the center of the base straight up to the top vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/6f79287e390eb23d46914fb6a1585e10ea390fa6.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "These two right triangles are congruent because they are reflections of each other about the dotted line.    The base of each right triangle is half the base of the isosceles triangle.   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle. The base is 12 units and the height is x units. The other 2 side lengths are 10 units each. The bottom left angle and bottom right angle are congruent. A dashed line goes from the center of the base straight up to the top vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles. The base of each right triangle is 6 units, the height of each right triangle is x units, and the longest side of each right triangle is 10 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/4d81663c9981f93ce640d94d19b9315003ff7398.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "When we have a right triangle, we can use the Pythagorean Theorem to find the height.  The equation for the Pythagorean Theorem is   >$a^2 + b^2  = c^2$  In this case $a = 6, b=x$, and $c =10$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "So,  $ \\begin{align} 6^2+x^2 &= 10^2\\\\ 36+x^2 &= 100\\\\ x^2 &= 64\\\\ x &=8\\\\ \\end{align} $   The height of the triangle is $8$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the triangle is $\\dfrac{1}{2}\\cdot 12 \\cdot 8= 48$ units$^2$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Area"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the area of the triangle shown below?**        units$^2$",
+                                "images": [
+                                    {
+                                        "alt": "A triangle. The base is 8 units and the other 2 side lengths are 5 units each. The bottom left angle and bottom right angle are congruent.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/32b164de6a329525761384c3c896ad2f75862571.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "12",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To find the area of the triangle we will need to know the base and the height. Let's call the height $x$.   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle. The base is 8 units and the height is x units. The other 2 side lengths are 5 units each. The bottom left angle and bottom right angle are congruent. A dashed line goes from the center of the base straight up to the top vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/4d859800474b40e8a462d353ba3d8f5712c03507.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "These two right triangles are congruent because they are reflections of each other about the dotted line.    The base of each right triangle is half the base of the isosceles triangle.   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle. The base is 8 units and the height is x units. The other 2 side lengths are 5 units each. The bottom left angle and bottom right angle are congruent. A dashed line goes from the center of the base straight up to the top vertex of the triangle. This straight line makes a right angle with the base which creates two right triangles. The base of each right triangle is 4 units, the height of each right triangle is x units, and the longest side of each right triangle is 5 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d662c917d9da02640faf260458dc5618008c0cf8.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "When we have a right triangle, we can use the Pythagorean Theorem to find the height.  The equation for the Pythagorean Theorem is   >$a^2 + b^2  = c^2$  In this case $a = 4, b=x$, and $c =5$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "So,  $ \\begin{align} 4^2+x^2 &= 5^2\\\\\\\\ 16+x^2 &= 25\\\\\\\\ x^2 &= 9\\\\\\\\ x &=3\\\\\\\\ \\end{align} $   The height of the triangle is $3$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the triangle is $\\dfrac{1}{2}\\cdot 8 \\cdot 3= 12$ units$^2$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Area"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the area of the following right triangle?**        units$^2$",
+                                "images": [
+                                    {
+                                        "alt": "A right triangle. The base is 5 units. The length of the longest side is 13 units.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/71bc42b36e0e4c08602026ef656dfa28ddf9ee12.png"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "30",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To find the area of the triangle we will need to know the base and the height. Let's call the height $x$.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A right triangle. The base is 5 units. The length of the longest side is 13 units. The height is labeled x units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/a04385ddf61464dce2a9f6072f6a089b1ab012c0.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Since this is a right triangle, we can use the Pythagorean Theorem to find the height.  The equation for the Pythagorean Theorem is   >$a^2 + b^2  = c^2$   In this case $a = 5, b=x$, and $c =13$,",
+                                    "images": []
+                                },
+                                {
+                                    "content": "So,  $ \\begin{align} 5^2+x^2 &= 13^2\\\\ 25+x^2 &= 169\\\\ x^2 &= 144\\\\ x &=12\\\\ \\end{align} $   The height of the triangle is $12$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the right triangle is $\\dfrac{1}{2}\\cdot 5\\cdot 12= 30$ units$^2$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Area"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the area of the right triangle shown below?**         units$^2$",
+                                "images": [
+                                    {
+                                        "alt": "A right triangle. The base is 8 units. The length of the longest side is 17 units.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/a1fdca16e8ccc372dbf9421f884cee7820c7b439.png"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "60",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To find the area of the triangle we will need to know the base and the height. Let's call the height $x$.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A right triangle. The base is 8 units. The length of the longest side is 17 units. The height is labeled x units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/89669294a3dad2311f2cfed4978e66bdb7b7164a.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Since this is a right triangle, we can use the Pythagorean Theorem to find the height.  The equation for the Pythagorean Theorem is   >$a^2 + b^2  = c^2$  In this case $a = 8, b=x$, and $c =17$,",
+                                    "images": []
+                                },
+                                {
+                                    "content": "So,  $ \\begin{align} 8^2+x^2 &= 17^2\\\\ 64+x^2 &= 289\\\\ x^2 &= 225\\\\ x &=15\\\\ \\end{align} $   The height of the triangle is $15$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the right triangle is $\\dfrac{1}{2}\\cdot 8\\cdot 15= 60$ units$^2$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Area"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the area of the right triangle shown below?**        units$^2$",
+                                "images": [
+                                    {
+                                        "alt": "A right triangle. The base is 1.5 units. The length of the longest side is 2.5 units.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/63757eff53349a1af9e2e546a52ba3324a4904d3.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "1.5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To find the area of the triangle we will need to know the base and the height. Let's call the height $x$.   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A right triangle. The base is 1.5 units. The length of the longest side is 2.5 units. The height is labeled x units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/2a83a5ff6905a00cd5300593425f0fd5aa95f5a4.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Since this is a right triangle, we can use the Pythagorean Theorem to find the height.  The equation for the Pythagorean Theorem is   >$a^2 + b^2  = c^2$  In this case $a = 1.5, b=x$, and $c =2.5$,",
+                                    "images": []
+                                },
+                                {
+                                    "content": "So,  $ \\begin{align} 1.5^2+x^2 &= 2.5^2\\\\\\\\ 2.25+x^2 &= 6.25\\\\\\\\ x^2 &= 4\\\\\\\\ x &=2\\\\\\\\ \\end{align} $   The height of the triangle is $2$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the right triangle is $\\dfrac{1}{2}\\cdot 1.5\\cdot 2= 1.5$ units$^2$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Area"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the area of the parallelogram shown below?**        units$^2$",
+                                "images": [
+                                    {
+                                        "alt": "A parallelogram. The base is 4 units. The other 2 sides are 5 units. A dashed line goes from the bottom left vertex of the base straight up to the top base. This straight line makes a right angle with the base which creates a right triangle. The base of the right triangle is labeled 3 units and the longest side of the right triangle is 5 units. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/a2a5c210ed6a65892ba32d2e7f892773c2d0f04d.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "16",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To find the area of the parallelogram we will need to know the base and the height. Let's call the height $x$.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A parallelogram. The base is 4 units. The other 2 sides are 5 units. A dashed line goes from the bottom left vertex of the base straight up to the top base. This straight line makes a right angle with the base which creates a right triangle. The base of the right triangle is labeled 3 units, the height is labeled x units, and the longest side of the right triangle is 5 units. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/a49bdf2ae2b0bf9b8104b0cc9004b2bee593774b.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "When we have  a right triangle, we can use the Pythagorean Theorem to find the height.  The equation for the Pythagorean Theorem is   >$a^2 + b^2  = c^2$  In this case $a = 3, b=x$, and $c =5$,",
+                                    "images": []
+                                },
+                                {
+                                    "content": "So,  $ \\begin{align} 3^2+x^2 &= 5^2\\\\ 9+x^2 &= 25\\\\ x^2 &= 16\\\\ x &=4\\\\ \\end{align} $",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The base of the parallelogram is $4$ and the height is $4$. The area of the parallelogram  is $4\\cdot 4= 16$ units$^2$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Area"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the area of the parallelogram shown below?**        units$^2$",
+                                "images": [
+                                    {
+                                        "alt": "A parallelogram. The base is 9 units. The other 2 sides are 17 units. A dashed line goes from the bottom left vertex of the base straight up to the top base. This straight line makes a right angle with the base which creates a right triangle. The base of the right triangle is labeled 8 units and the longest side of the right triangle is 17 units. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/7315837881afbe54883a7c51a74aa18f6f96e93d.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "135",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To find the area of the parallelogram we will need to know the base and the height. Let's call the height $x$.   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A parallelogram. The base is 9 units. The other 2 sides are 17 units. A dashed line goes from the bottom left vertex of the base straight up to the top base. This straight line makes a right angle with the base which creates a right triangle. The base of the right triangle is labeled 8 units, the height is labeled x units, and the longest side of the right triangle is 17 units. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/f279b6a026c7b73699033aef80f08a6922de05b5.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "When we have  a right triangle, we can use the Pythagorean Theorem to find the height.  The equation for the Pythagorean Theorem is   >$a^2 + b^2  = c^2$  In this case $a = 8, b=x$, and $c =17$,",
+                                    "images": []
+                                },
+                                {
+                                    "content": "So,  $ \\begin{align} 8^2+x^2 &= 17^2\\\\ 64+x^2 &= 289\\\\ x^2 &= 225\\\\ x &=15\\\\ \\end{align} $",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The base of the parallelogram is $9$ and the height is $15$. The area of the parallelogram  is $9\\cdot 15= 135$ units$^2$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Area"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the area of the quadrilateral shown below?**       units$^2$",
+                                "images": [
+                                    {
+                                        "alt": "A quadrilateral with 1 pair of parallel sides. The top base is 4 units. A dashed line goes from the bottom base straight up to the top base. This straight line makes a right angle with the base which creates a rectangle and a right triangle. The base of the right triangle is labeled 4 units and the longest side of the right triangle is 5 units. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/48058e10c0ca51f14a12d39e82a975784b3d08e1.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "18",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To find the area of the quadrilateral we will need to know the height. Let's call the height $x$.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides. The top base is 4 units. A dashed line goes from the bottom base straight up to the top base. This straight line makes a right angle with the base which creates a rectangle and a right triangle. The base of the right triangle is labeled 4 units and the longest side of the right triangle is 5 units. The height of the rectangle and right triangle is labeled x units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/ccfd07faebcc8bfdd9950237bbc1ce1a0567d9eb.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "When we have  a right triangle, we can use the Pythagorean Theorem to find the height.  The equation for the Pythagorean Theorem is   $a^2 + b^2  = c^2$  In this case $a = 4, b=x$, and $c =5$,",
+                                    "images": []
+                                },
+                                {
+                                    "content": "So,  $ \\begin{align} 4^2+x^2 &= 5^2\\\\\\\\ 16+x^2 &= 25\\\\\\\\ x^2 &= 9\\\\\\\\ x &=3 \\end{align} $    The height of the quadrilateral is $3$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Now let's use the height to find the area of both parts of the quadrilateral.  First the rectangle:  $\\begin{align} A & = bh \\\\\\\\  A & = 4 \\cdot3 \\\\\\\\ A & = 12 \\end{align}$   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides. The top base is 4 units. A solid line goes from the bottom base straight up to the top base. This straight line makes a right angle with the base which creates a rectangle and a right triangle. The base of the right triangle is labeled 4 units. The height of the rectangle and right triangle is 3 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/6ebd6157aceb5148b3296fe86146e1680166d096.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now let's find the area of the triangle portion of the quadrilateral.  $\\begin{align} A & = \\dfrac12 bh \\\\\\\\  A & = \\dfrac12 \\cdot3 \\cdot4 \\\\\\\\ A & = 6 \\end{align}$   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides. The top base is 4 units. A solid line goes from the bottom base straight up to the top base. This straight line makes a right angle with the base which creates a rectangle and a right triangle. The base of the right triangle is labeled 4 units. The height of the rectangle and right triangle is 3 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/7e3089cf0fc810a73447ea5c82c1db1951f90ea3.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We can add the areas from both parts together to find the total area of the quadrilateral.  $12 + 6 = 18$ units$^2$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Area"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the area of the quadrilateral shown below?**       units$^2$",
+                                "images": [
+                                    {
+                                        "alt": "A quadrilateral with 1 pair of parallel sides. The bottom base is 4 units. A dashed line goes from the top base straight down to the bottom base. This straight line makes a right angle with the base which creates a rectangle and a right triangle. The base of the right triangle is labeled 7 units and the longest side of the right triangle is 25 units. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/d5d3e54d858295429fc9224bcfc65574e5676cf4.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "180",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To find the area of the quadrilateral we will need to know the height. Let's call the height $x$.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides. The bottom base is 4 units. A dashed line goes from the top base straight down to the bottom base. This straight line makes a right angle with the base which creates a rectangle and a right triangle. The base of the right triangle is labeled 7 units and the longest side of the right triangle is 25 units. The height of the rectangle and right triangle is labeled x units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/11b64b83e2946a61f4edfe9bc0814b5449cba9c3.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "When we have  a right triangle, we can use the Pythagorean Theorem to find the height.  The equation for the Pythagorean Theorem is   $a^2 + b^2  = c^2$  In this case $a = 7, b=x$, and $c =25$,",
+                                    "images": []
+                                },
+                                {
+                                    "content": "So,  $ \\begin{align} 7^2+x^2 &= 25^2\\\\\\\\ 49+x^2 &= 625\\\\\\\\ x^2 &= 576\\\\\\\\ x &=24 \\end{align} $  The height of the quadrilateral is $24$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Now let's use the height to find the area of both parts of the quadrilateral.  First the rectangle:  $\\begin{align} A & = bh \\\\\\\\  A & = 4 \\cdot24 \\\\\\\\ A & = 96 \\end{align}$   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides. The bottom base is 4 units. A solid line goes from the top base straight down to the bottom base. This straight line makes a right angle with the base which creates a rectangle and a right triangle. The base of the right triangle is labeled 7 units and the longest side of the right triangle is 25 units. The height of the rectangle and right triangle is labeled 24 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/aad7c8a8ebf4568e35e62608debe75e7914e14f0.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now let's find the area of the triangle portion of the quadrilateral.  $\\begin{align} A & = \\dfrac12 bh \\\\\\\\  A & = \\dfrac12 \\cdot7 \\cdot24 \\\\\\\\ A & = 84 \\end{align}$    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides. The bottom base is 4 units. A solid line goes from the top base straight down to the bottom base. This straight line makes a right angle with the base which creates a rectangle and a right triangle. The base of the right triangle is labeled 7 units and the longest side of the right triangle is 25 units. The height of the rectangle and right triangle is labeled 24 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/7d1246c6a0309761f52b186fe2a6974106b953e9.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We can add the areas from both parts together to find the total area of the quadrilateral.  $96+ 84= 180$ units$^2$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Area"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**What is the area of the quadrilateral shown below?**      units$^2$",
+                                "images": [
+                                    {
+                                        "alt": "A quadrilateral with 1 pair of parallel sides. The top base is 2 units. A dashed line goes from the bottom base straight up to the top base. This straight line makes a right angle with the base which creates a rectangle and a right triangle. The height of the right triangle and rectangle is 12 units and the longest side of the right triangle is 15 units. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/e5c2114f1448961ef14d9159a5c5ff7e993778df.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "78",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To find the area of the quadrilateral we will need to know the leg length of the right triangle. Let's call the length $x$.   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides. The top base is 2 units. A dashed line goes from the bottom base straight up to the top base. This straight line makes a right angle with the base which creates a rectangle and a right triangle. The height of the right triangle and rectangle is 12 units and the longest side of the right triangle is 15 units. The base of the right triangle is labeled x units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/5334f5b8d4c21b5ef898d71a7cf38f5a4b895072.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "When we have  a right triangle, we can use the Pythagorean Theorem to find the leg length.  The equation for the Pythagorean Theorem is   $a^2 + b^2  = c^2$  In this case $a = 12, b=x$, and $c =15$,",
+                                    "images": []
+                                },
+                                {
+                                    "content": "So,  $ \\begin{align} 12^2+x^2 &= 15^2\\\\\\\\ 144+x^2 &= 225\\\\\\\\ x^2 &= 81\\\\\\\\ x &=9 \\end{align} $  The leg length is $9$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Now let's use the height to find the area of both parts of the quadrilateral.  First the rectangle:  $\\begin{align} A & = bh \\\\\\\\  A & = 2 \\cdot12 \\\\\\\\ A & = 24 \\end{align}$    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides. The top base is 2 units. A dashed line goes from the bottom base straight up to the top base. This straight line makes a right angle with the base which creates a rectangle and a right triangle. The height of the right triangle and rectangle is 12 units and the longest side of the right triangle is 15 units. The base of the right triangle is 9 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/fa2faee65fa91385eb57de5e727a9573f3733295.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now let's find the area of the triangle portion of the quadrilateral.  $\\begin{align} A & = \\dfrac12 bh \\\\\\\\  A & = \\dfrac12 \\cdot9 \\cdot12 \\\\\\\\ A & = 54 \\end{align}$   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral with 1 pair of parallel sides. The top base is 2 units. A dashed line goes from the bottom base straight up to the top base. This straight line makes a right angle with the base which creates a rectangle and a right triangle. The height of the right triangle and rectangle is 12 units and the longest side of the right triangle is 15 units. The base of the right triangle is 9 units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/6804a8580b18489b14ac76af19c473abb5c41697.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We can add the areas from both parts together to find the total area of the quadrilateral.  $24+ 54= 78$ units$^2$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Area"
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,634 @@
+{
+    "standard_metadata": {
+        "standard_id": "8.EE.C.8.c",
+        "standard_description": "Solve real-world and mathematical problems leading to two linear equations in two variables.",
+        "standard_title": "Systems of equations word problems",
+        "standard_url": "https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:systems-of-equations/x2f8bb11595b61c86:systems-of-equations-word-problems/e/understanding-systems-of-equations-word-problems"
+    },
+    "id": "x457f20a9",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A herd of dinosaurs made paintings in the sand with their claws.  Each baby dinosaur made $15$ paintings and each adult dinosaur made $7$ paintings. The entire herd made $208$ paintings in total, and there were $3$ times as many baby dinosaurs as adult dinosaurs.   **How many baby dinosaurs and adult dinosaurs were there?**  There were  baby dinosaurs and  adult dinosaurs.",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "4",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let $x$ represent the number of baby dinosaurs and let $y$ represent the number of adult dinosaurs. Since we have ***two*** unknowns, we need ***two*** equations to find them.  Let's use the given information to write two equations containing $x$ and $y$. For instance, we know that *each baby dinosaur made $\\textit{15}$  paintings, each adult dinosaur made $\\textit{7}$ paintings, and the total number of paintings made was $\\textit{208}$*. How can we model this sentence algebraically?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The total number of paintings made by *baby* dinosaurs can be modeled by $15x$, and the total number of paintings made by *adult* dinosaurs can be modeled by $7y$. Since these together add up to $208$,  we get the following equation:  $15  x+7  y = 208$  We are also given that *there were $\\textit{3}$ times as many baby dinosaurs as adult dinosaurs*. This can be expressed as:  $x = 3  y $  Now that we have a system of two equations, we can go ahead and solve it!",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's substitute $\\blue x=\\blue{3 y}$ into the first equation:  $\\begin{align}15\\blue x+7 y &= 208\\\\\\\\ 15 \\cdot (\\blue{3y})+7y&=208\\\\\\\\ 45  y+7y &=208\\\\\\\\  y&=4\\end{align}$  Now we can substitute $y = 4$ into $x=3 y$ and find that $x=12$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Recall that $x$ denotes the number of baby dinosaurs and $y$ denotes the number of adult dinosaurs. Therefore, *there were $\\textit{12}$ baby dinosaurs and $\\textit{4}$ adult dinosaurs.*",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Each chef at \"Sushi Emperor\" prepares $15$ regular rolls and $20$ vegetarian rolls daily. On Tuesday, each customer ate $2$ regular rolls and $3$ vegetarian rolls.  By the end of the day, $4$ regular rolls and $1$ vegetarian roll remained uneaten.  **How many chefs and how many customers were in \"Sushi Emperor\" on Tuesday?**  There were  chefs and  customers.",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "13",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let $x$ represent the number of chefs and let $y$ represent the number of customers. Since we have ***two*** unknowns, we need ***two*** equations to find them.  Let's use the given information in order to write two equations containing $x$ and $y$. For instance, we are given that *each chef prepared $\\textit{15}$ regular rolls, each customer ate $\\textit{2}$ regular rolls, and $\\textit{4}$ regular rolls remained uneaten*. How can we model this sentence algebraically?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The total number of *regular* rolls prepared by *chefs* can be modeled by $15x$, and the total number of *regular* rolls eaten by *customers* can be modeled by $2y$. The difference between these quantities is represented by the $4$ regular uneaten rolls, which gives us the following equation:  $15 x-2  y=4$  We are also given that *each chef prepared $\\textit{20}$ vegetarian rolls, each customer ate $\\textit{3}$ vegetarian rolls, and $\\textit{1}$ vegetarian roll remained uneaten*. This can be expressed as:  $20  x-3  y=1$  Now that we have a system of two equations, we can go ahead and solve it!",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can now solve the system of equations by the elimination method. Let's manipulate the equations so one of the variables has the same coefficients but with opposite signs.  || :-: | :-: $\\begin{align}\\purple{-4}\\cdot 15x-(\\purple{-4})\\cdot 2y&=\\purple{-4}\\cdot 4\\\\\\\\-60x+8y&=-16\\end{align}$ | $\\qquad \\begin{align} \\green{3}\\cdot20x-\\green{3}\\cdot 3y&=\\green{3}\\cdot1\\\\\\\\60x-9y&=3\\end{align}$   Now we can eliminate $x$:  $\\begin{align}-60x+8y&=-16\\\\\\\\ {+}\\ 60x-9y&=3\\\\ \\hline\\\\ 0-y &=-13 \\end{align}$  When we solve the resulting equation, we obtain that $y =13$. Then, we can substitute this into one of the original equations and solve for $x$ to obtain $x=2$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Recall that $x$ denotes the number of chefs and $y$ denotes the number of customers. Therefore, *there were $\\textit{2}$ chefs and $\\textit{13}$ customers.*",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Dr. Potter provides vaccinations against polio and measles.  Each polio vaccination consists of $4$ doses, and each measles vaccination consists of $2$ doses. Last year, Dr. Potter gave a total of $60$ vaccinations that consisted of a total of $184$ doses.  **How many polio vaccinations and how many measles vaccinations did Dr. Potter give last year?**  Dr. Potter gave  polio vaccinations and  measles vaccinations.",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "28",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let $x$ represent the number of polio vaccinations Dr. Potter gave and let $y$ represent the number of measles vaccinations she gave. Since we have ***two*** unknowns, we need ***two*** equations to find them.  Let's use the given information in order to write two equations containing $x$ and $y$. For instance, we are given that *each polio vaccine consists of $\\textit{4}$ doses, each measles vaccine consists of $\\textit{2}$ doses, and Dr. Potter gave a total of $\\textit{184}$ doses of vaccination last year*. How can we model this sentence algebraically?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The total number of doses of the *polio* vaccines received by children can be modeled by $4x$, and the total number of  doses of the *measles* vaccines received by children can be modeled by $2y$. Since these together add up to $184$, we get the following equation:  $4 x+2  y=184$  We are also given that *Dr. Potter gave a total of $\\textit{60}$ vaccinations last year*. This can be expressed as:  $x+y=60$  Let's rewrite this equation so that it's solved for $y$:  $y = 60-x$  Now that we have a system of two equations, we can go ahead and solve it!",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's substitute $\\pink y=\\pink{60-x}$ into the first equation:  $\\begin{align}4x+ 2\\pink y &= 184\\\\\\\\ 4x+2\\cdot (\\pink{60-x})&=184\\\\\\\\ 4x+120-2x&=184\\\\\\\\ 2x &=64\\\\\\\\  x&=32\\end{align}$  Now we can substitute $x = 32$ into $y=60-x$ and find that $y=28$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Recall that $x$ denotes the number of polio vaccinations and $y$ denotes the number of measles vaccinations. Therefore, *Dr. Potter gave $\\textit{32}$ polio vaccinations and $\\textit{28}$ measles vaccinations.*",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Michael breeds chickens and ducks.  Last month, he sold $50$ chickens and $30$ ducks for $\\$550$. This month, he sold $44$ chickens and $36$ ducks for $\\$532$.  **How much does a chicken cost, and how much does a duck cost?**  A chicken costs $\\$$ and a duck costs $\\$$.",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let $x$ represent the cost of a chicken and let $y$ represent the cost of a duck. Since we have ***two*** unknowns, we need ***two*** equations to find them.  Let's use the given information in order to write two equations containing $x$ and $y$. For instance, we are given that *last month, Michael sold $\\textit{50}$ chickens and $\\textit{30}$ ducks for $\\$\\textit{550}$*. How can we model this sentence algebraically?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The total cost of chickens Michael sold last month can be modeled by $50x$, and the total cost of ducks he sold last month can be modeled by $30y$. Since these together add up to $550$, we get the following equation:  $50x+30y = 550$  We are also given that *this month, Michael sold $\\textit{44}$ chickens and $\\textit{36}$ ducks for $\\$\\textit{532}$*. This can be expressed as:  $44x+36y=532$  Now that we have a system of two equations, we can go ahead and solve it!",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can now solve the system of equations by the elimination method. Let's manipulate the equations so one of the variables has the same coefficients but with opposite signs.  || :-: | :-: $ \\begin{align}\\purple{-6}\\cdot 50x+(\\purple{-6})\\cdot 30y&=\\purple{-6}\\cdot 550\\\\\\\\-300x-180y&=-3300\\end{align}$ | $\\quad\\begin{align} \\green{5}\\cdot44x+\\green{5}\\cdot 36y&=\\green{5}\\cdot532\\\\\\\\220x+180y&=2660\\end{align}$   Now we can eliminate $y$:  $ \\begin{align}-300x-180y&=-3300\\\\\\\\ {+}\\ 220x+180y&=2660\\\\ \\hline\\\\ -80x+0 &=-640 \\end{align}$  When we solve the resulting equation, we obtain that $x =8$. Then, we can substitute this into one of the original equations and solve for $y$ to obtain $y=5$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Recall that $x$ denotes the cost of a chicken and $y$ denotes the cost of a duck. Therefore, *a chicken costs $\\$\\textit{8}$  and a duck costs $\\$\\textit{5}$.*",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Bhavik bought $3$ liters of milk and $5$ loaves of bread for a total of $\\$11$. A month later, he bought $4$ liters of milk and $4$ loaves of bread at the same prices, for a total of $\\$10$.  **How much does a liter of milk cost, and how much does a loaf of bread cost?**   A liter of milk costs $\\$$ and a loaf of bread costs $\\$$.",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "1.75",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let $x$ represent the cost of a liter of milk and let $y$ represent the cost of a loaf of bread. Since we have ***two*** unknowns, we need ***two*** equations to find them.  Let's use the given information in order to write two equations containing $x$ and $y$. For instance, we are given that *Bhavik bought $\\textit{3}$ liters of milk and $\\textit{5}$ loaves of bread for $\\$\\textit{11}$*. How can we model this sentence algebraically?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The total cost of milk Bhavik bought can be modeled by $3x$, and the total cost of bread he bought can be modeled by $5y$. Since these together add up to $11$, we get the following equation:  $3x+5y = 11$  We are also given that *a month later, Bhavik bought $\\textit{4}$ liters of milk and $\\textit{4}$ loaves of bread for $\\$\\textit{10}$*. This can be expressed as:  $4x+4y=10$  Now that we have a system of two equations, we can go ahead and solve it!",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can now solve the system of equations by the elimination method. Let's manipulate the equations so one of the variables has the same coefficients but with opposite signs.  || :-: | :-: $\\begin{align}\\purple{-4}\\cdot 3x+(\\purple{-4})\\cdot 5y&=\\purple{-4}\\cdot 11\\\\\\\\-12x-20y&=-44\\end{align}$ | $\\quad \\begin{align} \\green{3}\\cdot4x+\\green{3}\\cdot 4y&=\\green{3}\\cdot10\\\\\\\\12x+12y&=30\\end{align}$   Now we can eliminate $x$:  $\\begin{align}-12x-20y&=-44\\\\\\\\ {+}\\ 12x+12y&=30\\\\ \\hline\\\\ 0-8y &=-14 \\end{align}$  When we solve the resulting equation, we find that $y =1.75$. Then, we can substitute this into one of the original equations and solve for $x$ to obtain $x=0.75$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Recall that $x$ denotes the cost of a liter of milk and $y$ denotes the cost of a loaf of bread. Therefore, *a liter of milk costs $\\$\\textit{0.75}$ and a loaf of bread costs $\\$\\textit{1.75}$.*",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The combined average weight of an okapi and a llama is $450$ kilograms. The average weight of $3$ llamas is $190$ kilograms more than the average weight of one okapi.  **On average, how much does an okapi weigh, and how much does a llama weigh?**  On average, an okapi weighs  kilograms  and a llama weighs  kilograms.",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "160",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let $x$ represent the average weight of an okapi and let $y$ represent the average weight of a llama. Since we have ***two*** unknowns, we need ***two*** equations to find them.  Let's use the given information in order to write two equations containing $x$ and $y$. For instance, we are given that *the combined average weight of an okapi and a llama is $\\textit{450}$ kilograms*. How can we model this sentence algebraically?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since their combined average weight is $450$ kilograms, we get the following equation:  $  x+ y = 450$  We are also given that *the average weight of $\\textit{3}$ llamas is $\\textit{190}$ kilograms more than the average weight of one okapi*. This can be expressed as:  $x +190 = 3y$  Let's rewrite this equation so that it's solved for $x$:  $x = 3y-190$  Now that we have a system of two equations, we can go ahead and solve it!",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's substitute $\\blue x=\\blue{3 y-190}$ into the first equation:  $\\begin{align}\\blue x+y &= 450\\\\\\\\  (\\blue{3y-190})+y&=450\\\\\\\\ 4y &=640\\\\\\\\  y&=160\\end{align}$  Now we can substitute $y = 160$ into $x+y=450$ and find that $x=290$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Recall that $x$ denotes the average weight of an okapi and $y$ denotes the average weight of a llama. Therefore, *an okapi weighs $\\textit{290}$ kilograms on average and a llama weighs $\\textit{160}$ kilograms on average.*",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Logan genetically engineered a new type of fir tree and a new type of pine tree.  The combined height of one fir tree and one pine tree is $21$ meters. The height of $4$ fir trees stacked on top of each other is $24$ meters taller than one pine tree.  **How tall are the types of trees that Logan genetically engineered?**  Each fir tree is  meters tall and each pine tree is  meters tall.",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "12",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let $x$ represent the height of a fir tree and let $y$ represent the height of a pine tree. Since we have ***two*** unknowns, we need ***two*** equations to find them.  Let's use the given information in order to write two equations containing $x$ and $y$. For instance, we are given that *the combined height of one fir tree and one pine tree is $\\textit {21}$ meters*. How can we model this sentence algebraically?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since the heights of a fir tree and pine tree add up to $21$ meters, we get the following equation:  $x+ y = 21$  We are also given that *the combined height of $\\textit{4}$ fir trees is $\\textit{24}$ meters more than the height of a single pine tree*. This can be expressed as:  $y +24 = 4x$  Let's rewrite this equation so that it's solved for $y$:  $y = 4x-24$  Now that we have a system of two equations, we can go ahead and solve it!",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's substitute $\\pink y=\\pink{4x-24}$ into the first equation:  $\\begin{align}x+ \\pink y &= 21\\\\\\\\ x+(\\pink{4x-24})&=21\\\\\\\\ 5x &=45\\\\\\\\  x&=9\\end{align}$  Now we can substitute $x = 9$ into $x+y=21$ and find that $y=12$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Recall that $x$ denotes the height of each fir tree and $y$ denotes the height of each pine tree. Therefore, *each fir tree is $\\textit{9}$ meters tall and each pine tree is $\\textit{12}$ meters tall.*",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Malcolm and Ravi raced each other.  The average of their maximum speeds was $260\\text{ km/h}$. If Malcolm's speed is doubled, Malcolm's maximum speed would be $80\\text{ km/h}$ more than Ravi's maximum speed.  **What were Malcolm's and Ravi's maximum speeds?**  Malcolm's maximum speed was  $\\text{km/h}$ and Ravi's maximum speed was    $\\text{km/h}$.",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "320",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let $x$ represent Malcolm's maximum speed and let $y$ represent Ravi's maximum speed. Since we have ***two*** unknowns, we need ***two*** equations to find them.  Let's use the given information in order to write two equations containing $x$ and $y$. For instance, we are given that *the average of Malcolm's and Ravi's maximum speeds was $\\textit{260 km/h}$*. How can we model this sentence algebraically?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The average of the maximum speeds is modeled by $\\dfrac{x+y}{2}$. Since that average was $260\\text{ km/h}$, we get the following equation:  $\\dfrac{x+ y}{2} = 260$  Let’s multiply both sides of this equation by $2$ to avoid fractions:  $x+ y = 520$  We are also given that *twice Malcolm's maximum speed was $\\textit{80 km/h}$ more than Ravi's maximum speed*. This can be expressed as:  $2x=y+80$  Let's rewrite this equation so that it's solved for $y$:  $y = 2x-80$  Now that we have a system of two equations, we can go ahead and solve it!",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's substitute $\\pink y=\\pink{2x-80}$ into the first equation:  $ \\begin{align}x+ \\pink y &= 520\\\\\\\\ x+(\\pink{2x-80})&=520\\\\\\\\ 3x &=600\\\\\\\\  x&=200\\end{align}$  Now we can substitute $x = 200$ into $x+y=520$ and find that $y=320$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Recall that $x$ denotes Malcolm's maximum speed and $y$ denotes the Ravi's maximum speed. Therefore, *Malcolm's maximum speed was $\\textit{200 km/h}$ and Ravi's maximum speed was $\\textit{320 km/h}$.*",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A plane has $360$ total seats, which are divided into economy class and business class. For every $13$ seats in economy class, there are $5$ seats in business class.  **How many seats are there in each class?**  There are  seats in economy class and   seats in business class.",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "100",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "260",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let $x$ represent the number of seats in the economy class and let $y$ represent the number of seats in the business class. Since we have ***two*** unknowns, we need ***two*** equations to find them.  Let's use the given information in order to write two equations containing $x$ and $y$. For instance, we are given that *the plane has $\\textit {360}$ seats divided into the economy class and the business class*. How can we model this sentence algebraically?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Since the number of seats in the economy class and the business class add up to $360$ seats, we get the following equation:  $x+ y = 360$  We are also given that *for every $\\textit{13}$ seats in the economy class, there are $\\textit{5}$ seats in the business class*. This can be expressed as:  $\\dfrac{x}{13}=\\dfrac{y}{5}$  Let's rewrite this equation so that it's solved for $x$:  $x = \\dfrac{13y}{5}$  Now that we have a system of two equations, we can go ahead and solve it!",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's substitute $\\blue x=\\blue{ \\dfrac{13y}{5}}$ into the first equation:  $\\begin{align}\\blue x+ y &= 360\\\\\\\\ \\left(\\blue { \\dfrac{13y}{5}}\\right)+y&=360\\\\\\\\ \\dfrac{13y+5y}{5} &=360\\\\\\\\ 18y&=360 \\cdot 5\\\\\\\\  y&=100\\end{align}$  Now we can substitute $y = 100$ into $x+y=360$ and find that $x=260$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Recall that $x$ denotes the number of seats in the economy class and $y$ denotes the number of seats in the business class. Therefore, *there are $\\textit{260}$ seats in the economy class and $\\textit{100}$ seats in the business class.*",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A stone fell from the top of a cliff into the ocean.  In the air, it had an average speed of $16$ $\\text{m/s}$. In the water, it had an average speed of $3$ $\\text{m/s}$ before hitting the seabed. The total distance from the top of the cliff to the seabed is $127$ meters, and the stone's entire fall took $12$ seconds.   **How long did the stone fall in the air and how long did it fall in the water?**  The stone fell in the air for   seconds and fell in the water for  seconds.",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let $x$ represent the time (in seconds) that the stone fell in the  air and let $y$ represent the time (in seconds) that it fell in the water. Since we have ***two*** unknowns, we need ***two*** equations to find them.  Let's use the given information in order to write two equations containing $x$ and $y$. For instance, we are given that *the stone fell at an average speed of $\\textit{16 m/s}$ in air, at an average speed of  $\\textit{3 m/s}$ in water, and that it fell a total distance of $\\textit{127}$ meters*. How can we model this sentence algebraically?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The total distance the stone fell in air can be modeled by $16x$, and the total distance it fell in water can be modeled by $3y$. Since these together add up to $127$,  we get the following equation:  $16x+3y=127$  We are also given that *the stone's entire fall took $\\textit{12}$ seconds*. This can be expressed as:  $x + y =12$  Now that we have a system of two equations, we can go ahead and solve it!",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can now solve the system of equations by the elimination method. Note that the coefficient of $y$ in the first equation, $3$, is exactly $3$ times the coefficient of $y$ in the second equation, $1$. Therefore, we can multiply the second equation by $\\purple{-3}$ in order to eliminate $y$.  $ \\begin{align} \\purple{-3}\\cdot x+(\\purple{-3})\\cdot y&=\\purple{-3}\\cdot12\\\\\\\\ -3x-3y&=-36\\end{align}$   Now we can eliminate $y$:  $\\begin{align}16x+{3y}&=127\\\\\\\\ {+}\\ -3x-{3y}&=-36\\\\ \\hline\\\\ 13x+0 &=91 \\end{align}$  When we solve the resulting equation, we find that $x =7$, which we can substitute into $x+y=12$ to find that $y=5$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Recall that $x$ denotes the time the stone fell in air and $y$ denotes the time it fell in water. Therefore, *the stone fell in the air for $\\textit{7}$ seconds and fell in the water for  $\\textit{5}$ seconds.*",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Eudora ran from her home to her secret laboratory at an average speed of $12\\text{ km/h}$. She then took one of her jetpacks and flew to her school at an average speed of $76\\text{ km/h}$. Eudora traveled a total distance of $120$ kilometers, and the entire trip took $2$ hours.   **How long did Eudora spend running, and how long did she spend flying using her jetpack?**  Eudora ran for  hours and flew for   hours using her jetpack.",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "1.5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let $x$ represent the time (in hours) that Eudora spent running and let $y$ represent the time (in hours) that she spent flying. Since we have ***two*** unknowns, we need ***two*** equations to find them.  Let's use the given information in order to write two equations containing $x$ and $y$. For instance, we are given that *Eudora ran at an average speed of $\\textit{12 km/h}$, flew an average speed of $\\textit{76 km/h}$, and traveled a total distance of $\\textit{120}$ kilometers*. How can we model this sentence algebraically?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The total distance Eudora ran can be modeled by $12x$, and the total distance she flew can be modeled by $76y$. Since these together add up to $120$,  we get the following equation:  $12x+76y=120$  We are also given that *Eudora's entire trip took $\\textit{2}$ hours*. This can be expressed as:  $x + y =2$  Now that we have a system of two equations, we can go ahead and solve it!",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can now solve the system of equations by the elimination method. Note that the coefficient of $x$ in the first equation, $12$, is exactly $12$ times the coefficient of $x$ in the second equation, $1$. Therefore, we can multiply the second equation by $\\purple{-12}$ in order to eliminate $x$.  $\\begin{align} \\purple{-12}\\cdot x+(\\purple{-12})\\cdot y&=\\purple{-12}\\cdot2\\\\\\\\ -12x-12y&=-24\\end{align}$   Now we can eliminate $x$:  $\\begin{align}12x+{76y}&=120\\\\\\\\ {+}\\ -12x-{12y}&=-24\\\\ \\hline\\\\ 0+64y &=96 \\end{align}$  When we solve the resulting equation, we find that $y =1.5$, which we can substitute into $x+y=2$ to find that $x=0.5$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Recall that $x$ denotes the time that Eudora spent running and $y$ denotes the time she spent flying. Therefore, *Eudora ran for $\\textit{0.5}$ hours and flew for  $\\textit{1.5}$ hours using her jetpack.*",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Wolfrich lived in Portugal and Brazil for a total period of $14$ months in order to learn Portuguese.  He learned an average of $130$ new words per month when he lived in Portugal and an average of $150$ new words per month when he lived in Brazil. In total, he learned $1920$ new words.   **How long did Wolfrich live in Portugal, and how long did he live in Brazil?**  Wolfrich lived in Portugal for   months and lived in Brazil for  months.",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let $x$ represent the number of months Wolfrich lived in Portugal and let $y$ represent the number of months he lived in Brazil. Since we have ***two*** unknowns, we need ***two*** equations to find them.  Let's use the given information in order to write two equations containing $x$ and $y$. For instance, we are given that *Wolfrich learned an average of $\\textit{130}$ new words per month in Portugal, an average speed of  $\\textit{150}$ new words per month in Brazil, and a total of $\\textit{1920}$ new words in Portugal and Brazil*. How can we model this sentence algebraically?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The total number of new words Wolfrich learned in Portugal can be modeled by $130x$, and the total number of new words he learned in Brazil can be modeled by $150y$. Since these together add up to $1920$,  we get the following equation:  $130x+150y=1920$  We are also given that *Wolfrich lived in Portugal and Brazil for  a total of $\\textit{14}$ months*. This can be expressed as:  $x + y =14$  Now that we have a system of two equations, we can go ahead and solve it!",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can now solve the system of equations by the elimination method. Note that the coefficient of $y$ in the first equation, $150$, is exactly $150$ times the coefficient of $y$ in the second equation, $1$. Therefore, we can multiply the second equation by $\\purple{-150}$ in order to eliminate $y$.  $\\begin{align} \\purple{-150}\\cdot x+(\\purple{-150})\\cdot y&=\\purple{-150}\\cdot14\\\\\\\\ -150x-150y&=-2100\\end{align}$  Now we can eliminate $y$:  $\\begin{align}130x+{150y}&=1920\\\\\\\\ {+}\\ -150x-{150y}&=-2100\\\\ \\hline\\\\ -20x+0 &=-180 \\end{align}$  When we solve the resulting equation, we find that $x =9$, which we can substitute into $x+y=14$ to find that $y=5$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Recall that $x$ denotes the time Wolfrich lived in Portugal and $y$ denotes the time he lived in Brazil. Therefore, *Wolfrich lived in Portugal for $\\textit{9}$ months and lived in Brazil for  $\\textit{5}$ months.*",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Yochanan walked from home to the bus stop at an average speed of $5$ $\\text{km/h}$. He immediately got on his school bus and traveled at an average speed of $60$ $\\text{km/h}$ until he got to school. The total distance from his home to school is $35$ kilometers, and the entire trip took $1.5$ hours.   **How many kilometers did Yochanan cover by walking, and how many kilometers did he cover by travelling on the bus?**  Yochanan walked  kilometers and traveled   kilometers on the bus.",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "30",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "0.5",
+                                        "correct": false
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let $x$ represent the time (in hours) Yochanan walked and let $y$ represent the time (in hours) he traveled by bus. Since we have ***two*** unknowns, we need ***two*** equations to find them.  Let's use the given information in order to write two equations containing $x$ and $y$. For instance, we are given that *Yochanan walked at an average speed of $\\textit{5 km/h}$, the school bus traveled at an average speed of  $\\textit{60 km/h}$, and the distance between Yochanan's home and his school is $\\textit{35}$ kilometers*. How can we model this sentence algebraically?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The total distance Yochanan walked can be modeled by $5x$, and the total distance he traveled by bus can be modeled by $60y$. Since these together add up to $35$,  we get the following equation:  $5  x+60  y = 35$  We are also given that *the entire trip took $\\textit{1.5}$ hours*. This can be expressed as:  $x + y =1.5$  Now that we have a system of two equations, we can go ahead and solve it!",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We can now solve the system of equations by the elimination method. Note that the coefficient of $x$ in the first equation, $5$, is exactly $5$ times the coefficient of $x$ in the second equation, $1$. Therefore, we can multiply the second equation by $\\purple{-5}$ in order to eliminate $x$.  $\\begin{align} \\purple{-5}\\cdot x+(\\purple{-5})\\cdot y&=\\purple{-5}\\cdot1.5\\\\\\\\ -5x-5y&=-7.5\\end{align}$  Now we can eliminate $x$:  $\\begin{align}5x+{60y}&=35\\\\\\\\ {+}\\ -5x-{5y}&=-7.5\\\\ \\hline\\\\ 0+55y &=27.5 \\end{align}$  When we solve the resulting equation, we find that $y = 0.5$, which we can substitute into $x+y=1.5$ to find that $x=1$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Recall that $5x$ denotes the distance Yochanan walked and $60y$ denotes the distance he traveled by bus. Therefore, *Yochanan walked $\\textit{5}\\cdot\\textit{1}=\\textit{5}$ kilometers and traveled $\\textit{60}\\cdot\\textit{0.5}=\\textit{30}$ kilometers by bus.*",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Sakura speaks $150$ words per minute on average in Hungarian, and $190$ words per minute on average in Polish. She once gave cooking instructions in Hungarian, followed by cleaning instructions in Polish. Sakura spent $5$ minutes total giving both instructions, and spoke $270$ more words in Polish than in Hungarian.  **How long did Sakura speak in Hungarian, and how long did she speak in Polish?**  Sakura spoke for   minutes in Hungarian and for   minutes in Polish.",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "3",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let $x$ represent the time (in minutes) Sakura spoke in Hungarian and let $y$ represent the time (in minutes) she spoke in Polish. Since we have ***two*** unknowns, we need ***two*** equations to find them.  Let's use the given information in order to write two equations containing $x$ and $y$. For instance, we are given that *Sakura speaks an average of $\\textit{150}$ words per minute in Hungarian, an average of  $\\textit{190}$ words per minute in Polish, and spoke $\\textit{270}$ more words in Polish than in Hungarian*. How can we model this sentence algebraically?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The total number of words Sakura spoke in Hungarian can be modeled by $150x$, and the total number words she spoke in Polish can be modeled by $190y$. Since she spoke $270$ more words in Polish than in Hungarian, we get the following equation:  $150x+270=190y$  We can rewrite this equation in standard form as such:   $150x-190y=-270$.  We are also given that *Sakura gave instructions for  a total of $\\textit{5}$ minutes*. This can be expressed as:  $x + y =5$  Let's rewrite this equation so that it's solved for $x$:  $ x = 5-y$  Now that we have a system of two equations, we can go ahead and solve it!",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's substitute $\\blue x=\\blue{5- y}$ into the first equation:  $\\begin{align}150\\blue x-190 y &= -270\\\\\\\\ 150 \\cdot (\\blue{5-y})-190y&=-270\\\\\\\\ 750-150y-190y&=-270\\\\\\\\ -340y&=-1020\\\\\\\\  y&=3\\end{align}$  Now we can substitute $y = 3$ into $x=5- y$ and find that $x=2$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Recall that $x$ denotes the time Sakura spoke in Hungarian and $y$ denotes the time she spoke in Polish. Therefore, *Sakura spoke for $\\textit{2}$ minutes in Hungarian and for  $\\textit{3}$ minutes in Polish.*",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Giselle works as a carpenter and as a blacksmith.  She earns $\\$20$ per hour as a carpenter and $\\$25$ per hour as a blacksmith. Last week, Giselle worked both jobs for a total of $30$ hours, and earned a total of $\\$690$.  **How long did Giselle work as a carpenter last week, and how long did she work as a blacksmith?**  Giselle worked as a carpenter for   hours and as a blacksmith for   hours last week.",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "18",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let $x$ represent the time Giselle worked as a carpenter and let $y$ represent the time she worked as a blacksmith. Since we have ***two*** unknowns, we need ***two*** equations to find them.  Let's use the given information in order to write two equations containing $x$ and $y$. For instance, we are given that *Giselle earns $\\$\\textit{20}$ per hour as a carpenter, $\\$\\textit{25}$ per hour as a blacksmith, and earned a total of $\\$\\textit{690}$ last week*. How can we model this sentence algebraically?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The total amount of money Giselle made as a carpenter can be modeled by $20x$, and the total amount of money she made as a blacksmith can be modeled by $25y$. Since these together add up to $\\$690$, we get the following equation:  $20x+25y=690$  We are also given that *last week, Giselle worked as a carpenter and a blacksmith for a total of $\\textit{30}$ hours*. This can be expressed as:  $  x + y =30$  Let's rewrite this equation so that it's solved for $x$:  $x = 30-y$  Now that we have a system of two equations, we can go ahead and solve it!",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's substitute $\\blue x=\\blue{30- y}$ into the first equation:  $\\begin{align}20\\blue x+25 y &= 690\\\\\\\\ 20 \\cdot (\\blue{30-y})+25y&=690\\\\\\\\ 600-20y+25y&=690\\\\\\\\ 5y &=90\\\\\\\\  y&=18\\end{align}$  Now we can substitute $y = 18$ into $x=30- y$ and find that $x=12$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Recall that $x$ denotes the time Giselle worked as a carpenter and $y$ denotes the time she worked as a blacksmith. Therefore, *Giselle worked as a carpenter for $\\textit{12}$ hours and as a blacksmith for $\\textit{18}$ hours last week.*",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1"
+                    }
+                }
+            }
+        }
+    ]
+}

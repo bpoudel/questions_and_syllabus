@@ -1,0 +1,787 @@
+{
+    "standard_metadata": {
+        "standard_id": "5.NBT.A.3",
+        "standard_description": "Read, write, and compare decimals to thousandths.",
+        "standard_title": "Decimals in written and expanded form",
+        "standard_url": "https://www.khanacademy.org/math/mappers/number-and-operations-213-219/x261c2cc7:decimals-in-different-forms/e/decimals-in-written-and-expanded-form"
+    },
+    "id": "xbcac37b4aa4fa87d",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which two of the following expressions have the same value as $8.76$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Eight and sixty-seven hundredths",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "${8 \\text{ ones}}+{7 \\text{ tenths}}+{6 \\text{ hundredths}}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$(8\\times1)+\\left ( 7\\times\\dfrac{1}{10} \\right )+\\left (6\\times\\dfrac{1}{100} \\right )$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$8+0.7+0.006$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's use a place value table to write each expression in standard form.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "### Expression: $\\purpleC{\\text{Eight}}$ $\\blueD{\\text{and}}$ $\\greenD{\\text{sixty-seven hundredths}}$   The $\\blueD{\\text{and}}$ tells us where to put the decimal.  We write $\\text{\\purpleC{eight}}$ to the left side of the decimal as $\\purpleC8$.  We write $\\text{\\greenD{sixty-seven hundredths}}$ to the right side of the decimal as $\\greenD{67}$ .   The last place value in the number is *hundredths*, so the number ends in the *hundredths* place.  Ones | $.$ | Tenths | Hundredths :-:|:-: | :-: | :-: | :-: | :-: $\\purpleC8$ |$\\blueD.$  | $\\greenD6$ | $\\greenD7$  $8.67 \\neq 8.76$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Expression: $\\purpleC{8 \\text{ ones}}+\\greenD{7 \\text{ tenths}}+\\goldD{6 \\text{ hundredths}}$  Ones | $.$ | Tenths | Hundredths :-:|:-: | :-: | :-: | :-: | :-: $\\purpleC8$ |$\\blueD.$  | $\\greenD7$ | $\\goldD6$  $8.76 = 8.76$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Expression: $\\purpleC{(8\\times1)}+\\greenD{\\left ( 7\\times\\dfrac{1}{10} \\right )}+\\goldD{\\left (6\\times\\dfrac{1}{100} \\right )}$  $\\begin{align} \\purpleC{(8\\times1)}+\\greenD{\\left ( 7\\times\\dfrac{1}{10} \\right )}+\\goldD{\\left (6\\times\\dfrac{1}{100} \\right )} = \\purpleC{8}+\\greenD{0.7}+\\goldD{ 0.06}  \\end{align}$  Ones | $.$ | Tenths | Hundredths :-:|:-: | :-: | :-: | :-: | :-: $\\purpleC8$ |$\\blueD.$  | $\\greenD7$ | $\\goldD6$  $8.76 = 8.76$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Expression:  $\\purpleC8+\\greenD{0.7}+\\maroonD{0.006}$  Ones | $.$ | Tenths | Hundredths | Thousandths :-:|:-: | :-: | :-: | :-: | :-: $\\purpleC8$ |$\\blueD.$  | $\\greenD7$ | $0$| $\\maroonD6$  $8.706 \\neq 8.76$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following expressions have the same value as $8.76$:  * $\\purpleC{8 \\text{ ones}}+\\greenD{7 \\text{ tenths}}+\\goldD{6 \\text{ hundredths}}$  * $\\purpleC{(8\\times1)}+\\greenD{\\left ( 7\\times\\dfrac{1}{10} \\right )}+\\goldD{\\left (6\\times\\dfrac{1}{100} \\right )}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "5th-Decimal PV Select 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which two of the following have the same value as $1.303$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "One and three hundred three thousandths",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$3$ ones + $3$ tenths + $3$ thousandths",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$(1\\times1)+\\left ( 3\\times\\dfrac{1}{10} \\right )+\\left (3\\times\\dfrac{1}{100} \\right )$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$1+0.3+0.003$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's use a place value table to write each expression in standard form.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "### Expression: $\\purpleC{\\text{One}}$ $\\blueD{\\text{and}}$ $\\greenD{\\text{three hundred-}}$$\\maroonD{\\text{three thousandths}}$   The $\\blueD{\\text{and}}$ tells us where to put the decimal.  We write $\\text{\\purpleC{one}}$ to the left side of the decimal as $\\purpleC1$.  We write $\\greenD{\\text{three hundred-}}$$\\maroonD{\\text{three thousandths}}$ to the right side of the decimal as $\\greenD{3}0\\maroonD3$ .   The last place value in the number is *thousandths*, so the number ends in the *thousandths* place.  Ones | $.$ | Tenths | Hundredths | Thousandths :-:|:-: | :-: | :-: | :-: | :-: $\\purpleC1$ |$\\blueD.$  | $\\greenD3$| $0$ | $\\maroonD3$  $1.303 = 1.303$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Expression: $\\purpleC{3 \\text{ ones}}+\\greenD{3 \\text{ tenths}}+\\goldD{3 \\text{ thousandths}}$  Ones | $.$ | Tenths | Hundredths| Thousandths :-:|:-: | :-: | :-: | :-: | :-: $\\purpleC3$ |$\\blueD.$  | $\\greenD3$ | $0$| $\\goldD3$  $3.303 \\neq 1.303$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Expression: $\\purpleC{(1\\times1)}+\\greenD{\\left ( 3\\times\\dfrac{1}{10} \\right )}+\\goldD{\\left (3\\times\\dfrac{1}{100} \\right )}$  $\\begin{align} \\purpleC{(1\\times1)}+\\greenD{\\left ( 3\\times\\dfrac{1}{10} \\right )}+\\goldD{\\left (3\\times\\dfrac{1}{100} \\right )} = \\purpleC{1}+\\greenD{0.3}+\\goldD{ 0.03}  \\end{align}$  Ones | $.$ | Tenths | Hundredths :-:|:-: | :-: | :-: | :-: | :-: $\\purpleC1$ |$\\blueD.$  | $\\greenD3$ | $\\goldD3$  $1.33 \\neq 1.303$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Expression:  $\\purpleC1+\\greenD{0.3}+\\maroonD{0.003}$  Ones | $.$ | Tenths | Hundredths | Thousandths :-:|:-: | :-: | :-: | :-: | :-: $\\purpleC1$ |$\\blueD.$  | $\\greenD3$ | $0$ |$\\maroonD3$  $1.303 = 1.303$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following expressions have the same value as $1.303$:  * $\\purpleC1+\\greenD{0.3}+\\maroonD{0.003}$  * $\\purpleC{\\text{One}}$ $\\blueD{\\text{and}}$ $\\greenD{\\text{three hundred-}}$$\\maroonD{\\text{three thousandths}}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "5th-Decimal PV Select 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which two of the following have the same value as $18$ ones and $302$ thousandths?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$18{,}302$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$1$ ten + $8$ ones + $3$ tenths + $2$ thousandths",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$(1\\times10) + (8\\times1) +\\left ( 3\\times\\dfrac{1}{10} \\right )+\\left (2\\times\\dfrac{1}{1{,}000} \\right )$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$(1\\times10) + (8\\times1) +\\left ( 3\\times\\dfrac{1}{100} \\right )+\\left (2\\times\\dfrac{1}{1{,}000} \\right )$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "### Expression: $\\purpleC{18\\text{ ones}}$ $\\blueD{\\text{and}}$ $\\greenD{302\\text{ thousandths}}$   First, let's turn $18$ ones and $302$ thousandths into standard form using a place value chart.  The $\\blueD{\\text{and}}$ tells us where to put the decimal.  We write $\\text{\\purpleC{18 ones}}$ to the left side of the decimal as $\\purpleC{18}$.  We write $\\greenD{302\\text{ thousandths}}$ to the right side of the decimal as $\\greenD{302}$ .   The last place value in the number is *thousandths*, so the number ends in the *thousandths* place.  Tens | Ones | $.$ | Tenths | Hundredths | Thousandths :-:|:-: | :-: | :-: | :-: | :-: $\\purpleC1$| $\\purpleC8$ |$\\blueD.$  | $\\greenD3$| $\\greenD0$ | $\\greenD2$  So, we are looking for expressions that are equivalent to $\\purpleC{18}\\blueD{.}\\greenD{302}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Now, let's use a place value table to write each expression in standard form.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Expression:  $\\blueD{1}\\greenD{8}{,}\\maroonD{3}0\\purpleC{2}$   Ten Thousands| Thousands| Hundreds| Tens | Ones  :-:|:-: | :-: | :-: | :-: | :-: :-:|:-: | :-: | :-: | :-: | :-: $\\blueD{1}$| $\\greenD8$| $\\maroonD3$| $0$ | $\\purpleC{2}$   $18{,}302 \\neq 18.302$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Expression: $\\maroonD{1\\text{ ten}} + \\purpleC{8 \\text{ ones}}+\\greenD{3 \\text{ tenths}}+\\goldD{2 \\text{ thousandths}}$  Tens| Ones | $.$ | Tenths | Hundredths | Thousandths :-:|:-: | :-: | :-: | :-: | :-: $\\maroonD1$| $\\purpleC8$ |$\\blueD.$  | $\\greenD3$ | $0$| $\\goldD2$  $18.302 = 18.302$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Expression: $\\maroonD{{1\\times10}} + \\purpleC{(8\\times1)}+\\tealD{\\left ( 3\\times\\dfrac{1}{100} \\right )}+\\goldD{\\left (2\\times\\dfrac{1}{1{,}000} \\right )}$  $\\begin{align} \\maroonD{{1\\times10}} + \\purpleC{(8\\times1)}+\\tealD{\\left ( 3\\times\\dfrac{1}{100} \\right )}+\\goldD{\\left (2\\times\\dfrac{1}{1{,}000} \\right )} = \\maroonD1+\\purpleC{8}+\\tealD{0.03}+\\goldD{ 0.002}  \\end{align}$  Tens| Ones | $.$ | Tenths | Hundredths| Thousandths :-:|:-: | :-: | :-: | :-: | :-: | :-: | :-: $\\maroonD1$| $\\purpleC8$ |$\\blueD.$  | $0$| $\\tealD{3}$ | $\\goldD2$  $18.032 \\neq 18.302$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Expression: $\\maroonD{{1\\times10}} + \\purpleC{(8\\times1)}+\\greenD{\\left ( 3\\times\\dfrac{1}{10} \\right )}+\\goldD{\\left (2\\times\\dfrac{1}{1{,}000} \\right )}$  $\\begin{align} \\maroonD{{1\\times10}} + \\purpleC{(8\\times1)}+\\greenD{\\left ( 3\\times\\dfrac{1}{10} \\right )}+\\goldD{\\left (2\\times\\dfrac{1}{1{,}000} \\right )} = \\maroonD1+\\purpleC{8}+\\greenD{0.3}+\\goldD{ 0.002}  \\end{align}$  Tens| Ones | $.$ | Tenths | Hundredths| Thousandths :-:|:-: | :-: | :-: | :-: | :-: | :-: | :-: $\\maroonD1$| $\\purpleC8$ |$\\blueD.$  | $\\greenD3$| $0$ | $\\goldD2$  $18.302 = 18.302$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following expressions have the same value as $18$ ones and $302$ thousandths:  * $\\maroonD{1\\text{ ten}} + \\purpleC{8 \\text{ ones}}+\\greenD{3 \\text{ tenths}}+\\goldD{2 \\text{ thousandths}}$  * $\\maroonD{{1\\times10}} + \\purpleC{(8\\times1)}+\\greenD{\\left ( 3\\times\\dfrac{1}{10} \\right )}+\\goldD{\\left (2\\times\\dfrac{1}{1{,}000} \\right )}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "5th-Decimal PV Select 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which two of the following have the same value as $50.96$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Fifty and ninety-six thousandths",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$5\\text{ tens} + 9\\text{ tenths} + 6\\text{ hundredths}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$(5\\times10)+\\left ( 9\\times\\dfrac{1}{10} \\right )+\\left (6\\times\\dfrac{1}{100} \\right )$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$5$ + $0.9$ + $0.06$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's use a place value table to write each expression in standard form.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "### Expression: $\\purpleC{\\text{Fifty}}$ $\\blueD{\\text{and}}$ $\\greenD{\\text{ninety-six thousandths}}$   The $\\blueD{\\text{and}}$ tells us where to put the decimal.  We write $\\text{\\purpleC{fifty}}$ to the left side of the decimal as $\\purpleC{50}$.  We write $\\text{\\greenD{ninety-six thousandths}}$ to the right side of the decimal as $\\greenD{096}$ .   The last place value in the number is *thousandths*, so the number ends in the *thousandths* place.  Tens | Ones | $.$ | Tenths | Hundredths | Thousandths :-:|:-: | :-: | :-: | :-: | :-: $\\purpleC5$| $\\purpleC0$ |$\\blueD.$  | $\\greenD0$| $\\greenD9$ | $\\greenD6$  $50.096 \\neq 50.96$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Expression: $\\purpleC{5 \\text{ tens}} +\\greenD{9 \\text{ tenths}}+\\goldD{6 \\text{ hundredths}}$  Tens | Ones | $.$ | Tenths | Hundredths :-:|:-: | :-: | :-: | :-: | :-: $\\purpleC5$| $\\purpleC0$ |$\\blueD.$  | $\\greenD9$ | $\\goldD6$  $50.96 = 50.96$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Expression: $\\purpleC{(5\\times10)}+\\greenD{\\left ( 9\\times\\dfrac{1}{10} \\right )}+\\goldD{\\left (6\\times\\dfrac{1}{100} \\right )}$  $\\begin{align} \\purpleC{(5\\times10)}+\\greenD{\\left ( 9\\times\\dfrac{1}{10} \\right )}+\\goldD{\\left (6\\times\\dfrac{1}{100} \\right )} = \\purpleC{50}+\\greenD{0.9}+\\goldD{ 0.06}  \\end{align}$  Tens| Ones | $.$ | Tenths | Hundredths :-:|:-: | :-: | :-: | :-: | :-: $\\purpleC5$| $\\purpleC0$ |$\\blueD.$  | $\\greenD9$ | $\\goldD6$  $50.96 = 50.96$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Expression:  $\\purpleC5+\\greenD{0.9}+\\maroonD{0.06}$  Ones | $.$ | Tenths | Hundredths :-:|:-: | :-: | :-: | :-: | :-: $\\purpleC5$ |$\\blueD.$  | $\\greenD9$ | $\\maroonD6$  $5.96 \\neq 50.96$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following expressions have the same value as $50.96$:  * $\\purpleC{5 \\text{ tens}} +\\greenD{9 \\text{ tenths}}+\\goldD{6 \\text{ hundredths}}$  * $\\purpleC{(5\\times10)}+\\greenD{\\left ( 9\\times\\dfrac{1}{10} \\right )}+\\goldD{\\left (6\\times\\dfrac{1}{100} \\right )}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "5th-Decimal PV Select 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which two of the following have the same value as $2$ ones and $96$ thousandths?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$2.096$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$2$ ones + $9$ tenths + $6$ thousandths",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$2+0.09+0.006$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$(2\\times10) +\\left ( 9\\times\\dfrac{1}{100} \\right )+\\left (6\\times\\dfrac{1}{1{,}000} \\right )$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "### Expression: $\\purpleC{2\\text{ ones}}$ $\\blueD{\\text{and}}$ $\\greenD{96\\text{ thousandths}}$   First, let's turn $2$ ones and $96$ thousandths into standard form using a place value chart.  The $\\blueD{\\text{and}}$ tells us where to put the decimal.  We write $\\text{\\purpleC{2 ones}}$ to the left side of the decimal as $\\purpleC{2}$.  We write $\\greenD{96\\text{ thousandths}}$ to the right side of the decimal as $\\greenD{096}$ .   The last place value in the number is *thousandths*, so the number ends in the *thousandths* place.   Ones | $.$ | Tenths | Hundredths | Thousandths :-:|:-: | :-: | :-: | :-: | :-: $\\purpleC2$ |$\\blueD.$  | $\\greenD0$| $\\greenD9$ | $\\greenD6$  So, we are looking for expressions that are equivalent to $\\purpleC{2}\\blueD{.}\\greenD{096}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Now, let's use a place value table to write each expression in standard form.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Expression:  $\\purpleC2.{0}\\greenD{9}\\goldD6$    Ones | $.$ | Tenths | Hundredths| Thousandths :-:|:-: | :-: | :-: | :-: | :-: | :-: | :-: $\\purpleC2$ |$\\blueD.$  | $0$| $\\greenD9$ | $\\goldD6$  $2.096 = 2.096$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Expression: $\\purpleC{2 \\text{ ones}}+\\redD{9 \\text{ tenths}}+\\goldD{6 \\text{ thousandths}}$  Ones | $.$ | Tenths | Hundredths | Thousandths :-:|:-: | :-: | :-: | :-: | :-:  $\\purpleC2$ |$\\blueD.$  | $\\redD{9}$ | $0$| $\\goldD6$  $2.906 \\neq 2.096$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Expression: $\\maroonD{{(2\\times10)}} +\\greenD{\\left ( 9\\times\\dfrac{1}{100} \\right )}+\\goldD{\\left (6\\times\\dfrac{1}{1{,}000} \\right )}$  $\\begin{align} \\maroonD{{(2\\times10)}} +\\greenD{\\left ( 9\\times\\dfrac{1}{100} \\right )}+\\goldD{\\left (6\\times\\dfrac{1}{1{,}000} \\right )} = \\maroonD2+\\greenD{0.09}+\\goldD{ 0.006}  \\end{align}$  Tens| Ones | $.$ | Tenths | Hundredths| Thousandths :-:|:-: | :-: | :-: | :-: | :-: | :-: | :-: $\\maroonD2$| $\\maroonD0$ |$\\blueD.$  | $0$| $\\greenD9$ | $\\goldD6$  $20.096 \\neq 2.096$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Expression:  $\\purpleC2+\\greenD{0.09}+\\goldD{0.006}$  Ones | $.$ | Tenths | Hundredths | Thousandths :-:|:-: | :-: | :-: | :-: | :-: $\\purpleC2$ |$\\blueD.$  | $0$ | $\\greenD9$| $\\goldD{6}$  $2.906 = 2.906$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following expressions have the same value as $2$ ones and $96$ thousandths:  * $\\purpleC2.{0}\\greenD{9}\\goldD6$  *  $\\purpleC2+\\greenD{0.09}+\\goldD{0.006}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "5th-Decimal PV Select 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which two of the following have the same value as $4.032$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Four and thirty-two thousandths",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$4$ ones + $3$ tenths + $2$ hundredths",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$(4\\times1)+\\left ( 3\\times\\dfrac{1}{10} \\right )+\\left (2\\times\\dfrac{1}{100} \\right )$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$4+0.03+0.002$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's use a place value table to write each expression in standard form.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "### Expression: $\\purpleC{\\text{Four}}$ $\\blueD{\\text{and}}$ $\\maroonD{\\text{thirty-two thousandths}}$   The $\\blueD{\\text{and}}$ tells us where to put the decimal.  We write $\\text{\\purpleC{four}}$ to the left side of the decimal as $\\purpleC4$.  We write $\\text{\\maroonD{thirty-two thousandths}}$ to the right side of the decimal as $\\maroonD{032}$ .   The last place value in the number is *thousandths*, so the number ends in the *thousandths* place.  Ones | $.$ | Tenths | Hundredths | Thousandths :-:|:-: | :-: | :-: | :-: | :-: $\\purpleC4$ |$\\blueD.$  | $\\maroonD{0}$| $\\maroonD{3}$ | $\\maroonD{2}$  $4.032 = 4.032$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Expression: $\\purpleC{4 \\text{ ones}}+\\greenD{3 \\text{ tenths}}+\\goldD{2 \\text{ hundredths}}$  Ones | $.$ | Tenths | Hundredths :-:|:-: | :-: | :-: | :-: | :-: $\\purpleC4$ |$\\blueD.$  | $\\greenD3$ | $\\goldD2$  $4.32 \\neq 4.032$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Expression: $\\purpleC{(4\\times1)}+\\greenD{\\left ( 3\\times\\dfrac{1}{10} \\right )}+\\goldD{\\left (2\\times\\dfrac{1}{100} \\right )}$  $\\begin{align} \\purpleC{(4\\times1)}+\\greenD{\\left ( 3\\times\\dfrac{1}{10} \\right )}+\\goldD{\\left (2\\times\\dfrac{1}{100} \\right )} = \\purpleC{4}+\\greenD{0.3}+\\goldD{ 0.02}  \\end{align}$  Ones | $.$ | Tenths | Hundredths :-:|:-: | :-: | :-: | :-: | :-: $\\purpleC4$ |$\\blueD.$  | $\\greenD3$ | $\\goldD2$  $4.32 \\neq 4.032$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Expression:  $\\purpleC4+\\goldD{0.03}+\\maroonD{0.002}$  Ones | $.$ | Tenths | Hundredths | Thousandths :-:|:-: | :-: | :-: | :-: | :-: $\\purpleC4$ |$\\blueD.$  | $0$ | $\\goldD{3}$ | $\\maroonD2$  $4.032 = 4.032$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following expressions have the same value as $4.032$:  * $\\purpleC4+\\greenD{0.03}+\\maroonD{0.002}$  * $\\purpleC{\\text{Four}}$ $\\blueD{\\text{and}}$ $\\maroonD{\\text{thirty-two thousandths}}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "5th-Decimal PV Select 2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Complete the chart below.**  Expanded Form | Standard Form| Word Form :-:|:-: | :-: | :-:  $(9\\times1)+\\left ( 4\\times\\dfrac{1}{10} \\right )+\\left (2\\times\\dfrac{1}{100} \\right )$|  |",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "942",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "9.42",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "94.2",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Nine and forty-two hundredths",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Nine and forty-two thousandths",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Nine hundred forty-two thousandths",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's use a place value chart to write $\\purpleC{(9\\times1)}+\\greenD{\\left ( 4\\times\\dfrac{1}{10} \\right )}+\\goldD{\\left (2\\times\\dfrac{1}{100} \\right )}$ in standard form.  $\\begin{align} &\\purpleC{(9\\times1)}+\\greenD{\\left ( 4\\times\\dfrac{1}{10} \\right )}+\\goldD{\\left (2\\times\\dfrac{1}{100} \\right )} \\\\\\\\  &= \\purpleC9+\\greenD{0.4}+\\goldD{ 0.02}  \\end{align}$  Ones | $.$ | Tenths | Hundredths :-:|:-: | :-: | :-: | :-: | :-: $\\purpleC9$ |$\\blueD.$  | $\\greenD4$ | $\\goldD2$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Now, let's break our number into parts to write it in word form: $\\purpleC{9}\\blueD{.}\\greenD4\\goldD2$  $\\purpleC{\\text{Nine}}$ is to the left of the decimal.   The decimal tells us to say $\\blueD{\\text{and}}$.  $\\greenD{\\text{Forty-}}\\goldD{\\text{two}}$ is to the right of the decimal.  The last place value column is *hundredths*, so we end our number with *hundredths*.  If we combine the parts, we write $\\purpleC{9}\\blueD{.}\\greenD4\\goldD2$ as $\\purpleC{\\text{nine}}$ $\\blueD{\\text{and}}$ $\\greenD{\\text{forty-}}\\goldD{\\text{two hundredths}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "This is the completed chart:  Expanded Form | Standard Form| Word Form :-:|:-: | :-: | :-:  $(9\\times1)+\\left ( 4\\times\\dfrac{1}{10} \\right )+\\left (2\\times\\dfrac{1}{100} \\right )$| $9.42$ | Nine and forty-two hundredths",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "5th- Decimal PV Tables"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Complete the chart below.**  Expanded Form | Standard Form| Word Form :-:|:-: | :-: | :-:  $4 + 0.4 + 0.002$|  |",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "442",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "4.402",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "4.42",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Four and four hundred two thousandths",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Four and forty-two hundredths",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Four and forty-two thousandths",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's use a place value chart to write $\\purpleC{4}+\\greenD{0.4}+\\goldD{0.002}$ in standard form.  Ones | $.$ | Tenths | Hundredths| Thousandths :-:|:-: | :-: | :-: | :-: | :-:|  :-: $\\purpleC4$ |$\\blueD.$  | $\\greenD4$ | $0$| $\\goldD2$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Now, let's break our number into parts to write it in word form: $\\purpleC{4}\\blueD{.}\\greenD40\\goldD2$  $\\purpleC{\\text{Four}}$ is to the left of the decimal.   The decimal tells us to say $\\blueD{\\text{and}}$.  $\\greenD{\\text{Four hundred }}\\goldD{\\text{two}}$ is to the right of the decimal.  The last place value column is *thousandths*, so we end our number with *thousandths*.  If we combine the parts, we write $\\purpleC{4}\\blueD{.}\\greenD40\\goldD2$ as $\\purpleC{\\text{four}}$ $\\blueD{\\text{and}}$ $\\greenD{\\text{four hundred }}\\goldD{\\text{two thousandths}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "This is the completed chart:  Expanded Form | Standard Form| Word Form :-:|:-: | :-: | :-:  $4 + 0.4 + 0.002$| $4.402$ | Four and four hundred two thousandths",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "5th- Decimal PV Tables"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Complete the chart below.**  Expanded Form | Standard Form| Word Form :-:|:-: | :-: | :-:   | $5.28$ |",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "(5 x 1) + (2 x 1/10) + (8 x 1/10)",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "(5 x 1) + (2 x 1/10) + (8 x 1/100)",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "(5 x 1) + (2 x 1/100) + (8 x 1/100)",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Five and twenty-eight tenths",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Five and two eighths",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Five and twenty-eight hundredths",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's use a place value chart to write $\\purpleC5.\\greenD2\\goldD8$ in expanded form.  Ones | $.$ | Tenths | Hundredths :-:|:-: | :-: | :-: | :-: | :-:|  :-: $\\purpleC5$ |$\\blueD.$  | $\\greenD2$ | $\\goldD8$  $\\purpleC{(5\\times1)}+\\greenD{\\left ( 2\\times\\dfrac{1}{10} \\right )}+\\goldD{\\left (8\\times\\dfrac{1}{100} \\right )}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Now, let's break our number into parts to write it in word form: $\\purpleC5.\\greenD2\\goldD8$.  $\\purpleC{\\text{Five}}$ is to the left of the decimal.   The decimal tells us to say $\\blueD{\\text{and}}$.  $\\greenD{\\text{Twenty-}}\\goldD{\\text{eight}}$ is to the right of the decimal.  The last place value column is *hundredths*, so we end our number with *hundredths*.  If we combine the parts, we write $\\purpleC{5}\\blueD{.}\\greenD2\\goldD8$ as $\\purpleC{\\text{five}}$ $\\blueD{\\text{and}}$ $\\greenD{\\text{twenty-}}\\goldD{\\text{eight hundredths}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "This is the completed chart:  Expanded Form | Standard Form| Word Form :-:|:-: | :-: | :-:  ${(5\\times1)}+{\\left ( 2\\times\\dfrac{1}{10} \\right )}+{\\left (8\\times\\dfrac{1}{100} \\right )}$| $5.28$ | Five and twenty-eight hundredths",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "5th- Decimal PV Tables"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Complete the chart below.**  Expanded Form | Standard Form| Word Form :-:|:-: | :-: | :-:   | $6.017$ |",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "6 + 0.01 + 0.007",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "6 + 0.1 + 0.007",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "6 + 0.17",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Six and seventeen hundredths",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Six and seventeen thousandths",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Six and one hundred seventy thousandths",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's use a place value chart to write $\\purpleC6.0\\greenD1\\goldD7$ in expanded form.  Ones | $.$ | Tenths | Hundredths| Thousandths :-:|:-: | :-: | :-: | :-: | :-:|  :-: $\\purpleC6$ |$\\blueD.$  | $0$| $\\greenD1$ | $\\goldD7$  $\\purpleC{6}+\\greenD{0.01}+\\goldD{0.007}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Now, let's break our number into parts to write it in word form: $\\purpleC6.0\\greenD{17}$.  $\\purpleC{\\text{Six}}$ is to the left of the decimal.   The decimal tells us to say $\\blueD{\\text{and}}$.  $\\greenD{\\text{Seventeen}}$ is to the right of the decimal.  The last place value column is *thousandths*, so we end our number with *thousandths*.  If we combine the parts, we write $\\purpleC{6}\\blueD{.}0\\greenD{17}$ as $\\purpleC{\\text{six}}$ $\\blueD{\\text{and}}$ $\\greenD{\\text{seventeen thousandths}}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "This is the completed chart:  Expanded Form | Standard Form| Word Form :-:|:-: | :-: | :-:  $6+0.01+0.007$| $6.017$ | Six and seventeen thousandths",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "5th- Decimal PV Tables"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Complete the chart below.**  Expanded Form | Standard Form| Word Form :-:|:-: | :-: | :-:   |  | Seven and eight hundredths",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "7 + 0.8",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "7 + 0.008",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "7 + 0.08",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "7.800",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "7.08",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "7.008",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "First, let's use a place value chart to write $\\purpleC{\\text{seven}} \\blueD{\\text{ and }} \\greenD{\\text{eight hundredths}}$ in standard form.  The $\\blueD{\\text{and}}$ tells us where to put the decimal.  We write $\\text{\\purpleC{seven}}$ to the left side of the decimal as $\\purpleC{7}$.  We write $\\greenD{\\text{eight hundredths}}$ to the right side of the decimal as $\\greenD{08}$ .   The last place value in the number is *hundredths*, so the number ends in the *hundredths* place.  Ones | $.$ | Tenths | Hundredths :-:|:-: | :-: | :-: | :-: | :-:|  :-: $\\purpleC7$ |$\\blueD.$  | $0$ | $\\greenD8$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Now, let's use the place value chart to put $\\purpleC7\\blueD.0\\greenD8$ in expanded form.  Ones | $.$ | Tenths | Hundredths :-:|:-: | :-: | :-: | :-: | :-:|  :-: $\\purpleC7$ |$\\blueD.$  | $0$ | $\\greenD8$  $\\purpleC{7}+\\greenD{0.08}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "This is the completed chart:  Expanded Form | Standard Form| Word Form :-:|:-: | :-: | :-:  $7+0.08$| $7.08$ | Seven and eight hundredths",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "5th- Decimal PV Tables"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Complete the chart below.**  Expanded Form | Standard Form| Word Form :-:|:-: | :-: | :-:   |  | Twenty-one and six hundred five thousandths",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "(20 x 10) + (10 x 1) + (6 x 1/10) + (5 x 1/1,000)",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "(2 x 10) + (1 x 1) + (6 x 1/10) +  (5 x 1/1,000)",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "(21 x 1) + (6 x 1/10) + (5 x 1/100)",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "21.605",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "21.65",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "21.065",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "First, let's use a place value chart to write $\\purpleC{\\text{twenty-}} \\goldD{\\text{one}}\\blueD{\\text{ and }} \\greenD{\\text{six hundred}}\\maroonD{\\text{ five thousandths}}$ in standard form.  The $\\blueD{\\text{and}}$ tells us where to put the decimal.  We write $\\purpleC{\\text{twenty-}} \\goldD{\\text{one}}$ to the left side of the decimal as $\\purpleC{2}\\goldD1$.  We write $\\greenD{\\text{six hundred}}\\maroonD{\\text{ five thousandths}}$ to the right side of the decimal as $\\greenD{6}0\\maroonD5$ .   The last place value in the number is *thousandths*, so the number ends in the *thousandths* place.  Tens| Ones | $.$ | Tenths | Hundredths| Thousandths :-:|:-: | :-: | :-: | :-: | :-:|  :-: $\\purpleC2$| $\\goldD1$ |$\\blueD.$  | $\\greenD6$| $0$| $\\maroonD5$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Now, let's use the place value chart to put $\\purpleC2\\goldD1\\blueD.\\greenD60\\maroonD5$ in expanded form.  Tens| Ones | $.$ | Tenths | Hundredths| Thousandths :-:|:-: | :-: | :-: | :-: | :-:|  :-: $\\purpleC2$| $\\goldD1$ |$\\blueD.$  | $\\greenD6$| $0$| $\\maroonD5$  $\\purpleC{(2\\times10)}+\\goldD{(1\\times1)}+\\greenD{\\left ( 6\\times\\dfrac{1}{10} \\right )}+\\maroonD{\\left (5\\times\\dfrac{1}{1{,}000} \\right )}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "This is the completed chart:  Expanded Form | Standard Form| Word Form :-:|:-: | :-: | :-:  ${(2\\times10)}+(1\\times1)+{\\left ( 6\\times\\dfrac{1}{10} \\right )}+{\\left (5\\times\\dfrac{1}{1{,}000} \\right )}$| $21.605$ | Twenty-one and six hundred-five thousandths",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "5th- Decimal PV Tables"
+                    }
+                }
+            }
+        }
+    ]
+}

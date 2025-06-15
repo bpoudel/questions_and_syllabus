@@ -1,0 +1,893 @@
+{
+    "standard_metadata": {
+        "standard_id": "8.SP.A.1",
+        "standard_description": "Construct and interpret scatter plots for bivariate measurement data to investigate patterns of association between two quantities. Describe patterns such as clustering, outliers, positive or negative association, linear association, and nonlinear association.",
+        "standard_title": "Describing trends in scatterplots",
+        "standard_url": "https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-data/cc-8th-interpreting-scatter-plots/e/interpreting-scatter-plots"
+    },
+    "id": "x6209d2ce",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The plot shown below displays the relationship between the average income in a city and the average rent for a $1$-bedroom apartment in that city.  **Which statement is the best description of the association between these variables?**",
+                                "images": [
+                                    {
+                                        "alt": "A graph plots Average 1-bedroom rent, in dollars per month, from 600 to 2000, in increments of 100, on the y-axis, versus Average annual income, in thousands of dollars per year, from 30 to 60, in increments of 5, on the x-axis. 13 points rise diagonally in a loose, but relatively narrow cluster between (36.5, 825) and (58, 1800). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/8accb8c0e1285feea6f31076ecf368cfa17ce8a5.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Cities with higher incomes tended to have higher rents.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Cities with higher incomes tended to have lower rents.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is no clear relationship between income and rent.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "There is a positive relationship in the data—low values of $x$ are associated with low values of $y$, and high values of $x$ are associated with high values of $y$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Cities with higher incomes tended to have higher rents.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "pos"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Raymundo wanted to know if sons of taller fathers tend to be taller. This graph shows the relationship between the heights of fathers and sons (in centimeters) for Raymundo's sample.  **Which statement is the best description of the association between these variables?**",
+                                "images": [
+                                    {
+                                        "alt": "A graph plots Son's height, in centimeters, from 148 to 188, in increments of 5, on the y-axis, versus Father's height, in centimeters, from 148 to 188, in increments of 5, on the x-axis. Dozens of points rise diagonally in a tight, wide cluster between (150, 166) and (190, 183). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/05df88031b77980ad320a51cc550392c28cc9055.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Taller fathers tended to have taller sons.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Taller fathers tended to have shorter sons.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is no clear relationship between the heights of fathers and sons.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "There is a positive relationship in the data—low values of $x$ are associated with low values of $y$, and high values of $x$ are associated with high values of $y$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Taller fathers tended to have taller sons.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "pos"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The graph shown below displays the change in the average temperature of the world over time.  **Which statement is the best description of the association between these variables?**",
+                                "images": [
+                                    {
+                                        "alt": "A graph plots Degrees above 13, in degrees Celsius, from 0 to 2, in increments of 0.1, on the y-axis, versus Years since 1970, from 0 to 45, in increments of 5, on the x-axis. Dozens of points rise in a tight, narrow pattern, between (0, 1.1) and (42, 1.6). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/9e4903f0270ecfc272ff40fc9d44e175082f266b.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "As time went by, the average temperature tended to increase.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "As time went by, the average temperature tended to decrease.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is no clear relationship between time and average temperature.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "There is a positive relationship in the data—low values of $x$ are associated with low values of $y$, and high values of $x$ are associated with high values of $y$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "As time went by, the average temperature tended to increase.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "pos"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The graph below shows the relationship between test grades and the amount of time the students spent studying in Dexter's class.  **Which statement is the best description of the association between these variables?**",
+                                "images": [
+                                    {
+                                        "alt": "A graph plots Score, from 0 to 100, in increments of 10, on the y-axis, versus Study time, in hours, from 0 to 5, in increments of 0.5, on the x-axis. Dozens of points rise diagonally in a tight, narrow cluster between (0.7, 50) and (4, 90). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/9d3709be52abafa26ffcf277f2499956a0a51933.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Students who studied more tended to score higher.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Students who studied more tended to score lower.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is no clear relationship between test grades and the amount of time the students spent studying.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "There is a positive relationship in the data—low values of $x$ are associated with low values of $y$, and high values of $x$ are associated with high values of $y$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Students who studied more tended to score higher.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "pos"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The graph below shows the relationship between population density (in people per square kilometer) and average rent for $1$-bedroom apartments in different cities.  **Which statement is the best description of the association between these variables?**",
+                                "images": [
+                                    {
+                                        "alt": "A graph plots Average 1-bedroom rent, in dollars per month, from 0 to 2000, in increments of 100, on the y-axis, versus Population density, in people per square kilometer, from 0 to 40000, in increments of 5000, on the x-axis. Approximately 2 dozen points rise diagonally in a loose, somewhat wide, cluster between (2000, 825) and (42000, 1900). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/453c1e7ac2345dcba9baf49a7a9fccab3bfd37de.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Cities with higher population densities tended to have higher rents.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Cities with higher population densities tended to have lower rents.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is no clear relationship between population density and rent.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "There is a positive relationship in the data—low values of $x$ are associated with low values of $y$, and high values of $x$ are associated with high values of $y$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Cities with higher population densities tended to have higher rents.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "pos"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The graph below shows the relationship between life expectancy and income in a random sample of countries.  **Which statement is the best description of the association between these variables?**",
+                                "images": [
+                                    {
+                                        "alt": "A graph plots Life expectancy, in years, from 65 to 85, in increments of 2, on the y-axis, versus Average income, in thousands of dollars, from 0 to 60, in increments of 5, on the x-axis. Approximately 2 dozen points rise diagonally in a very wide, then very narrow, cluster, between (4, 68.5) and (51.5, 82). The cluster is very wide between x = 0 and x = 10 where y-values fluctuate from 68.5 to 77.5. All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/add732828741fbae9098f00d325eead3d6230b68.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Countries with higher income tended to have longer life expectancies.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Countries with higher income tended to have shorter life expectancies.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is no clear relationship between income and life expectancy.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "There is a positive relationship in the data—low values of $x$ are associated with low values of $y$, and high values of $x$ are associated with high values of $y$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Countries with higher income tended to have longer life expectancies.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "pos"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The graph shown below displays the change in the number of hurricanes that occurred over time.  **Which statement is the best description of the association between these variables?**",
+                                "images": [
+                                    {
+                                        "alt": "A graph plots Number of hurricanes, from 0 to 16, in increments of 1, on the y-axis, versus Years since 1970, from 0 to 40, in increments of 5, on the x-axis. Dozens of points rise diagonally in a loose, very wide cluster between (0, 5) and (40, 12). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/9079a1ab335dd6eece1dd53240e6733a79fb80e3.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "As time went by, the number of hurricanes tended to increase.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "As time went by, the number of hurricanes tended to decrease.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is no clear relationship between time and the number of hurricanes that occurred.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "There is a positive relationship in the data—low values of $x$ are associated with low values of $y$, and high values of $x$ are associated with high values of $y$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "As time went by, the number of hurricanes tended to increase.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "pos"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The graph below displays the relationship between the age of drivers and the number of car accidents per $100$ drivers in the year $2009$.  **Which statement is the best description of the association between these variables?**",
+                                "images": [
+                                    {
+                                        "alt": "A graph plots Accidents per 100 drivers, from 9 to 24, in increments of 1, on the y-axis, versus Age, in years, from 16 to 25, in increments of 0.5, on the x-axis. 9 points fall diagonally in a loose, but narrow cluster between (16, 23) and (24, 11). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/87bcc97fee7156fd21d4d275c3defaf3ff3e037d.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Older drivers tended to have more accidents per $100$ drivers.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Older drivers tended to have fewer accidents per $100$ drivers.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is no clear relationship between age and the number of accidents per $100$ drivers.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "There is a negative relationship in the data—low values of $x$ are associated with high values of $y$, and high values of $x$ are associated with low values of $y$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Older drivers tended to have fewer accidents per $100$ drivers.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "neg"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Vincent gathered groups of $1$ to $8$ people and gave every group the same puzzle to solve. He recorded the number of minutes it took each group to solve the puzzle and plotted the results.   **Which statement is the best description of the association between these variables?**",
+                                "images": [
+                                    {
+                                        "alt": "A graph plots Time, in minutes, from 0 to 20, in increments of 5, on the y-axis, versus Group size, from 0 to 8, in increments of 1, on the x-axis. Approximately 2 dozen points fall in a narrow curved pattern, with decreasing steepness, between (1, 20) and (8, 6.5). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/30dcb890842eed4ee2bf467db43495e908641f68.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Larger groups tended to take more time to solve the puzzle.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Larger groups tended to take less time to solve the puzzle.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is no clear relationship between group size and the amount of time it took to solve the puzzle.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "There is a negative relationship in the data—low values of $x$ are associated with high values of $y$, and high values of $x$ are associated with low values of $y$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Larger groups tended to take less time to solve the puzzle.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "neg"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The graph below shows the relationship between average heart rate (in beats per minute) of several mammal species and their life expectancy (in years).  **Which statement is the best description of the association between these variables?**",
+                                "images": [
+                                    {
+                                        "alt": "A graph plots Life expectancy, in years, from 0 to 40, in increments of 5, on the y-axis, versus Heart rate, in beats per minute, from 0 to 600, in increments of 50 on the x-axis. Approximately 2 dozen points fall in a narrow, tightly clustered, curved pattern with decreasing steepness, between (40, 40) and (600, 4). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/cf49c8d9022140ab665ecdc58065a30124421303.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Species with higher heart rates tended to have longer life expectancies.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Species with higher heart rates tended to have shorter life expectancies.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is no clear relationship between heart rates and life expectancies.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "There is a negative relationship in the data—low values of $x$ are associated with high values of $y$, and high values of $x$ are associated with low values of $y$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Species with higher heart rates tended to have shorter life expectancies.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "neg"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The graph below shows the relationship between life expectancy and infant mortality rate in a random sample of countries.  **Which statement is the best description of the association between these variables?**",
+                                "images": [
+                                    {
+                                        "alt": "A graph plots Life expectancy, in years, from 8 to 58, in increments of 5, on the y-axis, versus Infant mortality, per 1000, from 0 to 100, in increments of 10, on the x-axis. Dozens of points fall diagonally in a relatively narrow cluster, between (1, 56) and (75, 14). The cluster is more highly concentrated leftward of x = 20 and less concentrated rightward of x = 20. All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/e6790fe8d3539c88b04c92b7149bc054361f147d.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Countries with higher infant mortality rates tended to have longer life expectancies.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Countries with higher infant mortality rates tended to have shorter life expectancies.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is no clear relationship between infant mortality rates and life expectancy.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "There is a negative relationship in the data—low values of $x$ are associated with high values of $y$, and high values of $x$ are associated with low values of $y$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Countries with higher infant mortality rates tended to have shorter life expectancies.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "neg"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Cindy wants to predict how much energy she will use to heat her home based on how cold it is outside. The graph below shows the mean amount of gas per day (in cubic meters) that Cindy used each month and the average temperature that month (in degrees Celsius) for one heating season.  **Which statement is the best description of the association between these variables?**",
+                                "images": [
+                                    {
+                                        "alt": "A graph plots Gas used, in cubic meters, from 0 to 25, in increments of 5, on the y-axis, versus Temperature, in degrees Celsius, from 0 to 14, in increments of 1, on the x-axis. 6 points fall diagonally in a narrow, nearly single-file cluster between (0, 22) and (12.9, 6). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/9823a7bec274ff324105891ba7a0729426433f37.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "As temperature increased, the amount of gas used increased.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "As temperature increased, the amount of gas used decreased.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is no clear relationship between temperature and gas use.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "There is a negative relationship in the data—low values of $x$ are associated with high values of $y$, and high values of $x$ are associated with low values of $y$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "As temperature increased, the amount of gas used decreased.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "neg"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A bus company wanted to know if the number of complaints they received was a function of the number of buses it ran. The company carried out a study comparing the average number of buses per hour for different days, and the number of complaints that it received on those days. The results are shown in the graph below.  **Which statement is the best description of the association between these variables?**",
+                                "images": [
+                                    {
+                                        "alt": "A graph plots Number of complaints, from 0 to 60, in increments of 5, on the y-axis, versus Average number of buses per hour, from 0 to 8, in increments of 0.5, on the x-axis. 7 points fall in a loose curved pattern with decreasing steepness between (2, 52) and (7.5, 14). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/b4dbb4d31ac049385a368040a515db4c7a0fd87b.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "There tended to be more complaints on days with more buses.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There tended to be fewer complaints on days with more buses.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is no clear relationship between the number of complaints and the number of buses.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "There is a negative relationship in the data—low values of $x$ are associated with high values of $y$, and high values of $x$ are associated with low values of $y$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There tended to be fewer complaints on days with more buses.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "neg"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "An international cake competition attracted $50$ bakers from around the world. The graph shown below displays the relationship between the amount of sugar in the cakes (in grams per $100$ grams of cake) and the scores the cakes received.  **Which statement is the best description of the association between these variables?**",
+                                "images": [
+                                    {
+                                        "alt": "A graph plots Score, from 0 to 100, in increments of 10, on the y-axis, versus Grams of sugar, per 100 grams, from 0 to 40, in increments of 5, on the x-axis. Dozens of points rise in a tight, narrow curved pattern with decreasing steepness from (1, 9) to a maximum at (22, 97), before falling with increasing steepness to (38, 19). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/4dd27acbbd7785282b59a6b2f9fd9e08c5b936d8.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Scores were highest for cakes that had between $15$ and $25$ grams of sugar per $100$ grams of cake.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Cakes with more sugar always scored higher.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "There is a curved relationship in the data. Cakes with more sugar don't always score a higher rating.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Scores were highest for cakes that had between $15$ and $25$ grams of sugar per $100$ grams of cake.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "nonlinear or no assoc"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Lynn wants to predict how much fuel her car will use based on its speed. She drove a car $100\\,\\text{km}$ at each of the speeds below, and she measured how much fuel was used in each case. Her data is summarized in the graph below.  **Which statement is the best description of the association between these variables?**",
+                                "images": [
+                                    {
+                                        "alt": "A graph plots Fuel used, in liters per 100 kilometers, from 0 to 14, in increments of 1, on the y-axis, versus Speed, in kilometers per hour, from 0 to 140, in increments of 10, on the x-axis. 12 points fall in a single-file curved pattern with decreasing steepness from (20, 13) to a minimum at (60, 6), before rising diagonally to (120, 10). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/8d5df9d7f6c142dbdceca85e625b3ffe031dfccb.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Driving at higher speeds always resulted in less fuel being used.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "The amount of fuel used was lowest at speeds around $60\\,\\text{km/h}.$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "There is a curved relationship in the data. Driving at higher speeds didn't always result in less fuel being used.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The amount of fuel used was lowest at speeds around $60\\,\\text{km/h}.$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "nonlinear or no assoc"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Nate wants to predict how much people use the Internet each day based on their age. The graph below shows the age (in years) and average daily internet usage (in hours) for a sample of people.  **Which statement is the best description of the association between these variables?**",
+                                "images": [
+                                    {
+                                        "alt": "A graph plots Internet use, in hours, from 0 to 5, in increments of 0.5, on the y-axis, versus Age, in years, from 0 to 60, in increments of 5, on the x-axis. 9 points rise diagonally, a single-file from (3, 0) to a maximum at (22, 4), before falling diagonally to (55, 0.5). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/2a6e9e1a9f54176a2834fd4dbbcc22534d8e54fe.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "As age increased, internet use always increased.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Internet use was highest for those between $20$ and $35$ years old.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "There is a curved relationship in the data. As age increased, internet use didn't always increase.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Internet use was highest for those between $20$ and $35$ years old.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "nonlinear or no assoc"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Aubree wanted to see if there is a connection between the time a given exam takes place and the average score of this exam.  She collected data about all the exams from the previous year and arranged the average scores of the exams according to the period they took place, as shown below.   **Which statement is the best description of the association between these variables?**",
+                                "images": [
+                                    {
+                                        "alt": "A graph plots Average score, from 0 to 100, in increments of 10, on the y-axis, versus Period, from 0 to 9, in increments of 0.5, on the x-axis. Dozens of points extend nearly horizontally rightward, in a relatively tight, wide cluster with points plotted between x = 1 and x = 8, and between y = 39 and y = 78.  All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/b85de7a11c59f1d296157b47961a1888ac5435f6.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Later periods tended to score higher on the exam.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Later periods tended to score lower on the exam.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is no clear relationship between period and exam scores.",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "There doesn't seem to be any association between period and exam scores; the scores are about as high for earlier periods as they are for later periods.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There is no clear relationship between period and exam scores.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "nonlinear or no assoc"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The graph below shows the relationship between test grades and shoe sizes of the students in Dexter's class.  **Which statement is the best description of the association between these variables?**",
+                                "images": [
+                                    {
+                                        "alt": "A graph plots Score, from 50 to 95, in increments of 5, on the y-axis, versus Shoe size, from 4 to 11, in increments of 0.5, on the x-axis. Approximately 2 dozen points are scattered sporadically between x = 5.5 and x = 11, and between y = 52 and y = 87. All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/60e5c6dcaf92af92f04137484146125476eaf432.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Students with larger shoe sizes tended to score higher.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Students with larger shoe sizes tended to score lower.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is no clear relationship between test grades and shoe sizes.",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "There doesn't seem to be any association between shoe size and test scores; the scores are about as high for students with big feet as for students with small feet.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There is no clear relationship between test grades and shoe sizes.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "nonlinear or no assoc"
+                    }
+                }
+            }
+        }
+    ]
+}

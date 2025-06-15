@@ -1,0 +1,999 @@
+{
+    "standard_metadata": {
+        "standard_id": "8.G.A.3",
+        "standard_description": "Describe the effect of dilations, translations, rotations, and reflections on two-dimensional figures using coordinates.",
+        "standard_title": "Rotate points (basic)",
+        "standard_url": "https://www.khanacademy.org/math/cc-eighth-grade-math/geometric-transformations/rotations-8th/e/rotate-points--basic-"
+    },
+    "id": "x77ff78a4203ec216",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Point $R$ was rotated about the origin $(0,0)$ by $90^\\circ$ clockwise.    **Which figure is the image of $R$?**",
+                                "images": [
+                                    {
+                                        "alt": "",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/c20854db608aa227bb5336538b3fbb26a20d59c9.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$A$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$B$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$C$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$D$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's imagine a circle that passes through point $R$ with a center at the origin.  We want to find the point that would lie on that circle $90^\\circ$ *clockwise* from point $R$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "A $90^\\circ$ angle takes up $\\dfrac{1}{4}$ of the circle.    We note that point $D$ is not the same distance from the center as point $R$, so it cannot be the image.",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/d12d3cbec9c061b38749f59b10f2f1cf5739c3cb.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Point $C$ is the image of point $R$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1 - 8.1.3"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Figure $P$ was rotated about the origin $(0,0)$ by $90^\\circ$ counterclockwise.      **Which figure is the image of $P$?**",
+                                "images": [
+                                    {
+                                        "alt": "A coordinate plane with 1 triangle. Triangle P has vertices at (negative 6, negative 2), (negative 2, negative 2), and (negative 3, negative 7). The x and y axes scale by one.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/20238df44345dfad4e6fbcce4d4f440ff61e7a14.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "",
+                                        "correct": true,
+                                        "images": [
+                                            {
+                                                "alt": "A coordinate plane with 2 triangles. Triangle P has vertices at (negative 6, negative 2), (negative 2, negative 2), and (negative 3, negative 7). Triangle P is rotated to form triangle A. Triangle A has vertices at (2, negative 6), (2, negative 2), and (7, negative 3). The x and y axes scale by one.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/6d86dd1c166dddc3f59c5f89351b255a938fab6a.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A coordinate plane with 2 triangles. Triangle P has vertices at (negative 6, negative 2), (negative 2, negative 2), and (negative 3, negative 7). Triangle P is rotated to form triangle B. Triangle B has vertices at (3, negative 5), (3, negative 1), and (8, negative 2). The x and y axes scale by one.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/9e34ddc83d62313e28d58cb397873a0477529139.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A coordinate plane with 2 triangles. Triangle P has vertices at (negative 6, negative 2), (negative 2, negative 2), and (negative 3, negative 7). Triangle P is rotated to form triangle C. Triangle C has vertices at (2, negative 2), (6, negative 2), and (3, negative 7). The x and y axes scale by one.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/855aeb384cf923f46be8f19d4b3a1f347d074f4a.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A coordinate plane with 2 triangles. Triangle P has vertices at (negative 6, negative 2), (negative 2, negative 2), and (negative 3, negative 7). Triangle P is rotated to form triangle D. Triangle D has vertices at (2, negative 2), (6, negative 2), and (5, negative 7). The x and y axes scale by one.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/bdaea4ff78545211e07be46348558399c704627c.svg"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's imagine a circle with a center at the origin that passes through one of the vertices of figure $P$.  We want to find the point that would lie on that circle $90^\\circ$ *counterclockwise* from the original point.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "A $90^\\circ$ angle takes up $\\dfrac{1}{4}$ of the circle.   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane with 1 triangle. Triangle P has vertices at (negative 6, negative 2), (negative 2, negative 2), and (negative 3, negative 7). A circle passes through the vertex of triangle P at (negative 2, negative 2) and its center is at the origin. A right angle is plotted on the coordinate plane with its vertex at the origin. One of the lines passes through the vertex at (negative 2, negative 2). The other line passes through the point (2, negative 2). The x and y axes scale by one.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/92753a7fb9c67f51a836d5fc084e441a76db0e10.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We rotate the rest of the vertices in the same way, then connect them.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane with 2 triangles. Triangle P has vertices at (negative 6, negative 2), (negative 2, negative 2), and (negative 3, negative 7). There are gray lines showing the rotation that triangle P made to create the new triangle.  The new triangle has vertices at (2, negative 2), (2, negative 6), and (7, negative 3). The x and y axes scale by one.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/55b7228e65bc688cdcb0b13053c6d8c7382d075a.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Figure $A$ is the image of figure $P$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1 - 8.1.3"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Figure $Q$ was rotated about the origin $(0,0)$ by $270^\\circ$ counterclockwise.      **Which figure is the image of $Q$?**",
+                                "images": [
+                                    {
+                                        "alt": "A coordinate plane with 1 quadrilateral. Quadrilateral Q has vertices at (5, 7), (7, negative 3), (1, 0), and (negative 3, negative 2). The x and y axes scale by one.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/17c81d483bb0f32db701b7aa20f7ece95b83a079.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A coordinate plane with 2 quadrilaterals. Quadrilateral Q has vertices at (5, 7), (7, negative 3), (1, 0), and (negative 3, negative 2). Quadrilateral Q is rotated to form quadrilateral A. Quadrilateral A has vertices at (negative 7, 3), (negative 1, 0), (3, 2), and (negative 5, negative 7).  The x and y axes scale by one.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/83627b5442261aa12fb26d24e297cefb1509b4cc.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A coordinate plane with 2 quadrilaterals. Quadrilateral Q has vertices at (5, 7), (7, negative 3), (1, 0), and (negative 3, negative 2). Quadrilateral Q is rotated to form quadrilateral B. Quadrilateral B has vertices at (negative 2, negative 3), (1, 0), (negative 3, 7), and (7, 5). The x and y axes scale by one.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/f9fdf8b4f4444ac3cd86d2a4f5766ce7e52c8321.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A coordinate plane with 2 quadrilaterals. Quadrilateral Q has vertices at (5, 7), (7, negative 3), (1, 0), and (negative 3, negative 2). Quadrilateral Q is rotated to form quadrilateral C. Quadrilateral C has vertices at (2, negative 3), (1, 0), (3, 7), and (negative 7, 5). The x and y axes scale by one.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/f719efd6a2a86715d18575df28122fb215e9c2d8.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": true,
+                                        "images": [
+                                            {
+                                                "alt": "A coordinate plane with 2 quadrilaterals. Quadrilateral Q has vertices at (5, 7), (7, negative 3), (1, 0), and (negative 3, negative 2). Quadrilateral Q is rotated to form quadrilateral D. Quadrilateral D has vertices at (negative 2, 3), (0, negative 1), (negative 3, negative 7), and (7, negative 5). The x and y axes scale by one.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/1eb4a7a4cc0678f9219488c7d28816bb97010ad3.svg"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's imagine a circle with a center at the origin that passes through one of the vertices of figure $Q$.  We want to find the point that would lie on that circle $270^\\circ$ *counterclockwise* from the original point.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "A $270^\\circ$ angle takes up $\\dfrac{3}{4}$ of the circle.   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane with a circle with a center at the origin and a radius of 7 units. The x and y axes scale by one. Quadrilateral Q has vertices at (5, 7), (7, negative 3), (1, 0), and (negative 3, negative 2). An angle is formed from the point (7, negative 3) to the point (negative 3, negative 7) with an arrow curving around the circle.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/ab17b31f752d422fc99529237a21175fb89249a4.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We rotate the rest of the vertices in the same way, then connect them.   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane with a circle with a center at the origin and a radius of 7 units. The x and y axes scale by one. Quadrilateral Q has vertices at (5, 7), (7, negative 3), (1, 0), and (negative 3, negative 2). A gray line goes in a circle from the point (7, negative 3) to the point (negative 3, negative 7). Quadrilateral Q is rotated to form a second quadrilateral. A second quadrilateral has vertices at (7, negative 5), (negative 1, 3), (0, negative 1), and (negative 3, negative 7). A gray line  goes in a circle from the point (5, 7) to the point (negative 3, negative 7).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/7a0b4c5edc5cc8f6967d0021298444a9c6e90472.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Figure $D$ is the image of figure $Q$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1 - 8.1.3"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Figure $R$ was rotated about the origin $(0,0)$ by $270^\\circ$ clockwise.      **Which figure is the image of $R$?**",
+                                "images": [
+                                    {
+                                        "alt": "A coordinate plane with 1 quadrilateral. Quadrilateral R has vertices at (0, 7), (7, 4), (5, 4), and (5, 2). The x and y axes scale by one.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/eac9296c966f3c5d9d84bc512858f49abcbbc2a8.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A coordinate plane with 2 quadrilaterals. Quadrilateral R has vertices at (0, 7), (7, 4), (5, 4), and (5, 2). Quadrilateral R is rotated to form quadrilateral A. Quadrilateral A has vertices at (7, 0), (4, negative 7), (4, negative 5), and (2, negative 5). The x and y axes scale by one.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/4a97ef45fa393d5893876b54e845bf5d10d1a5da.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A coordinate plane with 2 quadrilaterals. Quadrilateral R has vertices at (0, 7), (7, 4), (5, 4), and (5, 2). Quadrilateral R is rotated to form quadrilateral B. Quadrilateral B has vertices at (0, negative 7), (5, negative 2), (5, negative 4), and (7, negative 4). The x and y axes scale by one.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/131878eb7b9d05bf78d9aa8f1b34352d9b6d74b5.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": true,
+                                        "images": [
+                                            {
+                                                "alt": "A coordinate plane with 2 quadrilaterals. Quadrilateral R has vertices at (0, 7), (7, 4), (5, 4), and (5, 2). Quadrilateral R is rotated to form quadrilateral C. Quadrilateral C has vertices at (negative 7, 0), (negative 4, 7), (negative 4, 5), and (negative 2, 5).  The x and y axes scale by one.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/f73e01485b5443e40d3cfabfe9498fd56fae9d4c.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A coordinate plane with 2 quadrilaterals. Quadrilateral R has vertices at (0, 7), (7, 4), (5, 4), and (5, 2). Quadrilateral R is rotated to form quadrilateral D. Quadrilateral D has vertices at (0,7), (negative 7, 4), (negative 5, 4), and (negative 5, 2). The x and y axes scale by one.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/815095605b1879aad0052ba1f7470821ea37995c.svg"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's imagine a circle with a center at the origin that passes through one of the vertices of figure $R$.  We want to find the point that would lie on that circle $270^\\circ$ *clockwise* from the original point.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "A $270^\\circ$ angle takes up $\\dfrac{3}{4}$ of the circle.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane with a circle with a center at the origin and a radius of 7 units. The x and y axes scale by one. Quadrilateral R has vertices at (0, 7), (7, 4), (5, 4), and (5, 2). The x and y axes scale by one. An angle is formed from the point (0, 7) to the point (negative 7, 0) with an arrow curving around the circle.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/8a1249c0edfbc1ba0886c152151e6f23878b4e1e.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We rotate the rest of the vertices in the same way, then connect them.   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane with a circle with a center at the origin and a radius of 7 units. The x and y axes scale by one. Quadrilateral R has vertices at (0, 7), (7, 4), (5, 4), and (5, 2).  Quadrilateral R is rotated to form a second quadrilateral. A second quadrilateral has vertices at (negative 7, 0), (negative 5, 7), (negative 5, 5), and (negative 2, negative 5). A gray line goes in a circle from the point (0, 7) to the point (negative 7, 0).  A gray line goes in a circle from the point (7, 4) to the point (negative 4, 7). A gray line goes in a circle from the point (5, 2) to the point (negative 2, 5).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/6f2da681a3696898056419f0b1e017ff66f5d954.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Figure $C$ is the image of figure $R$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1 - 8.1.3"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Figure $P$ was rotated about the origin $(0,0)$ by $180^\\circ$.      **Which figure is the image of $P$?**",
+                                "images": [
+                                    {
+                                        "alt": "A coordinate plane with 2 triangles. Triangle P has vertices at (negative 1, negative 4), (5, negative 2), and (3, negative 7). The x and y axes scale by one.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/d8a5c740ffc1240a8294d5b744d66c6bfab2e35a.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A coordinate plane with 2 triangles. Triangle P has vertices at (negative 1, negative 4), (5, negative 2), and (3, negative 7). Triangle P is rotated to form triangle A. Triangle A has vertices at (0, 3), (4, 0), and (negative 2, negative 2). The x and y axes scale by one.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/cf3e936e116cb14ca074460b664d4051f880c73e.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": true,
+                                        "images": [
+                                            {
+                                                "alt": "A coordinate plane with 2 triangles. Triangle P has vertices at (negative 1, negative 4), (5, negative 2), and (3, negative 7). Triangle P is rotated to form triangle B. Triangle B has vertices at (negative 5, 2), (negative 3, 7), and (1, 4). The x and y axes scale by one.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/171973ee5b5399b6bf9de8300407585853b40ac9.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A coordinate plane with 2 triangles. Triangle P has vertices at (negative 1, negative 4), (5, negative 2), and (3, negative 7). Triangle P is rotated to form triangle C. Triangle C has vertices at (negative 4, 1), (negative 7, negative 3), and (negative 2, negative 5). The x and y axes scale by one.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/e3ad1758b99d3720b98521dcf9eb8c2b96633a4a.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A coordinate plane with 2 triangles. Triangle P has vertices at (negative 1, negative 4), (5, negative 2), and (3, negative 7). Triangle P is rotated to form triangle D. Triangle D has vertices at (4, negative 1), (2, 5), and (7, 3). The x and y axes scale by one.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/0d9188585e0ae17b9255cf6fb4817e6ee2a31df2.svg"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's imagine a circle with a center at the origin that passes through one of the vertices of figure $P$.  We want to find the point that would lie on that circle $180^\\circ$ from the original point.  Of course, in this case, a rotation of $180^\\circ$ clockwise or counterclockwise ends in the same position.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "A $180^\\circ$ angle takes up $\\dfrac{1}{2}$ of the circle.   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane with a circle with a center at the origin and a radius of about 5.2 units. The x and y axes scale by one. Triangle P has vertices at (negative 1, negative 4), (5, negative 2), and (3, negative 7). An angle is formed from the point (5, negative 2) to the point (negative 5, 2) with an arrow curving around the circle.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/ed829ae4c4e93042e5fada8389a7069d61183ca5.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We rotate the rest of the vertices in the same way, then connect them.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane with 2 triangles. The x and y axes scale by one. Triangle P has vertices at (negative 1, negative 4), (5, negative 2), and (3, negative 7). Triangle P is rotated to form a second triangle. A second triangle has vertices at (1, 4), (negative 3, 7), and (negative 5, 2). A gray line goes in a circle from the point (negative 1, negative 4) to the point (1, 4).  A gray line goes in a circle from the point (3, negative 7) to the point (negative 3, 7). A gray line goes in a circle from the point (5, negative 2) to the point (negative 5, 2).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/338dda30c6614da412841f46ff8eeb71aaba40ef.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Figure $B$ is the image of figure $P$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1 - 8.1.3"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Point $Q$ was rotated about the origin $(0,0)$ by $180^\\circ$.     **Which point is the image of $Q$?**",
+                                "images": [
+                                    {
+                                        "alt": "A coordinate plane with 5 closed points. The x and y axes scale by one. Point A is at (0, 4). Point B is at (4, 0). Point C is at (6, 0). Point D is at (negative 6, 0). Point Q is at (negative 4, 0).",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/0a2d7e2be2b29dea2b27bb1ca20b79019251d169.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$A$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$B$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$C$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$D$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's imagine a circle that passes through point $Q$ with a center at the origin.  We want to find the point that would lie on that circle $180^\\circ$ from point $Q$.  Of course, in this case, a rotation of $180^\\circ$ clockwise or counterclockwise ends in the same position.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "A $180^\\circ$ angle takes up $\\dfrac{1}{2}$ of the circle.   [[☃ image 1]]  We note that point $C$ is not the same distance from the center as point $Q$, so it cannot be the image.",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane with a circle with a center at the origin and a radius of about 4 units. 5 solid points are plotted. Point A is at (0, 4). Point B is at (4, 0). Point C is at (6, 0). Point D is at (negative 6, 0). Point Q is at (negative 4, 0). The x and y axes scale by one.  An angle is formed from point Q to point B with an arrow curving around the circle.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/c6fc0556b5e78ae82d6bb12add6ab5cbb65e8e0a.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Point $B$ is the image of point $Q$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1 - 8.1.3"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Point $P$ was rotated by $90^\\circ$ clockwise about the center of rotation shown.      **Which point is the image of $P$?**",
+                                "images": [
+                                    {
+                                        "alt": "6 solid points. Point A is the bottom right hand point. Point B is above point A. Point P is the highest point. Point D is the bottom left hand point. Point C is above point D. A solid point labeled center is in the middle of the page.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/e3945857ac7757f587f9b6f5a8f16c067e67a566.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$A$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$B$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$C$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$D$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's imagine a circle that passes through point $P$ with the given center.  We want to find the point that would lie on that circle $90^\\circ$ *clockwise* from point $P$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "A $90^\\circ$ angle takes up $\\dfrac{1}{4}$ of the circle.   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "6 solid points. Point A is the bottom right hand point. Point B is above point A. Point B is the highest point. Point D is the bottom left hand point. Point C is above point D. A solid point labeled center is in the middle of the page. There is a circle with a center at the point labeled center. There is a right angle formed by 2 rays. 1 ray starts at the center and goes through point P. The other ray starts at the center and goes through point A. An angle is formed from point P to point A with an arrow curving around the circle clockwise.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/3b65295b33ec83fee177ec9eb86fb441eb20abf4.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Point $A$ is the image of point $P$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2 - 8.1.2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Figure $Q$ was rotated by $90^\\circ$ counterclockwise about the center of rotation shown.     **Which figure is the image of $Q$?**",
+                                "images": [
+                                    {
+                                        "alt": "A quadrilateral labeled Q and a solid point that represents the center of rotation. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/cdeec3c9c2bc4308f837b11a2732c8b038c468bd.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A quadrilateral labeled Q and a rotated copy of it, labeled quadrilateral A.  The solid point represents the center of rotation.  The quadrilateral is rotated to the left of center. One vertex of quadrilateral Q is at 8 o'clock, and the corresponding vertex of the rotated copy is at 11 o'clock.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/0e2d4e8881c9ea22df1d45b8dfd5041c2c6dd0a5.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A quadrilateral labeled Q and a flipped copy of it, labeled quadrilateral B.  The solid point represents the center of rotation.  The quadrilateral is flipped across a horizontal line. One vertex of quadrilateral Q is at 8 o'clock, and the corresponding vertex of the rotated copy is at 10 o'clock.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/675acbbbe0f0d3e568144c8ab484efdf89ebd256.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A quadrilateral labeled Q and a flipped copy of it, labeled quadrilateral C.  The solid point represents the center of rotation.  The quadrilateral is flipped across a vertical line. One vertex of quadrilateral Q is at 8 o'clock, and the corresponding vertex of the rotated copy is at 4 o'clock.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/f223744bbf447754acb76708f452f0d24d79af27.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": true,
+                                        "images": [
+                                            {
+                                                "alt": "A quadrilateral labeled Q and a rotated copy of it, labeled quadrilateral D.  The solid point represents the center of rotation.  The quadrilateral is rotated to the right of center. One vertex of quadrilateral Q is at 8 o'clock, and the corresponding vertex of the rotated copy is at 5 o'clock.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/df6449a714add45ae7ea78063078db6ac790b0f0.svg"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's imagine a circle with the given center that passes through one of the vertices of figure $Q$.  We want to find the point that would lie on that circle $90^\\circ$ *counterclockwise* from the original point.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "A $90^\\circ$ angle takes up $\\dfrac{1}{4}$ of the circle.   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral labeled Q and a solid point that represents the center of rotation. There is a circle with a center at the solid point. There is a right angle formed by 2 rays. 1 ray starts at the center and goes through a vertex of quadrilateral Q. The other ray starts at the center and goes through the circle. An angle is formed from the vertex in quadrilateral Q to the point on the circle with an arrow curving around the circle.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/e8639d9dab18d05c2fe7d3cdf43a48d5853e7e00.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We rotate the rest of the vertices in the same way, then connect them.   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral labeled Q and a rotated copy of it.  The solid point represents the center of rotation.  There are 4 faded lines with arrows showing the path that the quadrilateral rotated. The quadrilateral is rotated to the right of center. One vertex of quadrilateral Q is at 7 o'clock, and the corresponding vertex of the rotated copy is at 4 o'clock.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/dbb97dca92a0c6c93010c83f01d07583fd579aec.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Figure $D$ is the image of figure $Q$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2 - 8.1.2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Figure $R$ was rotated about the center shown by $180^\\circ$.     **Which figure is the image of $R$?**",
+                                "images": [
+                                    {
+                                        "alt": "A quadrilateral labeled R and a solid point labeled center that represents the center of rotation. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/50b3de04f908f51eb4537ebdbe54ea47455c47c1.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A quadrilateral labeled R and a rotated copy of it labeled A.  The solid point represents the center of rotation. The quadrilateral is flipped across the center. One vertex of quadrilateral R is at 4 o'clock, and the corresponding vertex of the rotated copy is at 6 o'clock.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/236b62c0770b9096b3f80daa02ba62ed8a4e58f2.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A quadrilateral labeled R and a rotated copy of it labeled B.  The solid point represents the center of rotation. The quadrilateral is flipped across the center and rotated to the right of center. One vertex of quadrilateral R is at 4 o'clock, and the corresponding vertex of the rotated copy is at 4 o'clock.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/695fda3fc452e8d2a8989c56e3906c8984a5973d.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": true,
+                                        "images": [
+                                            {
+                                                "alt": "A quadrilateral labeled R and a rotated copy of it labeled C.  The solid point represents the center of rotation. The quadrilateral is flipped across the center and rotated to the right of center. One vertex of quadrilateral R is at 4 o'clock, and the corresponding vertex of the rotated copy is at 10 o'clock.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/e91e19d806cd1d47a62a4f9e67ab9a2cdae2b9fd.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A quadrilateral labeled R and a rotated copy of it labeled D.  The solid point represents the center of rotation. The quadrilateral is rotated to the right of center. One vertex of quadrilateral R is at 4 o'clock, and the corresponding vertex of the rotated copy is at 9 o'clock.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/5a32b68bc9ebabc2c847d321c2336440ad20bf0c.svg"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's imagine a circle with the given center that passes through one of the vertices of figure $R$.  We want to find the point that would lie on that circle $180^\\circ$ from the original point.  Of course, in this case, a rotation of $180^\\circ$ clockwise or counterclockwise ends in the same position.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "A $180^\\circ$ angle takes up $\\dfrac{1}{2}$ of the circle.   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral labeled R and a solid point that represents the center of rotation. There is a circle with a center at the solid point. An angle is formed from the bottom, right vertex in quadrilateral R to a point on the circle with an arrow curving around the circle.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/b4b2a3ffc9b4cc32024484a1ee571dcec701e6d2.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We rotate the rest of the vertices in the same way, then connect them.   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral labeled R and a rotated copy of it.  The solid point represents the center of rotation. There are 4 faded lines with arrows showing the path that the quadrilateral rotated. The quadrilateral is rotated to the left of center. One vertex of quadrilateral R is at 1 o'clock, and the corresponding vertex of the rotated copy is at 7 o'clock.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/303b775145895280ee2869f2ba0b09022408bddd.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Figure $C$ is the image of figure $R$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2 - 8.1.2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Figure $P$ was rotated about the center shown by $180^\\circ$.      **Which figure is the image of $P$?**",
+                                "images": [
+                                    {
+                                        "alt": "A triangle labeled P.  The solid point labeled center represents the center of rotation. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/d1cf971630d3d11269095060e4f3a6de296bb5b6.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "",
+                                        "correct": true,
+                                        "images": [
+                                            {
+                                                "alt": "A triangle labeled P and a rotated copy of it labeled A.  The solid point represents the center of rotation. The triangle is rotated to the left of center. One vertex of triangle P is at 4 o'clock, and the corresponding vertex of the rotated copy is at 10 o'clock.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/504e8609be9e10107bf8b7cfd73ec8cfff6e8f11.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A triangle labeled P and a rotated copy of it labeled B.  The solid point represents the center of rotation. The triangle is rotated to the left of center and shifted right. One vertex of triangle P is at 4 o'clock, and the corresponding vertex of the rotated copy is at 10 o'clock.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/b6dde1b34a63c5f2b87b5cff43fa3ade4a0fb7b9.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A triangle labeled P and a shifted copy of it labeled C.  The solid point represents the center of rotation. The triangle is shifted to the left of center. One vertex of triangle P is at 2 o'clock, and the corresponding vertex of the rotated copy is at 2 o'clock.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/618692271f1a18eef13c6a73438c99a22fd6a0d8.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A triangle labeled P and a shifted copy of it labeled D.  The solid point represents the center of rotation. The triangle is shifted to the left of center. One vertex of triangle P is at 2 o'clock, and the corresponding vertex of the rotated copy is at 2 o'clock.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/248760a23d4ff76d19b302df27e42f41d8fb4a6d.svg"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's imagine a circle with the given center that passes through one of the vertices of figure $P$.  We want to find the point that would lie on that circle $180^\\circ$ from the original point.  Of course, in this case, a rotation of $180^\\circ$ clockwise or counterclockwise ends in the same position.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "A $180^\\circ$ angle takes up $\\dfrac{1}{2}$ of the circle.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle labeled P and a solid point that represents the center of rotation. There is a circle with a center at the solid point. An angle is formed from the bottom, right vertex in triangle P to a point on the circle with an arrow curving around the circle.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/ac506762bf9d02de1bfcfd00cd50fb10b336be1e.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We rotate the rest of the vertices in the same way, then connect them.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle labeled P and a rotated copy of it.  The solid point represents the center of rotation. There are 3 faded lines with arrows showing the path that the triangle rotated. The triangle is rotated to the left of center. One vertex of triangle P is at 4 o'clock, and the corresponding vertex of the rotated copy is at 10 o'clock.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/1d3f251fb5168b644129f4b329b1f613d92c7c2d.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Figure $A$ is the image of figure $P$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2 - 8.1.2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Figure $Q$ was rotated about the center shown by $270^\\circ$ counterclockwise.     **Which figure is the image of $Q$?**",
+                                "images": [
+                                    {
+                                        "alt": "A triangle labeled Q.  The solid point labeled center represents the center of rotation. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/d6d51d45ce4b22306c34e27b519a8e6db3e91759.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A triangle labeled Q and a rotated copy of it labeled A.  The solid point represents the center of rotation. The triangle is rotated to the left of center. One vertex of triangle Q is at 8 o'clock, and the corresponding vertex of the rotated copy is at 5 o'clock.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/735555219e3c1e7faad3b77823a8f0708a85a7d2.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": true,
+                                        "images": [
+                                            {
+                                                "alt": "A triangle labeled Q and a rotated copy of it labeled B.  The solid point represents the center of rotation. The triangle is rotated to the right of center. One vertex of triangle Q is at 8 o'clock, and the corresponding vertex of the rotated copy is at 11 o'clock.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/782fe18058fb363764a33aeb8d4a3bf56df7c27d.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A triangle labeled Q and a shifted copy of it labeled C.  The solid point represents the center of rotation. The triangle is shifted to the left of center. One vertex of triangle Q is at 8 o'clock, and the corresponding vertex of the rotated copy is at 8 o'clock.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/f4cbc420bb801cef04ff6b3eda0a2be74d021a18.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "A triangle labeled Q and a shifted copy of it labeled D.  The solid point represents the center of rotation. The triangle is shifted to the down. One vertex of triangle Q is at 8 o'clock, and the corresponding vertex of the rotated copy is at 8 o'clock.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/03fbca083dfa6dfb2e6c897b2768ade45a45aed0.svg"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's imagine a circle with the given center that passes through one of the vertices of figure $Q$.  We want to find the point that would lie on that circle $270^\\circ$ *counterclockwise* from the original point.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "A $270^\\circ$ angle takes up $\\dfrac{3}{4}$ of the circle.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle labeled Q and a solid point that represents the center of rotation. There is a circle with a center at the solid point. An angle is formed from the bottom, left vertex in triangle Q to a point on the circle with an arrow curving around the circle.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/0d10bea9b9123bd21c2480d15a46758d6a7189b3.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We rotate the rest of the vertices in the same way, then connect them.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle labeled P and a rotated copy of it.  The solid point represents the center of rotation. There are 3 faded lines with arrows showing the path that the triangle rotated. The triangle is rotated to the left of center. One vertex of triangle Q is at 2 o'clock, and the corresponding vertex of the rotated copy is at 5 o'clock.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/33afaef2a319435f3a58c981041f29dcad1c4902.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Figure $B$ is the image of figure $Q$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2 - 8.1.2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Point $R$ was rotated about the center shown by $270^\\circ$ clockwise.     **Which point is the image of $R$?**",
+                                "images": [
+                                    {
+                                        "alt": "6 solid points. Point A is the left most point. Point B is to the right of point A. Point R is the to the right of point B. Point D is to the right of point R. Point D is above point C. A solid point labeled center is in the middle of the page.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/b75336297605084772bb2b169bc8dbcb1a56bc1e.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$A$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$B$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$C$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$D$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's imagine a circle that passes through point $R$ with the given center.  We want to find the point that would lie on that circle $270^\\circ$ *clockwise* from point $R$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "A $270^\\circ$ angle takes up $\\dfrac{3}{4}$ of the circle.   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "6 solid points. Point A is the left most point. Point B is to the right of point A. Point R is the to the right of point B. Point D is to the right of point R. Point D is above point C. A solid point labeled center is in the middle of the page. There is a circle with a center at the point labeled center. There is an angle formed by 2 rays. 1 ray starts at the center and goes through point D. The other ray starts at the center and goes through point R. An angle is formed from point R to point D with an arrow curving around the circle clockwise.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/1f6f4abf8a3c000dbdcb2a6cf25c48293752fc9f.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Point $D$ is the image of point $R$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2 - 8.1.2"
+                    }
+                }
+            }
+        }
+    ]
+}

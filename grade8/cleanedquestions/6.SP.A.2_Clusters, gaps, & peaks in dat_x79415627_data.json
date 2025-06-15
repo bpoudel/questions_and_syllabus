@@ -1,0 +1,1274 @@
+{
+    "standard_metadata": {
+        "standard_id": "6.SP.A.2",
+        "standard_description": "Understand that a set of data collected to answer a statistical question has a distribution which can be described by its center, spread, and overall shape.",
+        "standard_title": "Clusters, gaps, & peaks in data distributions",
+        "standard_url": "https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-data-statistics/cc-6-shape-of-data/e/clusters--gaps--peaks--and-outliers"
+    },
+    "id": "x79415627",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Here's a dot plot showing the hourly wage of each employee at a small company.    Vijay wants to describe the wage distribution in terms of its clusters, gaps, and peaks.  **Which of these statements could Vijay use?**",
+                                "images": [
+                                    {
+                                        "alt": "A dot plot has a horizontal axis labeled, Dollars per hour, marked from 5 to 30, in increments of 1. The number of dots above each value is as follows. 8, 1; 9, 2; 10, 3; 11, 5; 12, 9; 13, 6; 14, 4; 15, 3; 16, 2; 17, 2; 18, 1; 28, 1.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/d28532bb7728345be31530dad8fb2f35a6fb8f0e.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "There is a peak at $12$ dollars per hour.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is a data point that is very far from the center.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "None of the above",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "* A **peak** is where the distribution is tall, like the peak of a mountain.  * A **gap** is a space in the distribution without data. * A **cluster** is where data points huddle together in a group.  Let's use these to think about which statements Vijay could use.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The distribution has a peak at $12$ dollars per hour.  [[☃ image 2]]",
+                                    "images": [
+                                        {
+                                            "alt": "A dot plot has a horizontal axis labeled, Dollars per hour, marked from 5 to 30, in increments of 1. The number of dots above each value is as follows. 8, 1; 9, 2; 10, 3; 11, 5; 12, 9; 13, 6; 14, 4; 15, 3; 16, 2; 17, 2; 18, 1; 28, 1. The 9 dots stacked above 12 are circled.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/5a692b93a6739c2343387d4ecb83414c92152865.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "There's a gap in the distribution between $18$ and $28$ dollars, so the one point at $28$ dollars per hour is very far from the center .  [[☃ image 3]]",
+                                    "images": [
+                                        {
+                                            "alt": "A dot plot has a horizontal axis labeled, Dollars per hour, marked from 5 to 30, in increments of 1. The number of dots above each value is as follows. 8, 1; 9, 2; 10, 3; 11, 5; 12, 9; 13, 6; 14, 4; 15, 3; 16, 2; 17, 2; 18, 1; 28, 1. The single dot above 28 is circled.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/f6baf3e0dd0d1a92fc510ee92f6ea68777731814.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Vijay could use these statements:  - There is a peak at $12$ dollars per hour.   - There is a data point that is very far from the center.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Dot Plots"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Here's a dot plot showing the gas mileage of each car at Miley's Motors.    Leticia wants to describe the gas mileage distribution in terms of its clusters, gaps, and peaks.  **Which of these statements could Leticia use?**",
+                                "images": [
+                                    {
+                                        "alt": "\"A dot plot.  The number line, labeled Miles per gallon, is numbered 16 to 44. \nPoint 20 has 1 dot.\nPoint 21 has 2 dots.\nPoint 22 has 4 dots.\nPoint 23 has 5 dots.\nPoint 24 has 6 dots.\nPoint 25 has 8 dots. \nPoint 26 has 6 dots.\nPoint 27 has 7 dots.\nPoint 28 has 5 dots.\nPoint 29 has 3 dots.\nPoint 30 has 3 dots.\nPoint 31 has 2 dots. \nPoint 32 has 1 dot.\nPoint 38 has 3 dots.\nPoint 39 has 5 dots.\nPoint 40 has 7 dots. \nPoint 41 has 4 dots.\nPoint 42 has 3 dots.\"",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/eb12b7722fef5e84e20e2a94522a319714a2404c.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "There is a cluster from $33$ to $37$ miles per gallon.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is a gap from $38$ to $42$ miles per gallon.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "None of the above",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "* A **peak** is where the distribution is tall, like the peak of a mountain.  * A **gap** is a space in the distribution without data. * A **cluster** is where data points huddle together in a group.  Let's use these to think about which statements Leticia could use.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The distribution does not have a cluster from $33$ to $37$ miles per gallon. It has a gap instead!  [[☃ image 2]]",
+                                    "images": [
+                                        {
+                                            "alt": "A dot plot has a horizontal axis labeled, Miles per gallon, marked from 16 to 44, in increments of 1. There is a cluster of dots ranged from 20 to 32 and another cluster of dots from 38 to 42. The gap from 33 to 37 is circled.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/c14c9bd426d8db650f58038ed975ce36a256c88e.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The distribution does not have a gap from $38$ to $42$ miles per gallon. It has a cluster instead!  [[☃ image 3]]",
+                                    "images": [
+                                        {
+                                            "alt": "A dot plot has a horizontal axis labeled, Miles per gallon, marked from 16 to 44, in increments of 1. There is a cluster of dots ranged from 20 to 32 and another cluster of dots from 38 to 42. The cluster of dots above 38 to 42 is circled.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/a180ab04113330a11e2ac73b74376fce06c1b0d6.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Leticia could use none of the statements.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Dot Plots"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Alejandro tracked the number of hours of sleep he got each night on a dot plot.    He wants to describe the sleep distribution in terms of its clusters, gaps, and peaks.  **Which of these statements could Alejandro use?**",
+                                "images": [
+                                    {
+                                        "alt": "A dot plot has a horizontal axis labeled, Hours of sleep, marked from 0 to 12, in increments of 1. The number of dots above each value is as follows. 0, 0; 1, 1; 2, 0; 3, 1; 4, 1; 5, 2; 6, 0; 7, 7; 8, 8; 9, 6; 10, 0; 11, 0; 12, 0. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/4ba9ea32e04e5ff62576f8c792ab945e9c8b82ce.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "There is a peak at $6$ hours.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is a cluster from $7$ to $9$ hours.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "None of the above",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "* A **peak** is where the distribution is tall, like the peak of a mountain.  * A **gap** is a space in the distribution without data. * A **cluster** is where data points huddle together in a group.  Let's use these to think about which statements Alejandro could use.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The distribution does not have a peak at $6$ hours of sleep. It has a gap instead!  [[☃ image 2]]",
+                                    "images": [
+                                        {
+                                            "alt": "A dot plot has a horizontal axis labeled, Hours of sleep, marked from 0 to 12, in increments of 1. The number of dots above each value is as follows. 0, 0; 1, 1; 2, 0; 3, 1; 4, 1; 5, 2; 6, 0; 7, 7; 8, 8; 9, 6; 10, 0; 11, 0; 12, 0. The space above the 6 is circled.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/cae08f0f89a6a23a9d2c3b93b2e16670ff743157.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The distribution has a cluster from $7$ to $9$ hours of sleep.  [[☃ image 3]]",
+                                    "images": [
+                                        {
+                                            "alt": "A dot plot has a horizontal axis labeled, Hours of sleep, marked from 0 to 12, in increments of 1. The number of dots above each value is as follows. 0, 0; 1, 1; 2, 0; 3, 1; 4, 1; 5, 2; 6, 0; 7, 7; 8, 8; 9, 6; 10, 0; 11, 0; 12, 0. The group of dots above the interval from 7 to 9 is circled.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/c6a2d56dfcacab98a3bdfa43f3b5e00edd6dae20.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Alejandro could use this statement:  - There is a cluster from $7$ to $9$ hours.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Dot Plots"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Here's a dot plot showing the music experience for each student in Mr. Dai's class.     Mr. Dai wants to describe the experience distribution in terms of its clusters, gaps, and peaks.  **Which of these statements could Mr. Dai use?**",
+                                "images": [
+                                    {
+                                        "alt": "A dot plot has a horizontal axis labeled, Number of years, marked from 0 to 10 in increments of 1. The number of dots above each value is as follows. 0, 5; 1, 7; 2, 9; 3, 7; 4, 5; 5, 3; 6, 2; 7, 1; 8, 1; 9, 1; 10, 0. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/629c157598732699116cb2c756ba2a02d11d3392.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "There is a peak at $4$ years.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is a gap from $5$ to $7$ years.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "None of the above",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "* A **peak** is where the distribution is tall, like the peak of a mountain.  * A **gap** is a space in the distribution without data. * A **cluster** is where data points huddle together in a group.  Let's use these to think about which statements Mr. Dai could use.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The distribution does not have a peak at $4$ years.  [[☃ image 2]]",
+                                    "images": [
+                                        {
+                                            "alt": "A dot plot has a horizontal axis labeled, Number of years, marked from 0 to 10 in increments of 1. The number of dots above each value is as follows. 0, 5; 1, 7; 2, 9; 3, 7; 4, 5; 5, 3; 6, 2; 7, 1; 8, 1; 9, 1; 10, 0. The dots above 4 are circled.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/9740d9748fa1ea069c8c91855d9f7c143b0d48b5.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The distribution does not have a gap from $5$ to $7$ years.  [[☃ image 3]]",
+                                    "images": [
+                                        {
+                                            "alt": "A dot plot has a horizontal axis labeled, Number of years, marked from 0 to 10 in increments of 1. The number of dots above each value is as follows. 0, 5; 1, 7; 2, 9; 3, 7; 4, 5; 5, 3; 6, 2; 7, 1; 8, 1; 9, 1; 10, 0. The dots above 5, 6, and 7 are circled.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/dd98d19c5378fa4b24995a6e9095b21bfe3e7d7c.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Mr. Dai could use none of the statements.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Dot Plots"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Here's a dot plot showing the shelf time for each apple at Gorg's Goods.    Gorg wants to describe the shelf time distribution in terms of its clusters, gaps, and peaks.  **Which of these statements could Gorg use?**",
+                                "images": [
+                                    {
+                                        "alt": "A dot plot has a horizontal axis labeled, Number of days, marked from 0 to 10 in increments of 1. The number of dots above each value is as follows. 0, 7; 1, 8; 2, 6; 3, 0; 4, 3; 5, 4; 6, 2; 7, 0; 8, 0; 9, 0; 10, 1. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/2e4620e8e9e6353c3c73721a5d83879d09f63653.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "There is a gap from $7$ to $9$ days.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is a cluster from $4$ to $6$ days.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "None of the above",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "* A **peak** is where the distribution is tall, like the peak of a mountain.  * A **gap** is a space in the distribution without data. * A **cluster** is where data points huddle together in a group.  Let's use these to think about which statements Gorg could use.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The distribution has a gap from $7$ to $9$ days.  [[☃ image 2]]",
+                                    "images": [
+                                        {
+                                            "alt": "A dot plot has a horizontal axis labeled, Number of days, marked from 0 to 10 in increments of 1. The number of dots above each value is as follows. 0, 7; 1, 8; 2, 6; 3, 0; 4, 3; 5, 4; 6, 2; 7, 0; 8, 0; 9, 0; 10, 1. The space above 7, 8, and 9 is circled.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/e030b3f98f44d9bb845f4f2bd0a6de652be0fc9e.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "There's a cluster in the distribution from $4$ to $6$ days.  [[☃ image 3]]",
+                                    "images": [
+                                        {
+                                            "alt": "A dot plot has a horizontal axis labeled, Number of days, marked from 0 to 10 in increments of 1. The number of dots above each value is as follows. 0, 7; 1, 8; 2, 6; 3, 0; 4, 3; 5, 4; 6, 2; 7, 0; 8, 0; 9, 0; 10, 1. The dots above 4, 5, and 6 are circled.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/b03f01cab9ffbfd49fc9f67cc032d2206d228dcf.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Gorg could use these statements:  - There is a gap from $7$ to $9$ days.  - There is a cluster from $4$ to $6$ days.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Dot Plots"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Here's a dot plot showing the number of programs created by each student in Talia's computer science course.    Talia wants to describe the program distribution in terms of its clusters, gaps, and peaks.  **Which of these statements could Talia use?**",
+                                "images": [
+                                    {
+                                        "alt": "A dot plot has a horizontal axis labeled, Number of programs, marked from 0 to 10 in increments of 1. The number of dots above each value is as follows. 0, 1; 1, 0; 2, 0; 3, 1; 4, 1; 5, 2; 6, 3; 7, 5; 8, 6; 9, 7; 10, 5. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/c9a18df5c0c480eb5294cbc9aa1dad2a109865a8.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "There is a data point that is very far from the center.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is a gap from $7$ to $8$ programs.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "None of the above",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "* A **peak** is where the distribution is tall, like the peak of a mountain.  * A **gap** is a space in the distribution without data. * A **cluster** is where data points huddle together in a group.  Let's use these to think about which statements Talia could use.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There's a gap in the distribution between $0$ and $3$ programs, so the one point at $0$ programs is very far from the center.  [[☃ image 2]]",
+                                    "images": [
+                                        {
+                                            "alt": "A dot plot has a horizontal axis labeled, Number of programs, marked from 0 to 10 in increments of 1. The number of dots above each value is as follows. 0, 1; 1, 0; 2, 0; 3, 1; 4, 1; 5, 2; 6, 3; 7, 5; 8, 6; 9, 7; 10, 5. The dot above 0 is circled.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/9014d50c090aabebd3d36113826924ed7a53caf7.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The distribution does not have a gap from $7$ to $8$ programs.  [[☃ image 3]]",
+                                    "images": [
+                                        {
+                                            "alt": "A dot plot has a horizontal axis labeled, Number of programs, marked from 0 to 10 in increments of 1. The number of dots above each value is as follows. 0, 1; 1, 0; 2, 0; 3, 1; 4, 1; 5, 2; 6, 3; 7, 5; 8, 6; 9, 7; 10, 5. The dots above 7 and 8 are circled.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/13b1655f475648ca7733ee396e1cb6dbdb1ae4e3.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Talia could use this statement:  - There is a data point that is very far from the center.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Dot Plots"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Here's a dot plot showing the daily high temperatures in Olivine City in July.    Brock wants to describe the temperature distribution in terms of its clusters, gaps, and peaks.  **Which of these statements could Brock use?**",
+                                "images": [
+                                    {
+                                        "alt": "A dot plot has a horizontal axis labeled, Temperature in degrees Celsius, marked from 18 to 26, in increments of 1. The number of dots above each value is as follows. 18, 0; 19, 1; 20, 3; 21, 7; 22, 9; 23, 6; 24, 4; 25, 1; 26, 0. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/4f65e091e3599cd386df9e85a090aaad45b46110.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "There is a data point that is very far from the center.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is a peak at $22\\degree\\text{C}$.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "None of the above",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "* A **peak** is where the distribution is tall, like the peak of a mountain.  * A **gap** is a space in the distribution without data. * A **cluster** is where data points huddle together in a group.  Let's use these to think about which statements Brock could use.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "All of the data points are relatively close together, and there are no gaps in the data. So the distribution does not have a data point that is very far from the center.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The distribution has a peak at $22\\degree\\text{C}$.  [[☃ image 3]]",
+                                    "images": [
+                                        {
+                                            "alt": "A dot plot has a horizontal axis labeled, Temperature in degrees Celsius, marked from 18 to 26, in increments of 1. The number of dots above each value is as follows. 18, 0; 19, 1; 20, 3; 21, 7; 22, 9; 23, 6; 24, 4; 25, 1; 26, 0. The dots above 22 are circled.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/a3bff1e6dd2235b909d524e5372a9467901de0fd.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Brock could use this statement:  - There is a peak at $22\\degree\\text{C}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Dot Plots"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Here's a dot plot showing the player attendance for each Venom Baseball Club practice.    Coach Eddie wants to describe the attendance distribution in terms of its clusters, gaps, and peaks.  **Which of these statements could Coach Eddie use?**",
+                                "images": [
+                                    {
+                                        "alt": "A dot plot has a horizontal axis labeled, Number of players, marked from 4 to 15, in increments of 1. The number of dots above each value is as follows. 4, 0; 5, 1; 6, 1; 7, 0; 8, 0; 9, 2; 10, 3; 11, 4; 12, 5; 13, 7; 14, 8; 15, 7. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/f8e51fa3eb96bb4a9997dbae2b11cda16a73de80.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "There is a gap from $11$ to $12$ players.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is a cluster from $7$ to $8$ players.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "None of the above",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "* A **peak** is where the distribution is tall, like the peak of a mountain.  * A **gap** is a space in the distribution without data. * A **cluster** is where data points huddle together in a group.  Let's use these to think about which statements Coach Eddie could use.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The distribution does not have a gap from $11$ to $12$ players.  [[☃ image 2]]",
+                                    "images": [
+                                        {
+                                            "alt": "A dot plot has a horizontal axis labeled, Number of players, marked from 4 to 15, in increments of 1. The number of dots above each value is as follows. 4, 0; 5, 1; 6, 1; 7, 0; 8, 0; 9, 2; 10, 3; 11, 4; 12, 5; 13, 7; 14, 8; 15, 7. The dots above 11 and 12 are both circled.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/506fa4b17104aa5f6a1b63961349417c6e0b8d7c.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The distribution does not have a cluster from $7$ to $8$ players. It has a gap instead!   [[☃ image 3]]",
+                                    "images": [
+                                        {
+                                            "alt": "A dot plot has a horizontal axis labeled, Number of players, marked from 4 to 15, in increments of 1. The number of dots above each value is as follows. 4, 0; 5, 1; 6, 1; 7, 0; 8, 0; 9, 2; 10, 3; 11, 4; 12, 5; 13, 7; 14, 8; 15, 7. The blank space above 7 and 8 is circled.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/924116a66f6b4ffd5b9735278b00a45022a2cfab.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Coach Eddie could use none of the statements.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Dot Plots"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Here's a dot plot showing the age of each teacher at Quirk Prep.    Principal Quincy wants to describe the age distribution in terms of its clusters, gaps, and peaks.  **Which of these statements could Principal Quincy use?**",
+                                "images": [
+                                    {
+                                        "alt": "A dot plot has a horizontal axis labeled, Age in years, marked from 30 to 50, in increments of 1. The number of dots above each value is as follows. 30, 0; 31, 0; 32, 0; 33, 1; 34, 1; 35, 2; 36, 3; 37, 3; 38, 4; 39, 5; 40, 6; 41, 8; 42, 6; 43, 4; 44, 2; 45, 0; 46, 0; 47, 2; 48, 3; 49, 2; 50, 0.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/9324d3fb4b7cce3dd7d26a98a34a13dbebebf6cd.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "There is a peak at $41$ years.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is a cluster from $47$ to $49$ years.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "None of the above",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "* A **peak** is where the distribution is tall, like the peak of a mountain.  * A **gap** is a space in the distribution without data. * A **cluster** is where data points huddle together in a group.  Let's use these to think about which statements Principal Quincy could use.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The distribution has a peak at $41$ years.  [[☃ image 2]]",
+                                    "images": [
+                                        {
+                                            "alt": "A dot plot has a horizontal axis labeled, Age in years, marked from 30 to 50, in increments of 1. The number of dots above each value is as follows. 30, 0; 31, 0; 32, 0; 33, 1; 34, 1; 35, 2; 36, 3; 37, 3; 38, 4; 39, 5; 40, 6; 41, 8; 42, 6; 43, 4; 44, 2; 45, 0; 46, 0; 47, 2; 48, 3; 49, 2; 50, 0. There is a circle around the dots above 41.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/1805859aea2be97f5550420e8915a77e974a14e9.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The distribution has a cluster from $47$ to $49$ years.  [[☃ image 3]]",
+                                    "images": [
+                                        {
+                                            "alt": "A dot plot has a horizontal axis labeled, Age in years, marked from 30 to 50, in increments of 1. The number of dots above each value is as follows. 30, 0; 31, 0; 32, 0; 33, 1; 34, 1; 35, 2; 36, 3; 37, 3; 38, 4; 39, 5; 40, 6; 41, 8; 42, 6; 43, 4; 44, 2; 45, 0; 46, 0; 47, 2; 48, 3; 49, 2; 50, 0. There is a circle around the dots above 47, 48, and 49.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/e7c29cc7bf12983a6eeaedda82ac11fbbff528da.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Principal Quincy could use these statements:  - There is a peak at $41$ years.  - There is a cluster from $47$ to $49$ years.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Dot Plots"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Here's a dot plot showing the number of snow days each year for Celadon Middle School.    Shion wants to describe the snow day distribution in terms of its clusters, gaps, and peaks.  **Which of these statements could Shion use?**",
+                                "images": [
+                                    {
+                                        "alt": "A dot plot has a horizontal axis labeled, Number of snow days, marked from 0 to 10, in increments of 1. The number of dots above each value is as follows. 0, 8; 1, 10; 2, 7; 3, 6; 4, 3; 5, 2; 6, 1; 7, 0; 8, 0; 9, 0; 10, 1. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/ec773f626f918dd31afbae9794fa9a6613dde50a.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "There is a gap from $7$ to $9$ snow days.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is a peak at $3$ snow days.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "None of the above",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "* A **peak** is where the distribution is tall, like the peak of a mountain.  * A **gap** is a space in the distribution without data. * A **cluster** is where data points huddle together in a group.  Let's use these to think about which statements Shion could use.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The distribution has a gap from $7$ to $9$ snow days.  [[☃ image 3]]",
+                                    "images": [
+                                        {
+                                            "alt": "A dot plot has a horizontal axis labeled, Number of snow days, marked from 0 to 10, in increments of 1. The number of dots above each value is as follows. 0, 8; 1, 10; 2, 7; 3, 6; 4, 3; 5, 2; 6, 1; 7, 0; 8, 0; 9, 0; 10, 1. There is a dashed circle above 7, 8, and 9 on the horizontal axis to show there is a gap.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/0abd61f0e1dc150e48d491679ce31718b8239081.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The distribution does not have a peak at $3$ snow days.  [[☃ image 3]]",
+                                    "images": [
+                                        {
+                                            "alt": "A dot plot has a horizontal axis labeled, Number of snow days, marked from 0 to 10, in increments of 1. The number of dots above each value is as follows. 0, 8; 1, 10; 2, 7; 3, 6; 4, 3; 5, 2; 6, 1; 7, 0; 8, 0; 9, 0; 10, 1. The dots above 3 are circled.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/04a37f24d3b8c6edf4261fa73c1b94c2f08207dd.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Shion could use this statement:  - There is a gap from $7$ to $9$ snow days.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Dot Plots"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Here's a histogram that shows Anika's scores from her last $30$ rounds in a game.    Anika wants to describe the score distribution in terms of its clusters, gaps, and peaks.  **Which of these statements could Anika use?**",
+                                "images": [
+                                    {
+                                        "alt": "A histogram plots Number of games, versus Number of points, from 0 to 100, in increments of 10. Bar heights are approximately as follows. From 0 to 10, 4. From 10 to 20, 7. From 20 to 30, 3. From 60 to 70, 3. From 70 to 80, 8. From 80 to 90, 5. There are no bars between 30 and 60. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/e786f4306b679306710c00ff85a80e1bc59b98d5.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "There is a gap from $30$ to $60$ points.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is a peak from $80$ to $90$ points.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "None of the above",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "* A **peak** is where the distribution is tall, like the peak of a mountain.  * A **gap** is a space in the distribution without data. * A **cluster** is where data points huddle together in a group.  Let's use these to think about which statements Anika could use.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The distribution has a gap from $30$ to $60$ points.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A histogram plots Number of games, versus Number of points, from 0 to 100, in increments of 10. Bar heights are approximately as follows. From 0 to 10, 4. From 10 to 20, 7. From 20 to 30, 3. From 60 to 70, 3. From 70 to 80, 8. From 80 to 90, 5. There are no bars between 30 and 60, and this empty space is circled.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/ee33cfc6a73ae07348eeb3c0360975fee3f8267e.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The distribution does _not_ have a peak from $80$ to $90$ points.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A histogram plots Number of games, versus Number of points, from 0 to 100, in increments of 10. Bar heights are approximately as follows. From 0 to 10, 4. From 10 to 20, 7. From 20 to 30, 3. From 60 to 70, 3. From 70 to 80, 8. From 80 to 90, 5. There are no bars between 30 and 60. The bar from 80 to 90 is highlighted.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/5401caba020476527ae9d6346357164dc968db11.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Anika could use this statement:  - There is a gap from $30$ to $60$ points.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Histograms"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Josie recorded the length of each putt she made in a histogram.    She wants to describe the length distribution in terms of its clusters, gaps, and peaks.  **Which of these statements could Josie use?**",
+                                "images": [
+                                    {
+                                        "alt": "A histogram plots Number of putts, versus Length in meters, from 0 to 10, in increments of 1. Bar heights are approximately as follows. From 0 to 1, 20. From 1 to 2, 26. From 2 to 3, 22. From 3 to 4, 17. From 4 to 5, 12. From 5 to 6, 8. From 6 to 7, 5. From 7 to 8, 2. From 8 to 9, 1. From 9 to 10, 0.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/2b0fde6bb35b762ba419cfc9b3329c57220c56ba.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "There is a peak from $1$ to $2$ meters.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is a gap from $6$ to $9$ meters.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "None of the above",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "* A **peak** is where the distribution is tall, like the peak of a mountain.  * A **gap** is a space in the distribution without data. * A **cluster** is where data points huddle together in a group.  Let's use these to think about which statements Josie could use.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The distribution has a peak from $1$ to $2$ meters.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A histogram plots Number of putts, versus Length in meters, from 0 to 10, in increments of 1. Bar heights are approximately as follows. From 0 to 1, 20. From 1 to 2, 26. From 2 to 3, 22. From 3 to 4, 17. From 4 to 5, 12. From 5 to 6, 8. From 6 to 7, 5. From 7 to 8, 2. From 8 to 9, 1. From 9 to 10, 0. The bar from 1 to 2 is highlighted.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/f12a151b8f4a168f2fc70384afe7c1e0e67e7d07.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The distribution does not have a gap from $6$ to $9$ meters.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A histogram plots Number of putts, versus Length in meters, from 0 to 10, in increments of 1. Bar heights are approximately as follows. From 0 to 1, 20. From 1 to 2, 26. From 2 to 3, 22. From 3 to 4, 17. From 4 to 5, 12. From 5 to 6, 8. From 6 to 7, 5. From 7 to 8, 2. From 8 to 9, 1. From 9 to 10, 0. The bars from 6 to 9 are highlighted.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/8a1b369ec27d3e11f612547548259d5f581e80c7.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Josie could use this statement:  - There is a peak from $1$ to $2$ meters.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Histograms"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Here's a histogram that shows the number of hours worked by each plumber of Acme Plumbing last week.    Bodhi wants to describe the work distribution in terms of its clusters, gaps, and peaks.  **Which of these statements could Bodhi use?**",
+                                "images": [
+                                    {
+                                        "alt": "A histogram plots Number of plumbers, versus Numbers of hours worked, from 0 to 50, in increments of 5. Bar heights are approximately as follows. From 0 to 5; 1. From 20 to 25; 3. From 25 to 30; 9. From 30 to 35; 14. From 35 to 40; 19. From 40 to 45; 22. From 45 to 50; 18.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/bcbc50fab4a89ef09423a2da9ab06a8fb581eaf1.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "There is a data point that is very far from the center.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is a peak from $40$ to $45$ hours.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "None of the above",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "* A **peak** is where the distribution is tall, like the peak of a mountain.  * A **gap** is a space in the distribution without data. * A **cluster** is where data points huddle together in a group.  Let's use these to think about which statements Bodhi could use.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The distribution has a lone data point very far from the center in the $0$ to $5$ hours category.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A histogram plots Number of plumbers, versus Numbers of hours worked, from 0 to 50, in increments of 5. Bar heights are approximately as follows. From 0 to 5; 1. From 20 to 25; 3. From 25 to 30; 9. From 30 to 35; 14. From 35 to 40; 19. From 40 to 45; 22. From 45 to 50; 18. The bar above 0 to 5 is highlighted.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/3d1d7c1ce91ec70d409973d4df239053b40d96e6.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The distribution has a peak from $40$ to $45$ hours.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A histogram plots Number of plumbers, versus Numbers of hours worked, from 0 to 50, in increments of 5. Bar heights are approximately as follows. From 0 to 5; 1. From 20 to 25; 3. From 25 to 30; 9. From 30 to 35; 14. From 35 to 40; 19. From 40 to 45; 22. From 45 to 50; 18. The bar above 40 to 45 is highlighted.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/9c47cddaaa3e6f29e4e01d6995a0b8199ec2d52b.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Bodhi could use these statements:  - There is a data point that is very far from the center.  - There is a peak from $40$ to $45$ hours.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Histograms"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Here's a histogram that shows the salary, in thousands of dollars, for each employee at Dream Sales.    Donato wants to describe the salary distribution in terms of its clusters, gaps, and peaks.  **Which of these statements could Donato use?**",
+                                "images": [
+                                    {
+                                        "alt": "A histogram plots Number of employees, versus Salary in thousands of dollars, from 0 to 100, in increments of 10. Bar heights are approximately as follows. From 0 to 10, 6. From 10 to 20, 15. From 20 to 30, 11. From 30 to 40, 0. From 40 to 50, 28. From 50 to 60, 37. From 60 to 70, 28. From 70 to 80, 21. From 80 to 90, 11. From 90 to 100, 5.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/3f9fc0a673a3bdaa7c0fe178a0effe1112994503.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "There is a peak from $70$ to $80$ thousand dollars.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is a cluster from $0$ to $30$ thousand dollars.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "None of the above",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "* A **peak** is where the distribution is tall, like the peak of a mountain.  * A **gap** is a space in the distribution without data. * A **cluster** is where data points huddle together in a group.  Let's use these to think about which statements Donato could use.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The distribution does not have a peak from $70$ to $80$ thousand dollars.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A histogram plots Number of employees, versus Salary in thousands of dollars, from 0 to 100, in increments of 10. Bar heights are approximately as follows. From 0 to 10, 6. From 10 to 20, 15. From 20 to 30, 11. From 30 to 40, 0. From 40 to 50, 28. From 50 to 60, 37. From 60 to 70, 28. From 70 to 80, 21. From 80 to 90, 11. From 90 to 100, 5. The bar above 70 to 80 is highlighted.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/3583efa69d344e60cb9188a032c6f35d2e0b1829.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The distribution has a cluster from $0$ to $30$ thousand dollars.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A histogram plots Number of employees, versus Salary in thousands of dollars, from 0 to 100, in increments of 10. Bar heights are approximately as follows. From 0 to 10, 6. From 10 to 20, 15. From 20 to 30, 11. From 30 to 40, 0. From 40 to 50, 28. From 50 to 60, 37. From 60 to 70, 28. From 70 to 80, 21. From 80 to 90, 11. From 90 to 100, 5. The cluster of bars above 0 to 30 is highlighted.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/f65d9a96e326683c37102a612393241db07cadde.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Donato could use this statement:  - There is a cluster from $0$ to $30$ thousand dollars.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Histograms"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Here's a histogram that shows the distance run by each member of MPLS Running Club.    Florence wants to describe the distance distribution in terms of its clusters, gaps, and peaks.  **Which of these statements could Florence use?**",
+                                "images": [
+                                    {
+                                        "alt": "A histogram plots Number of members, versus Distance in kilometers, from 0 to 30, in increments of 5. Bar heights are approximately as follows. From 0 to 5, 14. From 5 to 10, 20. From 10 to 15, 8. From 15 to 20, 0. From 20 to 25, 0. From 25 to 30, 3.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/ce4339b3a561d6ddbd2be64dfd9bbf6afb5c0fd1.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "There is a cluster from $0$ to $15$ kilometers.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is a gap from $25$ to $30$ kilometers.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "None of the above",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "* A **peak** is where the distribution is tall, like the peak of a mountain.  * A **gap** is a space in the distribution without data. * A **cluster** is where data points huddle together in a group.  Let's use these to think about which statements Florence could use.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The distribution has a cluster from $0$ to $15$ kilometers.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A histogram plots Number of members, versus Distance in kilometers, from 0 to 30, in increments of 5. Bar heights are approximately as follows. From 0 to 5, 14. From 5 to 10, 20. From 10 to 15, 8. From 15 to 20, 0. From 20 to 25, 0. From 25 to 30, 3. The bars above 0 to 15 are highlighted.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/f6ac53c63e67756d60746735952b2c45236a09dd.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The distribution does not have a gap from $25$ to $30$ kilometers.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A histogram plots Number of members, versus Distance in kilometers, from 0 to 30, in increments of 5. Bar heights are approximately as follows. From 0 to 5, 14. From 5 to 10, 20. From 10 to 15, 8. From 15 to 20, 0. From 20 to 25, 0. From 25 to 30, 3. The bar above 25 to 30 is highlighted.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/197cf49c651ee967421758ad5f2dbc7b76456b20.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Florence could use this statement:  - There is a cluster from $0$ to $15$ kilometers.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Histograms"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Here's a histogram that shows the number of guests by day at Seth's Sandwich Shop.    Seth wants to describe the guest distribution in terms of its clusters, gaps, and peaks.  **Which of these statements could Seth use?**",
+                                "images": [
+                                    {
+                                        "alt": "A histogram plots Number of days, versus Number of guests, from 0 to 200, in increments of 20. There is a cluster of bars from 40 to 200.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/107052bdca8e8ba67c581cf54178f1d42cd42cde.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "There is a data point that is very far from the center.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is a cluster from $0$ to $40$ guests.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "None of the above",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "* A **peak** is where the distribution is tall, like the peak of a mountain.  * A **gap** is a space in the distribution without data. * A **cluster** is where data points huddle together in a group.  Let's use these to think about which statements Seth could use.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The distribution does not have any data points that are in categories far from the center. All of the data points are relatively close together.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The distribution does not have a cluster from $0$ to $40$ guests.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A histogram plots Number of days, versus Number of guests, from 0 to 200, in increments of 20. There is a cluster of bars from 40 to 200. The space above the interval of 0 to 40 is circled.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/7c78de7ec0b8f73f1d051c63f16d119736a40b3d.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Seth could use none of the statements.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Histograms"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Here's a histogram that shows the number of U.S. states visited by each pilot of Pangaea Airlines.    Walter wants to describe the states visited distribution in terms of its clusters, gaps, and peaks.  **Which of these statements could Walter use?**",
+                                "images": [
+                                    {
+                                        "alt": "A histogram plots Number of pilots, versus Number of states, from 0 to 50, in increments of 5. Bar heights are approximately as follows. From 0 to 5, 1. From 5 to 10, 0. From 10 to 15, 0. From 15 to 20, 0. From 20 to 25, 2. From 25 to 30, 5. From 30 to 35, 6. From 35 to 40, 8. From 40 to 45, 12. From 45 to 50, 10. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/50cf0deaf91c8f6ac8f7a97fd0e5a1a7cad85277.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "There is a data point that is very far from the center.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is a gap from $20$ to $30$ states.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "None of the above",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "* A **peak** is where the distribution is tall, like the peak of a mountain.  * A **gap** is a space in the distribution without data. * A **cluster** is where data points huddle together in a group.  Let's use these to think about which statements Walter could use.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The distribution has a lone data point very far from the center in the $0$ to $5$ states category.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A histogram plots Number of pilots, versus Number of states, from 0 to 50, in increments of 5. Bar heights are approximately as follows. From 0 to 5, 1. This bar is highlighted. From 5 to 10, 0. From 10 to 15, 0. From 15 to 20, 0. From 20 to 25, 2. From 25 to 30, 5. From 30 to 35, 6. From 35 to 40, 8. From 40 to 45, 12. From 45 to 50, 10. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/472f19bfff2ad74e5950f071ded61afb226d1098.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The distribution does not have a gap from $20$ to $30$ states.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A histogram plots Number of pilots, versus Number of states, from 0 to 50, in increments of 5. Bar heights are approximately as follows. From 0 to 5, 1. From 5 to 10, 0. From 10 to 15, 0. From 15 to 20, 0. From 20 to 25, 2. This bar is highlighted. From 25 to 30, 5. This bar is highlighted as well. From 30 to 35, 6. From 35 to 40, 8. From 40 to 45, 12. From 45 to 50, 10. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/dd8c58334ebd0a9c39db354d9f0d99d20c74c3ed.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Walter could use this statement:  - There is a data point that is very far from the center.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Histograms"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Here's a histogram that shows the test score of each student in Mrs. Frine's class.    Mrs. Frine wants to describe the test score distribution in terms of its clusters, gaps, and peaks.  **Which of these statements could Mrs. Frine use?**",
+                                "images": [
+                                    {
+                                        "alt": "A histogram plots Number of students, versus Score, from 0 to 100, in increments of 10. Bar heights are approximately as follows. From 0 to 10; 1. From 40 to 50; 1. From 50 to 60; 3. From 60 to 70; 5. From 70 to 80; 9. From 80 to 90; 12. From 90 to 100; 10. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/4afe763687072f8f7083bfc07a7b71c983c5582e.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "There is a peak from $60$ to $70$ points.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is a gap from $10$ to $40$ points.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "None of the above",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "* A **peak** is where the distribution is tall, like the peak of a mountain.  * A **gap** is a space in the distribution without data. * A **cluster** is where data points huddle together in a group.  Let's use these to think about which statements Mrs. Frine could use.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The distribution does not have a peak from $60$ to $70$ points.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A histogram plots Number of students, versus Score, from 0 to 100, in increments of 10. Bar heights are approximately as follows. From 0 to 10; 1. From 40 to 50; 1. From 50 to 60; 3. From 60 to 70; 5. From 70 to 80; 9. From 80 to 90; 12. From 90 to 100; 10. The bar from 60 to 70 is highlighted. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/94d21ce8dbfbcfa5a0c772edeb6a366a9052c0b5.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The distribution has a gap from $10$ to $40$ points.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A histogram plots Number of students, versus Score, from 0 to 100, in increments of 10. Bar heights are approximately as follows. From 0 to 10; 1. From 40 to 50; 1. From 50 to 60; 3. From 60 to 70; 5. From 70 to 80; 9. From 80 to 90; 12. From 90 to 100; 10. The space from 10 to 40 is circled.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/2173fad80dcaf4f5b59905bdf3c9dad880224daf.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Mrs. Frine could use this statement:  - There is a gap from $10$ to $40$ points.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Histograms"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Here's a histogram that shows the number of vacation days used by Bike Haven employees last year.    Umar wants to describe the vacation days distribution in terms of its clusters, gaps, and peaks.  **Which of these statements could Umar use?**",
+                                "images": [
+                                    {
+                                        "alt": "A histogram plots Number of employees, versus Number of days, from 0 to 16, in increments of 2. Bar heights are approximately as follows. From 0 to 2; 1. From 6 to 8; 4. From 8 to 10; 6. From 10 to 12; 9. From 12 to 14; 15. From 14 to 16; 13.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/8393a7f21ceae96324351057f6f068c145b8a86e.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "There is a gap from $8$ to $12$ days.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "There is a cluster from $2$ to $6$ days.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "None of the above",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "* A **peak** is where the distribution is tall, like the peak of a mountain.  * A **gap** is a space in the distribution without data. * A **cluster** is where data points huddle together in a group.  Let's use these to think about which statements Umar could use.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The distribution does not have  a gap from $8$ to $12$ days.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A histogram plots Number of employees, versus Number of days, from 0 to 16, in increments of 2. Bar heights are approximately as follows. From 0 to 2; 1. From 6 to 8; 4. From 8 to 10; 6. From 10 to 12; 9. From 12 to 14; 15. From 14 to 16; 13. The bars from 8 to 12 are highlighted.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/dd1533c3086eb6a085d4313e70782b800fbf1177.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The distribution does not have a cluster from $2$ to $6$ days.  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A histogram plots Number of employees, versus Number of days, from 0 to 16, in increments of 2. Bar heights are approximately as follows. From 0 to 2; 1. From 6 to 8; 4. From 8 to 10; 6. From 10 to 12; 9. From 12 to 14; 15. From 14 to 16; 13.  The gap of space from 2 to 6 is circled.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/9e58fb8d4d94a19c258c0e43a51e8d0b70f78459.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Umar could use none of the statements.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Histograms"
+                    }
+                }
+            }
+        }
+    ]
+}

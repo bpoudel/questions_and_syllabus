@@ -1,0 +1,751 @@
+{
+    "standard_metadata": {
+        "standard_id": "7.SP.C.8",
+        "standard_description": "Find probabilities of compound events using organized lists, tables, tree diagrams, and simulation.",
+        "standard_title": "The counting principle",
+        "standard_url": "https://www.khanacademy.org/math/cc-seventh-grade-math/cc-7th-probability-statistics/cc-7th-compound-events/e/fundamental-counting-principle"
+    },
+    "id": "x2da0f006",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "John always wears a shirt, pants, socks, and shoes. He owns $12$ pairs of socks, $3$ pairs of shoes, $5$ pairs of pants, and $5$ shirts.   **How many different outfits can John make?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "900",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The total number of outfits can be found by multiplying the number of choices for each part of the outfit.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad\\text{Total number of outfits} =  12 \\times 3\\times5\\times 5=\\ ? $",
+                                    "images": []
+                                },
+                                {
+                                    "content": "John can make $900$ different outfits.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Outcomes"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Julius is going to have a multi-course meal.  The following table shows how many different dishes are offered for each course.  Course| Number of dishes |   :-: | :-: | **Appetizer** | $3$  **Main course** | $4$ **Dessert** | $3$ **How many different meal combinations does Julius have to choose from?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "36",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The total number of meal options can be found by multiplying the number of dishes for each course.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad \\text{Total number of meal options} = 3\\times4\\times3 =\\ ?$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Julius has $36$ different meal options.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Outcomes"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Brunette College offers $4$ math classes, $2$ science classes, $3$ language classes, and $5$ art classes. Sylvia needs to sign up for exactly one class in each subject.   **How many different combinations of classes does Sylvia have to choose from?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "120",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The total number of class combinations can be found by multiplying the number of classes offered in each subject.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad \\text{Total number of class combinations} = 4\\times2\\times3\\times5 =\\ ?$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Sylvia has $120$ different class combinations to choose from.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Outcomes"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Carlos is almost old enough to go to school! Based on where he lives, there are $6$ elementary schools, $3$ middle schools, and $2$ high schools that he has the option of attending.    **How many different education paths are available to Carlos?**  Assume he will attend only one of each type of school.",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "36",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The total number of education paths can be found by multiplying the number schools for each level of schooling.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad \\text{Total number of education paths} = 6\\times3\\times2=\\ ?$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are $36$ different education paths available to Carlos.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Outcomes"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Edwin needs to buy a car, a truck, and a motorcycle for his shipping business.  He wants the car to be red or yellow; the truck to be black, white, or silver; and the motorcycle to be green, blue, or orange.  **How many different combinations of vehicles does Edwin have to choose from?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "18",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The total number of color combinations can be found by multiplying the number of colors for each vehicle type.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad \\text{Total number of vehicle combinations} = 2\\times3\\times3=\\ ?$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are $18$ different possible combinations of vehicles that Edwin has to choose from.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Outcomes"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Tony allows his customers to create their own pizza.  The customers choose exactly one type of crust, sauce, cheese, and meat for their pizza. The following table shows the options available to customers.  || **Create your own pizza** || | |   :- | :-: | **Crust options** | Thin, Traditional, Deep dish, Stuffed **Sauce options** | Tomato, Pesto, Alfredo, Ranch **Cheese options** | Mozzarella, Cheddar, Italian blend  **Meat options** | Pepperoni, Sausage, Chicken, Bacon  **How many different pizza combinations are there?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "192",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The total number of pizza combinations can be found by multiplying the number of choices for each part of the pizza.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad \\text{Total number of pizza combinations} = 4\\times4\\times3\\times4 =\\ ?$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are $192$ different pizza combinations.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Outcomes"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Jeremiah is creating a playlist that has only one song from each of his favorite genres.  The following table shows his favorite genres and the number of songs on his MP3 player for each genre.   Genre |Number of songs :-: | :-: Rock | $4$  Pop |  $2$  Country | $7$ Classical | $8$  **How many different playlists could Jeremiah create?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "448",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The total number of possible playlists can be found by multiplying the number of songs in each genre.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad \\text{Total number of playlists} = 4\\times2\\times7\\times8 =\\ ?$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Jeremiah could create $448$ different playlists.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Outcomes"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Shurley bought a new bed and now needs to find pillows, sheets, and a comforter for it.  She wants to have black or white pillows; striped or plaid sheets; and a solid, polka-dot, or zebra-print comforter.  **How many unique bedding combinations can Shurley make?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "12",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The total number of bedding combinations can be found by multiplying the number of colors or patterns for each type of bedding.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad \\text{Total number of bedding combinations} = 2\\times2\\times3=\\ ?$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Shurley can make $12$ unique bedding combinations.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Outcomes"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Max is going to order a breakfast platter at The Breakfast Club.  He can choose one style of eggs, one type of meat, and one kind of toast. The following table shows the options available to him.  || **Breakfast platter** || |  |   :- | :-: | **Egg options** | Fried, Scrambled, Poached, Hard boiled **Meat options** | Bacon, Sausage, Ham, Steak **Toast options** | White, Wheat, Rye    **How many different breakfast platters could Max create?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "48",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The total number of breakfast platter options can be found by multiplying the number of choices for each part of the platter.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad \\text{Total number of breakfast platter options} = 4\\times4\\times3=\\ ?$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Max could create $48$ different breakfast platters.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Outcomes"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Elyse is going to buy an around-the-world plane ticket.  She will get to see just one city from each continent she will visit.  The following table below shows the continents on her trip and how many cities she can choose from for each continent.   Continent |Number of cities :-: | :-: Europe | $10$  Asia |  $8$  Africa | $4$ Australia | $3$     **How many different combinations of cities does Elyse have to choose from?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "960",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The total number of city combinations can be found by multiplying the number of cities available for each continent.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad \\text{Total number of city combinations} = 10\\times8\\times4\\times3 =\\ ?$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are $960$ different city combinations for Elyse to choose from.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Outcomes"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "William is drafting his fantasy basketball team.  He needs to select one player for each position. The following table shows how many players are available for each position.   Position |Number of players :- | :-: Point guard | $10$  Shooting guard |  $12$  Small forward | $7$ Power forward | $2$ Center | $9$  **How many different teams could William draft?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "15120",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The total number of teams can be found by multiplying the number players available for each position.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad \\text{Total number of teams} = 10\\times12\\times7\\times2\\times9 =\\ ?$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "William could draft $15120$ different teams.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Outcomes"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Oula is going on an outdoor expedition with his family.  The expedition will include a hunting event,  a fishing event, a hiking event, and a camping event. There are $4$ hunting, $7$ fishing, $6$ hiking, and $3$ camping events for Oula's family to choose from.  **How many different outdoor expeditions are possible?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "504",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The total number of outdoors expeditions can be found by multiplying the number of options for each event.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad \\text{Total number of outdoors expeditions} = 4\\times7\\times6\\times3 =\\ ?$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are $504$ different possible outdoor expeditions.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Outcomes"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Sebastian is going to choose the color, pattern, font, and image for the design of a sweatshirt for his dance team. There are $10$ colors, $4$ patterns, $12$ fonts, and $9$ images for him to choose from. (The printing company charges a fee to add extra design elements, so he will choose only one of each.)   **How many different sweatshirt designs are possible?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "4320",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The total number of sweatshirt designs can be found by multiplying the number of options available for each design element.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad \\text{Total number of sweatshirt designs} = 10\\times4\\times12\\times9 =\\ ?$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are $4320$ different possible sweatshirt designs.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Outcomes"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Paula is going to choose the size, color, phrase, and picture for a birthday card for her friend.  There are $2$ sizes, $4$ colors, $7$ phrases, and $4$ pictures for her to choose from. (The printing company charges a fee to add extra design elements, so she will choose only one of each.)  **How many different card designs are possible?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "224",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The total number of card designs can be found by multiplying the number of options available for each design element.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad \\text{Total number of card designs} = 2\\times4\\times7\\times4 =\\ ?$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are $224$ different possible card designs.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Outcomes"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Stefano owns a restaurant where his customers create their own pasta dishes.  The customer chooses exactly one type of noodle, sauce, vegetable, and meat. The following table shows the options available to customers.  || **Create your own pasta** || |  |   :- | :-: | **Noodle options** | Spaghetti, Penne, Linguine **Sauce options** | Tomato, Rosa, Alfredo **Vegetable options** | Mushroom, Onion, Green pepper, Tomato  **Meat options** | Steak, Beef, Sausage, Chicken, Bacon  **How many different pasta dishes can customers create?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "180",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The total number of pasta dishes can be found by multiplying the number of choices for each part of the pasta.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad \\text{Total number of pasta dishes} = 3\\times3\\times4\\times5 =\\ ?$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Customers can create $180$ different pasta dishes.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Outcomes"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Bruno is designing his next skateboard.  The skateboard store has $3$ types of grip tape, $13$ types of decks, $7$ types of trucks, $4$ types of bearings, and $2$ types of wheels.    **How many different skateboards can Bruno create?** Assume each skateboard will contain only one type of each component.",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "2184",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The total number of skateboards can be found by multiplying the number of options for each skateboard component.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad \\text{Total number of skateboards} = 3\\times13\\times7\\times4\\times2 =\\ ?$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Bruno can create $2184$ different skateboards.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Outcomes"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Arturo is customizing his next pair of basketball shoes.  The following table shows the design components and how many options he has for each.   Design component |Number of options :-: | :-: Primary color | $8$ Secondary color | $8$ Sole color |  $8$  Lace color | $5$   **How many different shoe combinations can Arturo create?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "2560",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The total number of shoe combinations can be found by multiplying the number of colors available for each design element.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad \\text{Total number of shoe combinations} = 8\\times8\\times8\\times5 =\\ ?$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Arturo can create $2560$ different shoe combinations.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Outcomes"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Bruce and Krista are going to buy a new furniture set for their living room.  They want to buy a couch, a coffee table, and a recliner.  They have narrowed it down so that they are choosing between $4$ couches, $5$ coffee tables, and $9$ recliners.  **How many different furniture combinations are possible?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "180",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The total number of furniture sets can be found by multiplying the number of options available for each type of furniture.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad \\text{Total number of furniture sets} = 4\\times5\\times9=\\ ?$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are $180$ different possible furniture combinations.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Outcomes"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Rossi is planning a date with his girlfriend.  He plans for them to watch a movie, go out to dinner, and then attend a sporting event.  He is deciding between $5$ movies, $8$ restaurants, and $2$ sporting events.  **How many different dates can Rossi plan?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "80",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The total number of date combinations can be found by multiplying the number of options being considered for each part of the date.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad \\text{Total number of date combinations} = 5\\times8\\times2=\\ ?$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Rossi could plan $80$ different dates.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Outcomes"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Billy is picking a sandwich, a snack, a dessert, and a drink for his lunch. He can have a ham, turkey, or salami sandwich; an apple, banana, or carrots for his snack; a cookie or brownie for his dessert; and apple or orange juice for his drink.  **How many different lunch combinations does Billy have to choose from?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "36",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The total number of lunch combinations can be found by multiplying the number of options for each part of the lunch.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\qquad \\text{Total number of lunch combinations} = 3\\times3\\times2\\times2 =\\ ?$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Billy has $36$ different lunch combinations to choose from.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Outcomes"
+                    }
+                }
+            }
+        }
+    ]
+}

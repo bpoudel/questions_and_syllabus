@@ -1,0 +1,1431 @@
+{
+    "standard_metadata": {
+        "standard_id": "8.G.A.3",
+        "standard_description": "Describe the effect of dilations, translations, rotations, and reflections on two-dimensional figures using coordinates.",
+        "standard_title": "Dilate triangles",
+        "standard_url": "https://www.khanacademy.org/math/geometry/hs-geo-transformations/hs-geo-dilations/e/dilations"
+    },
+    "id": "x9801d788",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Draw the image of $\\triangle ABC$ under a dilation whose center is $P$ and scale factor is $3$.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    6,
+                                                    -4
+                                                ],
+                                                [
+                                                    -6,
+                                                    5
+                                                ],
+                                                [
+                                                    -6,
+                                                    -4
+                                                ]
+                                            ],
+                                            "numSides": 3,
+                                            "showAngles": false,
+                                            "showSides": true,
+                                            "snapTo": "grid",
+                                            "type": "polygon"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To find the image of $\\triangle ABC$ under the dilation, we can dilate all of $\\triangle ABC$'s vertices and connect them.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "For example, point $\\blueD A$ is $4$ units to the left of $P$, so its image is $\\goldD3\\cdot4=12$ units to the left from $P$.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Triangle A B C. Point A is four units to the left of point P. Point B is three units down from point P. Point C is four units to the left of point P and three units down. There is a dashed horizontal line to highlight the twelve units left. There is another plotted point that is twelve units left of point P.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/ede889bef4c63d57d93ab29631b7616c5eb50e97.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's do the same thing with the remaining vertices.  Since our scale factor is $\\goldD 3$, every side length in $\\triangle A'B'C'$ will be $3$ times the length of the corresponding side in $\\triangle ABC$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Connecting the vertices of the image, we get the following mapping:    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Triangle A B C. Point A is four units to the left of point P. Point B is three units down from point P. Point C is four units to the left of point P and three units down. There is another triangle graphed that is triangle A B C with a scale factor of three from point P. The new triangle the point C prime at twelve units left of Point P and nine units down, the point B prime is nine units down from point P, and the point A prime is twelve units left of point P. The distance between C prime and B prime is twelve units. The distance between C prime and A prime is nine units. The distance between A prime and B prime is fifteen units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/1b06ed31cbec9d68aa2d191fc2d3ffb79f686b3e.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "1. Factor>1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Draw the image of $\\triangle ABC$ under a dilation whose center is $C$ and scale factor is $2$.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    6,
+                                                    7
+                                                ],
+                                                [
+                                                    -4,
+                                                    5
+                                                ],
+                                                [
+                                                    -2,
+                                                    -3
+                                                ]
+                                            ],
+                                            "numSides": 3,
+                                            "showAngles": false,
+                                            "showSides": true,
+                                            "snapTo": "grid",
+                                            "type": "polygon"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To find the image of $\\triangle ABC$ under the dilation, we can dilate all of $\\triangle ABC$'s vertices and connect them.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "For example, point $\\blueD B$ is $4$ units to the right of $C$ and $5$ units up, so its image is $\\goldD2\\cdot4=8$ units to the right and $\\goldD2\\cdot 5=10$ units up from $C$.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Triangle A B C. Point B is four units to the right of point C and five units up. There is a dashed horizontal line to highlight the four units right and a dashed vertical line to highlight the five units up. There is another plotted point that is eight units to the right of point C and ten units up. There is a dashed horizontal line to highlight the eight units right and a dashed vertical line to highlight the ten units up.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/1bec1b2a6305673f40e6d455e428c33d2885d6cf.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's do the same thing with the remaining vertices.  Since our scale factor is $\\goldD 2$, every side length in $\\triangle A'B'C'$ will be $2$ times the length of the corresponding side in $\\triangle ABC$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Connecting the vertices of the image, we get the following mapping:    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Triangle A B C. Point B is four units to the right of point C and five units up, and point A is one unit left of point C and four units up. There is another triangle graphed that is triangle A B C with a scale factor of two from point C. The new triangle the point C prime at Point C, the point B prime that is eight units to the right of point C and ten units up, and the point A prime that is two units left of point C and eight units up. The distance between C prime and B prime is approximately twelve point eight units. The distance between C prime and A prime is approximately eight point two units. The distance between A prime and B prime is approximately ten point two units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/a91982669d74ea4359005829e5b65c6e7bd1ed2a.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "1. Factor>1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Draw the image of $\\triangle ABC$ under a dilation whose center is $P$ and scale factor is $4$.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    6,
+                                                    -6
+                                                ],
+                                                [
+                                                    2,
+                                                    2
+                                                ],
+                                                [
+                                                    -6,
+                                                    -6
+                                                ]
+                                            ],
+                                            "numSides": 3,
+                                            "showAngles": false,
+                                            "showSides": true,
+                                            "snapTo": "grid",
+                                            "type": "polygon"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To find the image of $\\triangle ABC$ under the dilation, we can dilate all of $\\triangle ABC$'s vertices and connect them.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "For example, point $\\blueD B$ is $2$ units to the left of $P$, so its image is $\\goldD4\\cdot2=8$ units to the left from $P$.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Triangle A B C. Point B is two units to the left of point P, Point C is two units up from point P, and Point A is one unit right of point P. There is a dashed horizontal line to highlight the eight units left from point P. There is another plotted point that is eight units to the left of point P.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/be97f922d7a1a14a4b63d573b75ddb138105779b.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's do the same thing with the remaining vertices.  Since our scale factor is $\\goldD 4$, every side length in $\\triangle A'B'C'$ will be $4$ times the length of the corresponding side in $\\triangle ABC$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Connecting the vertices of the image, we get the following mapping:    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Triangle A B C. Point B is two units to the left of point P, Point C is two units up from point P, and Point A is one unit right of point P. There is another triangle graphed that is triangle A B C with a scale factor of four out from point P. The new triangle the point C prime is eight units up from point P, the point B prime is eight units to the left of point P, and the point A prime is four units right of point P. The distance between C prime and B prime is approximately eleven point three units. The distance between C prime and A prime is approximately eight point nine units. The distance between A prime and B prime is twelve units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/11a605a462434e94494b8d23b8c5e2d80d2c6e0d.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "1. Factor>1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Draw the image of $\\triangle ABC$ under a dilation whose center is $P$ and scale factor is $2$.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    1,
+                                                    -4
+                                                ],
+                                                [
+                                                    7,
+                                                    4
+                                                ],
+                                                [
+                                                    -5,
+                                                    6
+                                                ]
+                                            ],
+                                            "numSides": 3,
+                                            "showAngles": false,
+                                            "showSides": true,
+                                            "snapTo": "grid",
+                                            "type": "polygon"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To find the image of $\\triangle ABC$ under the dilation, we can dilate all of $\\triangle ABC$'s vertices and connect them.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "For example, point $\\blueD B$ is $3$ units to the left of $P$ and $3$ units up, so its image is $\\goldD2\\cdot3=6$ units to the left and $\\goldD2\\cdot 3=6$ units up from $P$.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Triangle A B C. Point B is three units to the left of point P and three units up, Point C is two units down from point P, and Point A is three units right of point P and two units up. There is a dashed line to highlight horizontally the three units left and vertically three units up from point P. There is also a dashed line to highlight horizontally six units to the left and vertically six units up from point P.  There is another plotted point that is six units left and six units up from Point P.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/5e39c2f725fe2c2dba43ad12e27e8b13c79fa1da.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's do the same thing with the remaining vertices.  Since our scale factor is $\\goldD 2$, every side length in $\\triangle A'B'C'$ will be $2$ times the length of the corresponding side in $\\triangle ABC$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Connecting the vertices of the image, we get the following mapping:    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Triangle A B C. Point B is three units to the left of point P and three units up, Point C is two units down from point P, and Point A is three units right of point P and two units up. There is another triangle graphed that is triangle A B C with a scale factor of two our from point P. The new triangle the Point B prime is six units to the left of point P and six units up, Point C prime is four units down from point P, and Point A prime is six units right of point P and four units up. The distance between C prime and B prime is approximately eleven point seven units. The distance between C prime and A prime is ten units. The distance between A prime and B prime is twelve point two units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/6f14c047af308d52a7da64b85b9a7d99944339cb.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "1. Factor>1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Draw the image of $\\triangle ABC$ under a dilation whose center is $A$ and scale factor is $4$.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    -6,
+                                                    -2
+                                                ],
+                                                [
+                                                    6,
+                                                    -2
+                                                ],
+                                                [
+                                                    -6,
+                                                    6
+                                                ]
+                                            ],
+                                            "numSides": 3,
+                                            "showAngles": false,
+                                            "showSides": true,
+                                            "snapTo": "grid",
+                                            "type": "polygon"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To find the image of $\\triangle ABC$ under the dilation, we can dilate all of $\\triangle ABC$'s vertices and connect them.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "For example, point $\\blueD C$ is $2$ units below $A$, so its image is $\\goldD4\\cdot2=8$ units below $A$.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Triangle A B C. Point B is three units to the right of point A and two units down, Point C is two units down from point A. There is a dashed line to highlight eight units down from point A. There is another plotted point that is six units left and eight units down from Point A.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/48d19d466699ce36b2cd9942269928211210c230.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's do the same thing with the remaining vertices.  Since our scale factor is $\\goldD 4$, every side length in $\\triangle A'B'C'$ will be $4$ times the length of the corresponding side in $\\triangle ABC$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Connecting the vertices of the image, we get the following mapping:    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Triangle A B C. Point B is three units to the right of point A and two units down, Point C is two units down from point A. There is another triangle graphed that is triangle A B C with a scale factor of four from point A. The new triangle the Point B is twelve units to the right of point A prime and eight units down, Point C prime is eight units down from point A. A prime is mapped on point A. The distance between C prime and B prime is approximately twelve units. The distance between C prime and A prime is eight units. The distance between A prime and B prime is fourten point four units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/32559ec74de54906fb13eceef9598553d9f009f2.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "1. Factor>1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Draw the image of $\\triangle ABC$ under a dilation whose center is $P$ and scale factor is $3$.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    -7,
+                                                    -5
+                                                ],
+                                                [
+                                                    5,
+                                                    -2
+                                                ],
+                                                [
+                                                    -4,
+                                                    4
+                                                ]
+                                            ],
+                                            "numSides": 3,
+                                            "showAngles": false,
+                                            "showSides": true,
+                                            "snapTo": "grid",
+                                            "type": "polygon"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To find the image of $\\triangle ABC$ under the dilation, we can dilate all of $\\triangle ABC$'s vertices and connect them.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "For example, point $\\blueD A$ is $1$ unit to the left of $P$ and $2$ units up, so its image is $\\goldD3\\cdot1=3$ units to the left and $\\goldD3\\cdot 2=6$ units up from $P$.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Triangle A B C. Point B is two units to the left of point P and one unit down, Point C is two units right from point P, and Point A is one unit left of point P and two units up. There is a dashed line to highlight horizontally the three units left and vertically six units up from point P. There is also a dashed line to highlight horizontally one unit to the left and vertically two units up from point P.  There is another plotted point that is three units left and six units up from Point P.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/8e664351bcee7e398d070b20ed35ef98f328601e.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's do the same thing with the remaining vertices.  Since our scale factor is $\\goldD 3$, every side length in $\\triangle A'B'C'$ will be $3$ times the length of the corresponding side in $\\triangle ABC$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Connecting the vertices of the image, we get the following mapping:    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Triangle A B C. Point B is three units to the left of point P and three units up, Point C is two units down from point P, and Point A is three units right of point P and two units up. There is another triangle graphed that is triangle A B C with a scale factor of two from point P. The new triangle the Point B prime is six units to the left of point P and six units up, Point C prime is four units down from point P, and Point A prime is six units right of point P and four units up. The distance between C prime and B prime is approximately eleven point seven units. The distance between C prime and A prime is ten units. The distance between A prime and B prime is twelve point two units",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/7391660fe5860ebb71096e868f6dd9053bfeceb9.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "1. Factor>1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Draw the image of $\\triangle ABC$ under a dilation whose center is $P$ and scale factor is $\\dfrac{1}{4}$.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    6,
+                                                    -2
+                                                ],
+                                                [
+                                                    6,
+                                                    0
+                                                ],
+                                                [
+                                                    3,
+                                                    -2
+                                                ]
+                                            ],
+                                            "numSides": 3,
+                                            "showAngles": false,
+                                            "showSides": true,
+                                            "snapTo": "grid",
+                                            "type": "polygon"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To find the image of $\\triangle ABC$ under the dilation, we can dilate all of $\\triangle ABC$'s vertices and connect them.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "For example, point $\\blueD A$ is $4$ units above $P$, so its image is $\\goldD{\\dfrac14}\\cdot4=1$ unit above $P$.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Triangle A B C. Point B is four units down from point P, Point C is four units down from point P and twelve units to the left, and Point A is four units up from point P. There is another plotted point that is one unit up from Point P.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/2718641f5ee3bb8ce593f97d1beba9cd0a53bba9.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's do the same thing with the remaining vertices.  Since our scale factor is $\\goldD{\\dfrac14}$, every side length in $\\triangle A'B'C'$ will be $\\dfrac{1}{4}$ the length of the corresponding side in $\\triangle ABC$.  Another way to think about it is that since our scale factor is closer to $0$ than to $1$, every point in the image will be closer to our center $P$ than to its corresponding point in the pre-image.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Connecting the vertices of the image, we get the following mapping:    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Triangle A B C. Point B is four units down from point P, Point C is four units down from point P and twelve units to the left, and Point A is four units up from point P. There is another triangle graphed that is triangle A B C with a scale factor of one fourth from point P. The new triangle the Point B prime is one unit down from point P, Point C prime is one unit down from point P and three units to the left, and Point A prime is one unit up from point P. The distance between C prime and B prime is three units. The distance between C prime and A prime is approximately three point six units. The distance between A prime and B prime is two units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/666710b77b8d048f0765ceef9101dfca16a38cd2.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "2. Factor<1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Draw the image of $\\triangle ABC$ under a dilation whose center is $P$ and scale factor is $\\dfrac{1}{3}$.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    3,
+                                                    -5
+                                                ],
+                                                [
+                                                    0,
+                                                    -2
+                                                ],
+                                                [
+                                                    -1,
+                                                    -4
+                                                ]
+                                            ],
+                                            "numSides": 3,
+                                            "showAngles": false,
+                                            "showSides": true,
+                                            "snapTo": "grid",
+                                            "type": "polygon"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To find the image of $\\triangle ABC$ under the dilation, we can dilate all of $\\triangle ABC$'s vertices and connect them.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "For example, point $\\blueD C$ is $3$ units to the left of $P$ and $6$ units up, so its image is $\\goldD{\\dfrac13}\\cdot3=1$ unit to the left and $\\goldD{\\dfrac13}\\cdot 6=2$ units up from $P$.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Triangle A B C. Point B is six units to the right of point P and three units down, Point C is three units left from point P and up six units, and Point A is six units left of point P. There is a dashed line to highlight horizontally the three units left and vertically six units up from point P. There is also a dashed line to highlight horizontally one unit to the left and vertically two units up from point P.  There is another plotted point that is one unit left and two units up from Point P.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/cbd1cec07d5b799267a8f002f3898f5177d8a15e.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's do the same thing with the remaining vertices.  Since our scale factor is $\\goldD{\\dfrac13}$, every side length in $\\triangle A'B'C'$ will be $\\dfrac{1}{3}$ the length of the corresponding side in $\\triangle ABC$.  Another way to think about it is that since our scale factor is closer to $0$ than to $1$, every point in the image will be closer to our center $P$ than to its corresponding point in the pre-image.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Connecting the vertices of the image, we get the following mapping:    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Triangle A B C. Point B is six units to the right of point P and three units down, Point C is three units left from point P and up six units, and Point A is six units left of point P. There is another triangle graphed that is triangle A B C with a scale factor of one third from point P. The new triangle the Point B prime is two units to the right of point P and one unit down, Point C prime is one unit left from point P and up two units, and Point A prime is two units left of point P. The distance between C prime and B prime is approximately four point two units. The distance between C prime and A prime is approximately two point two units. The distance between A prime and B prime is four point one units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/3c9aa2c3e42d5656ceaaf42f808f489f4b246edc.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "2. Factor<1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Draw the image of $\\triangle ABC$ under a dilation whose center is $P$ and scale factor is $\\dfrac{1}{2}$.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    0,
+                                                    0
+                                                ],
+                                                [
+                                                    -2,
+                                                    2
+                                                ],
+                                                [
+                                                    -6,
+                                                    1
+                                                ]
+                                            ],
+                                            "numSides": 3,
+                                            "showAngles": false,
+                                            "showSides": true,
+                                            "snapTo": "grid",
+                                            "type": "polygon"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To find the image of $\\triangle ABC$ under the dilation, we can dilate all of $\\triangle ABC$'s vertices and connect them.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "For example, point $\\blueD C$ is $10$ units below $P$, so its image is $\\goldD{\\dfrac12}\\cdot10=5$ units below $P$.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Triangle A B C. Point B is twelve units to the right of point P and twelve units down, Point C is ten units down from point P, and Point A is eight units right of point P and eight units down. There is a dashed line to highlight vertically the ten units down point P. There is another plotted point that is five units down from point P.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/ab43ae8f57404a5f627b7144d3bd77a03a67bdfa.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's do the same thing with the remaining vertices.  Since our scale factor is $\\goldD{\\dfrac12}$, every side length in $\\triangle A'B'C'$ will be $\\dfrac{1}{2}$ the length of the corresponding side in $\\triangle ABC$.  Another way to think about it is that since our scale factor is $\\goldD{\\dfrac12}$, every point in the image will be exactly in the middle between its corresponding point in the pre-image and our center $P$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Connecting the vertices of the image, we get the following mapping:    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Triangle A B C. Point B is twelve units to the right of point P and twelve units down, Point C is ten units down from point P, and Point A is eight units right of point P and eight units down. There is another triangle graphed that is triangle A B C with a scale factor of one half from point P. The new triangle the Point B prime is six units to the right of point P and six units down, Point C prime is five units down from point P, and Point A prime is four units right of point P and four units down. The distance between C prime and B prime is approximately six point one units. The distance between C prime and A prime is four point one units. The distance between A prime and B prime is two point eight units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/85c11a69b03747b9553bba2c62e0a49eac53a86d.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "2. Factor<1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Draw the image of $\\triangle ABC$ under a dilation whose center is $A$ and scale factor is $\\dfrac{1}{4}$.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    -4,
+                                                    0
+                                                ],
+                                                [
+                                                    -3,
+                                                    3
+                                                ],
+                                                [
+                                                    -6,
+                                                    2
+                                                ]
+                                            ],
+                                            "numSides": 3,
+                                            "showAngles": false,
+                                            "showSides": true,
+                                            "snapTo": "grid",
+                                            "type": "polygon"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To find the image of $\\triangle ABC$ under the dilation, we can dilate all of $\\triangle ABC$'s vertices and connect them.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "For example, point $\\blueD C$ is $8$ units to the right of $A$ and $8$ units down, so its image is $\\goldD{\\dfrac14}\\cdot8=2$ units to the right and $\\goldD{\\dfrac14}\\cdot 8=2$ units down from $A$.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Triangle A B C. Point B is twelve units to the right of point A and four units up, Point C is eight units right from point A and down eight units. There is a dashed line to highlight horizontally the eight units right and vertically eight units down from point A. There is also a dashed line to highlight horizontally two units to the right and vertically two units down from point A.  There is another plotted point that is two unit right and two units down from Point A.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/7b045c67efd8e2e756f8b499e3993aebc0a8f60b.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's do the same thing with the remaining vertices.  Since our scale factor is $\\goldD{\\dfrac14}$, every side length in $\\triangle A'B'C'$ will be $\\dfrac{1}{4}$ the length of the corresponding side in $\\triangle ABC$.  Another way to think about it is that since our scale factor is closer to $0$ than to $1$, every point in the image will be closer to our center $A$ than to its corresponding point in the pre-image.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Connecting the vertices of the image, we get the following mapping:    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Triangle A B C. Point B is twelve units to the right of point A and four units up, Point C is eight units right from point A and down eight units. There is another triangle graphed that is triangle A B C with a scale factor of one fourth from point A. The new triangle the Point B prime is three units to the right of point A and one unit up, Point C prime is two units right from point A and down two units. Point A prime is mapped onto point A. The distance between C prime and B prime is approximately three point two units. The distance between C prime and A prime is two point eight units. The distance between A prime and B prime is approximately three point two units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/0634ab375c5abb59d85ec5b43eba02b2c69b1d7b.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "2. Factor<1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Draw the image of $\\triangle ABC$ under a dilation whose center is $P$ and scale factor is $\\dfrac{1}{3}$.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    2,
+                                                    -5
+                                                ],
+                                                [
+                                                    5,
+                                                    -1
+                                                ],
+                                                [
+                                                    1,
+                                                    -2
+                                                ]
+                                            ],
+                                            "numSides": 3,
+                                            "showAngles": false,
+                                            "showSides": true,
+                                            "snapTo": "grid",
+                                            "type": "polygon"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To find the image of $\\triangle ABC$ under the dilation, we can dilate all of $\\triangle ABC$'s vertices and connect them.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "For example, point $\\blueD C$ is $3$ units to the right of $P$ and $9$ units up, so its image is $\\goldD{\\dfrac13}\\cdot3=1$ unit to the right and $\\goldD{\\dfrac13}\\cdot 9=3$ units up from $P$.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Triangle A B C. Point B is nine units to the left of point P and six units up, Point C is three units right from point P and nine units up, and Point A is six units left of point P and three units down. There is a dashed line to highlight horizontally three units right point P. Another dashed line highlights horizontally one unit right and three units up. There is another plotted point that is one unit right from point P and three units up.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/5c497724a63b1e644c285986c2d6a2f5fa0af8a9.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's do the same thing with the remaining vertices.  Since our scale factor is $\\goldD{\\dfrac13}$, every side length in $\\triangle A'B'C'$ will be $\\dfrac{1}{3}$ the length of the corresponding side in $\\triangle ABC$.  Another way to think about it is that since our scale factor is closer to $0$ than to $1$, every point in the image will be closer to our center $P$ than to its corresponding point in the pre-image.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Connecting the vertices of the image, we get the following mapping:    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Triangle A B C. Point B is nine units to the left of point P and six units up, Point C is three units right from point P and nine units up, and Point A is six units left of point P and three units down. There is another triangle graphed that is triangle A B C with a scale factor of one third from point P. The new triangle the Point B prime is three units to the left of point P and two units up, Point C prime is one unit right from point P and three units up, and Point A prime is two units left of point P and one unit down. The distance between C prime and B prime is approximately four point one units. The distance between C prime and A prime is five units. The distance between A prime and B prime is three point two units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/9457c3d983b0d273380d8a1c043bcc15485f2868.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "2. Factor<1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Draw the image of $\\triangle ABC$ under a dilation whose center is $P$ and scale factor is $\\dfrac{1}{2}$.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Graph-based response",
+                                        "correct": true,
+                                        "graph_data": {
+                                            "coords": [
+                                                [
+                                                    -1,
+                                                    -3
+                                                ],
+                                                [
+                                                    1,
+                                                    1
+                                                ],
+                                                [
+                                                    -4,
+                                                    0
+                                                ]
+                                            ],
+                                            "numSides": 3,
+                                            "showAngles": false,
+                                            "showSides": true,
+                                            "snapTo": "grid",
+                                            "type": "polygon"
+                                        }
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "To find the image of $\\triangle ABC$ under the dilation, we can dilate all of $\\triangle ABC$'s vertices and connect them.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "For example, point $\\blueD C$ is $4$ units to the right of $P$ and $4$ units down, so its image is $\\goldD{\\dfrac12}\\cdot4=2$ units to the right and $\\goldD{\\dfrac12}\\cdot 4=2$ units down from $P$.    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Triangle A B C. Point B is two units to the left of point P and two units up, Point C is four units right from point P and four units down, and Point A is eight units right of point P and four units up. There is a dashed line to highlight horizontally four units right point P and vertically four units down. Another dashed line highlights horizontally two units right and two units down. There is another plotted point that is two units right from point P and two units down.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d8739114244ec59308417296d714976df68caeb6.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Let's do the same thing with the remaining vertices.  Since our scale factor is $\\goldD{\\dfrac12}$, every side length in $\\triangle A'B'C'$ will be $\\dfrac{1}{2}$ the length of the corresponding side in $\\triangle ABC$.  Another way to think about it is that since our scale factor is $\\goldD{\\dfrac12}$, every point in the image will be exactly in the middle between its corresponding point in the pre-image and our center $P$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Connecting the vertices of the image, we get the following mapping:    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Triangle A B C. Point B is two units to the left of point P and two units up, Point C is four units right from point P and four units down, and Point A is eight units right of point P and four units up. There is another triangle graphed that is triangle A B C with a scale factor of one half from point P. The new triangle the Point B prime is one unit to the left of point P and one unit up, Point C prime is two units right from point P and two units down, and Point A prime is four units right of point P and two units up. The distance between C prime and B prime is approximately four point two units. The distance between C prime and A prime is approximately four point five units. The distance between A prime and B prime is approximately five point one units.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/f880c117010f8d6743305e76abba6a8457f53556.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "2. Factor<1"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "$\\triangle A'B'C'$ is the image of $\\triangle ABC$ under a dilation whose center is $P$ and scale factor is $\\dfrac{1}{4}$.      **Which figure correctly shows $\\triangle A'B'C'$ using the solid line?**",
+                                "images": [
+                                    {
+                                        "alt": "Triangle ABC. Point P is the midpoint of segment AB.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/1157cc10f4ca75ff346145c39f19da8e2cdc3593.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "Triangle A B C with a dilated triangle A prime B prime C prime inside of it. The scale factor between triangle A prime B prime C prime and triangle A B C is between one-half and one. Point P is the midpoint of segment A B and segment A prime B prime.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/265a60e73b25d9140cca4db4a1804eddd12a0eeb.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": true,
+                                        "images": [
+                                            {
+                                                "alt": "Triangle A B C with a dilated triangle A prime B prime C prime inside of it. The scale factor between triangle A prime B prime C prime and triangle A B C is between zero and one-half. Point P is the midpoint of segment A B and segment A prime B prime.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/92936348f800b9a2bdd36a7cea980f9aaeb2543d.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "Triangle A B C with a dilated triangle A prime B prime C prime inside of it. The scale factor between triangle A prime B prime C prime and triangle A B C is between zero and one-half. Point P is the midpoint of segment A B, but not segment A prime B prime.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/3f2dce51e381b8fca518513f560f7d44b6ec238a.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "Triangle A B C with a dilated triangle A prime B prime C prime inside of it. The scale factor between triangle A prime B prime C prime and triangle A B C is between one-half and one. Point P is the midpoint of segment A B, but not segment A prime B prime.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/1cf589280cb8dca6e427f1cf3ae965ed099c7770.svg"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "A dilation by a scale factor of $\\goldD{\\dfrac14}$ means that all the distances in the image are $\\dfrac14$ as long as they were in the pre-image. We don't have exact measurements, but that's less than half of the lengths in the pre-image.  Also, each point in the image lies on the line connecting its corresponding point in the pre-image and the center of dilation $P$. Since $\\goldD{\\dfrac14}<\\dfrac12$, the point in the image should lie *between* the two points, and *closer to $P$* than to the pre-image.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "These two options have lengths that are shorter than half the lengths in the pre-image.    [[☃ image 1]]     [[☃ image 2]]  Out of these two, only the first option has the image points lying between their pre-image and $P$.",
+                                    "images": [
+                                        {
+                                            "alt": "Triangle A B C with a dilated triangle A prime B prime C prime inside of it. The scale factor between triangle A prime B prime C prime and triangle A B C is between zero and one-half. Point P is the midpoint of segment A B and segment A prime B prime.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/92936348f800b9a2bdd36a7cea980f9aaeb2543d.svg"
+                                        },
+                                        {
+                                            "alt": "Triangle A B C with a dilated triangle A prime B prime C prime inside of it. The scale factor between triangle A prime B prime C prime and triangle A B C is between zero and one-half. Point P is the midpoint of segment A B, but not segment A prime B prime.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/3f2dce51e381b8fca518513f560f7d44b6ec238a.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Our scale factor of $\\dfrac{1}{4}$ is closer to $0$ than to $1$, so every point in the image will be closer to our center $P$ than to its corresponding point in the pre-image.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "This figure correctly shows $\\triangle A'B'C'$ using the solid line:     [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Triangle A B C with a dilated triangle A prime B prime C prime inside of it. The scale factor between triangle A prime B prime C prime and triangle A B C is between zero and one-half. Point P is the midpoint of segment A B and segment A prime B prime.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/92936348f800b9a2bdd36a7cea980f9aaeb2543d.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "3. Select the dilation"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "$\\triangle A'B'C'$ is the image of $\\triangle ABC$ under a dilation whose center is $P$ and scale factor is $\\dfrac23$.      **Which figure correctly shows $\\triangle A'B'C'$ using the solid line?**",
+                                "images": [
+                                    {
+                                        "alt": "Triangle ABC. Point P is plotted a distance to the right of point C.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/d8445d219eb4648212072196f14d2c67369f0b34.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "Triangle A B C with a dilated triangle A prime B prime C prime to the right of it. The scale factor between triangle A prime B prime C prime and triangle A B C is between zero and one half. Point P is to the right of point C prime.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/275c7c1d0ffe42f0dc032217cf11ad04c7985743.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": true,
+                                        "images": [
+                                            {
+                                                "alt": "Triangle A B C with a dilated triangle A prime B prime C prime to the inside of it. The scale factor between triangle A prime B prime C prime and triangle A B C is between zero and one half. Point P is to the right of point C.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/700274fc65369d35e7ff601d5bf80d0bb091d38a.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "Triangle A B C with a dilated triangle A prime B prime C prime to the inside of it. The scale factor between triangle A prime B prime C prime and triangle A B C is between one and one half. Point P is to the right of point C.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/846c85ba2d7b7601897e2cfcd46cdfe31c04aa56.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "Triangle A B C with a dilated triangle A prime B prime C prime to the right of it. The scale factor between triangle A prime B prime C prime and triangle A B C is between one and one half. Point P is to the right of point C prime.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/5aef28829fa5a55cf46084eb087dbb45866ad40f.svg"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "A dilation by a scale factor of $\\goldD{\\dfrac23}$ means that all the distances in the image are $\\dfrac23$ as long as they were in the pre-image. We don't have exact measurements, but that's shorter than the lengths in the pre-image and longer than their halves.  Also, each point in the image lies on the line connecting its corresponding point in the pre-image and the center of dilation $P$. Since $\\dfrac12<\\goldD{\\dfrac23}<1$, the point in the image should lie *between* the two points, and *closer to the pre-image* than to $P$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "These two options have lengths that are shorter than the lengths in the pre-image but longer than their halves.    [[☃ image 1]]     [[☃ image 2]]  Out of these two, only the first option has the image points lying between their pre-image and $P$.",
+                                    "images": [
+                                        {
+                                            "alt": "Triangle A B C with a dilated triangle A prime B prime C prime to the inside of it. The scale factor between triangle A prime B prime C prime and triangle A B C is between zero and one half. Point P is to the right of point C.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/700274fc65369d35e7ff601d5bf80d0bb091d38a.svg"
+                                        },
+                                        {
+                                            "alt": "Triangle A B C with a dilated triangle A prime B prime C prime to the inside of it. The scale factor between triangle A prime B prime C prime and triangle A B C is between one and one half. Point P is to the right of point C.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/846c85ba2d7b7601897e2cfcd46cdfe31c04aa56.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "This figure correctly shows $\\triangle A'B'C'$ using the solid line:     [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Triangle A B C with a dilated triangle A prime B prime C prime to the inside of it. The scale factor between triangle A prime B prime C prime and triangle A B C is between zero and one half. Point P is to the right of point C.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/700274fc65369d35e7ff601d5bf80d0bb091d38a.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "3. Select the dilation"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "$\\triangle A'B'C'$ is the image of $\\triangle ABC$ under a dilation whose center is $P$ and scale factor is $\\dfrac13$.      **Which figure correctly shows $\\triangle A'B'C'$ using the solid line?**",
+                                "images": [
+                                    {
+                                        "alt": "Triangle ABC. Point P is plotted inside Triangle ABC.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/69acaa132e58da5aac38c9263e322115ac3d2cb4.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "!",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "Triangle A B C with a dilated triangle A prime B prime C prime to the inside of it. Segment A prime B prime is mapped on Segment A B. The scale factor between triangle A prime B prime C prime and triangle A B C is between zero and one half. Point P is inside Triangle A B C and Triangle A prime B prime C prime.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/2e7107528efec6c7780c8c20f97fc03d31478044.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": true,
+                                        "images": [
+                                            {
+                                                "alt": "Triangle A B C with a dilated triangle A prime B prime C prime to the inside of it. Segment A prime B prime is mapped on Segment A B. The scale factor between triangle A prime B prime C prime and triangle A B C is between one and one half. Point P is inside Triangle A B C and Triangle A prime B prime C prime.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/f96775cda431f186b127ce8fdb1f9274071e041a.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "Triangle A B C with a dilated triangle A prime B prime C prime to the inside of it. The scale factor between triangle A prime B prime C prime and triangle A B C is between one and one half. Point P is inside Triangle A B C.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/c18c8fa10b9683255f94cace8f4e905eb09a1345.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "Triangle A B C with a dilated triangle A prime B prime C prime to the inside of it. Segment A prime B prime is mapped on Segment A B. The scale factor between triangle A prime B prime C prime and triangle A B C is between zero and one half. Point P is inside Triangle A B C and Triangle A prime B prime C prime.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/322a3bc214b0f4d0c927a442a270eabda058bcdf.svg"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "A dilation by a scale factor of $\\goldD{\\dfrac13}$ means that all the distances in the image are $\\dfrac13$ as long as they were in the pre-image. We don't have exact measurements, but that's shorter than half the lengths in the pre-image.  Also, each point in the image lies on the line connecting its corresponding point in the pre-image and the center of dilation $P$. Since $\\goldD{\\dfrac13}<\\dfrac12$, the point in the image should lie *between* the two points, and *closer to $P$* than to the pre-image.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "These two options have lengths that are shorter than half the lengths in the pre-image.    [[☃ image 1]]     [[☃ image 2]]  Out of these two, only the first option has the image points lying between their pre-image and $P$.",
+                                    "images": [
+                                        {
+                                            "alt": "Triangle A B C with a dilated triangle A prime B prime C prime to the inside of it. Segment A prime B prime is mapped on Segment A B. The scale factor between triangle A prime B prime C prime and triangle A B C is between one and one half. Point P is inside Triangle A B C and Triangle A prime B prime C prime.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/f96775cda431f186b127ce8fdb1f9274071e041a.svg"
+                                        },
+                                        {
+                                            "alt": "Triangle A B C with a dilated triangle A prime B prime C prime to the inside of it. The scale factor between triangle A prime B prime C prime and triangle A B C is between one and one half. Point P is inside Triangle A B C.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/c18c8fa10b9683255f94cace8f4e905eb09a1345.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "This figure correctly shows $\\triangle A'B'C'$ using the solid line:     [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Triangle A B C with a dilated triangle A prime B prime C prime to the inside of it. Segment A prime B prime is mapped on Segment A B. The scale factor between triangle A prime B prime C prime and triangle A B C is between one and one half. Point P is inside Triangle A B C and Triangle A prime B prime C prime.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/f96775cda431f186b127ce8fdb1f9274071e041a.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "3. Select the dilation"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "$\\triangle A'B'C'$ is the image of $\\triangle ABC$ under a dilation whose center is $A$ and scale factor is $\\dfrac34$.      **Which figure correctly shows $\\triangle A'B'C'$ using the solid line?**",
+                                "images": [
+                                    {
+                                        "alt": "Triangle ABC.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/f5744e479413bd0d5bc577c136f943578d6ef0d2.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "Triangle A B C with a dilated triangle A prime B prime C prime to the inside of it. Segment A prime B prime is mapped on Segment A B. Segment A prime C prime is mapped on Segment A C. The scale factor between triangle A prime B prime C prime and triangle A B C is between one and one half.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/e7904bb9a46b4749a5569c15d4e2cd1a66037cfd.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": true,
+                                        "images": [
+                                            {
+                                                "alt": "Triangle A B C with a dilated triangle A prime B prime C prime to the inside of it. The scale factor between triangle A prime B prime C prime and triangle A B C is between one and one half.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/438a9f2715868b9ffb63745ca66a63fb76743e83.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "Triangle A B C with a dilated triangle A prime B prime C prime to the inside of it. The scale factor between triangle A prime B prime C prime and triangle A B C is between zero and one half.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/4812925dec3906d36adefb62a52d026d9152fc62.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "Triangle A B C with a dilated triangle A prime B prime C prime to the inside of it. Segment A prime B prime is mapped on Segment A B. Segment A prime C prime is mapped on Segment A C. The scale factor between triangle A prime B prime C prime and triangle A B C is between zero and one half.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/3b843827542961cacf18376d94f907224a922586.svg"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "A dilation by a scale factor of $\\goldD{\\dfrac34}$ means that all the distances in the image are $\\dfrac34$ as long as they were in the pre-image. We don't have exact measurements, but that's shorter than the lengths in the pre-image and longer than their halves.  Also, each point in the image lies on the line connecting its corresponding point in the pre-image and the center of dilation $A$. Since $\\dfrac12<\\goldD{\\dfrac34}<1$, the point in the image should lie *between* the two points, and *closer to the pre-image* than to $A$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "These two options have lengths that are shorter than the lengths in the pre-image but longer than their halves.    [[☃ image 1]]     [[☃ image 2]]  Out of these two, only the first option has the image points lying between their pre-image and $A$.",
+                                    "images": [
+                                        {
+                                            "alt": "Triangle A B C with a dilated triangle A prime B prime C prime to the inside of it. The scale factor between triangle A prime B prime C prime and triangle A B C is between one and one half.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/438a9f2715868b9ffb63745ca66a63fb76743e83.svg"
+                                        },
+                                        {
+                                            "alt": "Triangle A B C with a dilated triangle A prime B prime C prime to the inside of it. The scale factor between triangle A prime B prime C prime and triangle A B C is between zero and one half.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/4812925dec3906d36adefb62a52d026d9152fc62.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "This figure correctly shows $\\triangle A'B'C'$ using the solid line:     [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Triangle A B C with a dilated triangle A prime B prime C prime to the inside of it. The scale factor between triangle A prime B prime C prime and triangle A B C is between one and one half.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/438a9f2715868b9ffb63745ca66a63fb76743e83.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "3. Select the dilation"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "$\\triangle A'B'C'$ is the image of $\\triangle ABC$ under a dilation whose center is $P$ and scale factor is $\\dfrac43$.      **Which figure correctly shows $\\triangle A'B'C'$ using the solid line?**",
+                                "images": [
+                                    {
+                                        "alt": "Triangle ABC. Point P is plotted inside Triangle ABC.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/766894d151582e8c270e21df67c1f7611258f61b.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "Triangle A B C with a dilated triangle A prime B prime C prime to the inside of it. The scale factor between triangle A prime B prime C prime and triangle A B C is between one and one half. Point P is inside Triangle A B C.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/09c44f21608c7e37537787871a6022ad7810e73a.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": true,
+                                        "images": [
+                                            {
+                                                "alt": "Triangle A B C with a dilated triangle A prime B prime C prime that Triangle A B C is inside of. The scale factor between triangle A prime B prime C prime and triangle A B C is between one and one and one half. Point P is inside Triangle A B C.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/d140d8e83505fc41362c008254672cbd44bcd69d.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "Triangle A B C with a dilated triangle A prime B prime C prime that Triangle A B C is inside of. Segment A prime B prime is mapped over segment A B. Segment C prime B prime is mapped over Segment B C. The scale factor between triangle A prime B prime C prime and triangle A B C is between one and one and one half. Point P is inside Triangle A B C.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/eba4dd1fab2a54bc9153a7e9b7ef84ac3c2e37c2.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "Triangle A B C with a dilated triangle A prime B prime C prime inside of it. Segment A prime B prime is mapped on segment A B. Segment C prime B prime is mapped on Segment B C. The scale factor between triangle A prime B prime C prime and triangle A B C is between one and one half. Point P is inside Triangle A B C.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/7a79b52c74aa3b57d90ca547e27ad0c21f85ec15.svg"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "A dilation by a scale factor of $\\goldD{\\dfrac43}$ means that all the distances in the image are $\\dfrac43$ as long as they were in the pre-image. We don't have exact measurements, but that's longer than the lengths in the pre-image.  Also, each point in the image lies on the line connecting its corresponding point in the pre-image and the center of dilation $P$. Since $1<\\goldD{\\dfrac43}$, the point in the image should lie *across the pre-image* from $P$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "These two options have lengths that are longer than the lengths in the pre-image.    [[☃ image 1]]     [[☃ image 2]]  Out of these two, only the first option has the image points across their pre-images from $P$.",
+                                    "images": [
+                                        {
+                                            "alt": "Triangle A B C with a dilated triangle A prime B prime C prime that Triangle A B C is inside of. The scale factor between triangle A prime B prime C prime and triangle A B C is between one and one and one half. Point P is inside Triangle A B C.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d140d8e83505fc41362c008254672cbd44bcd69d.svg"
+                                        },
+                                        {
+                                            "alt": "Triangle A B C with a dilated triangle A prime B prime C prime that Triangle A B C is inside of. Segment A prime B prime is mapped over segment A B. Segment C prime B prime is mapped over Segment B C. The scale factor between triangle A prime B prime C prime and triangle A B C is between one and one and one half. Point P is inside Triangle A B C.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/eba4dd1fab2a54bc9153a7e9b7ef84ac3c2e37c2.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "This figure correctly shows $\\triangle A'B'C'$ using the solid line:     [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Triangle A B C with a dilated triangle A prime B prime C prime that Triangle A B C is inside of. The scale factor between triangle A prime B prime C prime and triangle A B C is between one and one and one half. Point P is inside Triangle A B C.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d140d8e83505fc41362c008254672cbd44bcd69d.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "3. Select the dilation"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "$\\triangle A'B'C'$ is the image of $\\triangle ABC$ under a dilation whose center is $P$ and scale factor is $\\dfrac32$.      **Which figure correctly shows $\\triangle A'B'C'$ using the solid line?**",
+                                "images": [
+                                    {
+                                        "alt": "Triangle A B C. Point P is the midpoint of segment AB.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/437eb7b3c17578a6ea503a6ea99f3ea8650da70e.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "Triangle A B C with a dilated triangle A prime B prime C prime inside of it. Segment A prime C prime is mapped over Segment A C. Segment B prime C prime is mapped over Segment B C. The scale factor between triangle A prime B prime C prime and triangle A B C is between one and one-half and one. Point P is the midpoint of segment A B.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/e537cc9352c572398eb7aa9b0d781a7cdbdeccab.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": true,
+                                        "images": [
+                                            {
+                                                "alt": "Triangle A B C with a dilated triangle A prime B prime C prime inside of it. Segment A prime C prime is mapped on Segment A C. Segment B prime C prime is mapped on Segment B C. The scale factor between triangle A prime B prime C prime and triangle A B C is between one-half and one. Point P is the midpoint of segment A B.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/892e33f9ef33dc10c5a0da2bedfa4b8b8e69babb.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "Triangle A B C with a dilated triangle A prime B prime C prime inside of it. Segment A prime B prime is mapped over Segment A B. The scale factor between triangle A prime B prime C prime and triangle A B C is between one and one-half and one. Point P is the midpoint of segment A B and Segment A prime B prime.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/a95e20908eb9abaa2d539da2aaa43444b21218b0.svg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content": "",
+                                        "correct": false,
+                                        "images": [
+                                            {
+                                                "alt": "Triangle A B C with a dilated triangle A prime B prime C prime inside of it. Segment A prime B prime is mapped over Segment A B. The scale factor between triangle A prime B prime C prime and triangle A B C is between one-half and one. Point P is the midpoint of segment A B and Segment A prime B prime.",
+                                                "url": "https://cdn.kastatic.org/ka-perseus-graphie/5866e946ff2a727e1dd1d8f18fd03b176a65daf9.svg"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "A dilation by a scale factor of $\\goldD{\\dfrac32}$ means that all the distances in the image are $\\dfrac32$ as long as they were in the pre-image. We don't have exact measurements, but that's longer than the lengths in the pre-image.  Also, each point in the image lies on the line connecting its corresponding point in the pre-image and the center of dilation $P$. Since $1<\\goldD{\\dfrac32}$, the point in the image should lie *across the pre-image* from $P$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "These two options have lengths that are longer than the lengths in the pre-image.    [[☃ image 1]]     [[☃ image 2]]  Out of these two, only the first option has the image points across their pre-images from $P$.",
+                                    "images": [
+                                        {
+                                            "alt": "Triangle A B C with a dilated triangle A prime B prime C prime inside of it. Segment A prime C prime is mapped on Segment A C. Segment B prime C prime is mapped on Segment B C. The scale factor between triangle A prime B prime C prime and triangle A B C is between one-half and one. Point P is the midpoint of segment A B.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/892e33f9ef33dc10c5a0da2bedfa4b8b8e69babb.svg"
+                                        },
+                                        {
+                                            "alt": "Triangle A B C with a dilated triangle A prime B prime C prime inside of it. Segment A prime B prime is mapped over Segment A B. The scale factor between triangle A prime B prime C prime and triangle A B C is between one and one-half and one. Point P is the midpoint of segment A B and Segment A prime B prime.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/a95e20908eb9abaa2d539da2aaa43444b21218b0.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "This figure correctly shows $\\triangle A'B'C'$ using the solid line:     [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "Triangle A B C with a dilated triangle A prime B prime C prime inside of it. Segment A prime C prime is mapped on Segment A C. Segment B prime C prime is mapped on Segment B C. The scale factor between triangle A prime B prime C prime and triangle A B C is between one-half and one. Point P is the midpoint of segment A B.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/892e33f9ef33dc10c5a0da2bedfa4b8b8e69babb.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "3. Select the dilation"
+                    }
+                }
+            }
+        }
+    ]
+}

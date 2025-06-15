@@ -1,0 +1,975 @@
+{
+    "standard_metadata": {
+        "standard_id": "8.G.A.2",
+        "standard_description": "Understand that a two-dimensional figure is congruent to another if the second can be obtained from the first by a sequence of rotations, reflections, and translations; given two congruent figures, describe a sequence that exhibits the congruence between them.",
+        "standard_title": "Mapping shapes",
+        "standard_url": "https://www.khanacademy.org/math/geometry/xff63fac4:hs-geo-transformation-properties-and-proofs/hs-geo-rigid-transformations-overview/e/mapping-shapes"
+    },
+    "id": "x114ce6954e61c9df",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Triangles $\\triangle XYZ$ and $\\triangle ABC$ are congruent. The side length of each square on the grid is $1$ unit.      **Which of the following sequences of transformations maps $\\triangle XYZ$ onto $\\triangle ABC$?**  Sequence A | Sequence B :- | :- A translation $2$ units to the right and $10$ units up, then a reflection over the line $\\overleftrightarrow{AC}$. | A translation $6$ units to the right and $6$ units up, then a $180\\degree$ rotation about point $B$.",
+                                "images": [
+                                    {
+                                        "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Triangle A B C has point A at ten, ten, point B at eight, eight, and Point C at two, ten. Triangle X Y Z has point X at the origin, point Y at two, two, and point Z at eight, zero.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/92e436c1e19698156408499e0534b1c769728c5b.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Only sequence A",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Only sequence B",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Both",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Neither",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's perform each of the sequences and see if they map $\\triangle XYZ$ onto $\\triangle ABC$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "In Sequence A we perform a translation $2$ units to the right and $10$ units up...    [[☃ image 1]]  ...then a reflection over the line $\\overleftrightarrow{AC}$.    [[☃ image 2]]  We can see that this sequence does *not* map $\\triangle XYZ$ onto $\\triangle ABC$.",
+                                    "images": [
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Triangle A B C has point A at ten, ten, point B at eight, eight, and Point C at two, ten. The pre image of triangle X Y Z has point X at the origin, point Y at two, two, and point Z at eight, zero. The image of triangle X Y Z has point X at two, ten, point Y at four, twelve, and point Z at ten, ten. There is a green line that highlight the shift two units right and ten units up.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/2807db2024a87ecc4d1cae9466310a02951ba906.svg"
+                                        },
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Triangle A B C has point A at ten, ten, point B at eight, eight, and Point C at two, ten. The pre image of triangle X Y Z has point X at two, ten, point Y at four, twelve, and point Z at ten, ten. There is horizontal line on side AC that the leads to the image of triangle X Y Z which has has point X at two, ten, point Y at four, eight, and point Z at ten, ten.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/ed6f34d072d8fa7d0c79e01c4381e03f9bcbdf13.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "In Sequence B we perform a translation $6$ units to the right and $6$ units up...    [[☃ image 1]]  ...then a $180\\degree$ rotation about point $B$.    [[☃ image 2]]  We can see that this sequence *does* map $\\triangle XYZ$ onto $\\triangle ABC$.",
+                                    "images": [
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Triangle A B C has point A at ten, ten, point B at eight, eight, and Point C at two, ten. The pre image of triangle X Y Z has point X at the origin, point Y at two, two, and point Z at eight, zero. The image of triangle X Y Z has point X at the six, six, point Y at eight, eight, and point Z at fourteen, six. There is a green line that highlight the shift six units right and six units up.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/9525eb3eda27e5590818ed1c8dfdb9457b847f16.svg"
+                                        },
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Triangle A B C has point A at ten, ten, point B at eight, eight, and Point C at two, ten. The pre image of triangle X Y Z has point X at the six, six, point Y at eight, eight, and point Z at fourteen, six. The image of triangle X Y Z has point X at ten, ten, point Y at eight, eight, and Point Z at two, ten, which perfectly overlaps triangle A B C. There are half circle green arrows from the point X on the pre-image to point A and from point Z on the pre-image to point C.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/458410599cda4faf0a032de3c44d9ea013a07733.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "In conclusion, only sequence B maps $\\triangle XYZ$ onto $\\triangle ABC$.  *Note:* There are many other possible combinations of transformations that would also map the figure onto the image.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Translation+rotation"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Triangles $\\triangle DEF$ and $\\triangle ABC$ are congruent.      **Which of the following sequences of transformations maps $\\triangle DEF$ onto $\\triangle ABC$?**  Sequence A | Sequence B :- | :- A translation along the directed line segment $\\overline{DB}$. then a $90\\degree$ rotation about point $B$. | A $90\\degree$ rotation about point $F$, then a translation along the directed line segment $\\overline{FC}$.",
+                                "images": [
+                                    {
+                                        "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Triangle A B C has point A at seven, ten, point B at zero, ten, and Point C at two, six. Triangle D E F has point D at seven, seven, point E at seven, zero, and point F at eleven, two.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/4c752821f3565f93113a155510ff5ef03bb2d279.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Only sequence A",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Only sequence B",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Both",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Neither",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's perform each of the sequences and see if they map $\\triangle DEF$ onto $\\triangle ABC$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "In Sequence A we perform a translation along the directed line segment $\\overline{DB}$...    [[☃ image 1]]  ...then a $90\\degree$ rotation about point $B$ (recall that a rotation by a positive angle is counterclockwise).    [[☃ image 2]]  We can see that this sequence does *not* map $\\triangle DEF$ onto $\\triangle ABC$.",
+                                    "images": [
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Triangle A B C has point A at seven, ten, point B at zero, ten, and Point C at two, six. The pre-image of Triangle D E F has point D at seven, seven, point E at seven, zero, and point F at eleven, two. The image of Triangle D E F has point D at zero, ten, point E at zero, three, and point F at four, five. There is a green line that highlight the shift seven units left and three units up.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/59fb7b383da8fc0038647f30c198386bb372adcf.svg"
+                                        },
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Triangle A B C has point A at seven, ten, point B at zero, ten, and Point C at two, six. The pre-image of Triangle D E F has point D at zero, ten, point E at zero, three, and point F at four, five. There is a green line that highlight the shift seven units left and three units up. The image of Triangle D E F rotates ninety degrees about point B and has point D at zero, ten, point E at seven, ten, and point F at five, fourteen. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d9237ad8000857d18239dbd78c1a57c1ef5775aa.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "In Sequence B we perform a $90\\degree$ rotation about point $F$...    [[☃ image 1]]  ...then a translation along the directed line segment $\\overline{FC}$.    [[☃ image 2]]  We can see that this sequence does *not* map $\\triangle DEF$ onto $\\triangle ABC$.",
+                                    "images": [
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Triangle A B C has point A at seven, ten, point B at zero, ten, and Point C at two, six. The pre-image of Triangle D E F has point D at seven, seven, point E at seven, zero, and point F at eleven, two. The image of Triangle D E F is rotated ninety degrees about point F has point D at six, negative two, point E at thirteen, negative two, and point F at eleven, two. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/48a33e4598d2aa14ff0a95da96949f68234f4f4b.svg"
+                                        },
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Triangle A B C has point A at seven, ten, point B at zero, ten, and Point C at two, six. The pre-image of Triangle D E F has point D at six, negative two, point E at thirteen, negative two, and point F at eleven, two. The image of Triangle D E F has point D at negative three, two, point E at four, two, and point F at two, six. There is a green line that highlight the shift nine units left and four units up.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/ad8cf083a8a5af22928eeecfba6ab36d1795fe72.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "In conclusion, neither of the sequences maps $\\triangle DEF$ onto $\\triangle ABC$.  *Note:* There are many possible combinations of transformations that would map the figure onto the image.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Translation+rotation"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Quadrilaterals $LMNO$ and $ABCD$ are congruent. The side length of each square on the grid is $1$ unit.      **Which of the following sequences of transformations maps $LMNO$ onto $ABCD$?**  Sequence A | Sequence B :- | :- A translation $6$ units to the left and $1$ unit up, then a reflection over the horizontal line through point $A$. | A $90\\degree$ rotation about point $O$, then a translation $6$ units to the left and $1$ unit up.",
+                                "images": [
+                                    {
+                                        "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Quadrilateral A B C D has point A at five, ten, point B at five, twelve, Point C at six, thirteen, and Point D at nine, thirteen. Quadrilateral L M N O has point L at fourteen, five, point M at twelve, five, point N at eleven, six, and point O at eleven, nine.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/5a4dde2438000039b684255fa7d7d800f159a09b.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Only sequence A",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Only sequence B",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Both",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Neither",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's perform each of the sequences and see if they map $LMNO$ onto $ABCD$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "In Sequence A we perform a translation $6$ units to the left and $1$ unit up...    [[☃ image 1]]  ...then a reflection over the horizontal line through point $A$.    [[☃ image 2]]  We can see that this sequence does *not* map $LMNO$ onto $ABCD$.",
+                                    "images": [
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Quadrilateral A B C D has point A at five, ten, point B at five, twelve, Point C at six, thirteen, and Point D at nine, thirteen. The pre-image of Quadrilateral L M N O has point L at fourteen, five, point M at twelve, five, point N at eleven, six, and point O at eleven, nine. The image of Quadrilateral L M N O has point L at eight, six, point M at six, six, point N at five, seven, and point O at five, ten. There is a green line that highlight the shift six units left and one unit up.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/2cc939d2c5395cd86433680bdcc94a9faa923051.svg"
+                                        },
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Quadrilateral A B C D has point A at five, ten, point B at five, twelve, Point C at six, thirteen, and Point D at nine, thirteen. The pre-image of Quadrilateral L M N O has point L at eight, six, point M at six, six, point N at five, seven, and point O at five, ten. The image of Quadrilateral L M N O reflects over a horizontal line passing through point A. Point L is at eight, fourteen, point M is at six, fourteen, point N is at five, thirteen, and point O is at five, ten.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/90c298dca43666a289da701d14d93aff7ef730d9.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "In Sequence B we perform a $90\\degree$ rotation about point $O$ (recall that a rotation by a positive angle is counterclockwise)...    [[☃ image 1]]  ...then a translation $6$ units to the left and $1$ unit up.    [[☃ image 2]]  We can see that this sequence does *not* map $LMNO$ onto $ABCD$.",
+                                    "images": [
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Quadrilateral A B C D has point A at five, ten, point B at five, twelve, Point C at six, thirteen, and Point D at nine, thirteen. The pre-image of Quadrilateral L M N O has point L at fourteen, five, point M at twelve, five, point N at eleven, six, and point O at eleven, nine. It it rotated ninety degrees about point O to form the image of Quadrilateral L M N O with a point L at fifteen, twelve, point M at fifteen, ten, point N at fourteen, nine, and point O at eleven, nine. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d7bbee209f294130b9d0657fe38d8c0b2e4d64a0.svg"
+                                        },
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Quadrilateral A B C D has point A at five, ten, point B at five, twelve, Point C at six, thirteen, and Point D at nine, thirteen. The pre-image of Quadrilateral L M N O with a point L at fifteen, twelve, point M at fifteen, ten, point N at fourteen, nine, and point O at eleven, nine. The image of Quadrilateral L M N O with a point L at nine, thirteen, point M at nine, eleven, point N at eight, ten, and point O at five, ten. There is a green line that highlight the shift six units left and one unit up.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/198318a38df9a6ebe1592432b77761c217014bb2.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "In conclusion, neither of the sequences maps $LMNO$ onto $ABCD$.  *Note:* There are many possible combinations of transformations that would map the figure onto the image.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Translation+rotation"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Quadrilaterals $STUV$ and $ABCD$ are congruent. The side length of each square on the grid is $1$ unit.      **Which of the following sequences of transformations maps $STUV$ onto $ABCD$?**  Sequence A | Sequence B :- | :- A translation $7$ units to the left and $2$ units up, then a $180\\degree$ rotation about point $C$. | A $180\\degree$ rotation about point $T$, then a translation $3$ units to the right and $8$ units up.",
+                                "images": [
+                                    {
+                                        "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Quadrilateral A B C D has point A at five, fourteen, point B at eleven, thirteen, Point C at six, ten, and Point D at four, eleven. Quadrilateral S T U V has point S at fourteen, four, point T at eight, five, point U at thirteen, eight, and point V at fifteen, seven.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/433f2abfdf25b62d9ec4916ea7f5c3af3b57e41f.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Only sequence A",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Only sequence B",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Both",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Neither",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's perform each of the sequences and see if they map $STUV$ onto $ABCD$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "In Sequence A we perform a translation $7$ units to the left and $2$ units up...   [[☃ image 2]]  ...then a $180\\degree$ rotation about point $C$.    [[☃ image 1]]  We can see that this sequence *does* map $STUV$ onto $ABCD$.",
+                                    "images": [
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Quadrilateral A B C D has point A at five, fourteen, point B at eleven, thirteen, Point C at six, ten, and Point D at four, eleven. Pre-Image Quadrilateral S T U V has point S at seven, six, point T at one, seven, point U at six, ten, and point V at eight, nine. It is rotated one hundred eighty degrees about point C where the Image Quadrilateral S T U V has point S at five, fourteen, point T at eleven, thirteen, point U at six, ten, and point V at four, eleven.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/0db895df72125f22512af18b7de931f45aa3243d.svg"
+                                        },
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Quadrilateral A B C D has point A at five, fourteen, point B at eleven, thirteen, Point C at six, ten, and Point D at four, eleven. Pre-Image Quadrilateral S T U V has point S at fourteen, four, point T at eight, five, point U at thirteen, eight, and point V at fifteen, seven. The Image Quadrilateral S T U V has point S at seven, six, point T at one, seven, point U at six, ten, and point V at eight, nine. There is a green line that highlight the shift seven units left and two units up.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/ce8d39e693ade8a5955a632e16c6c6dab7e0da7a.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "In Sequence B we perform a $180\\degree$ rotation about point $T$...    [[☃ image 1]]  ...then a translation $3$ units to the right and $8$ unit up.    [[☃ image 2]]  We can see that this sequence *does* map $STUV$ onto $ABCD$.",
+                                    "images": [
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Quadrilateral A B C D has point A at five, fourteen, point B at eleven, thirteen, Point C at six, ten, and Point D at four, eleven. Pre-Image Quadrilateral S T U V has point S at fourteen, four, point T at eight, five, point U at thirteen, eight, and point V at fifteen, seven. It is rotated to form the Image Quadrilateral S T U V has point S at two, six, point T at eight, five, point U at three, two, and point V at one, three. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/75610df658981ad911af2f7b2aef31ac3acf973c.svg"
+                                        },
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Quadrilateral A B C D has point A at five, fourteen, point B at eleven, thirteen, Point C at six, ten, and Point D at four, eleven. Pre-Image Quadrilateral S T U V has point S at two, six, point T at eight, five, point U at three, two, and point V at one, three.  The Image of Quadrilateral A B C D has point A at five, fourteen, point B at eleven, thirteen, Point C at six, ten, and Point D at four, eleven. There is a green line that highlight the shift three units right and eight units up.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/39d8c67068b8c17d103f362d620eafe8dfae2634.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "In conclusion, both sequences map $STUV$ onto $ABCD$.  *Note:* There are many other possible combinations of transformations that would also map the figure onto the image.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Translation+rotation"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Quadrilaterals $EFGH$ and $ABCD$ are congruent.      **Which of the following sequences of transformations maps $EFGH$ onto $ABCD$?**  Sequence A | Sequence B :- | :- A $-90\\degree$ rotation about point $H$, then a translation along the directed line segment $\\overline{HD}$. | A $-90\\degree$ rotation about point $F$, then a translation along the directed line segment $\\overline{FA}$.",
+                                "images": [
+                                    {
+                                        "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Quadrilateral A B C D has point A at fourteen, nine, point B at fourteen, six, Point C at eleven, two, and Point D at eleven, five. Quadrilateral E F G H has point E at two, thirteen, point F at five, thirteen, point G at nine, ten, and point H at six, ten.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/d810ace14cc89eb73222634fc7dcaa63e961753f.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Only sequence A",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Only sequence B",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Both",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Neither",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's perform each of the sequences and see if they map $EFGH$ onto $ABCD$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "In Sequence A we perform a $-90\\degree$ rotation about point $H$ (recall that a rotation by a negative angle is clockwise)...    [[☃ image 1]]  ...then a translation along the directed line segment $\\overline{HD}$.    [[☃ image 2]]  We can see that this sequence *does* map $EFGH$ onto $ABCD$.",
+                                    "images": [
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Quadrilateral A B C D has point A at fourteen, nine, point B at fourteen, six, Point C at eleven, two, and Point D at eleven, five. The Pre-Image Quadrilateral E F G H has point E at two, thirteen, point F at five, thirteen, point G at nine, ten, and point H at six, ten. It is rotated negative ninety degrees about point H to form the Image Quadrilateral E F G H has point E at nine, fourteen, point F at nine, five, point G at six, seven, and point H at six, ten.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/f390480e6e6badc15769eb37ea3fe2e2c60b0d5c.svg"
+                                        },
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Quadrilateral A B C D has point A at fourteen, nine, point B at fourteen, six, Point C at eleven, two, and Point D at eleven, five. The Pre-Image Quadrilateral E F G H has point E at nine, fourteen, point F at nine, five, point G at six, seven, and point H at six, ten. The Image Quadrilateral E F G H has point E at fourteen, nine, point F at fourteen, six, point G at eleven, two, and Point H at eleven, five. There is a green line that highlight the shift five units right and five units down.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/96cf77a4d38ba58f33abcdfab1eedb3befef41b5.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "In Sequence B we perform a a $-90\\degree$ rotation about point $F$...    [[☃ image 1]]  ...then a translation along the directed line segment $\\overline{FA}$.    [[☃ image 2]]  We can see that this sequence does *not* map $EFGH$ onto $ABCD$.",
+                                    "images": [
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Quadrilateral A B C D has point A at fourteen, nine, point B at fourteen, six, Point C at eleven, two, and Point D at eleven, five. The Pre-Image Quadrilateral E F G H has point E at two, thirteen, point F at five, thirteen, point G at nine, ten, and point H at six, ten. It is rotated negative ninety degrees about point F to form the Image Quadrilateral E F G H has point E at five, sixteen, point F at five, thirteen, point G at two, nine, and point H at two, twelve.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/f5a8ca0494f119ac4e5494f555c547fbbddcc462.svg"
+                                        },
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Quadrilateral A B C D has point A at fourteen, nine, point B at fourteen, six, Point C at eleven, two, and Point D at eleven, five. The Pre-Image Quadrilateral E F G H has point E at five, sixteen, point F at five, thirteen, point G at two, nine, and point H at two, twelve. The Image Quadrilateral E F G H has point E at fourteen, twelve, point F at fourteen, nine, point G at eleven, five, and point H at eleven, eight. There is a green line that highlight the shift nine units right and four units down.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/f4f68c8aa7b8cebf7caeebd05660fd8bb436dcdd.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "In conclusion, only sequence A maps $EFGH$ onto $ABCD$.  *Note:* There are many other possible combinations of transformations that would also map the figure onto the image.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Translation+rotation"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Triangles $\\triangle UVW$ and $\\triangle ABC$ are congruent.      **Which of the following sequences of transformations maps $\\triangle UVW$ onto $\\triangle ABC$?**  Sequence A | Sequence B :- | :- A $180\\degree$ rotation about point $V$, then a translation along the directed line segment $\\overline{VB}$. | A translation along the directed line segment $\\overline{UA}$. then a $180\\degree$ rotation about point $A$.",
+                                "images": [
+                                    {
+                                        "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Triangle A B C has point A at five, seven, point B at five, three, and Point C at two, three. Triangle U V W has point U at eleven, eight, point V at eleven, twelve, and point W at fourteen, twelve.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/5ae08676ee91ac0cabfe27b3f42675ebf72319a1.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Only sequence A",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Only sequence B",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Both",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Neither",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's perform each of the sequences and see if they map $\\triangle UVW$ onto $\\triangle ABC$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "In Sequence A we perform a $180\\degree$ rotation about point $V$...    [[☃ image 1]]  ...then a translation along the directed line segment $\\overline{VB}$.    [[☃ image 2]]  We can see that this sequence *does* map $\\triangle UVW$ onto $\\triangle ABC$.",
+                                    "images": [
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Triangle A B C has point A at five, seven, point B at five, three, and Point C at two, three. The pre-image of Triangle U V W has point U at eleven, eight, point V at eleven, twelve, and point W at fourteen, twelve. It is rotated one hundred eighty degrees about point V to form the image of Triangle U V W has point U at eleven, sixteen, point V at eleven, twelve, and point W at eight, twelve.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/0cc7bab12d652b3eaab0a0a50a8dde5cd5a1da0c.svg"
+                                        },
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Triangle A B C has point A at five, seven, point B at five, three, and Point C at two, three. The pre-image of Triangle U V W has point U at eleven, sixteen, point V at eleven, twelve, and point W at eight, twelve. The image of Triangle U V W has point U at five, seven, point V at five, three, and point W at two, three. There is a green line that highlight the shift six units left and nine units down.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/1b5cbcb73ac1aaccb7d53d481a0b6bab1f9efcdf.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "In Sequence B we perform a a translation along the directed line segment $\\overline{UA}$...    [[☃ image 1]]  ...then a $180\\degree$ rotation about point $A$.    [[☃ image 2]]  We can see that this sequence *does* map $\\triangle UVW$ onto $\\triangle ABC$.",
+                                    "images": [
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Triangle A B C has point A at five, seven, point B at five, three, and Point C at two, three. The pre-image of Triangle U V W has point U at eleven, eight, point V at eleven, twelve, and point W at fourteen, twelve. The image of Triangle U V W has point U at five, seven, point V at five, eleven, and point W at eight, eleven.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/e646e69d1143588479899f418088c982e508274f.svg"
+                                        },
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Triangle A B C has point A at five, seven, point B at five, three, and Point C at two, three. The pre-image of Triangle U V W has point U at five, seven, point V at five, eleven, and point W at eight, eleven. It is rotated one hundred eighty degrees to form the image of Triangle U V W has point U at five, seven, point V at five, three, and point W at two, three.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/3cc926d1da4005e845211f6b952184ead161c1f0.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "In conclusion, both sequences map $\\triangle UVW$ onto $\\triangle ABC$.  *Note:* There are many other possible combinations of transformations that would also map the figure onto the image.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Translation+rotation"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Triangles $\\triangle KLM$ and $\\triangle ABC$ are congruent. The side length of each square on the grid is $1$ unit.     **Which of the following sequences of transformations maps $\\triangle KLM$ onto $\\triangle ABC$?**  Sequence A | Sequence B :- | :- A translation $9$ units to the left and $7$ units down, then a reflection over the line with slope $-1$ through point $C$. | A  reflection over the line $\\overleftrightarrow{KL}$, then a translation $3$ units to the left and $1$ unit down.",
+                                "images": [
+                                    {
+                                        "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Triangle A B C has point A at eight, eight, point B at ten, six, and Point C at four, six. Triangle K L M has point K at eleven, nine, point L at thirteen, seven, and point M at thirteen, thirteen. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/4b2a07b5460e8c1968feb939cff2a1aae5094569.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Only sequence A",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Only sequence B",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Both",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Neither",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's perform each of the sequences and see if they map $\\triangle KLM$ onto $\\triangle ABC$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "In Sequence A we perform a translation $9$ units to the left and $7$ units down...    [[☃ image 1]]  ...then a reflection over the line with slope $-1$ through point $C$.    [[☃ image 2]]  We can see that this sequence *does* map $\\triangle KLM$ onto $\\triangle ABC$.",
+                                    "images": [
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Triangle A B C has point A at eight, eight, point B at ten, six, and Point C at four, six. The pre-image of triangle K L M has point K at eleven, nine, point L at thirteen, seven, and point M at thirteen, thirteen. The image of triangle K L M has point K at two, two, point L at four, zero, and point M at four, six. There is a green line that highlight the shift nine units left and seven units down.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/750c0374fa887c53dec462aeaef3b86ab9c77f1c.svg"
+                                        },
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Triangle A B C has point A at eight, eight, point B at ten, six, and Point C at four, six. The pre-image of triangle K L M has point K at two, two, point L at four, zero, and point M at four, six. It is reflected across a line that slants down with a slope of negative one and passes through point C. It forms the image of triangle K L M has point K at eight, eight, point L at ten, six, and point M at four, six.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/5e57d5f573f409c1c9c7eb5550cd5adce2bd7f5c.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "In Sequence B we perform a reflection over the line $\\overleftrightarrow{KL}$...    [[☃ image 1]]  ...then a translation $3$ units to the left and $1$ unit down.    [[☃ image 2]]  We can see that this sequence *does* map $\\triangle KLM$ onto $\\triangle ABC$.",
+                                    "images": [
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Triangle A B C has point A at eight, eight, point B at ten, six, and Point C at four, six. The pre-image of triangle K L M has point K at eleven, nine, point L at thirteen, seven, and point M at thirteen, thirteen. It is reflected across a line that slants down with a slope of negative one passing through points K and L. The image of triangle K L M has point  K at eleven, nine, point L at thirteen, seven, and point M at seven, seven.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/70db932b9dd21f793da945af82ca0bff46985442.svg"
+                                        },
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Triangle A B C has point A at eight, eight, point B at ten, six, and Point C at four, six. The pre-image of triangle K L M has point  K at eleven, nine, point L at thirteen, seven, and point M at seven, seven. The image of triangle K L M has point  K at eight, eight, point L at ten, six, and point M at four, six. There is a green line that highlight the shift three units left and one unit down.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/74e4f660182f563964d9018384d0bd21f63e357c.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "In conclusion, both sequences map $\\triangle KLM$ onto $\\triangle ABC$.  *Note:* There are many other possible combinations of transformations that would also map the figure onto the image.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Translation+reflection"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Triangles $\\triangle PQR$ and $\\triangle ABC$ are congruent. The side length of each square on the grid is $1$ unit.      **Which of the following sequences of transformations maps $\\triangle PQR$ onto $\\triangle ABC$?**  Sequence A | Sequence B :- | :- A $180\\degree$ rotation about point $R$, then a translation $2$ units to the right and $6$ units up. | A translation $4$ units to the right and $6$ units up, then a reflection over the horizontal line through point $A$.",
+                                "images": [
+                                    {
+                                        "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Triangle A B C has point A at nine, fourteen, point B at twelve, ten, and Point C at eight, ten. Triangle P Q R has point P at five, eight, point Q at two, four, and point R at six, four. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/860edf4914f551ae7ba1441c2442fec133262b8b.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Only sequence A",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Only sequence B",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Both",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Neither",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's perform each of the sequences and see if they map $\\triangle PQR$ onto $\\triangle ABC$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "In Sequence A we perform a $180\\degree$ rotation about point $R$...    [[☃ image 1]]  ...then a translation $2$ units to the right and $6$ units up.    [[☃ image 2]]  We can see that this sequence does *not* map $\\triangle PQR$ onto $\\triangle ABC$.",
+                                    "images": [
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Triangle A B C has point A at nine, fourteen, point B at twelve, ten, and Point C at eight, ten. The pre-image of triangle P Q R has point P at five, eight, point Q at two, four, and point R at six, four. It is rotated one hundred eighty degrees about point R to form the image of triangle P Q R has point P at ten, four, point Q at seven, zero, and point R at six, four.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/f93c8e7875637e001dd944d7bea6f664721fe3d1.svg"
+                                        },
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Triangle A B C has point A at nine, fourteen, point B at twelve, ten, and Point C at eight, ten. The pre-image of triangle P Q R has point P at ten, four, point Q at seven, zero, and point R at six, four. The image of triangle P Q R has point P at twelve, ten, point Q at nine, six, and point R at eight, ten. There is a green line that highlight the shift two units right and six units up.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/a8f8b3df6f60edfd907c158448a8eaa190851533.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "In Sequence B we perform a translation $4$ units to the right and $6$ units up...    [[☃ image 1]]  ...then a reflection over the horizontal line through point $A$.    [[☃ image 2]]  We can see that this sequence does *not* map $\\triangle PQR$ onto $\\triangle ABC$.",
+                                    "images": [
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Triangle A B C has point A at nine, fourteen, point B at twelve, ten, and Point C at eight, ten. The pre-image of triangle P Q R has point P at five, eight, point Q at two, four, and point R at six, four. The image of triangle P Q R has point P at nine, fourteen, point Q at six, ten, and point R at ten, ten. There is a green line that highlight the shift four units right and six units up.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/ec9ffe118ec46045527c69616652442aac1ff67a.svg"
+                                        },
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Triangle A B C has point A at nine, fourteen, point B at twelve, ten, and Point C at eight, ten. The pre-image of triangle P Q R has point P at nine, fourteen, point Q at six, ten, and point R at ten, ten. It is reflected over a horizontal line that passes through point A making a triangle P Q R that is above triangle A B C instead of mapping onto it.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/1a66cd228e7339ce8aaa4d42fd0247c99f197c94.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "In conclusion, neither of the sequences maps $\\triangle PQR$ onto $\\triangle ABC$.  *Note:* There are many possible combinations of transformations that would map the figure onto the image.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Translation+reflection"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Triangles $\\triangle MNO$ and $\\triangle ABC$ are congruent.      **Which of the following sequences of transformations maps $\\triangle MNO$ onto $\\triangle ABC$?**  Sequence A | Sequence B :- | :- A translation along the directed line segment $\\overline{NB}$, then a reflection over the vertical line through point $B$. | A reflection over the vertical line $\\overleftrightarrow{MO}$, then a translation along the directed line segment $\\overline{MB}$.",
+                                "images": [
+                                    {
+                                        "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Triangle A B C has point A at two, fourteen, point B at five, fourteen, and Point C at two, ten. Triangle M N O has point M at thirteen, nine, point N at ten, nine, and point O at thirteen, five. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/f90d81658b9cd49a560ff722b6be4d9c558cfa39.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Only sequence A",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Only sequence B",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Both",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Neither",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's perform each of the sequences and see if they map $\\triangle MNO$ onto $\\triangle ABC$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "In Sequence A we perform a translation along the directed line segment $\\overline{NB}$...    [[☃ image 1]]  ...then a reflection over the vertical line through point $B$.   [[☃ image 2]]  We can see that this sequence *does* map $\\triangle MNO$ onto $\\triangle ABC$.",
+                                    "images": [
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Triangle A B C has point A at two, fourteen, point B at five, fourteen, and Point C at two, ten. The pre-image of triangle M N O has point M at thirteen, nine, point N at ten, nine, and point O at thirteen, five. The image of triangle M N O has point M at eight, fourteen, point N at five, fourteen, and point O at eight, ten. There is a green line that highlight the shift five units left and five units up.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/ca87cd3622187c1def18e30a90fa8da1d66b064b.svg"
+                                        },
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Triangle A B C has point A at two, fourteen, point B at five, fourteen, and Point C at two, ten. The pre-image of triangle M N O has point M at eight, fourteen, point N at five, fourteen, and point O at eight, ten. It is reflected across the vertical line passing through point B. The image of triangle M N O has point M at two, fourteen, point N at five, fourteen, and point O at two, ten. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/7aa4780b06e039aa77cdbda60ad2936de244e8c9.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "In Sequence B we perform a reflection over the vertical line $\\overleftrightarrow{MO}$...    [[☃ image 1]]  ...then a translation along the directed line segment $\\overline{MB}$.    [[☃ image 2]]  We can see that this sequence does *not* map $\\triangle MNO$ onto $\\triangle ABC$.",
+                                    "images": [
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Triangle A B C has point A at two, fourteen, point B at five, fourteen, and Point C at two, ten. The pre-image of triangle M N O has point M at thirteen, nine, point N at ten, nine, and point O at thirteen, five. It is reflected over a vertical line passing through points M and O. The image of triangle M N O has point M at eight, fourteen, point N at sixteen, nine, and point O at eight, ten.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/58d79792f9200feb5288a0ec1434c4f47a1ff542.svg"
+                                        },
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Triangle A B C has point A at two, fourteen, point B at five, fourteen, and Point C at two, ten. The pre-image of triangle M N O has point M at thirteen, nine, point N at ten, nine, and point O at thirteen, five. The image of triangle M N O has point M at five, fourteen, point N at sixteen, nine, and point O at eight, fourteen. There is a green line that highlight the shift eight units left and five units up.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/f17fac6b6bc2a3627a3fa6e6ea0caab17ba5ad6e.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "In conclusion, only sequence A maps $\\triangle MNO$ onto $\\triangle ABC$.  *Note:* There are many other possible combinations of transformations that would also map the figure onto the image.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Translation+reflection"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Quadrilaterals $HIJK$ and $ABCD$ are congruent. The side length of each square on the grid is $1$ unit.      **Which of the following sequences of transformations maps $HIJK$ onto $ABCD$?**  Sequence A | Sequence B :- | :- A $270\\degree$ rotation about point $J$, then a translation $9$ units to the right and $8$ units down. | A reflection over the line $\\overleftrightarrow{HI}$, then a translation $6$ units to the right and $3$ units down.",
+                                "images": [
+                                    {
+                                        "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Quadrilateral A B C D has point A at nine, four, point B at eleven, six, Point C at fourteen, six, and Point D at fourteen, four. Quadrilateral H I J K has point H at three, seven, point I at five, nine, point J at five, twelve, and point K at three, twelve.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/b85258131f18e63249c9c2e204c4844333a7ffe8.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Only sequence A",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Only sequence B",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Both",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Neither",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's perform each of the sequences and see if they map $HIJK$ onto $ABCD$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "In Sequence A we perform a $270\\degree$ rotation about point $J$ (recall that a rotation by a positive angle is counterclockwise)...    [[☃ image 1]]  ...then a translation $9$ units to the right and $8$ units down.    [[☃ image 2]]  We can see that this sequence does *not* map $HIJK$ onto $ABCD$.",
+                                    "images": [
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Quadrilateral A B C D has point A at nine, four, point B at eleven, six, Point C at fourteen, six, and Point D at fourteen, four. The pre-image of Quadrilateral H I J K has point H at three, seven, point I at five, nine, point J at five, twelve, and point K at three, twelve. It is rotated two hundred seventy degrees about point J to form the image of Quadrilateral H I J K has point H at zero, fourteen, point I at two, twelve, point J at five, twelve, and point K at five, fourteen.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/1d908cae2235960c7ad142b30be7dddab6019f48.svg"
+                                        },
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Quadrilateral A B C D has point A at nine, four, point B at eleven, six, Point C at fourteen, six, and Point D at fourteen, four. The pre-image of Quadrilateral H I J K has point H at zero, fourteen, point I at two, twelve, point J at five, twelve, and point K at five, fourteen. The image of Quadrilateral H I J K has point H at nine, six, point I at eleven, four, point J at fourteen, four, and point K at fourteen, six. There is a green line that highlight the shift nine units right and eight units down.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/4e470ea3258c53b9901c98c231a3e8f04bca49bd.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "In Sequence B we perform a reflection over the line $\\overleftrightarrow{HI}$...    [[☃ image 1]]  ...then a translation $6$ units to the right and $3$ units down.    [[☃ image 2]]  We can see that this sequence *does* map $HIJK$ onto $ABCD$.",
+                                    "images": [
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Quadrilateral A B C D has point A at nine, four, point B at eleven, six, Point C at fourteen, six, and Point D at fourteen, four. The pre-image of Quadrilateral H I J K has point H at three, seven, point I at five, nine, point J at five, twelve, and point K at three, twelve. It is reflected over the line H I to create the image of Quadrilateral H I J K has point H at three, seven, point I at five, nine, point J at eight, nine, and point K at eight, seven.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/f7dd5a985adf679cf75f08dc5dc04aef1c9b9310.svg"
+                                        },
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Quadrilateral A B C D has point A at nine, four, point B at eleven, six, Point C at fourteen, six, and Point D at fourteen, four. The pre-image of Quadrilateral H I J K has point H at three, seven, point I at five, nine, point J at eight, nine, and point K at eight, seven. The image of Quadrilateral H I J K has point H at nine, four, point I at eleven, six, point J at fourteen, six, and point K at fourteen, four.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/7ae10181e4c65b29606eca3ed3552b133a8ebd0d.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "In conclusion, only sequence B maps $HIJK$ onto $ABCD$.  *Note:* There are many other possible combinations of transformations that would also map the figure onto the image.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Translation+reflection"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Quadrilaterals $ABCD$ and $WXYZ$ are congruent.      **Which of the following sequences of transformations maps $WXYZ$ onto $ABCD$?**  Sequence A | Sequence B :- | :- A reflection over the vertical line $\\overleftrightarrow{WX}$, then a $180\\degree$ rotation about point $W$, and then a translation along the directed line segment $\\overline{WA}$. | A translation over the directed line segment $\\overline{WA}$, then a reflection over the horizontal line through point $A$.",
+                                "images": [
+                                    {
+                                        "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Quadrilateral A B C D has point A at fourteen, eight, point B at fourteen, eleven, Point C at twelve, thirteen, and Point D at ten, thirteen. Quadrilateral W X Y Z has point W at eight, nine, point X at eight, six, point Y at six, four, and point Z at four, four.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/6b69f563b39cf3c05fb733d80760eab05a909498.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Only sequence A",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Only sequence B",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Both",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Neither",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's perform each of the sequences and see if they map $WXYZ$ onto $ABCD$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "In Sequence A we perform a reflection over the vertical line $\\overleftrightarrow{WX}$...    [[☃ image 1]]  ...then a $180\\degree$ rotation about point $W$...    [[☃ image 2]]  ...then a translation along the directed line segment $\\overline{WA}$.    [[☃ image 3]]  We can see that this sequence *does* map $WXYZ$ onto $ABCD$.",
+                                    "images": [
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Quadrilateral A B C D has point A at fourteen, eight, point B at fourteen, eleven, Point C at twelve, thirteen, and Point D at ten, thirteen. The pre-image Quadrilateral W X Y Z has point W at eight, nine, point X at eight, six, point Y at six, four, and point Z at four, four is reflected over line W X to make the image Quadrilateral W X Y Z has point W at eight, nine, point X at eight, six, point Y at ten, four, and point Z at twelve, four.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/208c0ecd008e010121b2acabbc7a9feae25a5862.svg"
+                                        },
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Quadrilateral A B C D has point A at fourteen, eight, point B at fourteen, eleven, Point C at twelve, thirteen, and Point D at ten, thirteen. The pre-image Quadrilateral W X Y Z has point W at eight, nine, point X at eight, six, point Y at ten, four, and point Z at twelve, four. It is rotated one hundred eighty degrees about point W to make the image Quadrilateral W X Y Z with point W at eight, nine, point X at eight, twelve, point Y at six, fourteen, and point Z at four, fourteen.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/60dfd7f021693101fb7d0111818476b90e7b2490.svg"
+                                        },
+                                        {
+                                            "alt": "\"The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Quadrilateral A B C D has point A at fourteen, eight, point B at fourteen, eleven, Point C at twelve, thirteen, and Point D at ten, thirteen. The pre-image Quadrilateral W X Y Z with point W at eight, nine, point X at eight, twelve, point Y at six, fourteen, and point Z at four, fourteen. The image Quadrilateral W X Y Z with point W at fourteen, eight, point X at fourteen, eleven, point Y at twelve, thirteen, and point Z at ten, thirteen. There is a green line that highlight the shift six units right and one unit down.\n\"",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/98942fc2b19ff6b5d5df044a223cd58aeb3d6bea.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "In Sequence B we perform a translation over the directed line segment $\\overline{WA}$...    [[☃ image 1]]  ...then a reflection over the horizontal line through point $A$.    [[☃ image 2]]  We can see that this sequence *does* map $WXYZ$ onto $ABCD$.",
+                                    "images": [
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Quadrilateral A B C D has point A at fourteen, eight, point B at fourteen, eleven, Point C at twelve, thirteen, and Point D at ten, thirteen. The pre-image Quadrilateral W X Y Z has point W at eight, nine, point X at eight, six, point Y at six, four, and point Z at four, four. The image Quadrilateral W X Y Z has point W at fourteen, eight, point X at fourteen, five, point Y at twelve, three, and point Z at ten, three. There is a green line that highlight the shift six units right and one unit down.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/39b16c59026182e0a73e02594fd0ccfee4c0d850.svg"
+                                        },
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Quadrilateral A B C D has point A at fourteen, eight, point B at fourteen, eleven, Point C at twelve, thirteen, and Point D at ten, thirteen. The pre-image Quadrilateral W X Y Z has point W at fourteen, eight, point X at fourteen, five, point Y at twelve, three, and point Z at ten, three. It is reflected across a horizontal line that passes through point A. The image Quadrilateral W X Y Z has point W at fourteen, eight, point X at fourteen, eleven, point Y at twelve, thirteen, and point Z at ten, thirteen.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/41c2e17b0bec9b069a1385dc1129896dd991eb3f.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "In conclusion, both sequences map $WXYZ$ onto $ABCD$.  *Note:* There are many other possible combinations of transformations that would also map the figure onto the image.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Translation+reflection"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Quadrilaterals $ABCD$ and $KLMN$ are congruent.      **Which of the following sequences of transformations maps $KLMN$ onto $ABCD$?**  Sequence A | Sequence B :- | :- A translation along the directed line segment $\\overline{MA}$, then a reflection over the horizontal line through point $A$. | A reflection over the vertical line through point $N$, then a translation along the directed line segment $\\overline{NB}$.",
+                                "images": [
+                                    {
+                                        "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Quadrilateral A B C D has point A at four, nine, point B at seven, seven, Point C at four, three, and Point D at two, seven. Quadrilateral K L M N has point K at nine, thirteen, point L at six, eleven, point M at nine, seven, and point N at eleven, eleven.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/9c6def1e64ec13595c850f7bd3fca4e0863a6dbd.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Only sequence A",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Only sequence B",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Both",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Neither",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's perform each of the sequences and see if they map $KLMN$ onto $ABCD$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "In Sequence A we perform a translation along the directed line segment $\\overline{MA}$...    [[☃ image 1]]  ...then a reflection over the horizontal line through point $A$.    [[☃ image 2]]  We can see that this sequence does *not* map $KLMN$ onto $ABCD$.",
+                                    "images": [
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Quadrilateral A B C D has point A at four, nine, point B at seven, seven, Point C at four, three, and Point D at two, seven. The pre-image Quadrilateral K L M N has point K at nine, thirteen, point L at six, eleven, point M at nine, seven, and point N at eleven, eleven. The image Quadrilateral K L M N has point K at four, fifteen, point L at one, thirteen, point M at four, nine, and point N at six, thirteen. There is a green line that highlight the shift four units left and two units up.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/674999ad948756ce9a14b84e6b0e905e1c4d5234.svg"
+                                        },
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Quadrilateral A B C D has point A at four, nine, point B at seven, seven, Point C at four, three, and Point D at two, seven. The pre-image Quadrilateral K L M N has point K at four, fifteen, point L at one, thirteen, point M at four, nine, and point N at six, thirteen. It is reflected across a horizontal line passing through point A. The image Quadrilateral K L M N has point K at four, three, point L at one, five, point M at four, nine, and point N at six, five.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/458a66395c3086957a0efa71784e57ee078e848b.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "In Sequence B we perform a reflection over the vertical line through point $N$...    [[☃ image 1]]  ...then a translation along the directed line segment $\\overline{NB}$.    [[☃ image 2]]  We can see that this sequence does *not* map $KLMN$ onto $ABCD$.",
+                                    "images": [
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Quadrilateral A B C D has point A at four, nine, point B at seven, seven, Point C at four, three, and Point D at two, seven. The pre-image Quadrilateral K L M N has point K at nine, thirteen, point L at six, eleven, point M at nine, seven, and point N at eleven, eleven. It is reflected across a vertical line passing through point N. The image Quadrilateral K L M N has point K at thirteen, thirteen, point L at sixteen, eleven, point M at thirteen, seven, and point N at six, thirteen.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/3fafc76498c7abc6fdc3737787fb5ad6f1d659e6.svg"
+                                        },
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Quadrilateral A B C D has point A at four, nine, point B at seven, seven, Point C at four, three, and Point D at two, seven. The pre-image Quadrilateral K L M N has point K at thirteen, thirteen, point L at sixteen, eleven, point M at thirteen, seven, and point N at six, thirteen. The image Quadrilateral K L M N has point K at nine, nine, point L at twelve, seven, point M at nine, three, and point N at seven, seven. There is a green line that highlight the shift four units left and four units down.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/84711aa692142d72c8e528212923e8c719ad6d0b.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "In conclusion, neither of the sequences maps $KLMN$ onto $ABCD$.  *Note:* There are many possible combinations of transformations that would map the figure onto the image.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Translation+reflection"
+                    }
+                }
+            }
+        }
+    ]
+}

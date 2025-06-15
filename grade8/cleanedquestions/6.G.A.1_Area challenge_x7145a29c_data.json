@@ -1,0 +1,836 @@
+{
+    "standard_metadata": {
+        "standard_id": "6.G.A.1",
+        "standard_description": "Find the area of right triangles, other triangles, special quadrilaterals, and polygons by composing into rectangles or decomposing into triangles and other shapes; apply these techniques in the context of solving real-world and mathematical problems.",
+        "standard_title": "Area challenge",
+        "standard_url": "https://www.khanacademy.org/math/geometry-home/geometry-area-perimeter/geometry-area-trap-composite/e/composing-and-decomposing-shapes"
+    },
+    "id": "x7145a29c",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Brooke is paving the parallelogram-shaped parking spot shown below. It costs $\\$40$ to pave each square meter.  **Find the cost to pave the parking spot.**    $\\$$",
+                                "images": [
+                                    {
+                                        "alt": "",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/d43bd4bafc503c64e47fb22fb1bc16ccbe0a5da7.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "800",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The parking space is a parallelogram because it has $4$ sides and opposite sides parallel.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{Area of a parallelogram} &=  \\text{base} \\cdot \\text{height} \\\\\\\\ &= 3 \\cdot 6 \\dfrac23 \\\\\\\\ &= 3 \\cdot \\dfrac{20}{3} \\\\\\\\ &= \\blueD{20} \\\\\\\\ \\end{align}$  The area of the parking space is $\\blueD{20} \\text{ m}^2$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{Cost to pave} &= \\blueD{\\text{m}^2\\,\\text{of parking space}} \\cdot \\text{cost to pave each m}^2 \\\\\\\\ &= \\blueD{20} \\cdot 40 \\\\\\\\ &= 800 \\\\\\\\ \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The cost to pave the parking spot is $\\$800$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Find area, then apply"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Jerry is paving the parallelogram-shaped parking spot shown below. It costs $\\$50$ to pave each square meter.  **Find the cost to pave the parking spot.**    $\\$$",
+                                "images": [
+                                    {
+                                        "alt": "",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/b949ef12c028b6d26c9b3c7a7eb349287c33adec.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "1250",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The parking space is a parallelogram because it has $4$ sides and opposite sides parallel.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{Area of a parallelogram} &=  \\text{base} \\cdot \\text{height} \\\\\\\\ &= 4 \\cdot 6 \\dfrac14 \\\\\\\\ &= 4 \\cdot \\dfrac{25}{4} \\\\\\\\ &= \\blueD{25} \\\\\\\\ \\end{align}$  The area of the parking space is $\\blueD{25} \\text{ m}^2$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{Cost to pave} &= \\blueD{\\text{m}^2\\,\\text{of parking space}} \\cdot \\text{cost to pave each m}^2 \\\\\\\\ &= \\blueD{25} \\cdot 50 \\\\\\\\ &= 1250 \\\\\\\\ \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The cost to pave the parking spot is $\\$1250$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Find area, then apply"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Tom is buying topsoil for the flower bed shown below. One bag of topsoil covers $15$ square meters.   **How many bags of topsoil does Tom need to cover his flower bed?**",
+                                "images": [
+                                    {
+                                        "alt": "",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/7272e1d7f3f22eaea8f571a8280f8e8b00b18f17.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$2$ bags",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$3$ bags",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$4$ bags",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$5$ bags",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The flower bed is a triangle because it has three straight sides.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{Area of a triangle} &=  \\dfrac{1}{2} \\cdot \\text{base} \\cdot \\text{height} \\\\\\\\ &= \\dfrac12 \\cdot 12 \\cdot 5  \\\\\\\\ &= \\blueD{30} \\\\\\\\ \\end{align}$  The flower bed has an area of $\\blueD{30} \\text{ m}^2$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{Bags of topsoil} &= \\dfrac{\\text{Total area of flower bed}}{\\text{Area one bag of topsoil covers}}  \\\\\\\\ &= \\dfrac{\\blueD{30}}{15} \\\\\\\\ &= 2 \\\\\\\\ \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Tom needs $2$ bags of topsoil to cover his flower bed.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Find area, then apply"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Betsy is buying topsoil for the flower bed shown below. One bag of topsoil covers $20$ square meters.   **How many bags of topsoil does Betsy need to cover her flower bed?**",
+                                "images": [
+                                    {
+                                        "alt": "",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/836f2cd39e089cc47b781e907435a09b45e6de9f.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$2$ bags",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$3$ bags",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$4$ bags",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$5$ bags",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The flower bed is a triangle because it has three straight sides.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{Area of a triangle} &=  \\dfrac{1}{2} \\cdot \\text{base} \\cdot \\text{height} \\\\\\\\ &= \\dfrac12 \\cdot 20 \\cdot 6  \\\\\\\\ &= \\blueD{60} \\\\\\\\ \\end{align}$  The flower bed has an area of $\\blueD{60} \\text{ m}^2$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{Bags of topsoil} &= \\dfrac{\\text{Total area of flower bed}}{\\text{Area one bag of topsoil covers}}  \\\\\\\\ &= \\dfrac{\\blueD{60}}{20} \\\\\\\\ &= 3 \\\\\\\\ \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Betsy needs $3$ bags of topsoil to cover her flower bed.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Find area, then apply"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Marc's brownie pan, shown below, has a pair of parallel sides. Each day, Marc's family is going to eat $100$ square centimeters of brownie from the pan.    **For how many days does Marc's family have brownies before they run out?**",
+                                "images": [
+                                    {
+                                        "alt": "",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/8180d3223d5d1ee08ddb49a5eb142a397173e0eb.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$6$ days",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$7$ days",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$8$ days",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$9$ days",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Strategy  Since $2$ sides of the pan are parallel, we can split the area into $2$ triangles, each with a height of $20\\,\\text{cm}$.  [[☃ image 1]]  Once we find the total area of the brownies, we can divide by the number of square centimeters the family eats each day to find the number of days the brownies last.",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/06d27f72075cb4e76261a0db78ace47fd4974b0d.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "###Area of top triangle  $\\begin{align} \\redE{\\text{Area}_{\\text{triangle}}} &= \\redE{\\dfrac{1}{2} \\cdot \\text{base} \\cdot \\text{height}}\\\\\\\\ &= \\redE{\\dfrac{1}{2} \\cdot 29 \\cdot 20}\\\\\\\\ &=\\redE{290} \\end{align}$  ###Area of bottom triangle  $\\begin{align} \\blueE{\\text{Area}_{\\text{triangle}}} &= \\blueE{\\dfrac{1}{2} \\cdot \\text{base} \\cdot \\text{height}}\\\\\\\\ &= \\blueE{\\dfrac{1}{2} \\cdot 41 \\cdot 20}\\\\\\\\ &=\\blueE{410} \\end{align}$  ###Total area  $\\redE{290\\,\\text{cm}^2} + \\blueE{410\\,\\text{cm}^2} = \\purpleD{700\\,\\text{cm}^2}$  Marc has $\\purpleD{700} \\text{ cm}^2$ of brownies.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Days brownies will last  $\\begin{align} \\text{Days brownies last} &= \\dfrac{\\text{Total area of brownies}}{\\text{Area family eats each day}}  \\\\\\\\ &= \\dfrac{\\purpleD{700}}{100} \\\\\\\\ &= 7 \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Marc's family has brownies for $7$ days before they run out.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Find area, then apply"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Ben baked brownies in the brownie pan shown below. Each day, he is going to eat $30$ square centimeters of brownie from the pan.  **For how many days does Ben have brownies before they run out?**",
+                                "images": [
+                                    {
+                                        "alt": "",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/d09562f5ac523a8589153358bee4de622cdc3626.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$30$ days",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$35$ days",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$41$ days",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$1200$ days",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\begin{align} \\text{Area of a trapezoid} &=  \\dfrac{\\text{base}_1 + \\text{base}_2}{2}  \\cdot \\text{height} \\\\\\\\ &= \\dfrac{30+ 42}{2} \\cdot 25  \\\\\\\\ &= \\dfrac{72}{2} \\cdot 25 \\\\\\\\ &= 36 \\cdot 25 \\\\\\\\ &= \\blueD{900} \\\\\\\\ \\end{align}$  Ben has $\\blueD{900} \\text{ cm}^2$ of brownies.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{Days brownies last} &= \\dfrac{\\text{Total area of brownies}}{\\text{Area Ben eats each day}}  \\\\\\\\ &= \\dfrac{\\blueD{900}}{30} \\\\\\\\ &= 30 \\\\\\\\ \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Ben has brownies for $30$ days before they run out.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. Find area, then apply"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Liza and Abby plan to spread out rectangular blankets at a park for a picnic with some friends. The park is crowded, so they end up  overlapping the blankets as is shown in the diagram.        **Find the total area that Liza and Abby have for their picnic.**     $\\text{ft}^2$",
+                                "images": [
+                                    {
+                                        "alt": "",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/dea9bf04c55061dc067ffe76636a824535cc9653.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "44.5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can find the total area that Abby and Liza have for their picnic by adding the areas of the blankets and subtracting the overlapping triangle.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{Area of the } \\blueD{\\text{vertical blanket}} &=  \\text{length} \\cdot \\text{width} \\\\\\\\ &= 4 \\cdot 6 \\\\\\\\ &= \\blueD{24 \\text{ ft}^2}\\\\\\\\ \\end{align}$",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/71500b789a50ea9f282a1ddb8a5edcb90c28633d.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{Area of the } \\maroonD{\\text{diagonal blanket}} &=  \\text{length} \\cdot \\text{width} \\\\\\\\ &= 5 \\cdot 5.7 \\\\\\\\ &= \\maroonD{28.5 \\text{ ft}^2}\\\\\\\\ \\end{align}$",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/ed7f98bf8cc4292475c95f17acdef8ee995329cd.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The height of the triangle is $4\\,\\text{ft}$ because $6-2=4$.  $\\begin{align} \\text{Area of the } \\purpleD{\\text{overlapping triangle}} &= \\dfrac12 \\cdot \\text{base} \\cdot \\text{height} \\\\\\\\ &= \\dfrac12 \\cdot 4 \\cdot 4 \\\\\\\\ &= \\purpleD{8 \\text{ ft}^2}\\\\\\\\ \\end{align}$",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/d2b5731fdcf566518494f658df6f9bef07db3d17.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Now we can combine the total area of the two blankets and subtract the overlapping amount from the total.  $\\blueD{24} + \\maroonD{28.5} - \\purpleD8 = 44.5  \\text{ ft}^2$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Liza and Abby have a total area of  $44.5 \\text{ ft}^2$ for their picnic.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Find area"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Shari's class is making team pennants for an upcoming field day. They cut the pennants out of a large sheet of paper in the pattern shown below.   The area of the whole pattern is $1600 \\text{ cm}^2$. They need to know the length of the pennant base.      **How long is the base of each pennant?**     $\\text{cm}$",
+                                "images": [
+                                    {
+                                        "alt": "",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/37fb65f32115976c66a83b289c8e5591c3c60b31.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "10",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The area of the $4$ pennants shown is $1600 \\text{ cm}^2$. To find the area of each pennant we can divide.  $\\dfrac{1600}{4} = \\blueD{400\\text { cm}^2}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Now we know the area and height of each triangle, so we can use those measurements to find the length of the base.  $\\begin{align} \\text{Area of a triangle} &= \\dfrac12 \\cdot \\text{base} \\cdot \\text{height} \\\\\\\\ \\blueD{400}&= \\dfrac12 \\cdot b \\cdot 80 \\\\\\\\ \\blueD{400} &= 40 \\cdot b\\\\\\\\ 10 & = b\\\\\\\\ \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The base of each pennant is $10 \\text { cm}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Find area"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Rex has a square deck that is $9 \\text{ feet}$ long on each side.  He decides to add triangular benches in each corner  as is shown in the diagram.     **What is the area of the deck that is not covered by benches?**     $\\text{ft}^2$",
+                                "images": [
+                                    {
+                                        "alt": "",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/2e859f155727e01188c942b57defec7dff5f40af.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "63",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\begin{align} \\text{Area of the whole deck} &=  \\text{side} \\cdot \\text{side} \\\\\\\\ &= 9 \\cdot 9 \\\\\\\\ &= \\blueD{81 \\text{ ft}^2}\\\\\\\\ \\end{align}$",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/1776e79e0b2cc0bf22665ed3f5ebcf492e9f9c61.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{Area of each } \\redD{\\text{triangular bench}} &= \\dfrac12 \\cdot \\text{base} \\cdot \\text{height} \\\\\\\\ &= \\dfrac12 \\cdot 3 \\cdot 3 \\\\\\\\ &= \\redD{4.5 \\text{ ft}^2}\\\\\\\\ \\end{align}$",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/24f407af344afd8bb9a700eeddbeaf12d7124157.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "To find the area of all $4$ benches, we can multiply.  $4 \\cdot \\redD{4.5} = \\redD{18 \\text{ ft}^2}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Now we can subtract to find the area of the deck that is not covered by benches.  $\\blueD{81}  - \\redD{18} = 63  \\text{ ft}^2$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the deck that is not covered by benches is   $63 \\text{ ft}^2$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Find area"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Olivia is cutting a $1 \\dfrac12 \\text{ m}$ by $\\dfrac34\\text{ m}$ piece of rectangular paper into two pieces along its diagonal.    **Find the area of  each of the pieces.**       $\\text{m}^2$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.5625",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's draw a diagram of the piece of paper.",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/47688d4c88ddd9e4fd2cff72902c6a3d24026eae.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Each of the pieces is a triangle with the same base and height.       $\\begin{align} \\text{Area of a triangle} &=  \\dfrac{1}{2} \\cdot \\text{base} \\cdot \\text{height} \\\\\\\\  &= \\dfrac12 \\cdot 1 \\dfrac12 \\cdot \\dfrac34  \\\\\\\\ &= \\dfrac12 \\cdot \\dfrac32 \\cdot \\dfrac34  \\\\\\\\ &= \\dfrac{1\\cdot 3 \\cdot 3}{2 \\cdot 2 \\cdot 4}  \\\\\\\\ &= {\\dfrac{9}{16}} \\\\\\\\ \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of each of the pieces is $\\dfrac9{16}\\text{ m}^2$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Find area"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Jordan is cutting a $2 \\text{ m}$ by $1\\dfrac14\\text{ m}$ piece of rectangular paper into two pieces along its diagonal.    **Find the area of  each of the pieces.**       $\\text{m}^2$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "1.25",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's draw a diagram of the piece of paper.",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/f6281799c9b5d779305f46d417d9a444298cc0f6.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "Each of the pieces is a triangle with the same base and height.       $\\begin{align} \\text{Area of a triangle} &=  \\dfrac{1}{2} \\cdot \\text{base} \\cdot \\text{height} \\\\\\\\  &= \\dfrac12 \\cdot 2 \\cdot 1\\dfrac14  \\\\\\\\ &= \\dfrac12 \\cdot \\dfrac21 \\cdot \\dfrac54  \\\\\\\\ &= \\dfrac{1\\cdot 2 \\cdot 5}{2 \\cdot 1 \\cdot 4}  \\\\\\\\ &= {\\dfrac{10}{8}} \\\\\\\\ &= {\\dfrac{5}{4}} \\\\\\\\ \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of each of the pieces is $\\dfrac5{4}\\text{ m}^2$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. Find area"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Manesh is putting new tile on a kitchen counter.  Each sheet of tile will cover $1.5 \\text { ft}^2$. Manesh can use partial sheets.    **What is the least number of sheets of tile that Manesh will need to cover the whole counter?**     sheets",
+                                "images": [
+                                    {
+                                        "alt": "",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/f0d701354242a9a5f1a2505ae7ce5a0ca0164ab4.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "12",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can start by dividing the counter into $2$ rectangles.   [[☃ image 1]]  Once we find the area of the counter, we can divide by the area per sheet to find the number of sheets of tile needed.",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/57b14cfc4944ff6aeb17d39386655d1d6ccfceed.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{Area of the }\\text{\\greenD{top rectangle}} &=  \\text{length} \\cdot \\text{width} \\\\\\\\ &= 2 \\cdot 4 \\\\\\\\ &= \\greenD{8 \\text{ ft}^2}\\\\\\\\ \\end{align}$",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/56e6a9113818e2259eaa45492f6afeeb0b74d95a.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{Area of the }\\text{\\blueD{bottom rectangle} }&=  \\text{length} \\cdot \\text{width} \\\\\\\\ &= 2 \\cdot 5 \\\\\\\\ &= \\blueD{10 \\text{ ft}^2}\\\\\\\\ \\end{align}$",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/ed59461762d5018f217874e5a591ced9d6c2c1ab.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We can find the total area of the counter by adding.  $\\greenD8 +\\blueD{10} = 18\\text{ ft}^2$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Each sheet covers $1.5\\text{ ft}^2$. To find the total number of sheets needed to cover the whole counter, we can divide.  $\\dfrac{18}{1.5}=12$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "It will take $12$ sheets of tile to cover the whole counter.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3. Rectilinear"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Demi is working on a presentation about a famous mathematician for her math class.  She decides to make her poster in the shape of a plus sign.     **What is the total area of Demi's poster?**     $\\text{in}^2$",
+                                "images": [
+                                    {
+                                        "alt": "",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/ee295f08370c876077ec7425e4ea4d1252adc1ef.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "1360",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We can think of the plus sign as two overlapping identical rectangles.   Each rectangle has a width of $\\purpleD{20\\text{ in}}$.   The length of each rectangle is $\\greenD{20+12+12=44\\text{ in}.}$",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/d38705d38bea4feab17d4da2b516014be6f3b946.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{Area of each rectangle} &=  \\text{length} \\cdot \\text{width} \\\\\\\\ &= \\purpleD{20} \\cdot \\greenD{44} \\\\\\\\ &=880 \\text{ in}^2\\\\\\\\ \\end{align}$  Since there are $2$ rectangles we can multiply to find the total.    $880 \\cdot 2 = 1760\\text { in}^2$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Now we can find the area of the square where the rectangles overlap.    $\\begin{align} \\text{Area of a square} &=  \\text{side} \\cdot \\text{side} \\\\\\\\ &= 20 \\cdot 20 \\\\\\\\ &= \\blueD{400\\text{ in}^2}\\\\\\\\ \\end{align}$",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/da3fb3e8de21b6da6b280dcfbe692c77fd0f0c96.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "We can subtract to find the total area of the poster.  $1760 - \\blueD{400} = 1360\\text{ in}^2$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Demi's poster has an area of $1360\\text{ in}^2.$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3. Rectilinear"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Rembrandt framed his masterpiece.  The painting by itself is a rectangle with length $20 \\text{ cm}$ and width $16 \\text{ cm}$.  The painting and frame together form a larger rectangle with length $25 \\text{ cm}$ and width $20 \\text{ cm}$.  **Find the area of the frame.**   *Assume no overlap between the frame and painting.*   $\\text{cm}^2$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "180",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's draw a diagram of the $\\blueD{\\text{painting}}$ and the $\\greenD{\\text{frame}}$.",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/c5e170e8b20bd4074756c6cb42b011516a2c9444.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{Area of the } \\blueD{\\text{painting}} &=  \\text{length} \\cdot \\text{width} \\\\\\\\ &= 20 \\cdot 16 \\\\\\\\ &= 320 \\text{ cm}^2\\\\\\\\ \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{Area of the } \\blueD{\\text{painting}} \\text{ and} \\greenD{\\text{ frame}}&=  \\text{length} \\cdot \\text{width} \\\\\\\\ &= 25 \\cdot 20 \\\\\\\\ &= 500  \\text{ cm}^2\\\\\\\\ \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's subtract the area of the painting from the area of the painting and the frame to find the area of just the frame:  $500 - 320 = 180$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the frame is $180 \\text{ cm}^2$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3. Rectilinear"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Tanya has a garden with a trench around it. The garden is a rectangle with length $2 \\dfrac12 \\text{m}$ and width $2 \\text{ m}$. The trench and garden together make a rectangle with length $3 \\dfrac12 \\text{m}$ and width $3 \\text{ m}$.  **Find the area of just the trench.**        $\\text{m}^2$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "5.5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's draw a diagram of the garden and the trench.",
+                                    "images": [
+                                        {
+                                            "alt": "",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/a9ee514986fe6425d96711c3b83511e88975970d.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{Area of the } {\\text{garden}} &=  \\text{length} \\cdot \\text{width} \\\\\\\\ &= 2  \\dfrac12\\cdot 2 \\\\\\\\ &= \\dfrac52 \\cdot 2 \\\\\\\\ &= \\dfrac5{\\cancel{2}}\\cdot  \\cancel2   \\\\\\\\ &= 5 \\text{ m}^2 \\\\\\\\ \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{Area of the garden and  trench}&=  \\text{length} \\cdot \\text{width} \\\\\\\\ &= 3 \\dfrac12 \\cdot 3  \\\\\\\\ &=  \\dfrac72 \\cdot 3 \\\\\\\\ &= \\dfrac{7 \\cdot 3}2 \\\\\\\\ &= \\dfrac{21}{2} \\text{ m}^2\\\\\\\\ \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's subtract the area of the garden from the area of the garden and the trench to find the area of just the trench:  $\\phantom{=}\\dfrac{21}{2} - 5$  $= \\dfrac{21}{2} - \\dfrac{10}{2}$  $= \\dfrac{21 - 10}{2}$  $=\\dfrac{11}{2}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The area of the trench is $\\dfrac{11}{2}\\text{ m}^2.$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3. Rectilinear"
+                    }
+                }
+            }
+        }
+    ]
+}

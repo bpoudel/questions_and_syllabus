@@ -1,0 +1,1611 @@
+{
+    "standard_metadata": {
+        "standard_id": "8.G.A.3",
+        "standard_description": "Describe the effect of dilations, translations, rotations, and reflections on two-dimensional figures using coordinates.",
+        "standard_title": "Dilations and properties",
+        "standard_url": "https://www.khanacademy.org/math/geometry/xff63fac4:hs-geo-transformation-properties-and-proofs/xff63fac4:hs-geo-dilation-preserved-properties/e/dilations-preserved-properties"
+    },
+    "id": "xf92c041272da13a0",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Triangle $\\triangle A'B'C'$ is the result of dilating $\\triangle ABC$ about point $A$ by a scale factor of $3$.      **Determine whether each claim about the properties of $\\triangle ABC$ and $\\triangle A'B'C'$ is true or false.**   | |  :- | :-:| The coordinates of $A$ and $A'$ are the same. | | The lengths of $\\overline{AB}$ and $\\overline{A'B'}$ are equal. | |",
+                                "images": [
+                                    {
+                                        "alt": "A coordinate plane. The x- and y-axes both scale by one. A triangle A B C. Triangle A B C had point A at negative two, three, point B at three, one, and point C at one, negative three.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/b4280cba897ffc93da192f9fd5250e7c24114f05.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "True",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "False",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "True",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "False",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Are the coordinates of $A$ and $A'$ the same?  A dilation multiplies the distance of every point from the center of dilation by the scale factor. So a dilation moves every point except the center of dilation.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Point $A$ is the center of dilation, so the coordinates of $A$ and $A'$ **are the same.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Are the lengths of $\\overline{AB}$ and $\\overline{A'B'}$ equal?  Dilations multiply every length in the figure by the scale factor, so $\\overline{AB}$ and $\\overline{A'B'}$ **do not** have the same length.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Claims about pre-image and image | True or false  :- | :-: The coordinates of $A$ and $A'$ are the same. | True The lengths of $\\overline{AB}$ and $\\overline{A'B'}$ are equal. | False    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. The pre-image Triangle A B C has point A at negative two, three, point B at three, one, and point C at one, negative three. The image Triangle A prime B prime C prime has point A prime at negative two, three, point B prime at thirteen, negative three, and point C prime at seven, negative fifteen.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/22dd45da2e276d63f0a156846778bc857479d1c9.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Distance and angles"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Triangle $\\triangle A'B'C'$ is the result of dilating $\\triangle ABC$ about point $P$ by a scale factor of $\\dfrac{5}{2}$.      **Determine whether each claim about the properties of $\\triangle ABC$ and $\\triangle A'B'C'$ is true or false.**   | |  :- | :-:| The measures of $\\angle C$ and $\\angle C'$ are equal. | | The areas of $\\triangle ABC$ and $\\triangle A'B'C'$ are the same. | |",
+                                "images": [
+                                    {
+                                        "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Triangle A B C has point A at two, three, point B at eight, three, and Point C at four, seven. There is a point P that is the midpoint of side B C at six, five.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/660b423d3af08b07df709606a5e435723f6c5a32.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "True",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "False",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "True",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "False",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Are the measures of $\\angle C$ and $\\angle C'$ equal?  Dilations preserve angle measures, so the measures of $\\angle C$ and $\\angle C'$ **are equal**.  [[☃ explanation 2]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Are the areas of $\\triangle ABC$ and $\\triangle A'B'C'$ the same?  Dilations multiply every length in the figure by the scale factor, so each side length changes. Since the lengths change, so does the area. So $\\triangle ABC$ and $\\triangle A'B'C'$ **do not** have the same areas.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Claims about pre-image and image | True or false  :- | :-: The measures of $\\angle C$ and $\\angle C'$ are equal. | True The areas of $\\triangle ABC$ and $\\triangle A'B'C'$ are the same. | False    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. The pre-image Triangle A B C has point A at nine, eight, point B at fifteen, eight, and Point C at eleven, twelve. There is a point P that is the midpoint of side B C at thirteen, ten. The image Triangle A prime B prime C prime has point A prime at three, five, point B prime at eighteen, five, and Point C prime at eight, fifteen.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/32a1c85dee72b8c0856335ce163781928748c26a.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Distance and angles"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Quadrilateral $A'B'C'D'$ is the result of dilating quadrilateral $ABCD$ about point $P$ by a scale factor of $\\dfrac32$.      **Determine whether each claim about the properties of $ABCD$ and $A'B'C'D'$ is true or false.**   | |  :- | :-:| The lengths of $\\overline{CD}$ and $\\overline{C'D'}$ are equal. | | The coordinates of $B$ and $B'$ are the same. | |",
+                                "images": [
+                                    {
+                                        "alt": "A coordinate plane. The x- and y-axes both scale by one. The Quadrilateral A B C D has point A at negative three, negative three, point B at negative three, three, point C at four, four, and point D at zero, negative three. A point P is at negative one, two.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/04705493eb174a876a94bf41e3d34bbad83d8b7e.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "True",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "False",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "True",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "False",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Are the lengths of $\\overline{CD}$ and $\\overline{C'D'}$ equal?  Dilations multiply every length in the figure by the scale factor, so $\\overline{CD}$ and $\\overline{C'D'}$ **do not** have the same length.  [[☃ explanation 5]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Are the coordinates of $B$ and $B'$ the same?  A dilation multiplies the distance of every point from the center of dilation by the scale factor. So a dilation moves every point except the center of dilation.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Point $B$ is not the center of dilation, so the coordinates of $B$ and $B'$ are **not** the same.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Claims about pre-image and image | True or false  :- | :-: The lengths of $\\overline{CD}$ and $\\overline{C'D'}$ are equal. | False The coordinates of $B$ and $B'$ are the same. | False    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. The pre image Quadrilateral A B C D has point A at negative three, negative three, point B at negative three, three, point C at four, four, and point D at zero, negative three. A point P is at negative one, two. The image Quadrilateral A prime B prime C prime D prime has point A prime at negative four, negative five and a half, point B prime at negative four, three and a half, point C prime at six and a half, five, and point D prime at one half, negative five and a half. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/6550eb887e1c0f592accf8698fcb067c69a3d0eb.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Distance and angles"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Quadrilateral $A'B'C'D'$ is the result of dilating quadrilateral $ABCD$ about point $P$ by a scale factor of $\\dfrac52$.      **Determine whether each claim about the properties of $ABCD$ and $A'B'C'D'$ is true or false.**   | |  :- | :-:| The perimeters of $ABCD$ and $A'B'C'D'$ are the same. | | The measures of $\\angle D$ and $\\angle D'$ are equal. | |",
+                                "images": [
+                                    {
+                                        "alt": "A coordinate plane. The x- and y-axes both scale by one. The Quadrilateral A B C D has point A at negative one, negative one, point B at zero, three, point C at two, one, and point D at two, zero. A point P is at negative four, negative three..",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/28206b7af6827f496dc919d29014432dfbb55816.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "True",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "False",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "True",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "False",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Are the perimeters of $ABCD$ and $A'B'C'D'$ the same?  Dilations multiply every length in the figure by the scale factor, so each side length changes. Since the lengths change, so does the perimeter. So $ABCD$ and $A'B'C'D'$ **do not** have the same perimeters.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Are the measures of $\\angle D$ and $\\angle D'$ equal?  Dilations preserve angle measures, so the measures of $\\angle D$ and $\\angle D'$ **are equal**.  [[☃ explanation 5]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Claims about pre-image and image | True or false  :- | :-: The perimeters of $ABCD$ and $A'B'C'D'$ are the same. | False The measures of $\\angle D$ and $\\angle D'$ are equal. | True    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. The pre image Quadrilateral A B C D has point A at negative one, negative one, point B at zero, three, point C at two, one, and point D at two, zero. A point P is at negative four, negative three. The image Quadrilateral A prime B prime C prime D prime has point A prime at three and a half, two, point B prime at six, twelve, point C prime at eleven, seven, and point D prime at eleven, negative five and a half. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/54ecd8d1e1931d3c21e6ff7e19bbbf8fe47038dd.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Distance and angles"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Quadrilateral $A'B'C'D'$ is the result of dilating quadrilateral $ABCD$ about point $P$ by a scale factor of $\\dfrac{3}{2}$.      **Determine whether each claim about the properties of $ABCD$ and $A'B'C'D'$ is true or false.**   | |  :- | :-:| The lengths of $\\overline{AD}$ and $\\overline{A'D'}$ are equal. | | The areas of $ABCD$ and $A'B'C'D'$ are the same. | |",
+                                "images": [
+                                    {
+                                        "alt": "A coordinate plane. The x- and y-axes both scale by one. A Quadrilateral A B C D has point A at six, twelve, point B at six, six, Point C at twelve, eight, and Point D at eight, twelve. A point P is at fourteen, twelve.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/860d4239d69d0ed6e2a11db5ba74b487c53197aa.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "True",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "False",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "True",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "False",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Are the lengths of $\\overline{AD}$ and $\\overline{A'D'}$ equal?  Dilations multiply every length in the figure by the scale factor, so $\\overline{AD}$ and $\\overline{A'D'}$ **do not** have the same length.  [[☃ explanation 5]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Are the areas of $ABCD$ and $A'B'C'D'$ the same?  Dilations multiply every length in the figure by the scale factor, so each side length changes. Since the lengths change, so does the area. So $ABCD$ and $A'B'C'D'$  **do not** have the same areas.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Claims about pre-image and image | True or false  :- | :-: The lengths of $\\overline{AD}$ and $\\overline{A'D'}$ are equal. | False The areas of $ABCD$ and $A'B'C'D'$ are the same. | False    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. The pre-image Quadrilateral A B C D has point A at six, twelve, point B at six, six, Point C at twelve, eight, and Point D at eight, twelve. The image Quadrilateral A prime B prime C prime D prime has point A prime at two, twelve, point B prime at two, three, point C prime at eleven, six, and point D prime at five, twelve. A point P is at fourteen, twelve.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/7b5a6aeed3f56caf2785a932c3671ccd8d1c6b4f.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Distance and angles"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Quadrilateral $A'B'C'D'$ is the result of dilating quadrilateral $ABCD$ about point $D$ by a scale factor of $\\dfrac{3}{2}$.      **Determine whether each claim about the properties of $ABCD$ and $A'B'C'D'$ is true or false.**   | |  :- | :-:| The perimeters of $ABCD$ and $A'B'C'D'$ are the same. | | The lengths of $\\overline{CD}$ and $\\overline{C'D'}$ are equal. | |",
+                                "images": [
+                                    {
+                                        "alt": "A coordinate plane. The x- and y-axes both scale by one. The Quadrilateral A B C D has point A at negative two, three, point B at two, two, Point C at two, negative two, and Point D at negative four, three. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/1710e0ce6e71eda8fcb40a60538a4ea0ab2b34c0.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "True",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "False",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "True",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "False",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Are the perimeters of $ABCD$ and $A'B'C'D'$ the same?  Dilations multiply every length in the figure by the scale factor, so each side length changes. Since the lengths change, so does the perimeter. So $ABCD$ and $A'B'C'D'$ **do not** have the same perimeters.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Are the lengths of $\\overline{CD}$ and $\\overline{C'D'}$ equal?  Dilations multiply every length in the figure by the scale factor, so $\\overline{CD}$ and $\\overline{C'D'}$ **do not** have the same length.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Claims about pre-image and image | True or false  :- | :-: The perimeters of $ABCD$ and $A'B'C'D'$ are the same. | False The lengths of $\\overline{CD}$ and $\\overline{C'D'}$ are equal. | False    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. The pre-image Quadrilateral A B C D has point A at negative two, three, point B at two, two, Point C at two, negative two, and Point D at negative four, three. The image Quadrilateral A prime B prime C prime D prime has point A prime at negative one, three, point B prime at five, two, point C prime at five, negative four and a half, and point D prime at negative four, three.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/32ceacc910e24f17c985b6fec2b286d10cb83a08.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Distance and angles"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Triangle $\\triangle A'B'C'$ is the result of dilating $\\triangle ABC$ about point $B$ by a scale factor of $\\dfrac{4}{3}$.      **Determine whether each claim about the properties of $\\triangle ABC$ and $\\triangle A'B'C'$ is true or false.**   | |  :- | :-:| The measures of $\\angle C$ and $\\angle C'$ are equal. | | The coordinates of $C$ and $C'$ are the same. | |",
+                                "images": [
+                                    {
+                                        "alt": "A coordinate plane. The x- and y-axes both scale by one. The Triangle A B C has point A at three, negative three, point B at negative three, zero, and Point C at three, three.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/643a48b3cc6bc50e4429d5518f2d2086d5fa798f.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "True",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "False",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "True",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "False",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Are the measures of $\\angle C$ and $\\angle C'$ equal?  Dilations preserve angle measures, so the measures of $\\angle C$ and $\\angle C'$ **are equal**.  [[☃ explanation 2]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Are the coordinates of $C$ and $C'$ the same?  A dilation multiplies the distance of every point from the center of dilation by the scale factor. So a dilation moves every point except the center of dilation.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Point $C$ is not the center of dilation, so the coordinates of $C$ and $C'$ are **not** the same.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Claims about pre-image and image | True or false  :- | :-: The measures of $\\angle C$ and $\\angle C'$ are equal. | True The coordinates of $C$ and $C'$ are the same. | False    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. The pre-image Triangle A B C has point A at three, negative three, point B at negative three, zero, and Point C at three, three. The image Triangle A prime B prime C prime has point A prime at five, negative four, point B prime at negative three, zero, and Point C prime at five, four.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/1435efd585f2ee24129f7d172db10d2db4c698a1.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Distance and angles"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Triangle $\\triangle A'B'C'$ is the result of dilating $\\triangle ABC$ about point $B$ by a scale factor of $\\dfrac{4}{3}$.      **Determine whether each claim about the properties of $\\triangle ABC$ and $\\triangle A'B'C'$ is true or false.**   | |  :- | :-:| The lengths of $\\overline{AB}$ and $\\overline{A'B'}$ are equal. | | The areas of $\\triangle ABC$ and $\\triangle A'B'C'$ are the same. | |",
+                                "images": [
+                                    {
+                                        "alt": "A coordinate plane. The x- and y-axes both scale by one. The Triangle A B C has point A at three, negative three, point B at negative three, zero, and Point C at three, three.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/643a48b3cc6bc50e4429d5518f2d2086d5fa798f.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "True",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "False",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "True",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "False",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Are the lengths of $\\overline{AB}$ and $\\overline{A'B'}$ equal?  Dilations multiply every length in the figure by the scale factor, so $\\overline{AB}$ and $\\overline{A'B'}$ **do not** have the same length.  [[☃ explanation 3]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Are the areas of $\\triangle ABC$ and $\\triangle A'B'C'$ the same?  Dilations multiply every length in the figure by the scale factor, so each side length changes. Since the lengths change, so does the area. So $\\triangle ABC$ and $\\triangle A'B'C'$ **do not** have the same areas.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Claims about pre-image and image | True or false  :- | :-: The lengths of $\\overline{AB}$ and $\\overline{A'B'}$ are equal. | False The areas of $\\triangle ABC$ and $\\triangle A'B'C'$ are the same. | False    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. The pre-image Triangle A B C has point A at three, negative three, point B at negative three, zero, and Point C at three, three. The image Triangle A prime B prime C prime has point A prime at five, negative four, point B prime at negative three, zero, and Point C prime at five, four.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/1435efd585f2ee24129f7d172db10d2db4c698a1.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Distance and angles"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Triangle $\\triangle A'B'C'$ is the result of dilating $\\triangle ABC$ about point $P$ by a scale factor of $\\dfrac{1}{4}$.      **Determine whether each claim about the properties of $\\triangle ABC$ and $\\triangle A'B'C'$ is true or false.**   | |  :- | :-:| The lengths of $\\overline{AB}$ and $\\overline{A'B'}$ are equal. | | The measures of $\\angle C$ and $\\angle C'$ are equal. | |",
+                                "images": [
+                                    {
+                                        "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. The Triangle A B C has point A at two, two,  point B at eight, six, and Point C at six, ten.  A point P is at ten, ten.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/aba2a6e360571e6be8c1f9a8e23eec9d68b00489.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "True",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "False",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "True",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "False",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Are the lengths of $\\overline{AB}$ and $\\overline{A'B'}$ equal?  Dilations multiply every length in the figure by the scale factor, so $\\overline{AB}$ and $\\overline{A'B'}$ **do not** have the same length.  [[☃ explanation 4]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Are the measures of $\\angle C$ and $\\angle C'$ equal?  Dilations preserve angle measures, so the measures of $\\angle C$ and $\\angle C'$ **are equal**.  [[☃ explanation 4]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Claims about pre-image and image | True or false  :- | :-: The lengths of $\\overline{AB}$ and $\\overline{A'B'}$ are equal. | False The measures of $\\angle C$ and $\\angle C'$ are equal. | True    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. The pre-image Triangle A B C has point A at two, two,  point B at eight, six, and Point C at six, ten. The image Triangle A prime B prime C prime has point A prime at eight, eight, point B prime at nine and a half, nine, and Point C prime at nine, ten. A point P is at ten, ten.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/183c31ea7931aa0606f2e5db8f4da3a5d1b2a0ef.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Distance and angles"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Triangle $\\triangle A'B'C'$ is the result of dilating $\\triangle ABC$ about point $A$ by a scale factor of $\\dfrac23$.      **Determine whether each claim about the properties of $\\triangle ABC$ and $\\triangle A'B'C'$ is true or false.**   | |  :- | :-:| The measures of $\\angle B$ and $\\angle B'$ are equal. | | The coordinates of $A$ and $A'$ are the same. | |",
+                                "images": [
+                                    {
+                                        "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. The Triangle A B C has point A at five, two,  point B at eight, three, and Point C at two, eight.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/8c143a0b97de01dfeb9b4239a8faa93d0a997f4a.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "True",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "False",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "True",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "False",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Are the measures of $\\angle B$ and $\\angle B'$ equal?  Dilations preserve angle measures, so the measures of $\\angle B$ and $\\angle B'$ **are equal**.  [[☃ explanation 4]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Are the coordinates of $A$ and $A'$ the same?  A dilation multiplies the distance of every point from the center of dilation by the scale factor. So a dilation moves every point except the center of dilation.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Point $A$ is the center of dilation, so the coordinates of $A$ and $A'$ **are the same.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Claims about pre-image and image | True or false  :- | :-: The measures of $\\angle B$ and $\\angle B'$ are equal. | True The coordinates of $A$ and $A'$ are the same. | True    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. The pre-image Triangle A B C has point A at five, two,  point B at eight, three, and Point C at two, eight. The image Triangle A prime B prime C prime has point A prime at five, two, point B prime at seven, approximately two and eight tenths, and Point C prime at three, six.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/3b93cb950e47b07e53da20ab9a71f64e38e22766.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Distance and angles"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Quadrilateral $A'B'C'D'$ is the result of dilating quadrilateral $ABCD$ about point $P$ by a scale factor of $3$.      **Determine whether each claim about the properties of $ABCD$ and $A'B'C'D'$ is true or false.**   | |  :- | :-:| The measures of $\\angle B$ and $\\angle B'$ are equal. | | $\\overline{AB}$ and $\\overline{A'B'}$ are both perpendicular to the $x$-axis. | |",
+                                "images": [
+                                    {
+                                        "alt": "A coordinate plane. The x- and y-axes both scale by one. The Quadrilateral A B C D has point A at negative three, negative three, point B at negative three, three, point C at four, four, and point D at zero, negative three. A point P is at negative one, two.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/04705493eb174a876a94bf41e3d34bbad83d8b7e.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "True",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "False",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "True",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "False",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Are the measures of $\\angle B$ and $\\angle B'$ equal?  Dilations preserve angle measures, so the measures of $\\angle B$ and $\\angle B'$ **are equal**.  [[☃ explanation 4]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Are $\\overline{AB}$ and $\\overline{A'B'}$ both perpendicular to the $x$-axis?  A dilation takes a line not passing through the center of the dilation to a parallel line, and leaves a line passing through the center unchanged.  [[☃ explanation 3]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The line through $\\overline{AB}$ doesn't pass through center $P$. So segments $\\overline{AB}$ and $\\overline{A'B'}$ are on parallel lines.  Since $\\overline{AB}$ is perpendicular to the $x$-axis, that means $\\overline{A'B'}$ **is also perpendicular to the $x$-axis**.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Claims about pre-image and image | True or false  :- | :-: The measures of $\\angle B$ and $\\angle B'$ are equal. | True $\\overline{AB}$ and $\\overline{A'B'}$ are both perpendicular to the $x$-axis | True    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by two. The pre-image Quadrilateral A B C D has point A at negative three, negative three, point B at negative three, three, point C at four, four, and point D at zero, negative three. A point P is at negative one, two. The image Quadrilateral A prime B prime C prime D prime has point A prime at negative seven, negative thirteen, point B prime at negative seven, five, point C prime at fourteen, eight, and point D prime at two, negative thirteen.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/6e9b5e8ffda5cb8726583ae05744e0b044d1e715.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Mapping to parallel or same line"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Triangle $\\triangle A'B'C'$ is the result of dilating $\\triangle ABC$ about point $C$ by a scale factor of $2$.      **Determine whether each claim about the properties of $\\triangle ABC$ and $\\triangle A'B'C'$ is true or false.**   | |  :- | :-:| $\\overline{AB}$ and $\\overline{A'B'}$ are on the same line. | | The measures of $\\angle B$ and $\\angle B'$ are equal. | |",
+                                "images": [
+                                    {
+                                        "alt": "A coordinate plane. The x- and y-axes both scale by one. The Triangle A B C has point A at negative two, three, point B at three, one, and point C at one, negative three.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/dbf3ac188b71c7c362f89835bb8104e2c2d5cfe2.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "True",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "False",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "True",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "False",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Are $\\overline{AB}$ and $\\overline{A'B'}$ on the same line?  A dilation takes a line not passing through the center of the dilation to a parallel line, and leaves a line passing through the center unchanged.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The line through $\\overline{AB}$ does *not* pass through center $C$. So segments $\\overline{AB}$ and $\\overline{A'B'}$ **are not** on the same line.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Are the measures of $\\angle B$ and $\\angle B'$ equal?  Dilations preserve angle measures, so the measures of $\\angle B$ and $\\angle B'$ **are equal**.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Claims about pre-image and image | True or false  :- | :-: $\\overline{AB}$ and $\\overline{A'B'}$ are on the same line. | False The measures of $\\angle B$ and $\\angle B'$ are equal. | True    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. The pre-image Triangle A B C has point A at negative two, three, point B at three, one, and point C at one, negative three. The image Triangle A prime B prime C prime has point A prime at negative five, nine, point B prime at five, five, and point C prime at one, negative three.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/4495f002694907e64c2e57abc19149d7e9b83f71.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Mapping to parallel or same line"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Quadrilateral $A'B'C'D'$ is the result of dilating quadrilateral $ABCD$ about point $D$ by a scale factor of $\\dfrac{2}{3}$.      **Determine whether each claim about the properties of $ABCD$ and $A'B'C'D'$ is true or false.**   | |  :- | :-:| $\\overline{AB}$ and $\\overline{A'B'}$ are on distinct parallel lines. | | $\\overline{AD}$ and $\\overline{A'D'}$ are on the same line. | |",
+                                "images": [
+                                    {
+                                        "alt": "A coordinate plane. The x- and y-axes both scale by one. The Quadrilateral A B C D has point A at four, zero, point B at negative two, negative four, point C at one, zero, and point D at four, three.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/2cdf79642250c4d5c8b35691d0574cfbcff0c9db.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "True",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "False",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "True",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "False",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Are $\\overline{AB}$ and $\\overline{A'B'}$ on distinct parallel lines?  A dilation takes a line not passing through the center of the dilation to a parallel line, and leaves a line passing through the center unchanged.  [[☃ explanation 2]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The line through $\\overline{AB}$ does *not* pass through center $D$. So segments $\\overline{AB}$ and $\\overline{A'B'}$ **are on distinct parallel lines**.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Are $\\overline{AD}$ and $\\overline{A'D'}$ on the same line?  A dilation takes a line not passing through the center of the dilation to a parallel line, and leaves a line passing through the center unchanged.  [[☃ explanation 2]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We see that the line through $\\overline{AD}$ does pass through center $D$. So segments $\\overline{AD}$ and $\\overline{A'D'}$ **are on the same line**.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Claims about pre-image and image | True or false  :- | :-: $\\overline{AB}$ and $\\overline{A'B'}$ are on distinct parallel lines. | True $\\overline{AD}$ and $\\overline{A'D'}$ are on the same line. | True    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. The pre-image Quadrilateral A B C D has point A at four, zero, point B at negative two, negative four, point C at one, zero, and point D at four, three. The image Quadrilateral A prime B prime C prime D prime has point A prime at negative four, one, point B prime at approximately zero, negative one and eight tenths, point C prime at two, one, and point D prime at four, three.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/8f5d8a75ca9b3893ae037761237749f87f23f1c0.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Mapping to parallel or same line"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Quadrilateral $A'B'C'D'$ is the result of dilating quadrilateral $ABCD$ about point $A$ by a scale factor of $\\dfrac{1}{2}$.      **Determine whether each claim about the properties of $ABCD$ and $A'B'C'D'$ is true or false.**   | |  :- | :-:| The lengths of $\\overline{AB}$ and $\\overline{A'B'}$ are equal. | | $\\overline{AB}$ and $\\overline{A'B'}$ are on distinct parallel lines. | |",
+                                "images": [
+                                    {
+                                        "alt": "A coordinate plane. The x- and y-axes both scale by one. The Quadrilateral A B C D has point A at four, zero, point B at negative two, negative four, point C at one, zero, and point D at four, three.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/fe10b729e1995b2c0b0bc73fb7b6a06ea81779f9.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "True",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "False",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "True",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "False",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Are the lengths of $\\overline{AB}$ and $\\overline{A'B'}$ equal?  Dilations multiply every length in the figure by the scale factor, so $\\overline{AB}$ and $\\overline{A'B'}$ **do not** have the same length.  [[☃ explanation 2]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Are $\\overline{AB}$ and $\\overline{A'B'}$ on distinct parallel lines?  A dilation takes a line not passing through the center of the dilation to a parallel line, and leaves a line passing through the center unchanged.  [[☃ explanation 2]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The line through $\\overline{AB}$ does pass through center $A$. So segments $\\overline{AB}$ and $\\overline{A'B'}$ **are not** on distinct parallel lines.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Claims about pre-image and image | True or false  :- | :-: The lengths of $\\overline{AB}$ and $\\overline{A'B'}$ are equal. | False $\\overline{AB}$ and $\\overline{A'B'}$ are on distinct parallel lines. | False    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. The pre-image Quadrilateral A B C D has point A at four, zero, point B at negative two, negative four, point C at one, zero, and point D at four, three. The image Quadrilateral A prime B prime C prime D prime has point A prime at four, zero, point B prime at approximately one, negative two, point C prime at two and a half, zero, and point D prime at four, one and a half.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/4335eecbd362e11c6ecedab14dcb07990147de4e.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Mapping to parallel or same line"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Triangle $\\triangle A'B'C'$ is the result of dilating $\\triangle ABC$ about point $P$ by a scale factor of $2$.      **Determine whether each claim about the properties of $\\triangle ABC$ and $\\triangle A'B'C'$ is true or false.**   | |  :- | :-:| $\\overline{AB}$ and $\\overline{A'B'}$ are on the same line. | | The perimeters of $\\triangle ABC$ and $\\triangle A'B'C'$ are the same. | |",
+                                "images": [
+                                    {
+                                        "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. Triangle A B C has point A at two, three, point B at eight, three, and Point C at four, seven. There is a point P that is the midpoint of side B C at six, five.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/660b423d3af08b07df709606a5e435723f6c5a32.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "True",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "False",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "True",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "False",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Are $\\overline{AB}$ and $\\overline{A'B'}$ on the same line?  A dilation takes a line not passing through the center of the dilation to a parallel line, and leaves a line passing through the center unchanged.  [[☃ explanation 2]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The line through $\\overline{AB}$ does *not* pass through center $P$. So segments $\\overline{AB}$ and $\\overline{A'B'}$ **are not** on the same line.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Are the perimeters of $\\triangle ABC$ and $\\triangle A'B'C'$ the same?  Dilations multiply every length in the figure by the scale factor, so each side length changes. Since the lengths change, so does the perimeter. So $\\triangle ABC$ and $\\triangle A'B'C'$ **do not** have the same perimeters.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Claims about pre-image and image | True or false  :- | :-: $\\overline{AB}$ and $\\overline{A'B'}$ are on the same line. | False The perimeters of $\\triangle ABC$ and $\\triangle A'B'C'$ are the same. | False   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. The pre-image Triangle A B C has point A at nine, eight, point B at fifteen, eight, and Point C at eleven, twelve. There is a point P that is the midpoint of side B C at thirteen, ten. The image Triangle A prime B prime C prime has point A prime at three, five, point B prime at eighteen, five, and Point C prime at eight, fifteen.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/32a1c85dee72b8c0856335ce163781928748c26a.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Mapping to parallel or same line"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Quadrilateral $A'B'C'D'$ is the result of dilating quadrilateral $ABCD$ about point $P$ by a scale factor of $2$.     **Determine whether each claim about the properties of $ABCD$ and $A'B'C'D'$ is true or false.**   | |  :- | :-:| $\\overline{AD}$ and $\\overline{A'D'}$ are on distinct parallel lines. | | $\\overline{CD}$ and $\\overline{C'D'}$ are both perpendicular to the $x$-axis. | |",
+                                "images": [
+                                    {
+                                        "alt": "A coordinate plane. The x- and y-axes both scale by one. The Quadrilateral A B C D has point A at negative one, negative one, point B at zero, three, point C at two, one, and point D at two, zero. A point P is at negative four, negative three.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/28206b7af6827f496dc919d29014432dfbb55816.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "True",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "False",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "True",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "False",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Are $\\overline{AD}$ and $\\overline{A'D'}$ on distinct parallel lines?  A dilation takes a line not passing through the center of the dilation to a parallel line, and leaves a line passing through the center unchanged.  [[☃ explanation 2]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The line through $\\overline{AD}$ does *not* pass through center $P$. So segments $\\overline{AD}$ and $\\overline{A'D'}$ **are on distinct parallel lines**.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Are $\\overline{CD}$ and $\\overline{C'D'}$ both perpendicular to the $x$-axis?  A dilation takes a line not passing through the center of the dilation to a parallel line, and leaves a line passing through the center unchanged.  [[☃ explanation 3]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The line through $\\overline{CD}$ doesn't pass through center $P$. So segments $\\overline{CD}$ and $\\overline{C'D'}$ are on parallel lines.  Since $\\overline{CD}$ is perpendicular to the $x$-axis, that means $\\overline{C'D'}$ **is also perpendicular to the $x$-axis**.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Claims about pre-image and image | True or false  :- | :-: $\\overline{AD}$ and $\\overline{A'D'}$ are on distinct parallel lines. | True $\\overline{CD}$ and $\\overline{C'D'}$ are both perpendicular to the $x$-axis. | True    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. The pre-image Quadrilateral A B C D has point A at negative one, negative one, point B at zero, three, point C at two, one, and point D at two, zero. A point P is at negative four, negative three. The image Quadrilateral A prime B prime C prime D prime has point A prime at two, one, point B prime at four, nine, point C prime at eight, five, and point D prime at eight, negative five. A point P is at negative four, negative three.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/a93c28d1af46bf0c5bcfbb3d0e48258bc908a710.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Mapping to parallel or same line"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Quadrilateral $A'B'C'D'$ is the result of dilating quadrilateral $ABCD$ about point $P$ by a scale factor of $\\dfrac34$.      **Determine whether each claim about the properties of $ABCD$ and $A'B'C'D'$ is true or false.**   | |  :- | :-:| $\\overline{AD}$ and $\\overline{A'D'}$ are on the same line. | | $\\overline{AB}$ and $\\overline{A'B'}$ are on distinct parallel lines. | |",
+                                "images": [
+                                    {
+                                        "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. A Quadrilateral A B C D has point A at one, seven, point B at one, one, Point C at seven, three, and Point D at three, seven. A point P is at nine, seven.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/860d4239d69d0ed6e2a11db5ba74b487c53197aa.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "True",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "False",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "True",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "False",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Are $\\overline{AD}$ and $\\overline{A'D'}$ on the same line?  A dilation takes a line not passing through the center of the dilation to a parallel line, and leaves a line passing through the center unchanged.  [[☃ explanation 5]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The line through $\\overline{AD}$ does pass through center $P$. So segments $\\overline{AD}$ and $\\overline{A'D'}$ **are on the same line**.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Are $\\overline{AB}$ and $\\overline{A'B'}$ on distinct parallel lines?  The line through $\\overline{AB}$ does *not* pass through center $P$. So segments $\\overline{AB}$ and $\\overline{A'B'}$ **are on distinct parallel lines**.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Claims about pre-image and image | True or false  :- | :-: $\\overline{AD}$ and $\\overline{A'D'}$ are on the same line. | True $\\overline{AB}$ and $\\overline{A'B'}$ are on distinct parallel lines. | True    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. A pre-image Quadrilateral A B C D has point A at two, eight, point B at two, two, Point C at eight, four, and Point D at four, eight. A point P is at ten, eight. An image Quadrilateral A prime B prime C prime D prime has point A prime at four, eight, point B prime at four, three and a half, Point C prime at eight and a half, five, and Point D prime at five and a half, eight.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/99f730d9c600174df7206f497199a25c424c288e.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Mapping to parallel or same line"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Quadrilateral $A'B'C'D'$ is the result of dilating quadrilateral $ABCD$ about point $A$ by a scale factor of $\\dfrac{3}{4}$.      **Determine whether each claim about the properties of $ABCD$ and $A'B'C'D'$ is true or false.**   | |  :- | :-:| The measures of $\\angle A$ and $\\angle A'$ are equal. | | $\\overline{AD}$ and $\\overline{A'D'}$ are on distinct parallel lines. | |",
+                                "images": [
+                                    {
+                                        "alt": "A coordinate plane. The x- and y-axes both scale by one. A Quadrilateral A B C D has point A at negative two, three, point B at two, two, Point C at two, negative two, and Point D at negative four, three.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/4aef12537afec3a0d03e7f58a4c6fcbd6aad43e9.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "True",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "False",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "True",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "False",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Are the measures of $\\angle A$ and $\\angle A'$ equal?  Dilations preserve angle measures, so the measures of $\\angle A$ and $\\angle A'$ **are equal**.  [[☃ explanation 5]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Are $\\overline{AD}$ and $\\overline{A'D'}$ on distinct parallel lines?  A dilation takes a line not passing through the center of the dilation to a parallel line, and leaves a line passing through the center unchanged.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The line through $\\overline{AD}$ does pass through center $A$. So segments $\\overline{AD}$ and $\\overline{A'D'}$ **are not** on distinct parallel lines.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Claims about pre-image and image | True or false  :- | :-: The measures of $\\angle A$ and $\\angle A'$ are equal. | True $\\overline{AD}$ and $\\overline{A'D'}$ are on distinct parallel lines. | False    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. A pre-image Quadrilateral A B C D has point A at negative two, three, point B at two, two, Point C at two, negative two, and Point D at negative four, three. Its image Quadrilateral A prime B prime C prime D prime has point A prime at negative two, three, point B prime at one, two and two tenths, Point C prime at one, negative nine tenths, and Point D prime at negative three and a half, three.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/510b205f146b5fe556bf37bcd6a469657d7d6096.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Mapping to parallel or same line"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Triangle $\\triangle A'B'C'$ is the result of dilating $\\triangle ABC$ about point $P$ by a scale factor of $2$.      **Determine whether each claim about the properties of $\\triangle ABC$ and $\\triangle A'B'C'$ is true or false.**   | |  :- | :-:| $\\overline{BC}$ and $\\overline{B'C'}$ are on the same line. | | $\\overline{AB}$ and $\\overline{A'B'}$ are both parallel to the $x$-axis. | |",
+                                "images": [
+                                    {
+                                        "alt": "A coordinate plane. The x- and y-axes both scale by one. Triangle A B C has point A at one, one, point B at three, one, and Point C at three, negative three. There is a point P that is the midpoint of side B C at three, negative one.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/5467eda7e43ff9a048da95bf4cd7366859ecbf78.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "True",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "False",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "True",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "False",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Are $\\overline{BC}$ and $\\overline{B'C'}$ on the same line?  A dilation takes a line not passing through the center of the dilation to a parallel line, and leaves a line passing through the center unchanged.  [[☃ explanation 5]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The line through $\\overline{BC}$ does pass through center $P$. So segments $\\overline{BC}$ and $\\overline{B'C'}$ **are on the same line**.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Are $\\overline{AB}$ and $\\overline{A'B'}$ both parallel to the $x$-axis?  The line through $\\overline{AB}$ doesn't pass through center $P$. So segments $\\overline{AB}$ and $\\overline{A'B'}$ are on parallel lines.  Since $\\overline{AB}$ is parallel to the $x$-axis, that means $\\overline{A'B'}$ **is also parallel to the $x$-axis**.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Claims about pre-image and image | True or false  :- | :-: $\\overline{BC}$ and $\\overline{B'C'}$ are on the same line. | True $\\overline{AB}$ and $\\overline{A'B'}$ are both parallel to the $x$-axis. | True    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. The pre-image Triangle A B C has point A at one, one, point B at three, one, and Point C at three, negative three. There is a point P that is the midpoint of side B C at three, negative one. The image Triangle A prime B prime C prime has point A prime at negative one, three, point B prime at three, three, and Point C prime at three, negative five. ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/6d038634cf01aa87699cd2f982c4eb5201f2bbd2.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Mapping to parallel or same line"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Triangle $\\triangle A'B'C'$ is the result of dilating $\\triangle ABC$ about point $C$ by a scale factor of $\\dfrac12$.      **Determine whether each claim about the properties of $\\triangle ABC$ and $\\triangle A'B'C'$ is true or false.**   | |  :- | :-:| $\\overline{BC}$ and $\\overline{B'C'}$ are on distinct parallel lines. | | The coordinates of $C$ and $C'$ are the same. | |",
+                                "images": [
+                                    {
+                                        "alt": "A coordinate plane. The x- and y-axes both scale by one. Triangle A B C has point A at one, one, point B at three, one, and Point C at three, negative three.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/2fc8403a77c7809aa3eb9bb8e08badf138f1da9d.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "True",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "False",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "True",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "False",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Are $\\overline{BC}$ and $\\overline{B'C'}$ on distinct parallel lines?  A dilation takes a line not passing through the center of the dilation to a parallel line, and leaves a line passing through the center unchanged.  [[☃ explanation 6]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The line through $\\overline{BC}$ does pass through center $C$. So segments $\\overline{BC}$ and $\\overline{B'C'}$ **are not** on distinct parallel lines.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Are the coordinates of $C$ and $C'$ the same?  A dilation multiplies the distance of every point from the center of dilation by the scale factor. So a dilation moves every point except the center of dilation.  Point $C$ is the center of dilation, so the coordinates of $C$ and $C'$ **are the same.**",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Claims about pre-image and image | True or false  :- | :-: $\\overline{BC}$ and $\\overline{B'C'}$ are on distinct parallel lines. | False The coordinates of $C$ and $C'$ are the same. | True    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A coordinate plane. The x- and y-axes both scale by one. The pre-image Triangle A B C has point A at one, one, point B at three, one, and Point C at three, negative three. The image Triangle A prime B prime C prime has point A prime at two, negative one, point B prime at three, negative one, and Point C prime at three, negative three.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/64fb40a2ce2d7a2df8258bf7c98b2d5a790d9782.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Mapping to parallel or same line"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Quadrilateral $A'B'C'D'$ is the result of dilating quadrilateral $ABCD$ about point $P$ by a scale factor of $\\dfrac{5}{3}$.     **Determine whether each claim about the properties of $ABCD$ and $A'B'C'D'$ is true or false.**   | |  :- | :-:| $\\overline{BC}$ and $\\overline{B'C'}$ are on the same line. | | The lengths of $\\overline{CD}$ and $\\overline{C'D'}$ are equal. | |",
+                                "images": [
+                                    {
+                                        "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. A Quadrilateral A B C D has point A at two, nine, point B at five, three, Point C at eight, three, and Point D at eight, six. A point P is at five, six.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/f6322d15e7fab333173534df3e92630fbadd2d89.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "True",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "False",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "True",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "False",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Are $\\overline{BC}$ and $\\overline{B'C'}$ on the same line?  A dilation takes a line not passing through the center of the dilation to a parallel line, and leaves a line passing through the center unchanged.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The line through $\\overline{BC}$ does *not* pass through center $P$. So segments $\\overline{BC}$ and $\\overline{B'C'}$ **are not** on the same line.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Are the lengths of $\\overline{CD}$ and $\\overline{C'D'}$ equal?  Dilations multiply every length in the figure by the scale factor, so $\\overline{CD}$ and $\\overline{C'D'}$ **do not** have the same length.  [[☃ explanation 3]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Claims about pre-image and image | True or false  :- | :-: $\\overline{BC}$ and $\\overline{B'C'}$ are on the same line. | False The lengths of $\\overline{CD}$ and $\\overline{C'D'}$ are equal. | False    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. A pre-image Quadrilateral A B C D has point A at four, ten, point B at seven, four, Point C at ten, four, and Point D at ten, seven. A point P is at seven, fourteen. The image Quadrilateral A prime B prime C prime D prime has point A prime at two, twelve, point B prime at seven, two, Point C prime at twelve, two, and Point D prime at twelve, seven. A point P is at seven, seven.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/aa17b01d06d8f86da94c19ce4e5bb15f68f4be79.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Mapping to parallel or same line"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Quadrilateral $A'B'C'D'$ is the result of dilating quadrilateral $ABCD$ about point $P$ by a scale factor of $\\dfrac{5}{3}$.      **Determine whether each claim about the properties of $ABCD$ and $A'B'C'D'$ is true or false.**   | |  :- | :-:| $\\overline{CD}$ and $\\overline{C'D'}$ are on distinct parallel lines. | | The measures of $\\angle B$ and $\\angle B'$ are equal. | |",
+                                "images": [
+                                    {
+                                        "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. A Quadrilateral A B C D has point A at two, nine, point B at five, three, Point C at eight, three, and Point D at eight, six. A point P is at five, six.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/f6322d15e7fab333173534df3e92630fbadd2d89.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "True",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "False",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "True",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "False",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Are $\\overline{CD}$ and $\\overline{C'D'}$ on distinct parallel lines?  A dilation takes a line not passing through the center of the dilation to a parallel line, and leaves a line passing through the center unchanged.  [[☃ explanation 2]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The line through $\\overline{CD}$ does *not* pass through center $P$. So segments $\\overline{CD}$ and $\\overline{C'D'}$ **are on distinct parallel lines**.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Are the measures of $\\angle B$ and $\\angle B'$ equal?  Dilations preserve angle measures, so the measures of $\\angle B$ and $\\angle B'$ **are equal**.  [[☃ explanation 4]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Claims about pre-image and image | True or false  :- | :-: $\\overline{CD}$ and $\\overline{C'D'}$ are on distinct parallel lines. | True The measures of $\\angle B$ and $\\angle B'$ are equal. | True   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. A pre-image Quadrilateral A B C D has point A at four, ten, point B at seven, four, Point C at ten, four, and Point D at ten, seven. A point P is at seven, fourteen. The image Quadrilateral A prime B prime C prime D prime has point A prime at two, twelve, point B prime at seven, two, Point C prime at twelve, two, and Point D prime at twelve, seven. A point P is at seven, seven.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/aa17b01d06d8f86da94c19ce4e5bb15f68f4be79.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Mapping to parallel or same line"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Triangle $\\triangle A'B'C'$ is the result of dilating $\\triangle ABC$ about point $C$ by a scale factor of $\\dfrac{1}{2}$.      **Determine whether each claim about the properties of $\\triangle ABC$ and $\\triangle A'B'C'$ is true or false.**   | |  :- | :-:| $\\overline{AB}$ and $\\overline{A'B'}$ are on distinct parallel lines. | | $\\overline{BC}$ and $\\overline{B'C'}$ are on the same line. | |",
+                                "images": [
+                                    {
+                                        "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. A Triangle A B C has point A at two, two, point B at eight, six, and Point C at six, ten.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/c4a411416a4d6c08d66ae7a5eba5f81c762dd350.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "True",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "False",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "True",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "False",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Are $\\overline{AB}$ and $\\overline{A'B'}$ on distinct parallel lines?  A dilation takes a line not passing through the center of the dilation to a parallel line, and leaves a line passing through the center unchanged.  [[☃ explanation 2]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The line through $\\overline{AB}$ does *not* pass through center $C$. So segments $\\overline{AB}$ and $\\overline{A'B'}$ **are on distinct parallel lines**.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Are $\\overline{BC}$ and $\\overline{B'C'}$ on the same line?  A dilation takes a line not passing through the center of the dilation to a parallel line, and leaves a line passing through the center unchanged.  [[☃ explanation 2]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The line through $\\overline{BC}$ does pass through center $C$. So segments $\\overline{BC}$ and $\\overline{B'C'}$ **are on the same line**.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Claims about pre-image and image | True or false  :- | :-: $\\overline{AB}$ and $\\overline{A'B'}$ are on distinct parallel lines. | True $\\overline{BC}$ and $\\overline{B'C'}$ are on the same line. | True    [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. A  pre-image Triangle A B C has point A at two, two, point B at eight, six, and Point C at six, ten. The image Triangle A prime B prime C prime has point A prime at four, six, point B prime at seven, eight, and Point C prime at six, ten.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/bed26db2cd5c0266f0c870e67cee509c607877b8.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Mapping to parallel or same line"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Triangle $\\triangle A'B'C'$ is the result of dilating $\\triangle ABC$ about point $P$ by a scale factor of $3$.     **Determine whether each claim about the properties of $\\triangle ABC$ and $\\triangle A'B'C'$ is true or false.**   | |  :- | :-:| $\\overline{AB}$ and $\\overline{A'B'}$ are on the same line. | | $\\overline{AC}$ and $\\overline{A'C'}$ are on distinct parallel lines. | |",
+                                "images": [
+                                    {
+                                        "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. A pre-image Triangle A B C has point A at ten, six, point B at thirteen, seven, and Point C at seven, twelve. A point P is at nine, eight.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/c69240a3f5043cee14085b72fb45f0badce56215.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "True",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "False",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "True",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "False",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Are $\\overline{AB}$ and $\\overline{A'B'}$ on the same line?  A dilation takes a line not passing through the center of the dilation to a parallel line, and leaves a line passing through the center unchanged.  [[☃ explanation 2]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The line through $\\overline{AB}$ does *not* pass through center $P$. So segments $\\overline{AB}$ and $\\overline{A'B'}$ **are not** on the same line.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Are $\\overline{AC}$ and $\\overline{A'C'}$ on distinct parallel lines?  A dilation takes a line not passing through the center of the dilation to a parallel line, and leaves a line passing through the center unchanged.  [[☃ explanation 1]]",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The line through $\\overline{AC}$ does pass through center $P$. So segments $\\overline{AC}$ and $\\overline{A'C'}$ **are not** on distinct parallel lines.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Claims about pre-image and image | True or false  :- | :-: $\\overline{AB}$ and $\\overline{A'B'}$ are on the same line. | False $\\overline{AC}$ and $\\overline{A'C'}$ are on distinct parallel lines. | False   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "The first quadrant of a coordinate plane. The x- and y-axes both scale by one. A pre-image Triangle A B C has point A at ten, six, point B at thirteen, seven, and Point C at seven, twelve. The image Triangle A prime B prime C prime has point A prime at twelve, two, point B prime at twenty-one, five, and Point C prime at three, twenty. A point P is at nine, eight.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/1e230d3e57a38ff9391c83370c2697f12ea4e864.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "problemType": "Mapping to parallel or same line"
+                    }
+                }
+            }
+        }
+    ]
+}

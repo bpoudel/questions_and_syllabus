@@ -1,0 +1,951 @@
+{
+    "standard_metadata": {
+        "standard_id": "8.SP.A.4",
+        "standard_description": "Understand that patterns of association can also be seen in bivariate categorical data by displaying frequencies and relative frequencies in a two-way table. Construct and interpret a two-way table summarizing data on two categorical variables collected from the same subjects. Use relative frequencies calculated for rows or columns to describe possible association between the two variables.",
+        "standard_title": "Analyze two-way frequency tables",
+        "standard_url": "https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-data/two-way-tables/e/reading-two-way-relative-frequency-tables"
+    },
+    "id": "xa61a478b",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Researchers once surveyed college students on their Facebook use. The following two-way table displays data for the  sample of students who responded to the survey.  **Approximately what percent of students in the sample do not use Facebook?**   *Round your answer to the nearest percent.*   %    Age | Uses Facebook | Does not use Facebook | TOTAL - | :-: |:-: |:-: $18$ to $22$ | $78$ | $4$ | $82$ $23\\,\\text{+}$ | $70$ | $67$ | $137$ **TOTAL** | $148$ | $71$ | $219$  [//]: # (A. Karpinski and A. Duberstein, “A description of Facebook use and academic performance among undergraduate and graduate students,” paper presented at the American Educational Research Association annual meeting, April 2009. Thanks to Aryn Karpinski for providing us with some original data from the study.)",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "32",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{% students that don't use Facebook}=\\dfrac{\\blueD{\\text{# students don't use Facebook}}}{\\greenD{\\text{total number of students}}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Age | Uses Facebook | Does not use Facebook | TOTAL - | :-: |:-: |:-: $18$ to $22$ | $78$ | $4$ | $82$ $23\\,\\text{+}$ | $70$ | $67$ | $137$ **TOTAL** | $148$ | $\\blueD{71}$ | $\\greenD{219}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\text{% students that don't use Facebook}=\\dfrac{\\blueD{71}}{\\greenD{219}}\\approx0.324\\approx32\\%$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Approximately $32\\%$ of students in the sample do not use Facebook.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 6 - Find and interpret relative frequencies"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Researchers once surveyed college students on their Facebook use. The following two-way table displays data for the  sample of students who responded to the survey.  **Approximately what percent of students  in the $18$ to $22$ age group use Facebook?**   *Round your answer to the nearest percent.*   %    Age | Uses Facebook | Does not use Facebook | TOTAL - | :-: |:-: |:-: $18$ to $22$ | $78$ | $4$ | $82$ $23\\,\\text{+}$ | $70$ | $67$ | $137$ **TOTAL** | $148$ | $71$ | $219$  [//]: # (A. Karpinski and A. Duberstein, “A description of Facebook use and academic performance among undergraduate and graduate students,” paper presented at the American Educational Research Association annual meeting, April 2009. Thanks to Aryn Karpinski for providing us with some original data from the study.)",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "95",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{% 18-22 year olds use Facebook}=\\dfrac{\\blueD{\\text{# 18-22 year olds use Facebook}}}{\\greenD{\\text{total number 18-22 year olds}}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Age | Uses Facebook | Does not use Facebook | TOTAL - | :-: |:-: |:-: $18$ to $22$ | $\\blueD{78}$ | $4$ | $\\greenD{82}$ $23\\,\\text{+}$ | $70$ | $67$ | $137$ **TOTAL** | $148$ | $71$ | $219$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\text{% 18-22 year olds use Facebook}=\\dfrac{\\blueD{78}}{\\greenD{82}}\\approx0.951\\approx95\\%$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Approximately $95\\%$ of students  in the $18$ to $22$ age group use Facebook.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 6 - Find and interpret relative frequencies"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Researchers once surveyed students on which superpower they would most like to have. The following two-way table displays data for the  sample of students who responded to the survey.  **What percent of students in the sample were male? **   *Round your answer to the nearest percent.*   %  Superpower | Male | Female | TOTAL - | :-: |:-: |:-: | Flight | $26$ | $11$ | $37$ Invisibility | $14$ | $31$ | $45$ Other | $10$ | $8$ | $18$ **TOTAL** | $50$ | $50$ | $100$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "50",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{percent of students who were male}=\\dfrac{\\blueD{\\text{# of males}}}{\\greenD{\\text{total number of students}}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Superpower | Male | Female | TOTAL - | :-: |:-: |:-: | Flight | $26$ | $11$ | $37$ Invisibility | $14$ | $31$ | $45$ Other | $10$ | $8$ | $18$ **TOTAL** | $\\blueD{50}$ | $50$ | $\\greenD{100}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\text{percent of students who were male}=\\dfrac{\\blueD{50}}{\\greenD{100}}=0.5=50\\%$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$50\\%$ of students in the sample were male.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 6 - Find and interpret relative frequencies"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Researchers once surveyed students on which superpower they would most like to have. The following two-way table displays data for the  sample of students who responded to the survey.  **What percent of males in the sample chose invisibility as their superpower?**   *Round your answer to the nearest percent.*   %  Superpower | Male | Female | TOTAL - | :-: |:-: |:-: | Flight | $26$ | $11$ | $37$ Invisibility | $14$ | $31$ | $45$ Other | $10$ | $8$ | $18$ **TOTAL** | $50$ | $50$ | $100$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "28",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{% of males who chose invisibility}=\\dfrac{\\blueD{\\text{# of males who chose invisibility}}}{\\greenD{\\text{total number of males}}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Superpower | Male | Female | TOTAL - | :-: |:-: |:-: | Flight | $26$ | $11$ | $37$ Invisibility | $\\blueD{14}$ | $31$ | $45$ Other | $10$ | $8$ | $18$ **TOTAL** | $\\greenD{50}$ | $50$ | $100$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\text{% of males who chose invisibility}=\\dfrac{\\blueD{14}}{\\greenD{50}}=0.28=28\\%$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$28\\%$ of males in the sample chose invisibility as their superpower.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 6 - Find and interpret relative frequencies"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A university surveyed its students on their opinions of campus housing. The following two-way table displays data for the sample of $200$ students who responded to the survey.  **What percent of males had a negative opinion of campus housing?**   *Round your answer to the nearest percent.*   %  Gender | Positive opinion | Negative opinion | Neutral opinion | TOTAL - | :-: |:-: | :-: | :-: Male | $40$ | $36$ | $14$ | $90$ Female | $42$ | $56$ | $12$ | $110$ **TOTAL** | $82$ | $92$ | $26$ | $200$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "40",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{% of males with negative opinion}=\\dfrac{\\blueD{\\text{# of males with negative opinion}}}{\\greenD{\\text{total number of males}}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Gender | Positive opinion | Negative opinion | Neutral opinion | TOTAL - | :-: |:-: | :-: | :-: Male | $40$ | $\\blueD{36}$ | $14$ | $\\greenD{90}$ Female | $42$ | $56$ | $12$ | $110$ **TOTAL** | $82$ | $92$ | $26$ | $200$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\text{% of males with negative opinion}=\\dfrac{\\blueD{36}}{\\greenD{90}}=0.4=40\\%$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$40\\%$ of males had a negative opinion of campus housing.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 6 - Find and interpret relative frequencies"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Researchers surveyed recent graduates of two different universities about their income. The following two-way table displays data for the  sample of graduates who responded to the survey.  **Approximately what percent of graduates in the sample had an income under $\\$20\\text{,}000?$**   *Round your answer to the nearest percent.*   %    Income | University A | University B | TOTAL - | :-: |:-: |:-: | Under $\\$20\\text{,}000$ | $35$ | $40$ | $75$ $\\$20\\text{,}000$ to $\\$39\\text{,}999$ | $90$ | $63$ | $153$ $\\$40\\text{,}000$ and over| $35$ | $37$ | $72$ **TOTAL** | $160$ | $140$ | $300$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "25",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{percent of graduates under }\\$20\\text{,}000=\\dfrac{\\blueD{\\text{# of graduates under }\\$20\\text{,}000}}{\\greenD{\\text{total number of graduates}}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Income | University A | University B | TOTAL - | :-: |:-: |:-: | Under $\\$20\\text{,}000$ | $35$ | $40$ | $\\blueD{75}$ $\\$20\\text{,}000$ to $\\$39\\text{,}999$ | $90$ | $63$ | $153$ $\\$40\\text{,}000$ and over| $35$ | $37$ | $72$ **TOTAL** | $160$ | $140$ | $\\greenD{300}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\text{percent of graduates under }\\$20\\text{,}000=\\dfrac{\\blueD{75}}{\\greenD{300}}=0.25=25\\%$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$25\\%$ of graduates in the sample had an income under $\\$20\\text{,}000.$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 6 - Find and interpret relative frequencies"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Researchers surveyed recent graduates of two different universities about their income. The following two-way table displays data for the  sample of graduates who responded to the survey.  **Approximately what percent of graduates from University A have an income under $\\$30\\text{,}000?$**   *Round your answer to the nearest percent.*   %    Income | University A | University B | TOTAL - | :-: |:-: |:-: | Under $\\$30\\text{,}000$ | $35$ | $40$ | $75$ $\\$30\\text{,}000$ to $\\$59\\text{,}999$ | $90$ | $63$ | $153$ $\\$60\\text{,}000$ and over| $35$ | $37$ | $72$ **TOTAL** | $160$ | $140$ | $300$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "22",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{% from Uni. A under }\\$30\\text{,}000=\\dfrac{\\blueD{\\text{# from Uni. A under }\\$30\\text{,}000}}{\\greenD{\\text{total number of graduates from Uni. A}}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Income | University A | University B | TOTAL - | :-: |:-: |:-: | Under $\\$30\\text{,}000$ | $\\blueD{35}$ | $40$ | $75$ $\\$30\\text{,}000$ to $\\$59\\text{,}999$ | $90$ | $63$ | $153$ $\\$60\\text{,}000$ and over| $35$ | $37$ | $72$ **TOTAL** | $\\greenD{160}$ | $140$ | $300$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\text{% from Uni. A under }\\$30\\text{,}000=\\dfrac{\\blueD{35}}{\\greenD{160}}=0.21875\\approx22\\%$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Approximately $22\\%$ of graduates from University A have an income under $\\$30\\text{,}000.$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 6 - Find and interpret relative frequencies"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Students were surveyed about their preference between dogs and cats. The following two-way table displays data for the  sample of students who responded to the survey.  **Approximately what percent of students in the sample prefer cats?**   *Round your answer to the nearest percent.*   %    Preference | Male | Female | TOTAL - | :-: |:-: |:-: | Prefers dogs | $36$ | $20$ | $56$ Prefers cats | $10$ | $26$ | $36$ No preference | $2$ | $6$ | $8$ **TOTAL** | $48$ | $52$ | $100$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "36",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{percent of students who prefer cats}=\\dfrac{\\blueD{\\text{# of students who prefer cats}}}{\\greenD{\\text{total number of students}}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Preference | Male | Female | TOTAL - | :-: |:-: |:-: | Prefers dogs | $36$ | $20$ | $56$ Prefers cats | $10$ | $26$ | $\\blueD{36}$ No preference | $2$ | $6$ | $8$ **TOTAL** | $48$ | $52$ | $\\greenD{100}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\text{percent of students who prefer cats}=\\dfrac{\\blueD{36}}{\\greenD{100}}=0.36=36\\%$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$36\\%$ of students in the sample prefer cats.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 6 - Find and interpret relative frequencies"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Teams in the National Football League in America are divided into two conferences: the AFC and the NFC. Some teams have animals as their mascots, and others do not. The following two-way table displays this data.  **Approximately what percent of teams have a non-animal mascot?**   *Round your answer to the nearest percent.*   %    Mascot | AFC | NFC | TOTAL - | :-: |:-: |:-: | Animal | $7$ | $8$ | $15$ Non-animal | $9$ | $8$ | $17$ **TOTAL** | $16$ | $16$ | $32$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "53",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{% teams with non-animal mascot}=\\dfrac{\\blueD{\\text{# teams with non-animal mascot}}}{\\greenD{\\text{total number of teams}}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Mascot | AFC | NFC | TOTAL - | :-: |:-: |:-: | Animal | $7$ | $8$ | $15$ Non-animal | $9$ | $8$ | $\\blueD{17}$ **TOTAL** | $16$ | $16$ | $\\greenD{32}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\text{% teams with non-animal mascot}=\\dfrac{\\blueD{17}}{\\greenD{32}}\\approx0.531\\approx53\\%$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Approximately $53\\%$ of teams have a non-animal mascot.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 6 - Find and interpret relative frequencies"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Teams in the National Football League in America are divided into two conferences: the AFC and the NFC. Some teams have animals as their mascots, and others do not. The following two-way table displays this data.  **What percent of teams are in the AFC?**   *Round your answer to the nearest percent.*   %    Mascot | AFC | NFC | TOTAL - | :-: |:-: |:-: | Animal | $7$ | $8$ | $15$ Non-animal | $9$ | $8$ | $17$ **TOTAL** | $16$ | $16$ | $32$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "50",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "$\\text{percent of teams in AFC}=\\dfrac{\\blueD{\\text{# of teams in AFC}}}{\\greenD{\\text{total number of teams}}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Mascot | AFC | NFC | TOTAL - | :-: |:-: |:-: | Animal | $7$ | $8$ | $15$ Non-animal | $9$ | $8$ | $17$ **TOTAL** | $\\blueD{16}$ | $16$ | $\\greenD{32}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\text{percent of teams in AFC}=\\dfrac{\\blueD{16}}{\\greenD{32}}=0.5=50\\%$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$50\\%$ of teams are in the AFC.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 6 - Find and interpret relative frequencies"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Tate works at an ice cream stand. Every customer can choose one of two toppings—sprinkles or chocolate chips. He recorded the age group and the chosen topping for a sample of $120$ customers. Here are the results:  Age group | Sprinkles | Chocolate chips | Neither | Total - | :-: | :-: | :-: |: -: Children | $27$ | $38$ | $7$ | $72$ Adults | $13$ | $22$ | $13$ | $48$ Total | $40$ | $60$ | $20$ | $120$  **Of the adults in the sample, what fraction ordered sprinkles?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$\\dfrac{13}{40}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{13}{48}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{13}{120}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{40}{120}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We need to know what proportion of adults ordered sprinkles, so we should focus on the adults row.  Age group | Sprinkles | Chocolate chips | Neither | Total - | -: | -: | -: | -: Children | $27$ | $38$ | $7$ | $72$ Adults | $\\boxed{13}$ | $\\boxed{22}$ | $\\boxed{13}$ | $\\boxed{48}$ Total | $40$ | $60$ | $20$ | $120$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Age group | Sprinkles | Chocolate chips | Neither | Total - | -: | -: | -: | -: Adults | $\\blueD{13}$ | $22$ | $13$ | $\\maroonD{48}$  $\\blueD{13}$ of $\\maroonD{48}$ adults ordered sprinkles.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Of the adults in the sample, $\\dfrac{\\blueD{13}}{\\maroonD{48}}$ ordered sprinkles.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "fraction"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A school collected some information about the experience of its teachers. Here is what they found:  || Years of teaching experience || Subject taught | Less than $5$ years | $5$ to $10$ years | More than $10$ years | Total - | :-: | :-: | :-: | :-: Math | $6$ | $1$ | $5$ | $12$ Science | $2$ | $8$ | $4$ | $14$ Social studies | $3$ | $9$ | $1$ | $13$ English | $4$ | $9$ | $2$ | $15$ Other | $7$ | $16$ | $3$ | $26$ Total | $22$ | $43$ | $15$ | $80$  **What fraction of English teachers have at least $5$ years of experience?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$\\dfrac{9}{15}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{9}{80}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{11}{15}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{11}{80}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We need to know what proportion of English teachers have at least $5$ years of experience, so we should focus on the English teachers row.  || Years of teaching experience || Subject taught | Less than $5$ years | $5$ to $10$ years | More than $10$ years | Total - | -: | -: | -: | -: Math | $6$ | $1$ | $5$ | $12$ Science | $2$ | $8$ | $4$ | $14$ Social studies | $3$ | $9$ | $1$ | $13$ English | $\\boxed{4}$ | $\\boxed{9}$ | $\\boxed{2}$ | $\\boxed{15}$ Other | $7$ | $16$ | $3$ | $26$ Total | $22$ | $43$ | $15$ | $80$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "|| Years of teaching experience || Subject taught | Less than $5$ years | $5$ to $10$ years | More than $10$ years | Total - | -: | -: | -: | -: English | $4$ | $\\blueD{9}$ | $\\blueD{2}$ | $\\maroonD{15}$  $\\blueD{9+2}=11$ of $\\maroonD{15}$ English teachers have at least $5$ years of experience.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\dfrac{\\blueD{11}}{\\maroonD{15}}$ of the English teachers have at least $5$ years of experience.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "fraction"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Researchers once surveyed college students on their Facebook use. The following two-way table displays data for the  sample of students who responded to the survey.  Age | Uses Facebook | Does not use Facebook | TOTAL - | :-: |:-: |:-: $18$ to $22$ | $78$ | $4$ | $82$ $23\\,\\text{+}$ | $70$ | $67$ | $137$ **TOTAL** | $148$ | $71$ | $219$  [//]: # (A. Karpinski and A. Duberstein, “A description of Facebook use and academic performance among undergraduate and graduate students,” paper presented at the American Educational Research Association annual meeting, April 2009. Thanks to Aryn Karpinski for providing us with some original data from the study.)  **Of students in the sample, what fraction were in the $23$ and above age category?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$\\dfrac{82}{219}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{137}{219}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{70}{137}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{70}{219}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We need to know what proportion of students were in the $23$ and above age category, so we should focus on the totals by age category column.  Age|Uses Facebook|Does not use Facebook|TOTAL -|:-:|:-:|:-: $18$ to $22$|$78$|$4$|$\\boxed{82}$ $23\\,\\text{+}$|$70$|$67$|$\\boxed{137}$ **TOTAL**|$148$|$71$|$\\boxed{219}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Age|TOTAL -|:-: $18$ to $22$|$82$ $23\\,\\text{+}$|$\\blueD{137}$ **TOTAL**|$\\maroonD{219}$  $\\blueD{137}$ of $\\maroonD{219}$ students were in the $23$ and above age category.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Of students in the sample, $\\dfrac{\\blueD{137}}{\\maroonD{219}}$ were in the $23$ and above age category.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "fraction"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Researchers once surveyed students on which superpower they would most like to have. The following two-way table displays data for the  sample of students who responded to the survey.  Superpower | Male | Female | TOTAL - | :-: |:-: |:-: | Flight | $26$ | $11$ | $37$ Invisibility | $14$ | $31$ | $45$ Other | $10$ | $8$ | $18$ **TOTAL** | $50$ | $50$ | $100$   **Of students in the sample, what fraction chose flight as their superpower?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$\\dfrac{37}{100}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{50}{100}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{26}{100}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{26}{50}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We need to know what proportion of students chose flight as their superpower, so we should focus on the totals by superpower column.  Superpower|Male|Female|TOTAL -|:-:|:-:|:-: Flight|$26$|$11$|$\\boxed{37}$ Invisibility|$14$|$31$|$\\boxed{45}$ Other|$10$|$8$|$\\boxed{18}$ **TOTAL**|$50$|$50$|$\\boxed{100}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Superpower|TOTAL -|:-: Flight|$\\blueD{37}$ Invisibility|$45$ Other|$18$ **TOTAL**|$\\maroonD{100}$  $\\blueD{37}$ of $\\maroonD{100}$ students chose flight as their superpower.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Of students in the sample, $\\dfrac{\\blueD{37}}{\\maroonD{100}}$ chose flight as their superpower.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "fraction"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A university surveyed its students on their opinions of campus housing. The following two-way table displays data for the sample of $200$ students who responded to the survey.  Gender | Positive opinion | Negative opinion | Neutral opinion | TOTAL - | :-: |:-: | :-: | :-: Male | $40$ | $36$ | $14$ | $90$ Female | $42$ | $56$ | $12$ | $110$ **TOTAL** | $82$ | $92$ | $26$ | $200$  **Of students in the sample, what fraction were male?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$\\dfrac{90}{200}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{90}{100}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{40}{200}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{82}{200}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We need to know what proportion of students were male, so we should focus on the totals by gender column.  Gender|Positive opinion|Negative opinion|Neutral opinion|TOTAL -|:-:|:-:|:-:|:-: Male|$40$|$36$|$14$|$\\boxed{90}$ Female|$42$|$56$|$12$|$\\boxed{110}$ **TOTAL**|$82$|$92$|$26$|$\\boxed{200}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Gender|TOTAL -|:-: Male|$\\blueD{90}$ Female|$110$ **TOTAL**|$\\maroonD{200}$  $\\blueD{90}$ of $\\maroonD{200}$ students were male.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Of students in the sample, $\\dfrac{\\blueD{90}}{\\maroonD{200}}$ were male.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "fraction"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A university surveyed its students on their opinions of campus housing. The following two-way table displays data for the sample of $200$ students who responded to the survey.  Gender | Positive opinion | Negative opinion | Neutral opinion | TOTAL - | :-: |:-: | :-: | :-: Male | $40$ | $36$ | $14$ | $90$ Female | $42$ | $56$ | $12$ | $110$ **TOTAL** | $82$ | $92$ | $26$ | $200$  **Of students in the sample, what fraction had a neutral opinion of campus housing?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$\\dfrac{26}{200}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{14}{26}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{82}{200}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{14}{200}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We need to know what proportion of students had a neutral opinion of campus housing, so we should focus on the totals by opinion row.  Gender|Positive opinion|Negative opinion|Neutral opinion|TOTAL -|:-:|:-:|:-:|:-: Male|$40$|$36$|$14$|$90$ Female|$42$|$56$|$12$|$110$ **TOTAL**|$\\boxed{82}$|$\\boxed{92}$|$\\boxed{26}$|$\\boxed{200}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Gender|Positive opinion|Negative opinion|Neutral opinion|TOTAL -|:-:|:-:|:-:|:-: **TOTAL**|$82$|$92$|$\\blueD{26}$|$\\maroonD{200}$  $\\blueD{26}$ of $\\maroonD{200}$ students had a neutral opinion of campus housing.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Of students in the sample, $\\dfrac{\\blueD{26}}{\\maroonD{200}}$ had a neutral opinion of campus housing.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "fraction"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Researchers surveyed recent graduates of two different universities about their income. The following two-way table displays data for the  sample of graduates who responded to the survey.  Income | University A | University B | TOTAL - | :-: |:-: |:-: | Under $\\$20\\text{,}000$ | $35$ | $40$ | $75$ $\\$20\\text{,}000$ to $\\$39\\text{,}999$ | $90$ | $63$ | $153$ $\\$40\\text{,}000$ and over| $35$ | $37$ | $72$ **TOTAL** | $160$ | $140$ | $300$   **Of graduates in the sample, what fraction came from university A?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$\\dfrac{160}{300}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{160}{100}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{35}{160}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{75}{300}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We need to know what proportion of graduates came from university A, so we should focus on the totals by university row.  Income|University A|University B|TOTAL -|:-:|:-:|:-: Under $\\$20\\text{,}000$|$35$|$40$|$75$ $\\$20\\text{,}000$ to $\\$39\\text{,}999$|$90$|$63$|$153$ $\\$40\\text{,}000$ and over|$35$|$37$|$72$ **TOTAL**|$\\boxed{160}$|$\\boxed{140}$|$\\boxed{300}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Income|University A|University B|TOTAL -|:-:|:-:|:-: **TOTAL**|$\\blueD{160}$|$140$|$\\maroonD{300}$  $\\blueD{160}$ of $\\maroonD{300}$ graduates came from university A.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Of graduates in the sample, $\\dfrac{\\blueD{160}}{\\maroonD{300}}$ came from university A.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "fraction"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Students were surveyed about their preference between dogs and cats. The following two-way table displays data for the  sample of students who responded to the survey.  Preference | Male | Female | TOTAL - | :-: |:-: |:-: | Prefers dogs | $36$ | $20$ | $56$ Prefers cats | $10$ | $26$ | $36$ No preference | $2$ | $6$ | $8$ **TOTAL** | $48$ | $52$ | $100$   **Of students in the sample, what fraction were male?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$\\dfrac{48}{100}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{36}{100}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{56}{100}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{52}{100}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We need to know what proportion of students were male, so we should focus on the totals by gender row.  Preference|Male|Female|TOTAL -|:-:|:-:|:-: Prefers dogs|$36$|$20$|$56$ Prefers cats|$10$|$26$|$36$ No preference|$2$|$6$|$8$ **TOTAL**|$\\boxed{48}$|$\\boxed{52}$|$\\boxed{100}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Preference|Male|Female|TOTAL -|:-:|:-:|:-: **TOTAL**|$\\blueD{48}$|$52$|$\\maroonD{100}$  $\\blueD{48}$ of $\\maroonD{100}$ students were male.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Of students in the sample, $\\dfrac{\\blueD{48}}{\\maroonD{100}}$ were male.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "fraction"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Students were surveyed about their preference between dogs and cats. The following two-way table displays data for the  sample of students who responded to the survey.  Preference | Male | Female | TOTAL - | :-: |:-: |:-: | Prefers dogs | $36$ | $20$ | $56$ Prefers cats | $10$ | $26$ | $36$ No preference | $2$ | $6$ | $8$ **TOTAL** | $48$ | $52$ | $100$   **Of females in the sample, what fraction prefer cats?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$\\dfrac{26}{52}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{26}{100}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{26}{36}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{36}{100}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We need to know what proportion of females prefer cats, so we should focus on the females column.  Preference|Male|Female|TOTAL -|:-:|:-:|:-: Prefers dogs|$36$|$\\boxed{20}$|$56$ Prefers cats|$10$|$\\boxed{26}$|$36$ No preference|$2$|$\\boxed{6}$|$8$ **TOTAL**|$48$|$\\boxed{52}$|$100$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Preference|Female -|:-: Prefers dogs|$20$ Prefers cats|$\\blueD{26}$ No preference|$6$ **TOTAL**|$\\maroonD{52}$  $\\blueD{26}$ of $\\maroonD{52}$ females prefer cats.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Of females in the sample, $\\dfrac{\\blueD{26}}{\\maroonD{52}}$ prefer cats.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "fraction"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Teams in the National Football League in America are divided into two conferences: the AFC and the NFC. Some teams have animals as their mascots, and others do not. The following two-way table displays this data.  Mascot | AFC | NFC | TOTAL - | :-: |:-: |:-: | Animal | $7$ | $8$ | $15$ Non-animal | $9$ | $8$ | $17$ **TOTAL** | $16$ | $16$ | $32$   **Of teams in the NFC, what fraction have an animal mascot?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$\\dfrac{8}{16}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{8}{15}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{15}{32}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{8}{32}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "We need to know what proportion of NFC teams have an animal mascot, so we should focus on the NFC column.  Mascot|AFC|NFC|TOTAL -|:-:|:-:|:-: Animal|$7$|$\\boxed{8}$|$15$ Non-animal|$9$|$\\boxed{8}$|$17$ **TOTAL**|$16$|$\\boxed{16}$|$32$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Mascot|NFC -|:-: Animal|$\\blueD{8}$ Non-animal|$8$ **TOTAL**|$\\maroonD{16}$  $\\blueD{8}$ of $\\maroonD{16}$ NFC teams have an animal mascot.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Of teams in the NFC, $\\dfrac{\\blueD{8}}{\\maroonD{16}}$ have an animal mascot.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "fraction"
+                    }
+                }
+            }
+        }
+    ]
+}

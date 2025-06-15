@@ -1,0 +1,766 @@
+{
+    "standard_metadata": {
+        "standard_id": "6.G.A.2",
+        "standard_description": "Find the volume of a right rectangular prism with fractional edge lengths by packing it with unit cubes of the appropriate unit fraction edge lengths, and show that the volume is the same as would be found by multiplying the edge lengths of the prism. Apply the formulas <i>V = l w h</i> and <i>V = b h</i> to find volumes of right rectangular prisms with fractional edge lengths in the context of solving real-world and mathematical problems.",
+        "standard_title": "Volume word problems: fractions & decimals",
+        "standard_url": "https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-geometry-topic/cc-6th-volume-with-fractions/e/volume-word-problems-with-fractions"
+    },
+    "id": "xd94fe24c",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Amanda and Mary each have a box of popcorn.  **Whose box holds more popcorn?**    **How much more popcorn does the bigger box hold than the smaller box?**   $\\text{cm}^3$  $\\text{Amanda's popcorn container:}$  >>    $\\text{Mary's popcorn container:}$  >>",
+                                "images": [
+                                    {
+                                        "alt": "An image of a popcorn bucket in the shape of a rectangular prism. The length and width are labeled 10 centimeters. The height is labeled 13.5 centimeters.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-images/a4d508e3438ce959a6b144085ffef98f785411c9.svg"
+                                    },
+                                    {
+                                        "alt": "An image of a popcorn bucket in the shape of a rectangular prism. The length and width are labeled 8 centimeters. The height is labeled 20 centimeters.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-images/936d403fe0a955142cae7d508e77efb7a01ab2c2.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "70",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "Amanda's",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Mary's",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Each popcorn box is a rectangular prism. We can find the volume of a rectangular prism if we know its length, width, and height.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{Volume of Amanda's popcorn box} &= \\text{length} \\cdot \\text{width} \\cdot \\text{height} \\\\\\\\ &= 10 \\cdot 10 \\cdot 13.5 \\\\\\\\ &= 100 \\cdot 13.5 \\\\\\\\ &= \\blueD{1350}\\\\\\\\ \\end{align}$  Amanda's popcorn box can hold $\\blueD{1350} \\text{ cm}^3$ of popcorn.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{Volume of Mary's popcorn box} &= \\text{length} \\cdot \\text{width} \\cdot \\text{height} \\\\\\\\ &= 8 \\cdot 8 \\cdot 20 \\\\\\\\ &= 64 \\cdot 20 \\\\\\\\ &= \\maroonD{1280}\\\\\\\\ \\end{align}$   Mary's popcorn box can hold $\\maroonD{1280} \\text{ cm}^3$ of popcorn.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Amanda's popcorn box can hold more popcorn because $\\blueD{1350}$ is greater than $\\maroonD{1280}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Now let's find out how much more popcorn.  >$\\blueD{1350} - \\maroonD{1280} = 70$  Amanda's popcorn box can hold $70 \\text{ cm}^3$ more popcorn than Mary's popcorn box.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The answers:  - Amanda's popcorn box can hold more popcorn.  - The bigger box holds $70 \\text{ cm}^3$ more popcorn than the smaller box",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "New Sample Items"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Jeff and George each have a box of popcorn.  **Whose box holds more popcorn?**    **How much more popcorn does the bigger box hold than the smaller box?**   $\\text{cm}^3$  $\\text{Jeff's popcorn container:}$  >>     $\\text{George's popcorn container:}$  >>",
+                                "images": [
+                                    {
+                                        "alt": "An image of a popcorn bucket in the shape of a rectangular prism. The length and width are labeled 10 centimeters. The height is labeled 20.5 centimeters.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-images/80931967858febfecabd591a0a3b4788637185ce.svg"
+                                    },
+                                    {
+                                        "alt": "An image of a popcorn bucket in the shape of a rectangular prism. The length and width are labeled 8 centimeters. The height is labeled 30 centimeters.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-images/ece6ef3eab2cd3006b639a4ea367828a7ec49463.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "130",
+                                        "correct": true
+                                    },
+                                    {
+                                        "content": "Jeff's",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "George's",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Each popcorn box is a rectangular prism. We can find the volume of a rectangular prism if we know its length, width, and height.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{Volume of Jeff's popcorn box} &= \\text{length} \\cdot \\text{width} \\cdot \\text{height} \\\\\\\\ &= 10 \\cdot 10 \\cdot 20.5 \\\\\\\\ &= 100 \\cdot 20.5 \\\\\\\\ &= \\blueD{2050}\\\\\\\\ \\end{align}$  Jeff's popcorn box can hold $\\blueD{2050} \\text{ cm}^3$ of popcorn.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{Volume of George's popcorn box} &= \\text{length} \\cdot \\text{width} \\cdot \\text{height} \\\\\\\\ &= 8 \\cdot 8 \\cdot 30 \\\\\\\\ &= 64 \\cdot 30 \\\\\\\\ &= \\maroonD{1920}\\\\\\\\ \\end{align}$   George's popcorn box can hold $\\maroonD{1920} \\text{ cm}^3$ of popcorn.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Jeff's popcorn box can hold more popcorn because $\\blueD{2050}$ is greater than $\\maroonD{1920}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Now let's find out how much more popcorn.  >$\\blueD{2050} - \\maroonD{1920} = 130$  Jeff's popcorn box can hold $130 \\text{ cm}^3$ more popcorn than George's popcorn box.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The answers:  - Jeff's popcorn box can hold more popcorn.  - The bigger box holds $130 \\text{ cm}^3$ more popcorn than the smaller box.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "New Sample Items"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Ben bought the enormous box of juice shown below. He drinks $450$ cubic centimeters of juice each day.   **How many days does it take Ben to drink the box of juice?**     >>  $$",
+                                "images": [
+                                    {
+                                        "alt": "An image of a juice box in the shape of a rectangular prism. The length is labeled 15 centimeters. The width is labeled 10 and 1 half centimeters. The height is labeled 20 centimeters.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-images/cacde2689da72f3222aaba36fc1a0a3a49e8ffdf.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$1$ day",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$4$ days",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$7$ days",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$10$ days",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The juice box is a rectangular prism. We can find the volume of a rectangular prism if we know its length, width, and height.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{Volume of the juice box} &= \\text{length} \\cdot \\text{width}\\cdot \\text{height}\\\\\\\\ &= 10 \\dfrac12 \\cdot 15   \\cdot 20\\\\\\\\ &= 10 \\frac12 \\cdot 300 \\\\\\\\ &= 10.5 \\cdot 300\\\\\\\\ &= \\blueD{3150} \\\\\\\\ \\end{align}$  The juice box has a volume of $\\blueD{3150} \\text{ cm}^3$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{Days Ben has juice for} &= \\dfrac{\\text{Total volume of juice box}}{\\text{Volume Ben drinks each day}}  \\\\\\\\ &= \\dfrac{\\blueD{3150}}{450} \\\\\\\\ &= 7 \\\\\\\\ \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The answer is $7$ days.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "New Sample Items"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Bruce bought the enormous box of juice shown below. Each day he plans to drink $630$ cubic centimeters of juice.       **How many days will it take Bruce to drink the box of juice?**",
+                                "images": [
+                                    {
+                                        "alt": "An image of a juice box in the shape of a rectangular prism. The length is labeled 20 centimeters. The width is labeled 10 and 1 half centimeters. The height is labeled 30 centimeters.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-images/c3d81c8af5a5ad667e71879df04f5aab6b89c2cd.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$1$ day",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$4$ days",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$7$ days",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$10$ days",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The juice box is a rectangular prism. We can find the volume of a rectangular prism if we know its length, width, and height.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{Volume of the juice box} &= \\text{length} \\cdot \\text{width}\\cdot \\text{height}\\\\\\\\ &= 20 \\cdot 10 \\frac12 \\cdot 30 \\\\\\\\ &= 20 \\cdot 30 \\cdot 10 \\frac12\\\\\\\\ &= 600 \\cdot 10 \\frac12 \\\\\\\\ &= 600 \\cdot 10.5 \\\\\\\\ &= \\blueD{6300} \\\\\\\\ \\end{align}$  The juice box has a volume of $\\blueD{6300} \\text{ cm}^3$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{Days Bruce has juice for} &= \\dfrac{\\text{Total volume of juice box}}{\\text{Volume Bruce drinks each day}}  \\\\\\\\ &= \\dfrac{\\blueD{6300}}{630} \\\\\\\\ &= 10 \\\\\\\\ \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The answer is $10$ days.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "New Sample Items"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The Johnson family is moving, and they need a truck with at least $55$ cubic meters of space. The moving trucks they have to choose from are shown in the table below.  **Which is the smallest truck that they can use?**    || **Moving truck storage dimensions** ||  | Length $\\text{(m})$ | Width $\\text{(m})$ | Height $\\text{(m})$  - | :-: | :-: | :-: **Small truck** | $3 \\dfrac13$ | $2$| $2$ **Medium truck** | $5$ | $2 \\dfrac23$| $3$ **Large truck** | $7$ | $3$| $3 \\dfrac23$",
+                                "images": [
+                                    {
+                                        "alt": "An image of a moving truck. The back of the moving truck is a rectangular prism.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-images/2022eb7da32159385ddc7f9a1fb9cddd7f2656bf.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Small truck",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Medium truck",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Large truck",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Each truck is a rectangular prism. We can find the volume of a rectangular prism if we know its length, width, and height.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{Volume of the small truck} &= \\text{length} \\cdot \\text{width} \\cdot \\text{height} \\\\\\\\ &= 3 \\dfrac13 \\cdot 2 \\cdot 2 \\\\\\\\ &= \\dfrac{10}{3} \\cdot 2 \\cdot 2 \\\\\\\\ &= \\dfrac{10 \\cdot 2 \\cdot 2}{3} \\\\\\\\ &= \\dfrac{40}{3} \\\\\\\\ \\end{align}$  The small truck is too small because it  has only $\\dfrac{40}{3}$ cubic meters of space and the Johnson family needs $55$ cubic meters of space.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "What about the medium truck?   $\\begin{align} \\text{Volume of the medium truck} &= \\text{length} \\cdot \\text{width} \\cdot \\text{height} \\\\\\\\ &= 5 \\cdot 2 \\dfrac23 \\cdot 3 \\\\\\\\ &= 5 \\cdot \\dfrac{8}{3} \\cdot3 \\\\\\\\ &= 5 \\cdot \\dfrac{8}{\\cancel3} \\cdot\\cancel3 \\\\\\\\ &= 5 \\cdot 8 \\\\\\\\ &= 40 \\\\\\\\ \\end{align}$  The medium truck is also too small because it has only $40$ cubic meters of space and the Johnson family needs $55$ cubic meters of space.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "What about the large truck?  $\\begin{align} \\text{Volume of the large truck} &= \\text{length} \\cdot \\text{width} \\cdot \\text{height} \\\\\\\\ &= 7 \\cdot 3  \\cdot 3 \\dfrac23 \\\\\\\\ &= 7 \\cdot 3  \\cdot \\dfrac{11}{3}\\\\\\\\ &= 7 \\cdot \\cancel3 \\cdot \\dfrac{11}{\\cancel3} \\\\\\\\ &= 7 \\cdot 11 \\\\\\\\ &= 77 \\\\\\\\ \\end{align}$  The large truck will work because it has $77$ cubic meters of space and the Johnson family needs only $55$ cubic meters of space.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The large truck is the smallest truck they can use.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "New Sample Items"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The Jones family is moving, and they need a truck with at least $40$ cubic meters of space. The moving trucks they have to choose from are shown in the table below.  **Which is the smallest truck that they can use?**    || **Moving truck storage dimensions** ||  | Length $\\text{(m})$ | Width $\\text{(m})$ | Height $\\text{(m})$  - | :-: | :-: | :-: **Small truck** | $4$ | $3$| $3 \\dfrac12$ **Medium truck** | $5$ | $3 \\dfrac13$| $4$ **Large truck** | $6 \\dfrac14$ | $4$| $4$",
+                                "images": [
+                                    {
+                                        "alt": "An image of a moving truck. The back of the moving truck is a rectangular prism.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-images/2022eb7da32159385ddc7f9a1fb9cddd7f2656bf.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "Small truck",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Medium truck",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Large truck",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Each truck is a rectangular prism. We can find the volume of a rectangular prism if we know its length, width, and height.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{Volume of the small truck} &= \\text{length} \\cdot \\text{width} \\cdot \\text{height} \\\\\\\\ &= 4 \\cdot 3 \\cdot 3 \\dfrac12 \\\\\\\\ &= 4 \\cdot 3 \\cdot \\dfrac72 \\\\\\\\ &= \\dfrac{4 \\cdot 3 \\cdot 7}{2} \\\\\\\\ &= \\dfrac{84}{2} \\\\\\\\ &= 42 \\\\\\\\ \\end{align}$   The small truck will work because it has $42$ cubic meters of space and the Jones family needs only $40$ cubic meters of space.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The small truck is the smallest truck they can use.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "New Sample Items"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Katie is buying a refrigerator for her apartment. She's choosing between a regular fridge and a gigantic fridge (details shown in the table below). She notices that the gigantic fridge costs $3$ times as much as the regular fridge.  **How many times as great is the volume of the gigantic fridge as the volume of the regular fridge?**     | Area of base  | Height  |  Price - | :-: | :-: | :-: **Regular fridge** | $1\\text{ m}^2$| $2\\text{ m}$| $\\$200$ **Gigantic fridge** | $2\\text{ m}^2$ | $\\dfrac52\\text{ m}$| $\\$600$",
+                                "images": [
+                                    {
+                                        "alt": "An image of a refrigerator.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-images/1abaaf88354b5988e6ddebc1f4bd11554e8aa1dd.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$2$ times",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$2.5$ times",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$3$ times",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$3.5$ times",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Each fridge is a rectangular prism. We can find the volume of a rectangular prism if we know its base and height.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{Volume of the regular fridge} &= \\text{base} \\cdot \\text{height}\\\\\\\\ &= 1 \\cdot 2 \\\\\\\\ &= \\blueD{2} \\\\\\\\ \\end{align}$  The regular fridge has a volume of $\\blueD{2} \\text{ m}^3$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{Volume of the gigantic fridge} &= \\text{base} \\cdot \\text{height}\\\\\\\\ &= 2 \\cdot \\dfrac52 \\\\\\\\ &= \\maroonD{5} \\\\\\\\ \\end{align}$  The gigantic fridge has a volume of $\\maroonD{5} \\text{ m}^3$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} \\text{Times as great} &= \\dfrac{\\text{Volume of gigantic fridge}}{\\text{Volume of regular fridge}}  \\\\\\\\ &= \\dfrac{\\maroonD{5}}{\\blueD{2}} \\\\\\\\ &= 2.5 \\\\\\\\ \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The volume of the gigantic fridge is $2.5$ times as great as the volume of the regular fridge.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "New Sample Items"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Whitney is making a strawberry cake for her brother’s birthday.  The cake pan is a right rectangular prism $20\\text{ cm}$ wide by $28\\text{ cm}$ long.  Whitney puts $1848\\text{ cm}^3$ of batter into the pan.  **How deep is the cake batter?**   $\\text{cm}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "3.3",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let $h$ be the depth of the batter in centimeters.  Since the pan is  a right rectangular prism,  the volume of batter is $l\\times w \\times h$:   $\\qquad 28 \\,\\text{cm} \\times 20\\, \\text{cm} \\times h =1848\\text{ cm}^3$.  Let's solve for $h$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align} 560\\text{ cm}^2 \\times h &= 1848\\,\\text{cm}^3 \\\\ h &=3.3 \\text{ cm} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The depth of the cake batter is $3.3 \\text{ cm}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Old Items to Keep"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Martene got a small aquarium for her birthday.  The aquarium is a right rectangular prism $18.5\\,\\text{cm}$ long by $15\\,\\text{cm}$ wide.  Martene put $3885\\text{ cm}^3$ of water in the aquarium.      **How deep is the water in the aquarium?**    $\\text{ cm}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "14",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let $h$ be the depth of the water in centimeters.  Since the aquarium is a right rectangular prism, the volume of water  is $l\\times w \\times h$:  $\\begin{align} 18.5\\,\\text{cm} \\times 15 \\,\\text{cm} \\times h &= 3885\\,\\text{cm}^3 \\\\ 277.5 \\text{ cm}^2 \\times h &= 3885 \\,\\text{cm}^3\\\\ h &=14 \\text{ cm} .\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The depth of the water is $14 \\text{ cm}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Old Items to Keep"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The Olympic-size pool at the recreational center  is a right rectangular prism $50\\, \\text{m}$ long and $25 \\,\\text{m}$ wide.  The pool contains $3000\\text{ m}^3$ of water.  **How deep is the water in the pool?**   $\\text{m}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "2.4",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let $h$ be the depth of the water in meters.  Since the pool is  a right rectangular prism,  the volume of water is $l\\times w \\times h$:   $\\qquad 50 \\,\\text{m} \\times 25\\, \\text{m} \\times h =3000\\text{ m}^3$.  Let's solve for $h$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We have    $\\begin{align} 1250 \\,\\text{m}^2 \\times h &=3000\\text{ m}^3\\\\ h&=2.4\\text{ m}.\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The depth of the water is $2.4$ $\\text{m}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Old Items to Keep"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Cristian put a large rock  on the bottom of the terrarium he made for his pet turtle. The rock is a right rectangular prism $10\\text{ cm}$ wide by $12\\text{ cm}$ long. The rock displaces  $1800 \\text{ cm}^3$ of water.  **How high is the rock?**   $\\text{ cm}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "15",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let $h$ be the height of the rock in centimeters.  Since the rock is a right rectangular prism, the volume of the water displaced by the rock is $l \\times w \\times h$:  $\\begin{align} 10\\,\\text{cm} \\times 12 \\,\\text{cm} \\times h &= 1800\\,\\text{cm}^3 \\\\ 120 \\text{ cm}^2 \\times h &= 1800 \\,\\text{cm}^3\\\\ h &=15 \\text{ cm} \\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The height of the rock is $15\\text{ cm}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Old Items to Keep"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The YMCA lap pool is a right rectangular prism $36.8\\, \\text{m}$ long by $20 \\,\\text{m}$ wide.  The pool contains $1472 \\text{ m}^3$ of water.  **How deep is the water in the pool?**   $\\text{m}$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "2",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Since the pool is a right rectangular prism, the volume of the water is $l\\times w \\times h$:   $\\qquad 36.8 \\,\\text{m} \\times 20\\, \\text{m} \\times h =1472\\text{ m}^3$.  Let's solve for $h$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "$\\begin{align}736\\text{ m}^2 \\times h&=1472\\text{ m}^3\\\\ h&=2\\text{ m}\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The depth of the water is $2\\text{ m}$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Old Items to Keep"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "John wants to know the volume of his gold ring in cubic centimeters. He gets a glass in the shape of a rectangular prism with a base $3\\text{ cm}$ by $2\\text{ cm}$ and fills the glass with $3.1\\text{ cm}$ of water. John drops his gold ring in the glass and measures the new height of the water to be $3.7\\text{ cm}$.   **What is the volume of John's ring in cubic centimeters?**  $\\qquad$ $\\text{cm}^3$",
+                                "images": [
+                                    {
+                                        "alt": "2 rectangular prisms that represent the volume of a glass. The first glass has a length of 3 centimeters, a width of 2 centimeters, and the water has a height of 3.1 centimeters. The second glass has a length of 3 centimeters, a width of 2 centimeters, and the water has a height of 3.7 centimeters.  There is a gold ring in the second glass of water.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-images/6a170f3839757fae9ea33580d7e13567cc0e63e8.png"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "3.6",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The change in volume of the water is caused by adding the volume of Johns's gold ring to the volume of the water. Let's find the change in volume to find the volume of the gold ring.  Volume $V$ of a rectangular prism can be calculated using the formula:  $\\text{V} = \\text{length}\\cdot\\text{width}\\cdot\\text{height}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The length $\\green3\\text{ cm}$ and width $\\purple2\\text{ cm}$ of the water in the rectangular glass does not change, only the height of the water changes.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The change in height of the water is $\\blue{(3.7-3.1)}\\text{ cm}$. Let's find $V$ of the change in water:  $\\begin{align} V_{\\text{ring}} &= \\text{length}\\cdot\\text{width}\\cdot(\\text{change in height})\\\\ &= \\green3\\cdot\\purple2\\cdot\\blue{(3.7-3.1)}\\\\&= \\green3\\cdot\\purple2\\cdot\\blue{(0.6)}\\\\ &= \\red{3.6}\\text{ cm}^3\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The volume of John's gold ring is $\\red{3.6}\\text{ cm}^3$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Old Items to Keep"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Laura wants to know the volume of her gold ring in cubic centimeters. She gets a rectangular glass with a base $7\\text{ cm}$ by $4.5\\text{ cm}$ and fills the glass $8.8\\text{ cm}$ high with water. Laura drops her gold ring in the glass and measures the new height of the water to be $9.2\\text{ cm}$.   **What is the volume of Laura's ring in cubic centimeters?**  $\\qquad$ $\\text{cm}^3$",
+                                "images": [
+                                    {
+                                        "alt": "2 rectangular prisms that represent the volume of a glass. The first glass has a length of 7 centimeters, a width of 4.5 centimeters, and the water has a height of 8.8 centimeters. The second glass has a length of 7 centimeters, a width of 4.5 centimeters, and the water has a height of 9.2 centimeters.  There is a gold ring in the second glass of water.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-images/5f38d5460b81036876dd3b0ea534d8420417ca1b.png"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "12.6",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The change in volume of the water is caused by adding the volume of Laura's gold ring to the volume of the water. Let's find the change in volume to find the volume of the gold ring.  Volume $V$ of a rectangular prism can be calculated using the formula:  $\\text{V} = \\text{length}\\cdot\\text{width}\\cdot\\text{height}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The length $\\green{7}\\text{ cm}$ and width $\\purple{4.5}\\text{ cm}$ of the water in the rectangular glass does not change, but the height does change.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The change in height of the water is $\\blue{(9.2-8.8)}\\text{ cm}$. Let's find $V$ of the change in water:  $\\begin{align} \\text{V} &= \\text{length}\\cdot\\text{width}\\cdot\\text{height}\\\\ &= \\green7\\cdot\\purple{4.5}\\cdot\\blue{(9.2-8.8)}\\\\&= \\green7\\cdot\\purple{4.5}\\cdot\\blue{(0.4)}\\\\ &= \\red{12.6}\\text{ cm}^3\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The volume of Laura's gold ring is $\\red{12.6}\\text{ cm}^3$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Old Items to Keep"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Jamie wants to know the volume of his gold ring in cubic centimeters. He gets a rectangular glass with a base $3\\text{ cm}$ by $2\\text{ cm}$ and fills the glass $4 \\text{ cm}$ high with water. Jamie drops his gold ring in the glass and measures the new height of the water to be $4.25\\text{ cm}$.   **What is the volume of Jamie's ring in cubic centimeters?**  $\\qquad$ $\\text{cm}^3$",
+                                "images": [
+                                    {
+                                        "alt": "2 rectangular prisms that represent the volume of a glass. The first glass has a length of 3 centimeters, a width of 2 centimeters, and the water has a height of 4 centimeters. The second glass has a length of 3 centimeters, a width of 2 centimeters, and the water has a height of 4.25 centimeters.  There is a gold ring in the second glass of water.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-images/4a7a29fcb6dfbfd4c2d22ac8e3e40d81eec21f21.png"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "1.5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "The change in volume of the water is caused by adding the volume of Jamie's gold ring to the volume of the water. Let's find the change in volume to find the volume of the gold ring.  Volume $V$ of a rectangular prism can be calculated using the formula:  $\\text{V} = \\text{length}\\cdot\\text{width}\\cdot\\text{height}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The length $\\green3\\text{ cm}$ and width $\\purple2\\text{ cm}$ of the water in the rectangular glass does not change, but the height does change.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The change in height of the water is $\\blue{(4.25-4)}\\text{ cm}$. Let's find $V$ of the change in water:  $\\begin{align} \\text{V} &= \\text{length}\\cdot\\text{width}\\cdot\\text{height}\\\\ &= \\green3\\cdot\\purple2\\cdot\\blue{(4.25-4)}\\\\&= \\green3\\cdot\\purple2\\cdot\\blue{(0.25)}\\\\ &= \\red{1.5}\\text{ cm}^3.\\end{align}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The volume of Jamie's gold ring is $\\red{1.5}\\text{ cm}^3$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Old Items to Keep"
+                    }
+                }
+            }
+        }
+    ]
+}

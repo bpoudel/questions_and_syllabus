@@ -1,0 +1,677 @@
+{
+    "standard_metadata": {
+        "standard_id": "7.RP.A.2.a",
+        "standard_description": "Decide whether two quantities are in a proportional relationship, e.g., by testing for equivalent ratios in a table or graphing on a coordinate plane and observing whether the graph is a straight line through the origin.",
+        "standard_title": "Identify proportional relationships",
+        "standard_url": "https://www.khanacademy.org/math/cc-seventh-grade-math/cc-7th-ratio-proportion/cc-7th-proportional-rel/e/analyzing-and-identifying-proportional-relationships-2"
+    },
+    "id": "x5dd585ca",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following table shows Jace's earnings based on the number of hours that he works.   |  | | - | :-: | :-:| :-: Number of hours | $1$ | $2$| $3$ Jace's Earnings | $\\$20$ | $\\$30$ | $\\$40$   **Are Jace's earnings proportional to the number of hours that he works?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Yes",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "A relationship between two quantities is proportional if the ratio between those quantities is always equivalent.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "For each number of hours worked, let's write the relationship of earnings to number of hours as a ratio in simplest form.  $\\dfrac{\\$20}{1} = \\$20 ~~~~~~~~~\\dfrac{\\$30}{2} = \\$15 ~~~~~~~~~\\dfrac{\\$40}{3} \\approx \\$13.33$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The ratios between the two quantities *cannot* be simplified to the same number, so the quantities are *not* proportional.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The answer: No",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Table Context"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "You are making lemonade. The amount of sugar you need depends on the amount of lemonade mix you use.  |  | || - | :-: | :-:| :-: Cups of sugar| $\\dfrac13$ | $1$| $3$ Packets of lemonade mix | $1$ | $3$ | $9$   **Is the amount of sugar you need proportional to the amount of lemonade mix you use?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Yes",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "A relationship between two quantities is proportional if the ratio between those quantities is always equivalent.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "For each column in the table, let's write the ratio (in simplest form) of cups of sugar to packets of lemonade mix.  >$\\dfrac{1}{\\frac13} = 3 ~~~~~~~~~\\dfrac{3}{1} = 3 ~~~~~~~~~\\dfrac{9}{3} = 3$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "All of the ratios between the two quantities can be simplified to $3$, so the quantities are proportional.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The answer: Yes",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Table Context"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following table shows the time it takes to ride the elevator to three different floors of a skyscraper.   |  | || - | :-: | :-:| :-: Floor number | $4$ | $16$| $64$ Time needed (in minutes) | $0.25$ | $1$ | $4$   **Based on this table, is the floor number proportional to the time it takes to get there?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Yes",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "A relationship between two quantities is proportional if the ratio between those quantities is always equivalent.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "For each floor number, let's write the relationship of time (in minutes) to floor number as a ratio in simplest form.  >$\\dfrac{0.25}{4} =\\dfrac1{16} ~~~~~~~~~\\dfrac{1}{16} =\\dfrac1{16} ~~~~~~~~~\\dfrac{4}{64} =\\dfrac1{16}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "All of the ratios between the two quantities can be simplified to $\\dfrac1{16}$, so the quantities are proportional.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The answer: Yes",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Table Context"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The following table shows the height of a plant at different ages.   |  | || - | :-: | :-:| :-: Age (in weeks) | $3$ | $7$| $10$ Height (in centimeters) | $12$ | $35$ | $60$   **Is the height of the plant proportional to its age?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Yes",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "A relationship between two quantities is proportional if the ratio between those quantities is always equivalent.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "For each number of weeks, let's write the relationship of height to number of weeks as a ratio in simplest form.  >$\\dfrac{12}{3} = 4 ~~~~~~~~~\\dfrac{35}{7} = 5 ~~~~~~~~~\\dfrac{60}{10} = 6$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The ratios between the two quantities *cannot* be simplified to the same number, so the quantities are *not* proportional.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The answer: No",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Table Context"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Does the following table show a proportional relationship between the variables $x$ and $y$?**   |  | || - | :-: | :-:| :-: $x$ | $\\dfrac14$ | $\\dfrac24$ | $\\dfrac34$ $y$ | $3$ | $6$| $9$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Yes",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "A relationship between two quantities is proportional if the ratio between those quantities is always equivalent.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "For each value of $x$, let's write the relationship of $y$ to $x$ as a ratio in simplest form.  >$\\dfrac{3}{\\frac14} = 12 ~~~~~~~~~\\dfrac{6}{\\frac24} = 12 ~~~~~~~~~\\dfrac{9}{\\frac34} = 12$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "All of the ratios between the two quantities can be simplified to $12$, so the quantities are proportional.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The answer: Yes",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Table Context"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Does the following table show a proportional relationship between the variables $x$ and $y$?**   |  | || - | :-: | :-:| :-: $x$ | $\\dfrac56$ | $\\dfrac{25}{6}$ | $\\dfrac{125}{6}$ $y$ | $2$ | $10$| $50$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Yes",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "A relationship between two quantities is proportional if the ratio between those quantities is always equivalent.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "For each value of $x$, let's write the relationship of $y$ to $x$ as a ratio in simplest form.  >$\\dfrac{2}{\\frac56} = 2\\dfrac25 ~~~~~~~~~\\dfrac{10}{\\frac{25}6}  = 2\\dfrac25 ~~~~~~~~~\\dfrac{50}{\\frac{125}6}  = 2\\dfrac25$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "All of the ratios between the two quantities can be simplified to $2\\dfrac25$, so the quantities are proportional.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The answer: Yes",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Table Context"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Does the following table show a proportional relationship between the variables $g$ and $h$?**   |  | || - | :-: | :-:| :-: $g$ | $3$ | $6$ | $9$ $h$ | $9$ | $36$| $81$",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Yes",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "A relationship between two quantities is proportional if the ratio between those quantities is always equivalent.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "For each value of $g$, let's write the relationship of $h$ to $g$ as a ratio in simplest form.  >$\\dfrac{9}{3} = 3 ~~~~~~~~~\\dfrac{36}{6} = 6 ~~~~~~~~~\\dfrac{81}{9} = 9$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The ratios between the two quantities *cannot* be simplified to the same number, so the quantities are *not* proportional.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The answer: No",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Table Context"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A grocery store charges $\\$3.02$ per milk jug and $\\$0.10$ per grocery bag. You never buy the bags because you bring your own.  **Is the total price you pay proportional to the number of milk jugs you buy?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Yes",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "In a proportional relationship, the ratio between the two quantities is always the same.  Is the ratio of total price to number of jugs of milk always the same?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's make a table to see the total price for different numbers of milk jugs.  |  | | - | :-: | :-:| :-: Number of milk jugs | $1$ | $2$| $3$ Total price | $\\$3.02$ | $\\$6.04$ | $\\$9.06$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "For each number of milk jugs bought, let's write the relationship of total price to number of milk jugs as a ratio in simplest form.  |  | | - | :-: | :-:| :-: Number of milk jugs | $1$ | $2$| $3$ Total price | $\\$3.02$ | $\\$6.04$ | $\\$9.06$ Ratio | $\\dfrac{3.02}{1}=3.02$ | $\\dfrac{6.04}{2}=3.02$ | $\\dfrac{9.06}{3}=3.02$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "All of the ratios between the two quantities can be simplified to $\\$3.02$, so the quantities are proportional.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The answer: Yes",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Context"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Today, Howell has $75$ kiwis. He will eat $2$ of them every day.  **Is the number of kiwis Howell has left proportional to the number of days that pass?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Yes",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "In a proportional relationship, the ratio between the two quantities is always the same.  Is the ratio of kiwis left to number of days always the same?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's make a table to see the number of kiwis left after different numbers of days.  |  | | - | :-: | :-:| :-: Days | $1$ | $2$| $3$ Number of kiwis | $73$ | $71$ | $69$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "For each number of days, let's write the relationship of number of kiwis left to number of days as a ratio in simplest form.  |  | | - | :-: | :-:| :-: Days | $1$ | $2$| $3$ Number of kiwis | $73$ | $71$ | $69$ Ratio | $\\dfrac{73}{1}=73$ | $\\dfrac{71}{2}=35 \\dfrac{1}{2}$ | $\\dfrac{69}{3}=23$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The ratios between the two quantities *cannot* be simplified to the same number, so the quantities are *not* proportional.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The answer: No",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Context"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Apples are on sale for $\\$3.12$ per kilogram.    **Is the total cost of the apples proportional to the total mass?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Yes",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's make a table to see the total price for different masses.  |  | || - | :-: | :-:| :-: Mass (in kilograms)| $1$ | $2$| $3$ Price| $\\$3.12$ | $\\$6.24$ | $\\$9.36$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "For each mass, let's write the relationship of total price to mass as a ratio in simplest form.  >$\\dfrac{\\$3.12}{1} = \\$3.12 ~~~~~~~~~\\dfrac{\\$6.24}{2} = \\$3.12 ~~~~~~~~~\\dfrac{\\$9.36}{3} = \\$3.12$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "All of the ratios between the two quantities can be simplified to $\\$3.12$, so the quantities are proportional.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The answer: Yes",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Context"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "At the beginning of the year, Adrian's savings account balance was $\\$28$.  Each week, he deposits another $\\$15$ into that account, and he doesn't spend any of his savings.  **Is his savings account balance proportional to the number of weeks since the start of the year?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Yes",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's make a table to see the account for different numbers of weeks.  |  | || - | :-: | :-:| :-: Weeks | $1$ | $2$| $3$ Account value | $\\$43$ | $\\$58$ | $\\$73$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "For each number of weeks, let's write the relationship of account value to number of weeks as a ratio in simplest form.  >$\\dfrac{\\$43}{1} = \\$43 ~~~~~~~~~\\dfrac{\\$58}{2} = \\$29 ~~~~~~~~~\\dfrac{\\$73}{3} \\approx \\$24.33$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The ratios between the two quantities *cannot* be simplified to the same number, so the quantities are *not* proportional.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The answer: No",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Context"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "At the gas station, gas usually costs $\\$3$. This month, there's a sale: for every drink you purchase you save $\\$0.20$ on gas.  **Assuming your sale savings are less than the cost of your gas, are your total savings on gas proportional to the number of drinks you purchase?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Yes",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's make a table to see the total savings for different numbers of drinks.  |  | | - | :-: | :-:| :-: Number of drinks | $1$ | $2$| $3$ Total savings | $\\$0.20$ | $\\$0.40$ | $\\$0.60$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "For each number of drinks, let's write the relationship of total savings to number of drinks as a ratio in simplest form.  |  |  -:-: | :-:| :-: $\\dfrac{\\$0.20}{1} = \\$0.20$ | $\\dfrac{\\$0.40}{2} = \\$0.20$ | $\\dfrac{\\$0.60}{3} = \\$0.20$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "All of the ratios between the two quantities can be simplified to $\\$0.20$, so the quantities are proportional.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The answer: Yes",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Context"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Jimmy receives his first $3$ video games free then pays $\\$50$ for each game after that.   **Is the amount of money he spends on video games proportional to the number of games he owns?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Yes",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's make a table to see the total price for different numbers of video games.  |  | || - | :-: | :-:| :-: Number of video games | $1$ | $5$| $10$ Total price | $\\$0$ | $\\$100$ | $\\$350$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "For each number of video games Jimmy gets, let's write the relationship of total price to number of video games as a ratio in simplest form.  >$\\dfrac{\\$0}{1} = \\$0 ~~~~~~~~~\\dfrac{\\$100}{5} = \\$20 ~~~~~~~~~\\dfrac{\\$350}{10} = \\$35$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The ratios between the two quantities *cannot* be simplified to the same number, so the quantities are *not* proportional.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The answer: No",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Context"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Anna does sit-ups to get ready for her first triathlon. When she starts, she does a sit-up every $2$ seconds. But, as she gets tired, each sit-up takes longer and longer to do.  **Is the number of sit-ups Anna does proportional to the time she spends doing them?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Yes",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "No",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "A relationship between two quantities is proportional if the ratio between those quantities is always equivalent.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Let's make up some numbers to imagine how this sit-up scenario might play out:  |  | || - | :-: | :-:| :-: Total sit-ups | $1$ | $10$| $100$ Total time (seconds) | $2$ | $25$ | $300$ Sit-ups to seconds ratio| $1:2$ | $2:5$ | $1:3$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The sit-up to seconds ratio changes over time because Anna's sit-up rate slows down as she gets tired.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The answer: No",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Context"
+                    }
+                }
+            }
+        }
+    ]
+}

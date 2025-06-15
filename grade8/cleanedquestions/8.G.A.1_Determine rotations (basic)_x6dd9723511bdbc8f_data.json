@@ -1,0 +1,827 @@
+{
+    "standard_metadata": {
+        "standard_id": "8.G.A.1",
+        "standard_description": "Verify experimentally the properties of rotations, reflections, and translations:",
+        "standard_title": "Determine rotations (basic)",
+        "standard_url": "https://www.khanacademy.org/math/cc-eighth-grade-math/geometric-transformations/rotations-8th/e/determine-rotations--basic-"
+    },
+    "id": "x6dd9723511bdbc8f",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Point $A'$ is the image of point $A$ under a rotation about the origin, $(0,0)$.      **Determine the angles of rotation.**",
+                                "images": [
+                                    {
+                                        "alt": "An XY coordinate plane. The horizontal x axis runs from negative 8 to 8 in intervals of 1. The vertical y axis runs from negative 8 to 8 in intervals of 1. A solid point labeled A is plotted at (negative 1, 5). A solid point labeled A prime is plotted at (5, 1).",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/165007d4ba0da47eb31fd6a529611ac2b2e3f3f5.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$90^\\circ$ clockwise",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$90^\\circ$ counterclockwise",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$180^\\circ$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$270^\\circ$ clockwise",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$270^\\circ$ counterclockwise",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Imagine a circle that passes through point $A$ with a center at the origin.  What portion of the circle do we rotate through to reach the image? In which direction?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We need to rotate point $A$ through $\\dfrac{3}{4}$ of the circle counterclockwise to reach the image $A'$, so that is $270^\\circ$ counterclockwise.    [[☃ image 1]]  We need to rotate point $A$ through $\\dfrac{1}{4}$ of the circle clockwise to reach the image $A'$, so that is $90^\\circ$ clockwise.  We note that $270^\\circ+90^\\circ=360^\\circ$.",
+                                    "images": [
+                                        {
+                                            "alt": "An XY coordinate plane. The horizontal x axis runs from negative 8 to 8 in intervals of 1. The vertical y axis runs from negative 8 to 8 in intervals of 1. A solid point labeled A is plotted at (negative 1, 5). A solid point labeled A prime is plotted at (5, 1). There is a circle with a center at the origin with a radius of approximately 5.1 units.  A line segment starts at the origin and ends at point A. A line segment starts at the origin and ends at point A prime. An angle is formed from point A to point A prime with an arrow curving around the circle counterclockwise.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/ea368abc1e1b3ac72557acdef39d62b96487ed1d.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The angles of rotation for point $A$ are:  - $270^\\circ$ counterclockwise - $90^\\circ$ clockwise",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1 - 8.1.6"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Quadrilateral $A'B'C'D'$ is the image of quadrilateral $ABCD$ under a rotation about the origin, $(0,0)$.     **Determine the angles of rotation.**",
+                                "images": [
+                                    {
+                                        "alt": "An XY coordinate plane with 2 quadrilaterals graphed.  The horizontal x axis runs left to right from negative 8 to 8 in intervals of 1.  The vertical y axis runs up and down from negative 8 to 8 in intervals of 1. The blue quadrilateral has 4 vertices.  Point A is plotted at (negative 2, negative 6), point B is plotted at (negative 3, negative 6), point C is plotted at (negative 4, negative 3), and point D is plotted at (1, negative 4). The red quadrilateral has 4 vertices. Point A prime is plotted at (6, negative 2), point B prime is plotted at (6, negative 3), point C prime is plotted at (3, negative 4), and point D prime is plotted at (4, 1). ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/c07224d63cad2b062ec10d5fefe19ec19292070d.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$90^\\circ$ clockwise",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$90^\\circ$ counterclockwise",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$180^\\circ$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$270^\\circ$ clockwise",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$270^\\circ$ counterclockwise",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's examine the rotation of a single point, such as point $C$. This will tell us the angle of rotation, since all points undergo the same transformation.  Imagine a circle that passes through point $C$ with a center at the origin.  What portion of the circle do we rotate through to reach the image? In which direction?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We need to rotate point $C$ through $\\dfrac{1}{4}$ of the circle counterclockwise to reach the image $C'$, so that is $90^\\circ$ counterclockwise.    [[☃ image 1]]  We need to rotate point $C$ through $\\dfrac{3}{4}$ of the circle clockwise to reach the image $C'$, so that is $270^\\circ$ clockwise.  We note that $90^\\circ+270^\\circ=360^\\circ$.",
+                                    "images": [
+                                        {
+                                            "alt": "An XY coordinate plane with 1 circle and 2 quadrilaterals graphed.  The horizontal x axis runs left to right from negative 8 to 8 in intervals of 1.  The vertical y axis runs up and down from negative 8 to 8 in intervals of 1. The circle passes through the points (negative 5, 0), (0, 5), (5, 0), (0, negative 5). The blue quadrilateral has 4 vertices.  Point A is plotted at (negative 2, negative 6), point B is plotted at (negative 3, negative 6), point C is plotted at (negative 4, negative 3), and point D is plotted at (1, negative 4). The red quadrilateral has 4 vertices. Point A prime is plotted at (6, negative 2), point B prime is plotted at (6, negative 3), point C prime is plotted at (3, negative 4), and point D prime is plotted at (4, 1).  There are two green lines segments. 1 line segment starts at the origin and ends at point C at (negative 4, negative 3. 1 line segment starts at the origin and ends at point C prime (3, negative 4).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/ec55ecf887fdf51185f56fc94bd912d0af43aa6c.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The angles of rotation for quadrilateral $ABCD$ are:  - $90^\\circ$ counterclockwise - $270^\\circ$ clockwise",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1 - 8.1.6"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Point $A'$ is the image of point $A$ under a rotation about the origin, $(0,0)$.      **Determine the angles of rotation.**",
+                                "images": [
+                                    {
+                                        "alt": "An XY coordinate plane. The horizontal x axis runs from negative 8 to 8 in intervals of 1. The vertical y axis runs from negative 8 to 8 in intervals of 1. A solid point labeled A is plotted at (negative 3, 4). A solid point labeled A prime is plotted at (3, negative 4).",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/58ed65c52be1944c23af9969d4f3a9aec6b76a20.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$90^\\circ$ clockwise",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$90^\\circ$ counterclockwise",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$180^\\circ$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$270^\\circ$ clockwise",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$270^\\circ$ counterclockwise",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Imagine a circle that passes through point $A$ with a center at the origin.  What portion of the circle do we rotate through to reach the image? In which direction?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We need to rotate point $A$ through $\\dfrac{1}{2}$ of the circle to reach the image $A'$, so that is $180^\\circ$.    [[☃ image 1]]  We could reach this position by rotating either clockwise or counterclockwise, so we do not need to give the direction.",
+                                    "images": [
+                                        {
+                                            "alt": "An XY coordinate plane. The horizontal x axis runs from negative 8 to 8 in intervals of 1. The vertical y axis runs from negative 8 to 8 in intervals of 1. A solid point labeled A is plotted at (negative 3, 4). A solid point labeled A prime is plotted at (3, negative 4). There is a circle with a center at the origin with a radius of 5 units.  A line segment starts at the origin and ends at point A. A line segment starts at the origin and ends at point A prime. An angle is formed from point A to point A prime with an arrow curving around the circle counterclockwise.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/96dedbdef24757834256cfb3bbbafb315d8b7315.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The angle of rotation for point $A$ is:  - $180^\\circ$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1 - 8.1.6"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Quadrilateral $A'B'C'D'$ is the image of quadrilateral $ABCD$ under a rotation about the origin, $(0,0)$.      **Determine the angles of rotation.**",
+                                "images": [
+                                    {
+                                        "alt": "An XY coordinate plane with 2 quadrilaterals graphed.  The horizontal x axis runs left to right from negative 8 to 8 in intervals of 1.  The vertical y axis runs up and down from negative 8 to 8 in intervals of 1. The blue quadrilateral has 4 vertices.  Point A is plotted at (negative 2, negative 6), point B is plotted at negative 3, negative 6), point C is plotted at negative 4, negative 3), and point D is plotted at 1, negative 4). The red quadrilateral has 4 vertices. Point A prime is plotted at (6, negative 2), point B prime is plotted at (6, negative 3), point C prime is plotted at (3, negative 4), and point D prime is plotted at (4, 1). ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/14546acb3e3484136a293975ce9aa41d97a1d3b7.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$90^\\circ$ clockwise",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$90^\\circ$ counterclockwise",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$180^\\circ$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$270^\\circ$ clockwise",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$270^\\circ$ counterclockwise",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's examine the rotation of a single point, such as point $C$. This will tell us the angle of rotation, since all points undergo the same transformation.  Imagine a circle that passes through point $C$ with a center at the origin.  What portion of the circle do we rotate through to reach the image? In which direction?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We need to rotate point $C$ through $\\dfrac{1}{2}$ of the circle to reach the image $C'$, so that is $180^\\circ$.    [[☃ image 1]]  We could reach this position by rotating either clockwise or counterclockwise, so we do not need to give the direction.",
+                                    "images": [
+                                        {
+                                            "alt": "An XY coordinate plane with 2 quadrilaterals graphed.  The horizontal x axis runs left to right from negative 8 to 8 in intervals of 1.  The vertical y axis runs up and down from negative 8 to 8 in intervals of 1. The blue quadrilateral has 4 vertices.  Point A is plotted at (2, 4), point B is plotted at (1, 5), point C is plotted at (negative 4, 5), and point D is plotted at (2, 3). The red quadrilateral has 4 vertices. Point A prime is plotted at (negative 2, negative 4), point B prime is plotted at (negative 1, negative 5), point C prime is plotted at (4, negative 5), and point D prime is plotted at (negative 2, negative 3). ",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/ef23681f98db6563d52fed51d6a0de624a1830cc.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The angle of rotation for quadrilateral $ABCD$ is:   - $180^\\circ$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1 - 8.1.6"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "$\\triangle A'B'C'$ is the image of $\\triangle ABC$ under a rotation about the origin, $(0,0)$.     **Determine the angles of rotation.**",
+                                "images": [
+                                    {
+                                        "alt": "An XY coordinate plane with 2 triangles graphed.  The horizontal x axis runs left to right from negative 8 to 8 in intervals of 1.  The vertical y axis runs up and down from negative 8 to 8 in intervals of 1. The blue triangle has 3 vertices.  Point A is plotted at (negative 5, 2), point B is plotted at (negative 6, negative 3), and point C is plotted at (negative 4, 1). The red triangle has 3 vertices. Point A prime is plotted at (negative 2, negative 5), point B prime is plotted at (3, negative 6), and point C prime is plotted at (negative 1, negative 4).",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/4fb26c72b23141da1c468c66847e80f0fa915099.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$90^\\circ$ clockwise",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$90^\\circ$ counterclockwise",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$180^\\circ$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$270^\\circ$ clockwise",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$270^\\circ$ counterclockwise",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's examine the rotation of a single point, such as point $C$. This will tell us the angle of rotation, since all points undergo the same transformation.  Imagine a circle that passes through point $C$ with a center at the origin.  What portion of the circle do we rotate through to reach the image? In which direction?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We need to rotate point $C$ through $\\dfrac{1}{4}$ of the circle counterclockwise to reach the image $C'$, so that is $90^\\circ$ counterclockwise.    [[☃ image 1]]  We need to rotate point $C$ through $\\dfrac{3}{4}$ of the circle clockwise to reach the image $C'$, so that is $270^\\circ$ clockwise.  We note that $90^\\circ+270^\\circ=360^\\circ$.",
+                                    "images": [
+                                        {
+                                            "alt": "An XY coordinate plane with 1 circle and 2 triangles graphed.  The horizontal x axis runs left to right from negative 8 to 8 in intervals of 1.  The vertical y axis runs up and down from negative 8 to 8 in intervals of 1. The circle passes through the points (negative 4, 1), (negative 1, negative 4), (4, negative 1), (4, 1). The blue triangle has 3 vertices.  Point A is plotted at (negative 5, 2), point B is plotted at (negative 6, negative 3), and point C is plotted at (negative 4, 1). The red triangle has 3 vertices. Point A prime is plotted at (negative 2, negative 5), point B prime is plotted at (3, negative 6), and point C prime is plotted at (negative 1, negative 4). There are two green lines segments. 1 line segment starts at the origin and ends at point C at (negative 4, 1). 1 line segment starts at the origin and ends at point C prime (negative 1, negative 4).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/eddcf6233f7ec136388a168571e5731ea9c64a4d.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The angles of rotation for $\\triangle ABC$ are:  - $90^\\circ$ counterclockwise - $270^\\circ$ clockwise",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1 - 8.1.6"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "$\\triangle A'B'C'$ is the image of $\\triangle ABC$ under a rotation about the origin, $(0,0)$.     **Determine the angles of rotation.**",
+                                "images": [
+                                    {
+                                        "alt": "An XY coordinate plane with 2 triangles graphed.  The horizontal x axis runs left to right from negative 8 to 8 in intervals of 1.  The vertical y axis runs up and down from negative 8 to 8 in intervals of 1. The blue triangle has 3 vertices.  Point A is plotted at (0, 0), point B is plotted at (negative 3, negative 3), and point C is plotted at (negative 4, negative 6). The red triangle has 3 vertices. Point A prime is plotted at (0, 0), point B prime is plotted at (negative 3, 3), and point C prime is plotted at (negative 6, 4).",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/3710b16c479f9fd4e2c5ff1eb98088e000cd44ea.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$90^\\circ$ clockwise",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$90^\\circ$ counterclockwise",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$180^\\circ$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$270^\\circ$ clockwise",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$270^\\circ$ counterclockwise",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's examine the rotation of a single point, such as point $C$. This will tell us the angle of rotation, since all points undergo the same transformation.  Imagine a circle that passes through point $C$ with a center at the origin.  What portion of the circle do we rotate through to reach the image? In which direction?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We need to rotate point $C$ through $\\dfrac{3}{4}$ of the circle counterclockwise to reach the image $C'$, so that is $270^\\circ$ counterclockwise.     [[☃ image 1]]  We need to rotate point $C$ through $\\dfrac{1}{4}$ of the circle clockwise to reach the image $C'$, so that is $90^\\circ$ clockwise.  We note that $270^\\circ+90^\\circ=360^\\circ$.",
+                                    "images": [
+                                        {
+                                            "alt": "An XY coordinate plane with 1 circle and 2 triangles graphed.  The horizontal x axis runs left to right from negative 8 to 8 in intervals of 1.  The vertical y axis runs up and down from negative 8 to 8 in intervals of 1. The circle passes through the points (negative 6, 4), (negative 4, negative 6), (6, negative 4), (6, 4). The blue triangle has 3 vertices.  Point A is plotted at (0, 0), point B is plotted at (negative 3, negative 3), and point C is plotted at (negative 4, negative 6). The red triangle has 3 vertices. Point A prime is plotted at (0, 0), point B prime is plotted at (negative 3, 3), and point C prime is plotted at (negative 6, 4). There are two green lines segments. 1 line segment starts at the origin and ends at point C at (negative 6, 4). 1 line segment starts at the origin and ends at point C prime (negative 6, negative 4).",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/16e3ed569fa14b2740fd59a319783a4614843f12.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The angles of rotation for $\\triangle ABC$ are:  - $270^\\circ$ counterclockwise - $90^\\circ$ clockwise",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1 - 8.1.6"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Point $A'$ is the image of point $A$ under a rotation about point $P$.      **Determine the angles of rotation.**",
+                                "images": [
+                                    {
+                                        "alt": "3 solid points. The bottom, left most point is labeled A prime. The middle point is labeled P. The top, right most point is labeled A.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/7a900fa853bb4de138edb4d14a2bce982f71bfcb.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$90^\\circ$ clockwise",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$90^\\circ$ counterclockwise",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$180^\\circ$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$270^\\circ$ clockwise",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$270^\\circ$ counterclockwise",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Imagine a circle that passes through point $A$ with a center at point $P$.  What portion of the circle do we rotate through to reach the image? In which direction?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We need to rotate point $A$ through $\\dfrac{1}{2}$ of the circle to reach the image $A'$, so that is $180^\\circ$.    [[☃ image 1]]  We could reach this position by rotating either clockwise or counterclockwise, so we do not need to give the direction.  We note that $180^\\circ+180^\\circ=360^\\circ$.",
+                                    "images": [
+                                        {
+                                            "alt": "A circle passes through points labeled A and A prime and its center is at the solid point labeled P. An angle is formed from point A to point A prime with an arrow curving around the circle counterclockwise.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/a9f6abd5ba1ae668429f4e2b032a26698785249f.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The angle of rotation for point $A$ is:  - $180^\\circ$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2 - 8.1.2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Quadrilateral $A'B'C'D'$ is the image of quadrilateral $ABCD$ under a rotation about point $Q$.     **Determine the angles of rotation.**",
+                                "images": [
+                                    {
+                                        "alt": "A quadrilateral labeled Q and a rotated copy of it.  The solid point represents the center of rotation. The quadrilateral is rotated to the left of center and has vertices labeled A, B, C, and D. The rotated quadrilateral has vertices labeled A prime, B prime, C prime, and D prime. One vertex of quadrilateral Q is at 12 o'clock, and the corresponding vertex of the rotated copy is at 4 o'clock.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/42d02de65929340f96e28cacee46ff090ff6b1da.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$90^\\circ$ clockwise",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$90^\\circ$ counterclockwise",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$180^\\circ$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$270^\\circ$ clockwise",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$270^\\circ$ counterclockwise",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's examine the rotation of a single point, such as point $A$. This will tell us the angle of rotation, since all points undergo the same transformation.  Imagine a circle that passes through point $A$ with a center at point $Q$.  What portion of the circle do we rotate through to reach the image? In which direction?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We need to rotate point $A$ through $\\dfrac{1}{4}$ of the circle counterclockwise to reach the image $A'$, so that is $90^\\circ$ counterclockwise.    [[☃ image 1]]  We need to rotate point $A$ through $\\dfrac{3}{4}$ of the circle clockwise to reach the image $A'$, so that is $270^\\circ$ clockwise.  We note that $90^\\circ+270^\\circ=360^\\circ$.",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral labeled Q and a rotated copy of it.  The solid point represents the center of rotation. The quadrilateral is rotated to the left of center and has vertices labeled A, B, C, and D. The rotated quadrilateral has vertices labeled A prime, B prime, C prime, and D prime. One vertex of quadrilateral Q is at 12 o'clock, and the corresponding vertex of the rotated copy is at 4 o'clock. There is a circle with a center at point Q that passes through point A and point A prime. There are two green lines segments. 1 line segment starts at point Q and ends at point A. 1 line segment starts at Point Q and ends at point A prime.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/04f2412fac99ea67f25e71491e2a9dddf1b8bf22.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The angles of rotation for quadrilateral $ABCD$ are:  - $90^\\circ$ counterclockwise - $270^\\circ$ clockwise",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2 - 8.1.2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Quadrilateral $A'B'C'D'$ is the image of quadrilateral $ABCD$ under a rotation about point $Q$.     **Determine the angles of rotation.**",
+                                "images": [
+                                    {
+                                        "alt": "A quadrilateral labeled Q and a rotated copy of it.  The solid point represents the center of rotation. The quadrilateral is rotated to the right of center and has vertices labeled A, B, C, and D. The rotated quadrilateral has vertices labeled A prime, B prime, C prime, and D prime. One vertex of quadrilateral Q is at 10 o'clock, and the corresponding vertex of the rotated copy is at 1 o'clock.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/72e195e07fbe7ca51ba7ce92e22e5246a153072b.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$90^\\circ$ clockwise",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$90^\\circ$ counterclockwise",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$180^\\circ$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$270^\\circ$ clockwise",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$270^\\circ$ counterclockwise",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's examine the rotation of a single point, such as point $B$. This will tell us the angle of rotation, since all points undergo the same transformation.  Imagine a circle that passes through point $B$ with a center at point $Q$.  What portion of the circle do we rotate through to reach the image? In which direction?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We need to rotate point $B$ through $\\dfrac{3}{4}$ of the circle counterclockwise to reach the image $B'$, so that is $270^\\circ$ counterclockwise.     [[☃ image 1]]  We need to rotate point $B$ through $\\dfrac{1}{4}$ of the circle clockwise to reach the image $B'$, so that is $90^\\circ$ clockwise.  We note that $270^\\circ+90^\\circ=360^\\circ$.",
+                                    "images": [
+                                        {
+                                            "alt": "A quadrilateral labeled Q and a rotated copy of it.  The solid point represents the center of rotation. The quadrilateral is rotated to the right of center and has vertices labeled A, B, C, and D. The rotated quadrilateral has vertices labeled A prime, B prime, C prime, and D prime. One vertex of quadrilateral Q is at 10 o'clock, and the corresponding vertex of the rotated copy is at 1 o'clock. There is a circle with a center at point Q that passes through point B, point D, point B prime, and point D prime. There are two green lines segments. 1 line segment starts at point Q and ends at point B. 1 line segment starts at Point Q and ends at point B prime.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/5bbf67b5a48c1d65628f2834ca1ae345322d9805.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The angles of rotation for quadrilateral $ABCD$ are:  - $270^\\circ$ counterclockwise - $90^\\circ$ clockwise",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2 - 8.1.2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "$\\triangle A'B'C'$ is the image of $\\triangle ABC$ under a rotation about point $P$.      **Determine the angles of rotation.**",
+                                "images": [
+                                    {
+                                        "alt": "A triangle and a rotated copy of it.  The solid point labeled P represents the center of rotation. The triangle is rotated to the right of center and has vertices labeled A, B, and C. The rotated triangle has vertices labeled A prime, B prime, and C prime. One vertex of quadrilateral Q is at 12 o'clock, and the corresponding vertex of the rotated copy is at 6 o'clock. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/5b35f4d54ebc6f56584276641dd68be37f674400.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$90^\\circ$ clockwise",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$90^\\circ$ counterclockwise",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$180^\\circ$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$270^\\circ$ clockwise",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$270^\\circ$ counterclockwise",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's examine the rotation of a single point, such as point $C$. This will tell us the angle of rotation, since all points undergo the same transformation.  Imagine a circle that passes through point $C$ with a center at point $P$.  What portion of the circle do we rotate through to reach the image? In which direction?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We need to rotate point $C$ through $\\dfrac{1}{2}$ of the circle to reach the image $C'$, so that is $180^\\circ$.    [[☃ image 1]]  We could reach this position by rotating either clockwise or counterclockwise, so we do not need to give the direction.  We note that $180^\\circ+180^\\circ=360^\\circ$.",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle and a rotated copy of it.  The solid point labeled P represents the center of rotation. The triangle is rotated to the right of center and has vertices labeled A, B, and C. The rotated triangle has vertices labeled A prime, B prime, and C prime. One vertex of quadrilateral Q is at 12 o'clock, and the corresponding vertex of the rotated copy is at 6 o'clock. There is a circle with a center at point P that passes through point C and point C prime. There are two green lines segments. 1 line segment starts at point P and ends at point C. 1 line segment starts at Point P and ends at point C prime.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/837608f0e1f1199e92bf2da0ac4912c5fff30430.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The angle of rotation for $\\triangle ABC$ is:  - $180^\\circ$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2 - 8.1.2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Point $A'$ is the image of point $A$ under a rotation about point $Q$.     **Determine the angles of rotation.**",
+                                "images": [
+                                    {
+                                        "alt": "3 solid points. The bottom, left most point is labeled A prime. The middle point is labeled Q. The right most point is labeled A.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/c78077123b00d2932579a21dc8f0898a2d0b5105.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$90^\\circ$ clockwise",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$90^\\circ$ counterclockwise",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$180^\\circ$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$270^\\circ$ clockwise",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$270^\\circ$ counterclockwise",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Imagine a circle that passes through point $A$ with a center at point $Q$.  What portion of the circle do we rotate through to reach the image? In which direction?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We need to rotate point $A$ through $\\dfrac{3}{4}$ of the circle counterclockwise to reach the image $A'$, so that is $270^\\circ$ counterclockwise.    [[☃ image 1]]  We need to rotate point $A$ through $\\dfrac{1}{4}$ of the circle clockwise to reach the image $A'$, so that is $90^\\circ$ clockwise.  We note that $270^\\circ+90^\\circ=360^\\circ$.",
+                                    "images": [
+                                        {
+                                            "alt": "A circle passes through points labeled A and A prime and its center is at the solid point labeled Q. An angle is formed from point A to point A prime with an arrow curving around the circle counterclockwise.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/8690e384ca7c9c630fcc30cc768342fc724bb25a.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The angles of rotation for point $A$ are:  - $270^\\circ$ counterclockwise - $90^\\circ$ clockwise",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2 - 8.1.2"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "$\\triangle A'B'C'$ is the image of $\\triangle ABC$ under a rotation about point $B$.     **Determine the angles of rotation.**",
+                                "images": [
+                                    {
+                                        "alt": "A triangle and a rotated copy of it.  The solid point labeled B represents the center of rotation. The triangle is rotated to the left of center and has vertices labeled A, B, and C. The rotated triangle has vertices labeled A prime, B prime, and C prime. One vertex of triangle Q is at 10 o'clock, and the corresponding vertex of the rotated copy is at 6 o'clock. ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/2c7d4868425a2560ed963a50c452032168fce9c3.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$90^\\circ$ clockwise",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$90^\\circ$ counterclockwise",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$180^\\circ$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$270^\\circ$ clockwise",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$270^\\circ$ counterclockwise",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Let's examine the rotation of a single point, such as point $C$. This will tell us the angle of rotation, since all points undergo the same transformation.  Imagine a circle that passes through point $C$ with a center at point $B$.  What portion of the circle do we rotate through to reach the image? In which direction?",
+                                    "images": []
+                                },
+                                {
+                                    "content": "We need to rotate point $C$ through $\\dfrac{1}{4}$ of the circle counterclockwise to reach the image $C'$, so that is $90^\\circ$ counterclockwise.    [[☃ image 1]]  We need to rotate point $C$ through $\\dfrac{3}{4}$ of the circle clockwise to reach the image $C'$, so that is $270^\\circ$ clockwise.  We note that $90^\\circ+270^\\circ=360^\\circ$.",
+                                    "images": [
+                                        {
+                                            "alt": "A triangle and a rotated copy of it.  The solid point labeled B represents the center of rotation. The triangle is rotated to the left of center and has vertices labeled A, B, and C. The rotated triangle has vertices labeled A prime, B prime, and C prime. One vertex of triangle Q is at 10 o'clock, and the corresponding vertex of the rotated copy is at 6 o'clock. There is a circle with a center at point B that passes through point C and point C prime. There are two green lines segments. 1 line segment starts at point B and ends at point C. 1 line segment starts at Point B and ends at point C prime.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/a28845b80572571bbeb0a10577e59e14f1e9f164.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The angles of rotation for $\\triangle ABC$ are:  - $90^\\circ$ counterclockwise - $270^\\circ$ clockwise",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2 - 8.1.2"
+                    }
+                }
+            }
+        }
+    ]
+}

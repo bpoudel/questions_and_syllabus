@@ -1,0 +1,1177 @@
+{
+    "standard_metadata": {
+        "standard_id": "7.SP.C.8.a",
+        "standard_description": "Understand that, just as with simple events, the probability of a compound event is the fraction of outcomes in the sample space for which the compound event occurs.",
+        "standard_title": "Probabilities of compound events",
+        "standard_url": "https://www.khanacademy.org/math/cc-seventh-grade-math/cc-7th-probability-statistics/cc-7th-compound-events/e/compound-events"
+    },
+    "id": "x6ec3cabf",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Justin lives in Saint Paul and goes to school in Minneapolis. In the morning, he has $3$ transportation options (bus,  cab, or  train) to school, and in the evening he has the same $3$ choices for his trip home.  **If Justin randomly chooses his ride in the morning and in the evening, what is the probability that he'll use both the bus and the train?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.2222222222222222",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": ">$\\text{Probability} = \\dfrac{\\text{Favorable combinations}}{\\text{Total possible combinations}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are $\\blue3$ possible choices for each trip, so there are $\\blue3\\times\\blue3=9$ total possible combinations.  If Justin chooses randomly, all combinations are equally likely.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Each path through the tree represents one possible outcome.   The green paths show the $\\green2$ favorable outcomes.",
+                                    "images": [
+                                        {
+                                            "alt": "A tree diagram has 2 levels, representing options for a ride to school and a ride home. Each ride to school, B, C, and T has the same options, B, C, and T, for the ride home. Resulting in the following outcomes: B B, B C, B T, C B, C C, C T, T B, T C, and T T.",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/82aad9ea6575a5a7e7fb9615c3db8a3319f1dfcb.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The probability that Justin will use both the bus and the train is $2$ out of $9$, or $\\dfrac29$ .",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1 - Tree"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "James lives in San Francisco and works in Mountain View. In the morning, he has $3$ transportation options (bus,  cab, or  train) to work, and in the evening he has the same $3$ choices for his trip home.  **If James randomly chooses his ride in the morning and in the evening, what is the probability that he'll take the same mode of transportation twice?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.3333333333333333",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": ">$\\text{Probability} = \\dfrac{\\text{Favorable combinations}}{\\text{Total possible combinations}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are $\\blue3$ possible choices for each trip, so there are $\\blue3\\times\\blue3=9$ total possible combinations.  If James chooses randomly, all combinations are equally likely.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Each path through the tree represents one possible outcome.  The green paths show the $\\green3$ favorable outcomes.",
+                                    "images": [
+                                        {
+                                            "alt": "A tree diagram has 2 levels, representing options for a ride to school and a ride home. Each ride to school, B, C, and T has the same options, B, C, and T, for the ride home. Resulting in the following outcomes: B B, B C, B T, C B, C C, C T, T B, T C, and T T.",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/a94c2b9b7e13a4e3d681bb8fe6fd3a0db783dfae.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The probability that James will take the same mode of transportation twice is $3$ out of $9$, or $\\dfrac39$ . We can simplify this fraction to $\\dfrac13$ .",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1 - Tree"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**If you flip three fair coins, what is the probability that you'll get a head on the first flip, a tail on the second flip, and another head on the third flip?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.125",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": ">$\\text{Probability} = \\dfrac{\\text{Favorable outcomes}}{\\text{Total possible outcomes}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "If you flip three coins, there are $\\blue2$ possible outcomes for each individual flip, so there are $\\blue2\\times\\blue2\\times\\blue2=8$ total possible outcomes.  Since the coin is fair, each outcome is equally likely.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Each path through the tree represents one outcome. The green path shows the $\\green1$ favorable outcome.",
+                                    "images": [
+                                        {
+                                            "alt": "A tree diagram has 3 levels, representative of tossing a coin. In each level H and T are further split into H and T. The first level contains H and T. The second level provides 4 outcomes: H H, H T, T H; and T T. The third level provides 8 outcomes: H H H, H H T, H T H, H T T, T H H, T H T, T T H, or T T T.",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/97e32ab1ddba91b7abfd2abc620f5d343f9415c2.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The probability of getting a head on the first flip, a tail on the second flip, and another head on the third flip is $1$ out of $8$, or $\\dfrac18$ .",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1 - Tree"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**If you flip three fair coins, what is the probability that the first two flips will both be heads, and the third flip will be either heads or tails?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.25",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": ">$\\text{Probability} = \\dfrac{\\text{Favorable outcomes}}{\\text{Total possible outcomes}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "If you flip three coins, there are $\\blue2$ possible outcomes for each individual flip, so there are $\\blue2\\times\\blue2\\times\\blue2=8$ total possible outcomes.  Since the coin is fair, each outcome is equally likely.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Each path through the tree represents one outcome. The green paths show the $\\green2$ favorable outcomes.",
+                                    "images": [
+                                        {
+                                            "alt": "A tree diagram has 3 levels, representative of tossing a coin. In each level H and T are further split into H and T. The first level contains H and T. The second level provides 4 outcomes: H H, H T, T H; and T T. The third level provides 8 outcomes: H H H, H H T, H T H, H T T, T H H, T H T, T T H, or T T T.",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/f77ee70f9db4ef5afaf73c072f2d4dbe0f9e703b.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The probability of getting heads on the first two flips, and either heads or tails on the third flip is $\\dfrac28$ . We can simplify this fraction to $\\dfrac14$ .",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1 - Tree"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**If you flip three fair coins, what is the probability that you'll get all three heads?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.125",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": ">$\\text{Probability} = \\dfrac{\\text{Favorable outcomes}}{\\text{Total possible outcomes}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "If you flip three coins, there are $\\blue2$ possible outcomes for each individual flip, so there are $\\blue2\\times\\blue2\\times\\blue2=8$ total possible outcomes.  Since the coin is fair, each outcome is equally likely.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Each path through the tree represents one outcome. The green path shows the $\\green1$ favorable outcome.",
+                                    "images": [
+                                        {
+                                            "alt": "A tree diagram has 3 levels, representative of tossing a coin. In each level H and T are further split into H and T. The first level contains H and T. The second level provides 4 outcomes: H H, H T, T H; and T T. The third level provides 8 outcomes: H H H, H H T, H T H, H T T, T H H, T H T, T T H, or T T T.",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/b3a00394d34a99fce7a1fe71d14f2d5eabe7084d.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The probability of getting three heads is $1$ out of $8$, or $\\dfrac18$ .",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1 - Tree"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**If you flip three fair coins, what is the probability that you'll get heads on the first two flips and tails on the last flip?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.125",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": ">$\\text{Probability} = \\dfrac{\\text{Favorable outcomes}}{\\text{Total possible outcomes}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "If you flip three coins, there are $\\blue2$ possible outcomes for each individual flip, so there are $\\blue2\\times\\blue2\\times\\blue2=8$ total possible outcomes.  Since the coin is fair, each outcome is equally likely.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Each path through the tree represents one outcome. The green path shows the $\\green1$ favorable outcome.",
+                                    "images": [
+                                        {
+                                            "alt": "A tree diagram has 3 levels, representative of tossing a coin. In each level H and T are further split into H and T. The first level contains H and T. The second level provides 4 outcomes: H H, H T, T H; and T T. The third level provides 8 outcomes: H H H, H H T, H T H, H T T, T H H, T H T, T T H, or T T T.",
+                                            "url": "web+graphie://cdn.kastatic.org/ka-perseus-graphie/eccc8b89b13dd573d1e115c2e647cae78ccb476f.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The probability of getting heads on the first two flips and tails on the last flip is $\\dfrac18$ .",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1 - Tree"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**If you roll two fair six-sided dice, what is the probability that the sum is $4$ or higher?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.9166666666666666",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": ">$\\text{Probability} = \\dfrac{\\text{Favorable outcomes}}{\\text{Total possible outcomes}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "If we roll two dice, there are $\\blue6$ possible outcomes for each individual roll, so there are $\\blue6\\times\\blue6=36$ total possible outcomes.  Each outcome is equally likely.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The highlighted boxes show the outcomes where the sum is $4$ or higher. There are $33$ favorable outcomes.",
+                                    "images": [
+                                        {
+                                            "alt": "A table has 6 rows and 6 columns. Each cell contains 2 dice showing different numbers on their faces as follows. Row 1. 1, 1; 2, 1; 3, 1; 4, 1; 5, 1; 6, 1. Row 2. 1, 2; 2, 2; 3, 2; 4, 2; 5, 2; 6, 2. Row 3. 1, 3; 2, 3; 3, 3; 4, 3; 5, 3; 6, 3. Row 4. 1, 4; 2, 4; 3, 4; 4, 4; 5, 4; 6, 4. Row 5. 1, 5; 2, 5; 3, 5; 4, 5; 5, 5; 6, 5. Row 6. 1, 6; 2, 6; 3, 6; 4, 6; 5, 6; 6, 6. All cells are shaded except the following: 1, 1; 2, 1; 1, 2.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-images/286a1d18cd5d130ed1875b1f6f0f69e488475224.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The probability of the dice adding to $4$ or higher is $\\dfrac{33}{36}$ . We can simplify this fraction to $\\dfrac{11}{12}$ .",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2 - Dice"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**If you roll two fair six-sided dice, what is the probability that the sum is $9$ or higher?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.2777777777777778",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": ">$\\text{Probability} = \\dfrac{\\text{Favorable outcomes}}{\\text{Total possible outcomes}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "If we roll two dice, there are $\\blue6$ possible outcomes for each individual roll, so there are $\\blue6\\times\\blue6=36$ total possible outcomes.  Each outcome is equally likely.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The highlighted boxes show the outcomes where the sum is $9$ or higher. There are $10$ favorable outcomes.",
+                                    "images": [
+                                        {
+                                            "alt": "A table has 6 rows and 6 columns. Each cell contains 2 dice showing different numbers on their faces as follows. Row 1. 1, 1; 2, 1; 3, 1; 4, 1; 5, 1; 6, 1. Row 2. 1, 2; 2, 2; 3, 2; 4, 2; 5, 2; 6, 2. Row 3. 1, 3; 2, 3; 3, 3; 4, 3; 5, 3; 6, 3 shaded. Row 4. 1, 4; 2, 4; 3, 4; 4, 4; 5, 4 shaded; 6, 4 shaded. Row 5. 1, 5; 2, 5; 3, 5; 4, 5 shaded; 5, 5 shaded; 6, 5 shaded. Row 6. 1, 6; 2, 6; 3, 6 shaded; 4, 6 shaded; 5, 6 shaded; 6, 6 shaded.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-images/2df9f849f49d837e5b92a4cb6c16744d4def56c5.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The probability of rolling a $9$ or higher is $\\dfrac{10}{36}$ . We can simplify this fraction to $\\dfrac{5}{18}$ .",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2 - Dice"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**If you roll two fair six-sided dice, what is the probability that the dice show the same number?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.16666666666666666",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": ">$\\text{Probability} = \\dfrac{\\text{Favorable outcomes}}{\\text{Total possible outcomes}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "If we roll two dice, there are $\\blue6$ possible outcomes for each individual roll, so there are $\\blue6\\times\\blue6=36$ total possible outcomes.  Each outcome is equally likely.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The highlighted boxes show the outcomes where the dice show the same number. There are $6$ favorable outcomes.",
+                                    "images": [
+                                        {
+                                            "alt": "A table has 6 rows and 6 columns. Each cell contains 2 dice showing different numbers on their faces as follows. Row 1. 1, 1 shaded; 2, 1; 3, 1; 4, 1; 5, 1; 6, 1. Row 2. 1, 2; 2, 2 shaded; 3, 2; 4, 2; 5, 2; 6, 2. Row 3. 1, 3; 2, 3; 3, 3 shaded; 4, 3; 5, 3; 6, 3. Row 4. 1, 4; 2, 4; 3, 4; 4, 4 shaded; 5, 4; 6, 4. Row 5. 1, 5; 2, 5; 3, 5; 4, 5; 5, 5 shaded; 6, 5. Row 6. 1, 6; 2, 6; 3, 6; 4, 6; 5, 6; 6, 6 shaded.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-images/b77a077791facf6a155c829d61b62c98dee07855.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The probability of the dice showing the same number is $\\dfrac{6}{36}$ . We can simplify this fraction to $\\dfrac{1}{6}$ .",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2 - Dice"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**If you roll two fair six-sided dice, what is the probability that both dice show an odd number?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.25",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": ">$\\text{Probability} = \\dfrac{\\text{Favorable outcomes}}{\\text{Total possible outcomes}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "If we roll two dice, there are $\\blue6$ possible outcomes for each individual roll, so there are $\\blue6\\times\\blue6=36$ total possible outcomes.  Each outcome is equally likely.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The highlighted boxes show the outcomes where each die shows an odd number. There are $9$ favorable outcomes.",
+                                    "images": [
+                                        {
+                                            "alt": "A table has 6 rows and 6 columns. Each cell contains 2 dice showing different numbers on their faces as follows. Row 1. 1, 1 shaded; 2, 1; 3, 1 shaded; 4, 1; 5, 1 shaded; 6, 1. Row 2. 1, 2; 2, 2; 3, 2; 4, 2; 5, 2; 6, 2. Row 3. 1, 3 shaded; 2, 3; 3, 3 shaded; 4, 3; 5, 3 shaded; 6, 3. Row 4. 1, 4; 2, 4; 3, 4; 4, 4; 5, 4; 6, 4. Row 5. 1, 5 shaded; 2, 5; 3, 5 shaded; 4, 5; 5, 5 shaded; 6, 5. Row 6. 1, 6; 2, 6; 3, 6; 4, 6; 5, 6; 6, 6.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-images/726c41d73655beee22c79ddced4617066d9f20a9.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The probability of each die showing an odd number is $\\dfrac{9}{36}$ . We can simplify this fraction to $\\dfrac{1}{4}$ .",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2 - Dice"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**If you roll two fair six-sided dice, what is the probability that the sum is $5$ or lower?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.2777777777777778",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": ">$\\text{Probability} = \\dfrac{\\text{Favorable outcomes}}{\\text{Total possible outcomes}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "If we roll two dice, there are $\\blue6$ possible outcomes for each individual roll, so there are $\\blue6\\times\\blue6=36$ total  possible outcomes.  Each outcome is equally likely.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The highlighted boxes show the outcomes where the sum is $5$ or lower. There are $10$ favorable outcomes.",
+                                    "images": [
+                                        {
+                                            "alt": "A table has 6 rows and 6 columns. Each cell contains 2 dice showing different numbers on their faces as follows. Row 1. 1, 1 shaded; 2, 1 shaded; 3, 1 shaded; 4, 1 shaded; 5, 1; 6, 1. Row 2. 1, 2 shaded; 2, 2 shaded; 3, 2 shaded; 4, 2; 5, 2; 6, 2. Row 3. 1, 3 shaded; 2, 3 shaded; 3, 3; 4, 3; 5, 3; 6, 3. Row 4. 1, 4 shaded; 2, 4; 3, 4; 4, 4; 5, 4; 6, 4. Row 5. 1, 5; 2, 5; 3, 5; 4, 5; 5, 5; 6, 5. Row 6. 1, 6; 2, 6; 3, 6; 4, 6; 5, 6; 6, 6.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-images/7a390ead1587295415da1970fa2e6a1c4349f622.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The probability that the dice add to $5$ or lower is $\\dfrac{10}{36}$ . We can simplify this fraction to $\\dfrac{5}{18}$ .",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2 - Dice"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**If you roll two fair six-sided dice, what is the probability that at least one die shows a $3$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.3055555555555556",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": ">$\\text{Probability} = \\dfrac{\\text{Favorable outcomes}}{\\text{Total possible outcomes}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "If we roll two dice, there are $\\blue6$ possible outcomes for each individual roll, so there are $\\blue6\\times\\blue6=36$ total  possible outcomes.  Each outcome is equally likely.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The highlighted boxes show the outcomes where at least one die shows a $3$. There are $11$ favorable outcomes.",
+                                    "images": [
+                                        {
+                                            "alt": "A table has 6 rows and 6 columns. Each cell contains 2 dice showing different numbers on their faces as follows. Row 1. 1, 1; 2, 1; 3, 1; 4, 1; 5, 1; 6, 1. Row 2. 1, 2; 2, 2; 3, 2; 4, 2; 5, 2; 6, 2. Row 3. 1, 3; 2, 3; 3, 3; 4, 3; 5, 3; 6, 3. Row 4. 1, 4; 2, 4; 3, 4; 4, 4; 5, 4; 6, 4. Row 5. 1, 5; 2, 5; 3, 5; 4, 5; 5, 5; 6, 5. Row 6. 1, 6; 2, 6; 3, 6; 4, 6; 5, 6; 6, 6. Row 3 and column 3 are shaded.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-images/92fa5293f0471a5f0f04c12d52ab93b3c829752f.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The probability of at least one die showing a $3$ is $\\dfrac{11}{36}$ .",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 2 - Dice"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "You're having dinner at a restaurant that serves $5$ kinds of pasta (spaghetti, bow ties, fettuccine, ravioli, and macaroni) in $4$ different flavors (tomato sauce, cheese sauce, meat sauce, and olive oil).  **If you randomly pick your kind of pasta and flavor, what is the probability that you'll end up with something other than tomato spaghetti?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.95",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": ">$\\text{Probability} = \\dfrac{\\text{Favorable combinations}}{\\text{Total possible combinations}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are $\\blue4$ flavor choices and $\\pink5$ choices for the type of pasta, so there are $\\blue4\\times\\pink5=20$ total possible combinations.  If we pick randomly, all combinations are equally likely.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The red combinations are combinations that aren't tomato spaghetti.  There are $\\red{19}$ favorable combinations.",
+                                    "images": [
+                                        {
+                                            "alt": "A table has 5 rows labeled, Spaghetti, Bow ties, Fettuccine, Ravioli, and Macaroni, and 4 columns labeled, Tomato sauce, Cheese sauce, Meat sauce, and Olive oil. Data in the table is as follows. Spaghetti. Tomato spaghetti, Cheese spaghetti, Meat spaghetti, Olive oil spaghetti. Bow ties. Tomato bow ties, Cheese bow ties, Meat bow ties, Olive oil bow ties. Fettuccine. Tomato fettuccine, Cheese fettuccine, Meat fettuccine, Olive oil fettuccine. Ravioli. Tomato ravioli, Cheese ravioli, Meat ravioli, Olive oil ravioli. Macaroni. Tomato macaroni, Cheese macaroni, Meat macaroni, Olive oil macaroni. All combinations are identified as favorable except tomato spaghetti.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/030db4baf0f6b608021fdbb8a6694b6f83b91254.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The probability of randomly picking something other than tomato spaghetti is $19$ out of $20$, or $\\dfrac{19}{20}$ .",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3 - Diagram"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "You're having dinner at a restaurant that serves $5$ kinds of pasta (spaghetti, bow ties, fettuccine, ravioli, and macaroni) in $4$ different flavors (tomato sauce, cheese sauce, meat sauce, and olive oil).  **If you randomly pick your kind of pasta and flavor, what is the probability that you'll end up with bow ties, cheese sauce, or both?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.4",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": ">$\\text{Probability} = \\dfrac{\\text{Favorable combinations}}{\\text{Total possible combinations}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are $\\blue4$ flavor choices and $\\pink5$ choices for the type of pasta, so there are $\\blue4\\times\\pink5=20$ total possible combinations.  If we pick randomly, all the combinations are equally likely.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The red combinations are combinations with bow ties,  cheese sauce, or both.  There are $\\red8$ favorable combinations.",
+                                    "images": [
+                                        {
+                                            "alt": "A table has 5 rows labeled, Spaghetti, Bow ties, Fettuccine, Ravioli, and Macaroni, and 4 columns labeled, Tomato sauce, Cheese sauce, Meat sauce, and Olive oil. Data in the table is as follows. Spaghetti. Tomato spaghetti, Cheese spaghetti, Meat spaghetti, Olive oil spaghetti. Bow ties. Tomato bow ties, Cheese bow ties, Meat bow ties, Olive oil bow ties. Fettuccine. Tomato fettuccine, Cheese fettuccine, Meat fettuccine, Olive oil fettuccine. Ravioli. Tomato ravioli, Cheese ravioli, Meat ravioli, Olive oil ravioli. Macaroni. Tomato macaroni, Cheese macaroni, Meat macaroni, Olive oil macaroni. The row for bow ties and the column for cheese sauce are identified as favorable.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/9d69668c16867dc0546b75b8a5744568ddbcb0d0.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The probability of randomly picking one of those dishes is $8$ out of $20$, or $\\dfrac{8}{20}$ . We can simplify this fraction to $\\dfrac{2}{5}$ .",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3 - Diagram"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "You're at a clothing store that dyes your clothes while you wait. You get to pick  from $4$ pieces of clothing (shirt, pants, socks, or hat) and $3$ colors (purple, blue, or orange).   **If you randomly pick the piece of clothing and the color, what is the probability that you'll end up with socks that aren't blue?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.16666666666666666",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": ">$\\text{Probability} = \\dfrac{\\text{Favorable combinations}}{\\text{Total possible combinations}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are $\\blue3$ color choices and $\\pink4$ choices for the piece of clothing, so there are $\\blue3\\times\\pink4=12$ total possible combinations.  If we pick randomly, all the combinations are equally likely.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The red combinations are combinations that include socks, but not the color blue. There are $\\red2$ favorable combinations.",
+                                    "images": [
+                                        {
+                                            "alt": "A table has 4 rows labeled, shirt, pants, socks, and hat, and 3 columns labeled, purple, blue, and orange. Data is as follows. Shirt. Purple shirt, Blue shirt, Orange shirt. Pants. Purple pants, Blue pants, Orange pants. Socks. Purple socks, favorable, Blue socks, Orange socks, favorable. Hat. Purple hat, Blue hat, Orange hat.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/1f491020d24d379c363be3b40c6afb2f6eae86f8.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The probability of randomly picking socks that aren't blue is $2$ out of $12$, or $\\dfrac{2}{12}$ . We can simplify this fraction to $\\dfrac{1}{6}$ .",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3 - Diagram"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "You're at a clothing store that dyes your clothes while you wait. You get to pick  from $4$ pieces of clothing (shirt, pants, socks, or hat) and $3$ colors (purple, blue, or orange).   **If you randomly pick the piece of clothing and the color, what is the probability that you'll end up with an orange hat?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.08333333333333333",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": ">$\\text{Probability} = \\dfrac{\\text{Favorable combinations}}{\\text{Total possible combinations}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are $\\blue3$ color choices and $\\pink4$ choices for the piece of clothing, so there are $\\blue3\\times\\pink4=12$  total possible combinations.  If we pick randomly, all the combinations are equally likely.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The red combinations are combinations that include both orange and hat. There is $\\red1$ favorable combination.",
+                                    "images": [
+                                        {
+                                            "alt": "A table has 4 rows labeled, shirt, pants, socks, and hat, and 3 columns labeled, purple, blue, and orange. Data is as follows. Shirt. Purple shirt, Blue shirt, Orange shirt. Pants. Purple pants, Blue pants, Orange pants. Socks. Purple socks, Blue socks, Orange socks. Hat. Purple hat, Blue hat, Orange hat, favorable.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/2e78581fed42324f43d77f671c432f078380650d.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The probability of randomly picking an orange hat is $1$ out of $12$, or $\\dfrac{1}{12}$ .",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3 - Diagram"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "You're playing a game where you defend your village from an orc invasion. There are $3$ characters (elf, hobbit, or human) and $5$ defense tools (magic, sword, shield, slingshot, or umbrella) to pick from.  **If you randomly choose your character and tool, what is the probability that you *won't* be a hobbit or use an umbrella?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.5333333333333333",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": ">$\\text{Probability} = \\dfrac{\\text{Favorable combinations}}{\\text{Total possible combinations}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are $\\blue3$ character choices and $\\pink5$ choices for the tool, so there are $\\blue3\\times\\pink5=15$  total possible combinations.  If we pick randomly, all the combinations are equally likely.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The red combinations are combinations that don't include a hobbit or an umbrella.  There are $\\red8$ favorable combinations.",
+                                    "images": [
+                                        {
+                                            "alt": "A table has 5 rows labeled, Magic, Sword, Shield, Slingshot, and Umbrella, and 3 columns labeled, Elf, Hobbit, and Human. Data is as follows. Magic. Magic elf, favorable, Magic hobbit, Magic human, favorable. Sword. Sword elf, favorable, Sword hobbit, Sword human, favorable. Shield. Shield elf, favorable, Shield hobbit, Shield human, favorable. Slingshot. Slingshot elf, favorable, Slingshot hobbit, Slingshot human, favorable. Umbrella. Umbrella elf, Umbrella hobbit, Umbrella human.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/229c4e98522c81d243d2bf352d6b4e6c5d95b028.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The probability that you *won't* be a hobbit or use an umbrella is $8$ out of $15$, or $\\dfrac{8}{15}$ .",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3 - Diagram"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "You're playing a game where you defend your village from an orc invasion. There are $3$ characters (elf, hobbit, or human) and $5$ defense tools (magic, sword, shield, slingshot, or umbrella) to pick from.  **If you randomly choose your character and tool, what is the probability that you'll be a magic elf?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.06666666666666667",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": ">$\\text{Probability} = \\dfrac{\\text{Favorable combinations}}{\\text{Total possible combinations}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are $\\blue3$ character choices and $\\pink5$ choices for the tool, so there are $\\blue3\\times\\pink5=15$  total possible combinations.  If we pick randomly, all the combinations are equally likely.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The red combination is the combination that includes both magic and elf. There is $\\red1$ favorable combination.",
+                                    "images": [
+                                        {
+                                            "alt": "A table has 5 rows labeled, Magic, Sword, Shield, Slingshot, and Umbrella, and 3 columns labeled, Elf, Hobbit, and Human. Data is as follows. Magic. Magic elf, favorable, Magic hobbit, Magic human. Sword. Sword elf, Sword hobbit, Sword human. Shield. Shield elf, Shield hobbit, Shield human. Slingshot. Slingshot elf, Slingshot hobbit, Slingshot human. Umbrella. Umbrella elf, Umbrella hobbit, Umbrella human.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/8c68a3548b69f65aaa121978715c34c1ca362a04.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The probability of you randomly picking a magic elf is $1$ out of $15$, or $\\dfrac{1}{15}$ .",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3 - Diagram"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "You've decided you want a plant for your room. At the gardening store, there are $4$ different kinds of plants (tulip, fern, cactus, and ficus) and $4$ different kinds of pots to hold the plants (clay pot, plastic pot, metal pot, and wood pot).   **If you randomly pick the plant and the pot, what is the probability that you'll end up with a tulip in a plastic pot?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.0625",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": ">$\\text{Probability} = \\dfrac{\\text{Favorable combinations}}{\\text{Total possible combinations}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are $\\blue4$ plant choices and $\\pink4$ choices for the kind of pot, so there are $\\blue4\\times\\pink4=16$  total possible combinations.  If we pick randomly, all the combinations are equally likely.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The red combination is the combination that includes both tulip and plastic pot. There is $\\red1$ favorable combination.",
+                                    "images": [
+                                        {
+                                            "alt": "A table has 4 rows labeled, Clay pot, Plastic pot, Metal pot, and Wood pot, and 4 columns labeled, Tulip, Fern, Cactus, and Ficus. Data is as follows. Clay pot. Clay pot tulip, clay pot fern, clay pot cactus, clay pot ficus. Plastic pot. Plastic pot tulip, favorable, plastic pot fern, plastic pot cactus, plastic pot ficus. Metal pot. Metal pot tulip, metal pot fern, metal pot cactus, metal pot ficus. Wood pot. Wood pot tulip, wood pot fern, wood pot cactus, wood pot ficus.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/b349836e02a643bfebf2bf04fe5e8f6f783ff772.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The probability of randomly picking a tulip in a plastic pot is $1$ out of $16$, or $\\dfrac{1}{16}$ .",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3 - Diagram"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "You've decided you want a plant for your room. At the gardening store, there are $4$ different kinds of plants (tulip, fern, cactus, and ficus) and $4$ different kinds of pots to hold the plants (clay pot, plastic pot, metal pot, and wood pot).   **If you randomly pick the plant and the pot, what is the probability that you *won't* get  a clay pot or a cactus?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.5625",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": ">$\\text{Probability} = \\dfrac{\\text{Favorable combinations}}{\\text{Total possible combinations}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are $\\blue4$ plant choices and $\\pink4$ choices for the type of pot, so there are $\\blue4\\times\\pink4=16$  total possible combinations.  If we pick randomly, all the combinations are equally likely.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The red combinations are combinations  that don't include a clay pot or a cactus. There are $\\red9$ favorable combinations.",
+                                    "images": [
+                                        {
+                                            "alt": "A table has 4 rows labeled, Clay pot, Plastic pot, Metal pot, and Wood pot, and 4 columns labeled, Tulip, Fern, Cactus, and Ficus. Data is as follows. Clay pot. Clay pot tulip, clay pot fern, clay pot cactus, clay pot ficus. Plastic pot. Plastic pot tulip, favorable, plastic pot fern, favorable, plastic pot cactus, plastic pot ficus, favorable. Metal pot. Metal pot tulip, favorable, metal pot fern, favorable, metal pot cactus, metal pot ficus, favorable. Wood pot. Wood pot tulip, favorable, wood pot fern, favorable, wood pot cactus, wood pot ficus, favorable.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/09049f1abaea2607b6f2790f91449a841733b5b4.png"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "The probability of randomly picking neither a clay pot nor a cactus  is $9$ out of $16$, or $\\dfrac{9}{16}$ .",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 3 - Diagram"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**If you flip three fair coins, what is the probability that you'll get two tails and one head in any order?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.375",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": ">$\\text{Probability} = \\dfrac{\\text{Favorable outcomes}}{\\text{Total possible outcomes}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "If we flip three coins, there are $\\blue2$ possible outcomes for each individual flip, so there are $\\blue2\\times\\blue2\\times\\blue2=8$ total possible outcomes.  Each outcome is equally likely.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The green rows show outcomes with two tails and one head. There are $\\green3$ favorable outcomes.  First|Second|Third :-:|:-:|:-: H|H|H H|H|T H|T|H $\\green{\\text{H}}$|$\\green{\\text{T}}$|$\\green{\\text{T}}$ T|H|H $\\green{\\text{T}}$|$\\green{\\text{H}}$|$\\green{\\text{T}}$ $\\green{\\text{T}}$|$\\green{\\text{T}}$|$\\green{\\text{H}}$ T|T|T",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The probability of getting two tails and one head is $3$ out of $8$, or $\\dfrac38$ .",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 4 "
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**If you flip three fair coins, what is the probability that you'll get a tail on the first flip, a head on the second flip, and another tail on the third flip?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.125",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": ">$\\text{Probability} = \\dfrac{\\text{Favorable outcomes}}{\\text{Total possible outcomes}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "If we flip three coins, there are $\\blue2$ possible outcomes for each individual flip, so there are $\\blue2\\times\\blue2\\times\\blue2=8$ total possible outcomes.  Each outcome is equally likely.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The green row shows the outcome that fits our requirement. There is $\\green1$ favorable outcome.  First|Second|Third :-:|:-:|:-: H|H|H H|H|T H|T|H H|T|T T|H|H $\\green{\\text{T}}$|$\\green{\\text{H}}$|$\\green{\\text{T}}$ T|T|H T|T|T",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The probability of getting a tail on the first flip, a head on the second flip, and another tail on the third flip is $1$ out of $8$, or $\\dfrac18$ .",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 4 "
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**If you flip three fair coins, what is the probability that you'll get at least two heads?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.5",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": ">$\\text{Probability} = \\dfrac{\\text{Favorable outcomes}}{\\text{Total possible outcomes}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "If we flip three coins, there are $\\blue2$ possible outcomes for each individual flip, so there are $\\blue2\\times\\blue2\\times\\blue2=8$ total possible outcomes.  Each outcome is equally likely.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The green rows show the outcomes with at least two heads. There are $\\green4$ favorable outcomes.  First|Second|Third :-:|:-:|:-: $\\green{\\text{H}}$|$\\green{\\text{H}}$|$\\green{\\text{H}}$ $\\green{\\text{H}}$|$\\green{\\text{H}}$|$\\green{\\text{T}}$ $\\green{\\text{H}}$|$\\green{\\text{T}}$|$\\green{\\text{H}}$ H|T|T $\\green{\\text{T}}$|$\\green{\\text{H}}$|$\\green{\\text{H}}$ T|H|T T|T|H T|T|T",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The probability of getting at least two heads is $4$ out of $8$, or $\\dfrac48$ . We can simplify this fraction to $\\dfrac12$ .",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 4 "
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**If you flip three fair coins, what is the probability that you'll get all three tails?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.125",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": ">$\\text{Probability} = \\dfrac{\\text{Favorable outcomes}}{\\text{Total possible outcomes}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "If we flip three coins, there are $\\blue2$ possible outcomes for each individual flip, so there are $\\blue2\\times\\blue2\\times\\blue2=8$ total possible outcomes.  Each outcome is equally likely.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The green row shows the outcome with three tails. There is $\\green1$ favorable outcome.  First|Second|Third :-:|:-:|:-: H|H|H H|H|T H|T|H H|T|T T|H|H T|H|T T|T|H $\\green{\\text{T}}$|$\\green{\\text{T}}$|$\\green{\\text{T}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The probability of getting three tails is $1$ out of $8$, or $\\dfrac18$ .",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 4 "
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Elizabeth lives in San Francisco and works in Mountain View. In the morning, she has $3$ transportation options (take a bus, a cab, or a train) to work, and in the evening she has the same $3$ choices for her trip home.  **If Elizabeth randomly chooses her ride in the morning and in the evening, what is the probability that she'll use a cab exactly one time?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.4444444444444444",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": ">$\\text{Probability} = \\dfrac{\\text{Favorable outcomes}}{\\text{Total possible outcomes}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are $\\blue3$ possible choices for each trip, so there are $\\blue3\\times\\blue3=9$ total ways she can get to work and back.  If Elizabeth chooses randomly, each outcome is equally likely.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The green rows show the outcomes where Elizabeth uses a cab once. There are $\\green4$ favorable outcomes.  Morning|Evening -|- Bus|Bus $\\green{\\text{Bus}}$|$\\green{\\text{Cab}}$ Bus|Train $\\green{\\text{Cab}}$|$\\green{\\text{Bus}}$ Cab|Cab $\\green{\\text{Cab}}$|$\\green{\\text{Train}}$ Train|Bus $\\green{\\text{Train}}$|$\\green{\\text{Cab}}$ Train|Train",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The probability that Elizabeth will use a cab once is $4$ out of $9$, or $\\dfrac49$ .",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 4 "
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Marvin lives in Stormwind City and works as an engineer in the city of Ironforge. In the morning, he has $3$ transportation options (teleport, ride a dragon, or walk) to work, and in the evening he has the same $3$ choices for his trip home.  **If Marvin randomly chooses his method of travel in the morning and in the evening, what is the probability that he teleports at least once per day?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "0.5555555555555556",
+                                        "correct": true
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": ">$\\text{Probability} = \\dfrac{\\text{Favorable outcomes}}{\\text{Total possible outcomes}}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "There are $\\blue3$ possible choices for each trip, so there are $\\blue3\\times\\blue3=9$ total ways he can get to work and back. If Marvin chooses randomly, each outcome is equally likely.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The green rows show the outcomes where Marvin teleports at least once. There are $\\green5$ favorable outcomes.  Morning|Evening -|- $\\green{\\text{Teleport}}$|$\\green{\\text{Teleport}}$ $\\green{\\text{Teleport}}$|$\\green{\\text{Dragon}}$ $\\green{\\text{Teleport}}$|$\\green{\\text{Walk}}$ $\\green{\\text{Dragon}}$|$\\green{\\text{Teleport}}$ Dragon|Dragon Dragon|Walk $\\green{\\text{Walk}}$|$\\green{\\text{Teleport}}$ Walk|Dragon Walk|Walk",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The probability that Marvin will teleport at least once is $5$ out of $9$, or $\\dfrac59$ .",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 4 "
+                    }
+                }
+            }
+        }
+    ]
+}

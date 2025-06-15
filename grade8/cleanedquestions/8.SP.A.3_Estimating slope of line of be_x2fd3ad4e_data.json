@@ -1,0 +1,956 @@
+{
+    "standard_metadata": {
+        "standard_id": "8.SP.A.3",
+        "standard_description": "Use the equation of a linear model to solve problems in the context of bivariate measurement data, interpreting the slope and intercept.",
+        "standard_title": "Estimating slope of line of best fit",
+        "standard_url": "https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-data/cc-8th-line-of-best-fit/e/linear-models-of-bivariate-data"
+    },
+    "id": "x2fd3ad4e",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The scatter plot below shows the average rent (in dollars per month) for a $1$-bedroom apartment in New York City each year between $2000$ and $2013$.  **Which of the following is the best estimate of the average change in rent each year?**",
+                                "images": [
+                                    {
+                                        "alt": "A scatterplot plots points x y axis. The y axis is labeled Average rent in dollars per month. The x axis is labeled Years after 2000. Points rise diagonally in a relatively narrow pattern between (0, 800) and (13, 1250). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/86e1e90ecad69e1217db73faca3f05124dd8fbd3.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$\\$0.5$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\$1$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\$40$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\$400$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Since the data show a mostly linear trend, we can draw a line to estimate the rate of change. Here's one that works:   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A scatterplot. The y axis is labeled Average rent (dollars per month). The x axis is labeled Years since 2000. Points rise diagonally in a narrow pattern. The line passes between the points through (0, 800) and (12, 1300). All values are estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/bbb5f586d44513f9b0422c8986871df36dba213a.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "This line approximately goes through $(0,800)$ and $(10,1200)$, so an approximation for the slope is $\\dfrac{1200 - 800}{10 - 0} = 40$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Rents change by approximately $\\$40$ per year on average.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1 - Est Slope Input"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A panel of judges was asked to judge the quality of different kinds of potato chips. The relationship between their ratings and the price of the chips is shown in the scatter plot below.  **Which of the following is the best estimate of the average change in ratings that is associated with a $\\$1$ increase in price?**",
+                                "images": [
+                                    {
+                                        "alt": "A scatterplot plots points x y axis. The y axis is labeled Rating. The x axis is labeled Cost per package in dollars. Points rise diagonally in a relatively narrow pattern between (80 hundredths, 1 half) and (2 and 8 tenths, 6). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/519a683fa0441e92eec222a228854794c1dd91c8.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$0$ points",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$2.5$ points",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$5$ points",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$7.5$ points",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Since the data shows a mostly linear trend, we can draw a line to estimate the rate of change. Here's one that works:   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A scatterplot. The y axis is labeled Rating. The x axis is labeled Cost per package (dollars). Points rise diagonally in a narrow pattern. The line passes between the points through (0.25, 0) and (3, 7). All values are estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/d40e2e6c13803e17f972f27037ec60f79b6d55e7.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "This line approximately goes through $(1,2)$ and $(2,4.5)$, so an approximation for the slope is $\\dfrac{4.5 - 2}{2 - 1} = 2.5$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Every $\\$1$ increase in cost is associated with approximately a $2.5$ point change in the judges' rating on average.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1 - Est Slope Input"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The scatter plot below shows the relationship between years of education and income for a representative sample of adults.  **Which of the following is the best estimate of the average change in a person's income that is associated with going to school for an additional year?**",
+                                "images": [
+                                    {
+                                        "alt": "A scatterplot plots points x y axis. The y axis is labeled Annual Income in dollars. The x axis is labeled Years of education. Points rise diagonally in a weak pattern including (8, 0) and (18, 70000). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/35df04ec195ad2cecbc6407f8f4114792c48dddf.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$\\$1$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\$2$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\$3000$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\$7000$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Since the data shows a mostly linear trend, we can draw a line to estimate the rate of change. Here's one that works:  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A scatterplot plots points x y axis. The y axis is labeled Annual Income in dollars. The x axis is labeled Years of education. Points rise diagonally in a weak pattern. The line passes between the points through (8, 0) and (18, 70000). All values estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/f627c21dab27cf017105475601a18cf70a36368d.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "This line approximately goes through $(8,0)$ and $(18,70000)$, so an approximation for the slope is $\\dfrac{70000 - 0}{18 - 8} = 7000$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "An additional year of education is associated with approximately a $\\$7000$ change in income on average.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1 - Est Slope Input"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Jacob distributed a survey to his fellow students asking them how many hours they'd spent playing sports in the past day. He also asked them to rate their mood on a scale from $0$ to $10$, with $10$ being the happiest.  **Which of the following is the best estimate of the average change in mood rating associated with a $1$ hour increase in hours playing sports?**",
+                                "images": [
+                                    {
+                                        "alt": "A scatterplot plots points x y axis. The y axis is labeled mood rating. The x axis is labeled Hours playing sports. Points rise diagonally in a narrow pattern including the points through (0, 5) and (2, 8). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/1495afe7095ac042f430b65e61e2f653e8643629.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$1.5$ points",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$4$ points",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$7$ points",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$9.5$ points",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Since the data shows a mostly linear trend, we can draw a line to estimate the rate of change. Here's one that works:   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A scatterplot. The y axis is labeled Mood rating. The x axis is labeled Hours playing sports. Points rise diagonally in a narrow pattern. The line passes between the points through (0, 5) and (3, 9.5). All values are estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/b01f49f443e77eedbf3c2dc14ea07e12bf5f8b77.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "This line approximately goes through $(0,5)$ and $(2,8)$, so an approximation for the slope is $\\dfrac{8 - 5}{2 - 0} = 1.5$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "An additional hour spent playing sports is associated with approximately a $1.5$ point change in mood rating on average.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1 - Est Slope Input"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The scatter plot below shows the relationship between latitude of cities and their average January temperature.  **Which of the following is the best estimate of the average change in temperature associated with a $1^\\circ$ increase in latitude?**",
+                                "images": [
+                                    {
+                                        "alt": "A scatterplot plots points x y axis. The y axis is labeled Temperature in degrees Farenheit. The x axis is labeled Latitude in degrees. Points fall diagonally in a narrow pattern including the points around (30, 50) and (50, 0). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/a543e34984f4e09b989d4e8c74b0d685552ee1c1.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$-15^\\circ F$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-2.5^\\circ F$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$2.5^\\circ F$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$15^\\circ F$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Since the data shows a mostly linear trend, we can draw a line to estimate the rate of change. Here's one that works:  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A scatterplot plots points x y axis. The y axis is labeled Temperature in degrees Farenheit. The x axis is labeled Latitude in degrees. Points fall diagonally in a narrow pattern. The line passes between the points through (30, 50) and (50, 0). All values estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/796bd7b0262f17cedcb293e748890c6e236a497e.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "This line approximately goes through $(30,50)$ and $(50,0)$, so an approximation for the slope is $\\dfrac{0 - 50}{50 - 30} = -2.5$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "A $1^\\circ$ increase in latitude is associated with approximately a $-2.5 ^\\circ F$ change in temperature on average.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1 - Est Slope Input"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The scatter plot below shows the relationship between hours spent on video games and hours spent on homework last week for students in Ginny's class.  **Which of the following is the best estimate of the average change in homework time that was associated with a $1$ hour increase in time spent on video games?**",
+                                "images": [
+                                    {
+                                        "alt": "A scatterplot plots points x y axis. The y axis is labeled Hours spent on homework. The x axis is labeled Hours spent on video games. Points fall diagonally in a narrow pattern including the points around (0, 23) and (12, 7). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/40b5bc92d3d0a29179275599ae1cd569698d01f0.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$-4$ hours",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-\\dfrac{4}{3}$ hours",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-\\dfrac{1}{3}$ hours",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-\\dfrac{1}{6}$ hours",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Since the data shows a mostly linear trend, we can draw a line to estimate the rate of change. Here's one that works:  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A scatterplot plots points x y axis. The y axis is labeled Hours spent on homework. The x axis is labeled Hours spent on video games. Points fall diagonally in a narrow pattern. The line passes between the points through (0, 23) and (12, 7). All values estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/3ad29be63db735dc414509dd6eb2fb21fcd104f4.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "This line approximately goes through $(0,23)$ and $(12,7)$, so an approximation for the slope is $\\dfrac{7 - 23}{12 - 0} = \\dfrac{-4}3$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Each additional hour spent on video games is associated with approximately a $-\\dfrac{4}3$ hour change in time spent on homework on average.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1 - Est Slope Input"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "A company that makes an exercise machine asked some of its recent customers how long they have owned their machines, and  how many hours per month they currently use their machines.  **Which of the following is the best estimate of the average change in hours of exercise per month that was associated with a $1$ month increase in ownership?**",
+                                "images": [
+                                    {
+                                        "alt": "A scatterplot plots points x y axis. The y axis is labeled Exercise per month in hours. The x axis is labeled Length of ownership in months. Points fall diagonally in a narrow pattern between (1, 9) and (11, 2). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/c5d2ae234191ffd2e0e5a83d88db612b34569ad4.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$-5$ hours",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-3$ hours",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-\\dfrac{3}{4}$ hours",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-\\dfrac13$ hours",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Since the data shows a mostly linear trend, we can draw a line to estimate the rate of change. Here's one that works:  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A scatterplot plots points x y axis. The y axis is labeled Exercise per month in hours. The x axis is labeled Length of ownership in months. Points fall diagonally in a narrow pattern between (1, 9) and (11, 2). The line passes between the scatter of points passing through (0, 10) and (12, 1). All values estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/627527428ebe10622d47e9e9670376ced8d164ea.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "This line approximately goes through $(0,10)$ and $(4,7)$, so an approximation for the slope is $\\dfrac{7 - 10}{4 - 0} = \\dfrac{-3}4$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Each additional month of ownership is associated with approximately a $-\\dfrac{3}4$ hour change in exercise per month.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1 - Est Slope Input"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Liz's math test included a survey question asking how many hours students spent studying for the test. The scatter plot below shows the relationship between how many hours students spent studying and their score on the test.  **Which of the following is the best estimate of the average score change associated with a $1$ hour increase in study time?**",
+                                "images": [
+                                    {
+                                        "alt": "A scatterplot plots points x y axis. The y axis is labeled Score. The x axis is labeled Study time in hours. Points rise diagonally in a relatively narrow pattern including points around (0, 20) and (1, 40). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/75777fdbc8b7897a864416226300232cbc64ea1e.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$20$ points",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$5$ points",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$2$ points",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$1$ point",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Since the data shows a mostly linear trend, we can draw a line to estimate the rate of change. Here's one that works:  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A scatterplot plots points x y axis. The y axis is labeled Score. The x axis is labeled Study time in hours. Points rise diagonally in a relatively narrow pattern. The line passes between the points through (0, 20) and (1, 40). All values estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/ad19a743323eac8d82e355849b431da475d7a970.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "This line approximately goes through $(0,20)$ and $(1,40)$, so an approximation for the slope is $\\dfrac{40 - 20}{1 - 0} = 20$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "**A $1$ hour increase in study time was associated with an average score change of $20$ points.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1 - Est Slope Input"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Shira's math test included a survey question asking how many hours students spent studying for the test. The scatter plot below shows the relationship between how many hours students spent studying and their score on the test.  **Which of the following is the best estimate of the average score change associated with a $1$ hour increase in study time?**",
+                                "images": [
+                                    {
+                                        "alt": "A scatterplot plots points x y axis. The y axis is labeled Score. The x axis is labeled Study time in hours. Points rise diagonally in a relatively narrow pattern including points around (1, 55) and (2, 65). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/1a183438c09cce32092d6d7b540da015477a5e87.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$20$ points",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$10$ points",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$2$ points",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$1$ point",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Since the data shows a mostly linear trend, we can draw a line to estimate the rate of change. Here's one that works:  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A scatterplot. The y axis is labeled Score. The x axis is labeled Study time (hours). Points rise diagonally in a narrow pattern. The line passes between the points through (0, 45) and (5, 95). All values estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/35147d2d30a315ffb1987bd02017d15cfc9ddd37.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "This line approximately goes through $(1,55)$ and $(2,65)$, so an approximation for the slope is $\\dfrac{65 - 55}{2 - 1} = 10$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "**A $1$ hour increase in study time was associated with an average score change of $10$ points.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1 - Est Slope Input"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Jacob distributed a survey to his fellow students asking them how many hours they spent on the Internet in the past day. He also asked them to rate their mood on a scale from $0$ to $10$, with $10$ being the happiest.  The scatter plot below shows the mood rating for each amount of time online.  **Which of the following is the best estimate of the average change in mood rating associated with a $1$ hour increase in hours online?**",
+                                "images": [
+                                    {
+                                        "alt": "A scatterplot plots points x y axis. The y axis is labeled mood rating. The x axis is labeled Hours online. Points fall diagonally in a narrow pattern including the points around (1, 6 and 1 half) and (2, 5 and 1 half). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/2fda02f24b1bdcc1fa3ece3f6fafd8a67f30f7a9.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$-4$ points",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-2$ points",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-1$ point",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-\\dfrac12$ point",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Since the data shows a mostly linear trend, we can draw a line to estimate the rate of change. Here's one that works:   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A scatterplot. The y axis is labeled Mood rating. The x axis is labeled Hours online. Points fall diagonally in a narrow pattern. The line passes between the points through (0, 7.5) and (5, 2.5). All values are estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/c08924b725bae62e3ea4439ce6b3a86312800eea.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "This line approximately goes through $(1,6.5)$ and $(2,5.5)$, so an approximation for the slope is $\\dfrac{5.5 - 6.5}{2 - 1} = -1$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "**A $1$ hour increase in hours online was associated with an average mood rating change of $-1$ point.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1 - Est Slope Input"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The scatter plot below shows the relationship between the percentage of American adults who smoke and years since $1945$.  **During this time period, the percentage of adults who smoked changed each year by about**",
+                                "images": [
+                                    {
+                                        "alt": "A scatterplot plots points x y axis. The y axis is labeled percent of adults who smoke. The x axis is labeled Years since 19 45. Points fall diagonally in a narrow pattern including (0, 40) and (10, 35) All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/24bd7d9bab152c6cdb32de35dd9ae5a52f2ec827.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$-2$ percentage points",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-1$ percentage point",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-\\dfrac12$ percentage point",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-\\dfrac14$ percentage point",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Since the data shows a mostly linear trend, we can draw a line to estimate the rate of change. Here's one that works:  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A scatterplot plots points x y axis. The y axis is labeled percent of adults who smoke. The x axis is labeled Years since 19 45. Points fall diagonally in a narrow pattern. The line passes between the points through (0, 40) and (40, 20). All values estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/f1a6bd2143932989741e5ee61e5cd5261224d5a3.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "This line approximately goes through $(0,40)$ and $(10,35)$, so an approximation for the slope is $\\dfrac{35-40}{10-0} = -\\dfrac12$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "**During this time period, the percentage of adults who smoked changed each year by about $-\\dfrac12$ percentage point.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1 - Est Slope Input"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Baruti, a ranger in Kruger National Park in South Africa, collected data about the elephant population in the park. She compared the foot lengths of the elephants and their shoulder height (both in centimeters) and created the following scatter plot.  **Which of the following is the best estimate of the average change in shoulder height associated with a $1\\,\\text{cm}$ increase in foot length?**",
+                                "images": [
+                                    {
+                                        "alt": "A scatterplot plots points x y axis. The y axis is labeled Shoulder height in centimeters. The x axis is labeled Foot lengths in centimeters. Points rise diagonally in a relatively narrow pattern between (18, 100) and (55, 290). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/90ab5d3f56fd66b341a7d1aed282b1231614095d.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$1\\,\\text{cm}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$2\\,\\text{cm}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$6\\,\\text{cm}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$12\\,\\text{cm}$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Since the data shows a mostly linear trend, we can draw a line to estimate the rate of change. Here's one that works:   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A scatterplot. The y axis is labeled Shoulder height (cm). The x axis is labeled Foot length (cm). Points rise diagonally in a narrow pattern. The line passes between the points through (8, 0) and (60, 330). All values are estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/0036bfeff6dc2bf6d1954ff16ddfcc7bb9669e21.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "This line approximately goes through $(10,40)$ and $(20,100)$, so an approximation for the slope is $\\dfrac{100-40}{20-10} = 6$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "**A $1\\,\\text{cm}$ increase in foot length was associated with an average shoulder height change of $6\\,\\text{cm}$.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1 - Est Slope Input"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The plot shown below describes the relationship between the average income in a city and the average rent for a $1$-bedroom apartment in that city.  **Which of the following is the best estimate of the average change in rent associated with a $\\$5\\text{,}000$ increase in income?**",
+                                "images": [
+                                    {
+                                        "alt": "A scatterplot plots points x y axis. The y axis is labeled Accidents per 100 drivers. The x axis is labeled Age in years. Points rise diagonally in a narrow pattern between (36500, 820) and (58700, 1600).  All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/1ebf550d3eca8b6008ebf6c959d6b3a72aa5a58a.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$\\$2$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\$20$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\$200$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\$2000$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Since the data shows a mostly linear trend, we can draw a line to estimate the rate of change. Here's one that works:  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A scatterplot plots points x y axis. The y axis is labeled Accidents per 100 drivers. The x axis is labeled Age in years. Points rise diagonally in a narrow pattern between (36500, 820) and (58700, 1600). The line passes between the scatter of points passing through (35000, 700) and (60000, 1700). All values estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/3821efd011df57662fd3282baf1e58828a223cd8.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "This line approximately goes through $(35000,700)$ and $(40000,900)$, so a $\\$5\\text{,}000$ increase in income was associated with a $\\$200$ increase in rent.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "**The best estimate of the average change in rent associated with a $\\$5\\text{,}000$ increase in income is $\\$200$.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1 - Est Slope Input"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The plot shown below describes the relationship between the age of drivers and the number of car accidents per $100$ drivers in the year $2009$.  **Which of the following is the best estimate of the average change in the number of accidents associated with a $1$ year increase in age?**",
+                                "images": [
+                                    {
+                                        "alt": "A scatterplot. The y axis is labeled Accidents per 100 drivers. The x axis is labeled Age in years. Points fall diagonally in a narrow pattern between (16, 23) and (24, 11). ",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/ffa167e6740a1093649c055b2edff49e66268c7d.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$-\\dfrac14$ accident",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-\\dfrac12$ accident",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-\\dfrac32$ accident",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-\\dfrac72$ accident",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Since the data shows a mostly linear trend, we can draw a line to estimate the rate of change. Here's one that works:  [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A scatterplot plots points x y axis. The y axis is labeled Accidents per 100 drivers. The x axis is labeled Age in years. Points fall diagonally in a narrow pattern between (16, 23) and (24, 11). The line passes between the scatter of points passing through (0, 24) and (25, 9). All values estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/f3f74b2349c61556928887e4ba02c16083483464.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "This line approximately goes through $(17,21)$ and $(19,18)$, so an approximation for the slope is $\\dfrac{18-21}{19-17} = -\\dfrac32$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "**A $1$ year increase in age was associated with an average change of $-\\dfrac32$ accidents.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1 - Est Slope Input"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "The plot shown below describes the relationship between students' scores on the first exam in a class and their corresponding scores on the second exam in the class.  **Which of the following is the best estimate of the average change in the score on Exam $2$ associated with a $1$ point increase in the score on Exam $1?$**",
+                                "images": [
+                                    {
+                                        "alt": "A scatterplot plots points x y axis. The y axis is labeled Exam 2 score. The x axis is labeled Exam 1 score. Points rise diagonally in a relatively loose pattern including points around (25, 25) and (95, 95). All values estimated.",
+                                        "url": "https://cdn.kastatic.org/ka-perseus-graphie/8f9476b82085555dcdd110ce4c42d81734c4e41c.svg"
+                                    }
+                                ],
+                                "options": [
+                                    {
+                                        "content": "$\\dfrac14$ point",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac12$ point",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$1$ point",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$2$ points",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "Since the data shows a mostly linear trend, we can draw a line to estimate the rate of change. Here's one that works:   [[☃ image 1]]",
+                                    "images": [
+                                        {
+                                            "alt": "A scatterplot. The y axis is labeled Exam 2 score. The x axis is labeled Exam 1 score. Points rise diagonally in a relatively loose pattern including points around (25, 25) and (95, 95). The line passes through the points (0, 0) and (100, 100). All values are estimated.",
+                                            "url": "https://cdn.kastatic.org/ka-perseus-graphie/11ba120d372bdd696182bebfa873c35bc6499260.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "content": "This line approximately goes through $(10,10)$ and $(20,20)$, so an approximation for the slope is $\\dfrac{20-10}{20 - 10} = 1$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "**A $1$ point increase on Exam $1$ was associated with an average score change of $1$ point on Exam $2$.**",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "Type 1 - Est Slope Input"
+                    }
+                }
+            }
+        }
+    ]
+}

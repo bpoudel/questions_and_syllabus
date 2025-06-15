@@ -1,0 +1,1329 @@
+{
+    "standard_metadata": {
+        "standard_id": "7.NS.A.1.d",
+        "standard_description": "Apply properties of operations as strategies to add and subtract rational numbers.",
+        "standard_title": "Equivalent expressions with negative numbers",
+        "standard_url": "https://www.khanacademy.org/math/cc-seventh-grade-math/x6b17ba59:rational-numbers-addition-and-subtraction/cc-7th-properties-of-addition-and-subtraction/e/negative-number-addition-and-subtraction-equivalent-expressions"
+    },
+    "id": "x5efc9bb8",
+    "items": [
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which of the following expressions are equivalent to $4 - (-5) + 0$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$4 - (-5)$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$4 + 5$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$(4-5)+0$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$4-5-0$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Properties of addition  Addition has several properties that let us create equivalent expressions, but they do not work with subtraction.  - Commutative property - Associative property - Identity property - Additive inverse property  [[☃ explanation 1]]  Luckily, we have a property that relates subtraction to addition. Subtracting a number is the same as adding the number's opposite.  Let's rewrite $4 - (-5) + 0$ as addition so we can apply the addition properties.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Rewriting as addition  We are subtracting $-5$. The opposite of $-5$ is $5$.  $4-(-5)+0 = 4+5+0$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $4-(-5)$  The new expression does not have the $0$, and it has subtraction.  $\\begin{align} &\\phantom{=} 4+5+0 &\\text{Starting sum}\\\\\\\\ &=4+5&\\text{Identity property of addition}\\\\\\\\ &= 4-(-5)  &\\text{Subtraction is addition of the opposite.} \\end{align}$  Those properties do not change the value of the expression.  Yes, $4-(-5)$ is equivalent to $4 - (-5) + 0$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $4+5$  The new expression does not have the $0$.  $\\begin{align} &\\phantom{=} 4+5+0 &\\text{Starting sum}\\\\\\\\ &=4+5&\\text{Identity property of addition} \\end{align}$  Those properties do not change the value of the expression.  Yes, $4+5$ is equivalent to $4 - (-5) + 0$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $(4-5)+0$  The new expression has a different grouping.  $\\begin{align} &\\phantom{=} 4+5+0 &\\text{Starting sum}\\\\\\\\ &=(4+5)+0&\\text{Associative property of addition}\\\\\\\\ &\\neq (4-5)+0 \\end{align}$  We could not use properties of addition and subtraction to create the other expression, so they are not equivalent.  No, $(4-5)+0$ is **not** equivalent to $4-(-5)+0$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $4-5-0$  The new expression has subtraction. The opposite of $0$ is also $0$.  $\\begin{align} &\\phantom{=} 4+5+0 &\\text{Starting sum}\\\\\\\\ &=4-(-5)-0&\\text{Subtraction is addition of the opposite.}\\\\\\\\ &\\neq 4-5-0 \\end{align}$  We could not use properties of addition and subtraction to create the other expression, so they are not equivalent.  No, $4-5-0$ is **not** equivalent to $4-(-5)+0$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following expressions are equivalent to $4 - (-5) + 0$:  * $4-(-5)$ * $4+5$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. EE - Integers"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which of the following expressions are equivalent to $6 + (-4) - 5$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$6-4-(-5)$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$6+4-5$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-5+6-4$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-4+(-5)+6$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Properties of addition  Addition has several properties that let us create equivalent expressions, but they do not work with subtraction.  - Commutative property - Associative property - Identity property - Additive inverse property  [[☃ explanation 1]]  Luckily, we have a property that relates subtraction to addition. Subtracting a number is the same as adding the number's opposite.  Let's rewrite $6+(-4)-5$ as addition so we can apply the addition properties.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Rewriting as addition  We are subtracting $5$. The opposite of $5$ is $-5$.  $6 + (-4) - 5 = 6+(-4)+(-5)$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $6-4-(-5)$  The new expression has subtraction.  $\\begin{align} &\\phantom{=} 6+(-4)+(-5) &\\text{Starting sum}\\\\\\\\ &= 6-4-5 &\\text{Subtraction is addition of the opposite.}\\\\\\\\ &\\neq 6-4-(-5) \\end{align}$  We could not use properties of addition and subtraction to create the other expression, so they are not equivalent.  No, $6-4-(-5)$ is **not** equivalent to $6 + (-4) - 5$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $6+4-5$  The new expression has subtraction.  $\\begin{align} &\\phantom{=} 6+(-4)+(-5) &\\text{Starting sum}\\\\\\\\ &= 6+(-4)-5 &\\text{Subtraction is addition of the opposite.}\\\\\\\\ &\\neq 6+4-5 \\end{align}$  We could not use properties of addition and subtraction to create the other expression, so they are not equivalent.  No, $6+4-5$ is **not** equivalent to $6 + (-4) - 5$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $-5+6-4$  The new expression has subtraction and the terms in a different order.  $\\begin{align} &\\phantom{=} 6+(-4)+(-5) &\\text{Starting sum}\\\\\\\\ &= -5+6+(-4) &\\text{Commutative property of addition}\\\\\\\\ &=-5+6-4&\\text{Subtraction is addition of the opposite.} \\end{align}$  Those properties do not change the value of the expression.  Yes, $-5+6-4$ is equivalent to $6 + (-4) - 5$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $-4+(-5)+6$  The new expression has the terms in a different order.  $\\begin{align} &\\phantom{=} 6+(-4)+(-5) &\\text{Starting sum}\\\\\\\\ &= -4+(-5)+6 &\\text{Commutative property of addition} \\end{align}$  Those properties do not change the value of the expression.  Yes, $-4+(-5)+6$ is equivalent to $6 + (-4) - 5$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following expressions are equivalent to $6+(-4)-5$:  * $-5+6-4$ * $-4+(-5)+6$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. EE - Integers"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which of the following expressions are equivalent to $(-19 + 3) -6$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$-19+3-6$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-19+(3-6)$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-19-3-6$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-19+(-3+6)$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Properties of addition  Addition has several properties that let us create equivalent expressions, but they do not work with subtraction.  - Commutative property - Associative property - Identity property - Additive inverse property  [[☃ explanation 1]]  Luckily, we have a property that relates subtraction to addition. Subtracting a number is the same as adding the number's opposite.  Let's rewrite $(-19+3)-6$ as addition so we can apply the addition properties.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Rewriting as addition  We are subtracting $6$. The opposite of $6$ is $-6$.  $(-19+3)-6 = (-19+3)+(-6)$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $-19+3-6$  The new expression has subtraction and different grouping.  $\\begin{align} &\\phantom{=} (-19+3)+(-6) &\\text{Starting sum}\\\\\\\\ &= -19+3+(-6) &\\text{Associative property of addition}\\\\\\\\ &=-19+3-6&\\text{Subtraction is addition of the opposite.} \\end{align}$  Those properties do not change the value of the expression.  Yes, $-19+3-6$ is equivalent to $(-19+3)-6$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $-19+(3-6)$  The new expression has subtraction and different grouping.  $\\begin{align} &\\phantom{=} (-19+3)+(-6) &\\text{Starting sum}\\\\\\\\ &= -19+3+(-6) &\\text{Associative property of addition}\\\\\\\\ &= -19+(3+(-6)) &\\text{Associative property of addition}\\\\\\\\ &=-19+(3-6)&\\text{Subtraction is addition of the opposite.} \\end{align}$  Those properties do not change the value of the expression.  Yes, $-19+(3-6)$ is equivalent to $(-19+3)-6$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $-19-3-6$  The new expression has subtraction and different grouping.  $\\begin{align} &\\phantom{=} (-19+3)+(-6) &\\text{Starting sum}\\\\\\\\ &= -19+3+(-6) &\\text{Associative property of addition}\\\\\\\\ &= -19+3-6&\\text{Subtraction is addition of the opposite.}\\\\\\\\ &\\neq -19-3-6 \\end{align}$  We could not use properties of addition and subtraction to create the other expression, so they are not equivalent.  No, $-19-3-6$ is **not** equivalent to $(-19+3)-6$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $-19+(-3+6)$  The new expression has different grouping.  $\\begin{align} &\\phantom{=} (-19+3)+(-6) &\\text{Starting sum}\\\\\\\\ &= -19+3+(-6) &\\text{Associative property of addition}\\\\\\\\ &= -19+(3+(-6)) &\\text{Associative property of addition}\\\\\\\\ &\\neq -19+(-3+6) \\end{align}$  We could not use properties of addition and subtraction to create the other expression, so they are not equivalent.  No, $-19+(-3+6)$ is **not** equivalent to $(-19+3)-6$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following expressions are equivalent to $(-19+3)-6$:  * $-19+3-6$ * $-19+(3-6)$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. EE - Integers"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which of the following expressions are equivalent to $-8-(-1) - 5$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$-8+1-5$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-8+(-1)+(-5)$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$(8+1)-5$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-8+(1-5)$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Properties of addition  Addition has several properties that let us create equivalent expressions, but they do not work with subtraction.  - Commutative property - Associative property - Identity property - Additive inverse property  [[☃ explanation 1]]  Luckily, we have a property that relates subtraction to addition. Subtracting a number is the same as adding the number's opposite.  Let's rewrite $-8-(-1) - 5$ as addition so we can apply the addition properties.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Rewriting as addition  We are subtracting $-1$ and $5$. The opposites of $-1$ and $5$ are $1$ and $-5$.  $-8-(-1) - 5 = -8+1 +(- 5)$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $-8+1-5$  The new expression has subtraction.  $\\begin{align} &\\phantom{=} -8+1 +(- 5) &\\text{Starting sum}\\\\\\\\ &=-8+1-5&\\text{Subtraction is addition of the opposite.} \\end{align}$  Those properties do not change the value of the expression.  Yes, $-8+1-5$ is equivalent to $-8-(-1) - 5$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $-8+(-1)+(-5)$  The new expression is a sum with different terms.  $\\begin{align} &\\phantom{=} -8+1 +(- 5) &\\text{Starting sum}\\\\\\\\ &\\neq -8+(-1)+(-5) \\end{align}$  We could not use properties of addition and subtraction to create the other expression, so they are not equivalent.  No, $-8+(-1)+(-5)$ is **not** equivalent to $-8-(-1) - 5$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $(8+1)-5$  The new expression has subtraction and different grouping.  $\\begin{align} &\\phantom{=} -8+1 +(- 5) &\\text{Starting sum}\\\\\\\\ &=(-8+1) +(- 5) &\\text{Associative property of addition}\\\\\\\\ &=(-8+1) - 5&\\text{Subtraction is addition of the opposite.}\\\\\\\\ &\\neq (8+1)-5 \\end{align}$  We could not use properties of addition and subtraction to create the other expression, so they are not equivalent.  No, $(8+1)-5$ is **not** equivalent to $-8-(-1) - 5$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $-8+(1-5)$  The new expression has subtraction and different grouping.  $\\begin{align} &\\phantom{=} -8+1 +(- 5) &\\text{Starting sum}\\\\\\\\ &=-8+(1 +(- 5))&\\text{Associative property of addition}\\\\\\\\ &=-8+(1-5)&\\text{Subtraction is addition of the opposite.} \\end{align}$  Those properties do not change the value of the expression.  Yes, $-8+(1-5)$ is equivalent to $-8-(-1) - 5$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following expressions are equivalent to $-8-(-1) - 5$:  * $-8+1-5$ * $-8+(1-5)$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. EE - Integers"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which of the following expressions are equivalent to $-5+7-(-3)$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$-5+7+3$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-5+7-3$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-5+(7-3)$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$(-5+7)+3$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Properties of addition  Addition has several properties that let us create equivalent expressions, but they do not work with subtraction.  - Commutative property - Associative property - Identity property - Additive inverse property  [[☃ explanation 1]]  Luckily, we have a property that relates subtraction to addition. Subtracting a number is the same as adding the number's opposite.  Let's rewrite $-5+7-(-3)$ as addition so we can apply the addition properties.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Rewriting as addition  We are subtracting $-3$. The opposite of $-3$ is $3$.  $-5+7-(-3) = -5+7+3$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $-5+7+3$  The new expression has subtraction.  $\\begin{align} &\\phantom{=} -5+7+3 &\\text{Starting sum}\\\\\\\\ &=-5+7+3&\\text{Subtraction is addition of the opposite.} \\end{align}$  Those properties do not change the value of the expression.  Yes, $-5+7+3$ is equivalent to $-5+7-(-3)$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $-5+7-3$  The new expression has subtraction.  $\\begin{align} &\\phantom{=} -5+7+3 &\\text{Starting sum}\\\\\\\\ &\\neq -5+7-3 \\end{align}$  We could not use properties of addition and subtraction to create the other expression, so they are not equivalent.  No, $-5+7-3$ is **not** equivalent to $-5+7-(-3)$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $-5+(7-3)$  The new expression has different grouping.  $\\begin{align} &\\phantom{=} -5+7+3 &\\text{Starting sum}\\\\\\\\ &= -5+(7+3)&\\text{Associative property of addition}\\\\\\\\ &\\neq -5+(7-3) \\end{align}$  We could not use properties of addition and subtraction to create the other expression, so they are not equivalent.  No, $-5+(7-3)$ is **not** equivalent to $-5+7-(-3)$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $(-5+7)+3$  The new expression has different grouping.  $\\begin{align} &\\phantom{=} -5+7+3 &\\text{Starting sum}\\\\\\\\ &=(-5+7)+3&\\text{Associative property of addition} \\end{align}$  Those properties do not change the value of the expression.  Yes, $(-5+7)+3$ is equivalent to $-5+7-(-3)$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following expressions are equivalent to $-5+7-(-3)$:  * $-5+7+3$ * $(-5+7)+3$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. EE - Integers"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which of the following expressions are equivalent to $4+(14-2)$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$4+(2-14)$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$(4-14)-2$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$4-(-14)-2$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$4+14+(-2)$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Properties of addition  Addition has several properties that let us create equivalent expressions, but they do not work with subtraction.  - Commutative property - Associative property - Identity property - Additive inverse property  [[☃ explanation 1]]  Luckily, we have a property that relates subtraction to addition. Subtracting a number is the same as adding the number's opposite.  Let's rewrite $4+(14-2)$ as addition so we can apply the addition properties.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Rewriting as addition  We are subtracting $2$. The opposite of $2$ is $-2$.  $4+(14-2) = 4+(14 +(-2))$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $4+(2-14)$  The new expression has the terms in a different order.  $\\begin{align} &\\phantom{=} 4+(14 +(-2)) &\\text{Starting sum}\\\\\\\\ &= 4+(-2+14) &\\text{Commutative property of addition}\\\\\\\\ &\\neq 4+(2-14) \\end{align}$  We could not use properties of addition and subtraction to create the other expression, so they are not equivalent.  No, $4+(2-14)$ is **not** equivalent to $4+(14-2)$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $(4-14)-2$  The new expression has subtraction and different grouping.  $\\begin{align} &\\phantom{=} 4+(14 +(-2)) &\\text{Starting sum}\\\\\\\\ &= 4+14 +(-2) &\\text{Associative property of addition}\\\\\\\\ &= (4+14) +(-2) &\\text{Associative property of addition}\\\\\\\\ &= (4+14) -2 &\\text{Subtraction is addition of the opposite}\\\\\\\\ &\\neq (4-14)-2  \\end{align}$  We could not use properties of addition and subtraction to create the other expression, so they are not equivalent.  No, $(4-14)-2$ is **not** equivalent to $4+(14-2)$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $4-(-14)-2$  The new expression has subtraction and different grouping.  $\\begin{align} &\\phantom{=} 4+(14 +(-2)) &\\text{Starting sum}\\\\\\\\ &= 4+14 +(-2) &\\text{Associative property of addition}\\\\\\\\ &=4-(-14)-2&\\text{Subtraction is addition of the opposite.} \\end{align}$  Those properties do not change the value of the expression.  Yes, $4-(-14)-2$ is equivalent to $4+(14-2)$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $4+14+(-2)$  The new expression has subtraction and different grouping.  $\\begin{align} &\\phantom{=} 4+(14 +(-2)) &\\text{Starting sum}\\\\\\\\ &= 4+14 +(-2) &\\text{Associative property of addition} \\end{align}$  Those properties do not change the value of the expression.  Yes, $4+14+(-2)$ is equivalent to $4+(14-2)$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following expressions are equivalent to $4+(14-2)$:  * $4-(-14)-2$ * $4+14+(-2)$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. EE - Integers"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which of the following expressions are equivalent to $-4+(4+5)$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$(-4+4)+5$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$(-4-4)+5$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-4+(-4)+5$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$5$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Properties of addition  Addition has several properties that let us create equivalent expressions, but they do not work with subtraction.  - Commutative property - Associative property - Identity property - Additive inverse property  [[☃ explanation 1]]  Luckily, we have a property that relates subtraction to addition. Subtracting a number is the same as adding the number's opposite.  The expression $-4+(4+5)$ is addition so we can apply the addition properties.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $(-4+4)+5$  The new expression has different grouping.  $\\begin{align} &\\phantom{=} -4+(4+5) &\\text{Starting sum}\\\\\\\\ &=-4+4+5 &\\text{Associative property of addition}\\\\\\\\ &=(-4+4)+5&\\text{Associative property of addition} \\end{align}$  Those properties do not change the value of the expression.  Yes, $(-4+4)+5$ is equivalent to $-4+(4+5)$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $(-4-4)+5$  The new expression has subtraction and different grouping.  $\\begin{align} &\\phantom{=} -4+(4+5) &\\text{Starting sum}\\\\\\\\ &=-4+4+5 &\\text{Associative property of addition}\\\\\\\\ &=(-4+4)+5&\\text{Associative property of addition}\\\\\\\\ &\\neq (-4-4)+5 \\end{align}$  We could not use properties of addition and subtraction to create the other expression, so they are not equivalent.  No, $(-4-4)+5$ is **not** equivalent to $-4+(4+5)$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $-4+(-4)+5$  The new expression has different grouping.  $\\begin{align} &\\phantom{=} -4+(4+5) &\\text{Starting sum}\\\\\\\\ &=-4+4+5 &\\text{Associative property of addition}\\\\\\\\ &\\neq -4+(-4)+5 \\end{align}$  We could not use properties of addition and subtraction to create the other expression, so they are not equivalent.  No, $-4+(-4)+5$ is **not** equivalent to $-4+(4+5)$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $5$  The new expression fewer terms.  $\\begin{align} &\\phantom{=} -4+(4+5) &\\text{Starting sum}\\\\\\\\ &=-4+4+5 &\\text{Associative property of addition}\\\\\\\\ &=5&\\text{Additive inverse property} \\end{align}$  Those properties do not change the value of the expression.  Yes, $5$ is equivalent to $-4+(4+5)$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following expressions are equivalent to $-4+(4+5)$:  * $(-4+4)+5$ * $5$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "1. EE - Integers"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which of the following expressions are equivalent to $6.53 - (-4.11) + 7.92$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$6.53 + 4.11 + 7.92$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-(-6.53)+4.11-(-7.92)$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-4.11-6.53+7.92$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$4.11-6.53+7.92$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Properties of addition  Addition has several properties that let us create equivalent expressions, but they do not work with subtraction.  - Commutative property - Associative property - Identity property - Additive inverse property  [[☃ explanation 1]]  Luckily, we have a property that relates subtraction to addition. Subtracting a number is the same as adding the number's opposite.  Let's rewrite $6.53 - (-4.11) + 7.92$ as addition so we can apply the addition properties.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Rewriting as addition  We are subtracting $-4.11$. The opposite of $-4.11$ is $4.11$.  $6.53 - (-4.11) + 7.92 = 6.53 + 4.11 + 7.92$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $6.53 + 4.11 + 7.92$  The expression $6.53 + 4.11 + 7.92$ is the sum we just found.  Yes, $6.53 + 4.11 + 7.92$ is equivalent to $6.53 - (-4.11) + 7.92$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $-(-6.53)+4.11-(-7.92)$  The new expression has subtraction.  $\\begin{align} &\\phantom{=} 6.53 + 4.11 + 7.92 &\\text{Starting sum}\\\\\\\\ &=-(-6.53)+4.11-(-7.92)&\\text{Subtraction is addition of the opposite.} \\end{align}$  Those properties do not change the value of the expression.  Yes, $-(-6.53)+4.11-(-7.92)$ is equivalent to $6.53 - (-4.11) + 7.92$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $-4.11-6.53+7.92$  The new expression has subtraction and the terms in a different order.  $\\begin{align} &\\phantom{=} 6.53 + 4.11 + 7.92 &\\text{Starting sum}\\\\\\\\ &= 4.11 + 6.53 + 7.92 &\\text{Commutative property of addition}\\\\\\\\ &=-(-4.11)-(-6.53)+7.92&\\text{Subtraction is addition of the opposite.}\\\\\\\\ &\\neq -4.11-6.53+7.92 \\end{align}$  We could not use properties of addition and subtraction to create the other expression, so they are not equivalent.  No, $-4.11-6.53+7.92$ is **not** equivalent to $6.53 - (-4.11) + 7.92$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $4.11-6.53+7.92$  The new expression has subtraction and the terms in a different order.  $\\begin{align} &\\phantom{=} 6.53 + 4.11 + 7.92 &\\text{Starting sum}\\\\\\\\ &= 4.11 + 6.53 + 7.92 &\\text{Commutative property of addition}\\\\\\\\ &=4.11-(-6.53)+7.92&\\text{Subtraction is addition of the opposite.}\\\\\\\\ &\\neq 4.11-6.53+7.92 \\end{align}$  We could not use properties of addition and subtraction to create the other expression, so they are not equivalent.  No, $4.11-6.53+7.92$ is **not** equivalent to $6.53 - (-4.11) + 7.92$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following expressions are equivalent to $6.53 - (-4.11) + 7.92$:  * $6.53 + 4.11 + 7.92$ * $-(-6.53)+4.11-(-7.92)$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. EE - Rational Numbers"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which of the following expressions are equivalent to $-5.93+(-8.62)+5.93 $?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$-8.62$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-5.93+(-5.93)-8.62$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$8.62-5.93+5.93$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$(5.93-5.93)-8.62$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Properties of addition  Addition has several properties that let us create equivalent expressions, but they do not work with subtraction.  - Commutative property - Associative property - Identity property - Additive inverse property  [[☃ explanation 1]]  Luckily, we have a property that relates subtraction to addition. Subtracting a number is the same as adding the number's opposite.  The expression $-5.93+(-8.62)+5.93$ is addition so we can apply the addition properties.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $-8.62$  The new expression has fewer terms.  $\\begin{align} &\\phantom{=} -5.93+(-8.62)+5.93 &\\text{Starting sum}\\\\\\\\ &=-5.93 +  5.93 +(-8.62)&\\text{Commutative property of addition}\\\\\\\\ &= (-5.93 +5.93)+(-8.62)&\\text{Associative property of addition}\\\\\\\\ &= 0+(-8.62)&\\text{Additive inverse property}\\\\\\\\ &=-8.62&\\text{Identity property of addition} \\end{align}$  Those properties do not change the value of the expression.  Yes, $-8.62$ is equivalent to $-5.93+(-8.62)+5.93$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $-5.93+(-5.93)-8.62$  The new expression has subtraction and the terms in a different order.  $\\begin{align} &\\phantom{=} -5.93+(-8.62)+5.93 &\\text{Starting sum}\\\\\\\\ &= -5.93+5.93+(-8.62)&\\text{Commutative property of addition}\\\\\\\\ &= -5.93+5.93-8.62&\\text{Subtraction is addition of the opposite.}\\\\\\\\ &\\neq -5.93+(-5.93)-8.62 \\end{align}$  We could not use properties of addition and subtraction to create the other expression, so they are not equivalent.  No, $-5.93+(-5.93)-8.62$ is **not** equivalent to $-5.93+(-8.62)+5.93$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $8.62-5.93+5.93$  The new expression has subtraction and the terms in a different order.  $\\begin{align} &\\phantom{=} -5.93+(-8.62)+5.93 &\\text{Starting sum}\\\\\\\\ &= -8.62+(-5.93)+5.93&\\text{Commutative property of addition}\\\\\\\\ &=-8.62-5.93+5.93&\\text{Subtraction is addition of the opposite.}\\\\\\\\ &\\neq 8.62-5.93+5.93 \\end{align}$  We could not use properties of addition and subtraction to create the other expression, so they are not equivalent.  No, $8.62-5.93+5.93$ is **not** equivalent to $-5.93+(-8.62)+5.93$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $(5.93-5.93)-8.62$  The new expression has subtraction and the terms in a different order.  $\\begin{align} &\\phantom{=} -5.93+(-8.62)+5.93 &\\text{Starting sum}\\\\\\\\ &=5.93+(-5.93 ) + (-8.62)&\\text{Commutative property of addition}\\\\\\\\ &= (5.93+(-5.93)) + (-8.62)&\\text{Associative property of addition}\\\\\\\\ &=(5.93-5.93)-8.62&\\text{Subtraction is addition of the opposite.} \\end{align}$  Those properties do not change the value of the expression.  Yes, $(5.93-5.93)-8.62$ is equivalent to $-5.93+(-8.62)+5.93$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following expressions are equivalent to $-5.93+(-8.62)+5.93$:  * $-8.62$ * $(5.93-5.93)-8.62$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. EE - Rational Numbers"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which of the following expressions are equivalent to $(6.2+6.2)+9.4 $?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$6.2 + (6.2 + 9.4)$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-(-6.2)-6.2+9.4$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$9.4$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$6.2+6.2-(-9.4)$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Properties of addition  Addition has several properties that let us create equivalent expressions, but they do not work with subtraction.  - Commutative property - Associative property - Identity property - Additive inverse property  [[☃ explanation 1]]  Luckily, we have a property that relates subtraction to addition. Subtracting a number is the same as adding the number's opposite.  The expression $(6.2+6.2)+9.4$ is addition so we can apply the addition properties.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $6.2 + (6.2 + 9.4)$  The new expression has different grouping.  $\\begin{align} &\\phantom{=} (6.2+6.2)+9.4 &\\text{Starting sum}\\\\\\\\ &=6.2 + 6.2 + 9.4&\\text{Associative property of addition}\\\\\\\\ &=6.2 + (6.2 + 9.4)&\\text{Associative property of addition} \\end{align}$  Those properties do not change the value of the expression.  Yes, $6.2 + (6.2 + 9.4)$ is equivalent to $(6.2+6.2)+9.4$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $-(-6.2)-6.2+9.4$  The new expression has subtraction and different grouping.  $\\begin{align} &\\phantom{=} (6.2+6.2)+9.4 &\\text{Starting sum}\\\\\\\\ &=6.2 + 6.2 + 9.4&\\text{Associative property of addition}\\\\\\\\ &=-(-6.2)-(-6.2)+9.4&\\text{Subtraction is addition of the opposite.}\\\\\\\\ &\\neq -(-6.2)-6.2+9.4 \\end{align}$  We could not use properties of addition and subtraction to create the other expression, so they are not equivalent.  No, $-(-6.2)-6.2+9.4$ is **not** equivalent to $(6.2+6.2)+9.4$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $9.4$  The new expression has fewer terms.  $\\begin{align} &\\phantom{=} (6.2+6.2)+9.4 &\\text{Starting sum}\\\\\\\\ &=6.2 + 6.2 + 9.4&\\text{Associative property of addition}\\\\\\\\ &\\neq 9.4 \\end{align}$  *We note that the $6.2$s don't cancel because they are not opposites.*  We could not use properties of addition and subtraction to create the other expression, so they are not equivalent.  No, $9.4$ is **not** equivalent to $(6.2+6.2)+9.4$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $6.2+6.2-(-9.4)$  The new expression has subtraction and different grouping.  $\\begin{align} &\\phantom{=} (6.2+6.2)+9.4 &\\text{Starting sum}\\\\\\\\ &=6.2 + 6.2 + 9.4&\\text{Associative property of addition}\\\\\\\\ &=6.2+6.2-(-9.4)&\\text{Subtraction is addition of the opposite.} \\end{align}$  Those properties do not change the value of the expression.  Yes, $6.2+6.2-(-9.4)$ is equivalent to $(6.2+6.2)+9.4$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following expressions are equivalent to $(6.2+6.2)+9.4$:  * $6.2 + (6.2 + 9.4)$ * $6.2+6.2-(-9.4)$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. EE - Rational Numbers"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which of the following expressions are equivalent to $-\\dfrac{8}{11}-\\dfrac{3}{4}-\\dfrac{1}{4}$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$-\\dfrac{8}{11}+\\left(-\\dfrac{3}{4}\\right)+\\left(-\\dfrac{1}{4}\\right)$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{3}{4}-\\dfrac{8}{11}-\\dfrac{1}{4}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-\\dfrac{8}{11}-\\left(-\\dfrac{3}{4}\\right)-\\dfrac{1}{4}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\left(-\\dfrac{1}{4}+\\left(-\\dfrac{3}{4}\\right)\\right)-\\dfrac{8}{11}$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Properties of addition  Addition has several properties that let us create equivalent expressions, but they do not work with subtraction.  - Commutative property - Associative property - Identity property - Additive inverse property  [[☃ explanation 1]]  Luckily, we have a property that relates subtraction to addition. Subtracting a number is the same as adding the number's opposite.  Let's rewrite $-\\dfrac{8}{11}-\\dfrac{3}{4}-\\dfrac{1}{4}$ as addition so we can apply the addition properties.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Rewriting as addition  We are subtracting $\\dfrac{3}{4}$ and $\\dfrac{1}{4}$. The opposites of$\\dfrac{3}{4}$ and $\\dfrac{1}{4}$ are $-\\dfrac{3}{4}$ and $-\\dfrac{1}{4}$.  $-\\dfrac{8}{11}-\\dfrac{3}{4}-\\dfrac{1}{4} = -\\dfrac{8}{11}+ \\left(-\\dfrac{3}{4}\\right) + \\left(-\\dfrac{1}{4}\\right)$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $-\\dfrac{8}{11}+\\left(-\\dfrac{3}{4}\\right)+\\left(-\\dfrac{1}{4}\\right)$  The expression $-\\dfrac{8}{11}+\\left(-\\dfrac{3}{4}\\right)+\\left(-\\dfrac{1}{4}\\right)$ is the sum we just found.  Yes, $-\\dfrac{8}{11}+\\left(-\\dfrac{3}{4}\\right)+\\left(-\\dfrac{1}{4}\\right)$ is equivalent to $-\\dfrac{8}{11}-\\dfrac{3}{4}-\\dfrac{1}{4}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $\\dfrac{3}{4}-\\dfrac{8}{11}-\\dfrac{1}{4}$  The new expression has subtraction and the terms in a different order.  $\\begin{align} &\\phantom{=} -\\dfrac{8}{11}+ \\left(-\\dfrac{3}{4}\\right) + \\left(-\\dfrac{1}{4}\\right) &\\text{Starting sum}\\\\\\\\ &= -\\dfrac{3}{4}+ \\left(-\\dfrac{8}{11}\\right) + \\left(-\\dfrac{1}{4}\\right) &\\text{Commutative property of addition}\\\\\\\\ &= -\\dfrac{3}{4}-\\dfrac{8}{11} -\\dfrac{1}{4} &\\text{Subtraction is addition of the opposite.}\\\\\\\\ &\\neq \\dfrac{3}{4}-\\dfrac{8}{11}-\\dfrac{1}{4} \\end{align}$  We could not use properties of addition and subtraction to create the other expression, so they are not equivalent.  No, $\\dfrac{3}{4}-\\dfrac{8}{11}-\\dfrac{1}{4}$ is **not** equivalent to $-\\dfrac{8}{11}-\\dfrac{3}{4}-\\dfrac{1}{4}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $-\\dfrac{8}{11}-\\left(-\\dfrac{3}{4}\\right)-\\dfrac{1}{4}$  The new expression has subtraction.  $\\begin{align} &\\phantom{=} -\\dfrac{8}{11}+ \\left(-\\dfrac{3}{4}\\right) + \\left(-\\dfrac{1}{4}\\right) &\\text{Starting sum}\\\\\\\\ &= -\\dfrac{8}{11}- \\dfrac{3}{4}-\\dfrac{1}{4} &\\text{Subtraction is addition of the opposite.}\\\\\\\\ &\\neq -\\dfrac{8}{11}-\\left(-\\dfrac{3}{4}\\right)-\\dfrac{1}{4} \\end{align}$  We could not use properties of addition and subtraction to create the other expression, so they are not equivalent.  No, $-\\dfrac{8}{11}-\\left(-\\dfrac{3}{4}\\right)-\\dfrac{1}{4}$ is **not** equivalent to $-\\dfrac{8}{11}-\\dfrac{3}{4}-\\dfrac{1}{4}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $\\left(-\\dfrac{1}{4}+\\left(-\\dfrac{3}{4}\\right)\\right)-\\dfrac{8}{11}$  The new expression has subtraction, different grouping, and the terms in a different order.  $\\begin{align} &\\phantom{=} -\\dfrac{8}{11}+ \\left(-\\dfrac{3}{4}\\right) + \\left(-\\dfrac{1}{4}\\right) &\\text{Starting sum}\\\\\\\\ &= -\\dfrac{1}{4}+ \\left(-\\dfrac{3}{4}\\right) + \\left(-\\dfrac{8}{11}\\right) &\\text{Commutative property of addition}\\\\\\\\ &= \\left(-\\dfrac{1}{4}+ \\left(-\\dfrac{3}{4}\\right)\\right) + \\left(-\\dfrac{8}{11}\\right) &\\text{Associative property of addition}\\\\\\\\ &=\\left(-\\dfrac{1}{4}+\\left(-\\dfrac{3}{4}\\right)\\right)-\\dfrac{8}{11}&\\text{Subtraction is addition of the opposite.} \\end{align}$  Those properties do not change the value of the expression.  Yes, $\\left(-\\dfrac{1}{4}+\\left(-\\dfrac{3}{4}\\right)\\right)-\\dfrac{8}{11}$ is equivalent to $-\\dfrac{8}{11}-\\dfrac{3}{4}-\\dfrac{1}{4}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following expressions are equivalent to $-\\dfrac{8}{11}-\\dfrac{3}{4}-\\dfrac{1}{4}$:  * $-\\dfrac{8}{11}+\\left(-\\dfrac{3}{4}\\right)+\\left(-\\dfrac{1}{4}\\right)$ * $\\left(-\\dfrac{1}{4}+\\left(-\\dfrac{3}{4}\\right)\\right)-\\dfrac{8}{11}$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. EE - Rational Numbers"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which of the following expressions are equivalent to $-\\dfrac{4}{7}-\\dfrac{8}{9}+\\dfrac{4}{7}+\\dfrac{9}{8}$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$\\left(-\\dfrac{4}{7}-\\dfrac{4}{7}\\right)+\\left(\\dfrac{8}{9}+\\dfrac{9}{8}\\right)$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-\\dfrac{8}{9}+\\dfrac{9}{8}$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\left(\\dfrac{4}{7}-\\dfrac{4}{7}\\right)+\\left(\\dfrac{9}{8}-\\dfrac{8}{9}\\right)$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$0$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Properties of addition  Addition has several properties that let us create equivalent expressions, but they do not work with subtraction.  - Commutative property - Associative property - Identity property - Additive inverse property  [[☃ explanation 1]]  Luckily, we have a property that relates subtraction to addition. Subtracting a number is the same as adding the number's opposite.  Let's rewrite $-\\dfrac{4}{7}-\\dfrac{8}{9}+\\dfrac{4}{7}+\\dfrac{9}{8}$ as addition so we can apply the addition properties.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Rewriting as addition  We are subtracting $\\dfrac{8}{9}$. The opposite of $\\dfrac{8}{9}$ is $-\\dfrac{8}{9}$.  $-\\dfrac{4}{7}-\\dfrac{8}{9}+\\dfrac{4}{7}+\\dfrac{9}{8} = -\\dfrac{4}{7}+\\left(-\\dfrac{8}{9}\\right)+\\dfrac{4}{7}+\\dfrac{9}{8}$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $\\left(-\\dfrac{4}{7}-\\dfrac{4}{7}\\right)+\\left(\\dfrac{8}{9}+\\dfrac{9}{8}\\right)$  The new expression has subtraction, different grouping, and the terms in a different order.  $\\begin{align} &\\phantom{=} -\\dfrac{4}{7}+\\left(-\\dfrac{8}{9}\\right)+\\dfrac{4}{7}+\\dfrac{9}{8} &\\text{Starting sum}\\\\\\\\ &= \\dfrac{4}{7}+\\left(-\\dfrac{4}{7}\\right)+\\left(-\\dfrac{8}{9}\\right)+\\dfrac{9}{8} &\\text{Commutative property of addition}\\\\\\\\ &= \\left(\\dfrac{4}{7}+\\left(-\\dfrac{4}{7}\\right)\\right)+\\left(-\\dfrac{8}{9}+\\dfrac{9}{8}\\right) &\\text{Associative property of addition}\\\\\\\\ &= \\left(\\dfrac{4}{7}-\\dfrac{4}{7}\\right)+\\left(-\\dfrac{8}{9}+\\dfrac{9}{8}\\right)&\\text{Subtraction is addition of the opposite.}\\\\\\\\ &\\neq \\left(-\\dfrac{4}{7}-\\dfrac{4}{7}\\right)+\\left(\\dfrac{8}{9}+\\dfrac{9}{8}\\right) \\end{align}$  We could not use properties of addition and subtraction to create the other expression, so they are not equivalent.  No, $\\left(-\\dfrac{4}{7}-\\dfrac{4}{7}\\right)+\\left(\\dfrac{8}{9}+\\dfrac{9}{8}\\right)$ is **not** equivalent to $-\\dfrac{4}{7}-\\dfrac{8}{9}+\\dfrac{4}{7}+\\dfrac{9}{8}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $-\\dfrac{8}{9}+\\dfrac{9}{8}$  The new expression has fewer terms.  $\\begin{align} &\\phantom{=} -\\dfrac{4}{7}+\\left(-\\dfrac{8}{9}\\right)+\\dfrac{4}{7}+\\dfrac{9}{8} &\\text{Starting sum}\\\\\\\\ &= \\dfrac{4}{7}+\\left(-\\dfrac{4}{7}\\right)+\\left(-\\dfrac{8}{9}\\right)+\\dfrac{9}{8} &\\text{Commutative property of addition}\\\\\\\\ &= \\left(\\dfrac{4}{7}+\\left(-\\dfrac{4}{7}\\right)\\right)+\\left(-\\dfrac{8}{9}\\right)+\\dfrac{9}{8} &\\text{Associative property of addition}\\\\\\\\ &= 0+\\left(-\\dfrac{8}{9}\\right)+\\dfrac{9}{8} &\\text{Additive inverse property}\\\\\\\\ &=-\\dfrac{8}{9}+\\dfrac{9}{8}&\\text{Identity property of addition} \\end{align}$  Those properties do not change the value of the expression.  Yes, $-\\dfrac{8}{9}+\\dfrac{9}{8}$ is equivalent to $-\\dfrac{4}{7}-\\dfrac{8}{9}+\\dfrac{4}{7}+\\dfrac{9}{8}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $\\left(\\dfrac{4}{7}-\\dfrac{4}{7}\\right)+\\left(\\dfrac{9}{8}-\\dfrac{8}{9}\\right)$  The new expression has subtraction, different grouping, and the terms in a different order.  $\\begin{align} &\\phantom{=} -\\dfrac{4}{7}+\\left(-\\dfrac{8}{9}\\right)+\\dfrac{4}{7}+\\dfrac{9}{8} &\\text{Starting sum}\\\\\\\\ &= \\dfrac{4}{7}+\\left(-\\dfrac{4}{7}\\right)+\\dfrac{9}{8}+\\left(-\\dfrac{8}{9}\\right) &\\text{Commutative property of addition}\\\\\\\\ &= \\left(\\dfrac{4}{7}+\\left(-\\dfrac{4}{7}\\right)\\right)+\\left(\\dfrac{9}{8}+\\left(-\\dfrac{8}{9}\\right) \\right) &\\text{Associative property of addition}\\\\\\\\ &=\\left(\\dfrac{4}{7}-\\dfrac{4}{7}\\right)+\\left(\\dfrac{9}{8}-\\dfrac{8}{9}\\right)&\\text{Subtraction is addition of the opposite.} \\end{align}$  Those properties do not change the value of the expression.  Yes, $\\left(\\dfrac{4}{7}-\\dfrac{4}{7}\\right)+\\left(\\dfrac{9}{8}-\\dfrac{8}{9}\\right)$ is equivalent to $-\\dfrac{4}{7}-\\dfrac{8}{9}+\\dfrac{4}{7}+\\dfrac{9}{8}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $0$  The new expression has fewer terms.  $\\begin{align} &\\phantom{=} -\\dfrac{4}{7}+\\left(-\\dfrac{8}{9}\\right)+\\dfrac{4}{7}+\\dfrac{9}{8} &\\text{Starting sum}\\\\\\\\ &= \\dfrac{4}{7}+\\left(-\\dfrac{4}{7}\\right)+\\left(-\\dfrac{8}{9}\\right)+\\dfrac{9}{8} &\\text{Commutative property of addition}\\\\\\\\ &= \\left(\\dfrac{4}{7}+\\left(-\\dfrac{4}{7}\\right)\\right)+\\left(-\\dfrac{8}{9}\\right)+\\dfrac{9}{8} &\\text{Associative property of addition}\\\\\\\\ &= 0+\\left(-\\dfrac{8}{9}\\right)+\\dfrac{9}{8} &\\text{Additive inverse property}\\\\\\\\ &=-\\dfrac{8}{9}+\\dfrac{9}{8}&\\text{Identity property of addition}\\\\\\\\ &\\neq 0 \\end{align}$  We could not use properties of addition and subtraction to create the other expression, so they are not equivalent.  No, $0$ is **not** equivalent to $-\\dfrac{4}{7}-\\dfrac{8}{9}+\\dfrac{4}{7}+\\dfrac{9}{8}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following expressions are equivalent to $-\\dfrac{4}{7}-\\dfrac{8}{9}+\\dfrac{4}{7}+\\dfrac{9}{8}$:  * $-\\dfrac{8}{9}+\\dfrac{9}{8}$ * $\\left(\\dfrac{4}{7}-\\dfrac{4}{7}\\right)+\\left(\\dfrac{9}{8}-\\dfrac{8}{9}\\right)$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. EE - Rational Numbers"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which of the following expressions are equivalent to $8\\dfrac{4}{5} + \\left(3\\dfrac{2}{10} - 1\\dfrac{1}{5}\\right)$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$\\left(8\\dfrac{4}{5} + 3\\dfrac{2}{10}\\right) + 1\\dfrac{1}{5}$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\left(8\\dfrac{4}{5} + 3\\dfrac{2}{10}\\right) +\\left(- 1\\dfrac{1}{5}\\right)$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-\\left(-8\\dfrac{4}{5}\\right)+3\\dfrac{2}{10}-\\left(-1\\dfrac{1}{5}\\right)$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-\\left(-8\\dfrac{4}{5}\\right)-\\left(-3\\dfrac{2}{10}\\right)+\\left(-1\\dfrac{1}{5}\\right)$",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Properties of addition  Addition has several properties that let us create equivalent expressions, but they do not work with subtraction.  - Commutative property - Associative property - Identity property - Additive inverse property  [[☃ explanation 1]]  Luckily, we have a property that relates subtraction to addition. Subtracting a number is the same as adding the number's opposite.  Let's rewrite $8\\dfrac{4}{5} + \\left(3\\dfrac{2}{10} - 1\\dfrac{1}{5}\\right)$ as addition so we can apply the addition properties.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Rewriting as addition  We are subtracting $1\\dfrac{1}{5}$. The opposite of $1\\dfrac{1}{5}$ is $-1\\dfrac{1}{5}$.  $8\\dfrac{4}{5} + \\left(3\\dfrac{2}{10} - 1\\dfrac{1}{5}\\right) = 8\\dfrac{4}{5} + \\left(3\\dfrac{2}{10} +\\left(- 1\\dfrac{1}{5}\\right)\\right)$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $\\left(8\\dfrac{4}{5} + 3\\dfrac{2}{10}\\right) + 1\\dfrac{1}{5}$  The new expression has different grouping.  $\\begin{align} &\\phantom{=} 8\\dfrac{4}{5} + \\left(3\\dfrac{2}{10} +\\left(- 1\\dfrac{1}{5}\\right)\\right) &\\text{Starting sum}\\\\\\\\ &=8\\dfrac{4}{5} +3\\dfrac{2}{10} +\\left(- 1\\dfrac{1}{5}\\right) &\\text{Associative property of addition}\\\\\\\\ &=\\left(8\\dfrac{4}{5} +3\\dfrac{2}{10}\\right) +\\left(- 1\\dfrac{1}{5}\\right) &\\text{Associative property of addition}\\\\\\\\ &\\neq \\left(8\\dfrac{4}{5} + 3\\dfrac{2}{10}\\right) + 1\\dfrac{1}{5} \\end{align}$  We could not use properties of addition and subtraction to create the other expression, so they are not equivalent.  No, $\\left(8\\dfrac{4}{5} + 3\\dfrac{2}{10}\\right) + 1\\dfrac{1}{5}$ is **not** equivalent to $8\\dfrac{4}{5} + \\left(3\\dfrac{2}{10} - 1\\dfrac{1}{5}\\right)$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $\\left(8\\dfrac{4}{5} + 3\\dfrac{2}{10}\\right) +\\left(- 1\\dfrac{1}{5}\\right) $  The new expression has different grouping.  $\\begin{align} &\\phantom{=} 8\\dfrac{4}{5} + \\left(3\\dfrac{2}{10} +\\left(- 1\\dfrac{1}{5}\\right)\\right) &\\text{Starting sum}\\\\\\\\ &=8\\dfrac{4}{5} +3\\dfrac{2}{10} +\\left(- 1\\dfrac{1}{5}\\right) &\\text{Associative property of addition}\\\\\\\\ &=\\left(8\\dfrac{4}{5} + 3\\dfrac{2}{10}\\right) +\\left(- 1\\dfrac{1}{5}\\right) &\\text{Associative property of addition} \\end{align}$  Those properties do not change the value of the expression.  Yes, $\\left(8\\dfrac{4}{5} + 3\\dfrac{2}{10}\\right) +\\left(- 1\\dfrac{1}{5}\\right) $ is equivalent to $8\\dfrac{4}{5} + \\left(3\\dfrac{2}{10} - 1\\dfrac{1}{5}\\right)$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $-\\left(-8\\dfrac{4}{5}\\right)+3\\dfrac{2}{10}-\\left(-1\\dfrac{1}{5}\\right)$  The new expression has subtraction and different grouping.  $\\begin{align} &\\phantom{=} 8\\dfrac{4}{5} + \\left(3\\dfrac{2}{10} +\\left(- 1\\dfrac{1}{5}\\right)\\right) &\\text{Starting sum}\\\\\\\\ &=8\\dfrac{4}{5} +3\\dfrac{2}{10} +\\left(- 1\\dfrac{1}{5}\\right) &\\text{Associative property of addition}\\\\\\\\ &=-\\left(-8\\dfrac{4}{5}\\right) +3\\dfrac{2}{10} - 1\\dfrac{1}{5} &\\text{Subtraction is addition of the opposite.}\\\\\\\\ &\\neq -\\left(-8\\dfrac{4}{5}\\right)+3\\dfrac{2}{10}-\\left(-1\\dfrac{1}{5}\\right) \\end{align}$  We could not use properties of addition and subtraction to create the other expression, so they are not equivalent.  No, $-\\left(-8\\dfrac{4}{5}\\right)+3\\dfrac{2}{10}-\\left(-1\\dfrac{1}{5}\\right)$ is **not** equivalent to $8\\dfrac{4}{5} + \\left(3\\dfrac{2}{10} - 1\\dfrac{1}{5}\\right)$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $-\\left(-8\\dfrac{4}{5}\\right)-\\left(-3\\dfrac{2}{10}\\right)+\\left(-1\\dfrac{1}{5}\\right)$  The new expression has subtraction and different grouping.  $\\begin{align} &\\phantom{=} 8\\dfrac{4}{5} + \\left(3\\dfrac{2}{10} +\\left(- 1\\dfrac{1}{5}\\right)\\right) &\\text{Starting sum}\\\\\\\\ &=8\\dfrac{4}{5} +3\\dfrac{2}{10} +\\left(- 1\\dfrac{1}{5}\\right) &\\text{Associative property of addition}\\\\\\\\ &=-\\left(-8\\dfrac{4}{5}\\right)-\\left(-3\\dfrac{2}{10}\\right)+\\left(-1\\dfrac{1}{5}\\right) &\\text{Subtraction is addition of the opposite.} \\end{align}$  Those properties do not change the value of the expression.  Yes, $-\\left(-8\\dfrac{4}{5}\\right)-\\left(-3\\dfrac{2}{10}\\right)+\\left(-1\\dfrac{1}{5}\\right)$ is equivalent to $8\\dfrac{4}{5} + \\left(3\\dfrac{2}{10} - 1\\dfrac{1}{5}\\right)$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following expressions are equivalent to $8\\dfrac{4}{5} + \\left(3\\dfrac{2}{10} - 1\\dfrac{1}{5}\\right)$:  * $\\left(8\\dfrac{4}{5} + 3\\dfrac{2}{10}\\right) +\\left(- 1\\dfrac{1}{5}\\right)$ * $-\\left(-8\\dfrac{4}{5}\\right)-\\left(-3\\dfrac{2}{10}\\right)+\\left(-1\\dfrac{1}{5}\\right)$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. EE - Rational Numbers"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "**Which of the following expressions are equivalent to $\\left(9\\dfrac{7}{8} + 2\\dfrac{4}{5}\\right)-\\dfrac{1}{2}$?**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$9\\dfrac{7}{8}+\\left(2\\dfrac{4}{5} -\\dfrac{1}{2}\\right)$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$9\\dfrac{7}{8} + 2\\dfrac{4}{5}+\\left(-\\dfrac{1}{2}\\right)$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$9\\dfrac{7}{8}-\\left(-2\\dfrac{4}{5}\\right)-\\left(-\\dfrac{1}{2}\\right)$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\left(9\\dfrac{7}{8} + 2\\dfrac{4}{5}\\right)+0-\\left(-\\dfrac{1}{2}\\right)$",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Properties of addition  Addition has several properties that let us create equivalent expressions, but they do not work with subtraction.  - Commutative property - Associative property - Identity property - Additive inverse property  [[☃ explanation 1]]  Luckily, we have a property that relates subtraction to addition. Subtracting a number is the same as adding the number's opposite.  Let's rewrite $\\left(9\\dfrac{7}{8} + 2\\dfrac{4}{5}\\right)-\\dfrac{1}{2}$ as addition so we can apply the addition properties.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Rewriting as addition  We are subtracting $\\dfrac{1}{2}$. The opposite of $\\dfrac{1}{2}$ is $-\\dfrac{1}{2}$.  $\\left(9\\dfrac{7}{8} + 2\\dfrac{4}{5}\\right)-\\dfrac{1}{2} = \\left(9\\dfrac{7}{8} + 2\\dfrac{4}{5}\\right)+ \\left(-\\dfrac{1}{2}\\right)$",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $9\\dfrac{7}{8}+\\left(2\\dfrac{4}{5} -\\dfrac{1}{2}\\right)$  The new expression has different grouping.  $\\begin{align} &\\phantom{=}\\left(9\\dfrac{7}{8} + 2\\dfrac{4}{5}\\right)+ \\left(-\\dfrac{1}{2}\\right) &\\text{Starting sum}\\\\\\\\ &=9\\dfrac{7}{8} + 2\\dfrac{4}{5}+ \\left(-\\dfrac{1}{2}\\right) &\\text{Associative property of addition}\\\\\\\\ &=9\\dfrac{7}{8} + \\left(2\\dfrac{4}{5}+ \\left(-\\dfrac{1}{2}\\right)\\right) &\\text{Associative property of addition}\\\\\\\\ &=9\\dfrac{7}{8}+\\left(2\\dfrac{4}{5} -\\dfrac{1}{2}\\right) &\\text{Subtraction is addition of the opposite.} \\end{align}$  Those properties do not change the value of the expression.  Yes, $9\\dfrac{7}{8}+\\left(2\\dfrac{4}{5} -\\dfrac{1}{2}\\right)$ is equivalent to $\\left(9\\dfrac{7}{8} + 2\\dfrac{4}{5}\\right)-\\dfrac{1}{2}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $9\\dfrac{7}{8} + 2\\dfrac{4}{5}+\\left(-\\dfrac{1}{2}\\right)$  The new expression has different grouping.  $\\begin{align} &\\phantom{=}\\left(9\\dfrac{7}{8} + 2\\dfrac{4}{5}\\right)+ \\left(-\\dfrac{1}{2}\\right) &\\text{Starting sum}\\\\\\\\ &=9\\dfrac{7}{8} + 2\\dfrac{4}{5}+ \\left(-\\dfrac{1}{2}\\right) &\\text{Associative property of addition} \\end{align}$  Those properties do not change the value of the expression.  Yes, $9\\dfrac{7}{8} + 2\\dfrac{4}{5}+\\left(-\\dfrac{1}{2}\\right)$ is equivalent to $\\left(9\\dfrac{7}{8} + 2\\dfrac{4}{5}\\right)-\\dfrac{1}{2}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $9\\dfrac{7}{8}-\\left(-2\\dfrac{4}{5}\\right)-\\left(-\\dfrac{1}{2}\\right)$  The new expression has subtraction and different grouping.  $\\begin{align} &\\phantom{=}\\left(9\\dfrac{7}{8} + 2\\dfrac{4}{5}\\right)+ \\left(-\\dfrac{1}{2}\\right) &\\text{Starting sum}\\\\\\\\ &=9\\dfrac{7}{8} + 2\\dfrac{4}{5}+ \\left(-\\dfrac{1}{2}\\right) &\\text{Associative property of addition}\\\\\\\\ &=9\\dfrac{7}{8} - \\left(-2\\dfrac{4}{5}\\right)  -\\dfrac{1}{2} &\\text{Subtraction is addition of the opposite.}\\\\\\\\ &\\neq 9\\dfrac{7}{8}-\\left(-2\\dfrac{4}{5}\\right)-\\left(-\\dfrac{1}{2}\\right) \\end{align}$  We could not use properties of addition and subtraction to create the other expression, so they are not equivalent.  No, $9\\dfrac{7}{8}-\\left(-2\\dfrac{4}{5}\\right)-\\left(-\\dfrac{1}{2}\\right)$ is **not** equivalent to $\\left(9\\dfrac{7}{8} + 2\\dfrac{4}{5}\\right)-\\dfrac{1}{2}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###Comparing to $\\left(9\\dfrac{7}{8} + 2\\dfrac{4}{5}\\right)+0-\\left(-\\dfrac{1}{2}\\right)$  The new expression has subtraction and different grouping.  $\\begin{align} &\\phantom{=}\\left(9\\dfrac{7}{8} + 2\\dfrac{4}{5}\\right)+ \\left(-\\dfrac{1}{2}\\right) &\\text{Starting sum}\\\\\\\\ &=\\left(9\\dfrac{7}{8} + 2\\dfrac{4}{5}\\right)+ \\left(-\\dfrac{1}{2}\\right) +0 &\\text{Identity property of addition}\\\\\\\\ &=\\left(9\\dfrac{7}{8} + 2\\dfrac{4}{5}\\right)+0 + \\left(-\\dfrac{1}{2}\\right) &\\text{Commutative property of addition}\\\\\\\\ &=\\left(9\\dfrac{7}{8} + 2\\dfrac{4}{5}\\right)+0 -\\dfrac{1}{2} &\\text{Subtraction is addition of the opposite.}\\\\\\\\ &\\neq \\left(9\\dfrac{7}{8} + 2\\dfrac{4}{5}\\right)+0-\\left(-\\dfrac{1}{2}\\right) \\end{align}$  We could not use properties of addition and subtraction to create the other expression, so they are not equivalent.  No, $\\left(9\\dfrac{7}{8} + 2\\dfrac{4}{5}\\right)+0-\\left(-\\dfrac{1}{2}\\right)$ is **not** equivalent to $\\left(9\\dfrac{7}{8} + 2\\dfrac{4}{5}\\right)-\\dfrac{1}{2}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "The following expressions are equivalent to $\\left(9\\dfrac{7}{8} + 2\\dfrac{4}{5}\\right)-\\dfrac{1}{2}$:  * $9\\dfrac{7}{8}+\\left(2\\dfrac{4}{5} -\\dfrac{1}{2}\\right)$ * $9\\dfrac{7}{8} + 2\\dfrac{4}{5}+\\left(-\\dfrac{1}{2}\\right)$",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "2. EE - Rational Numbers"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Keisha tried to evaluate an expression step by step.  $\\begin{align} &3 -4- 7\\\\\\\\ =&3-(4-7)&\\maroonE{\\text{Step } 1}\\\\\\\\ =&3-(-3)&\\blueE{\\text{Step } 2}\\\\\\\\ =&6&\\purpleD{\\text{Step } 3} \\end{align}$  **Find Keisha's first mistake.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Changing the groups changes the difference's value.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$4$ minus $7$ equals $3$, not $-3$",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$3$ minus $-3$ equals $0$, not $6$.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Properties of addition  Keisha has a lot of helpful mathematical reasoning. She tried to use properties of addition, because those do not change the value of the expression.  [[☃ explanation 1]]  Keisha also tried to use a property that relates subtraction to addition. Subtracting a number is the same as adding the number's opposite.  Let's see where Keisha changed the value of the expression.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###$\\maroonE{\\text{Step }1}$  Kiesha tried to use the associative property of addition. Here's what it looks like with more steps showing instead of as mental math.  $\\begin{align} &3 -4- 7\\\\\\\\ =&3+ (-4)+(- 7)&\\text{Rewrite as sum.}\\\\\\\\ =&3+ (-4+(- 7))&\\text{Associate.}\\\\\\\\ =&3+(-4-7)&\\text{Rewrite as difference.} \\end{align}$  Keisha changed the difference from $-4-7$ to $4-7$, which has a different value.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Keisha's mistake is that changing the groups changes the difference.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3. Find the error"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Amar tried to evaluate an expression step by step.  $\\begin{align} &-2 + 5 - (-3)\\\\\\\\ =&-2+5-3&\\maroonE{\\text{Step } 1}\\\\\\\\ =&-2+2&\\blueE{\\text{Step } 2}\\\\\\\\ =&\\:\\:\\:0&\\purpleD{\\text{Step } 3} \\end{align}$  **Find Amar's first mistake.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Amar was supposed to add $3$, not subtract $3$.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$5$ minus $3$ equals $-2$, not $2$.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-2$ plus $2$ equals $-4$, not $0$.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Properties of addition  Amar has a lot of helpful mathematical reasoning. He tried to use properties of addition, because those do not change the value of the expression.  [[☃ explanation 1]]  Amar also tried to use a property that relates subtraction to addition. Subtracting a number is the same as adding the number's opposite.  Let's see where Amar changed the value of the expression.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###$\\maroonE{\\text{Step }1}$  Amar tried to use the property that subtracting a number is the same as adding its opposite.  The opposite of $-3$ is $3$.  However, Amar subtracted the opposite instead of adding it.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Amar's mistake was that he was supposed to add $3$, not subtract $3$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3. Find the error"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Raul tried to evaluate an expression step by step.  $\\begin{align} &3 -(-5) - 7\\\\\\\\ =&3+5-7&\\maroonE{\\text{Step } 1}\\\\\\\\ =&3+2&\\blueE{\\text{Step } 2}\\\\\\\\ =&5&\\purpleD{\\text{Step } 3} \\end{align}$  **Find Raul's first mistake.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "The opposite of $-5$ is $-5$, not $5$.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$5$ minus $7$ equals $-2$, not $2$.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$3$ plus $2$ equals $6$, not $5$.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Properties of addition  Raul has a lot of helpful mathematical reasoning. He tried to use properties of addition, because those do not change the value of the expression.  [[☃ explanation 1]]  Raul also tried to use a property that relates subtraction to addition. Subtracting a number is the same as adding the number's opposite.  Let's see where Raul changed the value of the expression.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###$\\maroonE{\\text{Step }1}$  Raul tried to use the property that subtracting a number is the same as adding its opposite.  The opposite of $-5$ is $5$.   Raul correctly rewrote the subtraction of $-5$ as the addition of $5$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###$\\blueE{\\text{Step }2}$  Raul tried to use the associative property to group $5$ and $-7$. Here's what it looks like with more steps showing instead of as mental math.  $\\begin{align} &3+5-7\\\\\\\\ =&3+5+(-7)&\\text{Rewrite as sum.}\\\\\\\\ =&3+(5+(-7))&\\text{Associate.}\\\\\\\\ =&3+(-2) \\end{align}$  Raul said that $5+(-7)$ is $2$, but it is $-2$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Raul's mistake is that $5$ minus $7$ equals $-2$, not $2$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3. Find the error"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Becky tried to evaluate an expression step by step.  $\\begin{align} &\\dfrac{4}{5} +7 -\\dfrac{5}{4}\\\\\\\\ =&\\dfrac{4}{5} -\\dfrac{5}{4}+7&\\maroonE{\\text{Step } 1} \\\\\\\\ =&0+7&\\blueE{\\text{Step } 2}\\\\\\\\ =&7&\\purpleD{\\text{Step } 3} \\end{align}$  **Find Becky's first mistake.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Commuting a negative term changes the value.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$\\dfrac{4}{5}$ minus $\\dfrac{5}{4}$ equals $-\\dfrac{9}{20}$, not $0$",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$0$ plus $7$ equals $0$, not $7$.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Properties of addition  Becky has a lot of helpful mathematical reasoning. She tried to use properties of addition, because those do not change the value of the expression.  [[☃ explanation 1]]  Becky also tried to use a property that relates subtraction to addition. Subtracting a number is the same as adding the number's opposite.  Let's see where Becky changed the value of the expression.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###$\\maroonE{\\text{Step }1}$  Becky tried to use the commutative property of addition to commute the $-\\dfrac{5}{4}$ term. Here's what it looks like with more steps showing instead of as mental math.  $\\begin{align} &\\dfrac{4}{5} +7 -\\dfrac{5}{4}\\\\\\\\ =&\\dfrac{4}{5} +7 +\\left(-\\dfrac{5}{4}\\right)&\\text{Rewrite as sum.}\\\\\\\\ =&\\dfrac{4}{5} +\\left(-\\dfrac{5}{4}\\right)+7 &\\text{Commute.}\\\\\\\\ =&\\dfrac{4}{5} -\\dfrac{5}{4}+7&\\text{Rewrite as difference.} \\end{align}$  Becky correctly commuted the $-\\dfrac{5}{4}$ term.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###$\\blueE{\\text{Step }2}$  Becky tried to add and subtract from left to right. The fractions have different denominators.  $\\begin{align} &\\dfrac{4}{5}-\\dfrac{5}{4}+7\\\\\\\\ =&\\dfrac{16}{20}-\\dfrac{25}{20}+7\\\\\\\\ =&-\\dfrac{9}{20}+7 \\end{align}$  Becky said that $\\dfrac{4}{5}-\\dfrac{5}{4}$ is $0$, but it is $-\\dfrac{9}{20}$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Becky's mistake is that $\\dfrac{4}{5}$ minus $\\dfrac{5}{4}$ equals $-\\dfrac{9}{20}$, not $0$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3. Find the error"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Fred tried to evaluate an expression step by step.  $\\begin{align} &(-10+6)-5\\\\\\\\ =&-4-5&\\maroonE{\\text{Step } 1} \\\\\\\\ =&-4+(-5)&\\blueE{\\text{Step } 2}\\\\\\\\ =&9&\\purpleD{\\text{Step } 3} \\end{align}$  **Find Fred's first mistake.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "$-10$ plus $6$ equals $-16$, not $-4$.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Fred was supposed to add $5$, not $-5$.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-4$ plus $-5$ equals $-9$, not $9$.",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Properties of addition  Fred has a lot of helpful mathematical reasoning. He tried to use properties of addition, because those do not change the value of the expression.  [[☃ explanation 1]]  Fred also tried to use a property that relates subtraction to addition. Subtracting a number is the same as adding the number's opposite.  Let's see where Fred changed the value of the expression.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###$\\maroonE{\\text{Step }1}$  Fred tried to find the value inside the parentheses first.  Fred correctly added $-10+6$ and got $-4$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###$\\blueE{\\text{Step }2}$  Fred tried to use the property that subtracting a number is the same as adding its opposite.  The opposite of $5$ is $-5$.   Fred correctly rewrote the subtraction of $5$ as the addition of $-5$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###$\\purpleD{\\text{Step }3}$  Fred tried to add the last two terms.  Fred said that $-4+(-5)$ is $9$, but it is $-9$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Fred's mistake is that $-4$ plus $-5$ equals $-9$, not $9$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3. Find the error"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Amber tried to evaluate an expression step by step.  $\\begin{align} &-3-(-5)+4\\\\\\\\ =&-3+5+4&\\maroonE{\\text{Step } 1} \\\\\\\\ =&-3+9&\\blueE{\\text{Step } 2}\\\\\\\\ =&-12&\\purpleD{\\text{Step } 3} \\end{align}$  **Find Amber's first mistake.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "The opposite of $-5$ is $-5$, not $5$.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "Adding from right to left changes the sum's value.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$-3$ plus $9$ equals $6$, not $-12$.",
+                                        "correct": true,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Properties of addition  Amber has a lot of helpful mathematical reasoning. She tried to use properties of addition, because those do not change the value of the expression.  [[☃ explanation 1]]  Amber also tried to use a property that relates subtraction to addition. Subtracting a number is the same as adding the number's opposite.  Let's see where Amber changed the value of the expression.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###$\\maroonE{\\text{Step }1}$  Amber tried to use the property that subtracting a number is the same as adding its opposite.  The opposite of $-5$ is $5$.   Amber correctly rewrote the subtraction of $-5$ as the addition of $5$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###$\\blueE{\\text{Step }2}$  Amber tried to use the associative property to group $5$ and $4$. Here's what it looks like with more steps showing instead of as mental math.  $\\begin{align} &-3+5+4\\\\\\\\ =&-3+(5+4)&\\text{Associate.}\\\\\\\\ =&-3+9 \\end{align}$  Amber correctly grouped $5$ and $4$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###$\\purpleD{\\text{Step }3}$  Amber tried to add the last two terms.  Amber said that $-3+9$ is $-12$, but it is $6$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Amber's mistake is that $-3$ plus $9$ equals $6$, not $-12$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3. Find the error"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "assessmentItem": {
+                    "__typename": "AssessmentItemOrError",
+                    "error": null,
+                    "item": {
+                        "itemData": {
+                            "question": {
+                                "content": "Isabel tried to evaluate an expression step by step.  $\\begin{align} &(2+8)+8\\\\\\\\ =&2+(8+8)&\\maroonE{\\text{Step } 1} \\\\\\\\ =&2+0&\\blueE{\\text{Step } 2}\\\\\\\\ =&2&\\purpleD{\\text{Step } 3} \\end{align}$  **Find Isabel's first mistake.**",
+                                "images": [],
+                                "options": [
+                                    {
+                                        "content": "Changing the groups changes the sum's value.",
+                                        "correct": false,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$8$ plus $8$ equals $16$, not $0$.",
+                                        "correct": true,
+                                        "images": []
+                                    },
+                                    {
+                                        "content": "$2$ plus $0$ equals $0$, not $2$.",
+                                        "correct": false,
+                                        "images": []
+                                    }
+                                ]
+                            },
+                            "hints": [
+                                {
+                                    "content": "###Properties of addition  Isabel has a lot of helpful mathematical reasoning. She tried to use properties of addition, because those do not change the value of the expression.  [[☃ explanation 1]]  Let's see where Isabel changed the value of the expression.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###$\\maroonE{\\text{Step }1}$  Isabel tried to use the associative property of addition.  Her expression was a sum, so she could change the groups.  Isabel correctly grouped $8$ and $8$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "###$\\blueE{\\text{Step }2}$  Isabel tried to use the additive inverse property.  A number plus its opposite equals $0$, but $8$ is not the opposite of $8$.  Isabel said that $8+8$ is $0$, but it is $16$.",
+                                    "images": []
+                                },
+                                {
+                                    "content": "Isabel's mistake is that $8$ plus $8$ equals $16$, not $0$.",
+                                    "images": []
+                                }
+                            ]
+                        },
+                        "problemType": "3. Find the error"
+                    }
+                }
+            }
+        }
+    ]
+}
