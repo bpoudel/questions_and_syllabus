@@ -1,0 +1,21 @@
+# Ignore build output directories
+dist/
+build/
+target/
+
+# Ignore compiled code
+*.o
+*.pyc
+*.class
+
+# Ignore files generated at runtime
+*.log
+*.lock
+*.tmp
+
+# Ignore hidden system files
+.DS_Store
+Thumbs.db
+
+# Ignore personal IDE config files
+.idea/workspace.xml
